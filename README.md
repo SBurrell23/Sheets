@@ -38,7 +38,7 @@ v6/                     8 songs, 32-bar AABA, jaunty animated-musical style
   version.json            {"bars": 32, "maxLeapRatio": 0.45, "minEighthBarsRatio": 0.25, ...}
   songs/*.json
 songs/                  generated output
-  v1/ ... v5/             *.abc | *.musicxml | *.pdf
+  v1/ ... v6/             *.abc | *.musicxml | *.pdf
 src/
   songlib.py              note-language parser, validator, ABC + MusicXML renderers
   validate.py             checks one song file
