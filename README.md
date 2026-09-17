@@ -18,8 +18,8 @@ Published at <https://sburrell23.github.io/Sheets/>.
 | **AI Music** | Original songs written by AI agents to a spec. Six sets (v1–v6), each written to a different spec — **View spec** shows the one a given song was written to. |
 
 Adding another collection means adding one folder with a `collection.json`, a `version.json`,
-a `SPEC.md` and `songs/`; the player picks it up automatically and orders collections by the
-`order` field.
+a `SPEC.md` and `songs/` (or set folders); the player picks it up automatically and orders
+collections by the `order` field.
 
 ## Layout
 
@@ -80,10 +80,10 @@ double-clicking. PDFs are ordinary links, so they still live under `songs/`.
   A fresh synth always starts at the tune's own `Q:` header — the `qpm` passed to `setTune`
   does not stick — so every re-prime warps the tempo back in. Without that the slider reads
   225 while the song plays at its written speed.
-- **Theme** — Auto / Day / Dark, top right.
+- **Theme** — Day / Dark, top right. Day is the default; the OS preference is not consulted.
 - **Play / pause** (spacebar). Chord accompaniment and follow-the-score are always on.
 - **Scrub** — click or drag the strip. Arrow keys step a bar, Shift+arrow four, Home/End jump.
-- **Score layout** — `MAX_BAR_PX` in the player caps how wide a single bar is drawn (145px).
+- **Score layout** — `MAX_BAR_PX` in the player caps how wide a single bar is drawn (200px).
   abcjs fits four bars to a line and justifies every system to the full width, including the
   short last one, which is where 250px bars came from; the player injects `%%stretchlast 0`
   and tries a range of measures-per-line settings, keeping the airiest layout that fits. Which
@@ -105,8 +105,8 @@ Durations are counted in **sixteenth notes**. A full bar is 16 units in 4/4, 12 
 and 8 in 2/4. `C5:4` is a quarter note (`C4` is middle C), `F#5:2` an eighth, `Bb4:8` a half,
 `R:4` a quarter rest, `[Am]E5:4` changes chord mid-bar.
 
-There is **no tie syntax** — a note cannot cross a barline, which is what keeps every bar
-starting on a struck downbeat.
+There is **no tie syntax** — a note cannot cross a barline. Where a tune sustains across one,
+write the note as long as the bar allows and start the next bar afresh.
 
 A song may set `"meter"` (`4/4`, `3/4`, `2/4`, `6/8`) and `"pickup"` (the length of an upbeat,
 in units, which bar 1 must then match exactly). Beaming follows the meter's beat, so 6/8 beams
