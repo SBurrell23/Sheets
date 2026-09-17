@@ -1,0 +1,15 @@
+X:1
+T:Rolling Sixpence
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=150
+K:Dm clef=treble
+"Dm7"d3e1 f4 a4 g3f1 | "Gm7"g3a1 b4 g4 a3g1 | "Dm7"f3g1 a4 f4 g3a1 | "Bbmaj7"b8 a8 |
+"Gm7"g8 b3a1 g3f1 | "C"g6 f2 e3d1 e4 | "Dm6"d3e1 f8 g3a1 | "A7"g8 e8 |
+"Dm7"d3f1 g4 a4 g3f1 | "Gm7"g3b1 a4 g4 a3b1 | "Dm7"a3g1 f4 d4 f3a1 | "Bbmaj7"b3a1 g4 f8 |
+"Gm7"g8 b3a1 g4 | "C"e6 f2 g3a1 g4 | "A7"a6 g2 e3d1 ^c4 | "Dm"d3e1 f4 d8 |
+"Gm7"f6 g2 b3g1 a4 | "C"g6 a2 g3f1 e4 | "F"f6 g2 a3b1 a4 | "Bbmaj7"b4 a4 f8 |
+"Gm7"g8 a3b1 g4 | "F"a4 c'8 a4 | "Gm7"b6 a2 g3f1 d4 | "A7"e4 d4 ^c8 |
+"Dm7"d3e1 f4 a4 g3f1 | "Gm7"g3a1 b4 g4 a3g1 | "Dm7"f3e1 d4 f4 g3a1 | "Bbmaj7"b8 a4 g4 |
+"Gm7"g8 b3a1 g3f1 | "C"e6 f2 g3f1 e4 | "A7"g3f1 e3d1 e4 ^c4 | "Dm"Hd16 |]

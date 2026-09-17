@@ -1,0 +1,26 @@
+{
+  "title": "Camptown Races",
+  "source": "Stephen Foster, 1850 — public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 132,
+  "bars": [
+    { "chord": "C",  "notes": "G5:4 G5:4 E5:4 G5:4" },
+    { "chord": "C",  "notes": "A5:4 G5:4 E5:8" },
+    { "chord": "C",  "notes": "E5:4 [G7]D5:8 R:4" },
+    { "chord": "C",  "notes": "E5:4 [G7]D5:8 G5:4" },
+    { "chord": "C",  "notes": "G5:4 G5:4 E5:4 G5:4" },
+    { "chord": "C",  "notes": "A5:4 G5:4 E5:8" },
+    { "chord": "G7", "notes": "D5:8 E5:4 D5:4" },
+    { "chord": "C",  "notes": "C5:16" },
+
+    { "chord": "C",  "notes": "C5:6 C5:2 E5:4 G5:4" },
+    { "chord": "C",  "notes": "C6:16" },
+    { "chord": "F",  "notes": "A5:6 A5:2 C6:4 A5:4" },
+    { "chord": "C",  "notes": "G5:12 E5:4" },
+    { "chord": "C",  "notes": "G5:4 G5:4 E5:2 E5:2 G5:2 G5:2" },
+    { "chord": "C",  "notes": "A5:4 G5:4 E5:8" },
+    { "chord": "G7", "notes": "D5:4 E5:2 F5:2 E5:4 D5:2 D5:2" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

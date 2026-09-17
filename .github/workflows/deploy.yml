@@ -24,12 +24,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run the song validator over all sets
+      - name: Run the song validator over every collection
         run: |
           fail=0
-          for f in v*/songs/*.json; do
+          found=0
+          # single-set collections (collections/<id>/songs) and multi-set ones
+          # (collections/<id>/<set>/songs) are both covered by these two globs.
+          for f in collections/*/songs/*.json collections/*/*/songs/*.json; do
+            [ -e "$f" ] || continue
+            found=$((found+1))
             if ! python src/validate.py "$f"; then fail=1; fi
           done
+          echo "validated $found song(s)"
+          if [ "$found" -eq 0 ]; then echo "no songs found - check the paths"; exit 1; fi
           exit $fail
 
   deploy:

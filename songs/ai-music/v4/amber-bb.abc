@@ -1,0 +1,15 @@
+X:1
+T:Amber Tide
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=138
+K:Bb clef=treble
+"Bb"B1c1d2 e2f2 d2e2 c2d2 | "Cm7"c1d1e2 f2g2 e2f2 d2e2 | "Dm"d1e1f2 g2a2 f2g2 a2b2 | "Gm7"a4 f8 d4 |
+"Ebmaj7"B1c1d2 e2f2 g2f2 e2d2 | "F7"c2d2 f6 e2 d2c2 | "Gm7"d1e1f2 g2a2 b2a2 g2f2 | "F"g4 f8 c4 |
+"Bb"B1c1d2 f2e2 d2c2 e2d2 | "Cm7"c1d1e2 g2f2 e2d2 f2e2 | "Dm"d2e2 f2g2 a8 | "Gm7"g2f2 e4 d8 |
+"Ebmaj7"B1c1d2 f2g2 b2g2 f2e2 | "Cm7"c2d2 e6 f2 e2d2 | "F7"c1d1e2 f2e2 c2d2 e2f2 | "Bb"d2c2 d4 B8 |
+"Ebmaj7"d2e2 g6 f2 e2d2 | "Bb"f2g2 b6 a2 g2f2 | "Cm7"g2a2 b2a2 c'8 | "F"a8 g4 f4 |
+"Ebmaj7"g2f2 d6 e2 f2g2 | "Gm"b2a2 g6 f2 e2d2 | "Cm7"c2d2 e2f2 g8 | "F7"f8 e4 c4 |
+"Bb"B1c1d2 e2f2 d2e2 c2d2 | "Cm7"c1d1e2 f2g2 e2f2 d2e2 | "Dm"d1e1f2 g2a2 f2g2 b2a2 | "Gm7"b8 f8 |
+"Ebmaj7"d1e1f2 g2b2 g2f2 e2d2 | "Cm7"c2d2 e6 f2 g2e2 | "F7"c1d1e2 f2g2 e2f2 g2a2 | "Bb"Hb16 |]

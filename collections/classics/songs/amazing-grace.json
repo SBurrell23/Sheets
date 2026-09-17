@@ -1,0 +1,30 @@
+{
+  "title": "Amazing Grace",
+  "source": "Traditional — tune \"New Britain\", 1835; words John Newton — public domain",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 80,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4" },
+
+    { "chord": "C",  "notes": "C5:8 E5:2 C5:2" },
+    { "chord": "C",  "notes": "E5:8 D5:4" },
+    { "chord": "F",  "notes": "C5:8 A4:4" },
+    { "chord": "C",  "notes": "G4:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:8 E5:2 C5:2" },
+    { "chord": "Am", "notes": "E5:8 D5:2 E5:2" },
+    { "chord": "C",  "notes": "G5:12" },
+    { "chord": "C",  "notes": "G5:8 E5:2 G5:2" },
+
+    { "chord": "C",  "notes": "G5:8 E5:2 C5:2" },
+    { "chord": "Am", "notes": "E5:8 E5:2 D5:2" },
+    { "chord": "F",  "notes": "C5:8 A4:4" },
+    { "chord": "C",  "notes": "G4:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:8 E5:2 C5:2" },
+    { "chord": "C",  "notes": "E5:8 [G7]D5:4" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

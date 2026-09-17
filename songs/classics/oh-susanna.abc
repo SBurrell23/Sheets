@@ -1,0 +1,12 @@
+X:1
+T:Oh! Susanna
+C:Stephen Foster, 1848 — public domain
+M:4/4
+L:1/16
+Q:1/4=116
+K:C clef=treble
+"C"c2d2 | "C"e4 g4 g3a1 g4 | "C"e4 c4 d4 e4 | "G7"d4 c4 d8 |
+"G7"d8 z4 c2d2 | "C"e4 g4 g3a1 g4 | "C"e4 c4 d4 e4 | "G7"d4 "C"c12 |
+"C"c16 | "F"f4 f4 a4 a4 | "C"e4 c4 d4 e4 | "G7"d4 c4 d8 |
+"G7"d8 z4 c2d2 | "C"e4 g4 g3a1 g4 | "C"e4 c4 d4 e4 | "G7"d4 c4 d8 |
+"C"Hc16 |]

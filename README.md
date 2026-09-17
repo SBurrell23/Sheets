@@ -1,167 +1,149 @@
 # Piano Lead Sheets
 
-Sets of beginner–intermediate piano lead sheets, with a browser player that renders and plays
-each one and hands you a PDF of the score.
+Collections of beginner–intermediate piano lead sheets, with a browser player that renders and
+plays each one, transposes it to any key, and hands you a PDF of the score.
 
 **Open `index.html`** by double-clicking it. No server needed.
+Published at <https://sburrell23.github.io/Sheets/>.
 
 ---
+
+## Collections
+
+| collection | what it is |
+|---|---|
+| **Classics** | Traditional and early-popular melodies that are in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
+| **AI Music** | Original songs written by AI agents to a spec. Six sets (v1–v6), each written to a different spec — **View spec** shows the one a given song was written to. |
+
+Adding another collection (Classical arrangements, say) means adding one folder; the player
+picks it up automatically.
 
 ## Layout
 
 ```
-index.html              the player  <- generated, do not edit by hand
-favicon.svg             site icon, referenced by the player template
-README.md
-v1/                     a song set: 6 songs, 40 bars, one landing figure per song
-  SPEC.md                 the spec these songs were written to
-  version.json            {"bars": 40, "label": "..."}
-  songs/*.json            the song sources
-v2/                     6 songs, 32-bar AABA, a different landing figure per song
-  SPEC.md
-  version.json            {"bars": 32, ...}
-  songs/*.json
-v3/                     8 songs, 32-bar AABA, cadence rotates every 8 bars, double tempo
-  SPEC.md
-  version.json            {"bars": 32, "rotateLandings": true, ...}
-  songs/*.json
-v4/                     8 songs, 32-bar AABA, running eighths between held landings
-  SPEC.md
-  version.json            {"bars": 32, "minEighths": 88, "minRunBars": 14, ...}
-  songs/*.json
-v5/                     8 songs, 32-bar AABA, shuffle feel, leaner eighth texture
-  SPEC.md
-  version.json            {"bars": 32, "swing": true, "minEighths": 60, "maxEighths": 86, ...}
-  songs/*.json
-v6/                     8 songs, 32-bar AABA, jaunty animated-musical style
-  SPEC.md
-  version.json            {"bars": 32, "maxLeapRatio": 0.45, "minEighthBarsRatio": 0.25, ...}
-  songs/*.json
-songs/                  generated output
-  v1/ ... v6/             *.abc | *.musicxml | *.pdf
+index.html                     the player  <- generated, do not edit by hand
+favicon.svg
+collections/
+  classics/
+    collection.json            {"title": "Classics", "order": 1, "blurb": "..."}
+    version.json               validation settings for the set
+    SPEC.md                    the arranging brief agents worked to
+    songs/*.json               one file per song
+  ai-music/
+    collection.json
+    v1/ ... v6/                each: version.json, SPEC.md, songs/*.json
+songs/                         generated output
+  classics/*.abc|.musicxml|.pdf
+  ai-music/v1/ ... v6/
 src/
-  songlib.py              note-language parser, validator, ABC + MusicXML renderers
-  validate.py             checks one song file
-  build.py                validates everything, engraves PDFs, rebuilds index.html
-  player.template.html    the player source  <- edit this, not index.html
-  example-song.json       a passing song, used as a FORMAT reference only
+  songlib.py                   note-language parser, validator, ABC + MusicXML renderers
+  validate.py                  checks one song file
+  build.py                     validates everything, engraves PDFs, rebuilds index.html
+  player.template.html         the player source  <- edit this, not index.html
+  example-song.json            a passing song, used as a FORMAT reference only
 ```
+
+A collection holds **either** `songs/` directly (a single-set collection, like Classics) **or**
+one or more named set folders each with their own `songs/` (like AI Music). `build.py` handles
+both shapes.
 
 `index.html` embeds every song's notation *and every spec* inline rather than fetching them,
 because `fetch()` is blocked on `file://` URLs. That is what lets the page work by
 double-clicking. PDFs are ordinary links, so they still live under `songs/`.
 
-## Starting a new set
-
-1. `mkdir v3/songs`
-2. Write `v3/version.json` — `{"bars": 32, "label": "what is different about this set"}`
-3. Write `v3/SPEC.md` — copy the closest existing spec and change what you want to vary.
-4. Dispatch one subagent per song (see below), then `python src/build.py`.
-
-The player's version dropdown picks up any `v<number>/` folder automatically, newest first,
-and **View spec** shows that set's own `SPEC.md`.
-
-## Dispatching song agents
-
-Give each agent a unique slug and run them in parallel:
-
-> Working directory: `C:\Claude Code\Beautiful Piano`
-> Read `v3/SPEC.md` in full. Read `src/example-song.json` ONLY to learn the JSON format —
-> do not copy its structure or figures.
-> Write your song to `v3/songs/<slug>.json`.
-> Validate with `python src/validate.py v3/songs/<slug>.json` and fix every ERROR and
-> WARNING until it prints `PASS`. Touch only your own file.
-> **SONG CARD:** key X, tempo N, character "…", head figure H_, syncopation figure S_,
-> and a landing rotation of four figures, one per 8-bar section.
-
-**The song card is what keeps a set from sounding samey**, and it has been tightened twice:
-
-- **v1** gave every agent the same instructions. All six songs came back with the identical
-  `4 4 8` phrase ending — the set sounded like one song.
-- **v2** assigned each song its *own* landing figure. The set varied, but each song still used
-  that one figure for all seven phrase endings, so every song was internally monotonous.
-- **v3** rotates the cadence: four figures per song, one per 8-bar section, with the two phrase
-  endings inside a section sharing a figure. The ear gets a pattern it can learn, then a fresh
-  one. Set `"rotateLandings": true` in `version.json` to enforce it.
-
-`build.py` reports each set's landing figures — the rotation per song when rotation is on,
-otherwise the single figure — and warns when more than two songs share one.
-
-## Texture controls
-
-A `version.json` can set `minEighths` / `maxEighths` / `minHalves` / `minRunBars`, and the
-validator reports the song's actual counts against them. The ceiling exists because v4's agents
-cleared a floor of 88 eighths by writing 149 — a floor alone does not shape a texture.
-
-Two more knobs exist because a *style* can contradict a default that was only ever right for
-one texture:
-
-- **`maxLeapRatio`** (default `0.30`) — the share of intervals allowed to exceed a major third.
-  v6 raises it to `0.45`, because its style is built on arpeggio openings and rising sixths;
-  under the default the spec would have been fighting the validator.
-- **`minEighthBarsRatio`** (default `0.40`) — the share of bars that must contain an eighth
-  note. v6 lowers it to `0.25`: a style built on dotted `3 1` snaps carries far fewer plain
-  eighths, and four of v6's eight head figures contain none at all.
-
-## Swing sets
-
-A version can set `"swing": true`. Songs are then authored with **straight** eighths, and the
-build rewrites every eighth pair that *begins on a beat* into a dotted-eighth plus a sixteenth —
-in the ABC and the MusicXML alike, so the printed score, the on-screen score and the audio all
-agree. The score also carries the words *Shuffle — swing the eighths*.
-
-This is done literally rather than as a marking because abcjs has no swing playback option: a
-"swing the eighths" instruction over straight notation would look right and play straight.
-
-Two consequences, both enforced by the validator:
-
-- A lone **off-beat** eighth is left alone, so it will not swing. The validator warns when fewer
-  than 70% of a song's eighths sit in on-beat pairs.
-- A swing set is **not** required to contain author-written sixteenths — the rewrite supplies
-  them. Do not set `minRunBars` on a swing set either: runs of 4+ consecutive short notes are
-  the wrong metric for a texture built from pairs, and several of v5's head figures cannot
-  produce one at all.
-
-## Deployment
-
-The site is published to GitHub Pages by `.github/workflows/deploy.yml` on every push to
-`main`. The workflow first runs `src/validate.py` over every song in every set and refuses to
-deploy if any of them fails, then uploads the repo as a static site.
-
-**The site is pre-built and committed** — `index.html` and the engraved PDFs are in the repo,
-because engraving needs MuseScore and that is not available on the CI runner. So always run
-`python src/build.py` locally and commit the result before pushing; CI only validates and
-deploys, it never rebuilds.
-
-## Rebuilding
-
-```bash
-python src/build.py
-```
-
-Validates every song in every version folder, skips any that fail (naming them), engraves PDFs
-through MuseScore, and regenerates `index.html`. Reload the page.
-
-To delete a song, remove its `<version>/songs/*.json` and rebuild.
-
 ## The player
 
-- **Set** — dropdown, top right, switches between v1 / v2 / …
-- **View spec** — shows the spec that set's songs were written to.
-- **Play / pause** — also the spacebar.
-- **Tempo** — 40 to 250 BPM. Takes effect when you release the slider; the score cursor and
-  bar counter stay locked to the audio at every speed.
-- **Scrub** — click or drag the strip under the controls. Arrow keys step a bar,
-  Shift+arrow four bars, Home/End jump to the ends.
-- **Chords on/off**, **Follow** (auto-scroll), **PDF** (downloads the selected score).
+- **Browse** — a modal listing the collections. Pick one and the page loads its songs.
+- **Song dropdown** — every song in the collection, grouped by set where a collection has more
+  than one. The **‹ ›** buttons page through them (arrow keys work too), which is the easy way
+  to audition a set on a tablet.
+- **Key** — transposes the selected song to any of the twelve keys, re-engraving the score
+  *and* re-priming the audio. Songs open in their written key.
+- **Play / pause** (spacebar), **Restart**, **Tempo** 40–250 BPM, **Chords on/off**,
+  **Follow** (auto-scroll).
+- **Scrub** — click or drag the strip. Arrow keys step a bar, Shift+arrow four, Home/End jump.
+- A **purple vertical line** marks the note being played. It is an SVG `<line>` appended to
+  abcjs's own `<svg>`, so it shares the score's coordinate system — a DOM overlay would drift
+  as soon as the responsive SVG rescaled.
+- **PDF** downloads the engraved score **in the written key**. Transposing does not change that
+  file, so use **Print** (your browser's Save-as-PDF) to get the transposed version.
 
 Playback is a sampled piano with generated block-chord comping: good enough to judge whether a
 tune works, not a performance.
 
 ## The note language
 
-Durations are counted in sixteenth notes, so every 4/4 bar sums to exactly 16.
-`C5:4` is a quarter note (`C4` is middle C), `F#5:2` an eighth, `R:4` a quarter rest,
-`[Am]E5:4` changes chord mid-bar. There is no tie syntax — a note cannot cross a barline,
-which is what keeps every bar starting on a struck downbeat. Each set's `SPEC.md` has the
-full contract.
+Durations are counted in **sixteenth notes**. A full bar is 16 units in 4/4, 12 in 3/4 and 6/8,
+and 8 in 2/4. `C5:4` is a quarter note (`C4` is middle C), `F#5:2` an eighth, `Bb4:8` a half,
+`R:4` a quarter rest, `[Am]E5:4` changes chord mid-bar.
+
+There is **no tie syntax** — a note cannot cross a barline, which is what keeps every bar
+starting on a struck downbeat.
+
+A song may set `"meter"` (`4/4`, `3/4`, `2/4`, `6/8`) and `"pickup"` (the length of an upbeat,
+in units, which bar 1 must then match exactly). Beaming follows the meter's beat, so 6/8 beams
+in threes.
+
+## Per-set validation settings
+
+`version.json` tunes what the validator enforces, because a rule that is right for one style is
+often wrong for another. Almost every one of these exists because a spec ended up contradicting
+a default that had only ever been right for the previous set:
+
+| key | default | notes |
+|---|---|---|
+| `bars` | 40 | exact bar count; `null` for any length (Classics) |
+| `rotateLandings` | false | one landing figure per 8-bar section, each section different |
+| `minEighths` / `maxEighths` | — | total eighth-note count. The ceiling exists because v4's agents cleared a floor of 88 by writing 149 |
+| `minHalves` / `minRunBars` | — | half-note count; bars containing a run of 4+ short notes |
+| `minEighthBarsRatio` | 0.40 | share of bars containing an eighth. v6 uses 0.25: four of its head figures are built on dotted `3 1` snaps and contain none at all |
+| `maxLeapRatio` | 0.30 | share of intervals wider than a major third. v6 uses 0.45 for its arpeggio-and-sixths style |
+| `minSixteenthBars` | auto | set to `0` where sixteenths are not wanted (Classics) |
+| `requireFinalWhole` | true | `false` lets a tune end on any tonic note of at least a half |
+| `swing` | false | see below |
+
+## Swing sets
+
+A version can set `"swing": true`. Songs are then authored with **straight** eighths, and the
+build rewrites every eighth pair that *begins on a beat* into a dotted-eighth plus a sixteenth —
+in the ABC and the MusicXML alike, so printed score, on-screen score and audio all agree. The
+score also carries the words *Shuffle — swing the eighths*.
+
+This is done literally rather than as a marking because abcjs has no swing playback option: a
+"swing the eighths" instruction over straight notation would look right and play straight. A
+lone **off-beat** eighth is left alone and will not swing, so the validator warns when fewer
+than 70% of a song's eighths sit in on-beat pairs.
+
+## Adding songs
+
+1. Create `collections/<id>/` with a `collection.json`, a `version.json`, a `SPEC.md`, and
+   `songs/` (or set folders each containing those).
+2. Dispatch one subagent per song (or per small batch), in parallel:
+
+   > Working directory: `C:\Claude Code\Beautiful Piano`
+   > Read `collections/<id>/SPEC.md` in full. Write your song to
+   > `collections/<id>/songs/<slug>.json`. Validate with
+   > `python src/validate.py <that path>` and fix every ERROR and WARNING until it prints
+   > `PASS`. Touch only your own file.
+
+   For original music, give each agent a **song card** — key, tempo, character, head figure,
+   syncopation figure, landing rotation. That card is what stops a set sounding samey: v1 gave
+   every agent identical instructions and all six songs came back with the same phrase ending.
+
+3. `python src/build.py`, then reload the page.
+
+## Deployment
+
+`.github/workflows/deploy.yml` runs on every push to `main`. It first validates **every song in
+every collection** and refuses to deploy if any fails, then publishes to GitHub Pages.
+
+**The site is pre-built and committed** — `index.html` and the engraved PDFs are in the repo,
+because engraving needs MuseScore and that is not available on the CI runner. Always run
+`python src/build.py` locally and commit the result before pushing; CI only validates and
+deploys, it never rebuilds.
+
+## Public domain
+
+Everything in **Classics** is a traditional melody or an early-popular song published before
+1900, which places it in the public domain in the United States. Each song file records its
+`source` — composer and date where known — alongside the words "public domain".

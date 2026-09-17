@@ -1,0 +1,15 @@
+X:1
+T:Turning Reel
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=156
+K:Dm clef=treble
+"Dm"a3g1 f4 d4 f4 | "C"g3f1 e4 c4 e4 | "Bb"f3e1 d4 f4 d4 | "Am"e12 f4 |
+"Dm"a3g1 f4 d4 f4 | "Gm"g3a1 b4 g4 d4 | "C"e2 g4 a4 g4 f2 | "Am"a12 e4 |
+"Dm"a3b1 a4 f4 d4 | "C"g3a1 g4 e4 g4 | "Bb"f3g1 a4 f4 a4 | "Gm"b6 a2 g8 |
+"Dm"a3b1 a4 f4 a4 | "Gm"b3a1 g4 b4 a4 | "A7"g2 e4 ^c4 e4 c2 | "Dm"d6 e2 d8 |
+"Bb"f2 d4 f4 b4 a2 | "F"f2 a4 g4 f4 a2 | "Gm"b2 a4 g4 b4 a2 | "C"g2a2 g4 e8 |
+"Bb"f2 a4 b4 c'4 b2 | "F"a2 g4 f4 a4 f2 | "Gm"g2 b4 a4 g4 f2 | "A7"e2f2 e4 ^c8 |
+"Dm"d3e1 f4 a4 f4 | "C"e3f1 g4 e4 g4 | "Bb"f3g1 a4 f4 d4 | "Am"e8 f4 g4 |
+"Dm"a2g1f1 e2f2 a4 f4 | "Gm"g3a1 b4 g4 d4 | "A7"e2 g4 a4 e4 ^c2 | "Dm"Hd16 |]

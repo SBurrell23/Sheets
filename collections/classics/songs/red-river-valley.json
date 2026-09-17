@@ -1,0 +1,26 @@
+{
+  "title": "Red River Valley",
+  "source": "Traditional (American), 1890s — public domain",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 8,
+  "tempo": 104,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4 C5:4" },
+    { "chord": "C",  "notes": "E5:8 E5:4 E5:4" },
+    { "chord": "C",  "notes": "E5:8 D5:4 E5:4" },
+    { "chord": "C",  "notes": "D5:4 C5:12" },
+    { "chord": "C",  "notes": "G4:4 C5:4 E5:8" },
+    { "chord": "C",  "notes": "C5:4 E5:4 G5:8" },
+    { "chord": "G7", "notes": "F5:4 E5:4 D5:8" },
+    { "chord": "G7", "notes": "D5:16" },
+    { "chord": "G7", "notes": "D5:8 G5:4 F5:4" },
+    { "chord": "C",  "notes": "E5:8 E5:4 D5:4" },
+    { "chord": "C",  "notes": "C5:8 E5:4 G5:4" },
+    { "chord": "F",  "notes": "G5:4 F5:12" },
+    { "chord": "F",  "notes": "A4:4 A4:4 A4:8" },
+    { "chord": "G7", "notes": "B4:4 C5:4 D5:8" },
+    { "chord": "G7", "notes": "E5:4 D5:4 [C]C5:8" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

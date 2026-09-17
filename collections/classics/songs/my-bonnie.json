@@ -1,0 +1,31 @@
+{
+  "title": "My Bonnie Lies Over the Ocean",
+  "source": "Traditional, 1881 — public domain",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 120,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4" },
+
+    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
+    { "chord": "C",  "notes": "G5:4 F5:4 E5:4" },
+    { "chord": "G7", "notes": "F5:8 D5:4" },
+    { "chord": "G7", "notes": "D5:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:4 G5:4 F5:4" },
+    { "chord": "C",  "notes": "E5:12" },
+    { "chord": "C",  "notes": "E5:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
+    { "chord": "C",  "notes": "G5:4 F5:4 E5:4" },
+    { "chord": "G7", "notes": "F5:8 D5:4" },
+    { "chord": "G7", "notes": "D5:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:4 G5:4 F5:4" },
+    { "chord": "C",  "notes": "E5:4 [G7]D5:8" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

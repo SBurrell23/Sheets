@@ -1,0 +1,15 @@
+X:1
+T:Harbour Broom
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=144
+K:G clef=treble
+"G6"d3g1 b4 g4 e4 | "G#dim"d3e1 =f2^g2 b4 a4 | "Am7"a6 g6 e4 | "D7"d4 f8 a4 |
+"G6"b3a1 g4 e4 d4 | "E7"e3^g1 b4 b2a2 g4 | "Am7"a3b1 a2g2 e4 a4 | "D7"a4 f8 d4 |
+"G6"d3g1 b4 g4 e4 | "G#dim"e3=f1 ^g4 b2a2 g4 | "Am7"e6 a6 g4 | "D7"d8 f4 a4 |
+"G6"b3g1 e4 g4 b4 | "E7"b3a1 ^g2a2 b4 g4 | "A7"e2g2 a2e2 ^c3e1 g4 | "D7"a8 "G6"b4 g4 |
+"C6"e6 a6 g4 | "B7"^d6 f2 b4 a2f2 | "Em7"g6 b2 e6 d2 | "A7"e6 ^c2 a8 |
+"C6"e6 c'6 a4 | "G7"b6 a2 g2=f2 d4 | "C6"e6 g6 a4 | "D7"a6 g2 f8 |
+"G6"d3g1 b4 g4 e4 | "G#dim"e3=f1 ^g4 b2d2 f4 | "Am7"a6 e6 g4 | "D7"d4 f4 a8 |
+"G6"b3a1 g4 e4 d4 | "E7"e3^g1 b2a2 g4 e4 | "Am7"a3b1 a4 g2e2 "D7"f4 | "G6"Hg16 |]

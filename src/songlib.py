@@ -9,6 +9,20 @@ import io, json, os, re
 BAR_UNITS = 16
 BARS_REQUIRED = 40
 
+# meter -> (units per bar, units per beat, beats, beat type)
+# Units are sixteenths throughout, so a 3/4 bar is 12 and a 6/8 bar is 12 with a
+# dotted-quarter beat -- which is what keeps 6/8 beaming in groups of three eighths.
+METERS = {
+    '4/4': (16, 4, 4, 4),
+    '3/4': (12, 4, 3, 4),
+    '2/4': (8,  4, 2, 4),
+    '6/8': (12, 6, 6, 8),
+}
+
+
+def meter_of(song):
+    return METERS.get(song.get('meter', '4/4'), METERS['4/4'])
+
 # duration unit -> (MusicXML type, number of dots)
 TYPE = {1: ('16th', 0), 2: ('eighth', 0), 3: ('eighth', 1), 4: ('quarter', 0),
         6: ('quarter', 1), 8: ('half', 0), 12: ('half', 1), 16: ('whole', 0)}
@@ -179,8 +193,16 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     if not isinstance(song['tempo'], int) or not (50 <= song['tempo'] <= 220):
         E.append('tempo must be a whole number between 50 and 220 (got %r)' % (song['tempo'],))
 
+    if song.get('meter', '4/4') not in METERS:
+        E.append('meter must be one of %s (got %r)' % (', '.join(METERS), song['meter']))
+        return E, W
+    bar_units, beat_units = meter_of(song)[0], meter_of(song)[1]
+    pickup = int(song.get('pickup', 0) or 0)
+    if pickup and not (0 < pickup < bar_units):
+        E.append('pickup must be between 1 and %d units (got %d)' % (bar_units - 1, pickup))
+
     bars = song['bars']
-    if strict_length and len(bars) != expected_bars:
+    if strict_length and expected_bars and len(bars) != expected_bars:
         E.append('need exactly %d bars, got %d' % (expected_bars, len(bars)))
 
     eighth_bars = sixteenth_bars = 0
@@ -200,10 +222,11 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             continue
 
         total = sum(e['dur'] for e in evs)
-        if total != BAR_UNITS:
-            E.append('bar %d: durations sum to %d, must be exactly %d '
+        want = pickup if (i == 1 and pickup) else bar_units
+        if total != want:
+            E.append('bar %d: durations sum to %d, must be exactly %d%s '
                      '(1=16th 2=8th 3=dotted8th 4=quarter 6=dotted-quarter 8=half 12=dotted-half 16=whole)'
-                     % (i, total, BAR_UNITS))
+                     % (i, total, want, ' (the pickup bar)' if want == pickup and i == 1 else ''))
         if evs[0]['rest']:
             E.append('bar %d: starts with a rest. Every bar must open with a struck note '
                      'on beat 1.' % i)
@@ -229,12 +252,20 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     tonic_alter = defaults.get(tonic, 0)
     tonic_name = tonic + ('#' if tonic_alter > 0 else ('b' if tonic_alter < 0 else ''))
     last = parsed[-1]
-    if len(last) != 1 or last[0]['rest'] or last[0]['dur'] != 16:
-        E.append('bar %d: the last bar must be a single whole note (e.g. "%s5:16")'
-                 % (len(bars), tonic_name))
-    elif last[0]['step'] != tonic or last[0]['alter'] != tonic_alter:
-        E.append('bar %d: the last note must be the tonic %s (got %s)'
-                 % (len(bars), tonic_name, last[0]['step']))
+    if thresholds.get('requireFinalWhole', True):
+        if len(last) != 1 or last[0]['rest'] or last[0]['dur'] != bar_units:
+            E.append('bar %d: the last bar must be a single note filling the bar '
+                     '(e.g. "%s5:%d")' % (len(bars), tonic_name, bar_units))
+        elif last[0]['step'] != tonic or last[0]['alter'] != tonic_alter:
+            E.append('bar %d: the last note must be the tonic %s (got %s)'
+                     % (len(bars), tonic_name, last[0]['step']))
+    else:
+        fin = last[-1]
+        if fin['rest'] or fin['step'] != tonic or fin['alter'] != tonic_alter:
+            E.append('bar %d: the song must end on the tonic %s' % (len(bars), tonic_name))
+        elif fin['dur'] < 8:
+            W.append('bar %d: the final note is short; a tune usually ends on a note held '
+                     'at least a half note' % len(bars))
 
     # ---- rhythmic density ------------------------------------------------
     # Per-version, because a style built on dotted snaps (3 1) carries far fewer plain
@@ -246,9 +277,11 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     # A swing set writes straight eighths and gets its sixteenths from the shuffle
     # rewrite at build time, so demanding author-written ones here is wrong.
     if not thresholds.get('swing'):
-        want16 = 4 if song.get('tempo', 80) >= 170 else 6
-        if sixteenth_bars < want16:
-            W.append('only %d bars contain sixteenth notes; aim for at least %d'
+        want16 = thresholds.get('minSixteenthBars')
+        if want16 is None:
+            want16 = 4 if song.get('tempo', 80) >= 170 else 6
+        if want16 and sixteenth_bars < want16:
+            W.append('only %d bars contain sixteenth notes; this set wants at least %d'
                      % (sixteenth_bars, want16))
 
     # ---- texture targets (v4 onward, set per version.json) ---------------
@@ -290,14 +323,19 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                  % (run_bars, thresholds['minRunBars']))
 
     # ---- phrase landings -------------------------------------------------
-    for i in range(4, len(bars) + 1, 4):
+    # These assume a regular 4/8-bar grid that starts at bar 1. That is true of the
+    # composed sets and false of anything with a pickup (the upbeat occupies slot 1,
+    # so every phrase ending lands one slot early) or of free-length traditional
+    # tunes. Checking them there just forces the music to be wrong.
+    phrase_grid = bool(expected_bars) and not pickup
+    for i in range(4, len(bars) + 1, 4) if phrase_grid else []:
         evs = parsed[i - 1]
         if len(evs) > 4:
             W.append('bar %d ends a 4-bar phrase, so it should be a landing bar: at most 4 '
                      'notes, built from your assigned landing figure.' % i)
     # A period-ending bar needs a long note somewhere in it so the phrase can breathe.
     # Not necessarily LAST: a landing like "12 4" holds, then pushes on with a pickup.
-    for i in range(8, len(bars) + 1, 8):
+    for i in range(8, len(bars) + 1, 8) if phrase_grid else []:
         evs = parsed[i - 1]
         if max(e['dur'] for e in evs) < 8:
             W.append('bar %d ends an 8-bar period but has no note a half note or longer; '
@@ -361,11 +399,11 @@ def _accidental(step, octv, alter, state, defaults):
     return None
 
 
-def _beam_groups(evs):
+def _beam_groups(evs, beat=4):
     groups, cur = [], []
     for i, e in enumerate(evs):
         ok = (not e['rest']) and e['dur'] in FLAGS
-        if ok and (not cur or evs[cur[-1]]['pos'] // 4 == e['pos'] // 4):
+        if ok and (not cur or evs[cur[-1]]['pos'] // beat == e['pos'] // beat):
             cur.append(i)
         else:
             if len(cur) > 1:
@@ -373,8 +411,10 @@ def _beam_groups(evs):
             cur = [i] if ok else []
     if len(cur) > 1:
         groups.append(cur)
-    out = {}
-    for g in groups:
+    out, gid = {}, {}
+    for gnum, g in enumerate(groups):
+        for i in g:
+            gid[i] = gnum
         for lvl in range(1, max(FLAGS[evs[i]['dur']] for i in g) + 1):
             run = []
             for i in g + [None]:
@@ -391,12 +431,14 @@ def _beam_groups(evs):
                             (lvl, 'begin' if k == 0 else
                              ('end' if k == len(run) - 1 else 'continue')))
                 run = []
-    return out
+    return out, gid
 
 
 def to_musicxml(song, swing=False):
     fifths, mode, tonic, _ = KEYS[song['key']]
     defaults = key_defaults(fifths)
+    bar_units, beat, beats, beat_type = meter_of(song)
+    pickup = int(song.get('pickup', 0) or 0)
     bars = [parse_bar(b['notes'])[0] for b in song['bars']]
     if swing:
         bars = [swing_events(b) for b in bars]
@@ -407,7 +449,7 @@ def to_musicxml(song, swing=False):
       '"http://www.musicxml.org/dtds/partwise.dtd">\n<score-partwise version="4.0">\n')
     w('  <work><work-title>%s</work-title></work>\n' % _esc(song['title']))
     w('  <identification><creator type="composer">%s</creator></identification>\n'
-      % _esc(song.get('composer', 'Music by Claude')))
+      % _esc(credit(song)))
     w('  <defaults><scaling><millimeters>6.8</millimeters><tenths>40</tenths></scaling></defaults>\n')
     w('  <part-list><score-part id="P1"><part-name>Piano</part-name>\n')
     w('    <score-instrument id="P1-I1"><instrument-name>Piano</instrument-name></score-instrument>\n')
@@ -416,14 +458,19 @@ def to_musicxml(song, swing=False):
     w('  </score-part></part-list>\n  <part id="P1">\n')
 
     for bn, evs in enumerate(bars, start=1):
-        w('    <measure number="%d">\n' % bn)
-        if bn > 1 and (bn - 1) % 4 == 0:
+        num = (bn - 1) if pickup else bn
+        if pickup and bn == 1:
+            w('    <measure number="0" implicit="yes">\n')
+        else:
+            w('    <measure number="%d">\n' % num)
+        if num > 1 and (num - 1) % 4 == 0:
             w('      <print new-system="yes"/>\n')
         if bn == 1:
             w('      <attributes><divisions>4</divisions>\n'
               '        <key><fifths>%d</fifths><mode>%s</mode></key>\n'
-              '        <time><beats>4</beats><beat-type>4</beat-type></time>\n'
-              '        <clef><sign>G</sign><line>2</line></clef></attributes>\n' % (fifths, mode))
+              '        <time><beats>%d</beats><beat-type>%d</beat-type></time>\n'
+              '        <clef><sign>G</sign><line>2</line></clef></attributes>\n'
+              % (fifths, mode, beats, beat_type))
             w('      <direction placement="above"><direction-type><metronome>'
               '<beat-unit>quarter</beat-unit><per-minute>%d</per-minute></metronome>'
               '</direction-type><sound tempo="%d"/></direction>\n'
@@ -432,7 +479,7 @@ def to_musicxml(song, swing=False):
                 w('      <direction placement="above"><direction-type><words '
                   'font-style="italic">Shuffle &#8212; swing the eighths</words>'
                   '</direction-type></direction>\n')
-        beams = _beam_groups(evs)
+        beams, _gid = _beam_groups(evs, beat)
         state, pending = {}, song['bars'][bn - 1]['chord']
         for idx, e in enumerate(evs):
             if e['chord']:
@@ -479,17 +526,19 @@ def to_musicxml(song, swing=False):
 def to_abc(song, with_title=True, swing=False):
     fifths, mode, tonic, abckey = KEYS[song['key']]
     defaults = key_defaults(fifths)
+    bar_units, beat, beats, beat_type = meter_of(song)
     bars = [parse_bar(b['notes'])[0] for b in song['bars']]
     if swing:
         bars = [swing_events(b) for b in bars]
     head = ['X:1']
     if with_title:
-        head += ['T:' + song['title'], 'C:' + song.get('composer', 'Music by Claude')]
-    head += ['M:4/4', 'L:1/16', 'Q:1/4=%d' % song['tempo'], 'K:%s clef=treble' % abckey]
+        head += ['T:' + song['title'], 'C:' + credit(song)]
+    head += ['M:%s' % song.get('meter', '4/4'), 'L:1/16',
+             'Q:1/%d=%d' % (beat_type, song['tempo']), 'K:%s clef=treble' % abckey]
 
     lines, rendered = [], []
     for bn, evs in enumerate(bars, start=1):
-        beams = _beam_groups(evs)
+        beams, gid = _beam_groups(evs, beat)
         state, pending = {}, song['bars'][bn - 1]['chord']
         toks, cur, last_in = [], [], -99
         for idx, e in enumerate(evs):
@@ -510,7 +559,9 @@ def to_abc(song, with_title=True, swing=False):
                     else (e['step'] + ',' * (4 - e['octave']))
                 a += str(e['dur'])
             in_group = idx in beams
-            if cur and not (in_group and last_in == idx - 1):
+            same_group = (in_group and last_in == idx - 1
+                          and gid.get(idx) == gid.get(idx - 1))
+            if cur and not same_group:
                 toks.append(''.join(cur)); cur = []
             cur.append(a)
             if in_group:
@@ -525,6 +576,16 @@ def to_abc(song, with_title=True, swing=False):
         chunk = rendered[i:i + 4]
         lines.append(' | '.join(chunk) + (' |]' if i + 4 >= len(rendered) else ' |'))
     return '\n'.join(head + lines) + '\n'
+
+
+def credit(song):
+    """Who the score is credited to.
+
+    A traditional tune carries its own attribution in "source"; only original
+    material falls back to Claude. Crediting a public-domain folk melody to the
+    arranger would be plainly wrong.
+    """
+    return song.get('composer') or song.get('source') or 'Music by Claude'
 
 
 def _esc(s):

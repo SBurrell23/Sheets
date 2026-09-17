@@ -1,0 +1,27 @@
+{
+  "title": "Auld Lang Syne",
+  "source": "Traditional Scottish; words by Robert Burns, 1788 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 92,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4" },
+    { "chord": "C",  "notes": "C5:6 C5:2 C5:4 E5:4" },
+    { "chord": "G7", "notes": "D5:6 C5:2 D5:4 E5:4" },
+    { "chord": "C",  "notes": "C5:6 C5:2 E5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:12 A5:4" },
+    { "chord": "C",  "notes": "G5:6 E5:2 E5:4 C5:4" },
+    { "chord": "G7", "notes": "D5:6 C5:2 D5:4 E5:4" },
+    { "chord": "F",  "notes": "C5:6 A4:2 A4:4 [G7]G4:4" },
+    { "chord": "C",  "notes": "C5:12 A5:4" },
+    { "chord": "C",  "notes": "G5:6 E5:2 E5:4 C5:4" },
+    { "chord": "G7", "notes": "D5:6 C5:2 D5:4 A5:4" },
+    { "chord": "C",  "notes": "G5:6 E5:2 E5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:12 C6:4" },
+    { "chord": "C",  "notes": "G5:6 E5:2 E5:4 C5:4" },
+    { "chord": "G7", "notes": "D5:6 C5:2 D5:4 E5:4" },
+    { "chord": "F",  "notes": "C5:6 A4:2 A4:4 [G7]G4:4" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

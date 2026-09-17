@@ -1,0 +1,30 @@
+{
+  "title": "When the Saints Go Marching In",
+  "source": "Traditional American spiritual — public domain",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 12,
+  "tempo": 120,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4 E5:4 F5:4" },
+
+    { "chord": "C",  "notes": "G5:16" },
+    { "chord": "C",  "notes": "G5:4 C5:4 E5:4 F5:4" },
+    { "chord": "C",  "notes": "G5:16" },
+    { "chord": "C",  "notes": "G5:4 C5:4 E5:4 F5:4" },
+
+    { "chord": "C",  "notes": "G5:8 E5:8" },
+    { "chord": "C",  "notes": "C5:8 E5:8" },
+    { "chord": "G7", "notes": "D5:16" },
+    { "chord": "G7", "notes": "D5:4 E5:4 E5:4 D5:4" },
+
+    { "chord": "C",  "notes": "C5:16" },
+    { "chord": "C",  "notes": "E5:8 G5:8" },
+    { "chord": "F",  "notes": "G5:4 F5:12" },
+    { "chord": "F",  "notes": "F5:8 E5:4 F5:4" },
+
+    { "chord": "C",  "notes": "G5:8 E5:8" },
+    { "chord": "F",  "notes": "C5:8 [G7]D5:8" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

@@ -62,9 +62,13 @@ def main():
         return 1
 
     notes = sum(len(songlib.parse_bar(b['notes'])[0]) for b in song['bars'])
-    print('PASS: "%s" in %s, %d bars (%s expects %d), %d notes, tempo %d. '
+    expect = ('%s expects %d' % (vname, want)) if want else ('%s: any length' % vname)
+    meter = song.get('meter', '4/4')
+    pick = ', pickup %d' % song['pickup'] if song.get('pickup') else ''
+    print('PASS: "%s" in %s, %s%s, %d bars (%s), %d notes, tempo %d. '
           'No errors, no warnings.'
-          % (song['title'], song['key'], len(song['bars']), vname, want, notes, song['tempo']))
+          % (song['title'], song['key'], meter, pick, len(song['bars']),
+             expect, notes, song['tempo']))
     return 0
 
 

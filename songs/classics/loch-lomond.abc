@@ -1,0 +1,12 @@
+X:1
+T:Loch Lomond
+C:Traditional Scottish, 1841 - public domain
+M:4/4
+L:1/16
+Q:1/4=88
+K:C clef=treble
+"C"G4 | "C"c4 c3d1 "Am"e4 d3c1 | "Dm"d4 d3c1 "G7"A4 G4 | "C"c4 c4 c4 e3g1 |
+"F"a8 "G7"g4 g4 | "F"a4 a3g1 "C"e4 e3g1 | "Dm"f2e2 d2c2 "G7"A4 G3A1 | "C"c4 e3g1 "F"a4 g3e1 |
+"G7"d8 "C"c4 G4 | "C"c4 c3d1 "Am"e4 d3c1 | "Dm"d2e2 d2c2 "G7"A4 G3A1 | "C"c4 c4 c4 e3g1 |
+"F"a8 "G7"g4 g4 | "F"a4 c'3a1 "C"g4 e3g1 | "Dm"f2e2 d2c2 "G7"A4 G3A1 | "C"c2c2 e2g2 "F"a4 g3e1 |
+"G7"d8 "C"Hc8 |]
