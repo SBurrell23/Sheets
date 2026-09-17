@@ -1,0 +1,15 @@
+X:1
+T:Night Traffic
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=172
+K:Em clef=treble
+"Em"e2g2f2g1a1b2a2g2f2 | "C"g2f2e2f1g1a2g2f2e2 | "Am"c2d2e2f1g1a2b2a2g2 | "D"f8 a8 |
+"Em"b2a2g2f1e1g2f2e2d2 | "C"e2f2g2a2 g4 f2e2 | "Am7"a2g2e2f1g1a2g2f2e2 | "Bm"d8 f8 |
+"Em"g2a2b2a1g1b2a2g2f2 | "C"e2g2a2b1a1g2f2g2e2 | "Am"a2g2f2g1a1g2f2e2d2 | "D"f4 a8 f4 |
+"Em"e2f2g2a1b1g2a2g2f2 | "C"e2f2g2a2 b4 a2g2 | "B7"a2g2f2g1a1f2e2f2^d2 | "Em"e4 g8 e4 |
+"Am7"g2a2b2a2 g4 e2g2 | "D"f2g2a2b2 a4 g2f2 | "G"g2f2g2a2 b4 a2g2 | "Cmaj7"b6 a2 g8 |
+"G"d2e2f2g2 b4 a2g2 | "Cmaj7"e2g2a2b2 c'8 | "Am7"a2g2f2e2 g4 f2e2 | "B7"f6 e2 ^d8 |
+"Em"e2g2f2g1a1b2a2g2f2 | "C"e2g2a2b2 a4 g2e2 | "Am"a2b2a2g1f1e2g2f2e2 | "D"f2g2 a4 f8 |
+"Em"e2g2a2b1a1g2f2e2d2 | "C"e2g2a2b2 a4 g2f2 | "B7"a2g2f2e1f1a2f2e2^d2 | "Em"He16 |]

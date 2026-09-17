@@ -1,0 +1,46 @@
+{
+  "title": "Amber Tide",
+  "key": "Bb",
+  "tempo": 138,
+  "bars": [
+    { "chord": "Bb",     "notes": "Bb4:1 C5:1 D5:2 Eb5:2 F5:2 D5:2 Eb5:2 C5:2 D5:2" },
+    { "chord": "Cm7",    "notes": "C5:1 D5:1 Eb5:2 F5:2 G5:2 Eb5:2 F5:2 D5:2 Eb5:2" },
+    { "chord": "Dm",     "notes": "D5:1 Eb5:1 F5:2 G5:2 A5:2 F5:2 G5:2 A5:2 Bb5:2" },
+    { "chord": "Gm7",    "notes": "A5:4 F5:8 D5:4" },
+
+    { "chord": "Ebmaj7", "notes": "Bb4:1 C5:1 D5:2 Eb5:2 F5:2 G5:2 F5:2 Eb5:2 D5:2" },
+    { "chord": "F7",     "notes": "C5:2 D5:2 F5:6 Eb5:2 D5:2 C5:2" },
+    { "chord": "Gm7",    "notes": "D5:1 Eb5:1 F5:2 G5:2 A5:2 Bb5:2 A5:2 G5:2 F5:2" },
+    { "chord": "F",      "notes": "G5:4 F5:8 C5:4" },
+
+    { "chord": "Bb",     "notes": "Bb4:1 C5:1 D5:2 F5:2 Eb5:2 D5:2 C5:2 Eb5:2 D5:2" },
+    { "chord": "Cm7",    "notes": "C5:1 D5:1 Eb5:2 G5:2 F5:2 Eb5:2 D5:2 F5:2 Eb5:2" },
+    { "chord": "Dm",     "notes": "D5:2 Eb5:2 F5:2 G5:2 A5:8" },
+    { "chord": "Gm7",    "notes": "G5:2 F5:2 Eb5:4 D5:8" },
+
+    { "chord": "Ebmaj7", "notes": "Bb4:1 C5:1 D5:2 F5:2 G5:2 Bb5:2 G5:2 F5:2 Eb5:2" },
+    { "chord": "Cm7",    "notes": "C5:2 D5:2 Eb5:6 F5:2 Eb5:2 D5:2" },
+    { "chord": "F7",     "notes": "C5:1 D5:1 Eb5:2 F5:2 Eb5:2 C5:2 D5:2 Eb5:2 F5:2" },
+    { "chord": "Bb",     "notes": "D5:2 C5:2 D5:4 Bb4:8" },
+
+    { "chord": "Ebmaj7", "notes": "D5:2 Eb5:2 G5:6 F5:2 Eb5:2 D5:2" },
+    { "chord": "Bb",     "notes": "F5:2 G5:2 Bb5:6 A5:2 G5:2 F5:2" },
+    { "chord": "Cm7",    "notes": "G5:2 A5:2 Bb5:2 A5:2 C6:8" },
+    { "chord": "F",      "notes": "A5:8 G5:4 F5:4" },
+
+    { "chord": "Ebmaj7", "notes": "G5:2 F5:2 D5:6 Eb5:2 F5:2 G5:2" },
+    { "chord": "Gm",     "notes": "Bb5:2 A5:2 G5:6 F5:2 Eb5:2 D5:2" },
+    { "chord": "Cm7",    "notes": "C5:2 D5:2 Eb5:2 F5:2 G5:8" },
+    { "chord": "F7",     "notes": "F5:8 Eb5:4 C5:4" },
+
+    { "chord": "Bb",     "notes": "Bb4:1 C5:1 D5:2 Eb5:2 F5:2 D5:2 Eb5:2 C5:2 D5:2" },
+    { "chord": "Cm7",    "notes": "C5:1 D5:1 Eb5:2 F5:2 G5:2 Eb5:2 F5:2 D5:2 Eb5:2" },
+    { "chord": "Dm",     "notes": "D5:1 Eb5:1 F5:2 G5:2 A5:2 F5:2 G5:2 Bb5:2 A5:2" },
+    { "chord": "Gm7",    "notes": "Bb5:8 F5:8" },
+
+    { "chord": "Ebmaj7", "notes": "D5:1 Eb5:1 F5:2 G5:2 Bb5:2 G5:2 F5:2 Eb5:2 D5:2" },
+    { "chord": "Cm7",    "notes": "C5:2 D5:2 Eb5:6 F5:2 G5:2 Eb5:2" },
+    { "chord": "F7",     "notes": "C5:1 D5:1 Eb5:2 F5:2 G5:2 Eb5:2 F5:2 G5:2 A5:2" },
+    { "chord": "Bb",     "notes": "Bb5:16" }
+  ]
+}

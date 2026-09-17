@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piano Lead Sheets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#E7EAE5; --surface:#F3F5F1; --paper:#FCFBF7; --paper-edge:#DCDFD7;
+  --ink:#16201E; --ink-2:#55635E; --ink-3:#8A968F;
+  --line:#C9D0C8; --accent:#2C6E67; --accent-soft:rgba(44,110,103,.13);
+  --accent-on:#FCFBF7; --radius:3px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1312; --surface:#161E1C; --paper:#19221F; --paper-edge:#26322E;
+    --ink:#DFE6E2; --ink-2:#8D9A95; --ink-3:#6A7873;
+    --line:#2A3633; --accent:#63B8AE; --accent-soft:rgba(99,184,174,.15);
+    --accent-on:#0D1312;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1312; --surface:#161E1C; --paper:#19221F; --paper-edge:#26322E;
+  --ink:#DFE6E2; --ink-2:#8D9A95; --ink-3:#6A7873;
+  --line:#2A3633; --accent:#63B8AE; --accent-soft:rgba(99,184,174,.15);
+  --accent-on:#0D1312;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg); color:var(--ink);
+  font:400 15px/1.6 Archivo,"Helvetica Neue",Arial,sans-serif; -webkit-font-smoothing:antialiased}
+.wrap{max-width:960px; margin:0 auto; padding-inline:16px; padding-block:36px 64px}
+
+/* ---------- masthead ---------- */
+.masthead{display:flex; align-items:baseline; gap:16px; flex-wrap:wrap;
+  border-bottom:1px solid var(--line); padding-bottom:18px}
+h1{font-family:"Bodoni Moda",Didot,"Times New Roman",serif; font-weight:400;
+  font-size:clamp(34px,6vw,52px); line-height:1; margin:0; letter-spacing:.005em}
+.count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; margin-left:auto}
+.vpick{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--ink-2)}
+.vpick select{font:inherit; font-size:13px; color:var(--ink); background:var(--surface);
+  border:1px solid var(--line); border-radius:var(--radius); padding:6px 9px; cursor:pointer}
+.vpick select:hover{border-color:var(--accent)}
+.btn.ghost{padding:6px 11px; font-size:12.5px}
+
+/* ---------- spec modal ---------- */
+.modal{position:fixed; inset:0; z-index:60; background:rgba(0,0,0,.55);
+  display:flex; align-items:center; justify-content:center; padding:20px}
+/* author rules beat the UA sheet's [hidden]{display:none}, so restate it here */
+.modal[hidden]{display:none}
+.modal-box{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  width:min(880px,100%); max-height:86vh; display:flex; flex-direction:column; overflow:hidden}
+.modal-head{display:flex; align-items:center; gap:14px; padding:14px 16px;
+  border-bottom:1px solid var(--line)}
+.modal-head h2{margin:0; font-family:"Bodoni Moda",Didot,serif; font-weight:400; font-size:23px}
+.modal-head .btn{margin-left:auto}
+#spectext{margin:0; padding:18px 20px; overflow:auto; white-space:pre-wrap; word-break:break-word;
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12px; line-height:1.65;
+  color:var(--ink-2); tab-size:2}
+
+/* ---------- song list ---------- */
+.library{display:grid; grid-template-columns:repeat(auto-fill,minmax(224px,1fr));
+  gap:8px; margin-top:20px}
+.card{
+  display:flex; flex-direction:column; gap:2px; text-align:left; cursor:pointer;
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:11px 13px; font:inherit; color:inherit; position:relative;
+  transition:border-color .15s, background .15s;
+}
+.card:hover{border-color:var(--accent)}
+.card[aria-current="true"]{border-color:var(--accent); background:var(--accent-soft)}
+.card .t{font-weight:600; font-size:15px; line-height:1.3}
+.card .m{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px;
+  color:var(--ink-3); letter-spacing:.02em; font-variant-numeric:tabular-nums}
+.card[aria-current="true"] .m{color:var(--accent)}
+
+/* ---------- transport ---------- */
+.transport{position:sticky; top:0; z-index:20; margin-top:22px;
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:12px 14px; display:flex; flex-direction:column; gap:12px}
+.row{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+button{font:inherit; color:inherit; cursor:pointer; background:none; border:none}
+.btn{border:1px solid var(--line); border-radius:var(--radius); background:var(--bg);
+  padding:7px 13px; font-size:13px; font-weight:500; white-space:nowrap;
+  transition:border-color .15s,color .15s; text-decoration:none; display:inline-block}
+.btn:hover{border-color:var(--accent); color:var(--accent)}
+.btn:disabled{opacity:.45; cursor:default}
+.btn:disabled:hover{border-color:var(--line); color:inherit}
+.play{min-width:100px; display:inline-flex; align-items:center; gap:8px;
+  background:var(--accent); border-color:var(--accent); color:var(--accent-on)}
+.play:hover{color:var(--accent-on); filter:brightness(1.08)}
+.play:disabled{filter:none}
+.play .glyph{font-size:11px; line-height:1}
+a.dl{color:var(--ink)} a.dl:hover{color:var(--accent)}
+a.dl .arrow{color:var(--accent); font-weight:600}
+.tempo{display:inline-flex; align-items:center; gap:9px; font-size:12.5px; color:var(--ink-2)}
+.tempo input{accent-color:var(--accent); width:150px}
+.tempo output{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
+  color:var(--ink); font-weight:500; font-variant-numeric:tabular-nums; min-width:52px}
+.readout{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
+  color:var(--ink-2); font-variant-numeric:tabular-nums; margin-left:auto}
+.readout b{color:var(--ink); font-weight:500}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+/* ---------- scrub bar ---------- */
+.bar-strip{position:relative; height:30px; cursor:pointer; touch-action:none; user-select:none}
+.bar-strip.dragging{cursor:grabbing}
+#track{position:absolute; inset:0; background:var(--bg); border-radius:2px; overflow:hidden}
+#fill{position:absolute; left:0; top:0; bottom:0; width:0;
+  background:var(--accent); opacity:.16; pointer-events:none}
+.tick{position:absolute; top:0; bottom:0; width:1px; background:var(--line); pointer-events:none}
+.tick.period{background:var(--ink-3); opacity:.5}
+#head{position:absolute; top:-3px; bottom:-3px; width:2px; margin-left:-1px;
+  background:var(--ink); pointer-events:none}
+#head::after{content:""; position:absolute; left:-4px; right:-4px; top:-2px; height:6px;
+  background:var(--ink); border-radius:1px}
+.bar-strip:focus-visible{outline:2px solid var(--accent); outline-offset:3px}
+
+/* ---------- score ---------- */
+.sheet{margin-top:22px; background:var(--paper); border:1px solid var(--paper-edge);
+  border-radius:var(--radius); padding:24px 18px 30px}
+#paper{color:var(--ink)}
+#paper svg{max-width:100%; height:auto; display:block}
+#paper svg path{fill:currentColor}
+#paper svg text,#paper svg tspan{fill:currentColor}
+#paper .abcjs-highlight,#paper .abcjs-highlight path,#paper .abcjs-highlight text{
+  fill:var(--accent) !important}
+.empty{color:var(--ink-3); font-size:13px; font-style:italic; padding:48px 0; text-align:center}
+#audiohost{position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden}
+
+@media (max-width:560px){
+  .readout{margin-left:0; width:100%}
+  .tempo input{width:110px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important; transition:none !important}}
+@media print{
+  .masthead,.library,.transport{display:none}
+  body{background:#fff} .sheet{border:none; background:#fff; margin:0; padding:0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <h1>Piano Lead Sheets</h1>
+    <label class="vpick" for="version">Set
+      <select id="version"></select>
+    </label>
+    <button class="btn ghost" id="specbtn" type="button">View spec</button>
+    <span class="count" id="count"></span>
+  </header>
+
+  <div class="library" id="library"></div>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="spectitle">
+      <div class="modal-head">
+        <h2 id="spectitle">Spec</h2>
+        <button class="btn" id="specclose" type="button">Close</button>
+      </div>
+      <pre id="spectext"></pre>
+    </div>
+  </div>
+
+  <div class="transport">
+    <div class="row">
+      <button class="btn play" id="play" disabled><span class="glyph" id="glyph">&#9654;</span><span id="playlab">Play</span></button>
+      <button class="btn" id="restart" disabled>Restart</button>
+      <button class="btn" id="chords" aria-pressed="true">Chords on</button>
+      <button class="btn" id="follow" aria-pressed="true">Follow</button>
+      <label class="tempo" for="tempo">Tempo
+        <input type="range" id="tempo" min="40" max="250" step="1" value="84">
+        <output id="bpm" for="tempo">84 bpm</output>
+      </label>
+      <a class="btn dl" id="pdf" href="#" download><span class="arrow">&darr;</span>&nbsp; PDF</a>
+      <span class="readout">bar <b id="barnum">1</b>/<b id="barsof">40</b></span>
+    </div>
+    <div class="bar-strip" id="strip" role="slider" tabindex="0"
+         aria-label="Playback position in bars" aria-valuemin="1" aria-valuemax="40" aria-valuenow="1">
+      <div id="track"></div>
+      <div id="fill"></div>
+      <div id="head"></div>
+    </div>
+  </div>
+
+  <div class="sheet">
+    <div id="paper"><p class="empty">Pick a song above.</p></div>
+  </div>
+</div>
+
+<div id="audiohost"></div>
+<script src="https://cdn.jsdelivr.net/npm/abcjs@6.4.4/dist/abcjs-basic-min.js"></script>
+<script>
+(function () {
+  "use strict";
+  var VERSIONS = [
+  {
+    "id": "v4",
+    "label": "32-bar AABA, running eighths, held halves, runs between landings",
+    "bars": 32,
+    "spec": "# Songwriting spec v4 — 32-bar AABA, running eighths over held landings\n\nYou are writing **one song** as a single JSON file. A build script turns it into engraved sheet\nmusic (PDF) and playable audio. Your job is only the JSON.\n\nThe target is a **beginner–intermediate pianist**: single-line melody in the treble clef with\nchord symbols above it. No left-hand part, no bass clef.\n\n---\n\n## What changed from v3 — read this first\n\nv3 was correct in shape but too *even* in texture: too many plain quarter notes, so the line\nwalked rather than flowed. v4 changes the texture, not the structure.\n\n| | v3 average per song | **v4 minimum per song** |\n|---|---|---|\n| eighth notes | 46 | **88** — roughly double |\n| half notes | 5 | **10** |\n| bars containing a run of 4+ eighths/sixteenths | 7 | **14** |\n\nThe validator checks all three and will tell you your actual numbers.\n\nThe sound you are aiming for is **long notes at the phrase endings, and flowing runs between\nthem.** A landing bar holds; the three bars before it move. Think of the held notes as the\nposts of a fence and the runs as the rails between them. Quarter notes are now the exception,\nnot the default — if you catch yourself writing `4 4 4 4`, that bar should probably be eighths.\n\nEverything else — AABA, the landing rotation, one bar per chord, bars opening on beat 1 — is\nunchanged from v3.\n\n---\n\n## 1. Your assignment\n\nYour dispatch message gives you a **song card**: a key, a tempo, a character, a **head figure**,\na **syncopation figure**, and a **landing rotation** of four figures. Those are binding.\n\n## 2. The file\n\nWrite exactly one file: `v4/songs/<slug>.json`\n\n```json\n{\n  \"title\": \"Paper Kite\",\n  \"key\": \"C\",\n  \"tempo\": 152,\n  \"bars\": [\n    { \"chord\": \"C\",  \"notes\": \"C5:2 D5:2 E5:2 G5:2 A5:2 G5:2 E5:2 D5:2\" },\n    { \"chord\": \"G\",  \"notes\": \"D5:8 E5:4 F5:4\" }\n  ]\n}\n```\n\n- `title` — 1–3 words, evocative, no colon or dash.\n- `key` — exactly as given: `C`, `G`, `D`, `F`, `Bb`, `Am`, `Em`, or `Dm`.\n- `tempo` — the number on your card.\n- `bars` — exactly **32** objects.\n\n## 3. The note language\n\nEvery bar is 4/4. **Durations are counted in sixteenth notes, so every bar sums to exactly 16.**\n\n| write | means         | | write | means           |\n|-------|---------------|-|-------|-----------------|\n| `1`   | sixteenth     | | `6`   | dotted quarter  |\n| `2`   | eighth        | | `8`   | half            |\n| `3`   | dotted eighth | | `12`  | dotted half     |\n| `4`   | quarter       | | `16`  | whole           |\n\nA token is `<note>:<duration>` — `C5:4` (`C4` is middle C), `F#5:2`, `Bb4:8`, `R:4` for a rest,\n`[Am]E5:4` to change chord mid-bar. **There is no tie syntax**: a note may not cross a barline.\n\n## 4. Hard rules — the validator rejects these\n\n1. **Exactly 32 bars.**\n2. **Every bar's durations sum to exactly 16.** The most common mistake. Add them up.\n3. **Every bar begins with a struck note on beat 1** — never a rest.\n4. **Range `G4` to `C6`.** Nothing lower, nothing higher.\n5. **Bar 32 is a single whole note on the tonic** — `C5:16` in C, `A5:16` in Am, `Bb5:16` in Bb.\n6. Chord suffixes: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.\n   A slash bass is allowed: `G/B`.\n\n## 5. Texture — the point of v4\n\n### Runs go between the landings\n\nEach 4-bar phrase is **three moving bars then one landing bar**. The moving bars carry the runs;\nthe landing bar holds. A run is four or more consecutive eighths (or sixteenths) moving mostly\n**by step** — a scale fragment, a turn, a neighbour-note figure. Not arpeggios: stepwise.\n\nAt least **14 of your 32 bars** must contain such a run. With 24 moving bars available that is\ncomfortable if your head figure is itself a run — and the ones below are.\n\n### Head figures — the rhythm of your moving bars\n\n| id | rhythm | eighths |\n|----|--------|---------|\n| E1 | `2 2 2 2 2 2 2 2`   | 8 |\n| E2 | `2 2 2 2 2 2 4`     | 6 |\n| E3 | `4 2 2 2 2 2 2`     | 6 |\n| E4 | `2 2 1 1 2 2 2 2 2` | 7 + two sixteenths |\n| E5 | `1 1 2 2 2 2 2 2 2` | 7 + two sixteenths |\n| E6 | `2 2 2 2 2 2 1 1 2` | 7 + two sixteenths |\n| E7 | `2 2 2 1 1 2 2 2 2` | 7 + two sixteenths |\n| E8 | `2 2 2 2 2 2 2 2`   | 8 (same as E1; use a different contour) |\n\n### Syncopation figures — use yours across the B section and at least 3 other bars\n\nEach one displaces a longer note off the beat while staying inside the bar.\n\n| id | rhythm | | id | rhythm |\n|----|--------|-|----|--------|\n| Y1 | `2 4 2 2 2 2 2` | | Y5 | `2 6 2 2 2 2` |\n| Y2 | `2 2 4 2 2 2 2` | | Y6 | `2 2 6 2 2 2` |\n| Y3 | `2 2 2 4 2 2 2` | | Y7 | `4 2 2 6 2` |\n| Y4 | `2 2 2 2 4 2 2` | | Y8 | `2 4 4 2 2 2` |\n\n### Landing figures — one per 8-bar section\n\n| section | bars | landing bars | figure |\n|---------|------|--------------|--------|\n| A       | 1–8   | **4 and 8**   | your 1st |\n| A′      | 9–16  | **12 and 16** | your 2nd |\n| B       | 17–24 | **20 and 24** | your 3rd |\n| A″      | 25–32 | **28**        | your 4th |\n\n**Both landing bars inside a section use the same figure. No two sections share a figure.**\nThe validator checks both.\n\n| id | rhythm    | halves |\n|----|-----------|--------|\n| LA | `4 4 8`   | 1 |\n| LB | `8 4 4`   | 1 |\n| LD | `6 2 8`   | 1 |\n| LE | `2 2 4 8` | 1 |\n| LH | `8 8`     | 2 |\n| LJ | `4 8 4`   | 1 |\n\nKeep the rhythm exactly; the pitches are yours, and the two landings in a section should differ\n— the first more open, the second more conclusive.\n\n### Where the half notes come from\n\nYour rotation supplies most of them. If you are still short of **10**, add a held half note at\nthe top of a phrase — the peak of a run is a natural place for the line to stop and breathe.\nDotted halves and whole notes do **not** count toward the half-note total.\n\n## 6. Structure — AABA, 8 bars each\n\n| bars  | section | what happens |\n|-------|---------|--------------|\n| 1–8   | **A**   | The tune, built on your head figure. **Ends OPEN** — bar 8 lands on the dominant and a non-tonic note. |\n| 9–16  | **A′**  | The tune again, varied. **Ends CLOSED** — bar 16 resolves to the tonic. |\n| 17–24 | **B**   | The bridge: different harmony (lean on IV, or the relative major/minor), your syncopation figure, and the song's single high point. |\n| 25–32 | **A″**  | The tune returns, its runs decorated with sixteenths. **Ends FINAL** — bar 32 is the tonic whole note. |\n\nWithin each section: bars 1–3 move (head figure, the shape sequencing by step each bar), bar 4\nlands, bars 5–7 move, bar 8 lands.\n\n## 7. Melody\n\n- **Step more than you leap** — this matters more than ever now that the line is mostly eighths.\n  A run of eighths should be a scale fragment or a turn, not a series of jumps.\n- **Land on chord tones** on beat 1, and usually beat 3.\n- **Sequence**: bars 1–3 sharing one rhythm with the shape moving by step is your strongest\n  device. Use it, and again in A″.\n- **One high point**, in B, reached once.\n- Never repeat the same pitch more than twice in a row.\n- **Tempo caution:** these are quick pieces. Sixteenths belong in short 2–4 note turns; above\n  170 BPM avoid them outside your head figure.\n\n## 8. Harmony\n\nOne chord loop across A, A′ and A″; a different one for B. One chord per bar.\n\n| key | chords |\n|-----|--------|\n| **C**  | C, Dm, Em, F, G, Am, G7, Cmaj7, Fmaj7, Dm7, Am7 |\n| **G**  | G, Am, Bm, C, D, Em, D7, Gmaj7, Cmaj7, Am7, Em7 |\n| **D**  | D, Em, F#m, G, A, Bm, A7, Dmaj7, Gmaj7, Em7, Bm7 |\n| **F**  | F, Gm, Am, Bb, C, Dm, C7, Fmaj7, Bbmaj7, Gm7, Dm7 |\n| **Bb** | Bb, Cm, Dm, Eb, F, Gm, F7, Bbmaj7, Ebmaj7, Cm7, Gm7 |\n| **Am** | Am, Dm, Em, F, G, C, E7, Am7, Dm7, Fmaj7 |\n| **Em** | Em, Am, Bm, C, D, G, B7, Em7, Am7, Cmaj7 |\n| **Dm** | Dm, Gm, Am, Bb, C, F, A7, Dm7, Gm7, Bbmaj7 |\n\nIn the minor keys use the major dominant (`E7` in Am, `B7` in Em, `A7` in Dm) at the A′ and A″\ncadences, with its raised leading tone (`G#`, `D#`, `C#`) in the melody.\n\n**Key signatures:** D has F# and C#. Bb has Bb and Eb. F and Dm have Bb. G and Em have F#.\n\n## 9. Check your work — required\n\n```bash\npython src/validate.py v4/songs/<slug>.json\n```\n\nFix every `ERROR` **and** every `WARNING`, then run it again. You are not finished until it\nprints `PASS`. The validator reports your actual eighth-note, half-note and run-bar counts, so\nthe texture warnings tell you exactly how far short you are.\n\nThen confirm by eye:\n\n- bars 4 and 8 share a figure; 12 and 16 a different one; 20 and 24 a third; 28 a fourth;\n- bars 8, 16 and 32 end differently (open / closed / final);\n- the bars *between* landings are runs, not walking quarters.\n\n## 10. File-format reference\n\n`src/example-song.json` is a valid, passing song — read it **for JSON syntax only**. It is a\n40-bar v1 song whose texture is exactly what v4 exists to replace.\n",
+    "songs": [
+      {
+        "slug": "vigil-am",
+        "title": "Night Vigil",
+        "key": "Am",
+        "tempo": 140,
+        "bars": 32,
+        "pdf": "songs/v4/vigil-am.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=140\nK:Am clef=treble\n\"Am\"e2f2g2a2g2f2e1d1c2 | \"Dm\"d2e2f2g2f2e2d1c1B2 | \"G\"d2 g4 f2 e2d2c2B2 | \"C\"c4 e4 g8 |\n\"F\"a2g2f2e2f2g2a1g1f2 | \"Dm\"g2f2e2d2e2f2g1f1e2 | \"E7\"d2e2f2^g2 b8 | \"E7\"a4 ^g4 e8 |\n\"Am\"e2d2c2B2c2d2e1f1g2 | \"Dm\"f2e2d2c2d2e2f1g1a2 | \"G\"g2 b4 a2 g2f2e2d2 | \"C\"c6 d2 e8 |\n\"F\"f2g2a2g2f2e2f1g1a2 | \"Dm\"b2a2g2f2e2d2e1f1g2 | \"E7\"a2b2a2f2 ^g8 | \"Am\"a6 g2 a8 |\n\"F\"a2 f4 g2 a2g2f2e2 | \"C\"g2 e4 f2 g2a2b2g2 | \"Dm\"a2 b4 c'2 b2a2g2f2 | \"G\"e8 d8 |\n\"F\"f2 a4 g2 f2e2d2c2 | \"C\"e2 g4 f2 e2d2c2B2 | \"Dm\"d2 f4 e2 f2g2a2b2 | \"E7\"b8 ^g8 |\n\"Am\"a2g2f2e2d2e2f1g1a2 | \"Dm\"g2f2e2d2c2d2e1f1g2 | \"G\"f2 d4 e2 f2g2a2b2 | \"C\"a4 g8 e4 |\n\"F\"f2g2a2g2f2e2d1e1f2 | \"Dm\"a2g2f2e2d2c2d1e1f2 | \"E7\"^g2 b4 a2 g2e2f2g2 | \"Am\"Ha16 |]\n"
+      },
+      {
+        "slug": "amber-bb",
+        "title": "Amber Tide",
+        "key": "Bb",
+        "tempo": 138,
+        "bars": 32,
+        "pdf": "songs/v4/amber-bb.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=138\nK:Bb clef=treble\n\"Bb\"B1c1d2e2f2d2e2c2d2 | \"Cm7\"c1d1e2f2g2e2f2d2e2 | \"Dm\"d1e1f2g2a2f2g2a2b2 | \"Gm7\"a4 f8 d4 |\n\"Ebmaj7\"B1c1d2e2f2g2f2e2d2 | \"F7\"c2d2 f6 e2 d2c2 | \"Gm7\"d1e1f2g2a2b2a2g2f2 | \"F\"g4 f8 c4 |\n\"Bb\"B1c1d2f2e2d2c2e2d2 | \"Cm7\"c1d1e2g2f2e2d2f2e2 | \"Dm\"d2e2f2g2 a8 | \"Gm7\"g2f2 e4 d8 |\n\"Ebmaj7\"B1c1d2f2g2b2g2f2e2 | \"Cm7\"c2d2 e6 f2 e2d2 | \"F7\"c1d1e2f2e2c2d2e2f2 | \"Bb\"d2c2 d4 B8 |\n\"Ebmaj7\"d2e2 g6 f2 e2d2 | \"Bb\"f2g2 b6 a2 g2f2 | \"Cm7\"g2a2b2a2 c'8 | \"F\"a8 g4 f4 |\n\"Ebmaj7\"g2f2 d6 e2 f2g2 | \"Gm\"b2a2 g6 f2 e2d2 | \"Cm7\"c2d2e2f2 g8 | \"F7\"f8 e4 c4 |\n\"Bb\"B1c1d2e2f2d2e2c2d2 | \"Cm7\"c1d1e2f2g2e2f2d2e2 | \"Dm\"d1e1f2g2a2f2g2b2a2 | \"Gm7\"b8 f8 |\n\"Ebmaj7\"d1e1f2g2b2g2f2e2d2 | \"Cm7\"c2d2 e6 f2 g2e2 | \"F7\"c1d1e2f2g2e2f2g2a2 | \"Bb\"Hb16 |]\n"
+      },
+      {
+        "slug": "kite-c",
+        "title": "Kite Weather",
+        "key": "C",
+        "tempo": 152,
+        "bars": 32,
+        "pdf": "songs/v4/kite-c.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=152\nK:C clef=treble\n\"C\"c2d2e2f2g2a2g2f2 | \"Dm7\"d2e2 f4 g2a2g2f2 | \"Em\"e2f2g2a2b2a2g2f2 | \"F\"a8 g8 |\n\"C\"g2f2e2d2c2d2e2g2 | \"Am\"a2g2 f4 e2d2c2d2 | \"Dm7\"e2f2g2f2e2d2c2d2 | \"G\"B8 d8 |\n\"C\"e2d2c2d2e2f2g2a2 | \"Dm7\"f2e2 d4 e2f2g2a2 | \"Em\"b2a2g2f2e2f2g2a2 | \"F\"g4 f4 a8 |\n\"C\"g2f2e2d2c2d2e2f2 | \"F\"a2g2f2g2 a8 | \"G7\"b2a2g2f2e2d2e2f2 | \"C\"e4 d4 c8 |\n\"F\"f2g2 a4 g2f2e2f2 | \"Em\"g2a2 b4 a2g2f2g2 | \"Dm7\"a2b2 a4 g2f2e2f2 | \"G\"g2f2 e4 d8 |\n\"F\"e2f2 g4 a2b2a2g2 | \"Am7\"a2g2a2b2 c'8 | \"Dm7\"b2a2 g4 f2e2d2e2 | \"G7\"f2e2 d4 B8 |\n\"C\"c2d2e1f1e2f2g2f2e2 | \"Dm7\"d2e2f2g1f1e2f2g2a2 | \"Em\"b2a2g2f2e2f2g1a1b2 | \"F\"a8 g4 f4 |\n\"C\"e1d1c2d2e2f2g2a2g2 | \"F\"f2g2a1b1a2g2f2e2f2 | \"G7\"g2a2b2a2g2f2e1d1B2 | \"C\"Hc16 |]\n"
+      },
+      {
+        "slug": "beacon-d",
+        "title": "Wide Morning",
+        "key": "D",
+        "tempo": 160,
+        "bars": 32,
+        "pdf": "songs/v4/beacon-d.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=160\nK:D clef=treble\n\"D\"d4 e2f2a2g2f2e2 | \"Bm\"f4 e2d2B2c2d2e2 | \"G\"g4 f2e2d2e2f2g2 | \"A\"f2e2 d4 e8 |\n\"D\"a4 g2f2d2e2f2g2 | \"Bm\"f4 g2f2 e6 d2 | \"Em7\"B4 c2d2e2f2g2f2 | \"A7\"e2d2 B4 c8 |\n\"D\"d2e2f2g2a2g2f2e2 | \"Bm\"f4 e2d2c2d2e2f2 | \"G\"g2f2e2f1g1a2g2f2e2 | \"A\"d4 c8 B4 |\n\"D\"d4 e2f2a2g2f2e2 | \"G\"g4 f2g2 a6 g2 | \"A7\"a2g2f2e2d2e2f1g1e2 | \"D\"f4 e8 d4 |\n\"G\"g4 f2e2 f6 g2 | \"F#m\"a4 g2f2 e6 f2 | \"Em7\"g2f2e1f1g2a2g2f2e2 | \"Bm\"f8 d8 |\n\"D\"f4 g2a2 g6 f2 | \"G\"e2f2g2a2 b8 | \"Em7\"g4 a2g2 e6 d2 | \"A7\"c8 e8 |\n\"D\"d1e1f2e2d2e2f2a2g2 | \"Bm\"f4 e2d2 c6 d2 | \"G\"B2c2d2e2f2g2a1g1f2 | \"A\"e4 d4 c8 |\n\"D\"d2e1f1e2d2 f8 | \"G\"g4 f2e2 d6 e2 | \"A7\"g2f2e1d1c2d2e2d2c2 | \"D\"Hd16 |]\n"
+      },
+      {
+        "slug": "reel-dm",
+        "title": "Ember Reel",
+        "key": "Dm",
+        "tempo": 150,
+        "bars": 32,
+        "pdf": "songs/v4/reel-dm.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=150\nK:Dm clef=treble\n\"Dm\"d2e2f2e2d2f2g2f2 | \"C\"e2f2g2f2e2g2a2g2 | \"Bb\"f2g2a2g2f2a2b2a2 | \"F\"f4 g4 a8 |\n\"Dm\"a2g2f2g2a2f2e2d2 | \"Gm7\"f2 g4 f4 e2 d2c2 | \"C\"c2d2e2f2e2d2e1f1g2 | \"Am\"a4 g4 e8 |\n\"Dm\"d2e2f2e2d2f2g2a2 | \"C\"g2a2b2a2g2f2e2d2 | \"Bb\"f2 a4 g4 f2 e2g2 | \"F\"a8 f8 |\n\"Dm\"a2g2f2e2d2f2a2g2 | \"Bbmaj7\"f2g2a1g1f2e2d2e2f2 | \"A7\"e2d2^c2d2e2g2e2c2 | \"Dm\"d8 a8 |\n\"Gm7\"g2 b4 a4 g2 f2e2 | \"Bb\"d2 f4 e4 d2 e2f2 | \"C\"g2 b4 a4 g2 a2b2 | \"F\"a8 g4 f4 |\n\"Gm7\"g2 a4 b4 a2 g2f2 | \"F\"a2g2a2b2 c'8 | \"Bbmaj7\"b2a2g2a1g1f2e2f2g2 | \"A7\"e8 d4 ^c4 |\n\"Dm\"d1e1f2e2d2e2f2g2a2 | \"C\"g2 a4 g4 f2 d2e2 | \"Bb\"d2e2f2g2f2e2f1a1g2 | \"F\"a2g2 a4 f8 |\n\"Dm\"a2g2f2g1a1b2a2f2g2 | \"Gm7\"f2g2a2g2 f8 | \"A7\"g1f1e2d2e2g2e2d2^c2 | \"Dm\"Hd16 |]\n"
+      },
+      {
+        "slug": "drift-em",
+        "title": "Night Traffic",
+        "key": "Em",
+        "tempo": 172,
+        "bars": 32,
+        "pdf": "songs/v4/drift-em.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=172\nK:Em clef=treble\n\"Em\"e2g2f2g1a1b2a2g2f2 | \"C\"g2f2e2f1g1a2g2f2e2 | \"Am\"c2d2e2f1g1a2b2a2g2 | \"D\"f8 a8 |\n\"Em\"b2a2g2f1e1g2f2e2d2 | \"C\"e2f2g2a2 g4 f2e2 | \"Am7\"a2g2e2f1g1a2g2f2e2 | \"Bm\"d8 f8 |\n\"Em\"g2a2b2a1g1b2a2g2f2 | \"C\"e2g2a2b1a1g2f2g2e2 | \"Am\"a2g2f2g1a1g2f2e2d2 | \"D\"f4 a8 f4 |\n\"Em\"e2f2g2a1b1g2a2g2f2 | \"C\"e2f2g2a2 b4 a2g2 | \"B7\"a2g2f2g1a1f2e2f2^d2 | \"Em\"e4 g8 e4 |\n\"Am7\"g2a2b2a2 g4 e2g2 | \"D\"f2g2a2b2 a4 g2f2 | \"G\"g2f2g2a2 b4 a2g2 | \"Cmaj7\"b6 a2 g8 |\n\"G\"d2e2f2g2 b4 a2g2 | \"Cmaj7\"e2g2a2b2 c'8 | \"Am7\"a2g2f2e2 g4 f2e2 | \"B7\"f6 e2 ^d8 |\n\"Em\"e2g2f2g1a1b2a2g2f2 | \"C\"e2g2a2b2 a4 g2e2 | \"Am\"a2b2a2g1f1e2g2f2e2 | \"D\"f2g2 a4 f8 |\n\"Em\"e2g2a2b1a1g2f2e2d2 | \"C\"e2g2a2b2 a4 g2f2 | \"B7\"a2g2f2e1f1a2f2e2^d2 | \"Em\"He16 |]\n"
+      },
+      {
+        "slug": "swift-f",
+        "title": "Quicksilver Morning",
+        "key": "F",
+        "tempo": 168,
+        "bars": 32,
+        "pdf": "songs/v4/swift-f.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=168\nK:F clef=treble\n\"F\"f2g2a1b1a2g2f2e2d2 | \"Dm7\"d2e2f1g1f2e2d2c2B2 | \"Bbmaj7\"B2c2d1e1f2g2a2b2a2 | \"C7\"g6 f2 e8 |\n\"F\"f2g2a1b1a2g2f2e2d2 | \"Dm7\"d2e2 f2 g4 a2 g2f2 | \"Gm7\"g2a2b2a2g2f2e2d2 | \"C7\"e6 d2 c8 |\n\"F\"c2d2e1f1g2f2e2d2c2 | \"Dm7\"d2e2f1g1a2g2f2e2d2 | \"Bbmaj7\"d2e2f2g2 a8 | \"C7\"g8 f4 e4 |\n\"F\"c2d2e1f1g2f2e2d2c2 | \"Dm7\"d2e2 f2 a4 g2 f2e2 | \"C7\"e2f2g2a2b2a2g2f2 | \"F\"a8 g4 f4 |\n\"Bbmaj7\"f2g2 a2 b4 a2 g2f2 | \"Gm7\"g2a2 b2 a4 g2 f2e2 | \"F\"f2g2a2b2 c'8 | \"C7\"b4 a4 g8 |\n\"Bbmaj7\"b2a2 g2 f4 g2 a2b2 | \"Am\"a2g2 f2 e4 f2 g2a2 | \"Gm7\"g2a2b2a2g2f2e2d2 | \"C7\"e4 d4 c8 |\n\"F\"f2g2a1b1a2g2f2e2d2 | \"Dm7\"d2e2 f2 g4 a2 g2f2 | \"Bbmaj7\"f2g2a2b2 a8 | \"C7\"g8 e8 |\n\"F\"f2e2d1c1d2e2f2g2a2 | \"Dm7\"a2g2 f2 e4 d2 e2f2 | \"C7\"e2f2g2a2b2a2g2e2 | \"F\"Hf16 |]\n"
+      },
+      {
+        "slug": "harbour-g",
+        "title": "Harbour Light",
+        "key": "G",
+        "tempo": 144,
+        "bars": 32,
+        "pdf": "songs/v4/harbour-g.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=144\nK:G clef=treble\n\"G\"G2A2B2c2d2c2 B4 | \"Am7\"A2B2c2d2e2d2 c4 | \"Bm\"B2c2d2e2f2e2 d4 | \"D\"f8 g4 a4 |\n\"G\"b2a2g2f2e2f2 g4 | \"Em7\"g2f2e2d2B2c2 d4 | \"Am7\"e2 d6 c2B2A2G2 | \"D7\"A8 B4 c4 |\n\"G\"d2e2d2c2B2c2 d4 | \"Am7\"e2f2e2d2c2d2 e4 | \"Bm\"f2g2f2e2d2e2 f4 | \"D\"a8 f8 |\n\"G\"g2 a6 g2f2e2d2 | \"Em7\"e2 f6 e2d2c2B2 | \"D7\"c2 d6 e2f2g2a2 | \"G\"b8 g8 |\n\"C\"e2 g6 a2g2f2e2 | \"Am7\"g2 a6 b2a2g2f2 | \"C\"e2g2a2b2 c'8 | \"D\"a4 g8 f4 |\n\"Em\"e2 g6 f2e2d2c2 | \"Bm\"d2 f6 e2d2c2B2 | \"Am7\"c2 e6 d2c2B2A2 | \"D7\"d4 c8 B4 |\n\"G\"G2A2B1c1d2c2B2 d4 | \"Am7\"A2B2c1d1e2d2c2 e4 | \"Bm\"B2c2d1e1f2e2d2 f4 | \"D\"a6 g2 f8 |\n\"G\"b2a2g1f1e2d2c2 B4 | \"Em7\"B2c2d1e1f2g2a2 g4 | \"D7\"f2e2d1c1B2c2d2 f4 | \"G\"Hg16 |]\n"
+      }
+    ]
+  },
+  {
+    "id": "v3",
+    "label": "32-bar AABA, cadence rotates every 8 bars, double tempo",
+    "bars": 32,
+    "spec": "# Songwriting spec v3 — 32-bar AABA, rotating cadence\n\nYou are writing **one song** as a single JSON file. A build script turns it into engraved sheet\nmusic (PDF) and playable audio. Your job is only the JSON.\n\nThe target is a **beginner–intermediate pianist**: single-line melody in the treble clef with\nchord symbols above it. No left-hand part, no bass clef.\n\nThe song must be **predictable and catchy** — a listener should be able to hum where the tune is\ngoing — while having real rhythmic life: eighths, sixteenths, and genuine syncopation.\n\n> ### What changed from v2, and why\n> **v1's problem:** every *song* ended every phrase the same way, and so did every other song.\n> **v2 fixed the cross-song half** by assigning each song its own landing figure.\n> **v2's remaining problem:** each song still used that one figure for all seven phrase endings,\n> so a single song got monotonous even though the set was varied.\n>\n> **v3 rotates the cadence.** You get **four** landing figures, one per 8-bar section. The two\n> phrase endings *inside* a section share a figure; each section uses a *different* one. So the\n> ear gets a pattern it can learn (8 bars) and then a fresh one.\n>\n> Tempos are also roughly double v2's — these are quicker pieces.\n\n---\n\n## 1. Your assignment\n\nYour dispatch message gives you a **song card**: a key, a tempo, a character, a **head figure**,\na **syncopation figure**, and a **landing rotation** of four figures. Those are binding. Build\nthe whole piece out of them.\n\n## 2. The file\n\nWrite exactly one file: `v3/songs/<slug>.json`\n\n```json\n{\n  \"title\": \"Paper Kite\",\n  \"key\": \"C\",\n  \"tempo\": 152,\n  \"bars\": [\n    { \"chord\": \"C\",  \"notes\": \"C5:4 E5:4 G5:2 A5:2 G5:4\" },\n    { \"chord\": \"Am\", \"notes\": \"A5:4 G5:4 E5:2 D5:2 C5:4\" }\n  ]\n}\n```\n\n- `title` — 1–3 words, evocative, no colon or dash.\n- `key` — exactly as given on your card: `C`, `G`, `D`, `F`, `Bb`, `Am`, `Em`, or `Dm`.\n- `tempo` — the number on your card (v3 tempos run 130–200).\n- `bars` — exactly **32** objects.\n\n## 3. The note language\n\nEvery bar is 4/4. **Durations are counted in sixteenth notes, so every bar sums to exactly 16.**\n\n| write | means         | | write | means           |\n|-------|---------------|-|-------|-----------------|\n| `1`   | sixteenth     | | `6`   | dotted quarter  |\n| `2`   | eighth        | | `8`   | half            |\n| `3`   | dotted eighth | | `12`  | dotted half     |\n| `4`   | quarter       | | `16`  | whole           |\n\nA token is `<note>:<duration>`:\n\n- `C5:4` — `C4` is middle C, so `C5` sits in the treble staff.\n- `F#5:2` `Bb4:8` — accidentals with `#` / `b`.\n- `R:4` — a quarter rest.\n- `[Am]E5:4` — changes the chord *mid-bar*, starting at this note.\n\nThere is deliberately **no tie syntax**. A note may not be held across a barline.\n\n## 4. Hard rules — the validator rejects these\n\n1. **Exactly 32 bars.**\n2. **Every bar's durations sum to exactly 16.** The most common mistake. Add them up.\n3. **Every bar begins with a struck note on beat 1** — never a rest.\n4. **Range `G4` to `C6`.** Nothing lower, nothing higher.\n5. **Bar 32 is a single whole note on the tonic** — `C5:16` in C, `A5:16` in Am, `Bb5:16` in Bb,\n   `D5:16` in D and Dm, and so on.\n6. Chord symbols use a root (`A`–`G`, optional `#`/`b`) plus one of:\n   `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.\n   A slash bass is allowed: `G/B`.\n\n## 5. The landing rotation — the heart of v3\n\nA **landing bar** is the last bar of a 4-bar phrase: bars 4, 8, 12, 16, 20, 24, 28.\n(Bar 32 is the final whole note and is exempt.)\n\nYour card gives four figures in order. Apply them by section:\n\n| section | bars | landing bars | figure |\n|---------|------|--------------|--------|\n| A       | 1–8   | **4 and 8**   | your 1st |\n| A′      | 9–16  | **12 and 16** | your 2nd |\n| B       | 17–24 | **20 and 24** | your 3rd |\n| A″      | 25–32 | **28**        | your 4th |\n\n**Both landing bars inside a section use the same figure. No two sections share a figure.**\nThe validator checks both of these and warns if you slip.\n\nThe figures you may be assigned:\n\n| id | rhythm    | feel |\n|----|-----------|------|\n| LA | `4 4 8`   | quarter, quarter, half — the plain full stop |\n| LB | `8 4 4`   | lands long, then walks onward |\n| LC | `4 12`    | one step, then a long hold |\n| LD | `6 2 8`   | lilt into a held note |\n| LE | `2 2 4 8` | two eighths, quarter, half |\n| LF | `12 4`    | held, with a quarter that pushes into the next phrase |\n| LG | `2 2 12`  | a quick pair, then a long hold |\n| LH | `8 8`     | two halves — the stillest ending |\n| LJ | `4 8 4`   | short, long, short |\n\nKeep the *rhythm* exactly; the *pitches* are yours, and should differ between the two landings\nin a section — the first one open, the second more conclusive.\n\n## 6. Head and syncopation figures\n\n### Head figures — the rhythm of your tune's moving bars\n\n| id | rhythm | | id | rhythm |\n|----|--------|-|----|--------|\n| H1 | `2 2 4 4 4`   | | H5 | `6 2 4 4` |\n| H2 | `4 4 2 2 4`   | | H6 | `4 2 4 2 4` |\n| H3 | `4 2 2 4 4`   | | H7 | `3 1 4 4 4` |\n| H4 | `2 2 2 2 4 4` | | H8 | `2 2 2 2 2 2 4` |\n\n### Syncopation figures — use yours across the B section and at least 3 other bars\n\n| id | rhythm | | id | rhythm |\n|----|--------|-|----|--------|\n| S1 | `4 2 4 2 4`   | | S5 | `6 6 4` |\n| S2 | `2 4 4 4 2`   | | S6 | `4 6 2 4` |\n| S3 | `3 1 3 1 4 4` | | S7 | `2 2 4 6 2` |\n| S4 | `2 4 2 4 4`   | | S8 | `4 4 6 2` |\n\n### Sixteenth runs — use at least four bars containing sixteenths\n\n```\n1 1 1 1 4 4 4            a turn on beat 1\n4 1 1 1 1 4 4            a turn on beat 2\n2 1 1 2 2 4 4            a flick inside running eighths\n1 1 1 1 1 1 1 1 4 4      a half-bar scale run\n```\n\n**Tempo matters here.** These are fast pieces. At 170 BPM and above, use short turns of two to\nfour sixteenths and avoid the half-bar scale run — it becomes unplayable for the target pianist.\nBelow 150 you have more room.\n\n## 7. Structure — AABA, 8 bars each\n\n| bars  | section | what happens |\n|-------|---------|--------------|\n| 1–8   | **A**   | The tune, plainly, built on your head figure. **Ends OPEN** — bar 8 lands on the dominant and a non-tonic note. |\n| 9–16  | **A′**  | The tune again, varied. **Ends CLOSED** — bar 16 resolves to the tonic. |\n| 17–24 | **B**   | The bridge. Different harmony (lean on IV, or the relative major/minor), your syncopation figure, and the song's single high point. |\n| 25–32 | **A″**  | The tune returns, decorated with sixteenth runs. **Ends FINAL** — bar 32 is the tonic whole note. |\n\nWithin each 8-bar section: bars 1–3 move (head figure, pitches sequencing by step each bar),\nbar 4 lands, bars 5–7 move, bar 8 lands.\n\n## 8. Melody\n\n- **Step more than you leap.** Most intervals a second or a third; after a leap, step back.\n- **Land on chord tones** on beat 1, and usually beat 3.\n- **Sequence**: bars 1–3 sharing one rhythm with the shape moving by step is the single most\n  effective device you have. Use it, and again in A″.\n- **One high point**, in B, reached once.\n- Never repeat the same pitch more than twice in a row.\n\n## 9. Harmony\n\nSet up a chord loop and reuse it across A, A′ and A″; give B a different one. One chord per bar.\n\n| key | chords |\n|-----|--------|\n| **C**  | C, Dm, Em, F, G, Am, G7, Cmaj7, Fmaj7, Dm7, Am7 |\n| **G**  | G, Am, Bm, C, D, Em, D7, Gmaj7, Cmaj7, Am7, Em7 |\n| **D**  | D, Em, F#m, G, A, Bm, A7, Dmaj7, Gmaj7, Em7, Bm7 |\n| **F**  | F, Gm, Am, Bb, C, Dm, C7, Fmaj7, Bbmaj7, Gm7, Dm7 |\n| **Bb** | Bb, Cm, Dm, Eb, F, Gm, F7, Bbmaj7, Ebmaj7, Cm7, Gm7 |\n| **Am** | Am, Dm, Em, F, G, C, E7, Am7, Dm7, Fmaj7 |\n| **Em** | Em, Am, Bm, C, D, G, B7, Em7, Am7, Cmaj7 |\n| **Dm** | Dm, Gm, Am, Bb, C, F, A7, Dm7, Gm7, Bbmaj7 |\n\nIn the minor keys use the major dominant (`E7` in Am, `B7` in Em, `A7` in Dm) at the A′ and A″\ncadences, with its raised leading tone in the melody (`G#`, `D#`, `C#`). That is the one place a\nchromatic note belongs.\n\n**Key signatures to remember:** D has F# and C#. Bb has Bb and Eb — so write `Bb5`, `Eb5`.\nF has Bb. G and Em have F#. Dm has Bb.\n\n## 10. Check your work — required\n\n```bash\npython src/validate.py v3/songs/<slug>.json\n```\n\nFix every `ERROR` **and** every `WARNING`, then run it again. You are not finished until it\nprints `PASS`. The validator checks the landing rotation directly and will tell you which\nsection repeated a figure.\n\nThen re-read your own file once and confirm, by eye:\n\n- bars 4 and 8 share a figure; 12 and 16 share a different one; 20 and 24 a third; 28 a fourth;\n- bars 8, 16 and 32 end **differently** from each other (open / closed / final);\n- your syncopation figure appears in B and at least 3 other bars;\n- at least four bars contain sixteenths, and none of them are too fast for your tempo.\n\n## 11. File-format reference\n\n`src/example-song.json` is a valid, passing song you can read **to understand the JSON format\nand the note language only**. It is a 40-bar v1 song: its structure, its figures and its single\nrepeated landing are all things v3 exists to avoid. Use it for syntax, nothing else.\n",
+    "songs": [
+      {
+        "slug": "vigil-am",
+        "title": "Night Vigil",
+        "key": "Am",
+        "tempo": 136,
+        "bars": 32,
+        "pdf": "songs/v3/vigil-am.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=136\nK:Am clef=treble\n\"Am\"a4 g2f2 e4 c4 | \"G\"g4 f2e2 d4 B4 | \"F\"f4 e2d2 c4 A4 | \"E7\"B6 d2 e8 |\n\"Am\"a4 g2f2 e4 c4 | \"G\"B2 d4 e2 g4 f4 | \"Dm\"d2 e4 f2 a4 f4 | \"Em\"g6 a2 b8 |\n\"Am\"a4 b2a2 g4 e4 | \"G\"g4 a2g2 f4 d4 | \"F\"f4 g1a1g1f1 a4 g4 | \"E7\"b12 ^g4 |\n\"Am\"a4 g2f2 e4 c4 | \"Dm\"d2 f4 e2 d4 f4 | \"E7\"e4 f1^g1a1b1 a4 g4 | \"Am\"a12 e4 |\n\"Dm\"d2 f4 e2 f4 a4 | \"G\"g2 a4 g2 b4 a4 | \"C\"g2 a4 g2 e4 g4 | \"F\"f4 a8 g4 |\n\"Dm\"a2 g4 f2 g4 a4 | \"C\"g2 b4 c'2 b4 g4 | \"F\"f2 a4 g2 a4 f4 | \"E7\"e4 ^g8 b4 |\n\"Am\"a4 g2f2 e4 c4 | \"G\"B2c1d1e2f2 g4 d4 | \"F\"f1g1a1g1 f4 a4 g4 | \"E7\"a2^g2 b4 g8 |\n\"Am\"a1b1a1g1 a4 e4 c4 | \"Dm\"d2e1f1e2d2 f4 a4 | \"E7\"^g4 a1b1a1g1 e4 g4 | \"Am\"Ha16 |]\n"
+      },
+      {
+        "slug": "amber-bb",
+        "title": "Amber Current",
+        "key": "Bb",
+        "tempo": 132,
+        "bars": 32,
+        "pdf": "songs/v3/amber-bb.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=132\nK:Bb clef=treble\n\"Bb\"d6 e2 f4 d4 | \"Cm7\"e6 f2 g4 e4 | \"Dm\"f6 g2 a4 f4 | \"F\"a4 g4 f8 |\n\"Bb\"f6 e2 d4 f4 | \"Eb\"e6 d2 B4 d4 | \"Cm7\"e4 d4 c6 e2 | \"F7\"f4 e4 c8 |\n\"Bb\"B6 c2 d4 e4 | \"Cm7\"c6 d2 e4 f4 | \"Dm\"d6 e2 f4 g4 | \"F\"a4 f12 |\n\"Bb\"f4 d4 B6 d2 | \"Eb\"B2c1d1e2f2 e4 g4 | \"F7\"a4 g4 f6 e2 | \"Bb\"c4 B12 |\n\"Ebmaj7\"B4 c4 d6 e2 | \"Bb\"d4 e4 f6 g2 | \"Gm7\"g4 a4 b6 a2 | \"Cm7\"g2b2 c'12 |\n\"Ebmaj7\"b4 a4 g6 f2 | \"Bb\"f4 e4 d6 c2 | \"Cm7\"c4 d4 e6 g2 | \"F7\"f2e2 c12 |\n\"Bb\"d6 e2 f4 g1f1e1d1 | \"Cm7\"e6 f2 g4 a1g1f1e1 | \"Dm\"f6 g2 a4 b1a1g1f1 | \"F\"a6 g2 f8 |\n\"Bb\"d4 f1e1d1c1 B4 d4 | \"Eb\"e2d1e1f2g2 b4 g4 | \"F7\"f4 e4 f6 a2 | \"Bb\"Hb16 |]\n"
+      },
+      {
+        "slug": "kite-c",
+        "title": "Kite Weather",
+        "key": "C",
+        "tempo": 152,
+        "bars": 32,
+        "pdf": "songs/v3/kite-c.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=152\nK:C clef=treble\n\"C\"c4 e4 g2e2 d4 | \"Dm7\"d4 f4 a2f2 e4 | \"Em\"e4 g4 b2g2 f4 | \"G\"f4 d12 |\n\"C\"e4 g4 a2g2 e4 | \"Am\"a4 g4 e2d2 c4 | \"Dm7\"d4 f2 a4 g2 f4 | \"G\"a4 g12 |\n\"C\"g4 e4 g2a2 g4 | \"Dm7\"a4 f4 a2b2 a4 | \"Em\"b4 g4 b2a1g1 e4 | \"G7\"d2e2 f4 d8 |\n\"C\"c4 e2 g4 a2 g4 | \"F\"a4 f4 a2g1f1 e4 | \"G7\"d4 g2 f4 e2 d4 | \"C\"e2d2 e4 c8 |\n\"F\"f4 g2 a4 g2 f4 | \"G\"g4 a2 b4 a2 g4 | \"Am\"a4 b2 c'4 b2 a4 | \"Em\"g8 e8 |\n\"F\"f4 g2 a4 b2 a4 | \"G\"g4 a2 b4 a2 g4 | \"Dm7\"a4 g2 f4 e2 d4 | \"G7\"f8 d8 |\n\"C\"c1d1e1g1 e4 g2a2 g4 | \"Dm7\"d4 f4 a2g1f1 e4 | \"Em\"e4 g1a1b1a1g2b2 g4 | \"G7\"f4 e4 d8 |\n\"C\"e1g1a1b1 g4 e2g2 e4 | \"F\"f4 a4 g2a1g1 f4 | \"G7\"g4 f1e1d1e1f2d2 B4 | \"C\"Hc16 |]\n"
+      },
+      {
+        "slug": "beacon-d",
+        "title": "Beacon Weather",
+        "key": "D",
+        "tempo": 168,
+        "bars": 32,
+        "pdf": "songs/v3/beacon-d.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=168\nK:D clef=treble\n\"D\"d2a2g2f2a2g2 f4 | \"Em7\"e2a2g2f2g2f2 e4 | \"F#m\"f2a2g2e2f2g2 a4 | \"G\"g4 d8 e4 |\n\"D\"d2a2g2f2a2g2 e4 | \"Bm\"d2f2a2g2f2e2 d4 | \"Em7\"e2g2 a4 g6 f2 | \"A\"e4 c8 A4 |\n\"D\"d2e2f2g2a2g2 f4 | \"Em7\"e2f2g2a2g2f2 e4 | \"F#m\"f2g2a2g2f2e2 d4 | \"G\"g8 a8 |\n\"D\"a2g1f1g2a2 f4 d4 | \"G\"d4 e1f1g1a1 g4 f4 | \"A7\"e2d2 c4 e6 g2 | \"D\"f8 d8 |\n\"G\"g2f2 e4 d6 e2 | \"D\"f2g2 a4 f6 a2 | \"Em7\"g2f2e2f2g2a2 g4 | \"Bm\"f8 g4 a4 |\n\"G\"g2a2 g4 b6 a2 | \"Bm7\"a2g2 f4 d6 e2 | \"Em7\"e2f2 g4 e6 f2 | \"A7\"e8 d4 c4 |\n\"D\"d1e1f1e1 d4 a4 f4 | \"Em7\"e4 f1g1f1e1 g4 a4 | \"F#m\"f2g2a2g2f2d2 e4 | \"G\"d2e2 g12 |\n\"D\"f2g1f1e2d2 a4 f4 | \"G\"g4 a1g1f1e1 d4 e4 | \"A7\"g2f2 e4 c6 e2 | \"D\"Hd16 |]\n"
+      },
+      {
+        "slug": "reel-dm",
+        "title": "Turning Reel",
+        "key": "Dm",
+        "tempo": 156,
+        "bars": 32,
+        "pdf": "songs/v3/reel-dm.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=156\nK:Dm clef=treble\n\"Dm\"a3g1 f4 d4 f4 | \"C\"g3f1 e4 c4 e4 | \"Bb\"f3e1 d4 f4 d4 | \"Am\"e12 f4 |\n\"Dm\"a3g1 f4 d4 f4 | \"Gm\"g3a1 b4 g4 d4 | \"C\"e2 g4 a4 g4 f2 | \"Am\"a12 e4 |\n\"Dm\"a3b1 a4 f4 d4 | \"C\"g3a1 g4 e4 g4 | \"Bb\"f3g1 a4 f4 a4 | \"Gm\"b6 a2 g8 |\n\"Dm\"a3b1 a4 f4 a4 | \"Gm\"b3a1 g4 b4 a4 | \"A7\"g2 e4 ^c4 e4 c2 | \"Dm\"d6 e2 d8 |\n\"Bb\"f2 d4 f4 b4 a2 | \"F\"f2 a4 g4 f4 a2 | \"Gm\"b2 a4 g4 b4 a2 | \"C\"g2a2 g4 e8 |\n\"Bb\"f2 a4 b4 c'4 b2 | \"F\"a2 g4 f4 a4 f2 | \"Gm\"g2 b4 a4 g4 f2 | \"A7\"e2f2 e4 ^c8 |\n\"Dm\"d3e1 f4 a4 f4 | \"C\"e3f1 g4 e4 g4 | \"Bb\"f3g1 a4 f4 d4 | \"Am\"e8 f4 g4 |\n\"Dm\"a2g1f1e2f2 a4 f4 | \"Gm\"g3a1 b4 g4 d4 | \"A7\"e2 g4 a4 e4 ^c2 | \"Dm\"Hd16 |]\n"
+      },
+      {
+        "slug": "drift-em",
+        "title": "Headlong Drift",
+        "key": "Em",
+        "tempo": 176,
+        "bars": 32,
+        "pdf": "songs/v3/drift-em.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=176\nK:Em clef=treble\n\"Em\"b2a2 g4 f4 e4 | \"D\"a2g2 f4 e4 d4 | \"C\"g2f2 e4 d4 c4 | \"Bm\"d2f2 b12 |\n\"Em\"b2a2 g4 f4 e4 | \"D\"a2g2 f4 e4 f4 | \"Am7\"e4 g6 b2 a4 | \"Bm\"b2a2 f12 |\n\"Em\"b2a2 g4 f4 e4 | \"D\"a2g2 f4 e4 d4 | \"Cmaj7\"g2a2 b4 e4 g4 | \"Bm\"b8 a4 g4 |\n\"Em\"e2f2 g4 b4 a4 | \"D\"f1g1a1b1 a4 f4 d4 | \"Am7\"a4 g6 e2 g4 | \"B7\"f8 ^d4 \"Em\"e4 |\n\"Am\"e4 a6 g2 e4 | \"G\"d4 g6 f2 d4 | \"C\"e4 g6 a2 b4 | \"D\"a4 g4 f8 |\n\"Am\"a4 b6 a2 g4 | \"G\"b4 c'6 b2 g4 | \"C\"g4 a6 g2 e4 | \"Bm\"f4 e4 d8 |\n\"Em\"b1a1b1a1 g4 f4 e4 | \"D\"a1g1a1g1 f4 e4 d4 | \"C\"g1f1g1f1 e4 d4 c4 | \"Bm\"d8 f8 |\n\"Em\"b2a2 g4 f4 e4 | \"C\"g4 a6 g2 e4 | \"B7\"f2a2 b4 f4 ^d4 | \"Em\"He16 |]\n"
+      },
+      {
+        "slug": "swift-f",
+        "title": "Quicksilver",
+        "key": "F",
+        "tempo": 176,
+        "bars": 32,
+        "pdf": "songs/v3/swift-f.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=176\nK:F clef=treble\n\"F\"a4 b2 a4 g2 f4 | \"Gm7\"g4 a2 g4 f2 d4 | \"Dm7\"f4 g2 f4 e2 d4 | \"Bb\"f2g2 a4 d8 |\n\"F\"a4 b2 a4 g2 f4 | \"Bb\"b3a1g3a1 b4 f4 | \"Gm7\"g4 a2 b4 a2 g4 | \"C7\"b2a2 g4 e8 |\n\"F\"f4 g2 a4 b2 a4 | \"Gm7\"g4 a2 b4 a2 f4 | \"Dm7\"a4 b2 a4 g2 f4 | \"Bbmaj7\"d4 f4 a8 |\n\"F\"f3g1a3b1 a4 f4 | \"Bb\"d4 f2 b4 a2 g4 | \"C7\"e4 g2 b4 a2 g4 | \"F\"a4 g4 f8 |\n\"Bb\"b3a1g3f1 d4 f4 | \"Gm7\"g3a1b3a1 g4 d4 | \"C7\"e3f1g3a1 b4 g4 | \"Bb\"f12 g4 |\n\"Dm7\"f3g1a3b1 c'4 a4 | \"Gm7\"b3a1b3g1 f4 d4 | \"Bbmaj7\"f3a1g3f1 d4 f4 | \"C7\"g12 e4 |\n\"F\"f2g1a1 g2 f4 g2 a4 | \"Gm7\"g2a1b1 a2 g4 a2 b4 | \"Dm7\"a2b1a1 g2 f4 g2 a4 | \"Bb\"f4 d12 |\n\"F\"a3g1f3g1 a4 f4 | \"Bb\"b4 a2g2f1g1a2 d4 | \"C7\"e4 g2a2g1f1g2 e4 | \"F\"Hf16 |]\n"
+      },
+      {
+        "slug": "harbour-g",
+        "title": "Harbour Light",
+        "key": "G",
+        "tempo": 144,
+        "bars": 32,
+        "pdf": "songs/v3/harbour-g.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=144\nK:G clef=treble\n\"G\"d2g2f2g2 b4 a4 | \"Em\"b2a2g2f2 e4 d4 | \"C\"e2f2g2a2 g4 b4 | \"D\"a8 g4 f4 |\n\"G\"d2g2f2g2 b4 a4 | \"Em\"b2a2g2f2 e4 g4 | \"Am7\"a6 g6 e4 | \"D\"f8 e4 d4 |\n\"G\"g2a2b2a2 g4 f4 | \"Em\"e4 f1g1a1b1 g4 a4 | \"C\"g2a2b2a2 g4 e4 | \"D\"f2g2 a12 |\n\"G\"g2f2g2a2 b4 g4 | \"C\"e2f1g1a2g2 e4 g4 | \"D7\"a6 g6 f4 | \"G\"a2b2 g12 |\n\"Cmaj7\"e6 g6 a4 | \"Bm\"b6 a6 f4 | \"Am7\"g6 a6 b4 | \"D\"a6 b2 a8 |\n\"Cmaj7\"b6 c'6 b4 | \"Bm\"a6 g6 f4 | \"Em\"g6 f6 e4 | \"D7\"f6 e2 d8 |\n\"G\"d1e1f1g1 b4 a4 g4 | \"Em\"b2a2g2f2 e4 d4 | \"C\"e4 f1g1a1b1 g4 a4 | \"D\"a4 f8 e4 |\n\"G\"d1e1f1g1 a4 b4 g4 | \"C\"e2f1g1a2g2 e4 g4 | \"D7\"f6 a6 f4 | \"G\"Hg16 |]\n"
+      }
+    ]
+  },
+  {
+    "id": "v2",
+    "label": "32-bar AABA, assigned rhythmic identity per song",
+    "bars": 32,
+    "spec": "# Songwriting spec v2 — 32-bar AABA piano lead sheets\n\nYou are writing **one song** as a single JSON file. A build script turns it into engraved\nsheet music (PDF) and playable audio. Your job is only the JSON.\n\nThe target is a **beginner–intermediate pianist**: single-line melody in the treble clef with\nchord symbols above it. No left-hand part, no bass clef.\n\nThe song must be **predictable and catchy** — a listener should be able to hum where the tune\nis going — while having real rhythmic life: eighths, sixteenths, and genuine syncopation.\n\n> ### What went wrong in v1, and what this version fixes\n> The v1 spec told every writer to use \"quarter, quarter, half\" as their landing figure. All six\n> songs came back ending every phrase identically and sounding like each other.\n>\n> **Predictability belongs inside one song, not across the set.** So v2 assigns you a\n> *rhythmic identity* — a specific head figure, landing figure, and syncopation figure.\n> Commit to yours and repeat it. Do not drift toward the generic.\n\n---\n\n## 1. Your assignment\n\nYour dispatch message gives you a **song card**: a key, a tempo, a character, and three\nfigures — **head**, **landing**, **syncopation** — chosen from the menus in §5.\nThose three figures are your song's identity. Build the whole piece out of them.\n\n**Do not use a landing figure other than the one you were assigned.** In particular, if you\nwere not assigned `4 4 8`, do not use `4 4 8` anywhere as a phrase ending.\n\n## 2. The file\n\nWrite exactly one file: `v2/songs/<slug>.json`\n\n```json\n{\n  \"title\": \"Paper Kite\",\n  \"key\": \"C\",\n  \"tempo\": 92,\n  \"bars\": [\n    { \"chord\": \"C\",  \"notes\": \"C5:4 E5:4 G5:2 A5:2 G5:4\" },\n    { \"chord\": \"Am\", \"notes\": \"A5:4 G5:4 E5:2 D5:2 C5:4\" }\n  ]\n}\n```\n\n- `title` — 1–3 words, evocative, no colon or dash.\n- `key` — exactly as given on your card: `C`, `G`, `F`, `Am`, `Em`, or `Dm`.\n- `tempo` — the number on your card.\n- `bars` — exactly **32** objects.\n\n## 3. The note language\n\nEvery bar is 4/4. **Durations are counted in sixteenth notes, so every bar sums to exactly 16.**\n\n| write | means         | | write | means           |\n|-------|---------------|-|-------|-----------------|\n| `1`   | sixteenth     | | `6`   | dotted quarter  |\n| `2`   | eighth        | | `8`   | half            |\n| `3`   | dotted eighth | | `12`  | dotted half     |\n| `4`   | quarter       | | `16`  | whole           |\n\nA token is `<note>:<duration>`:\n\n- `C5:4` — `C4` is middle C, so `C5` sits in the treble staff.\n- `F#5:2` `Bb4:8` — accidentals with `#` / `b`.\n- `R:4` — a quarter rest.\n- `[Am]E5:4` — changes the chord *mid-bar*, starting at this note.\n\nThere is deliberately **no tie syntax**. A note may not be held across a barline.\n\n## 4. Hard rules — the validator rejects these\n\n1. **Exactly 32 bars.**\n2. **Every bar's durations sum to exactly 16.** The most common mistake. Add them up.\n3. **Every bar begins with a struck note on beat 1** — never a rest.\n4. **Range `G4` to `C6`.** Nothing lower, nothing higher.\n5. **Bar 32 is a single whole note on the tonic** (`C5:16` in C, `A5:16` in Am, and so on).\n6. Chord symbols use a root (`A`–`G`, optional `#`/`b`) plus one of:\n   `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.\n   A slash bass is allowed: `G/B`.\n\n## 5. The menus\n\n### Head figures — the rhythm of your tune's moving bars\n\n| id | rhythm | feel |\n|----|--------|------|\n| H1 | `2 2 4 4 4`   | two eighths then walking quarters |\n| H2 | `4 4 2 2 4`   | quarters first, eighths in the middle |\n| H3 | `4 2 2 4 4`   | a quarter, a pair of eighths, quarters |\n| H4 | `2 2 2 2 4 4` | running eighths into quarters |\n| H5 | `6 2 4 4`     | dotted-quarter lilt |\n| H6 | `4 2 4 2 4`   | off-beat, springy |\n| H7 | `3 1 4 4 4`   | dotted-eighth snap |\n\n### Landing figures — how every 4-bar phrase ends\n\n| id | rhythm | feel |\n|----|--------|------|\n| LA | `4 4 8`   | quarter, quarter, half |\n| LB | `8 4 4`   | lands long, then walks on |\n| LC | `4 12`    | one step, then a long hold |\n| LD | `6 2 8`   | lilt into a held note |\n| LE | `2 2 4 8` | two eighths, quarter, half |\n| LF | `12 4`    | held, with a quarter that pushes into the next phrase |\n\n### Syncopation figures — use yours for the B section and at least 3 other bars\n\n| id | rhythm | where the accents fall |\n|----|--------|------------------------|\n| S1 | `4 2 4 2 4` | on the \"and\" of 2 and of 3 |\n| S2 | `2 4 4 4 2` | everything after beat 1 is displaced |\n| S3 | `3 1 3 1 4 4` | two dotted-eighth/sixteenth snaps |\n| S4 | `2 4 2 4 4` | early off-beat pair |\n| S5 | `6 6 4`     | two dotted quarters across the beat |\n| S6 | `4 6 2 4`   | a dotted quarter straddling beat 2 |\n\n### Sixteenth runs — use at least two of these bars\n\n```\n1 1 1 1 4 4 4            a turn on beat 1\n4 1 1 1 1 4 4            a turn on beat 2\n1 1 1 1 1 1 1 1 4 4      a half-bar scale run\n2 1 1 2 2 4 4            a flick inside running eighths\n```\n\n## 6. Structure — AABA, 8 bars each\n\n| bars  | section | what happens |\n|-------|---------|--------------|\n| 1–8   | **A**   | The tune, plainly, built on your head figure. **Ends OPEN** — bar 8 lands on the dominant chord and a non-tonic note, so it sounds unfinished. |\n| 9–16  | **A′**  | The tune again, varied. **Ends CLOSED** — bar 16 resolves to the tonic. |\n| 17–24 | **B**   | The bridge. Different harmony (lean on IV, or the relative major/minor), your syncopation figure, and the song's single high point. |\n| 25–32 | **A″**  | The tune returns, decorated with your sixteenth runs. **Ends FINAL** — bar 32 is the tonic whole note. |\n\n**The three A sections must not end the same way.** Open, then closed, then final. That contrast\nis what keeps a 32-bar AABA from sounding like a loop.\n\nWithin each 8-bar section: bars 1–3 move (head figure, pitches sequencing up or down a step\neach bar), bar 4 lands (your landing figure), bars 5–7 move, bar 8 lands.\n\n## 7. Melody\n\n- **Step more than you leap.** Most intervals a second or a third; after a leap, step back.\n- **Land on chord tones** on beat 1, and usually beat 3.\n- **Sequence**: bars 1–3 sharing one rhythm with the shape moving by step is the single most\n  effective device you have. Use it, and use it again in A″.\n- **One high point**, in B, reached once.\n- Never repeat the same pitch more than twice in a row.\n\n## 8. Harmony\n\nSet up a chord loop and reuse it across A, A′ and A″; give B a different one. One chord per bar.\n\n| key | chords |\n|-----|--------|\n| **C**  | C, Dm, Em, F, G, Am, G7, Cmaj7, Fmaj7, Dm7, Am7 |\n| **G**  | G, Am, Bm, C, D, Em, D7, Gmaj7, Cmaj7, Am7, Em7 |\n| **F**  | F, Gm, Am, Bb, C, Dm, C7, Fmaj7, Bbmaj7, Gm7, Dm7 |\n| **Am** | Am, Dm, Em, F, G, C, E7, Am7, Dm7, Fmaj7 |\n| **Em** | Em, Am, Bm, C, D, G, B7, Em7, Am7, Cmaj7 |\n| **Dm** | Dm, Gm, Am, Bb, C, F, A7, Dm7, Gm7, Bbmaj7 |\n\nIn the minor keys use the major dominant (`E7` in Am, `B7` in Em, `A7` in Dm) at the A′ and A″\ncadences, with its raised leading tone in the melody (`G#`, `D#`, `C#`). That is the one place\na chromatic note belongs.\n\n## 9. Check your work — required\n\n```bash\npython src/validate.py v2/songs/<slug>.json\n```\n\nFix every `ERROR` **and** every `WARNING`, then run it again. You are not finished until it\nprints `PASS`.\n\nThen re-read your own file once and confirm, by eye:\n\n- bars 8, 16 and 32 end **differently** from each other;\n- every phrase-ending bar (4, 8, 12, 16, 20, 24, 28, 32) uses **your assigned landing figure**;\n- your syncopation figure appears in the B section and at least 3 other bars;\n- at least two bars contain sixteenth runs.\n\n## 10. File-format reference\n\n`src/example-song.json` is a valid, passing song you can read **to understand the JSON format\nand the note language**. It is a 40-bar v1 song in the old form — its structure, its figures and\nits landing rhythm are all things you should *not* copy. Use it for syntax only.\n",
+    "songs": [
+      {
+        "slug": "vigil-am",
+        "title": "Winter Vigil",
+        "key": "Am",
+        "tempo": 66,
+        "bars": 32,
+        "pdf": "songs/v2/vigil-am.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=66\nK:Am clef=treble\n\"Am\"a4 g2a2 e4 f4 | \"G\"g4 f2g2 d4 e4 | \"F\"f4 e2f2 c4 e4 | \"Em\"g6 f2 e8 |\n\"Am\"a4 g2a2 e4 c4 | \"F\"c2 d4 f2 a4 g4 | \"Dm7\"f4 e2f2 d4 c4 | \"E7\"d6 c2 B8 |\n\"Am\"a4 b2a2 e4 f4 | \"G\"g2 a4 g2 d4 e4 | \"F\"f4 g2f2 c4 e4 | \"Em\"g6 f2 e8 |\n\"Am\"e4 d2e2 a4 g4 | \"F\"a2 g4 f2 c4 d4 | \"E7\"e4 d2e2 b4 ^g4 | \"Am\"a6 g2 e8 |\n\"Dm7\"d2 e4 f2 a4 f4 | \"G\"g2 f4 g2 b4 a4 | \"C\"g2 a4 b2 c'4 b4 | \"Fmaj7\"a6 g2 f8 |\n\"Dm7\"d2 e4 f2 a4 g4 | \"G\"g2 f4 g2 b4 a4 | \"C\"g2 a4 g2 e4 a4 | \"E7\"b6 a2 ^g8 |\n\"Am\"a4 g1f1e1d1 e4 f4 | \"G\"g4 f1e1f1g1 d4 e4 | \"F\"f4 e1d1e1f1 c4 e4 | \"Em\"g6 f2 e8 |\n\"Am\"a1g1f1e1d1c1B1c1 e4 a4 | \"F\"a4 g1f1e1f1 a4 g4 | \"E7\"e2f1e1d2e2 b4 ^g4 | \"Am\"Ha16 |]\n"
+      },
+      {
+        "slug": "kite-c",
+        "title": "Kite Weather",
+        "key": "C",
+        "tempo": 92,
+        "bars": 32,
+        "pdf": "songs/v2/kite-c.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=92\nK:C clef=treble\n\"C\"e4 g4 e2f2 g4 | \"Dm7\"f4 a4 f2g2 a4 | \"Em\"g4 b4 g2a2 b4 | \"Am7\"a4 g12 |\n\"F\"a4 f4 a2g2 f4 | \"Em\"g4 e4 g2f2 e4 | \"Dm7\"f4 e2 d4 e2 f4 | \"G7\"e4 d12 |\n\"C\"e4 g4 e2f2 g4 | \"Dm7\"f4 a4 f2g2 a4 | \"Em\"g4 b4 g2a2 b4 | \"Am7\"a4 g12 |\n\"F\"a4 f4 a2g2 f4 | \"Em\"g4 a1g1f1e1 g4 e4 | \"Dm7\"f4 e2 d4 e2 f4 | \"C\"e4 c12 |\n\"F\"f4 g2 a4 g2 a4 | \"G\"g4 a2 b4 a2 g4 | \"Em\"b4 a2 g4 a2 b4 | \"Am7\"g4 e12 |\n\"F\"f4 g2 a4 b2 c'4 | \"G7\"b4 a2 g4 f2 d4 | \"C\"e4 d2 e4 g2 a4 | \"G7\"g4 f12 |\n\"C\"e1d1e1f1 g4 e2f2 g4 | \"Dm7\"f4 a1g1f1e1f2g2 a4 | \"Em\"g4 b1a1g1f1g2a2 b4 | \"Am7\"a4 g12 |\n\"F\"a1g1f1e1d1e1f1g1a2g2 f4 | \"Em\"g1a1g1f1 e4 g2f2 e4 | \"G7\"f1e1f1g1 e2 d4 e2 d4 | \"C\"Hc16 |]\n"
+      },
+      {
+        "slug": "reel-dm",
+        "title": "Barefoot Reel",
+        "key": "Dm",
+        "tempo": 78,
+        "bars": 32,
+        "pdf": "songs/v2/reel-dm.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=78\nK:Dm clef=treble\n\"Dm\"f3g1 a4 f4 d4 | \"C\"e3f1 g4 e4 c4 | \"Bb\"d3e1 f4 d4 B4 | \"F\"c4 d4 f8 |\n\"Dm\"d2 f4 g4 a4 f2 | \"Gm\"g3a1 b4 a4 g4 | \"C\"e2 g4 a4 g4 e2 | \"A7\"g4 f4 e8 |\n\"Dm\"a3b1 a4 f4 d4 | \"C\"g3a1 g4 e4 c4 | \"Bb\"f3g1 f4 d4 B4 | \"F\"c4 f4 a8 |\n\"Dm\"f2 a4 g4 f4 e2 | \"Gm\"d2e1f1g2a2 b4 g4 | \"A7\"a2 g4 e4 d4 ^c2 | \"Dm\"d4 f4 d8 |\n\"Gm\"g2 a4 b4 a4 g2 | \"F\"f2 g4 a4 g4 f2 | \"Bb\"b2 a4 g4 f4 d2 | \"C\"e4 f4 g8 |\n\"Gm\"d2 g4 b4 a4 g2 | \"Bbmaj7\"a2 b4 c'4 b4 a2 | \"Gm7\"g2 b4 a4 g4 f2 | \"A7\"e4 g4 a8 |\n\"Dm\"f3g1 a4 f4 d4 | \"C\"e3f1 g4 e4 c4 | \"Bb\"d1e1f1g1a1b1a1g1 f4 d4 | \"F\"a4 g4 f8 |\n\"Dm\"a3g1 f4 e4 d4 | \"Gm\"g2f1e1d2g2 b4 g4 | \"A7\"a2 g4 e4 d4 ^c2 | \"Dm\"Hd16 |]\n"
+      },
+      {
+        "slug": "drift-em",
+        "title": "Undertow",
+        "key": "Em",
+        "tempo": 84,
+        "bars": 32,
+        "pdf": "songs/v2/drift-em.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=84\nK:Em clef=treble\n\"Em\"e2f2 g4 b4 a4 | \"D\"f2g2 a4 f4 e4 | \"C\"g2a2 b4 a4 g4 | \"Am7\"e12 d4 |\n\"Em\"e2f2 g4 b4 a4 | \"Am7\"a2b2 a4 g4 e4 | \"C\"g4 e6 g2 a4 | \"Bm\"f12 d4 |\n\"Em\"e2g2 b4 a4 g4 | \"D\"f4 a6 g2 f4 | \"C\"g2a2 b4 a4 g4 | \"Am7\"a12 g4 |\n\"Em\"e2f2 g4 b4 a4 | \"Am7\"a4 g6 e2 g4 | \"B7\"f2g2 a4 f4 ^d4 | \"Em\"e12 f4 |\n\"Am7\"a4 b6 a2 g4 | \"D\"f4 g6 a2 b4 | \"G\"b4 a6 g2 a4 | \"Cmaj7\"b12 a4 |\n\"Am7\"c'4 b6 a2 g4 | \"D\"a4 f6 g2 e4 | \"G\"g4 a6 b2 a4 | \"Bm\"b12 f4 |\n\"Em\"e1f1g1a1 b4 g4 e4 | \"D\"f1g1a1b1 a4 f4 e4 | \"C\"g4 a1b1a1g1 e4 g4 | \"Am7\"a12 g4 |\n\"Em\"e1f1g1b1 a4 g4 f4 | \"Am7\"a2g1f1e2g2 a4 b4 | \"B7\"b1a1g1f1e1f1g1a1 f4 ^d4 | \"Em\"He16 |]\n"
+      },
+      {
+        "slug": "swift-f",
+        "title": "Skipping Stones",
+        "key": "F",
+        "tempo": 100,
+        "bars": 32,
+        "pdf": "songs/v2/swift-f.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=100\nK:F clef=treble\n\"F\"a4 b2 a4 g2 f4 | \"C7\"g4 a2 g4 f2 e4 | \"Dm7\"f4 g2 f4 e2 d4 | \"Bb\"f2e2 d4 f8 |\n\"F\"f4 g2 a4 b2 a4 | \"Gm7\"g4 a2 b4 a2 g4 | \"Dm7\"a3g1f3e1 f4 d4 | \"C7\"e2f2 e4 g8 |\n\"F\"a4 b2 a4 g2 f4 | \"C7\"g4 a2 g4 f2 e4 | \"Dm7\"f3e1d3c1 d4 f4 | \"Bb\"d2e2 f4 d8 |\n\"F\"f4 g2 a4 b2 a4 | \"Bbmaj7\"b4 a1g1f1g1 a4 f4 | \"C7\"e4 f2 g4 a2 b4 | \"F\"a2g2 a4 f8 |\n\"Bbmaj7\"d3e1f3g1 f4 a4 | \"F\"a3b1a3g1 f4 a4 | \"Gm7\"b3a1g3f1 g4 b4 | \"C7\"g2a2 g4 e8 |\n\"Bbmaj7\"f3g1a3b1 a4 b4 | \"F\"a3g1a3b1 c'4 a4 | \"Gm7\"b3a1g3a1 g4 f4 | \"C7\"g2f2 e4 g8 |\n\"F\"a1b1a1g1 a4 g4 f4 | \"C7\"g4 a2 g4 f2 e4 | \"Dm7\"f4 e1d1c1d1 f4 d4 | \"Bb\"d2f2 a4 f8 |\n\"F\"a4 b2 a4 g2 f4 | \"Gm7\"g3a1b3a1 g4 f4 | \"C7\"e3f1g3a1 g4 e4 | \"F\"Hf16 |]\n"
+      },
+      {
+        "slug": "harbour-g",
+        "title": "Harbour Light",
+        "key": "G",
+        "tempo": 72,
+        "bars": 32,
+        "pdf": "songs/v2/harbour-g.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=72\nK:G clef=treble\n\"G\"d2e2f2g2 b4 a4 | \"Em7\"e2f2g2a2 b4 g4 | \"D\"f2g2a2b2 a4 f4 | \"C\"g8 e4 c4 |\n\"G\"d2e2f2g2 b4 a4 | \"Em7\"e2f2g2a2 b4 g4 | \"Am7\"e6 g6 a4 | \"D7\"f8 g4 a4 |\n\"G\"b2a2g2f2 g4 b4 | \"Em7\"g2a1b1a2g2 e4 d4 | \"D\"f2g2a2b2 a4 f4 | \"C\"g8 e4 c4 |\n\"Em7\"e2f2g2a2 g4 b4 | \"Am7\"a2b1a1g2e2 c4 e4 | \"D7\"d6 f6 a4 | \"G\"b8 a4 g4 |\n\"Cmaj7\"e6 g6 b4 | \"Am7\"a6 g6 e4 | \"D\"f6 a6 b4 | \"Em7\"g8 a4 b4 |\n\"Cmaj7\"c'6 b6 a4 | \"Am7\"g6 e6 c4 | \"Em7\"e6 g6 b4 | \"D7\"a8 g4 f4 |\n\"G\"d1e1f1g1 b4 a4 g4 | \"Em7\"e2f1g1a2g2 b4 g4 | \"D\"f2g2a2b2 a4 f4 | \"C\"g8 e4 c4 |\n\"G\"d1e1f1g1a1b1a1g1 b4 g4 | \"Am7\"a2b1a1g2e2 c4 e4 | \"D7\"a6 g6 f4 | \"G\"Hg16 |]\n"
+      }
+    ]
+  },
+  {
+    "id": "v1",
+    "label": "40-bar, one landing figure per song",
+    "bars": 40,
+    "spec": "# Songwriting spec — 40-bar piano lead sheets\n\nYou are writing **one song** as a single JSON file. A build script turns it into engraved\nsheet music (PDF) and playable audio. Your job is only the JSON.\n\nThe target is a **beginner–intermediate pianist**: single-line melody in the treble clef with\nchord symbols above it. No left-hand part, no bass clef.\n\nAbove all the song must be **predictable and singable**. A listener should be able to hum\nwhere the tune is going. Surprise is not the goal; shapeliness is.\n\n---\n\n## 1. The file\n\nWrite exactly one file: `src/songs/<slug>.json`\n\n```json\n{\n  \"title\": \"First Light\",\n  \"key\": \"C\",\n  \"tempo\": 84,\n  \"bars\": [\n    { \"chord\": \"C\",  \"notes\": \"C5:2 E5:2 G5:4 E5:4 D5:4\" },\n    { \"chord\": \"Am\", \"notes\": \"C5:2 E5:2 A5:4 G5:4 E5:4\" }\n  ]\n}\n```\n\n- `title` — 1–3 words, evocative, no colon or dash. It becomes the printed title.\n- `key` — one of `C`, `G`, `F`, `Am`, `Em`, `Dm`. You will be told which.\n- `tempo` — whole number, quarter-note BPM. Pick something between **66 and 100**.\n- `bars` — exactly **40** objects, in order.\n\n## 2. The note language\n\nEvery bar is 4/4. **Durations are counted in sixteenth notes, so every bar sums to exactly 16.**\n\n| write | means         | | write | means           |\n|-------|---------------|-|-------|-----------------|\n| `1`   | sixteenth     | | `6`   | dotted quarter  |\n| `2`   | eighth        | | `8`   | half            |\n| `3`   | dotted eighth | | `12`  | dotted half     |\n| `4`   | quarter       | | `16`  | whole           |\n\nA token is `<note>:<duration>`:\n\n- `C5:4` — middle-C quarter note. `C4` is middle C, so `C5` sits in the treble staff.\n- `F#5:2` `Bb4:8` — accidentals with `#` / `b`.\n- `R:4` — a quarter rest.\n- `[Am]E5:4` — changes the chord *mid-bar*, starting at this note. Use sparingly.\n\nThere is deliberately **no tie syntax**. A note may not be held across a barline.\n\n## 3. Hard rules — the validator rejects these\n\n1. **Exactly 40 bars.**\n2. **Every bar's durations sum to exactly 16.** This is the most common mistake. Add them up.\n3. **Every bar begins with a struck note on beat 1** — never a rest, never a held-over note.\n4. **Range `G4` to `C6`.** Nothing lower, nothing higher.\n5. **Bar 40 is a single whole note on the tonic**, e.g. `\"C5:16\"` in C, `\"A5:16\"` in Am.\n6. Chord symbols use a root (`A`–`G`, optional `#`/`b`) plus one of:\n   `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.\n   A slash bass is allowed: `G/B`.\n\n## 4. Structure — follow this shape\n\n40 bars = five 8-bar sections. Each 8-bar section is two 4-bar phrases.\n\n| bars   | section | what happens |\n|--------|---------|--------------|\n| 1–8    | **A**   | State the tune plainly. This is the melody everything else refers back to. |\n| 9–16   | **A′**  | The same tune again, lifted in register or lightly varied. Ends with a full cadence on the tonic. |\n| 17–24  | **B**   | Contrast: a different rhythmic figure, and harmony that leans away from the tonic (IV, vi, or the relative key). |\n| 25–32  | **A″**  | The tune returns, now decorated with sixteenth notes. |\n| 33–40  | **Coda**| Quote the opening, wind down, cadence and stop. |\n\n**Phrase landings — this is what makes a song feel like it lands:**\n\n- Bars **4, 8, 12, 16, 20, 24, 28, 32, 36, 40** end 4-bar phrases. Each must be a\n  **landing bar**: at most 4 notes, ideally `X:4 Y:4 Z:8` — quarter, quarter, half.\n- Bars **8, 16, 24, 32, 40** end 8-bar periods. Their last note must be a **half note or\n  longer**, so the phrase can breathe.\n- Use the *same* landing figure repeatedly. Hearing `F5:4 E5:4 D5:8` come back four times is\n  the point, not a flaw.\n\n## 5. Rhythm — repeat a figure, don't invent a new one every bar\n\nPick **one** rhythm for the moving bars of a phrase and use it for all three, changing only the\npitches. That single decision is most of what makes a tune predictable.\n\nGood bar rhythms (each sums to 16):\n\n```\n4 4 8          landing            2 2 2 2 4 4      running eighths\n4 4 4 4        walking quarters   1 1 1 1 4 4 4    sixteenth turn, then quarters\n2 2 4 4 4      the head figure    1 1 2 2 2 4 4    sixteenth pickup\n6 2 4 4        lilt               3 1 4 4 4        dotted eighth + sixteenth\n8 4 4          long note first    2 2 4 2 2 4      eighths around a quarter\n```\n\nDensity requirements (the validator warns):\n\n- At least **16 of the 40 bars** contain eighth notes.\n- At least **6 bars** contain sixteenth notes. Put them in section A″ (bars 25–32) and one or\n  two elsewhere — sixteenths are decoration on a tune you have already established.\n- Keep a dotted quarter *inside* its bar (`6 2 4 4` finishes on beat 2½). Never let a long note\n  run past the barline.\n\n## 6. Melody\n\n- **Step more than you leap.** Most intervals should be a second or a third. After a leap,\n  turn around and step back the other way.\n- **Land on chord tones.** The note on beat 1 — and usually beat 3 — should belong to the bar's\n  chord. Passing dissonance on weak beats is good; on beat 1 it should be deliberate.\n- **Sequence.** Three bars of the same rhythm with the shape moving up or down a step each time\n  is the single most effective device available to you. Use it in section A.\n- Give the song **one high point**, usually in B or A″, and only go there once.\n- Do not repeat the same pitch more than twice in a row.\n\n## 7. Harmony\n\nSet up a 4-bar or 8-bar chord loop and reuse it. Repetition here is what lets the melody vary\nwithout the song becoming confusing. One chord per bar is the default.\n\nDiatonic chords to draw from:\n\n| key | chords |\n|-----|--------|\n| **C**  | C, Dm, Em, F, G, Am, G7, Cmaj7, Fmaj7, Dm7, Am7 |\n| **G**  | G, Am, Bm, C, D, Em, D7, Gmaj7, Cmaj7, Am7, Em7 |\n| **F**  | F, Gm, Am, Bb, C, Dm, C7, Fmaj7, Bbmaj7, Gm7, Dm7 |\n| **Am** | Am, Dm, Em, F, G, C, E7, Am7, Dm7, Fmaj7 |\n| **Em** | Em, Am, Bm, C, D, G, B7, Em7, Am7, Cmaj7 |\n| **Dm** | Dm, Gm, Am, Bb, C, F, A7, Dm7, Gm7, Bbmaj7 |\n\nIn the minor keys, use the major dominant (`E7` in Am, `B7` in Em, `A7` in Dm) at cadences —\nit needs a raised leading tone in the melody (`G#` in Am, `D#` in Em, `C#` in Dm). That is the\none place a chromatic note belongs.\n\n## 8. Check your work — required\n\n```bash\npython src/validate.py src/songs/<slug>.json\n```\n\nFix every `ERROR` **and** every `WARNING` and run it again. You are not finished until it\nprints `PASS`. Do not hand back a song that has not printed `PASS`.\n\nIf a bar's durations do not sum to 16, the error tells you the bar number and the total it got.\n\n## 9. A complete worked example\n\n`src/example-song.json` is a finished, passing song in C. Read it before you start. Note\nhow bar 4 (`F5:4 E5:4 D5:8`) comes back at bars 12, 28 and 36 unchanged, how bars 1–3 all share\nthe rhythm `2 2 4 4 4`, and how the sixteenths only appear from bar 14 onward.\n\nDo **not** imitate its melody — write your own. Imitate its discipline.\n",
+    "songs": [
+      {
+        "slug": "ember-am",
+        "title": "Ember Hour",
+        "key": "Am",
+        "tempo": 76,
+        "bars": 40,
+        "pdf": "songs/v1/ember-am.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=76\nK:Am clef=treble\n\"Am7\"A4 B2c2 e4 d4 | \"G7\"B4 c2d2 f4 e4 | \"C\"c4 d2e2 g4 a4 | \"E7\"b4 a4 ^g8 |\n\"Am7\"a4 g2f2 e4 d4 | \"F\"f4 e2d2 c4 B4 | \"E7\"^G4 B2d2 e4 d4 | \"Am\"c4 B4 A8 |\n\"Am7\"c4 d2e2 g4 f4 | \"G7\"d4 e2f2 g4 f4 | \"Cmaj7\"e4 f2g2 b4 a4 | \"E7\"b4 a4 ^g8 |\n\"Am7\"a4 g2f2 e4 d4 | \"F\"f1e1d1c1 d4 c4 B4 | \"E7\"^G4 B2d2 e4 d4 | \"Am\"c4 B4 A8 |\n\"F\"c6 d2 f4 e4 | \"G7\"d6 e2 g4 f4 | \"Am7\"e6 f2 a4 g4 | \"C\"e4 d4 c8 |\n\"F\"f6 g2 a4 f4 | \"G\"g6 a2 b4 g4 | \"Am7\"a6 b2 c'4 a4 | \"E7\"b4 a4 ^g8 |\n\"Am7\"a4 g1f1e1d1 c4 e4 | \"G7\"d4 e1f1g1a1 g4 f4 | \"Cmaj7\"e4 f1g1a1g1 b4 a4 | \"E7\"b4 a4 ^g8 |\n\"Am7\"a4 g1f1e1d1 e4 d4 | \"F\"f4 e1d1c1B1 c4 A4 | \"E7\"^G4 B1c1d1c1 e4 d4 | \"Am\"c4 B4 A8 |\n\"Am7\"A4 B2c2 e4 d4 | \"G7\"B4 c2d2 f4 e4 | \"C\"c4 d2e2 g4 a4 | \"E7\"b4 a4 ^g8 |\n\"Am7\"a4 g2f2 e4 d4 | \"Dm7\"f4 e2d2 f4 a4 | \"E7\"b4 a4 ^g8 | \"Am\"Ha16 |]\n"
+      },
+      {
+        "slug": "lantern-c",
+        "title": "Paper Lantern",
+        "key": "C",
+        "tempo": 76,
+        "bars": 40,
+        "pdf": "songs/v1/lantern-c.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=76\nK:C clef=treble\n\"F\"f4 g4 a2g2 f4 | \"C\"e4 f4 g2f2 e4 | \"Dm7\"d4 e4 f2g2 a4 | \"G\"b4 a4 g8 |\n\"F\"a4 g4 f2g2 a4 | \"C\"g4 f4 e2f2 g4 | \"G7\"f4 e4 d2e2 f4 | \"C\"g4 f4 e8 |\n\"F\"a4 b4 a2g2 f4 | \"C\"g4 a4 g2f2 e4 | \"Dm7\"f4 g4 f2g2 a4 | \"G\"b4 a4 g8 |\n\"F\"a4 b4 a2g2 f4 | \"C\"g1a1g2 a4 g2f2 e4 | \"G7\"f4 e4 d2e2 f4 | \"C\"g4 f4 e8 |\n\"Dm7\"d2e2f2e2 d4 f4 | \"Em\"e2f2g2f2 e4 g4 | \"F\"f2g2a2g2 f4 a4 | \"G\"b4 a4 g8 |\n\"Am\"a2b2c'2b2 a4 g4 | \"F\"f2g2a2g2 f4 e4 | \"Em\"g2a2b2a2 g4 b4 | \"G\"b4 a4 g8 |\n\"F\"f1g1f2 g4 a2g2 f4 | \"C\"e1f1e2 f4 g2f2 e4 | \"Dm7\"d1e1d2 e4 f2g2 a4 | \"G\"b4 a4 g8 |\n\"F\"a1b1a2 g4 f2g2 a4 | \"C\"g1a1g2 f4 e2f2 g4 | \"G7\"f1g1f2 e4 d2e2 f4 | \"C\"g4 f4 e8 |\n\"F\"f4 g4 a2g2 f4 | \"C\"e4 f4 g2f2 e4 | \"Dm7\"d4 e4 f2g2 a4 | \"G\"b4 a4 g8 |\n\"F\"a4 g4 f2e2 d4 | \"Dm7\"d1e1f2 e4 d2c2 d4 | \"G7\"d4 c4 B2c2 d4 | \"C\"Hc16 |]\n"
+      },
+      {
+        "slug": "tide-dm",
+        "title": "Turning Tide",
+        "key": "Dm",
+        "tempo": 76,
+        "bars": 40,
+        "pdf": "songs/v1/tide-dm.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=76\nK:Dm clef=treble\n\"Dm\"a4 g2f2 e4 f4 | \"Gm\"g4 f2e2 d4 e4 | \"Bb\"f4 e2d2 c4 d4 | \"A7\"e4 d4 ^c8 |\n\"Dm\"d4 f2a2 g4 f4 | \"Gm\"g4 b2a2 g4 f4 | \"A7\"e4 ^c2d2 e4 g4 | \"Dm\"f4 e4 d8 |\n\"Dm\"a4 b2a2 g4 f4 | \"Gm\"g4 a2g2 f4 e4 | \"Bb\"f4 g2f2 e4 d4 | \"A7\"e4 d4 ^c8 |\n\"Dm\"d4 f2a2 g4 f4 | \"Gm\"g4 b1a1g2 f4 d4 | \"A7\"e4 ^c2d2 e4 g4 | \"Dm\"f4 e4 d8 |\n\"Bb\"d6 f2 g4 f4 | \"C\"e6 g2 a4 g4 | \"Bb\"f6 a2 c'4 b4 | \"F\"a4 g4 f8 |\n\"Bb\"d6 f2 g4 f4 | \"C\"e6 g2 a4 f4 | \"Gm\"g6 f2 e4 d4 | \"A7\"e4 d4 ^c8 |\n\"Dm\"d1e1f1g1 a4 g4 f4 | \"Gm\"g1a1g1f1 e4 d4 e4 | \"Bb\"f1g1f1e1 d4 c4 d4 | \"A7\"e4 d4 ^c8 |\n\"Dm\"d2f2a1g1f2 e4 f4 | \"Gm\"g2b2a1g1f2 e4 d4 | \"A7\"e2^c2d1e1f2 e4 g4 | \"Dm\"f4 e4 d8 |\n\"Dm\"a4 g2f2 e4 f4 | \"Gm\"g4 f2e2 d4 e4 | \"Bb\"f4 e2d2 c4 d4 | \"A7\"e4 d4 ^c8 |\n\"Dm\"d4 f4 a8 | \"Gm\"g4 f4 d8 | \"A7\"e4 d4 ^c8 | \"Dm\"Hd16 |]\n"
+      },
+      {
+        "slug": "hollow-em",
+        "title": "Hollow Hours",
+        "key": "Em",
+        "tempo": 76,
+        "bars": 40,
+        "pdf": "songs/v1/hollow-em.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=76\nK:Em clef=treble\n\"Em\"e4 g2f2 e4 g4 | \"D\"f4 a2g2 f4 a4 | \"Cmaj7\"g4 b2a2 g4 b4 | \"B7\"a4 f4 ^d8 |\n\"Em\"e4 g2f2 e4 g4 | \"D\"f4 a2g2 f4 a4 | \"B7\"b4 a2g2 ^d4 e4 | \"Em\"g4 f4 e8 |\n\"Em\"e4 g2f2 e4 g4 | \"D\"f4 a2g2 f4 a4 | \"Cmaj7\"g4 b2a2 g4 b4 | \"B7\"a4 f4 ^d8 |\n\"Em\"e4 g2f2 e4 g4 | \"Am7\"a4 g1f1e2 a4 g4 | \"B7\"b4 a2g2 ^d4 e4 | \"Em\"g4 f4 e8 |\n\"G\"g6 a2 b4 a4 | \"D\"f6 g2 a4 g4 | \"Em\"e6 f2 g4 f4 | \"Am7\"a4 g4 e8 |\n\"Cmaj7\"g6 b2 c'4 a4 | \"G\"b6 a2 g4 a4 | \"Am7\"g6 f2 e4 g4 | \"B7\"a4 f4 ^d8 |\n\"Em\"e1f1g2f2g2 e4 g4 | \"D\"f1g1a2g2a2 f4 a4 | \"Cmaj7\"g1a1b2a2b2 g4 b4 | \"B7\"a4 f4 ^d8 |\n\"Em\"e1f1g2f2g2 e4 g4 | \"D\"f1g1a2g2a2 f4 a4 | \"B7\"b1a1g2a2g2 ^d4 e4 | \"Em\"g4 f4 e8 |\n\"Em\"e4 g2f2 e4 g4 | \"D\"f4 a2g2 f4 a4 | \"Cmaj7\"g4 b2a2 g4 b4 | \"B7\"a4 f4 ^d8 |\n\"Em\"e4 g4 b8 | \"Am7\"a4 g4 e8 | \"B7\"f4 e4 ^d8 | \"Em\"He16 |]\n"
+      },
+      {
+        "slug": "meadow-f",
+        "title": "Meadow Hours",
+        "key": "F",
+        "tempo": 76,
+        "bars": 40,
+        "pdf": "songs/v1/meadow-f.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=76\nK:F clef=treble\n\"F\"f4 g4 a2g2 f4 | \"Gm7\"g4 a4 b2a2 g4 | \"Bb\"b4 a4 f2g2 a4 | \"C7\"b4 a4 g8 |\n\"F\"f4 g4 a2g2 f4 | \"Gm7\"g4 a4 b2a2 g4 | \"C7\"e4 g4 b2a2 g4 | \"F\"a4 g4 f8 |\n\"F\"a4 b4 a2g2 f4 | \"Gm7\"b4 a4 g2a2 b4 | \"Dm7\"a4 g4 f2g2 a4 | \"C7\"b4 a4 g8 |\n\"F\"a4 b4 a2g2 f4 | \"Dm7\"d1e1f1g1 a4 f2e2 d4 | \"C7\"e4 g4 b2a2 g4 | \"F\"a4 g4 f8 |\n\"Bbmaj7\"f6 g2 a4 b4 | \"Gm7\"g6 a2 b4 a4 | \"Dm7\"a6 g2 f4 a4 | \"C7\"b4 a4 g8 |\n\"Dm7\"a6 b2 c'4 a4 | \"Gm7\"g6 a2 b4 g4 | \"C7\"e6 g2 b4 a4 | \"C7\"b4 a4 g8 |\n\"F\"f4 g1a1g1f1a2g2 f4 | \"Gm7\"g4 a1b1a1g1b2a2 g4 | \"Bbmaj7\"b4 a1g1f1g1a2g2 a4 | \"C7\"b4 a4 g8 |\n\"F\"f4 g1a1g1f1a2g2 f4 | \"Gm7\"g4 a1b1a1g1b2a2 g4 | \"C7\"e4 g1a1b1a1g2a2 g4 | \"F\"a4 g4 f8 |\n\"F\"f4 g4 a2g2 f4 | \"Gm7\"g4 a4 b2a2 g4 | \"Bb\"b4 a4 f2g2 a4 | \"C7\"b4 a4 g8 |\n\"Dm7\"a4 g4 f2e2 d4 | \"Bbmaj7\"f4 g4 a2g2 f4 | \"C7\"e4 g4 b2a2 g4 | \"F\"Hf16 |]\n"
+      },
+      {
+        "slug": "morning-g",
+        "title": "Morning Window",
+        "key": "G",
+        "tempo": 76,
+        "bars": 40,
+        "pdf": "songs/v1/morning-g.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=76\nK:G clef=treble\n\"G\"d2e2 f4 g4 b4 | \"Em\"b2a2 g4 f4 e4 | \"C\"e2f2 g4 a4 b4 | \"D\"a4 g4 f8 |\n\"G\"d2e2 f4 g4 b4 | \"Em\"b2a2 g4 f4 e4 | \"Am7\"c2d2 e4 g4 a4 | \"D\"b4 a4 f8 |\n\"G\"g2a2 b4 a4 g4 | \"Em\"b2a2 g4 f4 e4 | \"C\"e2f2 g4 a4 b4 | \"D\"a4 g4 f8 |\n\"G\"g2a2 b4 a4 g4 | \"C\"e1f1g1a1 b4 a4 g4 | \"D7\"a2g2 f4 a4 b4 | \"G\"b4 a4 g8 |\n\"Am7\"e6 g2 a4 g4 | \"Bm\"f6 a2 b4 a4 | \"C\"g6 b2 c'4 b4 | \"D\"b4 a4 f8 |\n\"Am7\"e6 g2 a4 g4 | \"Bm\"f6 a2 b4 a4 | \"Cmaj7\"g6 a2 b4 a4 | \"D\"b4 a4 f8 |\n\"G\"d1e1f1g1 b4 a4 g4 | \"Em\"b1a1g1f1 e4 f4 g4 | \"C\"e1f1g1a1 b4 a4 g4 | \"D\"a4 g4 f8 |\n\"G\"d1e1f1g1 b4 a4 g4 | \"C\"e1f1g1a1 b4 a4 g4 | \"D7\"f1g1a1g1 f4 a4 b4 | \"G\"b4 a4 g8 |\n\"G\"d2e2 f4 g4 b4 | \"Em\"b2a2 g4 f4 e4 | \"C\"e2f2 g4 a4 b4 | \"D\"a4 g4 f8 |\n\"G\"d4 e4 g8 | \"Em\"g4 a4 b8 | \"D7\"a4 g4 f8 | \"G\"Hg16 |]\n"
+      }
+    ]
+  }
+];
+
+  var $ = function (id) { return document.getElementById(id); };
+  var version = null, SONGS = [];
+  var song = null, visualObj = null, synth = null;
+  var ready = false, playing = false, busy = false;
+  var chordsOn = true, followOn = true, dragging = false;
+  var curBar = 0, totalBars = 40, targetBpm = 84;
+  var loadToken = 0;
+  var reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var strip = $("strip"), paper = $("paper"), lib = $("library");
+
+  /* ================= versions ================= */
+  var vsel = $("version");
+  VERSIONS.forEach(function (v) {
+    var o = document.createElement("option");
+    o.value = v.id;
+    o.textContent = v.id + " — " + v.bars + " bars";
+    vsel.appendChild(o);
+  });
+  vsel.addEventListener("change", function () { selectVersion(this.value); });
+
+  function selectVersion(id) {
+    version = VERSIONS.filter(function (v) { return v.id === id; })[0] || VERSIONS[0];
+    vsel.value = version.id;
+    SONGS = version.songs;
+    $("count").textContent = SONGS.length + (SONGS.length === 1 ? " song" : " songs");
+    $("spectitle").textContent = "Spec — " + version.id + " · " + version.label;
+    $("spectext").textContent = version.spec || "(no spec recorded for this set)";
+    buildLibrary();
+    try { localStorage.setItem("lastVersion", version.id); } catch (e) {}
+    if (SONGS.length) select(0);
+  }
+
+  /* ================= library ================= */
+  function buildLibrary() {
+    lib.innerHTML = "";
+    SONGS.forEach(function (s, i) {
+      var b = document.createElement("button");
+      b.className = "card";
+      b.type = "button";
+      b.setAttribute("aria-current", "false");
+      b.innerHTML = '<span class="t"></span><span class="m"></span>';
+      b.querySelector(".t").textContent = s.title;
+      b.querySelector(".m").textContent =
+        s.key + "  ·  " + s.bars + " bars  ·  ♩ " + s.tempo;
+      b.addEventListener("click", function () { select(i); });
+      lib.appendChild(b);
+    });
+  }
+
+  function select(i) {
+    song = SONGS[i];
+    totalBars = song.bars;
+    targetBpm = song.tempo;
+    var cards = lib.querySelectorAll(".card");
+    for (var k = 0; k < cards.length; k++) cards[k].setAttribute("aria-current", String(k === i));
+    $("barsof").textContent = totalBars;
+    strip.setAttribute("aria-valuemax", totalBars);
+    $("tempo").value = targetBpm;
+    $("bpm").textContent = targetBpm + " bpm";
+    $("pdf").href = song.pdf;
+    $("pdf").setAttribute("download", song.slug + ".pdf");
+    buildTicks();
+    render();
+    curBar = 0; setBar(1);
+    setupAudio();
+    try { localStorage.setItem("lastSong", song.slug); } catch (e) {}
+  }
+
+  function buildTicks() {
+    var t = $("track");
+    t.innerHTML = "";
+    for (var b = 5; b <= totalBars; b += 4) {
+      var d = document.createElement("div");
+      d.className = "tick" + ((b - 1) % 8 === 0 ? " period" : "");
+      d.style.left = ((b - 1) / totalBars * 100) + "%";
+      t.appendChild(d);
+    }
+  }
+
+  /* ================= score ================= */
+  function render() {
+    paper.innerHTML = "";
+    visualObj = ABCJS.renderAbc("paper", song.abc, {
+      responsive: "resize", add_classes: true, staffwidth: 860,
+      paddingtop: 0, paddingbottom: 14, paddingleft: 0, paddingright: 0
+    });
+  }
+
+  function clearHighlights() {
+    var old = paper.querySelectorAll(".abcjs-highlight");
+    for (var i = 0; i < old.length; i++) old[i].classList.remove("abcjs-highlight");
+  }
+
+  /* ================= transport state ================= */
+  function setBar(bar) {
+    if (bar === curBar) return;
+    curBar = bar;
+    $("barnum").textContent = bar;
+    var pc = (bar - 1) / totalBars * 100;
+    $("head").style.left = pc + "%";
+    $("fill").style.width = pc + "%";
+    strip.setAttribute("aria-valuenow", bar);
+    strip.setAttribute("aria-valuetext", "bar " + bar + " of " + totalBars);
+  }
+
+  function paintPlay() {
+    $("glyph").innerHTML = playing ? "&#10073;&#10073;" : "&#9654;";
+    $("playlab").textContent = playing ? "Pause" : "Play";
+  }
+
+  var lastTop = null;
+  var cursorControl = {
+    beatSubdivisions: 2,
+    onStart: function () { lastTop = null; },
+    onBeat: function (beatNumber) {
+      if (dragging || busy) return;
+      setBar(Math.max(1, Math.min(totalBars, Math.floor(beatNumber / 4) + 1)));
+    },
+    onEvent: function (ev) {
+      if (!ev || dragging || busy || (ev.measureStart && ev.left === null)) return;
+      clearHighlights();
+      var first = null;
+      (ev.elements || []).forEach(function (set) {
+        set.forEach(function (el) { el.classList.add("abcjs-highlight"); if (!first) first = el; });
+      });
+      if (followOn && first && ev.top !== lastTop) {
+        lastTop = ev.top;
+        var r = first.getBoundingClientRect();
+        if (r.top < 120 || r.bottom > innerHeight - 60) {
+          scrollBy({ top: r.top - innerHeight * 0.38, behavior: reduceMotion ? "auto" : "smooth" });
+        }
+      }
+    },
+    onFinished: function () {
+      playing = false; paintPlay(); clearHighlights();
+      curBar = 0; setBar(1);
+    }
+  };
+
+  /* ================= audio ================= */
+  function audioParams() {
+    return { chordsOff: !chordsOn, program: 0, midiTranspose: 0, qpm: targetBpm };
+  }
+
+  /* Picking a new song used to leave the PREVIOUS tune primed inside the controller, so
+     pressing Play replayed the song you had just navigated away from. Reusing one
+     SynthController across tunes is not reliable -- tear it down and build a fresh one
+     for every song. loadToken also defeats the race where you click through songs fast
+     and an older setTune() resolves after a newer one. */
+  function setupAudio() {
+    if (!ABCJS.synth.supportsAudio()) { $("playlab").textContent = "No audio"; return; }
+    var token = ++loadToken;
+    ready = false; playing = false; busy = false;
+    paintPlay();
+    $("play").disabled = true; $("restart").disabled = true;
+    if (synth) {
+      try { synth.pause(); } catch (e) {}
+      try { synth.destroy(); } catch (e) {}
+    }
+    $("audiohost").innerHTML = "";
+    synth = new ABCJS.synth.SynthController();
+    synth.load("#audiohost", cursorControl,
+      { displayPlay: true, displayProgress: true, displayWarp: true });
+    var mine = synth;
+    return mine.setTune(visualObj[0], false, audioParams()).then(function () {
+      if (token !== loadToken || mine !== synth) return;   // superseded by a newer pick
+      ready = true;
+      $("play").disabled = false; $("restart").disabled = false;
+      paintPlay();
+    }).catch(function (e) {
+      if (token !== loadToken) return;
+      $("playlab").textContent = "Audio failed"; console.error(e);
+    });
+  }
+
+  /* Tempo.
+     setWarp() is self-contained: it tears the tune down, re-primes the audio AND the
+     TimingCallbacks clock at the new rate, restores the playback position, and resumes
+     if it was playing. So audio and playhead stay locked together by construction.
+     Do NOT pause/seek/play around it -- doing so races its own restart and stalls the
+     clock. Just hold off our beat handler until its promise settles. */
+  function applyTempo(bpm) {
+    targetBpm = bpm;
+    $("bpm").textContent = bpm + " bpm";
+    if (!synth || !ready || !song) return;
+    var pct = Math.max(1, Math.round(bpm / song.tempo * 100));
+    busy = true;
+    var release = function () { busy = false; };
+    var res = synth.setWarp(pct);
+    if (res && typeof res.then === "function") res.then(release, release);
+    else setTimeout(release, 500);
+    setTimeout(release, 3000);            // safety net if the promise never settles
+  }
+
+  function seekToBar(bar) {
+    bar = Math.max(1, Math.min(totalBars, bar));
+    setBar(bar);
+    if (!ready) return;
+    clearHighlights();
+    lastTop = null;
+    synth.seek((bar - 1) / totalBars);
+  }
+
+  /* ================= scrubbing ================= */
+  function barAtX(clientX) {
+    var r = strip.getBoundingClientRect();
+    if (!r.width) return curBar;
+    var f = (clientX - r.left) / r.width;
+    f = Math.max(0, Math.min(0.99999, f));
+    return Math.max(1, Math.min(totalBars, Math.floor(f * totalBars) + 1));
+  }
+  strip.addEventListener("pointerdown", function (e) {
+    if (!ready || (e.button !== 0 && e.pointerType === "mouse")) return;
+    dragging = true; strip.classList.add("dragging");
+    try { strip.setPointerCapture(e.pointerId); } catch (_) {}
+    clearHighlights(); setBar(barAtX(e.clientX));
+    e.preventDefault(); strip.focus();
+  });
+  strip.addEventListener("pointermove", function (e) {
+    if (dragging) setBar(barAtX(e.clientX));
+  });
+  function endScrub(e) {
+    if (!dragging) return;
+    dragging = false; strip.classList.remove("dragging");
+    try { strip.releasePointerCapture(e.pointerId); } catch (_) {}
+    seekToBar(barAtX(e.clientX));
+  }
+  strip.addEventListener("pointerup", endScrub);
+  strip.addEventListener("pointercancel", endScrub);
+  strip.addEventListener("keydown", function (e) {
+    var d = 0;
+    if (e.key === "ArrowRight" || e.key === "ArrowUp") d = e.shiftKey ? 4 : 1;
+    else if (e.key === "ArrowLeft" || e.key === "ArrowDown") d = e.shiftKey ? -4 : -1;
+    else if (e.key === "Home") d = -totalBars;
+    else if (e.key === "End") d = totalBars;
+    else return;
+    e.preventDefault(); seekToBar(curBar + d);
+  });
+
+  /* ================= controls ================= */
+  $("play").addEventListener("click", function () {
+    if (!ready) return;
+    playing = !playing; paintPlay(); synth.play();
+  });
+  $("restart").addEventListener("click", function () {
+    if (!ready) return;
+    synth.restart(); curBar = 0; setBar(1);
+    if (!playing) { playing = true; paintPlay(); synth.play(); }
+  });
+  $("chords").addEventListener("click", function () {
+    if (!ready) return;
+    chordsOn = !chordsOn;
+    this.setAttribute("aria-pressed", String(chordsOn));
+    this.textContent = chordsOn ? "Chords on" : "Chords off";
+    var bar = curBar, wasPlaying = playing, token = ++loadToken, mine = synth;
+    playing = false; paintPlay(); ready = false;
+    mine.setTune(visualObj[0], false, audioParams()).then(function () {
+      if (token !== loadToken || mine !== synth) return;
+      ready = true; seekToBar(bar);
+      if (wasPlaying) { playing = true; paintPlay(); synth.play(); }
+    });
+  });
+  $("follow").addEventListener("click", function () {
+    followOn = !followOn;
+    this.setAttribute("aria-pressed", String(followOn));
+    this.textContent = followOn ? "Follow" : "Follow off";
+  });
+  $("tempo").addEventListener("input", function () { $("bpm").textContent = this.value + " bpm"; });
+  $("tempo").addEventListener("change", function () { applyTempo(+this.value); });
+
+  addEventListener("keydown", function (e) {
+    if (e.code === "Space" && !/^(INPUT|TEXTAREA|BUTTON|A)$/.test(e.target.tagName)) {
+      e.preventDefault(); $("play").click();
+    }
+  });
+
+  /* ================= spec modal ================= */
+  function openSpec() {
+    $("modal").hidden = false;
+    $("specclose").focus();
+  }
+  function closeSpec() { $("modal").hidden = true; $("specbtn").focus(); }
+  $("specbtn").addEventListener("click", openSpec);
+  $("specclose").addEventListener("click", closeSpec);
+  $("modal").addEventListener("click", function (e) { if (e.target === this) closeSpec(); });
+  addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !$("modal").hidden) { e.preventDefault(); closeSpec(); }
+  });
+
+  /* ================= boot ================= */
+  var startVersion = VERSIONS.length ? VERSIONS[0].id : null;
+  try {
+    var lastV = localStorage.getItem("lastVersion");
+    for (var vi = 0; vi < VERSIONS.length; vi++) {
+      if (VERSIONS[vi].id === lastV) startVersion = lastV;
+    }
+  } catch (e) {}
+  if (startVersion) {
+    selectVersion(startVersion);
+    try {
+      var last = localStorage.getItem("lastSong");
+      for (var i = 0; i < SONGS.length; i++) if (SONGS[i].slug === last) { select(i); break; }
+    } catch (e) {}
+  }
+
+  // test hook
+  window.__p = {
+    bar: function () { return curBar; },
+    bpm: function () { return targetBpm; },
+    ready: function () { return ready; },
+    song: function () { return song && song.slug; },
+    version: function () { return version && version.id; },
+    synthId: function () { return synth ? (synth.__id || (synth.__id = ++idc)) : null; },
+    // true when the PRIMED tune is the one currently on screen -- the switching bug
+    primedIsCurrent: function () {
+      try { return synth.visualObj === visualObj[0]; } catch (e) { return null; }
+    },
+    dur: function () {
+      try { return Math.round(synth.midiBuffer.duration * 100) / 100; } catch (e) { return null; }
+    }
+  };
+  var idc = 0;
+})();
+</script>
+</body>
+</html>
