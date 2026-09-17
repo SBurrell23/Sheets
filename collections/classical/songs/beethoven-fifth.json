@@ -1,0 +1,30 @@
+{
+  "title": "Symphony No. 5 (Opening)",
+  "source": "Ludwig van Beethoven, Symphony No. 5 in C minor, Op. 67, first movement, 1808 - public domain",
+  "key": "Am",
+  "meter": "2/4",
+  "pickup": 6,
+  "tempo": 168,
+  "bars": [
+    { "chord": "Am", "notes": "E5:2 E5:2 E5:2" },
+    { "chord": "Am", "notes": "C5:8" },
+    { "chord": "Am", "notes": "C5:2 [E7]D5:2 D5:2 D5:2" },
+    { "chord": "E7", "notes": "B4:8" },
+    { "chord": "E7", "notes": "B4:2 [Am]E5:2 E5:2 E5:2" },
+    { "chord": "Am", "notes": "C5:8" },
+    { "chord": "Am", "notes": "C5:2 [Dm]F5:2 F5:2 F5:2" },
+    { "chord": "Dm", "notes": "D5:8" },
+    { "chord": "Dm", "notes": "D5:2 [C]G5:2 G5:2 G5:2" },
+    { "chord": "C",  "notes": "E5:8" },
+    { "chord": "C",  "notes": "E5:2 [F]A5:2 A5:2 A5:2" },
+    { "chord": "F",  "notes": "F5:8" },
+    { "chord": "Dm", "notes": "F5:2 G5:2 [G]A5:2 B5:2" },
+    { "chord": "C",  "notes": "C6:8" },
+    { "chord": "C",  "notes": "C6:2 B5:2 [G7]A5:2 G5:2" },
+    { "chord": "G7", "notes": "F5:2 E5:2 [C]D5:2 C5:2" },
+    { "chord": "E7", "notes": "B4:2 [Am]E5:2 E5:2 E5:2" },
+    { "chord": "Am", "notes": "C5:8" },
+    { "chord": "Am", "notes": "C5:2 [E7]B4:2 B4:2 B4:2" },
+    { "chord": "Am", "notes": "A4:8" }
+  ]
+}

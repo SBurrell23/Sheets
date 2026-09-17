@@ -1,0 +1,32 @@
+{
+  "title": "Waltz of the Flowers",
+  "source": "Pyotr Ilyich Tchaikovsky, The Nutcracker, Op. 71, 1892 - public domain",
+  "key": "C",
+  "meter": "3/4",
+  "tempo": 168,
+  "bars": [
+    { "chord": "C",  "notes": "E5:8 B4:4" },
+    { "chord": "C",  "notes": "D5:8 A4:4" },
+    { "chord": "G7", "notes": "C5:8 G4:4" },
+    { "chord": "G7", "notes": "B4:2 C5:1 B4:1 A#4:4 B4:4" },
+
+    { "chord": "G7", "notes": "F5:8 C5:4" },
+    { "chord": "G7", "notes": "E5:8 B4:4" },
+    { "chord": "C",  "notes": "D5:8 G4:4" },
+    { "chord": "C",  "notes": "C5:2 D5:1 C5:1 B4:4 C5:4" },
+
+    { "chord": "C",  "notes": "E5:8 B4:4" },
+    { "chord": "C",  "notes": "D5:8 A4:4" },
+    { "chord": "G7", "notes": "C5:8 G4:4" },
+    { "chord": "G7", "notes": "B4:2 C5:1 B4:1 A#4:4 B4:4" },
+
+    { "chord": "Fm", "notes": "F5:8 C5:4" },
+    { "chord": "A7", "notes": "F5:8 C#5:4" },
+    { "chord": "Bb", "notes": "F5:8 D5:4" },
+    { "chord": "G7", "notes": "G5:2 G4:2 A4:2 B4:2 C5:2 D5:2" },
+
+    { "chord": "C",  "notes": "E5:8 B4:4" },
+    { "chord": "G7", "notes": "D5:8 B4:4" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

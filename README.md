@@ -12,11 +12,13 @@ Published at <https://sburrell23.github.io/Sheets/>.
 
 | collection | what it is |
 |---|---|
-| **Classics** | Traditional and early-popular melodies that are in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
+| **Folk Songs** | Traditional and early-popular melodies in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
+| **Classical** | Famous classical themes in the public domain, reduced to a single melodic line. Where a piece has no separate tune — Für Elise, Clair de Lune, Canon in D — the arrangement takes the line an ear follows and leaves the accompaniment to the chord symbols. |
 | **AI Music** | Original songs written by AI agents to a spec. Six sets (v1–v6), each written to a different spec — **View spec** shows the one a given song was written to. |
 
-Adding another collection (Classical arrangements, say) means adding one folder; the player
-picks it up automatically.
+Adding another collection means adding one folder with a `collection.json`, a `version.json`,
+a `SPEC.md` and `songs/`; the player picks it up automatically and orders collections by the
+`order` field.
 
 ## Layout
 
@@ -24,16 +26,18 @@ picks it up automatically.
 index.html                     the player  <- generated, do not edit by hand
 favicon.svg
 collections/
-  classics/
-    collection.json            {"title": "Classics", "order": 1, "blurb": "..."}
+  folk-songs/
+    collection.json            {"title": "Folk Songs", "order": 1, "blurb": "..."}
     version.json               validation settings for the set
     SPEC.md                    the arranging brief agents worked to
     songs/*.json               one file per song
+  classical/                   same shape
   ai-music/
     collection.json
     v1/ ... v6/                each: version.json, SPEC.md, songs/*.json
 songs/                         generated output
-  classics/*.abc|.musicxml|.pdf
+  folk-songs/*.abc|.musicxml|.pdf
+  classical/*.abc|.musicxml|.pdf
   ai-music/v1/ ... v6/
 src/
   songlib.py                   note-language parser, validator, ABC + MusicXML renderers
@@ -43,7 +47,7 @@ src/
   example-song.json            a passing song, used as a FORMAT reference only
 ```
 
-A collection holds **either** `songs/` directly (a single-set collection, like Classics) **or**
+A collection holds **either** `songs/` directly (a single-set collection, like Folk Songs) **or**
 one or more named set folders each with their own `songs/` (like AI Music). `build.py` handles
 both shapes.
 
@@ -58,15 +62,28 @@ double-clicking. PDFs are ordinary links, so they still live under `songs/`.
   than one. The **‹ ›** buttons page through them (arrow keys work too), which is the easy way
   to audition a set on a tablet.
 - **Key** — transposes the selected song to any of the twelve keys, re-engraving the score
-  *and* re-priming the audio. Songs open in their written key.
-- **Play / pause** (spacebar), **Restart**, **Tempo** 40–250 BPM, **Chords on/off**,
-  **Follow** (auto-scroll).
+  *and* re-priming the audio. The **▾ ▴** buttons step a semitone at a time. Songs open in
+  their written key.
+- **Tempo** — 40–225 BPM. Once you move it, that tempo **sticks across song changes and
+  reloads**; until then each song opens at its own written tempo (shown in the dropdown).
+  A fresh synth always starts at the tune's own `Q:` header — the `qpm` passed to `setTune`
+  does not stick — so every re-prime warps the tempo back in. Without that the slider reads
+  225 while the song plays at its written speed.
+- **Theme** — Auto / Day / Dark, top right.
+- **Play / pause** (spacebar). Chord accompaniment and follow-the-score are always on.
 - **Scrub** — click or drag the strip. Arrow keys step a bar, Shift+arrow four, Home/End jump.
+- **Score layout** — `MAX_BAR_PX` in the player caps how wide a single bar is drawn (145px).
+  abcjs fits four bars to a line and justifies every system to the full width, including the
+  short last one, which is where 250px bars came from; the player injects `%%stretchlast 0`
+  and tries a range of measures-per-line settings, keeping the airiest layout that fits. Which
+  setting wins is not monotonic — it depends on how the remainder falls on the last system — so
+  it measures rather than calculates. A dense tune may not reach the cap at a readable note
+  size; then the narrowest layout wins.
 - A **purple vertical line** marks the note being played. It is an SVG `<line>` appended to
   abcjs's own `<svg>`, so it shares the score's coordinate system — a DOM overlay would drift
   as soon as the responsive SVG rescaled.
 - **PDF** downloads the engraved score **in the written key**. Transposing does not change that
-  file, so use **Print** (your browser's Save-as-PDF) to get the transposed version.
+  file; use your browser's print-to-PDF if you want the transposed version on paper.
 
 Playback is a sampled piano with generated block-chord comping: good enough to judge whether a
 tune works, not a performance.
@@ -92,13 +109,13 @@ a default that had only ever been right for the previous set:
 
 | key | default | notes |
 |---|---|---|
-| `bars` | 40 | exact bar count; `null` for any length (Classics) |
+| `bars` | 40 | exact bar count; `null` for any length (Folk Songs, Classical) |
 | `rotateLandings` | false | one landing figure per 8-bar section, each section different |
 | `minEighths` / `maxEighths` | — | total eighth-note count. The ceiling exists because v4's agents cleared a floor of 88 by writing 149 |
 | `minHalves` / `minRunBars` | — | half-note count; bars containing a run of 4+ short notes |
 | `minEighthBarsRatio` | 0.40 | share of bars containing an eighth. v6 uses 0.25: four of its head figures are built on dotted `3 1` snaps and contain none at all |
 | `maxLeapRatio` | 0.30 | share of intervals wider than a major third. v6 uses 0.45 for its arpeggio-and-sixths style |
-| `minSixteenthBars` | auto | set to `0` where sixteenths are not wanted (Classics) |
+| `minSixteenthBars` | auto | set to `0` where sixteenths are not wanted (Folk Songs, Classical) |
 | `requireFinalWhole` | true | `false` lets a tune end on any tonic note of at least a half |
 | `swing` | false | see below |
 
@@ -144,6 +161,8 @@ deploys, it never rebuilds.
 
 ## Public domain
 
-Everything in **Classics** is a traditional melody or an early-popular song published before
-1900, which places it in the public domain in the United States. Each song file records its
-`source` — composer and date where known — alongside the words "public domain".
+Everything in **Folk Songs** and **Classical** is either a traditional melody, a work published
+before 1929, or a work whose composer died more than 70 years ago — all public domain. Each song
+file records its `source` (composer, work and date where known) alongside the words "public
+domain", and that string is printed as the credit line on the engraved score. Only original
+**AI Music** is credited to Claude.

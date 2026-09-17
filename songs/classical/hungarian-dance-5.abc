@@ -1,0 +1,11 @@
+X:1
+T:Hungarian Dance No. 5
+C:Johannes Brahms, Hungarian Dance No. 5, WoO 1, 1869 - public domain
+M:2/4
+L:1/16
+Q:1/4=132
+K:Am clef=treble
+"Am"e6 a2 | "Am"c'6 a2 | "E7"^g6 a1b1 | "E7"c'2 b6 |
+"Am"e6 a2 | "Am"c'6 a2 | "E7"^g6 a1b1 | "Am"a8 |
+"Am"c'2c'2 c'1c'1b1b1 | "Am"c'2a2 e4 | "E7"b2b2 b1b1a1a1 | "E7"b2^g2 e4 |
+"Am"e6 a2 | "Am"c'6 a2 | "E7"^g6 a1b1 | "Am"Ha8 |]

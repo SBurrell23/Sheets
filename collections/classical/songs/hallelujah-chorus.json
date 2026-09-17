@@ -1,0 +1,29 @@
+{
+  "title": "Hallelujah Chorus",
+  "source": "George Frideric Handel, Hallelujah from Messiah, HWV 56, 1741 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 100,
+  "bars": [
+    { "chord": "C",  "notes": "G4:2 G4:2 C5:4 C5:4 R:4" },
+    { "chord": "C",  "notes": "G4:2 G4:2 C5:4 C5:4 R:4" },
+    { "chord": "C",  "notes": "C5:2 C5:2 D5:4 C5:4 R:4" },
+    { "chord": "G7", "notes": "G4:2 G4:2 D5:4 [C]C5:8" },
+
+    { "chord": "C",  "notes": "G4:2 G4:2 C5:4 C5:4 C5:4" },
+    { "chord": "G7", "notes": "D5:2 C5:2 B4:4 D5:8" },
+    { "chord": "C",  "notes": "C5:2 C5:2 E5:4 E5:4 E5:4" },
+    { "chord": "G7", "notes": "F5:2 E5:2 D5:4 [C]C5:8" },
+
+    { "chord": "C",  "notes": "C5:2 C5:2 E5:4 E5:4 R:4" },
+    { "chord": "G",  "notes": "D5:2 D5:2 G5:4 G5:4 R:4" },
+    { "chord": "C",  "notes": "E5:2 E5:2 G5:4 G5:4 R:4" },
+    { "chord": "F",  "notes": "F5:2 F5:2 A5:4 A5:4 R:4" },
+    { "chord": "C",  "notes": "E5:2 E5:2 G5:4 G5:4 R:4" },
+    { "chord": "G7", "notes": "D5:2 D5:2 F5:4 F5:4 R:4" },
+
+    { "chord": "C",  "notes": "E5:2 E5:2 G5:4 G5:8" },
+    { "chord": "G7", "notes": "D5:4 F5:4 E5:4 D5:4" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

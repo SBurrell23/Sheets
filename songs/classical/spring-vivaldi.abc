@@ -1,0 +1,11 @@
+X:1
+T:Spring (La primavera)
+C:Antonio Vivaldi, Spring, Violin Concerto in E major, RV 269, from The Four Seasons, 1725 - public domain
+M:4/4
+L:1/16
+Q:1/4=112
+K:C clef=treble
+"C"c4 e4 e4 e4 | "C"d2c2 "G"g8 g2f2 | "C"e4 e4 e4 d2c2 | "G"g8 g2f2 e2f2 |
+"C"g2f2 e2f2 g4 f4 | "C"e4 "G7"d4 "C"c8 | "C"g2f2 e2f2 g2a2 g4 | "C"c'4 g2f2 e2f2 "G"g2a2 |
+"C"g4 c'4 a2g2 f2e2 | "C"e8 "G7"d2c2 d2d2 | "C"e2d2 e2c2 c8 | "C"c4 e4 e4 e4 |
+"C"d2c2 "G"g8 g2f2 | "C"e4 e4 e4 d2c2 | "G7"g4 f4 e4 d4 | "C"Hc16 |]

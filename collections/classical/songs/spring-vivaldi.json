@@ -1,0 +1,28 @@
+{
+  "title": "Spring (La primavera)",
+  "source": "Antonio Vivaldi, Spring, Violin Concerto in E major, RV 269, from The Four Seasons, 1725 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 112,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4 E5:4 E5:4 E5:4" },
+    { "chord": "C",  "notes": "D5:2 C5:2 [G]G5:8 G5:2 F5:2" },
+    { "chord": "C",  "notes": "E5:4 E5:4 E5:4 D5:2 C5:2" },
+    { "chord": "G",  "notes": "G5:8 G5:2 F5:2 E5:2 F5:2" },
+
+    { "chord": "C",  "notes": "G5:2 F5:2 E5:2 F5:2 G5:4 F5:4" },
+    { "chord": "C",  "notes": "E5:4 [G7]D5:4 [C]C5:8" },
+
+    { "chord": "C",  "notes": "G5:2 F5:2 E5:2 F5:2 G5:2 A5:2 G5:4" },
+    { "chord": "C",  "notes": "C6:4 G5:2 F5:2 E5:2 F5:2 [G]G5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:4 C6:4 A5:2 G5:2 F5:2 E5:2" },
+    { "chord": "C",  "notes": "E5:8 [G7]D5:2 C5:2 D5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:2 D5:2 E5:2 C5:2 C5:8" },
+
+    { "chord": "C",  "notes": "C5:4 E5:4 E5:4 E5:4" },
+    { "chord": "C",  "notes": "D5:2 C5:2 [G]G5:8 G5:2 F5:2" },
+    { "chord": "C",  "notes": "E5:4 E5:4 E5:4 D5:2 C5:2" },
+    { "chord": "G7", "notes": "G5:4 F5:4 E5:4 D5:4" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

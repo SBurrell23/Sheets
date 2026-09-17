@@ -1,0 +1,10 @@
+X:1
+T:Largo from the New World Symphony
+C:Antonin Dvorak, Symphony No. 9 "From the New World", Op. 95, 1893 - public domain
+M:4/4
+L:1/16
+Q:1/4=60
+K:C clef=treble
+"C"e3g1 g4 e3d1 c4 | "C"d3e1 g3e1 "G7"d8 | "C"e3g1 g4 e3d1 c4 | "G7"d2e2 d3c1 "C"c8 |
+"Am"a3c'1 c'4 b2g2 a4 | "Am"a2c'2 b2g2 a8 | "Am"a3c'1 c'4 b2g2 a4 | "Am"a2c'2 b2g2 "G7"a8 |
+"C"e3g1 g4 e3d1 c4 | "C"d3e1 g3e1 "G7"d8 | "C"e3g1 g4 c3d1 e4 | "G7"d2c2 d3A1 "C"Hc8 |]

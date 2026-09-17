@@ -1,0 +1,28 @@
+{
+  "title": "Nocturne, Op. 9 No. 2",
+  "source": "Frederic Chopin, Nocturne in E-flat major, Op. 9 No. 2, 1832 - public domain",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 2,
+  "tempo": 66,
+  "bars": [
+    { "chord": "C",    "notes": "G4:2" },
+    { "chord": "C",    "notes": "E5:8 D5:2 E5:2" },
+    { "chord": "C",    "notes": "D5:6 C5:4 G4:2" },
+    { "chord": "A7",   "notes": "E5:4 A4:2 A5:4 E5:2" },
+    { "chord": "Dm",   "notes": "G5:6 F5:4 E5:2" },
+    { "chord": "G7",   "notes": "D5:6 [E7]E5:4 B4:2" },
+    { "chord": "Am",   "notes": "C5:6 [F#dim]A4:6" },
+    { "chord": "G7",   "notes": "G5:2 B5:2 A5:2 G5:2 F5:2 E5:2" },
+    { "chord": "C",    "notes": "C5:8 B4:2 C5:2" },
+    { "chord": "G",    "notes": "D5:6 E5:4 D5:2" },
+    { "chord": "D/F#", "notes": "D5:6 A4:6" },
+    { "chord": "F",    "notes": "C5:2 C5:2 C5:2 [Fm]C5:2 B4:1 C5:1 D5:1 C5:1" },
+    { "chord": "C",    "notes": "C5:6 G4:6" },
+    { "chord": "A7",   "notes": "G5:6 F#5:4 E5:2" },
+    { "chord": "Dm7",  "notes": "D5:6 [Em]B4:6" },
+    { "chord": "Am",   "notes": "C5:6 [Dm7]B4:2 A4:2 B4:2" },
+    { "chord": "G7",   "notes": "G4:4 A4:4 B4:4" },
+    { "chord": "C",    "notes": "C5:12" }
+  ]
+}

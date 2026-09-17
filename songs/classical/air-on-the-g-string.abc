@@ -1,0 +1,13 @@
+X:1
+T:Air on the G String
+C:J.S. Bach, Air from Orchestral Suite No. 3, BWV 1068, c.1731 - public domain
+M:4/4
+L:1/16
+Q:1/4=56
+K:C clef=treble
+"C"e16 | "C"e2a2 f4 "G7"d2c2 B2G2 | "C"g8 "C7"g2e2 _B2A2 | "F"f2d2 c2d2 "C"e2f2 d2G2 |
+"C"e4 ^f2g2 c2d2 e2d2 | "C"B2A2 B2c2 "G7"B2A2 G4 | "C"e16 | "C"e4 A4 "G7"G8 |
+"C7"G2_B2 A2=B2 g2B2 A4 | "F"f8 f2d2 "G7"c2B2 | "C"e4 ^f2g2 c2d2 e2d2 | "C"B2A2 B2c2 "G7"B2A2 G4 |
+"C7"G8 G2A2 _B2A2 | "F"e2f2 g4 a4 g2f2 | "C"f2e2 d2c2 "G7"B2c2 d2e2 | "C"d2c2 B2A2 B2c2 "Am"A4 |
+"C"c4 e2d2 c2a2 "G7"g4 | "C"d2g2 G2A2 "G7"B2c2 B2G2 | "C"c4 e2d2 d4 "F"f2e2 | "C"e4 g2"F"f2 f8 |
+"G"G2B2 G2B2 "C"c2e2 f2g2 | "C7"c4 e2g2 _b2 "F"a6 | "F"a6 g2 d2e2 "G7"f2e2 | "C"c2B2 A2"G7"B2 "C"Hc8 |]

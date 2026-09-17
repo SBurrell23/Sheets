@@ -1,0 +1,13 @@
+X:1
+T:Can-Can (Galop Infernal)
+C:Jacques Offenbach, Galop infernal from Orpheus in the Underworld, 1858 - public domain
+M:2/4
+L:1/16
+Q:1/4=160
+K:C clef=treble
+"G"g8 | "G"g8 | "G7"g4 g4 | "G7"g4 g4 |
+"G"g2d2 d2e2 | "C"d2c2 c2e2 | "F"f2a2 c'2a2 | "C"a2g2 g4 |
+"G"a2b2 b2a2 | "C"g2c2 c2e2 | "D7"e2d2 e2d2 | "G7"e2d2 e2d2 |
+"G"g2d2 d2e2 | "C"d2c2 c2e2 | "F"f2a2 c'2a2 | "C"a2g2 g4 |
+"G"a2b2 b2a2 | "C"g2c2 c2e2 | "G7"d4 e2d2 | "C"d2c2 c4 |
+"C"Hc8 |]

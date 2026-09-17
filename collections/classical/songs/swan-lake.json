@@ -1,0 +1,34 @@
+{
+  "title": "Swan Lake",
+  "source": "Pyotr Ilyich Tchaikovsky, Scene from Swan Lake, Op. 20, 1876 - public domain",
+  "key": "Am",
+  "meter": "4/4",
+  "tempo": 72,
+  "bars": [
+    { "chord": "Am", "notes": "E5:8 A4:2 B4:2 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:6 C5:2 E5:6 C5:2" },
+    { "chord": "Am", "notes": "E5:6 A4:2 C5:2 A4:2 G4:2 C5:2" },
+    { "chord": "Am", "notes": "A4:8 R:2 D5:2 C5:2 B4:2" },
+
+    { "chord": "Am", "notes": "E5:8 A4:2 B4:2 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:6 C5:2 E5:6 C5:2" },
+    { "chord": "Am", "notes": "E5:6 A4:2 C5:2 A4:2 G4:2 C5:2" },
+    { "chord": "Am", "notes": "A4:12 A4:4" },
+
+    { "chord": "G",  "notes": "B4:4 C5:4 D5:4 E5:2 F5:2" },
+    { "chord": "Em", "notes": "G5:6 F5:2 E5:4 F5:2 G5:2" },
+    { "chord": "Dm", "notes": "A5:6 G5:2 [F]F5:4 G5:2 A5:2" },
+    { "chord": "B7", "notes": "B5:6 A5:2 [E7]E5:2 C5:2 B4:4" },
+
+    { "chord": "G",  "notes": "B4:4 C5:4 D5:4 E5:2 F5:2" },
+    { "chord": "Em", "notes": "G5:6 F5:2 E5:4 F5:2 G5:2" },
+    { "chord": "Dm", "notes": "A5:6 G5:2 [F]F5:4 G5:2 A5:2" },
+    { "chord": "Bb", "notes": "Bb5:6 F5:2 D5:4 F5:2 Bb5:2" },
+
+    { "chord": "E7", "notes": "B5:6 F#5:2 B5:6 E5:2" },
+    { "chord": "Am", "notes": "E5:8 R:2 B4:2 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:6 C5:2 E5:6 C5:2" },
+    { "chord": "E7", "notes": "D5:4 C5:4 B4:8" },
+    { "chord": "Am", "notes": "A4:16" }
+  ]
+}

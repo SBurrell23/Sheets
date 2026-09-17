@@ -1,0 +1,12 @@
+X:1
+T:Pomp and Circumstance
+C:Edward Elgar, Pomp and Circumstance March No. 1, Op. 39, 1901 - public domain
+M:4/4
+L:1/16
+Q:1/4=84
+K:C clef=treble
+"C"c8 "G7"B2c2 d4 | "C"A8 G8 | "F"f8 e2f2 g4 | "Dm"d16 |
+"C"e8 "D7"^f2 g4 a2 | "G"d8 G8 | "Am7"c8 c2 B4 A2 | "G7"G16 |
+"C"c8 "G7"B2c2 d4 | "C"A8 G8 | "F"f8 e2f2 g4 | "Dm"d16 |
+"C"e8 "D7"^f2 g4 a2 | "G"d8 G8 | "F"f8 f2 "G7"e4 d2 | "C"e16 |
+"F"A8 "G7"B2 c4 d2 | "C"G8 c8 | "Dm"c8 "G7"f2 e4 d2 | "C"Hc16 |]

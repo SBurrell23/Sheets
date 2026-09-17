@@ -1,0 +1,128 @@
+# Arranging spec — Classical
+
+This collection is **not** original composition. Each entry is a famous classical **theme**
+that is in the **public domain**, reduced to a beginner–intermediate lead sheet: a single-line
+melody in the treble clef with chord symbols above it. No left-hand part, no accompaniment
+figuration, no inner voices.
+
+Your job is to extract the tune a listener would hum, not to transcribe the piece.
+
+---
+
+## 1. The job
+
+You are given **one title**. Write its principal theme as a single melodic line, in the **key of
+C** (or **A minor** for minor-key themes), with simple chord symbols underneath.
+
+Three things matter, in this order:
+
+1. **It must be recognisable.** Someone who knows the piece should identify it within two bars.
+2. **It must be a melody.** Many of these pieces have no separate tune — the "melody" is the top
+   of an arpeggio figure (Für Elise's accompaniment, Clair de Lune's chords, Canon in D's
+   sequence). Take the notes an ear follows and leave the rest out. A broken-chord accompaniment
+   becomes a chord symbol, not a run of notes.
+3. **It must be playable at this level.** No ornaments, no trills written out, no virtuoso runs.
+   If the original has a cascade of thirty-second notes, write the shape underneath it.
+
+Write **the theme once through** — typically the first period or the famous strain, 16 to 40
+bars. Do not write out repeats, development, or a second subject.
+
+## 2. The file
+
+Write exactly one file to the path you are given, `collections/classical/songs/<slug>.json`:
+
+```json
+{
+  "title": "Ode to Joy",
+  "source": "Ludwig van Beethoven, Symphony No. 9, 1824 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 112,
+  "bars": [
+    { "chord": "C", "notes": "E5:4 E5:4 F5:4 G5:4" },
+    { "chord": "C", "notes": "G5:4 F5:4 E5:4 D5:4" }
+  ]
+}
+```
+
+- `title` — the name people know it by ("Ode to Joy", not "Symphony No. 9, fourth movement").
+- `source` — composer, work and date, **plus the words "public domain"**. This string is printed
+  as the credit line on the engraved score, so make it accurate and presentable.
+- `key` — `C` for major themes, `Am` for minor ones. Nothing else; the player transposes.
+- `meter` — one of `4/4`, `3/4`, `2/4`, `6/8`. Use the meter the piece is written in.
+- `pickup` — **omit** if the theme starts on beat 1. Otherwise set it to the upbeat's length in
+  sixteenth units, and make bar 1 exactly that long.
+- `tempo` — a sensible performance tempo in BPM (50–220).
+- `bars` — the theme, one object per bar.
+
+## 3. The note language
+
+**Durations are counted in sixteenth notes.** A full bar is 16 units in 4/4, 12 in 3/4 and 6/8,
+and 8 in 2/4.
+
+| write | means         | | write | means           |
+|-------|---------------|-|-------|-----------------|
+| `1`   | sixteenth     | | `6`   | dotted quarter  |
+| `2`   | eighth        | | `8`   | half            |
+| `3`   | dotted eighth | | `12`  | dotted half     |
+| `4`   | quarter       | | `16`  | whole           |
+
+A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
+`F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
+
+**There is no tie syntax.** A note cannot be held across a barline. Where the theme sustains
+across a bar line, write the note as long as the bar allows and begin the next bar afresh.
+
+## 4. Hard rules — the validator rejects these
+
+1. **Every bar's durations sum to exactly the bar length** for your meter (16 / 12 / 8). The
+   pickup bar, if declared, sums to exactly the `pickup` value. This is the most common mistake.
+2. **Every bar begins with a struck note** — never a rest.
+3. **Range `G4` to `C6`.** Move a phrase by an octave, or choose the octave that fits the whole
+   theme. If the theme genuinely cannot fit in either octave, adjust the smallest number of
+   notes you can and say so in your report.
+4. **The theme ends on the tonic** — `C5` (or `A5`/`A4` in A minor) — held at least a half note.
+   If the real theme ends elsewhere, extend it to a tonic close; a lead sheet needs an ending.
+5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`,
+   `6`, `m6`. A slash bass is allowed: `G/B`.
+
+## 5. Harmony
+
+Classical harmony is richer than folk harmony, and you should reflect that — but keep it to one
+chord per bar where you can.
+
+- In **C**: `C`, `F`, `G`, `G7`, `Am`, `Dm`, `Em`, plus `D7` and `E7` as secondary dominants and
+  the occasional `dim` passing chord where the original clearly modulates.
+- In **Am**: `Am`, `Dm`, `E7`, `G`, `C`, `F`, `Bm7b5`.
+- Use `[Chord]` for a genuine mid-bar change — common in classical phrases.
+- A `G7 → C` (or `E7 → Am`) at the close is almost always right.
+- Follow the original's harmony where you can hear it. Do not reharmonise.
+
+## 6. Check your work — required
+
+```bash
+python src/validate.py collections/classical/songs/<slug>.json
+```
+
+Fix every `ERROR` **and** every `WARNING`, then run it again. You are not finished until it
+prints `PASS`.
+
+Then read your file back and sing it against the piece you know:
+
+- does bar 1 start where the theme starts (upbeat or downbeat)?
+- is the rhythm of the opening right, including dotted figures?
+- have you accidentally written the accompaniment instead of the tune?
+- would someone name the piece from the first two bars?
+
+A file that passes the validator but is not recognisably the piece has failed the task.
+
+## 7. Method
+
+Do not work from memory alone. Cross-check the theme against published public-domain sources
+(IMSLP, abcnotation.com, Wikipedia's notated incipits) and then transpose into C or A minor.
+The agents who built the Classics collection did this and it materially improved accuracy.
+
+## 8. Public domain
+
+Only arrange works whose composer died more than 70 years ago, or which were published before
+1929. Everything you have been asked for qualifies. Record the attribution in `source`.

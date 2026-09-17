@@ -292,6 +292,10 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   var ready = false, playing = false, busy = false;
   var chordsOn = true, followOn = true, dragging = false;
   var curBar = 0, totalBars = 32, targetBpm = 100, transpose = 0;
+  // Once the listener moves the slider, that tempo sticks across song changes
+  // and reloads; until then each song opens at its own written tempo.
+  var userTempo = null;
+  try { var _ut = localStorage.getItem('userTempo'); if (_ut) userTempo = +_ut; } catch (e) {}
   var loadToken = 0, idc = 0, lastTop = null, playhead = null;
   var reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   var strip = $("strip"), paper = $("paper");
@@ -354,7 +358,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
         var o = document.createElement("option");
         o.value = String(n++);
         o.textContent = sg.title + "   ·   " + sg.key + "  ·  " + sg.meter +
-                        "  ·  " + sg.bars + " bars";
+                        "  ·  " + sg.bars + " bars  ·  ♩ " + sg.tempo;
         parent.appendChild(o);
       });
     });
@@ -368,7 +372,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
     song = flat[i].song;
     set = flat[i].set;
     totalBars = song.bars;
-    targetBpm = song.tempo;
+    targetBpm = userTempo || song.tempo;
     transpose = 0;
     $("songsel").value = String(i);
     $("where").textContent = (idx + 1) + " / " + flat.length +
@@ -377,8 +381,9 @@ a.dl .arrow{color:var(--accent); font-weight:600}
     $("next").disabled = idx === flat.length - 1;
     $("barsof").textContent = totalBars;
     strip.setAttribute("aria-valuemax", totalBars);
-    $("tempo").value = Math.min(targetBpm, 225);
-    $("bpm").textContent = targetBpm + " bpm";
+    targetBpm = Math.max(40, Math.min(targetBpm, 225));
+    $("tempo").value = targetBpm;
+    $("bpm").textContent = targetBpm + " bpm" + (userTempo ? "" : "");
     $("pdf").href = song.pdf;
     $("pdf").setAttribute("download", song.slug + ".pdf");
     $("spectitle").textContent = "Spec — " + coll.title +
@@ -420,13 +425,64 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   }
 
   /* ================= score ================= */
-  function render() {
+
+  // Left to itself abcjs fits four bars to a line and justifies each system to
+  // the full width, so a sparse tune ends up with 250px bars. MAX_BAR_PX is the
+  // only number worth touching here.
+  var MAX_BAR_PX = 145;        // target width for the widest bar, in screen pixels
+  var PER_LINE_MIN = 4;        // layouts to try, in measures per line
+  var PER_LINE_MAX = 10;
+
+  // abcjs stretches the final, short system out to the full width -- that is
+  // where the very widest bars come from. %%stretchlast 0 leaves it alone.
+  // It is a directive, not a render option, so it has to go into the ABC itself.
+  function noStretch(abc) {
+    var L = abc.split(/\r?\n/);
+    L.splice(1, 0, "%%stretchlast 0");   // after X:, before the rest of the header
+    return L.join("\n");
+  }
+
+  function renderWith(perLine) {
     paper.innerHTML = "";
-    visualObj = ABCJS.renderAbc("paper", song.abc, {
+    visualObj = ABCJS.renderAbc("paper", noStretch(song.abc), {
       responsive: "resize", add_classes: true, staffwidth: 880,
       paddingtop: 0, paddingbottom: 14, paddingleft: 0, paddingright: 0,
-      visualTranspose: transpose
+      visualTranspose: transpose,
+      wrap: { minSpacing: 1.0, maxSpacing: 1.4, preferredMeasuresPerLine: perLine }
     });
+  }
+
+  // Widest gap between two barlines on the same system, in screen pixels.
+  function widestBar() {
+    var svg = paper.querySelector("svg");
+    if (!svg) return 0;
+    var rows = {};
+    [].forEach.call(svg.querySelectorAll(".abcjs-bar"), function (e) {
+      var b = e.getBoundingClientRect();
+      var y = Math.round(b.top / 8) * 8;       // bucket by system
+      (rows[y] = rows[y] || []).push(b.left);
+    });
+    var max = 0;
+    Object.keys(rows).forEach(function (y) {
+      var xs = rows[y].sort(function (a, b) { return a - b; });
+      for (var i = 1; i < xs.length; i++) max = Math.max(max, xs[i] - xs[i - 1]);
+    });
+    return max;
+  }
+
+  // Which measures-per-line setting gives the narrowest bars is not monotonic --
+  // it depends on how the remainder falls on the last system -- so try the range
+  // and keep the airiest layout that fits. A dense tune may not reach the cap at
+  // a readable note size; then we keep the narrowest layout going.
+  function render() {
+    var best = null, current = null;
+    for (var n = PER_LINE_MIN; n <= PER_LINE_MAX; n++) {
+      renderWith(n); current = n;
+      var w = widestBar();
+      if (best === null || w < best.w) best = { n: n, w: w };
+      if (w <= MAX_BAR_PX) break;
+    }
+    if (best && best.n !== current) renderWith(best.n);
     addPlayhead();
   }
 
@@ -548,6 +604,11 @@ a.dl .arrow{color:var(--accent); font-weight:600}
       ready = true;
       $("play").disabled = false;
       paintPlay();
+      // A fresh controller always starts at the tune's own Q: header -- the qpm
+      // we pass to setTune does not stick -- so a sticky user tempo (or a
+      // re-prime after transposing) has to be warped back in here. Without this
+      // the slider reads 225 while the song plays at its written tempo.
+      syncWarp();
     }).catch(function (e) {
       if (token !== loadToken) return;
       $("playlab").textContent = "Audio failed"; console.error(e);
@@ -556,11 +617,21 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 
   /* setWarp re-primes the audio AND the timing clock together and restores the
      position, so audio and playhead stay locked. Do not pause/seek around it. */
+  function warpPct() { return Math.max(1, Math.round(targetBpm / song.tempo * 100)); }
+
+  // Bring a freshly primed controller up to the current target tempo.
+  function syncWarp() {
+    if (!synth || !song) return;
+    var pct = warpPct();
+    if (pct === 100) return;
+    try { synth.setWarp(pct); } catch (e) {}
+  }
+
   function applyTempo(bpm) {
     targetBpm = bpm;
     $("bpm").textContent = bpm + " bpm";
     if (!synth || !ready || !song) return;
-    var pct = Math.max(1, Math.round(bpm / song.tempo * 100));
+    var pct = warpPct();
     busy = true;
     var release = function () { busy = false; };
     var res = synth.setWarp(pct);
@@ -641,7 +712,11 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   $("keydown").addEventListener("click", function () { keyStep(-1); });
   $("keyup").addEventListener("click", function () { keyStep(1); });
   $("tempo").addEventListener("input", function () { $("bpm").textContent = this.value + " bpm"; });
-  $("tempo").addEventListener("change", function () { applyTempo(+this.value); });
+  $("tempo").addEventListener("change", function () {
+    userTempo = +this.value;
+    try { localStorage.setItem("userTempo", userTempo); } catch (e) {}
+    applyTempo(userTempo);
+  });
   $("keysel").addEventListener("change", function () { applyTranspose(+this.value); });
 
   /* ================= modals ================= */
@@ -717,6 +792,8 @@ a.dl .arrow{color:var(--accent); font-weight:600}
     index: function () { return idx; },
     count: function () { return flat.length; },
     transpose: function () { return transpose; },
+    userTempo: function () { return userTempo; },
+    written: function () { return song && song.tempo; },
     synthId: function () { return synth ? (synth.__id || (synth.__id = ++idc)) : null; },
     primedIsCurrent: function () {
       try { return synth.visualObj === visualObj[0]; } catch (e) { return null; }

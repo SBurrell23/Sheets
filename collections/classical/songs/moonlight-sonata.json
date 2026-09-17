@@ -1,0 +1,26 @@
+{
+  "title": "Moonlight Sonata",
+  "source": "Ludwig van Beethoven, Piano Sonata No. 14 Op. 27 No. 2, 1801 - public domain",
+  "key": "Am",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 56,
+  "bars": [
+    { "chord": "Am", "notes": "E5:3 E5:1" },
+    { "chord": "E7", "notes": "E5:12 E5:3 E5:1" },
+    { "chord": "Am", "notes": "E5:8 [F]F5:8" },
+    { "chord": "Dm", "notes": "E5:8 D5:4 [G]G5:4" },
+    { "chord": "C",  "notes": "C5:12 [Cm]Eb5:3 Eb5:1" },
+    { "chord": "Cm", "notes": "Eb5:12 Eb5:3 Eb5:1" },
+    { "chord": "Cm", "notes": "Eb5:12 D5:4" },
+    { "chord": "Gm", "notes": "D5:8 Eb5:4 C5:4" },
+    { "chord": "Dm", "notes": "D5:8 [E7]D5:8" },
+    { "chord": "Am", "notes": "A4:4 R:8 A5:4" },
+    { "chord": "Dm", "notes": "Bb5:12 [E7]G#5:4" },
+    { "chord": "Am", "notes": "A5:12 A5:4" },
+    { "chord": "Dm", "notes": "Bb5:12 [E7]G#5:4" },
+    { "chord": "Am", "notes": "A5:8 [G]G5:8" },
+    { "chord": "E7", "notes": "E5:8 D5:4 B4:4" },
+    { "chord": "Am", "notes": "A4:16" }
+  ]
+}

@@ -1,0 +1,11 @@
+X:1
+T:The Swan
+C:Camille Saint-Saens, Le Cygne from Le Carnaval des Animaux, 1886 - public domain
+M:6/8
+L:1/16
+Q:1/8=54
+K:C clef=treble
+"C"c'2b2e2 a2g2c2 | "Dm"d4 e2 f6 | "G7"A4 B1c1 d1e1f1g1a1b1 | "C"c'12 |
+"C"g2e2c2 A2B2c2 | "G"G4 A2 B4 z2 | "Bb"f2d2_B2 G2A2B2 | "Bb"f4 g2 a4 z2 |
+"Dm"a2d2e2 f4 g1a1 | "G7"b6 a4 z2 | "D7"a2d2e2 ^f4 g1a1 | "Bb"_b6 "G7"=b6 |
+"C"a2g2c2 d2e2c2 | "C"e6 f2g2e2 | "G7"a6 a2b2g2 | "C"Hc'12 |]

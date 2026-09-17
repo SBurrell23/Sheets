@@ -1,0 +1,27 @@
+{
+  "title": "Gymnopedie No. 1",
+  "source": "Erik Satie, Trois Gymnopedies, 1888 - public domain",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 8,
+  "tempo": 66,
+  "bars": [
+    { "chord": "Fmaj7", "notes": "E5:4 G5:4" },
+    { "chord": "Cmaj7", "notes": "F5:4 E5:4 B4:4" },
+    { "chord": "Fmaj7", "notes": "A4:4 B4:4 C5:4" },
+    { "chord": "Cmaj7", "notes": "G4:12" },
+    { "chord": "Fmaj7", "notes": "E5:12" },
+    { "chord": "Cmaj7", "notes": "E5:12" },
+    { "chord": "Fmaj7", "notes": "E5:12" },
+    { "chord": "Cmaj7", "notes": "E5:12" },
+    { "chord": "Em",    "notes": "B4:12" },
+    { "chord": "Am",    "notes": "E5:12" },
+    { "chord": "Dm",    "notes": "D5:12" },
+    { "chord": "Dm7",   "notes": "D5:12" },
+    { "chord": "Cm",    "notes": "D5:12" },
+    { "chord": "Gm",    "notes": "G4:4 A4:4 Bb4:4" },
+    { "chord": "Dm7/C", "notes": "D5:4 C5:4 A4:4" },
+    { "chord": "Dm7/C", "notes": "C5:4 Bb4:4 A4:4" },
+    { "chord": "C",     "notes": "C5:12" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Can-Can (Galop Infernal)",
+  "source": "Jacques Offenbach, Galop infernal from Orpheus in the Underworld, 1858 - public domain",
+  "key": "C",
+  "meter": "2/4",
+  "tempo": 160,
+  "bars": [
+    { "chord": "G",  "notes": "G5:8" },
+    { "chord": "G",  "notes": "G5:8" },
+    { "chord": "G7", "notes": "G5:4 G5:4" },
+    { "chord": "G7", "notes": "G5:4 G5:4" },
+    { "chord": "G",  "notes": "G5:2 D5:2 D5:2 E5:2" },
+    { "chord": "C",  "notes": "D5:2 C5:2 C5:2 E5:2" },
+    { "chord": "F",  "notes": "F5:2 A5:2 C6:2 A5:2" },
+    { "chord": "C",  "notes": "A5:2 G5:2 G5:4" },
+    { "chord": "G",  "notes": "A5:2 B5:2 B5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:2 C5:2 C5:2 E5:2" },
+    { "chord": "D7", "notes": "E5:2 D5:2 E5:2 D5:2" },
+    { "chord": "G7", "notes": "E5:2 D5:2 E5:2 D5:2" },
+    { "chord": "G",  "notes": "G5:2 D5:2 D5:2 E5:2" },
+    { "chord": "C",  "notes": "D5:2 C5:2 C5:2 E5:2" },
+    { "chord": "F",  "notes": "F5:2 A5:2 C6:2 A5:2" },
+    { "chord": "C",  "notes": "A5:2 G5:2 G5:4" },
+    { "chord": "G",  "notes": "A5:2 B5:2 B5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:2 C5:2 C5:2 E5:2" },
+    { "chord": "G7", "notes": "D5:4 E5:2 D5:2" },
+    { "chord": "C",  "notes": "D5:2 C5:2 C5:4" },
+    { "chord": "C",  "notes": "C5:8" }
+  ]
+}
