@@ -98,7 +98,10 @@ def main():
                             {'bars': songlib.BARS_REQUIRED, 'label': sid})
             want = cfg.get('bars', songlib.BARS_REQUIRED)
             swing = cfg.get('swing', False)
-            spec = read_text(os.path.join(sdir, 'SPEC.md'))
+            # A set may carry its own SPEC; where the whole collection was written to
+            # one brief, the collection-level SPEC.md covers every set in it.
+            spec = read_text(os.path.join(sdir, 'SPEC.md')) or read_text(
+                os.path.join(cdir, 'SPEC.md'))
 
             reldir = cid if single else (cid + '/' + sid)
             outdir = os.path.join(ROOT, 'songs', *reldir.split('/'))
@@ -177,15 +180,18 @@ def main():
                           % (shared[1], shared[0]))
 
             entries.sort(key=lambda e: e['title'].lower())
-            out_sets.append({'id': sid, 'label': cfg.get('label', sid),
+            out_sets.append({'id': sid, 'title': cfg.get('title', ''),
+                             'label': cfg.get('label', sid), 'order': cfg.get('order', 99),
                              'spec': spec, 'songs': entries})
 
         if not out_sets:
             continue
 
+        # vN sets lead, newest first. Everything else follows the `order` in its
+        # version.json, falling back to alphabetical when none is given.
         def setkey(s):
             m = re.match(r'^v(\d+)$', s['id'])
-            return (0, -int(m.group(1)), '') if m else (1, 0, s['id'])
+            return (0, -int(m.group(1)), 0, '') if m else (1, 0, s['order'], s['id'])
         out_sets.sort(key=setkey)
         out_collections.append({'id': cid, 'title': meta.get('title', cid),
                                 'blurb': meta.get('blurb', ''),

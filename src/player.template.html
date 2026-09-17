@@ -346,7 +346,9 @@ a.dl .arrow{color:var(--accent); font-weight:600}
       var parent = sel;
       if (multi) {
         parent = document.createElement("optgroup");
-        parent.label = s.id + "  —  " + (s.label || "");
+        // A set can give itself a display title; otherwise the folder name stands
+        // in, which is what the AI Music sets (v1 … v6) want.
+        parent.label = (s.title || s.id) + "  —  " + (s.label || "");
         sel.appendChild(parent);
       }
       s.songs.forEach(function (sg) {
@@ -371,7 +373,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
     transpose = 0;
     $("songsel").value = String(i);
     $("where").textContent = (idx + 1) + " / " + flat.length +
-      (coll.sets.length > 1 ? "  ·  " + set.id : "");
+      (coll.sets.length > 1 ? "  ·  " + (set.title || set.id) : "");
     $("prev").disabled = idx === 0;
     $("next").disabled = idx === flat.length - 1;
     $("barsof").textContent = totalBars;
@@ -382,7 +384,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
     $("pdf").href = song.pdf;
     $("pdf").setAttribute("download", song.slug + ".pdf");
     $("spectitle").textContent = "Spec — " + coll.title +
-      (coll.sets.length > 1 ? " · " + set.id : "");
+      (coll.sets.length > 1 ? " · " + (set.title || set.id) : "");
     $("spectext").textContent = set.spec || (coll.blurb || "(no spec recorded)");
     buildKeys();
     buildTicks();

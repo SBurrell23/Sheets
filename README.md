@@ -14,7 +14,7 @@ Published at <https://sburrell23.github.io/Sheets/>.
 |---|---|
 | **Folk Songs** | Traditional and early-popular melodies in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
 | **Classical** | Famous classical themes in the public domain, reduced to a single melodic line. Where a piece has no separate tune — Für Elise, Clair de Lune, Canon in D — the arrangement takes the line an ear follows and leaves the accompaniment to the chord symbols. |
-| **Ragtime & Blues** | Ragtime, early blues and New Orleans jazz in the public domain. Unlike the other collections these are **full arrangements** — every distinct strain of a rag, in playing order, not just the famous one, so they run 60–100 bars. |
+| **Ragtime & Blues** | Ragtime, early blues and New Orleans jazz in the public domain, in three sets — **Ragtime**, **Blues** and **Other**. Unlike the other collections these are **full arrangements** — every distinct strain of a rag, in playing order, not just the famous one, so they run 60–100 bars. |
 | **AI Music** | Original songs written by AI agents to a spec. Six sets (v1–v6), each written to a different spec — **View spec** shows the one a given song was written to. |
 
 Adding another collection means adding one folder with a `collection.json`, a `version.json`,
@@ -33,12 +33,17 @@ collections/
     SPEC.md                    the arranging brief agents worked to
     songs/*.json               one file per song
   classical/                   same shape
+  ragtime/
+    collection.json
+    SPEC.md                    one brief, shared by all three sets
+    ragtime/ blues/ other/     each: version.json, songs/*.json
   ai-music/
     collection.json
     v1/ ... v6/                each: version.json, SPEC.md, songs/*.json
 songs/                         generated output
   folk-songs/*.abc|.musicxml|.pdf
   classical/*.abc|.musicxml|.pdf
+  ragtime/ragtime/ ragtime/blues/ ragtime/other/
   ai-music/v1/ ... v6/
 src/
   songlib.py                   note-language parser, validator, ABC + MusicXML renderers
@@ -49,8 +54,13 @@ src/
 ```
 
 A collection holds **either** `songs/` directly (a single-set collection, like Folk Songs) **or**
-one or more named set folders each with their own `songs/` (like AI Music). `build.py` handles
-both shapes.
+one or more named set folders each with their own `songs/` (like AI Music and Ragtime & Blues).
+`build.py` handles both shapes.
+
+A set's `version.json` may carry a `title` (what the dropdown's group heading shows, so the
+folder can stay lowercase) and an `order`. `vN` sets always lead, newest first; everything else
+follows `order`, falling back to alphabetical. A set with no `SPEC.md` of its own inherits the
+collection's, which is what lets Ragtime & Blues share one brief across its three sets.
 
 `index.html` embeds every song's notation *and every spec* inline rather than fetching them,
 because `fetch()` is blocked on `file://` URLs. That is what lets the page work by
