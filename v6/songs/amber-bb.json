@@ -1,0 +1,46 @@
+{
+  "title": "Amber Mile",
+  "key": "Bb",
+  "tempo": 138,
+  "bars": [
+    { "chord": "Bb6",  "notes": "Bb4:4 F5:4 Bb5:3 G5:1 D5:4" },
+    { "chord": "Gm7",  "notes": "D5:4 Bb5:4 F5:3 G5:1 D5:4" },
+    { "chord": "C7",   "notes": "C5:2 G5:2 E5:6 G5:2 Bb5:4" },
+    { "chord": "F7",   "notes": "F5:6 G5:2 A5:8" },
+
+    { "chord": "Bb6",  "notes": "Bb5:4 D5:4 G5:3 F5:1 D5:4" },
+    { "chord": "Bdim", "notes": "D5:2 F5:2 B4:6 Ab5:2 F5:4" },
+    { "chord": "Cm7",  "notes": "G5:4 C5:4 Eb5:3 G5:1 Bb5:4" },
+    { "chord": "F7",   "notes": "A5:6 G5:2 C5:8" },
+
+    { "chord": "Bb6",  "notes": "F5:4 D5:4 Bb5:3 A5:1 G5:4" },
+    { "chord": "Gm7",  "notes": "D5:4 G5:4 F5:3 D5:1 Bb4:4" },
+    { "chord": "C7",   "notes": "C5:2 E5:2 Bb5:6 G5:2 E5:4" },
+    { "chord": "F7",   "notes": "F5:8 A5:8" },
+
+    { "chord": "Bb6",  "notes": "D5:4 Bb5:4 F5:3 D5:1 G5:4" },
+    { "chord": "G7",   "notes": "F5:2 D5:2 B4:6 F5:2 G5:4" },
+    { "chord": "Cm7",  "notes": "Bb5:4 Eb5:4 [F7]C5:3 D5:1 Eb5:4" },
+    { "chord": "Bb6",  "notes": "D5:8 Bb4:8" },
+
+    { "chord": "Bb7",  "notes": "Bb4:2 D5:2 Ab5:6 F5:2 D5:4" },
+    { "chord": "Eb6",  "notes": "Eb5:2 Bb5:2 G5:6 Bb5:2 Eb5:4" },
+    { "chord": "D7",   "notes": "D5:2 A5:2 F#5:6 A5:2 D5:4" },
+    { "chord": "Gm",   "notes": "Bb5:4 G5:8 D5:4" },
+
+    { "chord": "Eb6",  "notes": "Eb5:2 F5:2 C6:6 Bb5:2 G5:4" },
+    { "chord": "C7",   "notes": "G5:2 E5:2 Bb5:6 G5:2 C5:4" },
+    { "chord": "Cm7",  "notes": "C5:2 G5:2 Eb5:6 G5:2 Bb5:4" },
+    { "chord": "F7",   "notes": "A5:4 F5:8 C5:4" },
+
+    { "chord": "Bb6",  "notes": "Bb4:4 F5:4 Bb5:3 G5:1 D5:4" },
+    { "chord": "Gm7",  "notes": "D5:4 Bb5:4 G5:3 F5:1 D5:4" },
+    { "chord": "C7",   "notes": "C5:2 G5:2 E5:6 G5:2 Bb5:4" },
+    { "chord": "F7",   "notes": "A5:12 G5:4" },
+
+    { "chord": "Bb6",  "notes": "Bb5:4 D5:4 G5:3 F5:1 D5:4" },
+    { "chord": "Bdim", "notes": "D5:2 F5:2 B4:6 Ab5:2 F5:4" },
+    { "chord": "Cm7",  "notes": "Bb5:4 Eb5:4 [F7]F5:3 G5:1 A5:4" },
+    { "chord": "Bb6",  "notes": "Bb5:16" }
+  ]
+}

@@ -11,6 +11,7 @@ each one and hands you a PDF of the score.
 
 ```
 index.html              the player  <- generated, do not edit by hand
+favicon.svg             site icon, referenced by the player template
 README.md
 v1/                     a song set: 6 songs, 40 bars, one landing figure per song
   SPEC.md                 the spec these songs were written to
@@ -31,6 +32,10 @@ v4/                     8 songs, 32-bar AABA, running eighths between held landi
 v5/                     8 songs, 32-bar AABA, shuffle feel, leaner eighth texture
   SPEC.md
   version.json            {"bars": 32, "swing": true, "minEighths": 60, "maxEighths": 86, ...}
+  songs/*.json
+v6/                     8 songs, 32-bar AABA, jaunty animated-musical style
+  SPEC.md
+  version.json            {"bars": 32, "maxLeapRatio": 0.45, "minEighthBarsRatio": 0.25, ...}
   songs/*.json
 songs/                  generated output
   v1/ ... v5/             *.abc | *.musicxml | *.pdf
@@ -87,6 +92,16 @@ otherwise the single figure — and warns when more than two songs share one.
 A `version.json` can set `minEighths` / `maxEighths` / `minHalves` / `minRunBars`, and the
 validator reports the song's actual counts against them. The ceiling exists because v4's agents
 cleared a floor of 88 eighths by writing 149 — a floor alone does not shape a texture.
+
+Two more knobs exist because a *style* can contradict a default that was only ever right for
+one texture:
+
+- **`maxLeapRatio`** (default `0.30`) — the share of intervals allowed to exceed a major third.
+  v6 raises it to `0.45`, because its style is built on arpeggio openings and rising sixths;
+  under the default the spec would have been fighting the validator.
+- **`minEighthBarsRatio`** (default `0.40`) — the share of bars that must contain an eighth
+  note. v6 lowers it to `0.25`: a style built on dotted `3 1` snaps carries far fewer plain
+  eighths, and four of v6's eight head figures contain none at all.
 
 ## Swing sets
 

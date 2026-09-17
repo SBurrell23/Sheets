@@ -237,9 +237,12 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                  % (len(bars), tonic_name, last[0]['step']))
 
     # ---- rhythmic density ------------------------------------------------
-    if eighth_bars < len(bars) * 0.40:
-        W.append('only %d of %d bars contain eighth notes; aim for at least %d'
-                 % (eighth_bars, len(bars), int(len(bars) * 0.40)))
+    # Per-version, because a style built on dotted snaps (3 1) carries far fewer plain
+    # eighths than one built on running eighths, and 40% is only right for the latter.
+    eighth_bar_ratio = thresholds.get('minEighthBarsRatio', 0.40)
+    if eighth_bars < len(bars) * eighth_bar_ratio:
+        W.append('only %d of %d bars contain eighth notes; this set wants at least %d'
+                 % (eighth_bars, len(bars), int(len(bars) * eighth_bar_ratio)))
     # A swing set writes straight eighths and gets its sixteenths from the shuffle
     # rewrite at build time, so demanding author-written ones here is wrong.
     if not thresholds.get('swing'):
@@ -337,10 +340,14 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             if prev is not None and abs(n - prev) > 4:
                 leaps += 1
             prev = n
+    # Some styles are built on leaps (arpeggio openings, rising sixths), so the ceiling
+    # is per-version: a set that wants a leaping melody raises maxLeapRatio.
     total_notes = sum(len(p) for p in parsed)
-    if leaps > total_notes * 0.30:
-        W.append('%d of %d intervals are leaps larger than a major third; '
-                 'favour stepwise motion' % (leaps, total_notes))
+    leap_ratio = thresholds.get('maxLeapRatio', 0.30)
+    if leaps > total_notes * leap_ratio:
+        W.append('%d of %d intervals are leaps larger than a major third (%.0f%%); this set '
+                 'allows up to %.0f%%' % (leaps, total_notes,
+                                          100.0 * leaps / max(total_notes, 1), 100 * leap_ratio))
 
     return E, W
 

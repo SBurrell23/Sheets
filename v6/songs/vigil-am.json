@@ -1,0 +1,46 @@
+{
+  "title": "Candlewick Caper",
+  "key": "Am",
+  "tempo": 146,
+  "bars": [
+    { "chord": "Am",     "notes": "A4:3 C5:1 A5:4 G5:2 F5:2 E5:4" },
+    { "chord": "Am6",    "notes": "E5:3 C5:1 A5:4 F#5:2 E5:2 C5:4" },
+    { "chord": "A7",     "notes": "A4:3 C#5:1 A5:4 G5:2 E5:2 C#5:4" },
+    { "chord": "Dm",     "notes": "D5:2 F5:2 D5:4 A5:8" },
+
+    { "chord": "F",      "notes": "A5:3 F5:1 C5:4 F5:2 A5:2 G5:4" },
+    { "chord": "D7",     "notes": "A5:3 F#5:1 D5:4 F#5:2 A5:2 C5:4" },
+    { "chord": "G",      "notes": "B4:2 D5:6 G5:2 B5:6" },
+    { "chord": "E7",     "notes": "A5:2 G#5:2 E5:4 B5:8" },
+
+    { "chord": "Am",     "notes": "A5:3 E5:1 C5:4 E5:2 A5:2 G5:4" },
+    { "chord": "Am6",    "notes": "E5:3 C5:1 A5:4 F#5:2 E5:2 C5:4" },
+    { "chord": "A7",     "notes": "A4:3 C#5:1 A5:4 G5:2 E5:2 C#5:4" },
+    { "chord": "Dm",     "notes": "D5:4 A5:4 F5:8" },
+
+    { "chord": "Dm7",    "notes": "A5:3 F5:1 D5:4 F5:2 A5:2 C5:4" },
+    { "chord": "D#dim",  "notes": "C5:3 D#5:1 F#5:4 A5:2 F#5:2 D#5:4" },
+    { "chord": "E7",     "notes": "G#5:2 E5:6 B5:2 G#5:6" },
+    { "chord": "Am6",    "notes": "A5:4 F#5:4 A5:8" },
+
+    { "chord": "Dm7",    "notes": "A5:2 D5:6 F5:2 A5:6" },
+    { "chord": "G7",     "notes": "G5:2 B5:6 A5:2 G5:6" },
+    { "chord": "C",      "notes": "E5:2 C6:6 B5:2 G5:6" },
+    { "chord": "C6",     "notes": "E5:4 A5:12" },
+
+    { "chord": "A7",     "notes": "C#5:2 E5:6 A5:2 G5:6" },
+    { "chord": "Dm",     "notes": "F5:2 D5:6 A5:2 F5:6" },
+    { "chord": "Bm7b5",  "notes": "F5:3 D5:1 B4:4 D5:2 F5:2 A5:4" },
+    { "chord": "E7",     "notes": "B5:4 G#5:12" },
+
+    { "chord": "Am",     "notes": "E5:3 A5:1 G5:4 E5:2 C5:2 A4:4" },
+    { "chord": "Am6",    "notes": "A4:3 C5:1 A5:4 F#5:2 E5:2 C5:4" },
+    { "chord": "A7",     "notes": "A4:3 C#5:1 A5:4 G5:2 E5:2 C#5:4" },
+    { "chord": "Dm",     "notes": "D5:8 A5:8" },
+
+    { "chord": "F6",     "notes": "A5:3 F5:1 C5:4 D5:2 F5:2 A5:4" },
+    { "chord": "Dm7",    "notes": "F5:3 A5:1 D5:4 F5:2 A5:2 C5:4" },
+    { "chord": "E7",     "notes": "B4:2 E5:6 B5:2 G#5:6" },
+    { "chord": "Am",     "notes": "A5:16" }
+  ]
+}
