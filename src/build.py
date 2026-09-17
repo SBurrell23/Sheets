@@ -72,6 +72,7 @@ def main():
             with io.open(cfgp, encoding='utf-8') as f:
                 cfg.update(json.load(f))
         want = cfg.get('bars', songlib.BARS_REQUIRED)
+        swing = cfg.get('swing', False)
 
         spec = ''
         specp = os.path.join(vdir, 'SPEC.md')
@@ -106,10 +107,10 @@ def main():
                 print('  warn %-20s %s' % (name, warnings[0]))
 
             with io.open(os.path.join(outdir, slug + '.abc'), 'w', encoding='utf-8') as f:
-                f.write(songlib.to_abc(song, with_title=True))
+                f.write(songlib.to_abc(song, with_title=True, swing=swing))
             xml_path = os.path.join(outdir, slug + '.musicxml')
             with io.open(xml_path, 'w', encoding='utf-8') as f:
-                f.write(songlib.to_musicxml(song))
+                f.write(songlib.to_musicxml(song, swing=swing))
 
             if ms:
                 pdf_path = os.path.join(outdir, slug + '.pdf')
@@ -129,7 +130,7 @@ def main():
                 'slug': slug, 'title': song['title'], 'key': song['key'],
                 'tempo': song['tempo'], 'bars': len(song['bars']),
                 'pdf': 'songs/' + vname + '/' + slug + '.pdf',
-                'abc': songlib.to_abc(song, with_title=False),
+                'abc': songlib.to_abc(song, with_title=False, swing=swing),
             })
             print('  ok   %-20s %-4s %3d bars  tempo %3d  "%s"'
                   % (name, song['key'], len(song['bars']), song['tempo'], song['title']))

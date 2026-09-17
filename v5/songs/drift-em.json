@@ -1,0 +1,46 @@
+{
+  "title": "Night Drift",
+  "key": "Em",
+  "tempo": 156,
+  "bars": [
+    { "chord": "Em7",   "notes": "B4:4 E5:4 G5:2 F#5:2 E5:2 D5:2" },
+    { "chord": "Am7",   "notes": "C5:4 E5:4 G5:2 A5:2 G5:2 F#5:2" },
+    { "chord": "Cmaj7", "notes": "E5:4 G5:4 B5:2 A5:2 G5:2 E5:2" },
+    { "chord": "Bm",    "notes": "F#5:4 E5:4 D5:8" },
+
+    { "chord": "Em7",   "notes": "B4:4 E5:4 G5:2 F#5:2 E5:2 D5:2" },
+    { "chord": "Am7",   "notes": "C5:2 D5:2 E5:6 G5:4 A5:2" },
+    { "chord": "D",     "notes": "A5:8 G5:2 F#5:2 E5:2 D5:2" },
+    { "chord": "Bm",    "notes": "F#5:4 D5:4 B4:8" },
+
+    { "chord": "Em7",   "notes": "E5:4 G5:4 B5:2 A5:2 G5:2 F#5:2" },
+    { "chord": "Am7",   "notes": "E5:4 A5:4 G5:2 F#5:2 E5:2 D5:2" },
+    { "chord": "Cmaj7", "notes": "E5:2 F#5:2 G5:6 B5:4 A5:2" },
+    { "chord": "Bm",    "notes": "F#5:8 D5:4 B4:4" },
+
+    { "chord": "Em7",   "notes": "B4:4 E5:4 G5:2 A5:2 B5:2 A5:2" },
+    { "chord": "Am7",   "notes": "A5:4 G5:4 E5:8" },
+    { "chord": "B7",    "notes": "F#5:4 A5:4 F#5:2 D#5:2 B4:2 D#5:2" },
+    { "chord": "Em",    "notes": "E5:8 G5:4 E5:4" },
+
+    { "chord": "G",     "notes": "G5:2 A5:2 B5:6 A5:4 G5:2" },
+    { "chord": "Cmaj7", "notes": "G5:4 B5:4 A5:2 G5:2 A5:2 B5:2" },
+    { "chord": "Am7",   "notes": "A5:2 B5:2 C6:6 B5:4 A5:2" },
+    { "chord": "D",     "notes": "A5:8 F#5:8" },
+
+    { "chord": "G",     "notes": "G5:4 B5:8 G5:4" },
+    { "chord": "Cmaj7", "notes": "E5:2 G5:2 A5:6 G5:4 E5:2" },
+    { "chord": "Am7",   "notes": "A5:4 G5:4 E5:2 G5:2 A5:2 G5:2" },
+    { "chord": "B7",    "notes": "F#5:8 D#5:8" },
+
+    { "chord": "Em7",   "notes": "E5:4 G5:4 B5:2 A5:2 G5:2 F#5:2" },
+    { "chord": "Am7",   "notes": "E5:4 A5:4 G5:2 F#5:2 E5:2 D5:2" },
+    { "chord": "Cmaj7", "notes": "E5:2 F#5:2 G5:6 B5:4 A5:2" },
+    { "chord": "Bm",    "notes": "A5:4 F#5:8 D5:4" },
+
+    { "chord": "Em7",   "notes": "B4:4 E5:4 G5:2 A5:2 B5:2 A5:2" },
+    { "chord": "Am7",   "notes": "A5:8 G5:2 F#5:2 E5:2 D5:2" },
+    { "chord": "B7",    "notes": "F#5:4 A5:4 F#5:2 D#5:2 B4:2 D#5:2" },
+    { "chord": "Em",    "notes": "E5:16" }
+  ]
+}

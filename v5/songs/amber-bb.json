@@ -1,0 +1,46 @@
+{
+  "title": "Amber Hour",
+  "key": "Bb",
+  "tempo": 126,
+  "bars": [
+    { "chord": "Bb6",    "notes": "D5:2 Eb5:2 F5:2 G5:2 F5:8" },
+    { "chord": "Ebmaj7", "notes": "Eb5:2 F5:2 G5:2 A5:2 G5:8" },
+    { "chord": "Dm",     "notes": "F5:2 G5:2 A5:2 Bb5:2 A5:8" },
+    { "chord": "Cm7",    "notes": "G5:2 F5:2 Eb5:4 C5:8" },
+
+    { "chord": "Bb6",    "notes": "D5:2 Eb5:2 F5:2 G5:2 D5:8" },
+    { "chord": "Gm7",    "notes": "Bb4:2 C5:2 D5:4 F5:6 Eb5:2" },
+    { "chord": "Cm7",    "notes": "C5:4 Eb5:4 G5:8" },
+    { "chord": "F7",     "notes": "A5:2 G5:2 F5:4 C5:8" },
+
+    { "chord": "Bb6",    "notes": "Bb4:2 C5:2 D5:2 Eb5:2 D5:8" },
+    { "chord": "Cm7",    "notes": "C5:2 D5:2 Eb5:2 F5:2 Eb5:8" },
+    { "chord": "Dm",     "notes": "D5:2 Eb5:2 F5:2 G5:2 F5:8" },
+    { "chord": "Gm7",    "notes": "G5:8 D5:8" },
+
+    { "chord": "Ebmaj7", "notes": "Bb4:2 C5:2 D5:2 Eb5:2 G5:8" },
+    { "chord": "Cm7",    "notes": "Eb5:2 F5:2 G5:4 Eb5:6 D5:2" },
+    { "chord": "F7",     "notes": "C5:4 Eb5:4 F5:8" },
+    { "chord": "Bbmaj7", "notes": "D5:8 Bb4:8" },
+
+    { "chord": "Ebmaj7", "notes": "G4:2 A4:2 Bb4:4 D5:6 Eb5:2" },
+    { "chord": "Bb6",    "notes": "F5:2 G5:2 Bb5:4 G5:6 A5:2" },
+    { "chord": "Cm7",    "notes": "Bb5:2 C6:2 Bb5:4 G5:6 F5:2" },
+    { "chord": "F7",     "notes": "Eb5:4 C5:8 D5:4" },
+
+    { "chord": "Ebmaj7", "notes": "Eb5:2 F5:2 G5:4 Bb5:6 A5:2" },
+    { "chord": "Gm7",    "notes": "G5:2 F5:2 D5:4 F5:6 D5:2" },
+    { "chord": "Cm7",    "notes": "Eb5:2 D5:2 C5:4 Eb5:6 F5:2" },
+    { "chord": "F7",     "notes": "A5:4 F5:8 Eb5:4" },
+
+    { "chord": "Bb6",    "notes": "D5:2 Eb5:2 F5:2 G5:2 F5:8" },
+    { "chord": "Ebmaj7", "notes": "Eb5:2 F5:2 G5:2 A5:2 G5:8" },
+    { "chord": "Dm",     "notes": "F5:2 G5:2 A5:2 Bb5:2 A5:8" },
+    { "chord": "Gm7",    "notes": "G5:6 F5:2 D5:8" },
+
+    { "chord": "Bbmaj7", "notes": "D5:2 Eb5:2 F5:2 G5:2 A5:8" },
+    { "chord": "Ebmaj7", "notes": "Bb5:2 A5:2 G5:4 Eb5:6 D5:2" },
+    { "chord": "F7",     "notes": "Eb5:4 F5:4 A5:8" },
+    { "chord": "Bb",     "notes": "Bb5:16" }
+  ]
+}

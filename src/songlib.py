@@ -115,6 +115,37 @@ def load(path):
         return json.load(f)
 
 
+def swing_events(evs):
+    """Rewrite on-beat eighth PAIRS as dotted-eighth + sixteenth -- a shuffle.
+
+    Songs are authored with straight eighths (so eighth-note counts stay
+    meaningful), and this runs at build time on both the ABC and the MusicXML,
+    so the printed score, the on-screen score and the audio all agree.
+
+    abcjs has no swing playback option, so a "swing the eighths" instruction
+    over straight notation would look right and play straight. Writing the
+    shuffle literally is what makes it actually sound swung.
+
+    A pair only swings when it starts ON a beat and both notes are struck; a
+    lone off-beat eighth is left alone. The pair still spans 4 units, so the
+    bar still sums to 16 and every later note keeps its position.
+    """
+    out, i = [], 0
+    while i < len(evs):
+        a = evs[i]
+        b = evs[i + 1] if i + 1 < len(evs) else None
+        if (b is not None and a['dur'] == 2 and b['dur'] == 2
+                and a['pos'] % 4 == 0 and not a['rest'] and not b['rest']):
+            first = dict(a); first['dur'] = 3
+            second = dict(b); second['dur'] = 1; second['pos'] = a['pos'] + 3
+            out.append(first); out.append(second)
+            i += 2
+        else:
+            out.append(dict(a))
+            i += 1
+    return out
+
+
 def longest_run(evs):
     """Longest stretch of consecutive eighths/sixteenths in a bar."""
     best = cur = 0
@@ -209,10 +240,13 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     if eighth_bars < len(bars) * 0.40:
         W.append('only %d of %d bars contain eighth notes; aim for at least %d'
                  % (eighth_bars, len(bars), int(len(bars) * 0.40)))
-    want16 = 4 if song.get('tempo', 80) >= 170 else 6
-    if sixteenth_bars < want16:
-        W.append('only %d bars contain sixteenth notes; aim for at least %d'
-                 % (sixteenth_bars, want16))
+    # A swing set writes straight eighths and gets its sixteenths from the shuffle
+    # rewrite at build time, so demanding author-written ones here is wrong.
+    if not thresholds.get('swing'):
+        want16 = 4 if song.get('tempo', 80) >= 170 else 6
+        if sixteenth_bars < want16:
+            W.append('only %d bars contain sixteenth notes; aim for at least %d'
+                     % (sixteenth_bars, want16))
 
     # ---- texture targets (v4 onward, set per version.json) ---------------
     n_eighth = sum(1 for p in parsed for e in p if e['dur'] == 2 and not e['rest'])
@@ -221,6 +255,28 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     if 'minEighths' in thresholds and n_eighth < thresholds['minEighths']:
         W.append('only %d eighth notes; this set wants at least %d. Fill the moving bars '
                  'with running eighths instead of quarters.' % (n_eighth, thresholds['minEighths']))
+    if 'maxEighths' in thresholds and n_eighth > thresholds['maxEighths']:
+        W.append('%d eighth notes; this set wants at most %d. Replace some running '
+                 'eighths with quarters or held notes.' % (n_eighth, thresholds['maxEighths']))
+    # In a swing set, only eighths that sit in an ON-BEAT PAIR become shuffle pairs.
+    # A lone off-beat eighth stays straight, so too many of them kill the feel.
+    if thresholds.get('swing') and n_eighth:
+        swingable = 0
+        for p in parsed:
+            i = 0
+            while i < len(p):
+                a = p[i]
+                b = p[i + 1] if i + 1 < len(p) else None
+                if (b is not None and a['dur'] == 2 and b['dur'] == 2
+                        and a['pos'] % 4 == 0 and not a['rest'] and not b['rest']):
+                    swingable += 2
+                    i += 2
+                else:
+                    i += 1
+        if swingable < n_eighth * 0.70:
+            W.append('only %d of your %d eighth notes sit in on-beat pairs, so the rest will '
+                     'play straight and the swing will not come through. Write eighths in '
+                     'pairs that begin on a beat.' % (swingable, n_eighth))
     if 'minHalves' in thresholds and n_half < thresholds['minHalves']:
         W.append('only %d half notes; this set wants at least %d. Landing figures that '
                  'contain a half, and a held note at the top of a phrase, are where they go.'
@@ -331,10 +387,12 @@ def _beam_groups(evs):
     return out
 
 
-def to_musicxml(song):
+def to_musicxml(song, swing=False):
     fifths, mode, tonic, _ = KEYS[song['key']]
     defaults = key_defaults(fifths)
     bars = [parse_bar(b['notes'])[0] for b in song['bars']]
+    if swing:
+        bars = [swing_events(b) for b in bars]
     o = io.StringIO()
     w = o.write
     w('<?xml version="1.0" encoding="UTF-8"?>\n')
@@ -363,6 +421,10 @@ def to_musicxml(song):
               '<beat-unit>quarter</beat-unit><per-minute>%d</per-minute></metronome>'
               '</direction-type><sound tempo="%d"/></direction>\n'
               % (song['tempo'], song['tempo']))
+            if swing:
+                w('      <direction placement="above"><direction-type><words '
+                  'font-style="italic">Shuffle &#8212; swing the eighths</words>'
+                  '</direction-type></direction>\n')
         beams = _beam_groups(evs)
         state, pending = {}, song['bars'][bn - 1]['chord']
         for idx, e in enumerate(evs):
@@ -407,10 +469,12 @@ def to_musicxml(song):
     return o.getvalue()
 
 
-def to_abc(song, with_title=True):
+def to_abc(song, with_title=True, swing=False):
     fifths, mode, tonic, abckey = KEYS[song['key']]
     defaults = key_defaults(fifths)
     bars = [parse_bar(b['notes'])[0] for b in song['bars']]
+    if swing:
+        bars = [swing_events(b) for b in bars]
     head = ['X:1']
     if with_title:
         head += ['T:' + song['title'], 'C:' + song.get('composer', 'Music by Claude')]

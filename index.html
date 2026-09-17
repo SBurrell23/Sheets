@@ -200,6 +200,86 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   "use strict";
   var VERSIONS = [
   {
+    "id": "v5",
+    "label": "32-bar AABA, shuffle feel, leaner eighth texture",
+    "bars": 32,
+    "spec": "# Songwriting spec v5 — 32-bar AABA with a shuffle feel\n\nYou are writing **one song** as a single JSON file. A build script turns it into engraved sheet\nmusic (PDF) and playable audio. Your job is only the JSON.\n\nThe target is a **beginner–intermediate pianist**: single-line melody in the treble clef with\nchord symbols above it. No left-hand part, no bass clef.\n\n---\n\n## What changed from v4 — read this first\n\nTwo changes: the songs **swing**, and the texture is **leaner**.\n\n| | v4 average | **v5 target** |\n|---|---|---|\n| eighth notes | 149 | **60–86** (about half) |\n| half notes | 10.8 | at least **10** |\n| bars with a run of 4+ short notes | 20.2 | at least **10** |\n\nv4 filled almost every moving bar with running eighths. v5 pulls that back: fewer eighths, more\nquarters and held notes, and the eighths that remain are grouped into **pairs that swing**.\n\n### How the swing works — this affects how you write\n\nYou write **straight eighths**. At build time, every eighth pair that **starts on a beat** is\nrewritten as a dotted-eighth plus a sixteenth — a shuffle — in the printed score, the on-screen\nscore and the audio alike.\n\n```\nyou write:   C5:2 D5:2 E5:4 F5:4      ->   built as:   C5:3 D5:1 E5:4 F5:4\n```\n\nThis is done literally rather than by printing \"swing the eighths\" over straight notation,\nbecause the playback engine has no swing setting — a marking alone would look right and play\nstraight. The score carries the words *Shuffle — swing the eighths* as well.\n\n**The consequence for you: an eighth only swings if it is in a pair that begins on a beat.**\nA bar is divided into four beats at positions 0, 4, 8 and 12 (counting in sixteenths).\n\n- `4 2 2 4 4` — the pair starts at position 4, on beat 2. **Swings.** ✅\n- `2 2 4 4 4` — the pair starts at position 0, on beat 1. **Swings.** ✅\n- `6 2 4 4` — a lone eighth at position 6, off the beat. **Stays straight.** ❌\n\nThe validator warns if fewer than 70% of your eighths sit in on-beat pairs. Every head and\nsyncopation figure below is already built correctly — if you stick to them you are fine.\n\n---\n\n## 1. Your assignment\n\nYour dispatch message gives you a **song card**: key, tempo, character, a **head figure**, a\n**syncopation figure**, and a **landing rotation** of four figures. Those are binding.\n\n## 2. The file\n\nWrite exactly one file: `v5/songs/<slug>.json`\n\n```json\n{\n  \"title\": \"Paper Kite\",\n  \"key\": \"C\",\n  \"tempo\": 152,\n  \"bars\": [\n    { \"chord\": \"C\", \"notes\": \"C5:2 D5:2 E5:4 G5:2 A5:2 G5:4\" },\n    { \"chord\": \"G\", \"notes\": \"D5:8 E5:4 F5:4\" }\n  ]\n}\n```\n\n- `title` — 1–3 words, evocative, no colon or dash.\n- `key` — exactly as given: `C`, `G`, `D`, `F`, `Bb`, `Am`, `Em`, or `Dm`.\n- `tempo` — the number on your card.\n- `bars` — exactly **32** objects.\n\n## 3. The note language\n\nEvery bar is 4/4. **Durations are counted in sixteenth notes, so every bar sums to exactly 16.**\n\n| write | means         | | write | means           |\n|-------|---------------|-|-------|-----------------|\n| `1`   | sixteenth     | | `6`   | dotted quarter  |\n| `2`   | eighth        | | `8`   | half            |\n| `3`   | dotted eighth | | `12`  | dotted half     |\n| `4`   | quarter       | | `16`  | whole           |\n\nA token is `<note>:<duration>` — `C5:4` (`C4` is middle C), `F#5:2`, `Bb4:8`, `R:4` for a rest,\n`[Am]E5:4` to change chord mid-bar. **There is no tie syntax**: a note may not cross a barline.\n\nDo **not** write `3` or `1` yourself. Write straight eighths and let the build swing them.\n\n## 4. Hard rules — the validator rejects these\n\n1. **Exactly 32 bars.**\n2. **Every bar's durations sum to exactly 16.** The most common mistake. Add them up.\n3. **Every bar begins with a struck note on beat 1** — never a rest.\n4. **Range `G4` to `C6`.**\n5. **Bar 32 is a single whole note on the tonic** — `C5:16` in C, `A5:16` in Am, `Bb5:16` in Bb.\n6. Chord suffixes: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.\n   A slash bass is allowed: `G/B`.\n\n## 5. Head figures — the rhythm of your moving bars\n\nEach has exactly four eighths, all in on-beat pairs, so each bar gives you two shuffle beats\nand two steady ones. That alternation is the shuffle groove.\n\n| id | rhythm | swinging pairs begin at |\n|----|--------|-------------------------|\n| W1 | `2 2 4 2 2 4`   | beats 1 and 3 |\n| W2 | `2 2 2 2 4 4`   | beats 1 and 2 |\n| W3 | `4 2 2 2 2 4`   | beats 2 and 3 |\n| W4 | `4 4 2 2 2 2`   | beats 3 and 4 |\n| W5 | `2 2 4 4 2 2`   | beats 1 and 4 |\n| W6 | `8 2 2 2 2`     | beats 3 and 4 |\n| W7 | `2 2 2 2 8`     | beats 1 and 2 |\n| W8 | `2 2 8 2 2`     | beats 1 and 4 |\n\n## 6. Syncopation figures — use yours across B and at least 3 other bars\n\nEach displaces a longer note off the beat while keeping an on-beat eighth pair.\n\n| id | rhythm | | id | rhythm |\n|----|--------|-|----|--------|\n| X1 | `2 2 6 2 4`   | | X5 | `2 2 2 2 6 2` |\n| X2 | `4 2 2 6 2`   | | X6 | `4 2 2 4 2 2` |\n| X3 | `6 2 4 2 2`   | | X7 | `2 2 6 4 2` |\n| X4 | `2 2 4 6 2`   | | X8 | `6 2 2 2 4` |\n\n## 7. Landing figures — one per 8-bar section\n\n| section | bars | landing bars | figure |\n|---------|------|--------------|--------|\n| A       | 1–8   | **4 and 8**   | your 1st |\n| A′      | 9–16  | **12 and 16** | your 2nd |\n| B       | 17–24 | **20 and 24** | your 3rd |\n| A″      | 25–32 | **28**        | your 4th |\n\n**Both landing bars inside a section use the same figure. No two sections share a figure.**\n\n| id | rhythm    | | id | rhythm |\n|----|-----------|-|----|--------|\n| LA | `4 4 8`   | | LE | `2 2 4 8` |\n| LB | `8 4 4`   | | LH | `8 8`     |\n| LD | `6 2 8`   | | LJ | `4 8 4`   |\n\nKeep the rhythm exactly; the pitches are yours, and the two landings in a section should differ\n— the first more open, the second more conclusive.\n\n**Half notes:** your rotation supplies most of the ten you need. If you are short, hold a half\nnote at the top of a phrase. Dotted halves and whole notes do not count toward the total.\n\n## 8. Structure — AABA, 8 bars each\n\n| bars  | section | what happens |\n|-------|---------|--------------|\n| 1–8   | **A**   | The tune on your head figure. **Ends OPEN** — bar 8 on the dominant, a non-tonic note. |\n| 9–16  | **A′**  | The tune varied. **Ends CLOSED** — bar 16 resolves to the tonic. |\n| 17–24 | **B**   | The bridge: different harmony (lean on IV, or the relative major/minor), your syncopation figure, and the single high point. |\n| 25–32 | **A″**  | The tune returns, lightly decorated. **Ends FINAL** — bar 32 is the tonic whole note. |\n\nWithin each section: bars 1–3 move (head figure, the shape sequencing by step), bar 4 lands,\nbars 5–7 move, bar 8 lands.\n\n## 9. Melody\n\n- **Step more than you leap.** A swung eighth pair is at its best as two neighbouring scale\n  steps — the shuffle does the work, the line stays smooth.\n- **Land on chord tones** on beat 1, and usually beat 3.\n- **Sequence**: bars 1–3 sharing one rhythm with the shape moving by step. Use it, and in A″.\n- **One high point**, in B, reached once.\n- Never repeat the same pitch more than twice in a row.\n- Sixteenths are not needed in v5 and you should mostly avoid writing them — the shuffle already\n  supplies the short notes. A couple of 2-note turns in A″ is the most you want.\n\n## 10. Harmony\n\nOne chord loop across A, A′ and A″; a different one for B. One chord per bar. Seventh chords\n(`7`, `m7`, `maj7`, `6`) suit a shuffle especially well — use them freely.\n\n| key | chords |\n|-----|--------|\n| **C**  | C, Dm, Em, F, G, Am, G7, Cmaj7, C6, Fmaj7, Dm7, Am7 |\n| **G**  | G, Am, Bm, C, D, Em, D7, Gmaj7, G6, Cmaj7, Am7, Em7 |\n| **D**  | D, Em, F#m, G, A, Bm, A7, Dmaj7, D6, Gmaj7, Em7, Bm7 |\n| **F**  | F, Gm, Am, Bb, C, Dm, C7, Fmaj7, F6, Bbmaj7, Gm7, Dm7 |\n| **Bb** | Bb, Cm, Dm, Eb, F, Gm, F7, Bbmaj7, Bb6, Ebmaj7, Cm7, Gm7 |\n| **Am** | Am, Dm, Em, F, G, C, E7, Am7, Am6, Dm7, Fmaj7 |\n| **Em** | Em, Am, Bm, C, D, G, B7, Em7, Em6, Am7, Cmaj7 |\n| **Dm** | Dm, Gm, Am, Bb, C, F, A7, Dm7, Dm6, Gm7, Bbmaj7 |\n\nIn the minor keys use the major dominant (`E7` in Am, `B7` in Em, `A7` in Dm) at the A′ and A″\ncadences, with its raised leading tone (`G#`, `D#`, `C#`) in the melody.\n\n**Key signatures:** D has F# and C#. Bb has Bb and Eb. F and Dm have Bb. G and Em have F#.\n\n## 11. Check your work — required\n\n```bash\npython src/validate.py v5/songs/<slug>.json\n```\n\nFix every `ERROR` **and** every `WARNING`, then run it again. You are not finished until it\nprints `PASS`. The validator reports your actual eighth-note, half-note and run-bar counts, and\nwarns if too few of your eighths sit in on-beat pairs.\n\nThen confirm by eye:\n\n- bars 4 and 8 share a figure; 12 and 16 a different one; 20 and 24 a third; 28 a fourth;\n- bars 8, 16 and 32 end differently (open / closed / final);\n- your eighths are in pairs starting on beats 1, 2, 3 or 4 — never stranded off the beat.\n\n## 12. File-format reference\n\n`src/example-song.json` is a valid song — read it **for JSON syntax only**. It is a 40-bar v1\nsong and does not follow any of the rules above.\n",
+    "songs": [
+      {
+        "slug": "vigil-am",
+        "title": "Slow Ember",
+        "key": "Am",
+        "tempo": 132,
+        "bars": 32,
+        "pdf": "songs/v5/vigil-am.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=132\nK:Am clef=treble\n\"Am7\"c3d1 e8 g3e1 | \"Dm7\"d3e1 f8 a3f1 | \"Am7\"e3f1 g8 b3g1 | \"Am6\"a4 e8 c4 |\n\"Dm7\"d3e1f3g1 a6 f2 | \"G\"g4 f4 d8 | \"C\"c4 d4 e8 | \"E7\"e4 d8 B4 |\n\"Am7\"c3d1 e8 a3g1 | \"Dm7\"f3e1 d8 f3a1 | \"Am7\"b4 a4 g8 | \"Am6\"a6 g2 e8 |\n\"Dm7\"f3e1d3e1 f6 a2 | \"G\"g8 f4 d4 | \"E7\"e4 f4 ^g8 | \"Am\"a6 g2 a8 |\n\"Dm7\"a3g1f3e1 d6 e2 | \"G\"g3a1b3a1 g6 b2 | \"C\"c'3b1a3g1 e6 g2 | \"Fmaj7\"a3g1 f4 e8 |\n\"Dm7\"d3e1f3g1 a6 g2 | \"G\"b3a1g3f1 d6 f2 | \"C\"e3f1g3a1 g6 e2 | \"E7\"e3f1 e4 d8 |\n\"Am7\"c3d1 e8 g3e1 | \"Dm7\"d3e1 f8 a3g1 | \"Am7\"e3f1 g8 a3b1 | \"Am6\"a8 e8 |\n\"Dm7\"d3e1f3g1 a6 f2 | \"G\"g4 f4 d8 | \"E7\"e4 f4 ^g8 | \"Am\"Ha16 |]\n"
+      },
+      {
+        "slug": "amber-bb",
+        "title": "Amber Hour",
+        "key": "Bb",
+        "tempo": 126,
+        "bars": 32,
+        "pdf": "songs/v5/amber-bb.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=126\nK:Bb clef=treble\n\"Bb6\"d3e1f3g1 f8 | \"Ebmaj7\"e3f1g3a1 g8 | \"Dm\"f3g1a3b1 a8 | \"Cm7\"g3f1 e4 c8 |\n\"Bb6\"d3e1f3g1 d8 | \"Gm7\"B3c1 d4 f6 e2 | \"Cm7\"c4 e4 g8 | \"F7\"a3g1 f4 c8 |\n\"Bb6\"B3c1d3e1 d8 | \"Cm7\"c3d1e3f1 e8 | \"Dm\"d3e1f3g1 f8 | \"Gm7\"g8 d8 |\n\"Ebmaj7\"B3c1d3e1 g8 | \"Cm7\"e3f1 g4 e6 d2 | \"F7\"c4 e4 f8 | \"Bbmaj7\"d8 B8 |\n\"Ebmaj7\"G3A1 B4 d6 e2 | \"Bb6\"f3g1 b4 g6 a2 | \"Cm7\"b3c'1 b4 g6 f2 | \"F7\"e4 c8 d4 |\n\"Ebmaj7\"e3f1 g4 b6 a2 | \"Gm7\"g3f1 d4 f6 d2 | \"Cm7\"e3d1 c4 e6 f2 | \"F7\"a4 f8 e4 |\n\"Bb6\"d3e1f3g1 f8 | \"Ebmaj7\"e3f1g3a1 g8 | \"Dm\"f3g1a3b1 a8 | \"Gm7\"g6 f2 d8 |\n\"Bbmaj7\"d3e1f3g1 a8 | \"Ebmaj7\"b3a1 g4 e6 d2 | \"F7\"e4 f4 a8 | \"Bb\"Hb16 |]\n"
+      },
+      {
+        "slug": "kite-c",
+        "title": "Kite Weather",
+        "key": "C",
+        "tempo": 152,
+        "bars": 32,
+        "pdf": "songs/v5/kite-c.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=152\nK:C clef=treble\n\"C6\"c3d1 e4 g3a1 g4 | \"Am7\"e3f1 g4 a3g1 e4 | \"Dm7\"d3e1 f4 a3g1 f4 | \"G7\"f4 e4 d8 |\n\"C6\"e8 g3a1g3f1 | \"Am7\"c3d1 e6 g2 a4 | \"Dm7\"a3g1f3e1 d8 | \"G7\"d4 f4 g8 |\n\"C6\"e3f1 g4 a3b1 a4 | \"Am7\"g3a1 b4 a3g1 e4 | \"Dm7\"f3g1 a4 f3e1 d4 | \"G7\"B4 d8 f4 |\n\"C6\"e8 g3a1b3a1 | \"Am7\"a3b1 a6 g2 e4 | \"G7\"d3e1f3g1 f8 | \"C\"e4 d8 c4 |\n\"Fmaj7\"f3g1 a6 g2 f4 | \"Dm7\"a8 f3g1a3f1 | \"Em\"e4 f3g1 b4 a4 | \"Am7\"g8 a4 b4 |\n\"Fmaj7\"a3b1 c'6 b2 a4 | \"Dm7\"a8 g3f1e3d1 | \"G7\"d4 e3f1 g4 d4 | \"G7\"B8 c4 d4 |\n\"C6\"c3d1 e4 g3a1 g4 | \"Am7\"e3f1 g4 a3g1 e4 | \"Dm7\"d3e1 f4 a3g1 f4 | \"G7\"f8 d8 |\n\"C6\"e8 g3f1 e4 | \"Am7\"c3d1 e6 g2 a4 | \"G7\"g8 f3e1 d4 | \"C\"Hc16 |]\n"
+      },
+      {
+        "slug": "beacon-d",
+        "title": "Copper Strut",
+        "key": "D",
+        "tempo": 144,
+        "bars": 32,
+        "pdf": "songs/v5/beacon-d.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=144\nK:D clef=treble\n\"D6\"d3e1f3g1 a4 f4 | \"Em7\"e3f1g3a1 g4 e4 | \"F#m\"f3g1a3g1 f4 d4 | \"A7\"e8 f4 e4 |\n\"Gmaj7\"g3a1 f8 e4 | \"F#m\"f4 g3a1 f4 e3d1 | \"Em7\"d3e1f3g1 e4 f4 | \"A7\"e8 d4 c4 |\n\"D6\"d3f1a3g1 f4 e4 | \"Em7\"e3g1a3g1 e4 d4 | \"F#m\"f3e1f3g1 a4 f4 | \"A7\"e3d1 c4 e8 |\n\"Gmaj7\"g4 f8 e3f1 | \"Bm7\"a4 g3f1 d4 e3f1 | \"Em7\"g4 f4 e8 | \"D\"f3e1 f4 d8 |\n\"Gmaj7\"g4 a3g1 f4 e3d1 | \"Gmaj7\"d4 e3f1 g4 a3g1 | \"Em7\"g4 a3g1 e4 f3g1 | \"Bm7\"a4 g4 f8 |\n\"Gmaj7\"g3a1 b8 g4 | \"F#m\"a4 g3f1 a4 g3e1 | \"Em7\"g4 f3e1 d4 e3f1 | \"A7\"e4 d4 c8 |\n\"D6\"d3e1f3g1 a4 f4 | \"Em7\"e3f1g3a1 g4 e4 | \"F#m\"f3g1a3g1 f4 d4 | \"A7\"c4 e8 f4 |\n\"Gmaj7\"g3a1 f8 e4 | \"Bm7\"d4 e3f1 a4 g3f1 | \"A7\"g4 f4 e4 c4 | \"D\"Hd16 |]\n"
+      },
+      {
+        "slug": "reel-dm",
+        "title": "Rolling Sixpence",
+        "key": "Dm",
+        "tempo": 150,
+        "bars": 32,
+        "pdf": "songs/v5/reel-dm.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=150\nK:Dm clef=treble\n\"Dm7\"d3e1 f4 a4 g3f1 | \"Gm7\"g3a1 b4 g4 a3g1 | \"Dm7\"f3g1 a4 f4 g3a1 | \"Bbmaj7\"b8 a8 |\n\"Gm7\"g8 b3a1g3f1 | \"C\"g6 f2 e3d1 e4 | \"Dm6\"d3e1 f8 g3a1 | \"A7\"g8 e8 |\n\"Dm7\"d3f1 g4 a4 g3f1 | \"Gm7\"g3b1 a4 g4 a3b1 | \"Dm7\"a3g1 f4 d4 f3a1 | \"Bbmaj7\"b3a1 g4 f8 |\n\"Gm7\"g8 b3a1 g4 | \"C\"e6 f2 g3a1 g4 | \"A7\"a6 g2 e3d1 ^c4 | \"Dm\"d3e1 f4 d8 |\n\"Gm7\"f6 g2 b3g1 a4 | \"C\"g6 a2 g3f1 e4 | \"F\"f6 g2 a3b1 a4 | \"Bbmaj7\"b4 a4 f8 |\n\"Gm7\"g8 a3b1 g4 | \"F\"a4 c'8 a4 | \"Gm7\"b6 a2 g3f1 d4 | \"A7\"e4 d4 ^c8 |\n\"Dm7\"d3e1 f4 a4 g3f1 | \"Gm7\"g3a1 b4 g4 a3g1 | \"Dm7\"f3e1 d4 f4 g3a1 | \"Bbmaj7\"b8 a4 g4 |\n\"Gm7\"g8 b3a1g3f1 | \"C\"e6 f2 g3f1 e4 | \"A7\"g3f1e3d1 e4 ^c4 | \"Dm\"Hd16 |]\n"
+      },
+      {
+        "slug": "drift-em",
+        "title": "Night Drift",
+        "key": "Em",
+        "tempo": 156,
+        "bars": 32,
+        "pdf": "songs/v5/drift-em.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=156\nK:Em clef=treble\n\"Em7\"B4 e4 g3f1e3d1 | \"Am7\"c4 e4 g3a1g3f1 | \"Cmaj7\"e4 g4 b3a1g3e1 | \"Bm\"f4 e4 d8 |\n\"Em7\"B4 e4 g3f1e3d1 | \"Am7\"c3d1 e6 g4 a2 | \"D\"a8 g3f1e3d1 | \"Bm\"f4 d4 B8 |\n\"Em7\"e4 g4 b3a1g3f1 | \"Am7\"e4 a4 g3f1e3d1 | \"Cmaj7\"e3f1 g6 b4 a2 | \"Bm\"f8 d4 B4 |\n\"Em7\"B4 e4 g3a1b3a1 | \"Am7\"a4 g4 e8 | \"B7\"f4 a4 f3^d1B3d1 | \"Em\"e8 g4 e4 |\n\"G\"g3a1 b6 a4 g2 | \"Cmaj7\"g4 b4 a3g1a3b1 | \"Am7\"a3b1 c'6 b4 a2 | \"D\"a8 f8 |\n\"G\"g4 b8 g4 | \"Cmaj7\"e3g1 a6 g4 e2 | \"Am7\"a4 g4 e3g1a3g1 | \"B7\"f8 ^d8 |\n\"Em7\"e4 g4 b3a1g3f1 | \"Am7\"e4 a4 g3f1e3d1 | \"Cmaj7\"e3f1 g6 b4 a2 | \"Bm\"a4 f8 d4 |\n\"Em7\"B4 e4 g3a1b3a1 | \"Am7\"a8 g3f1e3d1 | \"B7\"f4 a4 f3^d1B3d1 | \"Em\"He16 |]\n"
+      },
+      {
+        "slug": "swift-f",
+        "title": "Skipping Stones",
+        "key": "F",
+        "tempo": 160,
+        "bars": 32,
+        "pdf": "songs/v5/swift-f.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=160\nK:F clef=treble\n\"F\"c4 d3e1f3g1 a4 | \"Dm7\"a4 g3f1d3e1 f4 | \"Gm7\"f4 g3a1b3a1 g4 | \"C7\"b8 a8 |\n\"F\"a4 g3f1a3g1 f4 | \"Dm7\"d4 e3f1 a6 g2 | \"Gm7\"b4 a3g1 f4 e4 | \"C7\"g8 e8 |\n\"F\"c4 e3f1a3g1 f4 | \"Dm7\"d4 f3g1a3g1 f4 | \"Gm7\"g4 b3a1 g4 a4 | \"C7\"b8 a4 g4 |\n\"F\"a8 g3f1e3d1 | \"Dm7\"d4 f3g1 a6 g2 | \"C7\"g4 a3g1 e4 g4 | \"F\"a8 g4 f4 |\n\"Bbmaj7\"f4 g3a1 b6 a2 | \"Gm7\"b4 a3g1 f6 g2 | \"Dm7\"a4 b3a1 f6 e2 | \"C7\"g6 a2 b8 |\n\"Dm7\"c'8 b3a1g3f1 | \"Gm7\"g4 f3g1 b8 | \"Bbmaj7\"a4 g3f1 d6 g2 | \"C7\"b6 a2 g8 |\n\"F\"c4 d3e1f3g1 a4 | \"Dm7\"a4 g3f1 d6 e2 | \"Gm7\"f4 g3a1 b8 | \"C7\"g4 f4 e8 |\n\"F\"a4 g3f1a3g1 f4 | \"Gm7\"b4 a3g1 f6 g2 | \"C7\"g4 f3e1 g4 e4 | \"F\"Hf16 |]\n"
+      },
+      {
+        "slug": "harbour-g",
+        "title": "Harbour Light",
+        "key": "G",
+        "tempo": 138,
+        "bars": 32,
+        "pdf": "songs/v5/harbour-g.pdf",
+        "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=138\nK:G clef=treble\n\"G6\"d8 e3f1g3a1 | \"Am7\"e8 f3g1a3b1 | \"Bm\"f8 g3a1b3a1 | \"D7\"b6 a2 f8 |\n\"G6\"d8 e3f1g3a1 | \"Am7\"a6 g2 e4 f3g1 | \"Bm\"b6 a2 f4 g3a1 | \"D7\"g6 f2 d8 |\n\"G6\"g8 a3b1a3g1 | \"Am7\"a6 g2 e4 g3a1 | \"Bm\"b8 a3g1f3e1 | \"D7\"f4 e4 d8 |\n\"G6\"d6 e2 g4 f3e1 | \"Am7\"a6 g2 e4 d3c1 | \"D7\"d6 e2 f4 g3a1 | \"G\"b4 a4 g8 |\n\"Cmaj7\"e6 f2 g4 a3b1 | \"Bm\"b6 a2 f4 a3b1 | \"Am7\"a6 b2 g4 a3b1 | \"D7\"a8 c'8 |\n\"Cmaj7\"b6 a2 g4 f3g1 | \"Em7\"g6 f2 e4 f3g1 | \"Am7\"a6 g2 e4 f3a1 | \"D7\"a8 f8 |\n\"G6\"d8 e3f1g3a1 | \"Am7\"a8 g3f1e3d1 | \"Bm\"d6 e2 f4 g3a1 | \"D7\"a3b1 a4 f8 |\n\"G6\"g8 a3b1a3g1 | \"Am7\"a6 g2 e4 f3g1 | \"D7\"a8 g3f1e3f1 | \"G\"Hg16 |]\n"
+      }
+    ]
+  },
+  {
     "id": "v4",
     "label": "32-bar AABA, running eighths, held halves, runs between landings",
     "bars": 32,

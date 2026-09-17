@@ -1,0 +1,46 @@
+{
+  "title": "Skipping Stones",
+  "key": "F",
+  "tempo": 160,
+  "bars": [
+    { "chord": "F",      "notes": "C5:4 D5:2 E5:2 F5:2 G5:2 A5:4" },
+    { "chord": "Dm7",    "notes": "A5:4 G5:2 F5:2 D5:2 E5:2 F5:4" },
+    { "chord": "Gm7",    "notes": "F5:4 G5:2 A5:2 Bb5:2 A5:2 G5:4" },
+    { "chord": "C7",     "notes": "Bb5:8 A5:8" },
+
+    { "chord": "F",      "notes": "A5:4 G5:2 F5:2 A5:2 G5:2 F5:4" },
+    { "chord": "Dm7",    "notes": "D5:4 E5:2 F5:2 A5:6 G5:2" },
+    { "chord": "Gm7",    "notes": "Bb5:4 A5:2 G5:2 F5:4 E5:4" },
+    { "chord": "C7",     "notes": "G5:8 E5:8" },
+
+    { "chord": "F",      "notes": "C5:4 E5:2 F5:2 A5:2 G5:2 F5:4" },
+    { "chord": "Dm7",    "notes": "D5:4 F5:2 G5:2 A5:2 G5:2 F5:4" },
+    { "chord": "Gm7",    "notes": "G5:4 Bb5:2 A5:2 G5:4 A5:4" },
+    { "chord": "C7",     "notes": "Bb5:8 A5:4 G5:4" },
+
+    { "chord": "F",      "notes": "A5:8 G5:2 F5:2 E5:2 D5:2" },
+    { "chord": "Dm7",    "notes": "D5:4 F5:2 G5:2 A5:6 G5:2" },
+    { "chord": "C7",     "notes": "G5:4 A5:2 G5:2 E5:4 G5:4" },
+    { "chord": "F",      "notes": "A5:8 G5:4 F5:4" },
+
+    { "chord": "Bbmaj7", "notes": "F5:4 G5:2 A5:2 Bb5:6 A5:2" },
+    { "chord": "Gm7",    "notes": "Bb5:4 A5:2 G5:2 F5:6 G5:2" },
+    { "chord": "Dm7",    "notes": "A5:4 Bb5:2 A5:2 F5:6 E5:2" },
+    { "chord": "C7",     "notes": "G5:6 A5:2 Bb5:8" },
+
+    { "chord": "Dm7",    "notes": "C6:8 Bb5:2 A5:2 G5:2 F5:2" },
+    { "chord": "Gm7",    "notes": "G5:4 F5:2 G5:2 Bb5:8" },
+    { "chord": "Bbmaj7", "notes": "A5:4 G5:2 F5:2 D5:6 G5:2" },
+    { "chord": "C7",     "notes": "Bb5:6 A5:2 G5:8" },
+
+    { "chord": "F",      "notes": "C5:4 D5:2 E5:2 F5:2 G5:2 A5:4" },
+    { "chord": "Dm7",    "notes": "A5:4 G5:2 F5:2 D5:6 E5:2" },
+    { "chord": "Gm7",    "notes": "F5:4 G5:2 A5:2 Bb5:8" },
+    { "chord": "C7",     "notes": "G5:4 F5:4 E5:8" },
+
+    { "chord": "F",      "notes": "A5:4 G5:2 F5:2 A5:2 G5:2 F5:4" },
+    { "chord": "Gm7",    "notes": "Bb5:4 A5:2 G5:2 F5:6 G5:2" },
+    { "chord": "C7",     "notes": "G5:4 F5:2 E5:2 G5:4 E5:4" },
+    { "chord": "F",      "notes": "F5:16" }
+  ]
+}

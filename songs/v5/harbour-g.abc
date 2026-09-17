@@ -1,0 +1,15 @@
+X:1
+T:Harbour Light
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=138
+K:G clef=treble
+"G6"d8 e3f1g3a1 | "Am7"e8 f3g1a3b1 | "Bm"f8 g3a1b3a1 | "D7"b6 a2 f8 |
+"G6"d8 e3f1g3a1 | "Am7"a6 g2 e4 f3g1 | "Bm"b6 a2 f4 g3a1 | "D7"g6 f2 d8 |
+"G6"g8 a3b1a3g1 | "Am7"a6 g2 e4 g3a1 | "Bm"b8 a3g1f3e1 | "D7"f4 e4 d8 |
+"G6"d6 e2 g4 f3e1 | "Am7"a6 g2 e4 d3c1 | "D7"d6 e2 f4 g3a1 | "G"b4 a4 g8 |
+"Cmaj7"e6 f2 g4 a3b1 | "Bm"b6 a2 f4 a3b1 | "Am7"a6 b2 g4 a3b1 | "D7"a8 c'8 |
+"Cmaj7"b6 a2 g4 f3g1 | "Em7"g6 f2 e4 f3g1 | "Am7"a6 g2 e4 f3a1 | "D7"a8 f8 |
+"G6"d8 e3f1g3a1 | "Am7"a8 g3f1e3d1 | "Bm"d6 e2 f4 g3a1 | "D7"a3b1 a4 f8 |
+"G6"g8 a3b1a3g1 | "Am7"a6 g2 e4 f3g1 | "D7"a8 g3f1e3f1 | "G"Hg16 |]

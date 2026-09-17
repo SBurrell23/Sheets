@@ -1,0 +1,15 @@
+X:1
+T:Kite Weather
+C:Music by Claude
+M:4/4
+L:1/16
+Q:1/4=152
+K:C clef=treble
+"C6"c3d1 e4 g3a1 g4 | "Am7"e3f1 g4 a3g1 e4 | "Dm7"d3e1 f4 a3g1 f4 | "G7"f4 e4 d8 |
+"C6"e8 g3a1g3f1 | "Am7"c3d1 e6 g2 a4 | "Dm7"a3g1f3e1 d8 | "G7"d4 f4 g8 |
+"C6"e3f1 g4 a3b1 a4 | "Am7"g3a1 b4 a3g1 e4 | "Dm7"f3g1 a4 f3e1 d4 | "G7"B4 d8 f4 |
+"C6"e8 g3a1b3a1 | "Am7"a3b1 a6 g2 e4 | "G7"d3e1f3g1 f8 | "C"e4 d8 c4 |
+"Fmaj7"f3g1 a6 g2 f4 | "Dm7"a8 f3g1a3f1 | "Em"e4 f3g1 b4 a4 | "Am7"g8 a4 b4 |
+"Fmaj7"a3b1 c'6 b2 a4 | "Dm7"a8 g3f1e3d1 | "G7"d4 e3f1 g4 d4 | "G7"B8 c4 d4 |
+"C6"c3d1 e4 g3a1 g4 | "Am7"e3f1 g4 a3g1 e4 | "Dm7"d3e1 f4 a3g1 f4 | "G7"f8 d8 |
+"C6"e8 g3f1 e4 | "Am7"c3d1 e6 g2 a4 | "G7"g8 f3e1 d4 | "C"Hc16 |]

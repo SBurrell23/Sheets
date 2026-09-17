@@ -24,8 +24,11 @@ v3/                     8 songs, 32-bar AABA, cadence rotates every 8 bars, doub
   SPEC.md
   version.json            {"bars": 32, "rotateLandings": true, ...}
   songs/*.json
+v4/                     8 songs, 32-bar AABA, running eighths between held landings
+v5/                     8 songs, 32-bar AABA, shuffle feel, leaner eighth texture
+  SPEC.md / version.json / songs/*.json   (same shape as v1-v3)
 songs/                  generated output
-  v1/ v2/ v3/             *.abc | *.musicxml | *.pdf
+  v1/ ... v5/             *.abc | *.musicxml | *.pdf
 src/
   songlib.py              note-language parser, validator, ABC + MusicXML renderers
   validate.py             checks one song file

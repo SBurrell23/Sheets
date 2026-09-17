@@ -1,0 +1,46 @@
+{
+  "title": "Kite Weather",
+  "key": "C",
+  "tempo": 152,
+  "bars": [
+    { "chord": "C6",    "notes": "C5:2 D5:2 E5:4 G5:2 A5:2 G5:4" },
+    { "chord": "Am7",   "notes": "E5:2 F5:2 G5:4 A5:2 G5:2 E5:4" },
+    { "chord": "Dm7",   "notes": "D5:2 E5:2 F5:4 A5:2 G5:2 F5:4" },
+    { "chord": "G7",    "notes": "F5:4 E5:4 D5:8" },
+
+    { "chord": "C6",    "notes": "E5:8 G5:2 A5:2 G5:2 F5:2" },
+    { "chord": "Am7",   "notes": "C5:2 D5:2 E5:6 G5:2 A5:4" },
+    { "chord": "Dm7",   "notes": "A5:2 G5:2 F5:2 E5:2 D5:8" },
+    { "chord": "G7",    "notes": "D5:4 F5:4 G5:8" },
+
+    { "chord": "C6",    "notes": "E5:2 F5:2 G5:4 A5:2 B5:2 A5:4" },
+    { "chord": "Am7",   "notes": "G5:2 A5:2 B5:4 A5:2 G5:2 E5:4" },
+    { "chord": "Dm7",   "notes": "F5:2 G5:2 A5:4 F5:2 E5:2 D5:4" },
+    { "chord": "G7",    "notes": "B4:4 D5:8 F5:4" },
+
+    { "chord": "C6",    "notes": "E5:8 G5:2 A5:2 B5:2 A5:2" },
+    { "chord": "Am7",   "notes": "A5:2 B5:2 A5:6 G5:2 E5:4" },
+    { "chord": "G7",    "notes": "D5:2 E5:2 F5:2 G5:2 F5:8" },
+    { "chord": "C",     "notes": "E5:4 D5:8 C5:4" },
+
+    { "chord": "Fmaj7", "notes": "F5:2 G5:2 A5:6 G5:2 F5:4" },
+    { "chord": "Dm7",   "notes": "A5:8 F5:2 G5:2 A5:2 F5:2" },
+    { "chord": "Em",    "notes": "E5:4 F5:2 G5:2 B5:4 A5:4" },
+    { "chord": "Am7",   "notes": "G5:8 A5:4 B5:4" },
+
+    { "chord": "Fmaj7", "notes": "A5:2 B5:2 C6:6 B5:2 A5:4" },
+    { "chord": "Dm7",   "notes": "A5:8 G5:2 F5:2 E5:2 D5:2" },
+    { "chord": "G7",    "notes": "D5:4 E5:2 F5:2 G5:4 D5:4" },
+    { "chord": "G7",    "notes": "B4:8 C5:4 D5:4" },
+
+    { "chord": "C6",    "notes": "C5:2 D5:2 E5:4 G5:2 A5:2 G5:4" },
+    { "chord": "Am7",   "notes": "E5:2 F5:2 G5:4 A5:2 G5:2 E5:4" },
+    { "chord": "Dm7",   "notes": "D5:2 E5:2 F5:4 A5:2 G5:2 F5:4" },
+    { "chord": "G7",    "notes": "F5:8 D5:8" },
+
+    { "chord": "C6",    "notes": "E5:8 G5:2 F5:2 E5:4" },
+    { "chord": "Am7",   "notes": "C5:2 D5:2 E5:6 G5:2 A5:4" },
+    { "chord": "G7",    "notes": "G5:8 F5:2 E5:2 D5:4" },
+    { "chord": "C",     "notes": "C5:16" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Copper Strut",
+  "key": "D",
+  "tempo": 144,
+  "bars": [
+    { "chord": "D6",     "notes": "D5:2 E5:2 F#5:2 G5:2 A5:4 F#5:4" },
+    { "chord": "Em7",    "notes": "E5:2 F#5:2 G5:2 A5:2 G5:4 E5:4" },
+    { "chord": "F#m",    "notes": "F#5:2 G5:2 A5:2 G5:2 F#5:4 D5:4" },
+    { "chord": "A7",     "notes": "E5:8 F#5:4 E5:4" },
+
+    { "chord": "Gmaj7",  "notes": "G5:2 A5:2 F#5:8 E5:4" },
+    { "chord": "F#m",    "notes": "F#5:4 G5:2 A5:2 F#5:4 E5:2 D5:2" },
+    { "chord": "Em7",    "notes": "D5:2 E5:2 F#5:2 G5:2 E5:4 F#5:4" },
+    { "chord": "A7",     "notes": "E5:8 D5:4 C#5:4" },
+
+    { "chord": "D6",     "notes": "D5:2 F#5:2 A5:2 G5:2 F#5:4 E5:4" },
+    { "chord": "Em7",    "notes": "E5:2 G5:2 A5:2 G5:2 E5:4 D5:4" },
+    { "chord": "F#m",    "notes": "F#5:2 E5:2 F#5:2 G5:2 A5:4 F#5:4" },
+    { "chord": "A7",     "notes": "E5:2 D5:2 C#5:4 E5:8" },
+
+    { "chord": "Gmaj7",  "notes": "G5:4 F#5:8 E5:2 F#5:2" },
+    { "chord": "Bm7",    "notes": "A5:4 G5:2 F#5:2 D5:4 E5:2 F#5:2" },
+    { "chord": "Em7",    "notes": "G5:4 F#5:4 E5:8" },
+    { "chord": "D",      "notes": "F#5:2 E5:2 F#5:4 D5:8" },
+
+    { "chord": "Gmaj7",  "notes": "G5:4 A5:2 G5:2 F#5:4 E5:2 D5:2" },
+    { "chord": "Gmaj7",  "notes": "D5:4 E5:2 F#5:2 G5:4 A5:2 G5:2" },
+    { "chord": "Em7",    "notes": "G5:4 A5:2 G5:2 E5:4 F#5:2 G5:2" },
+    { "chord": "Bm7",    "notes": "A5:4 G5:4 F#5:8" },
+
+    { "chord": "Gmaj7",  "notes": "G5:2 A5:2 B5:8 G5:4" },
+    { "chord": "F#m",    "notes": "A5:4 G5:2 F#5:2 A5:4 G5:2 E5:2" },
+    { "chord": "Em7",    "notes": "G5:4 F#5:2 E5:2 D5:4 E5:2 F#5:2" },
+    { "chord": "A7",     "notes": "E5:4 D5:4 C#5:8" },
+
+    { "chord": "D6",     "notes": "D5:2 E5:2 F#5:2 G5:2 A5:4 F#5:4" },
+    { "chord": "Em7",    "notes": "E5:2 F#5:2 G5:2 A5:2 G5:4 E5:4" },
+    { "chord": "F#m",    "notes": "F#5:2 G5:2 A5:2 G5:2 F#5:4 D5:4" },
+    { "chord": "A7",     "notes": "C#5:4 E5:8 F#5:4" },
+
+    { "chord": "Gmaj7",  "notes": "G5:2 A5:2 F#5:8 E5:4" },
+    { "chord": "Bm7",    "notes": "D5:4 E5:2 F#5:2 A5:4 G5:2 F#5:2" },
+    { "chord": "A7",     "notes": "G5:4 F#5:4 E5:4 C#5:4" },
+    { "chord": "D",      "notes": "D5:16" }
+  ]
+}
