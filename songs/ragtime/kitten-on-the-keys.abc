@@ -1,0 +1,28 @@
+X:1
+T:Kitten on the Keys
+C:Zez Confrey, 1921 - public domain
+M:4/4
+L:1/16
+Q:1/4=112
+K:C clef=treble
+"C"a2_a2 g2_g2 f2e2 _e2d2 | "G7"_d2=d2 _e2=e2 f2g2 b4 | "C"c'2b2 _b2a2 _a2g2 _g2f2 | "G7"e2d2 B2d2 g8 |
+"C"c'4 z4 c'4 z4 | "C"c'4 z4 b2c'2 z4 | "C"c'3g2 a1c2 d1G2A1 "Dm7"c4 | "Dm7"B2A1d2 c1G2 e1d2A1 "D7"_g4 |
+"G7"a2g1d2 e1d2 G2A1G2 "C"c3 | "C"A2e1d3 G2 A1B2c1 g4 | "C"c'3g2 a1c2 d1G2A1 "Dm7"c4 | "Dm7"B2A1d2 c1G2 e1d2A1 "D7"_g4 |
+"G7"d2f1B2 d1g2 f2b1d2 g3 | "C"c'2g2 e2c2 e2g2 c'4 | "Cdim"c'3a3 _g3 _e3 c4 | "C"e2g1c'2 g1e2 c2G2 e2c2 |
+"Ddim"c'3a3 _g3 _e3 c4 | "D7"d2_g1a2 c'1a2 g2d2 =g2"G7"b2 | "C"c'3g2 a1c2 d1G2A1 "Dm7"c4 | "Dm7"B2A1d2 c1G2 e1d2A1 "D7"_g4 |
+"G7"d2f1B2 d1g2 f2b1d2 g3 | "C"c'2g2 e2c2 e2g2 c'4 | "Ab"c3_e3 c'3 f3 c4 | "Eb7"_e3c3 _B3 _A3 c4 |
+"Ab"_A3c3 _B3 c3 B4 | "Eb7"_e3_B3 c3 f3 _b4 | "Ab"c'3_b3 c'3 b3 c'4 | "Ab"f3c3 _B3 c3 B4 |
+"Db"c2f1_A2 _B1c2 B2A2 f2_e2 | "Eb7"_e8 _B4 e4 | "Ab"c3_e3 c'3 f3 c4 | "Eb7"_e3c3 _B3 _A3 c4 |
+"Ab"_A3c3 _B3 c3 B4 | "Eb7"_e3_B3 c3 f3 _b4 | "Ab"c'3_b3 c'3 b3 c'4 | "Db"f2_a2 c'4 a2f2 _d4 |
+"Eb7"_B3c3 _d3 _e3 f4 | "Ab"_a8 _e4 c4 | "C"c'3g2 a1c2 d1G2A1 "Dm7"c4 | "Dm7"B2A1d2 c1G2 e1d2A1 "D7"_g4 |
+"G7"a2g1d2 e1d2 G2A1G2 "C"c3 | "C"A2e1d3 G2 A1B2c1 g4 | "C"c'3g2 a1c2 d1G2A1 "Dm7"c4 | "Dm7"B2A1d2 c1G2 e1d2A1 "D7"_g4 |
+"G7"d2f1B2 d1g2 f2b1d2 g3 | "C"c'2g2 e2c2 e2g2 c'4 | "Cdim"c'3a3 _g3 _e3 c4 | "C"e2g1c'2 g1e2 c2G2 e2c2 |
+"Ddim"c'3a3 _g3 _e3 c4 | "D7"d2_g1a2 c'1a2 g2d2 =g2"G7"b2 | "C"c'3g2 a1c2 d1G2A1 "Dm7"c4 | "Dm7"B2A1d2 c1G2 e1d2A1 "D7"_g4 |
+"G7"d2f1B2 d1g2 f2b1d2 g3 | "C"c'2g2 e2c2 e2g2 c'4 | "C7"e2g2 _b4 g2e2 _B4 | "F"a2c'2 f4 a2c'2 a4 |
+"D7"_g2a2 c'4 a2g2 d4 | "C7"g2_b2 e4 g2b2 c'4 | "F"f3G3 d3 c3 f4 | "C7"g3f3 e3 d3 c4 |
+"F"g3g3 e3 d3 c4 | "Bb"e2f2 g2a2 f2e2 d2c2 | "F"f3G3 d3 c3 f4 | "C7"g3f3 e3 d3 c4 |
+"D7"b4 a2f2 e2d2 _d4 | "G7"G2d2 e2f2 g4 e2d2 | "C7"_d2=d2 g4 e2d2 c4 | "F"a3f3 e3 d3 c4 |
+"F"c'3a3 g3 f3 a4 | "Bb"_b2a2 g2f2 d4 _B4 | "F"f3a3 c'3 d3 _b4 | "C7"a2g2 e4 g2_b2 c'4 |
+"D7"a2_g2 d4 A2c2 g4 | "G7"g2f2 d2B2 G4 d4 | "C7"e2g2 _b4 a2g2 e4 | "F"f3a3 c'3 a3 f4 |
+"Bb"d2c'2 _b2a2 g4 f4 | "Bdim"b2a2 f2d2 _a4 f4 | "F"a3c'3 f3 a3 c'4 | "D7"d2c'2 a2_g2 d4 A4 |
+"C7"_B2c2 e2g2 _b4 g4 | "F"a4 c'4 Hf8 |]

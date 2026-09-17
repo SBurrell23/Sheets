@@ -175,18 +175,18 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
 
     thresholds (optional, per version.json): minEighths / minHalves / minRunBars.
     """
-    E, W = [], []
+    E, W, N = [], [], []   # errors, warnings (block), notes (advisory only)
     thresholds = thresholds or {}
 
     for field in ('title', 'key', 'tempo', 'bars'):
         if field not in song:
             E.append('missing required field "%s"' % field)
     if E:
-        return E, W
+        return E, W, N
 
     if song['key'] not in KEYS:
         E.append('key must be one of %s (got %r)' % (', '.join(KEYS), song['key']))
-        return E, W
+        return E, W, N
     fifths, mode, tonic, _ = KEYS[song['key']]
     defaults = key_defaults(fifths)
 
@@ -195,7 +195,7 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
 
     if song.get('meter', '4/4') not in METERS:
         E.append('meter must be one of %s (got %r)' % (', '.join(METERS), song['meter']))
-        return E, W
+        return E, W, N
     bar_units, beat_units = meter_of(song)[0], meter_of(song)[1]
     pickup = int(song.get('pickup', 0) or 0)
     if pickup and not (0 < pickup < bar_units):
@@ -227,7 +227,10 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             E.append('bar %d: durations sum to %d, must be exactly %d%s '
                      '(1=16th 2=8th 3=dotted8th 4=quarter 6=dotted-quarter 8=half 12=dotted-half 16=whole)'
                      % (i, total, want, ' (the pickup bar)' if want == pickup and i == 1 else ''))
-        if evs[0]['rest']:
+        # Original-composition sets want every bar struck on beat 1, which is what
+        # keeps an invented tune landing. A transcription of a real song has no say
+        # in the matter -- forcing it rewrites the tune's own phrasing.
+        if evs[0]['rest'] and not thresholds.get('allowRestStart'):
             E.append('bar %d: starts with a rest. Every bar must open with a struck note '
                      'on beat 1.' % i)
         for e in evs:
@@ -246,13 +249,30 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             sixteenth_bars += 1
 
     if E:
-        return E, W
+        return E, W, N
 
     # ---- final bar -------------------------------------------------------
     tonic_alter = defaults.get(tonic, 0)
     tonic_name = tonic + ('#' if tonic_alter > 0 else ('b' if tonic_alter < 0 else ''))
     last = parsed[-1]
-    if thresholds.get('requireFinalWhole', True):
+    if not thresholds.get('requireTonicClose', True):
+        # Recreations end where the song ends. Plenty of real tunes fade out on the
+        # third, stop on the dominant, or finish on a short note; inventing a held
+        # tonic to satisfy a rule falsifies the source. Still worth a look when the
+        # close is neither the tonic nor the closing chord's root -- often a tune
+        # that simply stopped mid-phrase -- so say so without blocking.
+        fin = last[-1]
+        ok = [(tonic, tonic_alter)]
+        fc = parse_chord(bars[-1].get('chord'))
+        if fc:
+            ok.append((fc['root'], fc['ralt']))
+        if fin['rest']:
+            N.append('bar %d: the song ends on a rest' % len(bars))
+        elif (fin['step'], fin['alter']) not in ok:
+            N.append('bar %d: ends on %s, which is neither the tonic %s nor the root of the '
+                     'closing chord - fine if that is how the song goes, but check it is not a '
+                     'phrase left unfinished' % (len(bars), fin['step'], tonic_name))
+    elif thresholds.get('requireFinalWhole', True):
         if len(last) != 1 or last[0]['rest'] or last[0]['dur'] != bar_units:
             E.append('bar %d: the last bar must be a single note filling the bar '
                      '(e.g. "%s5:%d")' % (len(bars), tonic_name, bar_units))
@@ -261,8 +281,18 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                      % (len(bars), tonic_name, last[0]['step']))
     else:
         fin = last[-1]
-        if fin['rest'] or fin['step'] != tonic or fin['alter'] != tonic_alter:
-            E.append('bar %d: the song must end on the tonic %s' % (len(bars), tonic_name))
+        # A multi-strain rag modulates to the subdominant for its trio and ends
+        # there -- forcing it back onto the key's tonic writes a wrong final note.
+        # Where a set allows it, the root of the closing chord is a valid close too.
+        ok_close = [(tonic, tonic_alter)]
+        if thresholds.get('allowFinalChordClose'):
+            fc = parse_chord(bars[-1].get('chord'))
+            if fc:
+                ok_close.append((fc['root'], fc['ralt']))
+        if fin['rest'] or (fin['step'], fin['alter']) not in ok_close:
+            names = ' or '.join(s + ('#' if a > 0 else ('b' if a < 0 else ''))
+                                for s, a in ok_close)
+            E.append('bar %d: the song must end on %s' % (len(bars), names))
         elif fin['dur'] < 8:
             W.append('bar %d: the final note is short; a tune usually ends on a note held '
                      'at least a half note' % len(bars))
@@ -387,7 +417,7 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                  'allows up to %.0f%%' % (leaps, total_notes,
                                           100.0 * leaps / max(total_notes, 1), 100 * leap_ratio))
 
-    return E, W
+    return E, W, N
 
 
 # ---------------------------------------------------------------- rendering

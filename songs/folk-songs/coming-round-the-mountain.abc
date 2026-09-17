@@ -1,12 +1,11 @@
 X:1
 T:She'll Be Coming Round the Mountain
-C:Traditional — public domain
+C:American traditional (from the spiritual "When the Chariot Comes") — public domain
 M:4/4
 L:1/16
 Q:1/4=120
 K:C clef=treble
-"C"G2G2 | "C"c2c2 c2c2 e4 e4 | "C"g2e2 c12 | "C"g4 e4 c8 |
-"C"c8 z4 "G7"G2G2 | "C"c2c2 c2c2 e4 e4 | "C"g2e2 c12 | "C"g4 e4 c8 |
-"C"c8 z4 G2G2 | "F"f2f2 f2f2 a4 a4 | "F"a2f2 c12 | "C"g4 e4 c8 |
-"C"c8 z4 "G7"G2G2 | "C"c2c2 c2c2 e4 e4 | "C"g2e2 c12 | "G7"g4 f4 d8 |
-"C"Hc16 |]
+"C"G4 A4 | "C"c4 c4 c4 c4 | "G7"A4 G4 G4 A4 | "C"c16 |
+"C"c4 z4 c4 d4 | "C"e4 e4 e4 e4 | "C"g4 e4 d4 c4 | "G7"d16 |
+"G7"d4 z4 g4 f4 | "C"e4 e4 e4 e4 | "C"d4 c4 c4 c4 | "F"A4 A4 A4 A4 |
+"C"d4 c4 B4 A4 | "C"G4 G4 G4 G4 | "G7"e4 d4 c4 B4 | "C"Hc16 |]

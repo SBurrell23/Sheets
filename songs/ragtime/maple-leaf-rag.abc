@@ -1,0 +1,27 @@
+X:1
+T:Maple Leaf Rag
+C:Scott Joplin, 1899 - public domain
+M:4/4
+L:1/16
+Q:1/4=96
+K:C clef=treble
+"C"c4 g2c2 e2 g4 c2 | "G7"g2B2 d2 g8 z2 | "C"c4 g2c2 e2 g4 c2 | "G7"g2B2 d2 g8 z2 |
+"Ab"c4 _e2_a2 z2 "G"g4 g2 | "Ab"c4 _e2_a2 z2 "G"g6 | "Cm"c2_e2 g2c'2 c2e2 g2c'2 | "Cm"c2_e2 g2c'2 c2e2 g2c'2 |
+"Cdim"c'4 c'4 c'4 c'4 | "C"c'2g2 a2e2 g2 a6 | "Ab"c2d2 _e2c2 "C"d2 =e4 c2 | "C"e2c2 "G7"d4 "C"c4 z4 |
+"Cdim"c'4 c'4 c'4 c'4 | "C"c'2g2 a2e2 g2 a6 | "Ab"c2d2 _e2c2 "C"d2 =e4 c2 | "C"e2c2 "G7"d4 "C"c4 z4 |
+"G7"B4 g2B2 d2 ^f4 B2 | "G7"f2B2 d2 e4 G2 d2G2 | "C"e4 c'2e2 g2 a4 g2 | "C"c'2e2 g2 a4 e2 a4 |
+"G7"g4 b2d2 f2 a4 g2 | "G7"b2d2 f2 a4 f2 a4 | "C"e4 c'2e2 g2 a4 g2 | "C"c'2e2 g2 a4 e2 a4 |
+"G7"B4 g2B2 d2 ^f4 B2 | "G7"f2B2 d2 e4 G2 d2G2 | "C"e4 c'2e2 g2 a4 g2 | "C"c4 c4 "B7"B4 "Bb"_B4 |
+"A7"A4 ^c2e2 a2e2 c2A2 | "Dm"A4 d2f2 a4 f4 | "D7"e4 z2 e4 "G7"d6 | "C"c4 e2g2 c'4 z4 |
+"C"c4 g2c2 e2 g4 c2 | "G7"g2B2 d2 g8 z2 | "C"c4 g2c2 e2 g4 c2 | "G7"g2B2 d2 g8 z2 |
+"Ab"c4 _e2_a2 z2 "G"g4 g2 | "Ab"c4 _e2_a2 z2 "G"g6 | "Cm"c2_e2 g2c'2 c2e2 g2c'2 | "Cm"c2_e2 g2c'2 c2e2 g2c'2 |
+"Cdim"c'4 c'4 c'4 c'4 | "C"c'2g2 a2e2 g2 a6 | "Ab"c2d2 _e2c2 "C"d2 =e4 c2 | "C"e2c2 "G7"d4 "C"c4 z4 |
+"Cdim"c'4 c'4 c'4 c'4 | "C"c'2g2 a2e2 g2 a6 | "Ab"c2d2 _e2c2 "C"d2 =e4 c2 | "C"e2c2 "G7"d4 "C"c4 z4 |
+"C"c6 d4 G2 d4 | "C"c6 d4 G2 d2G2 | "F"c2f2 d2f2 a2c2 f2a2 | "Dm7"d2f2 a2 c4 a2 d2a2 |
+"C"c6 d4 G2 d4 | "C"c6 d4 G2 d2G2 | "F"c2f2 d2f2 a2c2 f2a2 | "Dm7"d2f2 a2 c4 a2 "A7"^c2a2 |
+"D7"d6 e4 A2 e4 | "D7"d6 e4 A2 e2A2 | "Em7b5"G4 d2G2 _B2 e4 G2 | "Em7b5"d2G2 _B2 e4 G2 d4 |
+"Abdim"f4 f4 e4 d4 | "Bb"a2f2 g2 _b4 d2 a4 | "C7"a2f2 g2 a4 e2 g2f2 | "F"f2f2 a2c'2 f4 z4 |
+"F"c4 A4 c4 A4 | "F"c4 d2 e4 d2 c2A2 | "C"g2 a4 e8 z2 | "C"g4 a2e2 g2 a4 e2 |
+"G7"g2 a4 d8 z2 | "G7"f4 a2d2 f2 a4 e2 | "C"e2g2 a2e2 g2 a4 e2 | "C"e2g2 a2e2 g2 a4 g2 |
+"F"c4 A4 c4 A4 | "F"c4 d2 e4 d2 c2A2 | "C"c4 A4 G2 c4 e2 | "C"e2g2 a2e2 g2 a4 c2 |
+"F"c2d2 c4 "D7/F#"c4 d2c2 | "C/G"c2d2 e2c2 "Am"d2 e4 c2 | "D7"c2d2 e2 c4 "G7"d6 | "C"c'4 g4 Hc8 |]

@@ -76,10 +76,14 @@ note — or, better, choose the phrasing that keeps each bar self-contained.
 1. **Every bar's durations sum to exactly the bar length** for your meter (16 / 12 / 8).
    The pickup bar, if you declare one, sums to exactly the `pickup` value. This is the most
    common mistake — add each bar up.
-2. **Every bar begins with a struck note** — never a rest. (The pickup bar counts as a bar.)
+2. Bars *may* begin with a rest where the tune genuinely rests there. Prefer a struck downbeat,
+   but never invent a note — or a pickup the tune has not got — just to avoid one.
 3. **Range `G4` to `C6`.** If the tune as you know it goes outside that, move the offending
    phrase by an octave, or pick the octave that keeps the whole tune inside the window.
-4. **The song ends on the tonic** — `C5` (or `A5`/`A4` in A minor) — held at least a half note.
+4. **End where the song ends.** A tonic close held at least a half note is the usual and
+   preferred ending, but it is not forced: if the tune genuinely closes elsewhere, write that.
+   Do not manufacture a held tonic the song has not got. The validator prints a NOTE rather than
+   an error when the close is unusual — read it and check you have not stopped mid-phrase.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`,
    `6`, `m6`. A slash bass is allowed: `G/B`.
 

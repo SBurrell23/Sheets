@@ -1,0 +1,28 @@
+X:1
+T:Weeping Willow
+C:Scott Joplin, 1903 - public domain
+M:4/4
+L:1/16
+Q:1/4=84
+K:C clef=treble
+"C"g2^f2 g2a2 b4 c'4 | "G7"g4 g4 g2a2 f2d2 | "C"c2B2 c2d2 e4 f4 | "G7"G4 G4 G2c2 d2e2 |
+"C"g8 c'8 | "C7"e2^d2 e2g2 g2 g4 a2 | "F"f4 f4 f4 f4 | "C"e2c2 A2G2 G2c2 d2e2 |
+"C"g8 c'8 | "G"b2^a2 b2d2 d2g2 b2d2 | "D7"e2c'2 a2^f2 f2d2 e2f2 | "G"g8 g4 c2d2 |
+"C"g8 c'8 | "C7"e2^d2 e2g2 g2 g4 a2 | "F"g2 f4 c2 c2 d4 c2 | "C"e2c2 A2G2 G2e2 ^d2e2 |
+"E7"^g8 b6 d2 | "Am"d2c'2 b2c'2 "D7"c'2c'2 b2a2 | "C"a2g2 ^f2g2 "G7"g2=f2 d2B2 | "C"c4 g2g2 g4 e4 |
+"G7"f8 f2e2 f4 | "G7"^c2 d4 e2 f4 a4 | "C"^f2 g4 e2 e2^d2 e2c'2 | "C"c'2b2 c'4 b2 c'4 c2 |
+"F"c2c2 f2a2 c'4 d2c'2 | "C"z8 a2g2 a2g2 | "F"f2c2 f2a2 c'4 d2e2 | "C"e2c2 e4 g4 e4 |
+"G7"f8 f2e2 f4 | "G7"^c2 d4 e2 f4 a4 | "C"^f2 g4 e2 e2^d2 e2c'2 | "C"c'2b2 c'4 b2 c'4 c2 |
+"F"c2c2 f2a2 c'4 d2c'2 | "C"c'2a2 g2e2 A2e2 c2A2 | "D7"c8 "G7"d2 d4 c2 | "C"c8 c2c2 d2e2 |
+"C"g8 c'8 | "C7"e2^d2 e2g2 g2 g4 a2 | "F"g2 f4 c2 c2 d4 c2 | "C"e2c2 A2G2 G2c2 d2e2 |
+"C"g8 c'8 | "G"b2^a2 b2d2 d2g2 b2d2 | "D7"e2c'2 a2^f2 f2d2 e2f2 | "G"g8 g4 c2e2 |
+"C"g8 c'8 | "C7"e2^d2 e2g2 g2 g4 a2 | "F"g2 f4 c2 c2 d4 c2 | "C"e2c2 A2G2 G2e2 ^d2e2 |
+"E7"^g8 b6 d2 | "Am"d2c'2 b2c'2 "D7"c'2c'2 b2a2 | "C"a2g2 ^f2g2 "G7"g2=f2 d2B2 | "C"c4 z4 c4 z4 |
+"F"A2c2 f2g2 a2 c'4 a2 | "A7"a2^g2 a4 _b4 a2f2 | "Dm"f2e2 f4 "F7"f2 f4 f2 | "Bb"f8 f2d2 f2_b2 |
+"Bb"d4 d4 d4 _d4 | "F"c'6 a2 f2g2 a2f2 | "Am"e2e2 c'2a2 "E7"a2c'2 b2^g2 | "Am"A4 z4 "C7"G4 c4 |
+"F"A2c2 f2g2 a2 c'4 a2 | "A7"a2^g2 a4 _b4 a2f2 | "Dm"f2e2 f4 "F7"f2 f4 f2 | "Bb"f8 f2d2 f2_b2 |
+"Bb"d4 d4 d4 _d4 | "F"c'6 a2 f2g2 a4 | "G7"f8 "C7"g2 g4 f2 | "F"f4 c2d2 e2f2 g2a2 |
+"C7"g8 c'8 | "C7"c'2g2 e2g2 _b2d2 c'2b2 | "F"a2^g2 a2c'2 c'8 | "G#dim"f2^g2 b2d2 "F"c'2a2 c'2f2 |
+"C7"f4 e2e2 e2^d2 e4 | "C7"_b8 b2g2 b2e2 | "Dm"e4 d2d2 d2^c2 d4 | "F"a8 a2c2 f2a2 |
+"C7"g8 c'8 | "C7"c'2g2 e2g2 _b2d2 c'2b2 | "F"a2^g2 a2c'2 c'2a2 c'4 | "Bb"_b8 b2d2 f2b2 |
+"Bb"d4 d4 d4 _d4 | "F"c'6 a2 f2g2 a4 | "G7"f8 "C7"g2 g4 f2 | "F"f8 Hf8 |]

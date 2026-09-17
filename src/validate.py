@@ -42,7 +42,7 @@ def main():
     cfg, vname = version_config(path)
     want = cfg.get('bars', songlib.BARS_REQUIRED)
 
-    errors, warnings = songlib.validate(
+    errors, warnings, notes = songlib.validate(
         song, expected_bars=want, rotate_landings=cfg.get('rotateLandings', False),
         thresholds=cfg)
     name = os.path.basename(path)
@@ -51,6 +51,10 @@ def main():
         print('ERROR   %s' % e)
     for w in warnings:
         print('WARNING %s' % w)
+    # Notes are advisory: printed so a human sees them, never blocking. They exist
+    # so relaxing a rule for recreations does not mean losing the signal entirely.
+    for n in notes:
+        print('NOTE    %s' % n)
 
     if errors:
         print('\nFAIL: %s has %d error(s)%s. Fix every ERROR, then run this again.'

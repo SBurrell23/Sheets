@@ -77,12 +77,16 @@ across a bar line, write the note as long as the bar allows and begin the next b
 
 1. **Every bar's durations sum to exactly the bar length** for your meter (16 / 12 / 8). The
    pickup bar, if declared, sums to exactly the `pickup` value. This is the most common mistake.
-2. **Every bar begins with a struck note** — never a rest.
+2. Bars *may* begin with a rest where the theme genuinely rests there. Prefer a struck
+   downbeat, but do not invent a note, or a pickup the theme has not got, to avoid one.
 3. **Range `G4` to `C6`.** Move a phrase by an octave, or choose the octave that fits the whole
    theme. If the theme genuinely cannot fit in either octave, adjust the smallest number of
    notes you can and say so in your report.
-4. **The theme ends on the tonic** — `C5` (or `A5`/`A4` in A minor) — held at least a half note.
-   If the real theme ends elsewhere, extend it to a tonic close; a lead sheet needs an ending.
+4. **End where the theme ends.** A tonic close held at least a half note is the usual and
+   preferred ending, but it is no longer forced: if the theme genuinely closes on the third, on
+   the dominant, or on a short note, write that. Do not manufacture a held tonic the music has
+   not got. The validator will print a NOTE, not an error, when the close is unusual — read it
+   and make sure you have not simply stopped mid-phrase.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`,
    `6`, `m6`. A slash bass is allowed: `G/B`.
 
@@ -124,5 +128,7 @@ The agents who built the Classics collection did this and it materially improved
 
 ## 8. Public domain
 
-Only arrange works whose composer died more than 70 years ago, or which were published before
-1929. Everything you have been asked for qualifies. Record the attribution in `source`.
+Only arrange works whose composer died more than 70 years ago, or which were published early
+enough to be out of copyright. The US cutoff is 95 years from publication and rolls forward every
+January — as of 2026 that means **published in 1930 or earlier**. Everything you have been asked
+for qualifies. Record the attribution in `source`.

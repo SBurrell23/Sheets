@@ -14,6 +14,7 @@ Published at <https://sburrell23.github.io/Sheets/>.
 |---|---|
 | **Folk Songs** | Traditional and early-popular melodies in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
 | **Classical** | Famous classical themes in the public domain, reduced to a single melodic line. Where a piece has no separate tune — Für Elise, Clair de Lune, Canon in D — the arrangement takes the line an ear follows and leaves the accompaniment to the chord symbols. |
+| **Ragtime & Blues** | Ragtime, early blues and New Orleans jazz in the public domain. Unlike the other collections these are **full arrangements** — every distinct strain of a rag, in playing order, not just the famous one, so they run 60–100 bars. |
 | **AI Music** | Original songs written by AI agents to a spec. Six sets (v1–v6), each written to a different spec — **View spec** shows the one a given song was written to. |
 
 Adding another collection means adding one folder with a `collection.json`, a `version.json`,
@@ -117,7 +118,23 @@ a default that had only ever been right for the previous set:
 | `maxLeapRatio` | 0.30 | share of intervals wider than a major third. v6 uses 0.45 for its arpeggio-and-sixths style |
 | `minSixteenthBars` | auto | set to `0` where sixteenths are not wanted (Folk Songs, Classical) |
 | `requireFinalWhole` | true | `false` lets a tune end on any tonic note of at least a half |
+| `allowRestStart` | false | `true` lets a bar open on a rest |
+| `requireTonicClose` | true | `false` drops the ending rule entirely |
+| `allowFinalChordClose` | false | `true` also accepts the closing chord's root |
 | `swing` | false | see below |
+
+### Recreations are not compositions
+
+Three of the original rules — *every bar opens on a struck note*, *the song ends on a held
+tonic*, and the final-note duration — exist to stop an **invented** tune wandering. Applied to a
+**transcription** they do the opposite: they force a pickup the tune has not got, or manufacture
+an ending the composer did not write. Folk Songs, Classical and Ragtime therefore set
+`allowRestStart: true` and `requireTonicClose: false`; every AI Music set keeps all three.
+
+Dropping a rule should not mean losing the signal, so `validate()` returns a third list:
+**notes**, printed as `NOTE` and advisory only — they never affect the exit code. An unusual
+close still gets reported, so a reviewer can tell a real ending from an arrangement that simply
+stopped mid-phrase; it just no longer blocks.
 
 ## Swing sets
 
@@ -161,8 +178,14 @@ deploys, it never rebuilds.
 
 ## Public domain
 
-Everything in **Folk Songs** and **Classical** is either a traditional melody, a work published
-before 1929, or a work whose composer died more than 70 years ago — all public domain. Each song
-file records its `source` (composer, work and date where known) alongside the words "public
-domain", and that string is printed as the credit line on the engraved score. Only original
-**AI Music** is credited to Claude.
+Everything in **Folk Songs**, **Classical** and **Ragtime & Blues** is either a traditional
+melody, a work published early enough to have fallen out of copyright, or a work whose composer
+died more than 70 years ago. Each song file records its `source` (composer, work and date where
+known) alongside the words "public domain", and that string is printed as the credit line on the
+engraved score. Only original **AI Music** is credited to Claude.
+
+**The US cutoff rolls forward every January.** Copyright on a published work runs 95 years, so
+the line moves a year each 1 January: as of 2026 anything **published in 1930 or earlier** is
+public domain. Do not hard-code a year anywhere except here — this paragraph is the one place to
+update, and the specs point at it. When adding a collection, check the current year's cutoff
+rather than copying a number out of an older spec.

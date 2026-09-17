@@ -1,0 +1,24 @@
+X:1
+T:Black and White Rag
+C:George Botsford, 1908 - public domain
+M:4/4
+L:1/16
+Q:1/4=92
+K:C clef=treble
+"D7"g4 g4 ^f4 | "G7"f2g2 b2f2 g2b2 f2g2 | "G7"b2f2 g2b2 z2 f2 g2f2 | "Am7"^d2e2 a2=d2 e2a2 d2e2 |
+"Am7"a2^d2 e2a2 z2 g2 e2c2 | "Dm7"f1g1f2 e2f2 z2 e2 f4 | "G7"d2^c2 d2e2 f2d2 B2G2 | "C"c2B2 d2c2 e2f2 ^f2g2 |
+"C"e2c2 A2c2 z4 "D7"g2^f2 | "G7"f2g2 b2f2 g2b2 f2g2 | "G7"b2f2 g2b2 z2 f2 g2f2 | "Am7"^d2e2 a2=d2 e2a2 d2e2 |
+"Am7"a2^d2 e2a2 z2 g2 e2c2 | "Am"A4 c2e2 a2g2 f2e2 | "Dm7"d2^c2 d2f2 a2g2 f2d2 | "C"e2G2 c2e2 z2 c2 "G7"d4 |
+"C7"c8 A4 _B4 | "F"c4 B2c2 z2 B2 c4 | "F"a4 ^g2a2 z2 g2 a4 | "C7"g4 ^f2g2 z2 f2 g4 |
+"Dm"d12 ^c4 | "C7"_B2c2 e2B2 c2e2 B2c2 | "C7"e2_B2 c2e2 z2 d2 c2B2 | "Gm7"^G2A2 d2=G2 A2d2 G2A2 |
+"C7"d2^G2 A2d2 z2 f2 d2A2 | "F"c4 B2c2 z2 B2 c4 | "F"a4 ^g2a2 z2 g2 a4 | "C7"g4 ^f2g2 z2 f2 g4 |
+"Dm"d12 ^c4 | "F"c2d2 e2f2 g2a2 _b2c'2 | "C7"c'2_b2 a2g2 f2e2 d2c2 | "F"c2B2 c2a2 z2 f2 a4 |
+"F"f4 "D7"g4 g4 ^f4 | "G7"f2g2 b2f2 g2b2 f2g2 | "G7"b2f2 g2b2 z2 f2 g2f2 | "Am7"^d2e2 a2=d2 e2a2 d2e2 |
+"Am7"a2^d2 e2a2 z2 g2 e2c2 | "Dm7"f1g1f2 e2f2 z2 e2 f4 | "G7"d2^c2 d2e2 f2d2 B2G2 | "C"c2B2 d2c2 e2f2 ^f2g2 |
+"C"e2c2 A2c2 z4 "D7"g2^f2 | "G7"f2g2 b2f2 g2b2 f2g2 | "G7"b2f2 g2b2 z2 f2 g2f2 | "Am7"^d2e2 a2=d2 e2a2 d2e2 |
+"Am7"a2^d2 e2a2 z2 g2 e2c2 | "Am"A4 c2e2 a2g2 f2e2 | "Dm7"d2^c2 d2f2 a2g2 f2d2 | "C"e2G2 c2e2 z2 c2 "G7"d4 |
+"C"e8 c4 d4 | "C"e2g2 c'2c2 e2g2 G2c2 | "C"e2e2 G2c2 z2 e2 g2d2 | "G7"d4 B2f2 B1c1B2 f4 |
+"C"B2c2 ^c2d2 z2 =c2 d4 | "G7"f2g2 b2d2 f2a2 B2d2 | "G7"g2B2 d2f2 f2g2 b2g2 | "C"e4 G2c2 e1f1e2 c4 |
+"C"e2f2 ^f2g2 z2 =f2 "E7"e2d2 | "A7"^c2e2 a2e2 =c2A2 e2A2 | "A7"^c2e2 A2=c2 e8 | "D7"d2^f2 a2A2 d2f2 a2A2 |
+"D7"d2^f2 a2f2 "G7"d8 | "C"e2g2 c'2c2 e2g2 G2c2 | "C"e2e2 G2c2 z2 e2 g2e2 | "G7"B2c2 d2g2 z2 d2 e2e2 |
+"C"Hc16 |]

@@ -429,7 +429,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   // Left to itself abcjs fits four bars to a line and justifies each system to
   // the full width, so a sparse tune ends up with 250px bars. MAX_BAR_PX is the
   // only number worth touching here.
-  var MAX_BAR_PX = 145;        // target width for the widest bar, in screen pixels
+  var MAX_BAR_PX = 175;        // target width for the widest bar, in screen pixels
   var PER_LINE_MIN = 4;        // layouts to try, in measures per line
   var PER_LINE_MAX = 10;
 
@@ -579,7 +579,11 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 
   /* ================= audio ================= */
   function audioParams() {
-    return { chordsOff: !chordsOn, program: 0, midiTranspose: 0, qpm: targetBpm };
+    // visualTranspose moves the notation and the chord NAMES but the synth
+    // ignores it entirely -- the generated MIDI is byte-identical either way, so
+    // the score would read Eb while the audio still played C. midiTranspose is
+    // the separate lever that moves the sound, melody and comping alike.
+    return { chordsOff: !chordsOn, program: 0, midiTranspose: transpose, qpm: targetBpm };
   }
 
   // A fresh controller per tune: reusing one leaves the previous tune primed, so

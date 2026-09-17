@@ -1,0 +1,28 @@
+X:1
+T:Elite Syncopations
+C:Scott Joplin, 1902 - public domain
+M:4/4
+L:1/16
+Q:1/4=86
+K:C clef=treble
+"C"g2e2 d2 c4 e2 d2c2 | "C"d2c2 A2 G4 c2 d2e2 | "G7"G2 d4 c2 B4 d4 | "G7"G4 z2 G2 z2 A2 z2 B2 |
+"C"z2 c2 a2 g4 a2 g4 | "G/D"z2 B2 a2 g4 a2 g4 | "Edim"z2 g2 z2 g2 z2 "D#dim"_g2 z2 f2 | "G7"e2g2 a2c'2 b8 |
+"C"e2^d2 e2 g4 e2 =d2c2 | "F"d2c2 A2 "C"c4 A2 G4 | "D7"d2d2 c2B2 A2 e4 ^f2 | "G"g4 z4 g4 z4 |
+"C"z2 c2 a2 g4 a2 g4 | "G/D"z2 B2 a2 g4 a2 g4 | "Edim"z2 g2 z2 g2 z2 "D#dim"_g2 z2 f2 | "G7"e2g2 a2c'2 b8 |
+"C"e2^d2 e2 g4 e2 =d2c2 | "F"d2c'2 a2 "C"g4 a2 e2d2 | "Am"c2d2 e4 "G7"d2 d4 G2 | "C"c4 g2g2 g4 g4 |
+"G7"b2a2 g2f2 e2 f4 d2 | "C"c2d2 e2 G4 e2 d2c2 | "G7"B2c2 d2 G4 f2 e2d2 | "C"c2e2 a2 g6 g4 |
+"G7"b2a2 g2f2 "E7"e2 f4 B2 | "Am"c2B2 c2 e4 e2 d2c2 | "Em"B2g2 ^f2e2 "B7"^d2 f4 B2 | "Em"e4 z4 "G7"g8 |
+"G7"b2a2 g2f2 e2 f4 d2 | "C"c2d2 e2 G4 e2 d2c2 | "G7"B2c2 d2 G4 f2 e2d2 | "C"c2e2 a2 g6 g4 |
+"Dm"A2 d4 A2 A2 d4 A2 | "C/G"G2 c4 G2 G2 c4 G2 | "G7"f2d2 a2 g4 f2 B4 | "C"c4 z2 G2 z2 A2 z2 B2 |
+"C"z2 c2 a2 g4 a2 g4 | "G/D"z2 B2 a2 g4 a2 g4 | "Edim"z2 g2 z2 g2 z2 "D#dim"_g2 z2 f2 | "G7"e2g2 a2c'2 b8 |
+"C"e2^d2 e2 g4 e2 =d2c2 | "F"d2c2 A2 "C"c4 A2 G4 | "D7"d2d2 c2B2 A2 e4 ^f2 | "G"g4 z4 g4 z4 |
+"C"z2 c2 a2 g4 a2 g4 | "G/D"z2 B2 a2 g4 a2 g4 | "Edim"z2 g2 z2 g2 z2 "D#dim"_g2 z2 f2 | "G7"e2g2 a2c'2 b8 |
+"C"e2^d2 e2 g4 e2 =d2c2 | "F"d2c'2 a2 "C"g4 a2 e2d2 | "Am"c2d2 e4 "G7"d2 d4 G2 | "C"c4 z4 "C7"c'8 |
+"F"a2d2 c'2_b2 a2g2 f2a2 | "Bb"g2f2 d2 "F"c4 f4 d2 | "F"c2d2 c2 A4 "G7"G2 A2G2 | "C7"G12 c4 |
+"F"a2d2 c'2_b2 a2"A7"b2 a2g2 | "Dm"f2e2 d2 f4 a2 g2f2 | "Am"e2A2 c2e2 "E7"d2 c4 B2 | "F"A4 z4 "C7"c8 |
+"F"a2d2 c'2_b2 a2g2 f2a2 | "Bb"g2f2 d2 "F"c4 f4 d2 | "F"c2d2 c2 A4 "G7"G2 A2G2 | "C7"G12 c4 |
+"F"A2^G2 A2_B2 c2=B2 c2^c2 | "Bb"d2^c2 d2 f4 "E7"f2 e2d2 | "F"c2a2 f2c2 "C7"d2_B2 G4 | "F"f12 z2 f2 |
+"Bb"f2_B2 g2B2 d2 f4 B2 | "Bb"g2_B2 d2f2 f2 g4 f2 | "F"c'2f2 d2f2 a2 c'4 f2 | "F"d2f2 a2c'2 c'2 d4 f2 |
+"C7"c'2e2 d2e2 g2 c'4 e2 | "C7"d2e2 g2c'2 c'2 d4 e2 | "F"c'2f2 d2f2 a2 c'4 f2 | "F"d2f2 a2c'2 c'2 c'4 f2 |
+"Bb"f2_B2 g2B2 d2 f4 B2 | "Bb"g2_B2 d2f2 f2 g4 f2 | "F"c'2f2 d2f2 a2 c'4 f2 | "F"d2f2 a2c'2 c'2 c'4 _a2 |
+"Db"_a2f2 a2f2 g2 a4 f2 | "F"a2f2 g2a2 a2 a4 c'2 | "C7"c2G2 d2G2 _B2 e4 f2 | "F"f8 Hf8 |]

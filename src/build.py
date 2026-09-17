@@ -118,7 +118,7 @@ def main():
                     failed.append(reldir + '/' + name)
                     continue
 
-                errors, warnings = songlib.validate(
+                errors, warnings, notes = songlib.validate(
                     song, expected_bars=want,
                     rotate_landings=cfg.get('rotateLandings', False), thresholds=cfg)
                 if errors:
@@ -127,6 +127,8 @@ def main():
                     continue
                 if warnings:
                     print('  warn %-26s %s' % (name, warnings[0]))
+                if notes:
+                    print('  note %-26s %s' % (name, notes[0]))
 
                 with io.open(os.path.join(outdir, slug + '.abc'), 'w', encoding='utf-8') as f:
                     f.write(songlib.to_abc(song, with_title=True, swing=swing))

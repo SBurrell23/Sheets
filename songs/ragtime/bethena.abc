@@ -1,0 +1,41 @@
+X:1
+T:Bethena (A Concert Waltz)
+C:Scott Joplin, 1905 - public domain
+M:3/4
+L:1/16
+Q:1/4=132
+K:C clef=treble
+"C"d2 c4 e2 d4 | "C"d2 c4 e2 d4 | "C"d2 c4 e2 d4 | "C"d2 c4 e2 d4 |
+"F"A12 | "Fm"_A12 | "G7"G12 | "G7"d12 |
+"C"d2 c4 e2 d4 | "Dm7"d2 c4 e2 d4 | "G7"d2 f4 e2 d4 | "Am"c12 |
+"F"A2 d4 A2 c4 | "C"e2 a4 e2 g4 | "D7"c2 e4 c2 e4 | "G7"d12 |
+"C"d2 c4 e2 d4 | "Dm7"d2 c4 e2 d4 | "G7"d2 f4 e2 d4 | "Am"c12 |
+"F"A2 d4 A2 c4 | "C"e2 a4 e2 g2G2 | "D7"^f2 "G7"e4 =f2 d4 | "C"c8 e4 |
+"Eb"G2 c4 _B2 c2d2 | "Eb"_e12 | "Bb7"g2 f4 _b2 a2_a2 | "Eb"g12 |
+"Ab"_e2 c4 e2 c4 | "Eb"c2 _B4 c2 G4 | "F7"g2 _e4 g2 f4 | "Bb"f12 |
+"Eb"G2 c4 _B2 c2d2 | "Eb"_e12 | "Bb7"g2 f4 _b2 a2_a2 | "Eb"g12 |
+"Ab"_e2 c4 e2 c4 | "Eb"c2 _B4 c2 G4 | "F7"g2 _e4 "Bb"g2 f4 | "Eb"_e4 _B2e2 f2^f2 |
+"Eb"_e4 d2_d2 "G7"c4 | "C"d2 c4 e2 d4 | "Dm7"d2 c4 e2 d4 | "G7"d2 f4 e2 d4 |
+"Am"c12 | "F"A2 d4 A2 c4 | "C"e2 a4 e2 g4 | "D7"c2 e4 c2 e4 |
+"G7"d12 | "C"d2 c4 e2 d4 | "Dm7"d2 c4 e2 d4 | "G7"d2 f4 e2 d4 |
+"Am"c12 | "F"A2 d4 A2 c4 | "C"e2 a4 e2 g2G2 | "D7"^f2 "G7"e4 =f2 d4 |
+"C"c12 | "Bb"d4 _e4 =e4 | "Bb"f2 _b4 f2 b4 | "F7"_e2 c'4 e2 c'4 |
+"Gm"_b8 d4 | "Bb7"d2 d4 _B2 B4 | "Dm"d2 d4 A2 A4 | "A7"A2 A4 A2 A4 |
+"Dm"d4 f4 "F"_e4 | "Bb"d4 _e4 =e4 | "Bb"f2 _b4 f2 b4 | "F7"_e2 c'4 e2 c'4 |
+"Gm"_b8 d2e2 | "Bb7"f2 d4 f2 d4 | "F"f2 c4 f2 c4 | "C7"c2 c4 c2 c4 |
+"F7"f2_e2 c2A2 f2e2 | "Gm"_b8 "C7"g2a2 | "Bb"_b2 g4 b2 g4 | "Gm"g2 f4 g2 d4 |
+"F7"d2 _B4 d2 c4 | "Bb"_B4 B2_b2 b4 | "Em"g2 e4 b2 g4 | "Em"e2b2 g2 e6 |
+"B7"^d2 b4 c'2 b4 | "Em"e2 b4 c'2 b4 | "Em"g2 e4 b2 g4 | "Em"e2b2 g2 e4 g2 |
+"C"g2 g4 g2 a2^a2 | "B7"b4 ^f4 B4 | "Em"g2 e4 b2 g4 | "Em"e2b2 g2 e6 |
+"B7"^d2 b4 c'2 b4 | "Em"e2 b4 c'2 b2e2 | "C"e2 c4 d2 c2B2 | "G"B2 G4 A2 G2^f2 |
+"B7"^f2 ^d4 c'2 b4 | "Em"e4 "G7"g4 f4 | "C"e2 g4 e2 g4 | "G/B"d6 d2 g2b2 |
+"D7"d2 c'4 c'2 b2a2 | "G"b2g2 d4 f4 | "C"e2 g4 e2 g4 | "G/B"d8 g4 |
+"B7"^f2^e2 f2e2 f2b2 | "Em"e4 g4 f4 | "C"e2 g4 e2 g4 | "G/B"d6 d2 g2b2 |
+"D7"d2 c'4 c'2 b2a2 | "C"b6 g2 b2d2 | "C"e2 g4 g2 a4 | "G"g2d2 B6 B2 |
+"G7"d2 c'4 a2 ^f4 | "C"d2 c4 e2 d4 | "Dm7"d2 c4 e2 d4 | "G7"d2 f4 e2 d4 |
+"Am"c12 | "F"A2 d4 A2 c4 | "C"e2 a4 e2 g4 | "D7"c2 e4 c2 e4 |
+"G7"d12 | "C"d2 c4 e2 d4 | "Dm7"d2 c4 e2 d4 | "G7"d2 f4 e2 d4 |
+"Am"c12 | "F"A2 d4 A2 c4 | "C"e2 a4 e2 g2G2 | "D7"^f2 "G7"e4 =f2 d4 |
+"C"d2 c4 e2 d4 | "C"c4 c'4 d4 | "C"d2 c4 e2 d4 | "C"c4 c'4 c'4 |
+"C"d2 c4 e2 d4 | "C"d2 c4 e2 d4 | "C"d2 c4 e2 d4 | "Ab"c4 c8 |
+"C"Hc12 |]
