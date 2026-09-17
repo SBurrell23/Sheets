@@ -25,8 +25,13 @@ v3/                     8 songs, 32-bar AABA, cadence rotates every 8 bars, doub
   version.json            {"bars": 32, "rotateLandings": true, ...}
   songs/*.json
 v4/                     8 songs, 32-bar AABA, running eighths between held landings
+  SPEC.md
+  version.json            {"bars": 32, "minEighths": 88, "minRunBars": 14, ...}
+  songs/*.json
 v5/                     8 songs, 32-bar AABA, shuffle feel, leaner eighth texture
-  SPEC.md / version.json / songs/*.json   (same shape as v1-v3)
+  SPEC.md
+  version.json            {"bars": 32, "swing": true, "minEighths": 60, "maxEighths": 86, ...}
+  songs/*.json
 songs/                  generated output
   v1/ ... v5/             *.abc | *.musicxml | *.pdf
 src/
@@ -76,6 +81,31 @@ Give each agent a unique slug and run them in parallel:
 
 `build.py` reports each set's landing figures — the rotation per song when rotation is on,
 otherwise the single figure — and warns when more than two songs share one.
+
+## Texture controls
+
+A `version.json` can set `minEighths` / `maxEighths` / `minHalves` / `minRunBars`, and the
+validator reports the song's actual counts against them. The ceiling exists because v4's agents
+cleared a floor of 88 eighths by writing 149 — a floor alone does not shape a texture.
+
+## Swing sets
+
+A version can set `"swing": true`. Songs are then authored with **straight** eighths, and the
+build rewrites every eighth pair that *begins on a beat* into a dotted-eighth plus a sixteenth —
+in the ABC and the MusicXML alike, so the printed score, the on-screen score and the audio all
+agree. The score also carries the words *Shuffle — swing the eighths*.
+
+This is done literally rather than as a marking because abcjs has no swing playback option: a
+"swing the eighths" instruction over straight notation would look right and play straight.
+
+Two consequences, both enforced by the validator:
+
+- A lone **off-beat** eighth is left alone, so it will not swing. The validator warns when fewer
+  than 70% of a song's eighths sit in on-beat pairs.
+- A swing set is **not** required to contain author-written sixteenths — the rewrite supplies
+  them. Do not set `minRunBars` on a swing set either: runs of 4+ consecutive short notes are
+  the wrong metric for a texture built from pairs, and several of v5's head figures cannot
+  produce one at all.
 
 ## Deployment
 
