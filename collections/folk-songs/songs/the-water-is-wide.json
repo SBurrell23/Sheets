@@ -1,26 +1,74 @@
 {
   "title": "The Water Is Wide",
-  "source": "Traditional (Scottish/English) — public domain",
+  "source": "Traditional (Scottish/English)",
   "key": "C",
   "meter": "4/4",
   "pickup": 8,
   "tempo": 76,
   "bars": [
-    { "chord": "C",  "notes": "G4:2 C5:2 C5:2 D5:2" },
-    { "chord": "C",  "notes": "E5:16~" },
-    { "chord": "Am", "notes": "E5:6 D5:2 D5:2 C5:4 A4:2" },
-    { "chord": "C",  "notes": "G4:16~" },
-    { "chord": "Em", "notes": "G4:4 G4:4 C5:4 B4:4" },
-    { "chord": "Am", "notes": "C5:16~" },
-    { "chord": "F",  "notes": "C5:4 D5:2 E5:2 F5:4 E5:4" },
-    { "chord": "G7", "notes": "D5:16~" },
-    { "chord": "G7", "notes": "D5:6 D5:2 E5:4 F5:4" },
-    { "chord": "C",  "notes": "G5:16~" },
-    { "chord": "F",  "notes": "G5:4 F5:2 E5:2 D5:4 C5:4" },
-    { "chord": "C",  "notes": "E5:16~" },
-    { "chord": "Am", "notes": "E5:4 D5:4 C5:4 A4:4" },
-    { "chord": "C",  "notes": "G4:16~" },
-    { "chord": "G7", "notes": "G4:4 G4:4 A4:2 C5:4 B4:2" },
-    { "chord": "C",  "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "G4:2 C5:2 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:16~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 D5:2 D5:2 C5:4 A4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:16~"
+    },
+    {
+      "chord": "Em",
+      "notes": "G4:4 G4:4 C5:4 B4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:16~"
+    },
+    {
+      "chord": "F",
+      "notes": "C5:4 D5:2 E5:2 F5:4 E5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:16~"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 D5:2 E5:4 F5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:16~"
+    },
+    {
+      "chord": "F",
+      "notes": "G5:4 F5:2 E5:2 D5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:16~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 D5:4 C5:4 A4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:16~"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:4 G4:4 A4:2 C5:4 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

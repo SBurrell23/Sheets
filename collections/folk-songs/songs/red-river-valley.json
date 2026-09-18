@@ -1,30 +1,74 @@
 {
   "title": "Red River Valley",
-  "source": "Traditional (American), 1890s — public domain",
+  "source": "Traditional (American), 1890s",
   "key": "C",
   "meter": "4/4",
   "pickup": 8,
   "tempo": 104,
   "bars": [
-    { "chord": "C",  "notes": "G4:4 C5:4" },
-
-    { "chord": "C",  "notes": "E5:8 E5:4 E5:4" },
-    { "chord": "G7", "notes": "E5:8 D5:4 E5:4" },
-    { "chord": "C",  "notes": "D5:4 C5:12~" },
-    { "chord": "C",  "notes": "C5:8 G4:4 C5:4" },
-
-    { "chord": "C",  "notes": "E5:8 C5:4 E5:4" },
-    { "chord": "C",  "notes": "G5:8 F5:4 E5:4" },
-    { "chord": "G7", "notes": "D5:16~" },
-    { "chord": "G7", "notes": "D5:8 G5:4 F5:4" },
-
-    { "chord": "C",  "notes": "E5:8 E5:4 D5:4" },
-    { "chord": "C7", "notes": "C5:8 D5:4 E5:4" },
-    { "chord": "F",  "notes": "G5:4 F5:12~" },
-    { "chord": "F",  "notes": "F5:8 A4:4 A4:4" },
-
-    { "chord": "G7", "notes": "G4:8 B4:4 C5:4" },
-    { "chord": "G7", "notes": "D5:8 E5:4 D5:4" },
-    { "chord": "C",  "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "G4:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:4 E5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:8 D5:4 E5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "D5:4 C5:12~"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 G4:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 C5:4 E5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 F5:4 E5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:16~"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 G5:4 F5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:4 D5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:8 D5:4 E5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "G5:4 F5:12~"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:8 A4:4 A4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:8 B4:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 E5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

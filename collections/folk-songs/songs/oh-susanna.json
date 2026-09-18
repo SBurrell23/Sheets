@@ -1,31 +1,78 @@
 {
   "title": "Oh! Susanna",
-  "source": "Stephen Foster, 1848 — public domain",
+  "source": "Stephen Foster, 1848",
   "key": "C",
   "meter": "4/4",
   "pickup": 4,
   "tempo": 116,
   "bars": [
-    { "chord": "C",  "notes": "C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:6 A5:2" },
-    { "chord": "C",  "notes": "G5:4 E5:4 C5:6 D5:2" },
-    { "chord": "C",  "notes": "E5:4 E5:4 D5:4 C5:4" },
-    { "chord": "G7", "notes": "D5:12 C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:6 A5:2" },
-    { "chord": "C",  "notes": "G5:4 E5:4 C5:6 D5:2" },
-    { "chord": "C",  "notes": "E5:4 E5:4 [G7]D5:4 D5:4" },
-    { "chord": "C",  "notes": "C5:16" },
-
-    { "chord": "F",  "notes": "F5:8 F5:8" },
-    { "chord": "F",  "notes": "A5:4 A5:8 A5:4" },
-    { "chord": "C",  "notes": "G5:4 G5:4 E5:4 C5:4" },
-    { "chord": "G7", "notes": "D5:12 C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:6 A5:2" },
-    { "chord": "C",  "notes": "G5:4 E5:4 C5:6 D5:2" },
-    { "chord": "C",  "notes": "E5:4 E5:4 [G7]D5:4 D5:4" },
-    { "chord": "C",  "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:6 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 C5:6 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 D5:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:12 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:6 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 C5:6 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 [G7]D5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 A5:8 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 G5:4 E5:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:12 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:6 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 C5:6 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 [G7]D5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

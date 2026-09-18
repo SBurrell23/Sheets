@@ -1,30 +1,82 @@
 {
   "title": "Moonlight Sonata",
-  "source": "Ludwig van Beethoven, Piano Sonata No. 14 Op. 27 No. 2, 1801 - public domain",
+  "source": "Ludwig van Beethoven, Piano Sonata No. 14 Op. 27 No. 2, 1801",
   "key": "Am",
   "meter": "4/4",
   "pickup": 4,
   "tempo": 56,
   "bars": [
-    { "chord": "Am",     "notes": "E5:3 E5:1" },
-    { "chord": "E7",     "notes": "E5:12 E5:3 E5:1" },
-    { "chord": "Am",     "notes": "E5:8 [Dm]F5:8" },
-    { "chord": "G",      "notes": "E5:8 D5:4 G5:4" },
-    { "chord": "C",      "notes": "C5:4 R:12" },
-
-    { "chord": "Cm",     "notes": "R:12 Eb5:3 Eb5:1" },
-    { "chord": "Eb7",    "notes": "Eb5:12 Eb5:3 Eb5:1" },
-    { "chord": "Ab",     "notes": "Eb5:12 [D7]D5:4" },
-    { "chord": "G",      "notes": "D5:8 [Cm]Eb5:4 C5:4" },
-    { "chord": "D7",     "notes": "D5:8 D5:8" },
-
-    { "chord": "G",      "notes": "G4:4 R:4 R:4 G5:4" },
-    { "chord": "Abmaj7", "notes": "Ab5:12 F#5:4" },
-    { "chord": "G",      "notes": "G5:12 G5:4" },
-    { "chord": "Abmaj7", "notes": "Ab5:12 F#5:4" },
-    { "chord": "G",      "notes": "G5:8 [Em]G5:8" },
-    { "chord": "A7",     "notes": "G5:8 [Dm]F5:8" },
-    { "chord": "Cm",     "notes": "Eb5:8 [E7]D5:8" },
-    { "chord": "Am",     "notes": "A4:8 A4:4 A4:4" }
+    {
+      "chord": "Am",
+      "notes": "E5:3 E5:1"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:12 E5:3 E5:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8 [Dm]F5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "E5:8 D5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 R:12"
+    },
+    {
+      "chord": "Cm",
+      "notes": "R:12 Eb5:3 Eb5:1"
+    },
+    {
+      "chord": "Eb7",
+      "notes": "Eb5:12 Eb5:3 Eb5:1"
+    },
+    {
+      "chord": "Ab",
+      "notes": "Eb5:12 [D7]D5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:8 [Cm]Eb5:4 C5:4"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:8 D5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "G4:4 R:4 R:4 G5:4"
+    },
+    {
+      "chord": "Abmaj7",
+      "notes": "Ab5:12 F#5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:12 G5:4"
+    },
+    {
+      "chord": "Abmaj7",
+      "notes": "Ab5:12 F#5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 [Em]G5:8"
+    },
+    {
+      "chord": "A7",
+      "notes": "G5:8 [Dm]F5:8"
+    },
+    {
+      "chord": "Cm",
+      "notes": "Eb5:8 [E7]D5:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:8 A4:4 A4:4"
+    }
   ]
 }

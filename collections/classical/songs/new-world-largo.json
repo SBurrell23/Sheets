@@ -1,23 +1,57 @@
 {
   "title": "Largo from the New World Symphony",
-  "source": "Antonin Dvorak, Symphony No. 9 \"From the New World\", Op. 95, 1893 - public domain",
+  "source": "Antonin Dvorak, Symphony No. 9 \"From the New World\", Op. 95, 1893",
   "key": "C",
   "meter": "4/4",
   "tempo": 60,
   "bars": [
-    { "chord": "C",  "notes": "E5:3 G5:1 G5:4 E5:3 D5:1 C5:4" },
-    { "chord": "C",  "notes": "D5:3 E5:1 G5:3 E5:1 [G7]D5:8" },
-    { "chord": "C",  "notes": "E5:3 G5:1 G5:4 E5:2 D5:2 C5:4" },
-    { "chord": "G7", "notes": "D5:2 E5:2 D5:3 C5:1 [C]C5:8" },
-
-    { "chord": "Am", "notes": "A5:3 C6:1 C6:4 B5:2 G5:2 A5:4" },
-    { "chord": "Am", "notes": "A5:2 C6:2 B5:2 G5:2 A5:8" },
-    { "chord": "Am", "notes": "A5:3 C6:1 C6:4 B5:2 G5:2 A5:4" },
-    { "chord": "Am", "notes": "A5:2 C6:2 B5:2 G5:2 [G7]A5:8" },
-
-    { "chord": "C",  "notes": "E5:3 G5:1 G5:4 E5:2 D5:2 C5:4" },
-    { "chord": "C",  "notes": "D5:3 E5:1 G5:3 E5:1 [G7]D5:8" },
-    { "chord": "C",  "notes": "E5:3 G5:1 G5:4 C6:3 D6:1 E6:4" },
-    { "chord": "G7", "notes": "D6:3 C6:1 D6:2 A5:2 [C]C6:8" }
+    {
+      "chord": "C",
+      "notes": "E5:3 G5:1 G5:4 E5:3 D5:1 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "D5:3 E5:1 G5:3 E5:1 [G7]D5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:3 G5:1 G5:4 E5:2 D5:2 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 E5:2 D5:3 C5:1 [C]C5:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:3 C6:1 C6:4 B5:2 G5:2 A5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:2 C6:2 B5:2 G5:2 A5:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:3 C6:1 C6:4 B5:2 G5:2 A5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:2 C6:2 B5:2 G5:2 [G7]A5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:3 G5:1 G5:4 E5:2 D5:2 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "D5:3 E5:1 G5:3 E5:1 [G7]D5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:3 G5:1 G5:4 C6:3 D6:1 E6:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D6:3 C6:1 D6:2 A5:2 [C]C6:8"
+    }
   ]
 }

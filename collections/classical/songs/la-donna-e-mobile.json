@@ -1,29 +1,89 @@
 {
   "title": "La donna e mobile",
-  "source": "Giuseppe Verdi, canzone from Rigoletto, 1851 - public domain",
+  "source": "Giuseppe Verdi, canzone from Rigoletto, 1851",
   "key": "C",
   "meter": "3/4",
   "tempo": 152,
   "bars": [
-    { "chord": "C",  "notes": "E5:4 E5:4 E5:4" },
-    { "chord": "G7", "notes": "G5:2 F5:2 D5:8" },
-    { "chord": "G7", "notes": "D5:4 D5:4 D5:4" },
-    { "chord": "C",  "notes": "F5:2 E5:2 C5:8" },
-    { "chord": "C",  "notes": "E5:4 D5:4 C5:4" },
-    { "chord": "G7", "notes": "C5:2 B4:2 B4:8" },
-    { "chord": "G7", "notes": "D5:4 C5:4 A4:4" },
-    { "chord": "C",  "notes": "A4:2 G4:2 G4:8" },
-    { "chord": "D7", "notes": "D5:2 E5:2 D5:4 D5:4" },
-    { "chord": "G",  "notes": "G5:4 D5:8" },
-    { "chord": "E7", "notes": "E5:2 F5:2 E5:4 E5:4" },
-    { "chord": "Am", "notes": "A5:4 E5:8" },
-    { "chord": "G7", "notes": "G5:2 A5:2 G5:4 G5:4" },
-    { "chord": "C",  "notes": "A5:8 G5:4" },
-    { "chord": "G7", "notes": "(3 F5:2 G5:2 F5:2) E5:4 D5:4" },
-    { "chord": "C",  "notes": "C5:8 E5:2 G5:2" },
-    { "chord": "G7", "notes": "G5:12" },
-    { "chord": "C",  "notes": "G5:8 A5:4" },
-    { "chord": "G7", "notes": "B5:2 A5:2 G5:2 F5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 E5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 F5:2 D5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:4 D5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "F5:2 E5:2 C5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 D5:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "C5:2 B4:2 B4:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:4 C5:4 A4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A4:2 G4:2 G4:8"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:2 E5:2 D5:4 D5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:4 D5:8"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:2 F5:2 E5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:4 E5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 A5:2 G5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:8 G5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "(3 F5:2 G5:2 F5:2) E5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 E5:2 G5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:12"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:2 A5:2 G5:2 F5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

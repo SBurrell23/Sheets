@@ -1,28 +1,82 @@
 {
   "title": "Tchaikovsky Piano Concerto No. 1",
-  "source": "Pyotr Ilyich Tchaikovsky, Piano Concerto No. 1 in B-flat minor, Op. 23, 1875 - opening theme - public domain",
+  "source": "Pyotr Ilyich Tchaikovsky, Piano Concerto No. 1 in B-flat minor, Op. 23, 1875 - opening theme",
   "key": "C",
   "meter": "3/4",
   "tempo": 80,
   "pickup": 6,
   "bars": [
-    { "chord": "G7", "notes": "G5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:4 E5:6 D5:2" },
-    { "chord": "F",  "notes": "F5:6 E5:2 [G7]B4:2 C5:2" },
-    { "chord": "Dm", "notes": "A4:4 D5:6 E5:2" },
-    { "chord": "Am", "notes": "A4:6 D5:2 B4:2 A4:2" },
-    { "chord": "G",  "notes": "G4:4 D5:6 E5:2" },
-    { "chord": "G",  "notes": "G5:6 D5:2 D5:2 E5:2" },
-    { "chord": "C",  "notes": "G5:6 E5:2 A5:2 G5:2" },
-    { "chord": "G7", "notes": "D6:4~ (3 D6:2 B5:2 A5:2) (3 G5:2 F5:2 D5:2)" },
-    { "chord": "C",  "notes": "C5:4 E5:6 D5:2" },
-    { "chord": "F",  "notes": "F5:6 E5:2 [G7]B4:2 C5:2" },
-    { "chord": "Dm", "notes": "A4:4 D5:6 E5:2" },
-    { "chord": "D7", "notes": "G5:6 F#5:2 E5:2 F#5:2" },
-    { "chord": "A7", "notes": "E5:2 B4:2 E5:2 C#5:2 D5:2 A4:2" },
-    { "chord": "Dm", "notes": "D5:2 B4:2 C5:2 E4:2 A4:2 B4:2" },
-    { "chord": "G7", "notes": "G4:2 A4:2 B4:2 C5:2 D5:2 E5:2" },
-    { "chord": "G7", "notes": "D5:2 E5:2 A4:6 B4:2" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "G7",
+      "notes": "G5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:6 D5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:6 E5:2 [G7]B4:2 C5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "A4:4 D5:6 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:6 D5:2 B4:2 A4:2"
+    },
+    {
+      "chord": "G",
+      "notes": "G4:4 D5:6 E5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:6 D5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:6 E5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D6:4~ (3 D6:2 B5:2 A5:2) (3 G5:2 F5:2 D5:2)"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:6 D5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:6 E5:2 [G7]B4:2 C5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "A4:4 D5:6 E5:2"
+    },
+    {
+      "chord": "D7",
+      "notes": "G5:6 F#5:2 E5:2 F#5:2"
+    },
+    {
+      "chord": "A7",
+      "notes": "E5:2 B4:2 E5:2 C#5:2 D5:2 A4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:2 B4:2 C5:2 E4:2 A4:2 B4:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:2 A4:2 B4:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 E5:2 A4:6 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

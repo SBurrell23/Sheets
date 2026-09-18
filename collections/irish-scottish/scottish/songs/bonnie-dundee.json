@@ -1,31 +1,78 @@
 {
   "title": "Bonnie Dundee",
-  "source": "Traditional Scottish, \"The Bonnets o' Bonnie Dundee\", words by Walter Scott 1825 - public domain",
+  "source": "Traditional Scottish, \"The Bonnets o' Bonnie Dundee\", words by Walter Scott 1825",
   "key": "C",
   "meter": "6/8",
   "tempo": 116,
   "pickup": 2,
   "bars": [
-    { "chord": "C",  "notes": "E5:1 F5:1" },
-
-    { "chord": "C",  "notes": "G5:2 A5:2 G5:2 G5:2 E5:2 G5:2" },
-    { "chord": "F",  "notes": "C6:2 B5:2 A5:2 [C]G5:4 F5:2" },
-    { "chord": "C",  "notes": "E5:2 G5:2 G4:2 E5:2 G5:2 E5:2" },
-    { "chord": "G",  "notes": "D5:2 E5:2 D5:2 D5:2 E5:2 F5:2" },
-
-    { "chord": "C",  "notes": "G5:2 A5:2 G5:2 G5:2 E5:2 G5:2" },
-    { "chord": "F",  "notes": "C6:2 B5:2 A5:2 [C]G5:4 F5:2" },
-    { "chord": "C",  "notes": "E5:2 G5:2 C5:2 [G]D5:2 G5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 D5:2 C5:2 C5:6" },
-
-    { "chord": "C",  "notes": "C5:2 C5:2 C5:2 C5:2 F5:2 E5:2" },
-    { "chord": "G",  "notes": "D5:2 G4:2 G4:2 G4:6" },
-    { "chord": "G7", "notes": "D5:2 D5:2 D5:2 D5:2 E5:2 F5:2" },
-    { "chord": "F",  "notes": "F5:2 E5:2 D5:2 [C]E5:4 C5:2" },
-
-    { "chord": "C",  "notes": "E5:2 D5:2 E5:2 [F]F5:2 E5:2 F5:2" },
-    { "chord": "C",  "notes": "G5:2 F5:2 G5:2 [F]A5:2 G5:2 F5:2" },
-    { "chord": "C",  "notes": "E5:2 G5:2 C5:2 [G]D5:2 G5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 D5:2 C5:2 C5:6" }
+    {
+      "chord": "C",
+      "notes": "E5:1 F5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:2 G5:2 G5:2 E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:2 B5:2 A5:2 [C]G5:4 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 G5:2 G4:2 E5:2 G5:2 E5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:2 E5:2 D5:2 D5:2 E5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:2 G5:2 G5:2 E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:2 B5:2 A5:2 [C]G5:4 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 G5:2 C5:2 [G]D5:2 G5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 D5:2 C5:2 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 C5:2 C5:2 F5:2 E5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:2 G4:2 G4:2 G4:6"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 D5:2 D5:2 D5:2 E5:2 F5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 E5:2 D5:2 [C]E5:4 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2 E5:2 [F]F5:2 E5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 F5:2 G5:2 [F]A5:2 G5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 G5:2 C5:2 [G]D5:2 G5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 D5:2 C5:2 C5:6"
+    }
   ]
 }

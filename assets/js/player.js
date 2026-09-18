@@ -21,7 +21,10 @@
   // Shuffle: when on, the next button draws from a shuffled bag rather than
   // stepping. A bag rather than repeated Math.random() so every song comes up
   // once before any repeats -- that is what makes it feel shuffled.
-  var shuffleOn = false, bag = [];
+  // `trail` is where you have BEEN, which is not the inverse of where the bag
+  // will send you next. Under shuffle, back has to retrace the actual path or it
+  // is just another random jump -- there is no 'previous' to compute otherwise.
+  var shuffleOn = false, bag = [], trail = [];
   try { shuffleOn = localStorage.getItem("shuffle") === "1"; } catch (e) {}
   var loadToken = 0, idc = 0, lastTop = null, playhead = null, barPos = [];
   var reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -99,7 +102,7 @@
       cards[i].setAttribute("aria-current", String(cards[i].dataset.cid === coll.id));
     }
     buildSongList();
-    bag = [];
+    bag = []; trail = [];
     try { localStorage.setItem("lastCollection", coll.id); } catch (e) {}
     if (!flat.length) { showEmpty(); return; }
     // Keep the song you were looking at if it is still in the list -- starring
@@ -183,7 +186,10 @@
         parent.appendChild(o);
       });
     });
-    sel.addEventListener("change", function () { select(+this.value); });
+    sel.addEventListener("change", function () {
+      remember();                      // picking by hand is a step you can go back from
+      select(+this.value);
+    });
   }
 
   /* ================= song ================= */
@@ -199,7 +205,7 @@
     $("where").textContent = (idx + 1) + " / " + flat.length +
       (coll.sets.length > 1 ? "  ·  " + (set.title || set.id) : "");
     paintCount();
-    $("prev").disabled = idx === 0;
+    $("prev").disabled = shuffleOn ? !trail.length : idx === 0;
     $("next").disabled = idx === flat.length - 1;
     paintShuffle();
     $("barsof").textContent = totalBars;
@@ -607,18 +613,34 @@
     }
   }
 
+  var TRAIL_MAX = 200;
+
+  function remember() {
+    if (idx < 0) return;
+    trail.push(idx);
+    if (trail.length > TRAIL_MAX) trail.shift();
+  }
+
   function goNext() {
     if (!shuffleOn) { select(idx + 1); return; }
     if (!bag.length) refillBag();
     var n = bag.pop();
     if (n === undefined || n === idx) return;
+    remember();
     select(n);
+  }
+
+  function goPrev() {
+    if (shuffleOn && trail.length) { select(trail.pop()); return; }
+    if (idx > 0) { remember(); select(idx - 1); }
   }
 
   function paintShuffle() {
     $("shuffle").setAttribute("aria-pressed", String(shuffleOn));
-    // With shuffle on there is always somewhere else to go, even from the end.
+    // With shuffle on there is always somewhere else to go, even from the end --
+    // and back is offered only once there is a path to retrace.
     $("next").disabled = shuffleOn ? flat.length < 2 : idx === flat.length - 1;
+    $("prev").disabled = shuffleOn ? !trail.length : idx <= 0;
   }
 
   $("shuffle").addEventListener("click", function () {
@@ -628,7 +650,7 @@
     paintShuffle();
   });
 
-  $("prev").addEventListener("click", function () { select(idx - 1); });
+  $("prev").addEventListener("click", goPrev);
   $("next").addEventListener("click", goNext);
   $("play").addEventListener("click", function () {
     if (!ready) return;
@@ -666,13 +688,6 @@
     star.title = on ? "Remove from favorites" : "Add to favorites";
     star.setAttribute("aria-label", star.title);
     star.hidden = !song;
-    paintFavCount();
-  }
-
-  function paintFavCount() {
-    var n = PS.favCount();
-    $("favn").textContent = n ? String(n) : "";
-    $("favbtn").classList.toggle("has", n > 0);
   }
 
   $("favstar").addEventListener("click", function () {
@@ -686,9 +701,6 @@
     if (wasViewingFavs) applyCollection(coll, song);
   });
 
-  $("favbtn").addEventListener("click", function () {
-    selectCollection(PS.FAV_ID);
-  });
 
   /* ================= modals ================= */
   function openDir() { $("dirmodal").hidden = false; $("dirclose").focus(); }
@@ -706,8 +718,8 @@
     var tag = e.target.tagName;
     if (/^(INPUT|TEXTAREA|BUTTON|A|SELECT)$/.test(tag)) return;
     if (e.code === "Space") { e.preventDefault(); $("play").click(); }
-    else if (e.key === "ArrowRight") { e.preventDefault(); select(idx + 1); }
-    else if (e.key === "ArrowLeft") { e.preventDefault(); select(idx - 1); }
+    else if (e.key === "ArrowRight") { e.preventDefault(); goNext(); }
+    else if (e.key === "ArrowLeft") { e.preventDefault(); goPrev(); }
   });
 
   /* ================= theme ================= */
@@ -736,7 +748,6 @@
   applyTheme(startTheme);
 
   /* ================= boot ================= */
-  paintFavCount();
   var startC = COLLECTIONS.length ? COLLECTIONS[0].id : null;
   try {
     var lc = localStorage.getItem("lastCollection");

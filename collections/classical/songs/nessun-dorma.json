@@ -1,37 +1,121 @@
 {
   "title": "Nessun dorma",
-  "source": "Giacomo Puccini, Turandot, Act III, 1926 - vocal line - public domain",
+  "source": "Giacomo Puccini, Turandot, Act III, 1926 - vocal line",
   "key": "C",
   "meter": "4/4",
   "tempo": 56,
   "bars": [
-    { "chord": "C",   "notes": "R:8 R:4 G5:3 G5:1" },
-    { "chord": "C",   "notes": "G5:4 G5:4 R:4 G4:3 G4:1" },
-    { "chord": "C",   "notes": "G4:4 G4:4 R:8" },
-    { "chord": "C",   "notes": "R:4 R:2 G5:2 G5:2 G5:1 G5:1 G5:3 F5:1" },
-    { "chord": "C",   "notes": "E5:4 E5:4 (3 E5:2 E5:2 E5:2) [E]Eb5:3 B4:1" },
-    { "chord": "C",   "notes": "C5:4 C5:4 B5:4 B5:3 A5:1" },
-    { "chord": "C",   "notes": "G5:4 G5:2 G5:2 G5:2 G5:2 G5:3 F5:1" },
-    { "chord": "C",   "notes": "E5:4 E5:6 E5:2 [E]Eb5:3 B4:1" },
-    { "chord": "C",   "notes": "C5:4 C5:4~ C5:2 R:2 R:4" },
-    { "chord": "G",   "notes": "R:2 G5:2 A5:2 B5:2 A5:2 G5:2 A5:3 F#5:1" },
-    { "chord": "C",   "notes": "E5:16" },
-    { "chord": "Am7", "notes": "R:2 A5:2 B5:2 C6:2 B5:2 A5:2 B5:3 G5:1" },
-    { "chord": "D7",  "notes": "F#5:4 G5:4 A5:2 A5:2 B5:2 C6:2" },
-    { "chord": "G/B", "notes": "D6:8 D6:4 D6:3 B5:1" },
-    { "chord": "Am7", "notes": "B5:8 B5:2 B5:2 B5:3 G5:1" },
-    { "chord": "D7",  "notes": "D5:8 D5:4 A5:3 F#5:1" },
-    { "chord": "G",   "notes": "G5:4~ G5:2 R:2 R:8" },
-    { "chord": "C/G", "notes": "R:8 R:2 G5:2 G5:3 F5:1" },
-    { "chord": "C",   "notes": "E5:2 E5:2 E5:2 G5:2 B5:6 A5:2" },
-    { "chord": "C",   "notes": "G5:4 G5:4 G5:2 E5:2 [E]Eb5:3 B4:1" },
-    { "chord": "C",   "notes": "C5:4 C5:4 R:8" },
-    { "chord": "D7",  "notes": "R:8 R:2 A5:2 B5:2 C6:2" },
-    { "chord": "G/B", "notes": "D6:4 D6:4 D6:2 D6:2 D6:3 B5:1" },
-    { "chord": "Am7", "notes": "B5:4 B5:4 B5:2 B5:2 B5:3 G5:1" },
-    { "chord": "D7",  "notes": "D5:4 D5:2 D5:2 D5:2 D5:2 A5:3 F#5:1" },
-    { "chord": "C",   "notes": "G5:12 E5:3 G5:1" },
-    { "chord": "C",   "notes": "C6:12 G5:3 E6:1" },
-    { "chord": "G",   "notes": "D6:16" }
+    {
+      "chord": "C",
+      "notes": "R:8 R:4 G5:3 G5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 G5:4 R:4 G4:3 G4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:4 G4:4 R:8"
+    },
+    {
+      "chord": "C",
+      "notes": "R:4 R:2 G5:2 G5:2 G5:1 G5:1 G5:3 F5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 (3 E5:2 E5:2 E5:2) [E]Eb5:3 B4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 B5:4 B5:3 A5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 G5:2 G5:2 G5:2 G5:2 G5:3 F5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:6 E5:2 [E]Eb5:3 B4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4~ C5:2 R:2 R:4"
+    },
+    {
+      "chord": "G",
+      "notes": "R:2 G5:2 A5:2 B5:2 A5:2 G5:2 A5:3 F#5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:16"
+    },
+    {
+      "chord": "Am7",
+      "notes": "R:2 A5:2 B5:2 C6:2 B5:2 A5:2 B5:3 G5:1"
+    },
+    {
+      "chord": "D7",
+      "notes": "F#5:4 G5:4 A5:2 A5:2 B5:2 C6:2"
+    },
+    {
+      "chord": "G/B",
+      "notes": "D6:8 D6:4 D6:3 B5:1"
+    },
+    {
+      "chord": "Am7",
+      "notes": "B5:8 B5:2 B5:2 B5:3 G5:1"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:8 D5:4 A5:3 F#5:1"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:4~ G5:2 R:2 R:8"
+    },
+    {
+      "chord": "C/G",
+      "notes": "R:8 R:2 G5:2 G5:3 F5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 E5:2 E5:2 G5:2 B5:6 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 G5:4 G5:2 E5:2 [E]Eb5:3 B4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 R:8"
+    },
+    {
+      "chord": "D7",
+      "notes": "R:8 R:2 A5:2 B5:2 C6:2"
+    },
+    {
+      "chord": "G/B",
+      "notes": "D6:4 D6:4 D6:2 D6:2 D6:3 B5:1"
+    },
+    {
+      "chord": "Am7",
+      "notes": "B5:4 B5:4 B5:2 B5:2 B5:3 G5:1"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:4 D5:2 D5:2 D5:2 D5:2 A5:3 F#5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:12 E5:3 G5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:12 G5:3 E6:1"
+    },
+    {
+      "chord": "G",
+      "notes": "D6:16"
+    }
   ]
 }

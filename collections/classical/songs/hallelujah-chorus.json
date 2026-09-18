@@ -1,37 +1,105 @@
 {
   "title": "Hallelujah Chorus",
-  "source": "George Frideric Handel, Hallelujah from Messiah, HWV 56, 1741 - public domain",
+  "source": "George Frideric Handel, Hallelujah from Messiah, HWV 56, 1741",
   "key": "C",
   "meter": "4/4",
   "tempo": 100,
   "bars": [
-    { "chord": "C",  "notes": "C5:6 G4:2 A4:2 G4:2 R:4" },
-    { "chord": "C",  "notes": "C5:6 G4:2 A4:2 G4:2 R:2 C5:1 C5:1" },
-    { "chord": "C",  "notes": "C5:2 C5:2 R:2 C5:1 C5:1 C5:2 C5:2 R:2 C5:2" },
-    { "chord": "G7", "notes": "B4:2 C5:4 B4:2 [C]C5:4 R:4" },
-
-    { "chord": "G",  "notes": "D5:6 G4:2 E5:2 D5:2 R:4" },
-    { "chord": "G",  "notes": "D5:6 G4:2 E5:2 D5:2 R:2 D5:1 D5:1" },
-    { "chord": "C",  "notes": "E5:2 D5:2 R:2 D5:1 D5:1 E5:2 D5:2 R:2 D5:2" },
-    { "chord": "C",  "notes": "E5:2 D5:2 [Am]C5:4 [G]B4:4 R:4" },
-
-    { "chord": "G",  "notes": "G4:8 A4:4 B4:4" },
-    { "chord": "C",  "notes": "C5:2 C5:2 C5:6 C5:2 [G]B4:4" },
-    { "chord": "Am", "notes": "A4:8 [G]G4:4 R:2 D5:1 D5:1" },
-    { "chord": "C",  "notes": "C5:2 B4:2 R:2 D5:1 D5:1 C5:2 B4:2 R:2 D5:1 D5:1" },
-    { "chord": "C",  "notes": "E5:2 D5:2 R:2 D5:1 D5:1 E5:2 D5:2 R:4" },
-
-    { "chord": "C",  "notes": "C5:8 D5:4 E5:4" },
-    { "chord": "F",  "notes": "F5:2 F4:2 F5:6 F5:2 [C]E5:4" },
-    { "chord": "G",  "notes": "D5:8 [C]C5:4 R:2 C5:1 C5:1" },
-
-    { "chord": "C",  "notes": "B4:2 G4:2 R:2 B4:1 B4:1 C5:2 C5:1 C5:1 D5:2 D5:2" },
-    { "chord": "G7", "notes": "G4:4 R:2 C5:1 B4:1 A4:2 A4:2 R:2 D5:2" },
-    { "chord": "C",  "notes": "C5:2 B4:2 C5:2 D5:1 C5:1 B4:2 B4:1 B4:1 D5:2 B4:2" },
-    { "chord": "C",  "notes": "R:2 G4:1 G4:1 C5:2 G4:2 R:2 B4:1 B4:1 D5:2 B4:2" },
-    { "chord": "C",  "notes": "R:2 G4:1 G4:1 E5:2 C5:2 R:2 B4:1 B4:1 C5:2 G4:2" },
-    { "chord": "G7", "notes": "R:2 A4:1 A4:1 D5:2 D5:2 R:2 B4:1 B4:1 C5:2 C5:2" },
-    { "chord": "C",  "notes": "C5:4 [G]B4:4 [C]C5:4 C5:4" },
-    { "chord": "C",  "notes": "C5:4 C5:4 C5:8" }
+    {
+      "chord": "C",
+      "notes": "C5:6 G4:2 A4:2 G4:2 R:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 G4:2 A4:2 G4:2 R:2 C5:1 C5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 R:2 C5:1 C5:1 C5:2 C5:2 R:2 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "B4:2 C5:4 B4:2 [C]C5:4 R:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:6 G4:2 E5:2 D5:2 R:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:6 G4:2 E5:2 D5:2 R:2 D5:1 D5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2 R:2 D5:1 D5:1 E5:2 D5:2 R:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2 [Am]C5:4 [G]B4:4 R:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G4:8 A4:4 B4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 C5:6 C5:2 [G]B4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:8 [G]G4:4 R:2 D5:1 D5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 B4:2 R:2 D5:1 D5:1 C5:2 B4:2 R:2 D5:1 D5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2 R:2 D5:1 D5:1 E5:2 D5:2 R:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 D5:4 E5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 F4:2 F5:6 F5:2 [C]E5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:8 [C]C5:4 R:2 C5:1 C5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "B4:2 G4:2 R:2 B4:1 B4:1 C5:2 C5:1 C5:1 D5:2 D5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:4 R:2 C5:1 B4:1 A4:2 A4:2 R:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 B4:2 C5:2 D5:1 C5:1 B4:2 B4:1 B4:1 D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "R:2 G4:1 G4:1 C5:2 G4:2 R:2 B4:1 B4:1 D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "R:2 G4:1 G4:1 E5:2 C5:2 R:2 B4:1 B4:1 C5:2 G4:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "R:2 A4:1 A4:1 D5:2 D5:2 R:2 B4:1 B4:1 C5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 [G]B4:4 [C]C5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 C5:8"
+    }
   ]
 }

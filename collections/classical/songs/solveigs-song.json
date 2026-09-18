@@ -1,30 +1,74 @@
 {
   "title": "Solveig's Song",
-  "source": "Edvard Grieg, Peer Gynt Op. 23 No. 19, 1875 - public domain",
+  "source": "Edvard Grieg, Peer Gynt Op. 23 No. 19, 1875",
   "key": "Am",
   "meter": "4/4",
   "pickup": 4,
   "tempo": 76,
   "bars": [
-    { "chord": "Am", "notes": "E4:4" },
-
-    { "chord": "Am", "notes": "A4:4 B4:2 C5:2 D5:4 E5:2 F5:2" },
-    { "chord": "Am", "notes": "F5:2 E5:2 E5:2 C5:2 A4:4 A4:2 C5:2" },
-    { "chord": "E7", "notes": "C5:2 B4:2 B4:2 G#4:2 [Am]E4:8~" },
-    { "chord": "Am", "notes": "E4:12 E4:4" },
-
-    { "chord": "Am", "notes": "A4:2 A4:2 B4:2 C5:2 [G7]D5:4 E5:2 F5:2" },
-    { "chord": "C",  "notes": "F5:2 E5:2 E5:2 C5:2 [Dm]A4:4 A4:2 C5:2" },
-    { "chord": "G7", "notes": "C5:2 B4:2 B4:2 G4:2 [C]E4:8~" },
-    { "chord": "C",  "notes": "E4:12 R:2 E4:2" },
-
-    { "chord": "E7", "notes": "E4:2 G#4:2 B4:2 C5:2 [Am]A4:4 E5:2 D#5:2" },
-    { "chord": "A7", "notes": "B4:4 D5:2 C#5:2 A4:6 A4:2" },
-    { "chord": "Dm", "notes": "C5:2 B4:2 B4:2 A4:2 [E7]E5:6 E4:2" },
-
-    { "chord": "E7", "notes": "E4:2 G#4:2 B4:2 C5:2 [Am]A4:2 E5:2 E5:2 D#5:2" },
-    { "chord": "A7", "notes": "B4:2 B4:2 D5:2 C#5:2 A4:6 A4:2" },
-    { "chord": "Dm", "notes": "C5:6 B4:2 [E7]B4:6 A4:2" },
-    { "chord": "Am", "notes": "A4:16" }
+    {
+      "chord": "Am",
+      "notes": "E4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:4 B4:2 C5:2 D5:4 E5:2 F5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "F5:2 E5:2 E5:2 C5:2 A4:4 A4:2 C5:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "C5:2 B4:2 B4:2 G#4:2 [Am]E4:8~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:12 E4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:2 A4:2 B4:2 C5:2 [G7]D5:4 E5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "F5:2 E5:2 E5:2 C5:2 [Dm]A4:4 A4:2 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "C5:2 B4:2 B4:2 G4:2 [C]E4:8~"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:12 R:2 E4:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E4:2 G#4:2 B4:2 C5:2 [Am]A4:4 E5:2 D#5:2"
+    },
+    {
+      "chord": "A7",
+      "notes": "B4:4 D5:2 C#5:2 A4:6 A4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "C5:2 B4:2 B4:2 A4:2 [E7]E5:6 E4:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E4:2 G#4:2 B4:2 C5:2 [Am]A4:2 E5:2 E5:2 D#5:2"
+    },
+    {
+      "chord": "A7",
+      "notes": "B4:2 B4:2 D5:2 C#5:2 A4:6 A4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "C5:6 B4:2 [E7]B4:6 A4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:16"
+    }
   ]
 }

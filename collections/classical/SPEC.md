@@ -52,7 +52,9 @@ Write exactly one file to the path you are given, `collections/classical/songs/<
 ```
 
 - `title` — the name people know it by ("Ode to Joy", not "Symphony No. 9, fourth movement").
-- `source` — composer, work and date, **plus the words "public domain"**. This string is printed
+- `source` — composer, work and date. This string is printed
+  **Do not write "public domain" into it** — everything on the site is, so saying it on
+  every score is noise. The rule about arranging nothing else is unchanged.
   as the credit line on the engraved score, so make it accurate and presentable.
 - `key` — `C` for major themes, `Am` for minor ones. Nothing else; the player transposes.
 - `meter` — `4/4`, `3/4`, `2/4`, `6/8`, `9/8` (slip jig) or `12/8` (compound four).

@@ -1,38 +1,110 @@
 {
   "title": "The Ash Grove",
-  "source": "Welsh traditional — \"Llwyn Onn\" — public domain",
+  "source": "Welsh traditional — \"Llwyn Onn\"",
   "key": "C",
   "meter": "3/4",
   "pickup": 4,
   "tempo": 100,
   "bars": [
-    { "chord": "C",  "notes": "G4:4" },
-
-    { "chord": "C",  "notes": "C5:4 E5:4 G5:2 F5:2" },
-    { "chord": "C",  "notes": "E5:4 C5:4 C5:4" },
-    { "chord": "Dm", "notes": "D5:4 F5:2 E5:2 D5:2 C5:2" },
-    { "chord": "G",  "notes": "B4:4 G4:4 G4:4" },
-    { "chord": "C",  "notes": "C5:4 E5:2 D5:2 C5:2 B4:2" },
-    { "chord": "F",  "notes": "A4:4 F4:4 A4:4" },
-    { "chord": "C",  "notes": "G4:4 C5:4 [G]B4:4" },
-    { "chord": "C",  "notes": "C5:8 E5:2 F5:2" },
-
-    { "chord": "C",  "notes": "G5:4 E5:2 F5:2 G5:2 A5:2" },
-    { "chord": "C",  "notes": "G5:4 F5:4 E5:4" },
-    { "chord": "Dm", "notes": "F5:4 D5:2 E5:2 F5:2 G5:2" },
-    { "chord": "Dm", "notes": "F5:4 E5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:4 C5:2 D5:2 E5:2 F5:2" },
-    { "chord": "Am", "notes": "E5:4 D5:4 C5:4" },
-    { "chord": "G",  "notes": "B4:4 G5:4 [D]F#5:4" },
-    { "chord": "G",  "notes": "G5:8 G4:4" },
-
-    { "chord": "C",  "notes": "C5:4 E5:4 G5:2 F5:2" },
-    { "chord": "C",  "notes": "E5:4 C5:4 C5:4" },
-    { "chord": "Dm", "notes": "D5:4 F5:2 E5:2 D5:2 C5:2" },
-    { "chord": "G",  "notes": "B4:4 G4:4 G4:4" },
-    { "chord": "C",  "notes": "C5:4 E5:2 D5:2 C5:2 B4:2" },
-    { "chord": "F",  "notes": "A4:4 F4:4 A4:4" },
-    { "chord": "C",  "notes": "G4:4 C5:4 [G7]B4:4" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:4 G5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 C5:4 C5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:4 F5:2 E5:2 D5:2 C5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:4 G4:4 G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:2 D5:2 C5:2 B4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:4 F4:4 A4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:4 C5:4 [G]B4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 E5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:2 F5:2 G5:2 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 F5:4 E5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:4 D5:2 E5:2 F5:2 G5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:4 E5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 C5:2 D5:2 E5:2 F5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 D5:4 C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:4 G5:4 [D]F#5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:4 G5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 C5:4 C5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:4 F5:2 E5:2 D5:2 C5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:4 G4:4 G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:2 D5:2 C5:2 B4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:4 F4:4 A4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:4 C5:4 [G7]B4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

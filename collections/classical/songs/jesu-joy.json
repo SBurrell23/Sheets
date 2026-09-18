@@ -1,18 +1,45 @@
 {
   "title": "Jesu, Joy of Man's Desiring",
-  "source": "J.S. Bach, chorale from Cantata BWV 147, 1723 - public domain",
+  "source": "J.S. Bach, chorale from Cantata BWV 147, 1723",
   "key": "C",
   "meter": "9/8",
   "tempo": 88,
   "bars": [
-    { "chord": "C",  "notes": "R:2 C5:2 D5:2 E5:2 G5:2 F5:2 [F]F5:2 A5:2 G5:2" },
-    { "chord": "C",  "notes": "G5:2 C6:2 B5:2 C6:2 G5:2 E5:2 C5:2 D5:2 E5:2" },
-    { "chord": "F",  "notes": "F5:2 G5:2 A5:2 [C]G5:2 F5:2 E5:2 [Am]D5:2 E5:2 C5:2" },
-    { "chord": "G",  "notes": "B4:2 C5:2 D5:2 G4:2 B4:2 D5:2 [G7]F5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "E5:2 C5:2 D5:2 E5:2 G5:2 F5:2 [F]F5:2 A5:2 G5:2" },
-    { "chord": "C",  "notes": "G5:2 C6:2 A5:2 C6:2 G5:2 E5:2 C5:2 D5:2 E5:2" },
-    { "chord": "G7", "notes": "D5:2 G5:2 F5:2 [C]E5:2 D5:2 C5:2 [G7]G4:2 C5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 E5:2 G5:2 C6:2 G5:2 E5:2 C5:2 E5:2 G5:2" },
-    { "chord": "C",  "notes": "C6:16 R:2" }
+    {
+      "chord": "C",
+      "notes": "R:2 C5:2 D5:2 E5:2 G5:2 F5:2 [F]F5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 C6:2 B5:2 C6:2 G5:2 E5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 G5:2 A5:2 [C]G5:2 F5:2 E5:2 [Am]D5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:2 C5:2 D5:2 G4:2 B4:2 D5:2 [G7]F5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 D5:2 E5:2 G5:2 F5:2 [F]F5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 C6:2 A5:2 C6:2 G5:2 E5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 G5:2 F5:2 [C]E5:2 D5:2 C5:2 [G7]G4:2 C5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 C6:2 G5:2 E5:2 C5:2 E5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:16 R:2"
+    }
   ]
 }

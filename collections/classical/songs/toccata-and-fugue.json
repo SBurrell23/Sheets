@@ -1,24 +1,57 @@
 {
   "title": "Toccata and Fugue",
-  "source": "J.S. Bach, Toccata and Fugue in D minor, BWV 565, c.1704 - public domain",
+  "source": "J.S. Bach, Toccata and Fugue in D minor, BWV 565, c.1704",
   "key": "Am",
   "meter": "4/4",
   "tempo": 72,
   "bars": [
-    { "chord": "Am",     "notes": "E6:4 R:1 D6:1 C6:1 B5:1 A5:1 G#5:1 A5:2 R:4" },
-    { "chord": "Am",     "notes": "E5:4 R:1 B4:1 C5:1 G#4:1 A4:4 R:4" },
-    { "chord": "Am",     "notes": "E4:4 R:4 [G#dim]B4:8~" },
-    { "chord": "G#dim",  "notes": "B4:4 [Am]A4:4 R:4 R:2 R:1 G#4:1" },
-
-    { "chord": "Am",     "notes": "A4:1 B4:1 G#4:1 A4:1 B4:1 G#4:1 A4:1 B4:1 [C]C5:1 D5:1 B4:1 C5:1 D5:1 B4:1 C5:1 D5:1" },
-    { "chord": "F",      "notes": "E5:1 F5:1 D5:1 E5:1 F5:1 D5:1 E5:1 F5:1 [E7]E5:6 R:1 E5:1" },
-
-    { "chord": "Bm7b5",  "notes": "F5:4 [Am]E5:4 [G]D5:4 [F]C5:4" },
-    { "chord": "Em",     "notes": "B4:4 [Dm]A4:4 [C]G4:4 [Bm7b5]F4:4" },
-    { "chord": "Am",     "notes": "E4:4 [E7]D4:4 R:4 [G#dim]D4:4~" },
-    { "chord": "G#dim",  "notes": "D4:16" },
-
-    { "chord": "E7",     "notes": "E5:1 D5:1 C5:1 B4:1 A4:1 G#4:1 F#4:1 G#4:1 E4:2 G#4:2 B4:2 D5:2" },
-    { "chord": "E7",     "notes": "D5:1 C5:1 D5:1 C5:1 B4:4 [Am]A4:8" }
+    {
+      "chord": "Am",
+      "notes": "E6:4 R:1 D6:1 C6:1 B5:1 A5:1 G#5:1 A5:2 R:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 R:1 B4:1 C5:1 G#4:1 A4:4 R:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 R:4 [G#dim]B4:8~"
+    },
+    {
+      "chord": "G#dim",
+      "notes": "B4:4 [Am]A4:4 R:4 R:2 R:1 G#4:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:1 B4:1 G#4:1 A4:1 B4:1 G#4:1 A4:1 B4:1 [C]C5:1 D5:1 B4:1 C5:1 D5:1 B4:1 C5:1 D5:1"
+    },
+    {
+      "chord": "F",
+      "notes": "E5:1 F5:1 D5:1 E5:1 F5:1 D5:1 E5:1 F5:1 [E7]E5:6 R:1 E5:1"
+    },
+    {
+      "chord": "Bm7b5",
+      "notes": "F5:4 [Am]E5:4 [G]D5:4 [F]C5:4"
+    },
+    {
+      "chord": "Em",
+      "notes": "B4:4 [Dm]A4:4 [C]G4:4 [Bm7b5]F4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 [E7]D4:4 R:4 [G#dim]D4:4~"
+    },
+    {
+      "chord": "G#dim",
+      "notes": "D4:16"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:1 D5:1 C5:1 B4:1 A4:1 G#4:1 F#4:1 G#4:1 E4:2 G#4:2 B4:2 D5:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "D5:1 C5:1 D5:1 C5:1 B4:4 [Am]A4:8"
+    }
   ]
 }

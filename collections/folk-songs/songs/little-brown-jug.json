@@ -1,25 +1,73 @@
 {
   "title": "Little Brown Jug",
-  "source": "Joseph Winner, 1869 - public domain",
+  "source": "Joseph Winner, 1869",
   "key": "C",
   "meter": "4/4",
   "tempo": 132,
   "bars": [
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:8" },
-    { "chord": "F",  "notes": "F5:4 A5:4 A5:8" },
-    { "chord": "G7", "notes": "B5:4 B5:2 B5:2 A5:4 B5:4" },
-    { "chord": "C",  "notes": "C6:4 D6:4 E6:8" },
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:8" },
-    { "chord": "F",  "notes": "F5:4 A5:4 A5:8" },
-    { "chord": "G7", "notes": "B5:4 B5:2 B5:2 A5:4 B5:4" },
-    { "chord": "C",  "notes": "D6:4 C6:4 C6:8" },
-    { "chord": "C",  "notes": "E6:4 C6:4 G5:4 E5:4" },
-    { "chord": "F",  "notes": "F5:4 A5:4 A5:8" },
-    { "chord": "G7", "notes": "B5:4 B5:2 B5:2 A5:4 B5:4" },
-    { "chord": "C",  "notes": "C6:4 D6:4 E6:8" },
-    { "chord": "C",  "notes": "E6:4 C6:4 G5:4 E5:4" },
-    { "chord": "F",  "notes": "F5:4 A5:4 A5:8" },
-    { "chord": "G7", "notes": "B5:4 B5:2 B5:2 A5:4 B5:4" },
-    { "chord": "C",  "notes": "D6:4 C6:4 C6:8" }
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 A5:4 A5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:4 B5:2 B5:2 A5:4 B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 D6:4 E6:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 A5:4 A5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:4 B5:2 B5:2 A5:4 B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "D6:4 C6:4 C6:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E6:4 C6:4 G5:4 E5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 A5:4 A5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:4 B5:2 B5:2 A5:4 B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 D6:4 E6:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E6:4 C6:4 G5:4 E5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 A5:4 A5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:4 B5:2 B5:2 A5:4 B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "D6:4 C6:4 C6:8"
+    }
   ]
 }

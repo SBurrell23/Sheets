@@ -1,31 +1,78 @@
 {
   "title": "Wayfaring Stranger",
-  "source": "Traditional American folk hymn, 19th century — public domain",
+  "source": "Traditional American folk hymn, 19th century",
   "key": "Am",
   "meter": "4/4",
   "pickup": 6,
   "tempo": 84,
   "bars": [
-    { "chord": "Am", "notes": "A4:2 A4:2 E5:2" },
-
-    { "chord": "Am", "notes": "E5:8~ E5:2 D5:2 E5:2 D5:2" },
-    { "chord": "Am", "notes": "C5:2 A4:8 A4:2 A4:2 E5:2" },
-    { "chord": "Dm", "notes": "D5:8~ D5:2 A4:2 C5:2 D5:2" },
-    { "chord": "E7", "notes": "E5:8~ E5:2 A4:2 A4:2 E5:2" },
-
-    { "chord": "Am", "notes": "E5:8~ E5:2 D5:2 E5:2 D5:2" },
-    { "chord": "Am", "notes": "C5:2 A4:8 A4:2 A4:2 E5:2" },
-    { "chord": "Dm", "notes": "D5:8~ D5:2 C5:2 A4:2 G4:2" },
-    { "chord": "Am", "notes": "A4:8~ A4:2 E5:2 E5:2 G5:2" },
-
-    { "chord": "F",  "notes": "A5:8~ A5:2 G5:2 A5:2 G5:2" },
-    { "chord": "C",  "notes": "F5:2 E5:8 E5:2 E5:2 G5:2" },
-    { "chord": "F",  "notes": "A5:8~ A5:2 G5:2 A5:2 G5:2" },
-    { "chord": "E7", "notes": "E5:8~ E5:2 [Am]E5:2 F5:2 G5:2" },
-
-    { "chord": "Am", "notes": "E5:8~ E5:2 C5:2 D5:2 E5:2" },
-    { "chord": "Am", "notes": "C5:2 A4:8 A4:2 A4:2 E5:2" },
-    { "chord": "Dm", "notes": "D5:8~ D5:2 C5:2 A4:2 G4:2" },
-    { "chord": "Am", "notes": "A4:16" }
+    {
+      "chord": "Am",
+      "notes": "A4:2 A4:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8~ E5:2 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:8 A4:2 A4:2 E5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:8~ D5:2 A4:2 C5:2 D5:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:8~ E5:2 A4:2 A4:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8~ E5:2 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:8 A4:2 A4:2 E5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:8~ D5:2 C5:2 A4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:8~ A4:2 E5:2 E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8~ A5:2 G5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "F5:2 E5:8 E5:2 E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8~ A5:2 G5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:8~ E5:2 [Am]E5:2 F5:2 G5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8~ E5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:8 A4:2 A4:2 E5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:8~ D5:2 C5:2 A4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:16"
+    }
   ]
 }

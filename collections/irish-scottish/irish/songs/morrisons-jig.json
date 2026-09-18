@@ -1,26 +1,73 @@
 {
   "title": "Morrison's Jig",
-  "source": "Traditional Irish double jig, also \"Maurice Carmody's Favourite\" / \"The Stick Across the Hob\" - public domain",
+  "source": "Traditional Irish double jig, also \"Maurice Carmody's Favourite\" / \"The Stick Across the Hob\"",
   "key": "Am",
   "meter": "6/8",
   "tempo": 120,
   "bars": [
-    { "chord": "Am", "notes": "A4:6 E5:6" },
-    { "chord": "Am", "notes": "A4:2 E5:2 A4:2 [G]D5:2 B4:2 G4:2" },
-    { "chord": "Am", "notes": "A4:2 G4:2 A4:2 E5:6" },
-    { "chord": "Am", "notes": "G5:2 F#5:2 E5:2 [G]D5:2 B4:2 G4:2" },
-    { "chord": "Am", "notes": "A4:6 E5:6" },
-    { "chord": "Am", "notes": "A4:2 E5:2 A4:2 [G]D5:2 B4:2 G4:2" },
-    { "chord": "C",  "notes": "C5:6 B4:2 C5:2 D5:2" },
-    { "chord": "G",  "notes": "G5:2 D5:2 C5:2 B4:2 A4:2 G4:2" },
-
-    { "chord": "Am", "notes": "E5:2 A5:2 A5:2 B5:2 A5:2 A5:2" },
-    { "chord": "Am", "notes": "D6:2 A5:2 A5:2 B5:2 A5:2 G5:2" },
-    { "chord": "Am", "notes": "E5:2 A5:2 A5:2 B5:2 A5:2 A5:2" },
-    { "chord": "G",  "notes": "D6:4 C6:2 B5:2 A5:2 G5:2" },
-    { "chord": "Am", "notes": "E5:2 A5:2 A5:2 B5:2 A5:2 A5:2" },
-    { "chord": "Am", "notes": "D6:2 A5:2 A5:2 B5:2 A5:2 G5:2" },
-    { "chord": "Am", "notes": "C6:2 B5:2 A5:2 [G]G5:4 D5:2" },
-    { "chord": "Am", "notes": "E5:2 D5:2 C5:2 [G]B4:2 A4:2 G4:2" }
+    {
+      "chord": "Am",
+      "notes": "A4:6 E5:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:2 E5:2 A4:2 [G]D5:2 B4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:2 G4:2 A4:2 E5:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "G5:2 F#5:2 E5:2 [G]D5:2 B4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:6 E5:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:2 E5:2 A4:2 [G]D5:2 B4:2 G4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 B4:2 C5:2 D5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:2 D5:2 C5:2 B4:2 A4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 A5:2 A5:2 B5:2 A5:2 A5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "D6:2 A5:2 A5:2 B5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 A5:2 A5:2 B5:2 A5:2 A5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D6:4 C6:2 B5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 A5:2 A5:2 B5:2 A5:2 A5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "D6:2 A5:2 A5:2 B5:2 A5:2 G5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C6:2 B5:2 A5:2 [G]G5:4 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 D5:2 C5:2 [G]B4:2 A4:2 G4:2"
+    }
   ]
 }

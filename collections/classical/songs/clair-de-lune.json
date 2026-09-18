@@ -1,18 +1,41 @@
 {
   "title": "Clair de Lune",
-  "source": "Claude Debussy, Suite bergamasque, 1905 - public domain",
+  "source": "Claude Debussy, Suite bergamasque, 1905",
   "key": "C",
   "meter": "9/8",
   "tempo": 54,
   "bars": [
-    { "chord": "C",    "notes": "R:2 G4:2 G5:2~ G5:6 E5:6~" },
-    { "chord": "Ddim", "notes": "E5:2 D5:2 E5:2 D5:12~" },
-    { "chord": "C",    "notes": "D5:2 C5:2 D5:2 C5:3 E5:6 C5:3~" },
-    { "chord": "G7",   "notes": "C5:2 B4:2 C5:2 B4:12" },
-
-    { "chord": "C",    "notes": "D5:2 C5:2 D5:2 G5:6 E5:6~" },
-    { "chord": "F",    "notes": "E5:2 D5:2 E5:2 D5:6 C5:6~" },
-    { "chord": "C7",   "notes": "C5:2 C5:2 D5:2 A5:3 G5:6 E5:3" },
-    { "chord": "Am",   "notes": "E5:2 D5:2 E5:2 D5:3 C5:6 A4:3" }
+    {
+      "chord": "C",
+      "notes": "R:2 G4:2 G5:2~ G5:6 E5:6~"
+    },
+    {
+      "chord": "Ddim",
+      "notes": "E5:2 D5:2 E5:2 D5:12~"
+    },
+    {
+      "chord": "C",
+      "notes": "D5:2 C5:2 D5:2 C5:3 E5:6 C5:3~"
+    },
+    {
+      "chord": "G7",
+      "notes": "C5:2 B4:2 C5:2 B4:12"
+    },
+    {
+      "chord": "C",
+      "notes": "D5:2 C5:2 D5:2 G5:6 E5:6~"
+    },
+    {
+      "chord": "F",
+      "notes": "E5:2 D5:2 E5:2 D5:6 C5:6~"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:2 C5:2 D5:2 A5:3 G5:6 E5:3"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 D5:2 E5:2 D5:3 C5:6 A4:3"
+    }
   ]
 }

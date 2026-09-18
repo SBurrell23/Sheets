@@ -1,31 +1,78 @@
 {
   "title": "Cotton-Eyed Joe",
-  "source": "Traditional American — public domain",
+  "source": "Traditional American",
   "key": "C",
   "meter": "2/4",
   "pickup": 4,
   "tempo": 120,
   "bars": [
-    { "chord": "C",  "notes": "C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:4 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:4 C5:2 D5:2" },
-    { "chord": "C",  "notes": "E5:2 D5:2 E5:4" },
-    { "chord": "F",  "notes": "F5:4 C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:4 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:4 C5:2 D5:2" },
-    { "chord": "G7", "notes": "E5:2 C5:2 D5:4" },
-    { "chord": "C",  "notes": "C5:4 G5:2 G5:2" },
-
-    { "chord": "C",  "notes": "G5:4 A5:4" },
-    { "chord": "C",  "notes": "C6:6 A5:2" },
-    { "chord": "C",  "notes": "C6:4 A5:4" },
-    { "chord": "G7", "notes": "G5:6 A5:2" },
-
-    { "chord": "C",  "notes": "C6:4 A5:4" },
-    { "chord": "C",  "notes": "G5:4 [G7]F5:4" },
-    { "chord": "G7", "notes": "E5:2 C5:2 D5:4" },
-    { "chord": "C",  "notes": "C5:4" }
+    {
+      "chord": "C",
+      "notes": "C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2 E5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:2 D5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:2 C5:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 G5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:6 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:6 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 [G7]F5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:2 C5:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4"
+    }
   ]
 }

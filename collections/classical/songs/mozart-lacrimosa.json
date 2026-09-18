@@ -1,40 +1,109 @@
 {
   "title": "Lacrimosa",
-  "source": "W. A. Mozart, Requiem in D minor K. 626, 1791 - public domain",
+  "source": "W. A. Mozart, Requiem in D minor K. 626, 1791",
   "key": "Am",
   "meter": "12/8",
   "tempo": 63,
   "bars": [
-    { "chord": "Am",     "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:2 R:4" },
-    { "chord": "Am",     "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:2 R:4" },
-
-    { "chord": "Am",     "notes": "A4:2 R:4 [E7]B4:2 R:4 [Am]C5:2 R:4 [G7]D5:2 R:4" },
-    { "chord": "C",      "notes": "E5:2 R:4 [B7]F#5:2 R:4 [Em]G5:2 R:4 [D7]A5:2 R:4" },
-    { "chord": "Gm",     "notes": "Bb5:6 [G7/F]B5:6 [C/E]C6:6 [C#dim]C#6:6" },
-    { "chord": "D/F#",   "notes": "D6:6 [F7]D#6:6 [Am/E]E6:6 [E7]E5:2 R:4" },
-
-    { "chord": "E/G#",   "notes": "E5:8 F5:2 E5:2 [Am]E5:8 C6:2 A5:2" },
-    { "chord": "Bdim",   "notes": "G#5:8 [E7]A5:2 B5:2 B5:6 A5:6" },
-    { "chord": "Bb",     "notes": "Bb5:8 D6:2 Bb5:2 [F7]Bb5:6 A5:2 R:4" },
-    { "chord": "Am",     "notes": "A5:8 C6:2 B5:2 [F]B5:6 A5:2 R:4" },
-    { "chord": "D7",     "notes": "A5:8 D6:2 C6:2 [C]C6:6 [G7]B5:6" },
-    { "chord": "E7/G#",  "notes": "B5:6~ B5:4 [Am]E5:2 E5:6 E5:6" },
-
-    { "chord": "F#dim",  "notes": "F#5:6 G5:6 A5:6 A5:6" },
-    { "chord": "F#dim",  "notes": "A5:6 G5:6 F#5:6 F#5:6" },
-    { "chord": "D7",     "notes": "F#5:6 [G]G5:6 A5:6 [C/E]G5:4 C6:2" },
-    { "chord": "F",      "notes": "C6:8 A5:2 F#5:2 [C/G]G5:8 [G7]F5:2 D5:2" },
-
-    { "chord": "Am",     "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:6" },
-    { "chord": "Am",     "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:2 R:4" },
-
-    { "chord": "Dm",     "notes": "R:12 A5:6 [A7]G5:6" },
-    { "chord": "Bb",     "notes": "F5:6 E5:6 [Dm]D5:6 [Am]C5:6" },
-    { "chord": "E7",     "notes": "B4:6 A4:6 G#4:6 [Am]A4:6" },
-    { "chord": "E7",     "notes": "B4:6 [Am]C5:6 [E7]B4:6 B4:6" },
-    { "chord": "Am",     "notes": "A4:4 R:8 R:12" },
-
-    { "chord": "Dm",     "notes": "A5:24" },
-    { "chord": "A",      "notes": "A5:24" }
+    {
+      "chord": "Am",
+      "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:2 R:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:2 R:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:2 R:4 [E7]B4:2 R:4 [Am]C5:2 R:4 [G7]D5:2 R:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 R:4 [B7]F#5:2 R:4 [Em]G5:2 R:4 [D7]A5:2 R:4"
+    },
+    {
+      "chord": "Gm",
+      "notes": "Bb5:6 [G7/F]B5:6 [C/E]C6:6 [C#dim]C#6:6"
+    },
+    {
+      "chord": "D/F#",
+      "notes": "D6:6 [F7]D#6:6 [Am/E]E6:6 [E7]E5:2 R:4"
+    },
+    {
+      "chord": "E/G#",
+      "notes": "E5:8 F5:2 E5:2 [Am]E5:8 C6:2 A5:2"
+    },
+    {
+      "chord": "Bdim",
+      "notes": "G#5:8 [E7]A5:2 B5:2 B5:6 A5:6"
+    },
+    {
+      "chord": "Bb",
+      "notes": "Bb5:8 D6:2 Bb5:2 [F7]Bb5:6 A5:2 R:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:8 C6:2 B5:2 [F]B5:6 A5:2 R:4"
+    },
+    {
+      "chord": "D7",
+      "notes": "A5:8 D6:2 C6:2 [C]C6:6 [G7]B5:6"
+    },
+    {
+      "chord": "E7/G#",
+      "notes": "B5:6~ B5:4 [Am]E5:2 E5:6 E5:6"
+    },
+    {
+      "chord": "F#dim",
+      "notes": "F#5:6 G5:6 A5:6 A5:6"
+    },
+    {
+      "chord": "F#dim",
+      "notes": "A5:6 G5:6 F#5:6 F#5:6"
+    },
+    {
+      "chord": "D7",
+      "notes": "F#5:6 [G]G5:6 A5:6 [C/E]G5:4 C6:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:8 A5:2 F#5:2 [C/G]G5:8 [G7]F5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:8 [C]C6:2 A5:2 [E7]A5:6 G#5:2 R:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "R:12 A5:6 [A7]G5:6"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F5:6 E5:6 [Dm]D5:6 [Am]C5:6"
+    },
+    {
+      "chord": "E7",
+      "notes": "B4:6 A4:6 G#4:6 [Am]A4:6"
+    },
+    {
+      "chord": "E7",
+      "notes": "B4:6 [Am]C5:6 [E7]B4:6 B4:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:4 R:8 R:12"
+    },
+    {
+      "chord": "Dm",
+      "notes": "A5:24"
+    },
+    {
+      "chord": "A",
+      "notes": "A5:24"
+    }
   ]
 }

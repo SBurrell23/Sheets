@@ -1,24 +1,54 @@
 {
   "title": "Spring (La primavera)",
-  "source": "Antonio Vivaldi, Spring, Violin Concerto in E major, RV 269, from The Four Seasons, 1725 - public domain",
+  "source": "Antonio Vivaldi, Spring, Violin Concerto in E major, RV 269, from The Four Seasons, 1725",
   "key": "C",
   "meter": "4/4",
   "tempo": 112,
   "pickup": 2,
   "bars": [
-    { "chord": "C",  "notes": "C5:2" },
-
-    { "chord": "C",  "notes": "E5:2 E5:2 E5:2 D5:1 C5:1 G5:6 G5:1 F5:1" },
-    { "chord": "C",  "notes": "E5:2 E5:2 E5:2 D5:1 C5:1 G5:6 G5:1 F5:1" },
-    { "chord": "C",  "notes": "E5:2 F5:1 G5:1 F5:2 E5:2 [G7]D5:2 B4:2 G4:2 [C]C5:2" },
-
-    { "chord": "C",  "notes": "G5:2 F5:1 E5:1 F5:2 G5:2 A5:2 G5:4 C5:2" },
-    { "chord": "C",  "notes": "G5:2 F5:1 E5:1 F5:2 G5:2 A5:2 G5:4 C5:2" },
-    { "chord": "C",  "notes": "A5:2 G5:4 F5:2 E5:2 D5:1 C5:1 [G7]D5:4" },
-
-    { "chord": "C",  "notes": "C5:4 R:2 C5:2 G5:2 F5:1 E5:1 F5:2 G5:2" },
-    { "chord": "C",  "notes": "A5:2 G5:4 C5:2 G5:2 F5:1 E5:1 F5:2 G5:2" },
-    { "chord": "C",  "notes": "A5:2 G5:4 C5:2 A5:2 G5:4 [G7]F5:2" },
-    { "chord": "C",  "notes": "E5:2 D5:1 C5:1 [G7]D5:4 [C]C5:8" }
+    {
+      "chord": "C",
+      "notes": "C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 E5:2 E5:2 D5:1 C5:1 G5:6 G5:1 F5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 E5:2 E5:2 D5:1 C5:1 G5:6 G5:1 F5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 F5:1 G5:1 F5:2 E5:2 [G7]D5:2 B4:2 G4:2 [C]C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 F5:1 E5:1 F5:2 G5:2 A5:2 G5:4 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 F5:1 E5:1 F5:2 G5:2 A5:2 G5:4 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:2 G5:4 F5:2 E5:2 D5:1 C5:1 [G7]D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 R:2 C5:2 G5:2 F5:1 E5:1 F5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:2 G5:4 C5:2 G5:2 F5:1 E5:1 F5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:2 G5:4 C5:2 A5:2 G5:4 [G7]F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:1 C5:1 [G7]D5:4 [C]C5:8"
+    }
   ]
 }

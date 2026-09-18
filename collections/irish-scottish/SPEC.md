@@ -66,7 +66,9 @@ Write exactly one file to the path you are given:
 
 - `title` — the name people know it by.
 - `source` — "Traditional Irish" or "Traditional Scottish", the tune's other name if it has one,
-  a date if known, **plus the words "public domain"**. This is printed as the credit line.
+  a date if known. This is printed as the credit line.
+  **Do not write "public domain" into it** — everything on the site is, so saying it on
+  every score is noise. The rule about arranging nothing else is unchanged.
 - `key` — `C` for major and Mixolydian tunes, `Am` for minor and Dorian ones. Nothing else; the
   player transposes.
 - `meter` — `4/4` (airs, reels, hornpipes, strathspeys), `3/4` (waltzes), `6/8` (jigs),

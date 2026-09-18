@@ -1,27 +1,78 @@
 {
   "title": "Loch Lomond",
-  "source": "Traditional Scottish, 1841 - public domain",
+  "source": "Traditional Scottish, 1841",
   "key": "C",
   "meter": "4/4",
   "pickup": 4,
   "tempo": 88,
   "bars": [
-    { "chord": "C",  "notes": "G4:4" },
-    { "chord": "C",  "notes": "C5:4 C5:3 D5:1 [Am]E5:4 D5:3 C5:1" },
-    { "chord": "Dm", "notes": "D5:4 D5:3 C5:1 [G7]A4:4 G4:4" },
-    { "chord": "C",  "notes": "C5:4 C5:4 C5:4 E5:3 G5:1" },
-    { "chord": "F",  "notes": "A5:8 [G7]G5:4 G5:4" },
-    { "chord": "F",  "notes": "A5:4 A5:3 G5:1 [C]E5:4 E5:3 G5:1" },
-    { "chord": "Dm", "notes": "F5:2 E5:2 D5:2 C5:2 [G7]A4:4 G4:3 A4:1" },
-    { "chord": "C",  "notes": "C5:4 E5:3 G5:1 [F]A5:4 G5:3 E5:1" },
-    { "chord": "G7", "notes": "D5:8 [C]C5:4 G4:4" },
-    { "chord": "C",  "notes": "C5:4 C5:3 D5:1 [Am]E5:4 D5:3 C5:1" },
-    { "chord": "Dm", "notes": "D5:2 E5:2 D5:2 C5:2 [G7]A4:4 G4:3 A4:1" },
-    { "chord": "C",  "notes": "C5:4 C5:4 C5:4 E5:3 G5:1" },
-    { "chord": "F",  "notes": "A5:8 [G7]G5:4 G5:4" },
-    { "chord": "F",  "notes": "A5:4 C6:3 A5:1 [C]G5:4 E5:3 G5:1" },
-    { "chord": "Dm", "notes": "F5:2 E5:2 D5:2 C5:2 [G7]A4:4 G4:3 A4:1" },
-    { "chord": "C",  "notes": "C5:2 C5:2 E5:2 G5:2 [F]A5:4 G5:3 E5:1" },
-    { "chord": "G7", "notes": "D5:8 [C]C5:8" }
+    {
+      "chord": "C",
+      "notes": "G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:3 D5:1 [Am]E5:4 D5:3 C5:1"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:4 D5:3 C5:1 [G7]A4:4 G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 C5:4 E5:3 G5:1"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 [G7]G5:4 G5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 A5:3 G5:1 [C]E5:4 E5:3 G5:1"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:2 E5:2 D5:2 C5:2 [G7]A4:4 G4:3 A4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:3 G5:1 [F]A5:4 G5:3 E5:1"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 [C]C5:4 G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:3 D5:1 [Am]E5:4 D5:3 C5:1"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:2 E5:2 D5:2 C5:2 [G7]A4:4 G4:3 A4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 C5:4 E5:3 G5:1"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 [G7]G5:4 G5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 C6:3 A5:1 [C]G5:4 E5:3 G5:1"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:2 E5:2 D5:2 C5:2 [G7]A4:4 G4:3 A4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 E5:2 G5:2 [F]A5:4 G5:3 E5:1"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 [C]C5:8"
+    }
   ]
 }

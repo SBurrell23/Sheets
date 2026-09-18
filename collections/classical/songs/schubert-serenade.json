@@ -1,49 +1,145 @@
 {
   "title": "Ständchen (Serenade)",
-  "source": "Franz Schubert, Schwanengesang D. 957 No. 4, 1828 - public domain",
+  "source": "Franz Schubert, Schwanengesang D. 957 No. 4, 1828",
   "key": "Am",
   "meter": "3/4",
   "tempo": 66,
   "bars": [
-    { "chord": "Am",     "notes": "(3 E5:2 F5:2 E5:2) A5:6 E5:2" },
-    { "chord": "Dm/F",   "notes": "(3 D5:2 E5:2 D5:2) A5:4 D5:2 R:2" },
-    { "chord": "E7",     "notes": "E5:6 D5:2 (3 D5:2 C5:2 B4:2)" },
-    { "chord": "Am",     "notes": "C5:8 R:4" },
-
-    { "chord": "Am",     "notes": "(3 E5:2 F5:2 E5:2) C6:6 E5:2" },
-    { "chord": "Dm/F",   "notes": "(3 D5:2 E5:2 D5:2) B5:6 A5:2" },
-    { "chord": "G7",     "notes": "G5:6 F5:2 (3 F5:2 E5:2 D5:2)" },
-    { "chord": "C",      "notes": "E5:8 R:4" },
-
-    { "chord": "E7",     "notes": "E5:3 G#5:1 C6:6 B5:2" },
-    { "chord": "Am",     "notes": "A5:3 E5:1 C5:6 A4:2" },
-    { "chord": "F",      "notes": "(3 F5:2 E5:2 F5:2) A5:6 F5:2" },
-    { "chord": "C",      "notes": "E5:12" },
-    { "chord": "G7",     "notes": "(3 D5:2 C#5:2 D5:2) F5:6 D5:2" },
-    { "chord": "C",      "notes": "C5:12" },
-
-    { "chord": "E7",     "notes": "E5:3 G#5:1 C6:6 B5:2" },
-    { "chord": "A",      "notes": "A5:3 E5:1 C#5:6 A4:2" },
-    { "chord": "D",      "notes": "(3 F#5:2 F5:2 F#5:2) A5:6 F#5:2" },
-    { "chord": "A",      "notes": "E5:12" },
-    { "chord": "E7",     "notes": "(3 B5:2 A#5:2 B5:2) D6:6 G#5:2" },
-    { "chord": "A",      "notes": "A5:12" },
-
-    { "chord": "E7",     "notes": "E5:3 E5:1 G#5:3 G#5:1 B5:3 B5:1" },
-    { "chord": "E7",     "notes": "A5:4 G#5:4 R:4" },
-    { "chord": "E7",     "notes": "E5:6 G#5:2 B5:3 A5:1" },
-    { "chord": "E7",     "notes": "G#5:8 R:4" },
-    { "chord": "C#7",    "notes": "C#6:6 B5:2 (3 B5:2 A5:2 G#5:2)" },
-    { "chord": "F#m",    "notes": "F#5:3 G#5:1 A5:4 F#5:2 R:2" },
-
-    { "chord": "D",      "notes": "(3 F#5:2 F5:2 F#5:2) A5:6 F#5:2" },
-    { "chord": "A",      "notes": "E5:12" },
-    { "chord": "E7",     "notes": "(3 B5:2 A#5:2 B5:2) D6:6 G#5:2" },
-    { "chord": "A",      "notes": "A5:12" },
-
-    { "chord": "Am",     "notes": "A5:4 R:4 A5:4" },
-    { "chord": "Bdim/D", "notes": "F5:12" },
-    { "chord": "E7",     "notes": "E5:12" },
-    { "chord": "A",      "notes": "C#5:12" }
+    {
+      "chord": "Am",
+      "notes": "(3 E5:2 F5:2 E5:2) A5:6 E5:2"
+    },
+    {
+      "chord": "Dm/F",
+      "notes": "(3 D5:2 E5:2 D5:2) A5:4 D5:2 R:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:6 D5:2 (3 D5:2 C5:2 B4:2)"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:8 R:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "(3 E5:2 F5:2 E5:2) C6:6 E5:2"
+    },
+    {
+      "chord": "Dm/F",
+      "notes": "(3 D5:2 E5:2 D5:2) B5:6 A5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:6 F5:2 (3 F5:2 E5:2 D5:2)"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 R:4"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:3 G#5:1 C6:6 B5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:3 E5:1 C5:6 A4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "(3 F5:2 E5:2 F5:2) A5:6 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:12"
+    },
+    {
+      "chord": "G7",
+      "notes": "(3 D5:2 C#5:2 D5:2) F5:6 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:3 G#5:1 C6:6 B5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "A5:3 E5:1 C#5:6 A4:2"
+    },
+    {
+      "chord": "D",
+      "notes": "(3 F#5:2 F5:2 F#5:2) A5:6 F#5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "E5:12"
+    },
+    {
+      "chord": "E7",
+      "notes": "(3 B5:2 A#5:2 B5:2) D6:6 G#5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "A5:12"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:3 E5:1 G#5:3 G#5:1 B5:3 B5:1"
+    },
+    {
+      "chord": "E7",
+      "notes": "A5:4 G#5:4 R:4"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:6 G#5:2 B5:3 A5:1"
+    },
+    {
+      "chord": "E7",
+      "notes": "G#5:8 R:4"
+    },
+    {
+      "chord": "C#7",
+      "notes": "C#6:6 B5:2 (3 B5:2 A5:2 G#5:2)"
+    },
+    {
+      "chord": "F#m",
+      "notes": "F#5:3 G#5:1 A5:4 F#5:2 R:2"
+    },
+    {
+      "chord": "D",
+      "notes": "(3 F#5:2 F5:2 F#5:2) A5:6 F#5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "E5:12"
+    },
+    {
+      "chord": "E7",
+      "notes": "(3 B5:2 A#5:2 B5:2) D6:6 G#5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "A5:12"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:4 R:4 A5:4"
+    },
+    {
+      "chord": "Bdim/D",
+      "notes": "F5:12"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:12"
+    },
+    {
+      "chord": "A",
+      "notes": "C#5:12"
+    }
   ]
 }

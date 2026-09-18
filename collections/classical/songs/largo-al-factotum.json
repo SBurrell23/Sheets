@@ -1,39 +1,113 @@
 {
   "title": "Largo al factotum",
-  "source": "Gioachino Rossini, The Barber of Seville, 1816 - Figaro's aria, vocal line - public domain",
+  "source": "Gioachino Rossini, The Barber of Seville, 1816 - Figaro's aria, vocal line",
   "key": "C",
   "meter": "6/8",
   "tempo": 135,
   "bars": [
-    { "chord": "C",  "notes": "C5:6~ C5:2 D5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 D5:2 B4:2 C5:2 D5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 R:2 R:2 E5:6" },
-    { "chord": "C",  "notes": "E4:2 R:2 R:8" },
-
-    { "chord": "D7", "notes": "D5:6~ D5:2 E5:2 C#5:2" },
-    { "chord": "D7", "notes": "D5:2 E5:2 C#5:2 D5:2 E5:2 C#5:2" },
-    { "chord": "D7", "notes": "D5:2 R:2 R:2 A4:6" },
-    { "chord": "D7", "notes": "A4:2 R:2 R:8" },
-
-    { "chord": "G",  "notes": "C5:2 G4:2 B4:2 C5:2 G4:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 R:4 C5:4 R:2" },
-
-    { "chord": "G7", "notes": "D5:6 D5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:4 G4:2 G4:4 R:2" },
-    { "chord": "G7", "notes": "D5:6 D5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:6 G4:4 R:2" },
-    { "chord": "G7", "notes": "D5:6 D5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:2 C5:2 R:2 C5:2 C5:2 C5:2" },
-
-    { "chord": "C",  "notes": "C5:4 B4:2 C5:4 D5:2" },
-    { "chord": "C",  "notes": "E5:6 E5:2 F5:2 E5:2" },
-    { "chord": "G7", "notes": "D5:6 D5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:4 R:2 R:6" },
-    { "chord": "C",  "notes": "C5:2 B4:2 C5:2 D5:2 C5:2 D5:2" },
-    { "chord": "C",  "notes": "E5:6 E5:2 F5:2 E5:2" },
-    { "chord": "G7", "notes": "D5:6 D5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:6 D5:2 E5:2 D5:2" },
-    { "chord": "G7", "notes": "C5:2 B4:2 C5:2 D5:2 E5:2 D5:2" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "C5:6~ C5:2 D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 D5:2 B4:2 C5:2 D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 R:2 R:2 E5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:2 R:2 R:8"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:6~ D5:2 E5:2 C#5:2"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:2 E5:2 C#5:2 D5:2 E5:2 C#5:2"
+    },
+    {
+      "chord": "D7",
+      "notes": "D5:2 R:2 R:2 A4:6"
+    },
+    {
+      "chord": "D7",
+      "notes": "A4:2 R:2 R:8"
+    },
+    {
+      "chord": "G",
+      "notes": "C5:2 G4:2 B4:2 C5:2 G4:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 R:4 C5:4 R:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 G4:2 G4:4 R:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 G4:4 R:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 R:2 C5:2 C5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 B4:2 C5:4 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:6 E5:2 F5:2 E5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 R:2 R:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 B4:2 C5:2 D5:2 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:6 E5:2 F5:2 E5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "C5:2 B4:2 C5:2 D5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

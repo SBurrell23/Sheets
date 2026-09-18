@@ -1,31 +1,78 @@
 {
   "title": "When Johnny Comes Marching Home",
-  "source": "Patrick S. Gilmore (as \"Louis Lambert\"), 1863 — public domain",
+  "source": "Patrick S. Gilmore (as \"Louis Lambert\"), 1863",
   "key": "Am",
   "meter": "6/8",
   "pickup": 2,
   "tempo": 112,
   "bars": [
-    { "chord": "Am", "notes": "A4:2" },
-
-    { "chord": "Am", "notes": "E4:2 A4:2 A4:2 A4:4 B4:2" },
-    { "chord": "Am", "notes": "C5:4 B4:2 C5:4 A4:2" },
-    { "chord": "C",  "notes": "G4:6~ G4:4 E4:2" },
-    { "chord": "G",  "notes": "G4:6~ G4:4 A4:2" },
-
-    { "chord": "Am", "notes": "E4:2 A4:2 A4:2 A4:4 B4:2" },
-    { "chord": "Am", "notes": "C5:4 B4:2 C5:4 D5:2" },
-    { "chord": "C",  "notes": "E5:6~ E5:4 C5:2" },
-    { "chord": "E7", "notes": "E5:6~ E5:4 C5:1 D5:1" },
-
-    { "chord": "C",  "notes": "E5:4 E5:2 E5:2 D5:2 C5:2" },
-    { "chord": "G",  "notes": "D5:4 D5:2 D5:4 B4:2" },
-    { "chord": "Am", "notes": "C5:4 C5:2 C5:2 B4:2 A4:2" },
-    { "chord": "E7", "notes": "B4:4 B4:2 B4:2 C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:6 [G]D5:6" },
-    { "chord": "Am", "notes": "C5:6 [E7]B4:6" },
-    { "chord": "Am", "notes": "E4:2 A4:2 A4:2 A4:4 [E7]G#4:2" },
-    { "chord": "Am", "notes": "A4:12" }
+    {
+      "chord": "Am",
+      "notes": "A4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:2 A4:2 A4:2 A4:4 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 B4:2 C5:4 A4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:6~ G4:4 E4:2"
+    },
+    {
+      "chord": "G",
+      "notes": "G4:6~ G4:4 A4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:2 A4:2 A4:2 A4:4 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 B4:2 C5:4 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:6~ E5:4 C5:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:6~ E5:4 C5:1 D5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:2 E5:2 D5:2 C5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 D5:2 D5:4 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:2 C5:2 B4:2 A4:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "B4:4 B4:2 B4:2 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:6 [G]D5:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:6 [E7]B4:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:2 A4:2 A4:2 A4:4 [E7]G#4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:12"
+    }
   ]
 }

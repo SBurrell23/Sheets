@@ -2,7 +2,7 @@
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
   <work><work-title>Annie Laurie</work-title></work>
-  <identification><creator type="composer">Traditional Scottish, air set by Lady John Scott c.1834 to words by William Douglas - public domain</creator></identification>
+  <identification><creator type="composer">Traditional Scottish, air set by Lady John Scott c.1834 to words by William Douglas</creator></identification>
   <defaults><scaling><millimeters>6.8</millimeters><tenths>40</tenths></scaling></defaults>
   <part-list><score-part id="P1"><part-name>Piano</part-name>
     <score-instrument id="P1-I1"><instrument-name>Piano</instrument-name></score-instrument>

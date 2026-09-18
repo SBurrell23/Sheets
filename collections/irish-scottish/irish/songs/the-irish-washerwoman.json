@@ -1,26 +1,73 @@
 {
   "title": "The Irish Washerwoman",
-  "source": "Traditional Irish double jig, also \"An Bhean Níocháin Éireannach\" - public domain",
+  "source": "Traditional Irish double jig, also \"An Bhean Níocháin Éireannach\"",
   "key": "C",
   "meter": "6/8",
   "tempo": 120,
   "bars": [
-    { "chord": "C",  "notes": "E5:2 C5:2 C5:2 G4:2 C5:2 C5:2" },
-    { "chord": "C",  "notes": "E5:2 C5:2 E5:2 G5:2 F5:2 E5:2" },
-    { "chord": "Dm", "notes": "F5:2 D5:2 D5:2 A4:2 D5:2 D5:2" },
-    { "chord": "Dm", "notes": "F5:2 D5:2 F5:2 A5:2 G5:2 F5:2" },
-    { "chord": "C",  "notes": "E5:2 C5:2 C5:2 G4:2 C5:2 C5:2" },
-    { "chord": "C",  "notes": "E5:2 C5:2 E5:2 G5:2 F5:2 E5:2" },
-    { "chord": "F",  "notes": "F5:2 E5:2 F5:2 D5:2 G5:2 F5:2" },
-    { "chord": "C",  "notes": "E5:2 C5:2 C5:2 C5:6" },
-
-    { "chord": "C",  "notes": "C6:2 G5:2 G5:2 E5:2 G5:2 G5:2" },
-    { "chord": "C",  "notes": "C6:2 G5:2 C6:2 E6:2 D6:2 C6:2" },
-    { "chord": "G",  "notes": "B5:2 G5:2 G5:2 D5:2 G5:2 G5:2" },
-    { "chord": "G",  "notes": "B5:2 G5:2 B5:2 D6:2 C6:2 B5:2" },
-    { "chord": "C",  "notes": "A5:2 C6:2 C6:2 G5:2 C6:2 C6:2" },
-    { "chord": "C",  "notes": "F5:2 C6:2 C6:2 E5:2 C6:2 E5:2" },
-    { "chord": "F",  "notes": "F5:2 E5:2 F5:2 D5:2 G5:2 F5:2" },
-    { "chord": "C",  "notes": "E5:2 C5:2 C5:2 C5:6" }
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 C5:2 G4:2 C5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 E5:2 G5:2 F5:2 E5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:2 D5:2 D5:2 A4:2 D5:2 D5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:2 D5:2 F5:2 A5:2 G5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 C5:2 G4:2 C5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 E5:2 G5:2 F5:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 E5:2 F5:2 D5:2 G5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 C5:2 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:2 G5:2 G5:2 E5:2 G5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:2 G5:2 C6:2 E6:2 D6:2 C6:2"
+    },
+    {
+      "chord": "G",
+      "notes": "B5:2 G5:2 G5:2 D5:2 G5:2 G5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "B5:2 G5:2 B5:2 D6:2 C6:2 B5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:2 C6:2 C6:2 G5:2 C6:2 C6:2"
+    },
+    {
+      "chord": "C",
+      "notes": "F5:2 C6:2 C6:2 E5:2 C6:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 E5:2 F5:2 D5:2 G5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 C5:2 C5:2 C5:6"
+    }
   ]
 }

@@ -1,28 +1,73 @@
 {
   "title": "All Through the Night",
-  "source": "Welsh traditional — \"Ar Hyd y Nos\", first printed 1784 — public domain",
+  "source": "Welsh traditional — \"Ar Hyd y Nos\", first printed 1784",
   "key": "C",
   "meter": "4/4",
   "tempo": 76,
   "bars": [
-    { "chord": "C",  "notes": "C5:6 B4:2 A4:4 C5:4" },
-    { "chord": "G7", "notes": "D5:6 C5:2 B4:4 G4:4" },
-    { "chord": "G7", "notes": "A4:8 B4:6 B4:2" },
-    { "chord": "C",  "notes": "C5:12 R:4" },
-
-    { "chord": "C",  "notes": "C5:6 B4:2 A4:4 C5:4" },
-    { "chord": "G7", "notes": "D5:6 C5:2 B4:4 G4:4" },
-    { "chord": "G7", "notes": "A4:8 B4:6 B4:2" },
-    { "chord": "C",  "notes": "C5:12 R:4" },
-
-    { "chord": "F",  "notes": "F5:4 E5:4 F5:4 G5:4" },
-    { "chord": "C",  "notes": "A5:4 G5:4 F5:4 E5:4" },
-    { "chord": "Dm", "notes": "F5:4 E5:4 D5:4 C5:4" },
-    { "chord": "G7", "notes": "E5:6 D5:2 C5:4 B4:4" },
-
-    { "chord": "C",  "notes": "C5:6 B4:2 A4:4 C5:4" },
-    { "chord": "G7", "notes": "D5:6 C5:2 B4:4 G4:4" },
-    { "chord": "G7", "notes": "A4:8 B4:6 B4:2" },
-    { "chord": "C",  "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "C5:6 B4:2 A4:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 C5:2 B4:4 G4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A4:8 B4:6 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12 R:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 B4:2 A4:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 C5:2 B4:4 G4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A4:8 B4:6 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12 R:4"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 E5:4 F5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:4 G5:4 F5:4 E5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:4 E5:4 D5:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:6 D5:2 C5:4 B4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 B4:2 A4:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:6 C5:2 B4:4 G4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A4:8 B4:6 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

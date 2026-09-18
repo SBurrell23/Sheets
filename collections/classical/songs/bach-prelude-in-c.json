@@ -1,44 +1,149 @@
 {
   "title": "Prelude in C",
-  "source": "J.S. Bach, Prelude No. 1 in C, The Well-Tempered Clavier Book I, BWV 846, 1722 - public domain",
+  "source": "J.S. Bach, Prelude No. 1 in C, The Well-Tempered Clavier Book I, BWV 846, 1722",
   "key": "C",
   "meter": "4/4",
   "tempo": 63,
   "bars": [
-    { "chord": "C",         "notes": "E5:8 E5:8" },
-    { "chord": "Dm7/C",     "notes": "F5:8 F5:8" },
-    { "chord": "G7/B",      "notes": "F5:8 F5:8" },
-    { "chord": "C",         "notes": "E5:8 E5:8" },
-    { "chord": "Am/C",      "notes": "A5:8 A5:8" },
-    { "chord": "D7/C",      "notes": "D5:8 D5:8" },
-    { "chord": "G/B",       "notes": "G5:8 G5:8" },
-    { "chord": "C/B",       "notes": "C5:8 C5:8" },
-    { "chord": "Am7",       "notes": "C5:8 C5:8" },
-    { "chord": "D7",        "notes": "C5:8 C5:8" },
-    { "chord": "G",         "notes": "B4:8 B4:8" },
-    { "chord": "Gdim",      "notes": "C#5:8 C#5:8" },
-    { "chord": "Dm/F",      "notes": "D5:8 D5:8" },
-    { "chord": "Fdim",      "notes": "B4:8 B4:8" },
-    { "chord": "C/E",       "notes": "C5:8 C5:8" },
-    { "chord": "Fmaj7/E",   "notes": "F5:8 F5:8" },
-    { "chord": "Dm7",       "notes": "F5:8 F5:8" },
-    { "chord": "G7",        "notes": "F5:8 F5:8" },
-    { "chord": "C",         "notes": "E5:8 E5:8" },
-    { "chord": "C7",        "notes": "E5:8 E5:8" },
-    { "chord": "Fmaj7",     "notes": "E5:8 E5:8" },
-    { "chord": "F#dim",     "notes": "Eb5:8 Eb5:8" },
-    { "chord": "Fdim/Ab",   "notes": "D5:8 D5:8" },
-    { "chord": "G7",        "notes": "D5:8 D5:8" },
-    { "chord": "C/G",       "notes": "E5:8 E5:8" },
-    { "chord": "G7sus4",    "notes": "F5:8 F5:8" },
-    { "chord": "G7",        "notes": "F5:8 F5:8" },
-    { "chord": "Adim/G",    "notes": "F#5:8 F#5:8" },
-    { "chord": "C/G",       "notes": "G5:8 G5:8" },
-    { "chord": "G7sus4",    "notes": "F5:8 F5:8" },
-    { "chord": "G7",        "notes": "F5:8 F5:8" },
-    { "chord": "C7",        "notes": "E5:8 E5:8" },
-    { "chord": "Dm7/C",     "notes": "F5:8 F5:8" },
-    { "chord": "G7/C",      "notes": "R:2 G4:1 B4:1 D5:1 F5:1 D5:1 B4:1 D5:1 B4:1 G4:1 B4:1 D5:1 F5:1 E5:1 D5:1" },
-    { "chord": "C",         "notes": "C6:16" }
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "Dm7/C",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "G7/B",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "Am/C",
+      "notes": "A5:8 A5:8"
+    },
+    {
+      "chord": "D7/C",
+      "notes": "D5:8 D5:8"
+    },
+    {
+      "chord": "G/B",
+      "notes": "G5:8 G5:8"
+    },
+    {
+      "chord": "C/B",
+      "notes": "C5:8 C5:8"
+    },
+    {
+      "chord": "Am7",
+      "notes": "C5:8 C5:8"
+    },
+    {
+      "chord": "D7",
+      "notes": "C5:8 C5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:8 B4:8"
+    },
+    {
+      "chord": "Gdim",
+      "notes": "C#5:8 C#5:8"
+    },
+    {
+      "chord": "Dm/F",
+      "notes": "D5:8 D5:8"
+    },
+    {
+      "chord": "Fdim",
+      "notes": "B4:8 B4:8"
+    },
+    {
+      "chord": "C/E",
+      "notes": "C5:8 C5:8"
+    },
+    {
+      "chord": "Fmaj7/E",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "Fmaj7",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "F#dim",
+      "notes": "Eb5:8 Eb5:8"
+    },
+    {
+      "chord": "Fdim/Ab",
+      "notes": "D5:8 D5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 D5:8"
+    },
+    {
+      "chord": "C/G",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "G7sus4",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "Adim/G",
+      "notes": "F#5:8 F#5:8"
+    },
+    {
+      "chord": "C/G",
+      "notes": "G5:8 G5:8"
+    },
+    {
+      "chord": "G7sus4",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:8 E5:8"
+    },
+    {
+      "chord": "Dm7/C",
+      "notes": "F5:8 F5:8"
+    },
+    {
+      "chord": "G7/C",
+      "notes": "R:2 G4:1 B4:1 D5:1 F5:1 D5:1 B4:1 D5:1 B4:1 G4:1 B4:1 D5:1 F5:1 E5:1 D5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:16"
+    }
   ]
 }

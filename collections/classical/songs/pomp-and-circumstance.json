@@ -1,32 +1,93 @@
 {
   "title": "Pomp and Circumstance",
-  "source": "Edward Elgar, Pomp and Circumstance March No. 1, Op. 39, 1901 - public domain",
+  "source": "Edward Elgar, Pomp and Circumstance March No. 1, Op. 39, 1901",
   "key": "C",
   "meter": "4/4",
   "tempo": 84,
   "bars": [
-    { "chord": "C",   "notes": "C5:4 C5:4 [G7]B4:2 C5:2 D5:4" },
-    { "chord": "C",   "notes": "A4:8 G4:8" },
-    { "chord": "F",   "notes": "F4:4 F4:4 E4:2 F4:2 G4:4" },
-    { "chord": "Dm",  "notes": "D5:16" },
-    { "chord": "C",   "notes": "E4:8 [D7]F#4:2 G4:4 A4:2" },
-    { "chord": "G",   "notes": "D5:8 G4:8" },
-    { "chord": "Am7", "notes": "C5:4 C5:4 C5:2 B4:4 A4:2" },
-    { "chord": "G7",  "notes": "G4:16" },
-
-    { "chord": "C",   "notes": "C5:4 C5:4 [G7]B4:2 C5:2 D5:4" },
-    { "chord": "C",   "notes": "A4:8 G4:8" },
-    { "chord": "F",   "notes": "F4:4 F4:4 E4:2 F4:2 G4:4" },
-    { "chord": "Dm",  "notes": "D5:16" },
-    { "chord": "C",   "notes": "E4:8 [D7]F#4:2 G4:4 A4:2" },
-    { "chord": "G",   "notes": "D5:8 G4:8" },
-    { "chord": "F",   "notes": "F5:4 F5:4 F5:2 [G7]E5:4 D5:2" },
-    { "chord": "C",   "notes": "E5:16" },
-
-    { "chord": "F",   "notes": "A4:6 A4:2 [G7]B4:2 C5:4 D5:2" },
-    { "chord": "C",   "notes": "G4:8 C5:8" },
-    { "chord": "C",   "notes": "C5:8 C5:8" },
-    { "chord": "F",   "notes": "F5:4 [G7]E5:8 D5:4" },
-    { "chord": "C",   "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 [G7]B4:2 C5:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A4:8 G4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:4 F4:4 E4:2 F4:2 G4:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:16"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:8 [D7]F#4:2 G4:4 A4:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:8 G4:8"
+    },
+    {
+      "chord": "Am7",
+      "notes": "C5:4 C5:4 C5:2 B4:4 A4:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:16"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 [G7]B4:2 C5:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A4:8 G4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:4 F4:4 E4:2 F4:2 G4:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:16"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:8 [D7]F#4:2 G4:4 A4:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:8 G4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 F5:4 F5:2 [G7]E5:4 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:16"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:6 A4:2 [G7]B4:2 C5:4 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:8 C5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 C5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 [G7]E5:8 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

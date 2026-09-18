@@ -1,45 +1,145 @@
 {
   "title": "Sleeping Beauty Waltz",
-  "source": "Pyotr Ilyich Tchaikovsky, The Sleeping Beauty, Op. 66, 1890 - Garland Waltz - public domain",
+  "source": "Pyotr Ilyich Tchaikovsky, The Sleeping Beauty, Op. 66, 1890 - Garland Waltz",
   "key": "C",
   "meter": "3/4",
   "tempo": 180,
   "bars": [
-    { "chord": "C",   "notes": "C5:12" },
-    { "chord": "G7",  "notes": "B4:12" },
-    { "chord": "C",   "notes": "C5:8 A4:4" },
-    { "chord": "G7",  "notes": "B4:4 C5:4 A4:4" },
-    { "chord": "C",   "notes": "B4:8 D5:4" },
-    { "chord": "A7",  "notes": "E5:8 C#5:4" },
-    { "chord": "G7",  "notes": "D5:12~" },
-    { "chord": "G7",  "notes": "D5:12" },
-    { "chord": "C",   "notes": "G5:12" },
-    { "chord": "D7",  "notes": "F#5:12" },
-    { "chord": "Dm",  "notes": "F5:8 D5:4" },
-    { "chord": "Dm",  "notes": "F5:4 E5:4 D5:4" },
-    { "chord": "F",   "notes": "A5:8 G5:4" },
-    { "chord": "Dm",  "notes": "F5:8 E5:4" },
-    { "chord": "A7",  "notes": "E5:4 D5:4 C#5:4" },
-    { "chord": "G7",  "notes": "D5:4 A4:4 B4:4" },
-
-    { "chord": "C",   "notes": "E5:8 [F]F5:4~" },
-    { "chord": "F",   "notes": "F5:4 [D7]F#5:8" },
-    { "chord": "D7",  "notes": "A5:8 [G]G5:4~" },
-    { "chord": "G",   "notes": "G5:4 B5:8" },
-    { "chord": "C",   "notes": "C6:8 [G7]B5:4~" },
-    { "chord": "G7",  "notes": "B5:4 A5:8" },
-    { "chord": "G",   "notes": "G5:2 R:2 F#5:2 G5:2 B5:2 A5:2" },
-    { "chord": "G7",  "notes": "G5:2 E5:2 D5:2 E5:2 D5:2 B4:2" },
-    { "chord": "C",   "notes": "G4:2 R:2 G5:8" },
-
-    { "chord": "C",   "notes": "G5:12" },
-    { "chord": "D7",  "notes": "F#5:12" },
-    { "chord": "Dm",  "notes": "F5:8 D5:4" },
-    { "chord": "Dm",  "notes": "F5:4 E5:4 D5:4" },
-    { "chord": "F",   "notes": "A5:8 G5:4" },
-    { "chord": "Dm",  "notes": "F5:8 E5:4" },
-    { "chord": "A7",  "notes": "E5:4 D5:4 C#5:4" },
-    { "chord": "G7",  "notes": "D5:4 A4:4 B4:4" },
-    { "chord": "C",   "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    },
+    {
+      "chord": "G7",
+      "notes": "B4:12"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 A4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "B4:4 C5:4 A4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "B4:8 D5:4"
+    },
+    {
+      "chord": "A7",
+      "notes": "E5:8 C#5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:12~"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:12"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:12"
+    },
+    {
+      "chord": "D7",
+      "notes": "F#5:12"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:8 D5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:4 E5:4 D5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 G5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:8 E5:4"
+    },
+    {
+      "chord": "A7",
+      "notes": "E5:4 D5:4 C#5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:4 A4:4 B4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 [F]F5:4~"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 [D7]F#5:8"
+    },
+    {
+      "chord": "D7",
+      "notes": "A5:8 [G]G5:4~"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:4 B5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 [G7]B5:4~"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:4 A5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:2 R:2 F#5:2 G5:2 B5:2 A5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 E5:2 D5:2 E5:2 D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:2 R:2 G5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:12"
+    },
+    {
+      "chord": "D7",
+      "notes": "F#5:12"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:8 D5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:4 E5:4 D5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 G5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:8 E5:4"
+    },
+    {
+      "chord": "A7",
+      "notes": "E5:4 D5:4 C#5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:4 A4:4 B4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

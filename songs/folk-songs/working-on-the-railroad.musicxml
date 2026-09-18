@@ -2,7 +2,7 @@
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
   <work><work-title>I've Been Working on the Railroad</work-title></work>
-  <identification><creator type="composer">Traditional American, first published 1894 as 'Levee Song' - public domain. Verse after the Digital Tradition setting; the chorus ('Someone's in the kitchen with Dinah') rests on that one setting alone, the only ABC source found carrying it, checked by ear against the tune as sung</creator></identification>
+  <identification><creator type="composer">Traditional American, first published 1894 as 'Levee Song'. Verse after the Digital Tradition setting; the chorus ('Someone's in the kitchen with Dinah') rests on that one setting alone, the only ABC source found carrying it, checked by ear against the tune as sung</creator></identification>
   <defaults><scaling><millimeters>6.8</millimeters><tenths>40</tenths></scaling></defaults>
   <part-list><score-part id="P1"><part-name>Piano</part-name>
     <score-instrument id="P1-I1"><instrument-name>Piano</instrument-name></score-instrument>

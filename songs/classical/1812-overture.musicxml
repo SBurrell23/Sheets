@@ -2,7 +2,7 @@
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
   <work><work-title>1812 Overture</work-title></work>
-  <identification><creator type="composer">Pyotr Ilyich Tchaikovsky, 1812 Overture, 1880 - closing theme, the hymn "God Save the Tsar" by Alexei Lvov, 1833 - public domain</creator></identification>
+  <identification><creator type="composer">Pyotr Ilyich Tchaikovsky, 1812 Overture, 1880 - closing theme, the hymn "God Save the Tsar" by Alexei Lvov, 1833</creator></identification>
   <defaults><scaling><millimeters>6.8</millimeters><tenths>40</tenths></scaling></defaults>
   <part-list><score-part id="P1"><part-name>Piano</part-name>
     <score-instrument id="P1-I1"><instrument-name>Piano</instrument-name></score-instrument>

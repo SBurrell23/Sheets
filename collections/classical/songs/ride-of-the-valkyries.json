@@ -1,37 +1,98 @@
 {
   "title": "Ride of the Valkyries",
-  "source": "Richard Wagner, Die Walküre, Act III prelude, 1870 - public domain",
+  "source": "Richard Wagner, Die Walküre, Act III prelude, 1870",
   "key": "Am",
   "meter": "9/8",
   "tempo": 100,
   "pickup": 2,
   "bars": [
-    { "chord": "Am", "notes": "E4:2" },
-
-    { "chord": "Am", "notes": "A4:3 E4:1 A4:2 C5:6 A4:6" },
-    { "chord": "Am", "notes": "C5:3 A4:1 C5:2 E5:6 C5:6" },
-    { "chord": "C",  "notes": "E5:3 C5:1 E5:2 G5:6 G4:6" },
-    { "chord": "C",  "notes": "C5:3 G4:1 C5:2 E5:8 R:2 G4:2" },
-
-    { "chord": "C",  "notes": "C5:3 G4:1 C5:2 E5:6 C5:6" },
-    { "chord": "C",  "notes": "E5:3 C5:1 E5:2 G5:6 E5:6" },
-    { "chord": "Em", "notes": "G5:3 E5:1 G5:2 B5:6 B4:6" },
-    { "chord": "E7", "notes": "E5:3 B4:1 E5:2 G#5:8 R:2 E4:2" },
-
-    { "chord": "Dm", "notes": "F4:3 D4:1 F4:2 A4:8 R:2 E5:2" },
-    { "chord": "Dm", "notes": "F5:3 D5:1 F5:2 A5:8 R:2 E4:2" },
-    { "chord": "Dm", "notes": "F4:3 D4:1 F4:2 Bb4:6 [E7]E4:6" },
-    { "chord": "Am", "notes": "A4:3 C5:1 E5:2 A5:12~" },
-    { "chord": "Am", "notes": "A5:12~ A5:2 R:2 E4:2" },
-
-    { "chord": "Dm", "notes": "F4:3 D4:1 F4:2 A4:8 R:2 E5:2" },
-    { "chord": "Dm", "notes": "F5:3 D5:1 F5:2 A5:8 R:2 E4:2" },
-    { "chord": "Dm", "notes": "F4:3 D4:1 F4:2 B4:6 [E7]E4:6" },
-    { "chord": "A",  "notes": "A4:3 C#5:1 E5:2 A5:12" },
-
-    { "chord": "A",  "notes": "A4:3 E4:1 A4:2 C#5:3 A4:1 C#5:2 E5:3 C#5:1 E5:2" },
-    { "chord": "A",  "notes": "A5:8 G#5:2 F#5:2 E5:2 D5:2 C#5:2" },
-    { "chord": "A",  "notes": "B4:2 A4:2 G#4:2 F#4:2 E4:2 D4:2 C#4:2 E4:2 A4:2" },
-    { "chord": "A",  "notes": "A4:6 A5:12" }
+    {
+      "chord": "Am",
+      "notes": "E4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:3 E4:1 A4:2 C5:6 A4:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:3 A4:1 C5:2 E5:6 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:3 C5:1 E5:2 G5:6 G4:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 G4:1 C5:2 E5:8 R:2 G4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 G4:1 C5:2 E5:6 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:3 C5:1 E5:2 G5:6 E5:6"
+    },
+    {
+      "chord": "Em",
+      "notes": "G5:3 E5:1 G5:2 B5:6 B4:6"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:3 B4:1 E5:2 G#5:8 R:2 E4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F4:3 D4:1 F4:2 A4:8 R:2 E5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:3 D5:1 F5:2 A5:8 R:2 E4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F4:3 D4:1 F4:2 Bb4:6 [E7]E4:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:3 C5:1 E5:2 A5:12~"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:12~ A5:2 R:2 E4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F4:3 D4:1 F4:2 A4:8 R:2 E5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:3 D5:1 F5:2 A5:8 R:2 E4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F4:3 D4:1 F4:2 B4:6 [E7]E4:6"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:3 C#5:1 E5:2 A5:12"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:3 E4:1 A4:2 C#5:3 A4:1 C#5:2 E5:3 C#5:1 E5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "A5:8 G#5:2 F#5:2 E5:2 D5:2 C#5:2"
+    },
+    {
+      "chord": "A",
+      "notes": "B4:2 A4:2 G#4:2 F#4:2 E4:2 D4:2 C#4:2 E4:2 A4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:6 A5:12"
+    }
   ]
 }

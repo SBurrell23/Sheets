@@ -1,29 +1,78 @@
 {
   "title": "Down by the Sally Gardens",
-  "source": "Traditional Irish air, \"The Maids of Mourne Shore\" - public domain",
+  "source": "Traditional Irish air, \"The Maids of Mourne Shore\"",
   "key": "C",
   "meter": "4/4",
   "tempo": 68,
   "pickup": 4,
   "bars": [
-    { "chord": "C",  "notes": "C5:2 D5:2" },
-    { "chord": "C",  "notes": "E5:4 D5:2 C5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "F",  "notes": "G5:8 [C]A5:4 C6:2 G5:2" },
-    { "chord": "F",  "notes": "A5:4 G5:2 E5:2 [G]D5:6 C5:2" },
-    { "chord": "Am", "notes": "A4:8 G4:4 C5:2 D5:2" },
-    { "chord": "C",  "notes": "E5:4 D5:2 C5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "F",  "notes": "G5:8 [C]A5:4 C6:2 G5:2" },
-    { "chord": "F",  "notes": "A5:4 G5:2 E5:2 [G]D5:6 C5:2" },
-    { "chord": "C",  "notes": "C5:12 G5:4" },
-
-    { "chord": "Am", "notes": "C6:4 B5:2 G5:2 A5:6 C6:2" },
-    { "chord": "Em", "notes": "B5:6 G5:2 E5:4 E5:2 G5:2" },
-    { "chord": "F",  "notes": "A5:4 G5:2 E5:2 [G]G5:2 A5:2 C6:2 D6:2" },
-    { "chord": "C",  "notes": "C6:12 C5:2 D5:2" },
-
-    { "chord": "C",  "notes": "E5:4 D5:2 C5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "F",  "notes": "G5:8 [C]A5:4 C6:2 G5:2" },
-    { "chord": "F",  "notes": "A5:4 G5:2 E5:2 [G]D5:6 C5:2" },
-    { "chord": "C",  "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 D5:2 C5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "G5:8 [C]A5:4 C6:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:2 E5:2 [G]D5:6 C5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:8 G4:4 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 D5:2 C5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "G5:8 [C]A5:4 C6:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:2 E5:2 [G]D5:6 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12 G5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C6:4 B5:2 G5:2 A5:6 C6:2"
+    },
+    {
+      "chord": "Em",
+      "notes": "B5:6 G5:2 E5:4 E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:2 E5:2 [G]G5:2 A5:2 C6:2 D6:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:12 C5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 D5:2 C5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "G5:8 [C]A5:4 C6:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:2 E5:2 [G]D5:6 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

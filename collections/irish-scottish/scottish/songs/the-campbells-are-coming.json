@@ -1,29 +1,78 @@
 {
   "title": "The Campbells Are Coming",
-  "source": "Traditional Scottish march, \"Baile Ionaraora\" / \"The Inveraray Wedding\", printed by 1782 - public domain",
+  "source": "Traditional Scottish march, \"Baile Ionaraora\" / \"The Inveraray Wedding\", printed by 1782",
   "key": "C",
   "meter": "6/8",
   "tempo": 112,
   "pickup": 2,
   "bars": [
-    { "chord": "C",  "notes": "C5:2" },
-
-    { "chord": "C",  "notes": "E5:4 A5:2 G5:2 E5:2 C5:2" },
-    { "chord": "C",  "notes": "E5:2 F5:2 E5:2 [G7]E5:4 D5:2" },
-    { "chord": "C",  "notes": "E5:4 A5:2 G5:2 E5:2 C5:2" },
-    { "chord": "Dm", "notes": "D5:2 E5:2 D5:2 [G7]D5:4 C5:2" },
-    { "chord": "C",  "notes": "E5:4 A5:2 G5:2 E5:2 C5:2" },
-    { "chord": "C",  "notes": "E5:2 F5:2 E5:2 C6:2 D6:2 E6:2" },
-    { "chord": "C",  "notes": "C6:2 A5:2 C6:2 G5:2 E5:2 C5:2" },
-    { "chord": "C",  "notes": "E5:2 F5:2 E5:2 [G7]E5:4 G5:2" },
-
-    { "chord": "C",  "notes": "C6:4 C6:2 C6:2 D6:2 E6:2" },
-    { "chord": "C",  "notes": "G5:2 A5:2 G5:2 G5:2 E5:2 C5:2" },
-    { "chord": "C",  "notes": "C6:4 C6:2 C6:2 D6:2 E6:2" },
-    { "chord": "F",  "notes": "A5:4 A5:2 [G7]A5:4 G5:2" },
-    { "chord": "C",  "notes": "G5:2 A5:2 B5:2 [F]C6:2 B5:2 A5:2" },
-    { "chord": "G7", "notes": "G5:2 A5:2 B5:2 [C]C6:2 D6:2 E6:2" },
-    { "chord": "C",  "notes": "C6:2 A5:2 C6:2 G5:2 E5:2 C5:2" },
-    { "chord": "G7", "notes": "D5:2 E5:2 D5:2 [C]C5:6" }
+    {
+      "chord": "C",
+      "notes": "C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 A5:2 G5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 F5:2 E5:2 [G7]E5:4 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 A5:2 G5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:2 E5:2 D5:2 [G7]D5:4 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 A5:2 G5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 F5:2 E5:2 C6:2 D6:2 E6:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:2 A5:2 C6:2 G5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 F5:2 E5:2 [G7]E5:4 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 C6:2 C6:2 D6:2 E6:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:2 G5:2 G5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 C6:2 C6:2 D6:2 E6:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 A5:2 [G7]A5:4 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:2 B5:2 [F]C6:2 B5:2 A5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 A5:2 B5:2 [C]C6:2 D6:2 E6:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:2 A5:2 C6:2 G5:2 E5:2 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 E5:2 D5:2 [C]C5:6"
+    }
   ]
 }

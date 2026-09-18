@@ -1,23 +1,57 @@
 {
   "title": "The Butterfly",
-  "source": "Traditional Irish slip jig, also \"Barney's Goat\" — public domain",
+  "source": "Traditional Irish slip jig, also \"Barney's Goat\"",
   "key": "Am",
   "meter": "9/8",
   "tempo": 126,
   "bars": [
-    { "chord": "Am", "notes": "E5:4 A4:2 C5:4 A4:2 [G]B4:6" },
-    { "chord": "Am", "notes": "E5:4 A4:2 C5:4 A4:2 [G]B4:2 A4:2 G4:2" },
-    { "chord": "Am", "notes": "E5:4 A4:2 C5:4 A4:2 [G]B4:6" },
-    { "chord": "C",  "notes": "E5:4 G5:2 G5:4 E5:2 [G]D5:2 B4:2 G4:2" },
-
-    { "chord": "Am", "notes": "E5:4 G5:2 A5:4 B5:2 C6:6" },
-    { "chord": "Am", "notes": "E5:4 G5:2 C6:4 A5:2 [G]G5:2 E5:2 D5:2" },
-    { "chord": "Am", "notes": "E5:4 G5:2 A5:4 B5:2 C6:4 D6:2" },
-    { "chord": "C",  "notes": "E6:4 D6:2 C6:4 A5:2 [G]G5:2 E5:2 D5:2" },
-
-    { "chord": "Am", "notes": "E5:6 E5:4 D5:2 C5:4 D5:2" },
-    { "chord": "Am", "notes": "E5:6 E5:2 D5:2 E5:2 [G]G5:2 E5:2 D5:2" },
-    { "chord": "Am", "notes": "E5:6 E5:4 D5:2 C5:4 D5:2" },
-    { "chord": "C",  "notes": "E5:4 G5:2 C6:4 A5:2 [G]G5:2 E5:2 D5:2" }
+    {
+      "chord": "Am",
+      "notes": "E5:4 A4:2 C5:4 A4:2 [G]B4:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 A4:2 C5:4 A4:2 [G]B4:2 A4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 A4:2 C5:4 A4:2 [G]B4:6"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:2 G5:4 E5:2 [G]D5:2 B4:2 G4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 G5:2 A5:4 B5:2 C6:6"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 G5:2 C6:4 A5:2 [G]G5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 G5:2 A5:4 B5:2 C6:4 D6:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E6:4 D6:2 C6:4 A5:2 [G]G5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 E5:4 D5:2 C5:4 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 E5:2 D5:2 E5:2 [G]G5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 E5:4 D5:2 C5:4 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:2 C6:4 A5:2 [G]G5:2 E5:2 D5:2"
+    }
   ]
 }

@@ -46,7 +46,9 @@ Write exactly one file to the path you are given, `collections/folk-songs/songs/
 ```
 
 - `title` — the song's usual title, spelled normally.
-- `source` — composer/date if known, otherwise "Traditional", **and the words "public domain"**.
+- `source` — composer/date if known, otherwise "Traditional".
+  **Do not write "public domain" into it** — everything on the site is, so saying it on
+  every score is noise. The rule about arranging nothing else is unchanged.
 - `key` — `C` for major tunes, `Am` for minor ones. Nothing else.
 - `meter` — `4/4`, `3/4`, `2/4`, `6/8`, `9/8` or `12/8`. Use the meter the tune is really in.
 - `pickup` — **omit it** if the tune starts on beat 1. If the tune starts with an upbeat, set

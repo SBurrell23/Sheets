@@ -1,26 +1,73 @@
 {
   "title": "The Great Gate of Kiev",
-  "source": "Modest Mussorgsky, Pictures at an Exhibition, 1874 - public domain",
+  "source": "Modest Mussorgsky, Pictures at an Exhibition, 1874",
   "key": "C",
   "meter": "2/2",
   "tempo": 66,
   "bars": [
-    { "chord": "C/E", "notes": "C5:16" },
-    { "chord": "G/D", "notes": "D5:16" },
-    { "chord": "C",   "notes": "E5:8 [Am]C5:4 E5:4" },
-    { "chord": "G/B", "notes": "D5:8 [G]G4:8" },
-    { "chord": "C",   "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4" },
-    { "chord": "G",   "notes": "B4:8 [C/E]G4:8" },
-    { "chord": "C",   "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4" },
-    { "chord": "G",   "notes": "B4:8 [C/E]G4:8" },
-
-    { "chord": "C/E", "notes": "C5:16" },
-    { "chord": "G/D", "notes": "D5:16" },
-    { "chord": "C",   "notes": "E5:8 [Am]C5:4 E5:4" },
-    { "chord": "G/B", "notes": "D5:8 [G]G4:8" },
-    { "chord": "C",   "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4" },
-    { "chord": "G",   "notes": "B4:8 [C/E]G4:8" },
-    { "chord": "C",   "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4" },
-    { "chord": "G",   "notes": "B4:8 [C]C5:8" }
+    {
+      "chord": "C/E",
+      "notes": "C5:16"
+    },
+    {
+      "chord": "G/D",
+      "notes": "D5:16"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 [Am]C5:4 E5:4"
+    },
+    {
+      "chord": "G/B",
+      "notes": "D5:8 [G]G4:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:8 [C/E]G4:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:8 [C/E]G4:8"
+    },
+    {
+      "chord": "C/E",
+      "notes": "C5:16"
+    },
+    {
+      "chord": "G/D",
+      "notes": "D5:16"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 [Am]C5:4 E5:4"
+    },
+    {
+      "chord": "G/B",
+      "notes": "D5:8 [G]G4:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:8 [C/E]G4:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 [G/B]D5:4 [Am7]C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "B4:8 [C]C5:8"
+    }
   ]
 }

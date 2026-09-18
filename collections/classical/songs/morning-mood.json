@@ -1,28 +1,73 @@
 {
   "title": "Morning Mood",
-  "source": "Edvard Grieg, Peer Gynt, Op. 23, 1875 - public domain",
+  "source": "Edvard Grieg, Peer Gynt, Op. 23, 1875",
   "key": "C",
   "meter": "6/8",
   "tempo": 108,
   "bars": [
-    { "chord": "C",  "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "C",  "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "Am", "notes": "D5:2 E5:2 G5:2 E5:2 G5:2 A5:2" },
-    { "chord": "C",  "notes": "E5:2 A5:2 G5:2 E5:2 D5:2 C5:2" },
-
-    { "chord": "C",  "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "C",  "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "Am", "notes": "D5:2 E5:2 G5:2 E5:2 G5:2 A5:2" },
-    { "chord": "Am", "notes": "E5:2 A5:2 G5:2 E5:2 G5:2 A5:2" },
-
-    { "chord": "Dm", "notes": "A5:2 F5:2 E5:2 D5:2 E5:2 F5:2" },
-    { "chord": "Dm", "notes": "A5:2 F5:2 E5:2 D5:2 E5:2 F5:2" },
-    { "chord": "G7", "notes": "E5:2 F5:2 A5:2 F5:2 A5:2 B5:2" },
-    { "chord": "G7", "notes": "F5:2 B5:2 A5:2 F5:2 E5:2 D5:2" },
-
-    { "chord": "C",  "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2" },
-    { "chord": "Am", "notes": "D5:2 E5:2 G5:2 E5:2 G5:2 A5:2" },
-    { "chord": "C",  "notes": "E5:2 A5:2 G5:2 E5:2 [G7]D5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "D5:2 E5:2 G5:2 E5:2 G5:2 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 A5:2 G5:2 E5:2 D5:2 C5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "D5:2 E5:2 G5:2 E5:2 G5:2 A5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 A5:2 G5:2 E5:2 G5:2 A5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "A5:2 F5:2 E5:2 D5:2 E5:2 F5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "A5:2 F5:2 E5:2 D5:2 E5:2 F5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:2 F5:2 A5:2 F5:2 A5:2 B5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 B5:2 A5:2 F5:2 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 E5:2 D5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "D5:2 E5:2 G5:2 E5:2 G5:2 A5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 A5:2 G5:2 E5:2 [G7]D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

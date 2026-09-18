@@ -1,28 +1,73 @@
 {
   "title": "Go Tell It on the Mountain",
-  "source": "Traditional African-American spiritual, published 1907 — public domain",
+  "source": "Traditional African-American spiritual, published 1907",
   "key": "C",
   "meter": "4/4",
   "tempo": 104,
   "bars": [
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:4 A5:4" },
-    { "chord": "C",  "notes": "G5:4 E5:8 C5:4" },
-    { "chord": "G7", "notes": "D5:4 D5:4 C5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:12 C5:4" },
-
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:4 A5:4" },
-    { "chord": "C",  "notes": "G5:4 E5:8 C5:4" },
-    { "chord": "Dm", "notes": "D5:4 D5:4 C5:4 A4:4" },
-    { "chord": "C",  "notes": "G4:8 [G7]F5:8" },
-
-    { "chord": "C",  "notes": "E5:8 E5:3 D5:1 C5:3 A4:1" },
-    { "chord": "C",  "notes": "G4:8 C5:8" },
-    { "chord": "G",  "notes": "D5:2 D5:4 D5:2 C5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:4 G5:4 [G7]A5:4 G5:4" },
-
-    { "chord": "C",  "notes": "E5:8 E5:3 D5:1 C5:3 A4:1" },
-    { "chord": "C",  "notes": "G4:8 C5:6 D5:2" },
-    { "chord": "C",  "notes": "E5:4 E5:4 [G7]D5:3 C5:1 D5:4" },
-    { "chord": "C",  "notes": "C5:16" }
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:8 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:4 D5:4 C5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:12 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:8 C5:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:4 D5:4 C5:4 A4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:8 [G7]F5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:3 D5:1 C5:3 A4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:8 C5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:2 D5:4 D5:2 C5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 [G7]A5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 E5:3 D5:1 C5:3 A4:1"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:8 C5:6 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 [G7]D5:3 C5:1 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

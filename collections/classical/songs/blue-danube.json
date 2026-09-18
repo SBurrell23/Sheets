@@ -1,42 +1,141 @@
 {
   "title": "The Blue Danube",
-  "source": "Johann Strauss II, An der schoenen blauen Donau, Op. 314, 1866 - public domain",
+  "source": "Johann Strauss II, An der schoenen blauen Donau, Op. 314, 1866",
   "key": "C",
   "meter": "3/4",
   "tempo": 168,
   "bars": [
-    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
-    { "chord": "C",  "notes": "G5:8 G5:4" },
-    { "chord": "C",  "notes": "G5:8 E5:4" },
-    { "chord": "C",  "notes": "E5:8 C5:4" },
-    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
-    { "chord": "G7", "notes": "G5:8 G5:4" },
-    { "chord": "G7", "notes": "G5:8 F5:4" },
-    { "chord": "G7", "notes": "F5:8 B4:4" },
-    { "chord": "G7", "notes": "B4:4 D5:4 A5:4" },
-    { "chord": "G7", "notes": "A5:8 A5:4" },
-    { "chord": "G7", "notes": "A5:8 F5:4" },
-    { "chord": "G7", "notes": "F5:8 B4:4" },
-    { "chord": "G7", "notes": "B4:4 D5:4 A5:4" },
-    { "chord": "C",  "notes": "A5:8 A5:4" },
-    { "chord": "C",  "notes": "A5:8 E5:4" },
-    { "chord": "C",  "notes": "E5:8 C5:4" },
-    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
-    { "chord": "C",  "notes": "C6:8 C6:4" },
-    { "chord": "C",  "notes": "C6:8 G5:4" },
-    { "chord": "C",  "notes": "G5:8 C5:4" },
-    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
-    { "chord": "F",  "notes": "C6:8 C6:4" },
-    { "chord": "F",  "notes": "C6:8 A5:4" },
-    { "chord": "F",  "notes": "A5:8 D5:4" },
-    { "chord": "F",  "notes": "D5:4 F5:4 A5:4" },
-    { "chord": "G7", "notes": "A5:12~" },
-    { "chord": "G7", "notes": "A5:4 F#5:4 G5:4" },
-    { "chord": "C",  "notes": "E5:12~" },
-    { "chord": "C",  "notes": "E5:4 C5:4 E5:4" },
-    { "chord": "F",  "notes": "E5:8 D5:4" },
-    { "chord": "G7", "notes": "A5:8 G5:4" },
-    { "chord": "C",  "notes": "C5:6 C5:2 C5:4" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 E5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:4 G5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:8 G5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:8 F5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:8 B4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "B4:4 D5:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A5:8 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A5:8 F5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:8 B4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "B4:4 D5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:8 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "A5:8 E5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 C6:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 E5:4 G5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:8 C6:4"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:8 A5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 D5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "D5:4 F5:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A5:12~"
+    },
+    {
+      "chord": "G7",
+      "notes": "A5:4 F#5:4 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:12~"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 C5:4 E5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "E5:8 D5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "A5:8 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 C5:2 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

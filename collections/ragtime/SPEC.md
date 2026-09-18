@@ -62,9 +62,10 @@ Write exactly one file to the path you are given, `collections/ragtime/songs/<sl
 ```
 
 - `title` — the name people know it by.
-- `source` — composer and date where known, otherwise "Traditional", **plus the words
-  "public domain"**. This string is printed as the credit line on the engraved score, so make it
-  accurate and presentable.
+- `source` — composer and date where known, otherwise "Traditional". This string is printed
+  as the credit line on the engraved score, so make it accurate and presentable.
+  **Do not write "public domain" into it** — everything on the site is, so saying it on
+  every score is noise. The rule about arranging nothing else is unchanged.
 - `key` — `C` for major numbers, `Am` for minor ones. Nothing else; the player transposes.
 - `meter` — `4/4`, `3/4`, `2/4`, `6/8`, `9/8` (slip jig) or `12/8` (compound four).
   Use the meter the piece is really in; do not force it into 4/4.

@@ -2,7 +2,7 @@
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
   <work><work-title>Ae Fond Kiss</work-title></work>
-  <identification><creator type="composer">Traditional Scottish air "Rory Dall's Port", words by Robert Burns 1791, Scots Musical Museum vol. IV 1792 - public domain</creator></identification>
+  <identification><creator type="composer">Traditional Scottish air "Rory Dall's Port", words by Robert Burns 1791, Scots Musical Museum vol. IV 1792</creator></identification>
   <defaults><scaling><millimeters>6.8</millimeters><tenths>40</tenths></scaling></defaults>
   <part-list><score-part id="P1"><part-name>Piano</part-name>
     <score-instrument id="P1-I1"><instrument-name>Piano</instrument-name></score-instrument>

@@ -1,47 +1,142 @@
 {
   "title": "St. James Infirmary Blues",
-  "source": "Traditional - public domain",
+  "source": "Traditional",
   "key": "Am",
   "meter": "4/4",
   "pickup": 4,
   "tempo": 72,
   "bars": [
-    { "chord": "Am", "notes": "E5:3 E5:1" },
-
-    { "chord": "Am", "notes": "E5:4 E5:2 E5:2 [E7]D5:2 D5:4 E5:2" },
-    { "chord": "Am", "notes": "C5:4 A4:8 E5:4" },
-    { "chord": "Am", "notes": "E5:6 E5:2 [Dm]A5:4 F5:4" },
-    { "chord": "Am", "notes": "E5:12 E5:2 E5:2" },
-    { "chord": "Am", "notes": "E5:2 E5:2 E5:2 E5:2 [E7]D5:4 E5:4" },
-    { "chord": "Am", "notes": "C5:4 A4:8 A4:2 B4:2" },
-    { "chord": "Am", "notes": "C5:4 C5:2 A4:2 [E7]E5:2 D5:2 C5:4" },
-    { "chord": "Am", "notes": "A4:12 E5:3 E5:1" },
-
-    { "chord": "Am", "notes": "E5:4 E5:2 E5:2 [E7]D5:4 E5:4" },
-    { "chord": "Am", "notes": "C5:2 A4:6 R:4 A4:2 C5:2" },
-    { "chord": "Am", "notes": "E5:2 E5:6 [Dm]A5:6 F5:2" },
-    { "chord": "E",  "notes": "E5:8 R:4 R:2 D#5:2" },
-    { "chord": "Am", "notes": "E5:4 E5:2 E5:2 [E7]D5:4 E5:2 D5:2" },
-    { "chord": "Am", "notes": "C5:2 A4:6 R:4 A4:2 B4:2" },
-    { "chord": "F7", "notes": "C5:2 A4:4 C5:2 [E7]B4:4 C5:2 B4:2" },
-    { "chord": "Am", "notes": "A4:12 C5:2 E5:2" },
-
-    { "chord": "Am", "notes": "E5:4 G5:2 E5:2 [E7]D5:2 B4:2 D5:4" },
-    { "chord": "Am", "notes": "C5:2 A4:6 A4:2 C5:2 E5:4" },
-    { "chord": "Am", "notes": "E5:2 E5:4 E5:2 [Dm]A5:4 F5:4" },
-    { "chord": "E",  "notes": "E5:8 D5:2 C5:2 B4:2 D#5:2" },
-    { "chord": "Am", "notes": "E5:4 E5:2 G5:2 [E7]D5:4 E5:4" },
-    { "chord": "Am", "notes": "C5:2 A4:4 C5:2 A4:4 B4:4" },
-    { "chord": "F7", "notes": "C5:2 A4:2 C5:2 F5:2 [E7]E5:4 D5:2 B4:2" },
-    { "chord": "Am", "notes": "A4:8 C5:4 E5:4" },
-
-    { "chord": "Am", "notes": "E5:4 E5:2 G5:2 [E7]D5:2 D5:4 E5:2" },
-    { "chord": "Am", "notes": "C5:4 A4:6 C5:2 E5:4" },
-    { "chord": "Am", "notes": "E5:6 G5:2 [Dm]A5:6 F5:2" },
-    { "chord": "E7", "notes": "E5:8 E5:2 D5:2 C5:2 B4:2" },
-    { "chord": "Am", "notes": "E5:2 E5:2 E5:2 G5:2 [E7]D5:4 E5:4" },
-    { "chord": "Am", "notes": "C5:4 A4:4 C5:2 A4:2 B4:4" },
-    { "chord": "F7", "notes": "C5:2 A4:2 C5:2 F5:2 [E7]E5:4 D5:2 B4:2" },
-    { "chord": "Am", "notes": "A4:16" }
+    {
+      "chord": "Am",
+      "notes": "E5:3 E5:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 E5:2 E5:2 [E7]D5:2 D5:4 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 A4:8 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 E5:2 [Dm]A5:4 F5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:12 E5:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 E5:2 E5:2 E5:2 [E7]D5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 A4:8 A4:2 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:2 A4:2 [E7]E5:2 D5:2 C5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:12 E5:3 E5:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 E5:2 E5:2 [E7]D5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:6 R:4 A4:2 C5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 E5:6 [Dm]A5:6 F5:2"
+    },
+    {
+      "chord": "E",
+      "notes": "E5:8 R:4 R:2 D#5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 E5:2 E5:2 [E7]D5:4 E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:6 R:4 A4:2 B4:2"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:2 A4:4 C5:2 [E7]B4:4 C5:2 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:12 C5:2 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 G5:2 E5:2 [E7]D5:2 B4:2 D5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:6 A4:2 C5:2 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 E5:4 E5:2 [Dm]A5:4 F5:4"
+    },
+    {
+      "chord": "E",
+      "notes": "E5:8 D5:2 C5:2 B4:2 D#5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 E5:2 G5:2 [E7]D5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:2 A4:4 C5:2 A4:4 B4:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:2 A4:2 C5:2 F5:2 [E7]E5:4 D5:2 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:8 C5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 E5:2 G5:2 [E7]D5:2 D5:4 E5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 A4:6 C5:2 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 G5:2 [Dm]A5:6 F5:2"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:8 E5:2 D5:2 C5:2 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 E5:2 E5:2 G5:2 [E7]D5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 A4:4 C5:2 A4:2 B4:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:2 A4:2 C5:2 F5:2 [E7]E5:4 D5:2 B4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:16"
+    }
   ]
 }

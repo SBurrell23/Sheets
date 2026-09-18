@@ -1,74 +1,250 @@
 {
   "title": "Yellow Dog Blues",
-  "source": "W. C. Handy, 1914; from the 1919 Pace & Handy edition - public domain",
+  "source": "W. C. Handy, 1914; from the 1919 Pace & Handy edition",
   "key": "C",
   "meter": "4/4",
   "pickup": 6,
   "tempo": 84,
   "bars": [
-    { "chord": "G7",    "notes": "G5:2 G5:2 G5:2" },
-    { "chord": "C7",    "notes": "G5:4 A5:4 Bb5:2 Bb5:2 A5:2 A5:2" },
-    { "chord": "C7",    "notes": "G5:2 A5:4 Bb5:4 Bb5:2 A5:2 G#5:2" },
-    { "chord": "C7",    "notes": "G5:4 A5:4 Bb5:4 A5:4" },
-    { "chord": "C",     "notes": "G5:2 A5:4 G5:6 R:4" },
-    { "chord": "F7",    "notes": "C5:4 C5:4 C5:4 C5:4" },
-    { "chord": "F7",    "notes": "C5:2 D5:4 Eb5:6 D5:4" },
-    { "chord": "C",     "notes": "C5:16~" },
-    { "chord": "C",     "notes": "C5:12 R:4" },
-    { "chord": "G7",    "notes": "R:2 G5:2 F#5:2 F5:6 D5:4" },
-    { "chord": "G7",    "notes": "R:2 G5:2 G#5:2 A5:6 G5:4" },
-    { "chord": "C",     "notes": "C5:16~" },
-    { "chord": "C",     "notes": "C5:12 R:4" },
-    { "chord": "C7",    "notes": "G5:2 G5:2 A5:4 Bb5:4 A5:4" },
-    { "chord": "C7",    "notes": "G5:2 A5:4 Bb5:6 R:4" },
-    { "chord": "C7",    "notes": "G5:2 G5:2 A5:4 Bb5:4 A5:4" },
-    { "chord": "C",     "notes": "G5:2 A5:4 G5:6 C6:4" },
-    { "chord": "F7",    "notes": "C5:4 C5:4 C5:4 C5:4" },
-    { "chord": "F7",    "notes": "C5:2 D5:4 Eb5:6 D5:4" },
-    { "chord": "C",     "notes": "C6:4 A5:4 G5:4 A5:4" },
-    { "chord": "C",     "notes": "G5:2 A5:4 G5:6 R:4" },
-    { "chord": "G7",    "notes": "R:4 G5:4 A5:2 A5:2 Bb5:4" },
-    { "chord": "G7",    "notes": "B5:2 E6:4 D6:2 C6:2 C6:6" },
-    { "chord": "C",     "notes": "C6:12 R:4" },
-
-    { "chord": "C",     "notes": "R:8 R:2 C6:2 C6:2 C6:2" },
-    { "chord": "F",     "notes": "C6:2 C6:12~ C6:2" },
-    { "chord": "F7",    "notes": "R:2 G#5:2 A5:2 C6:2 A5:2 Eb5:2 E5:2 [C]G5:2" },
-    { "chord": "C",     "notes": "G5:16~" },
-    { "chord": "C7",    "notes": "G5:8 R:2 C6:2 C6:2 C6:2" },
-    { "chord": "F",     "notes": "C6:2 C6:12~ C6:2" },
-    { "chord": "F",     "notes": "R:2 G#5:2 A5:2 C6:2 A5:2 F5:6" },
-    { "chord": "C",     "notes": "C5:16~" },
-
-    { "chord": "C",     "notes": "C5:8 R:6 G#5:2" },
-    { "chord": "D7",    "notes": "A5:2 A5:6 A5:8" },
-    { "chord": "D7",    "notes": "R:4 F#5:4 E5:4 D5:4" },
-    { "chord": "G7",    "notes": "G5:16" },
-    { "chord": "G7",    "notes": "G5:4 G5:4 F#5:4 F5:4" },
-
-    { "chord": "C7",    "notes": "E5:12 E5:4" },
-    { "chord": "Dm7",   "notes": "F5:8 [D#dim]F#5:8" },
-    { "chord": "Am7",   "notes": "R:2 G5:2 A5:2 C6:4 A5:2 G5:4" },
-    { "chord": "C7",    "notes": "E5:8 Eb5:2 D5:6" },
-    { "chord": "F7",    "notes": "R:2 C5:2 D5:2 Eb5:6 D5:4" },
-    { "chord": "F7",    "notes": "R:2 C5:2 D5:2 Eb5:4 C5:6" },
-    { "chord": "C",     "notes": "C5:16~" },
-    { "chord": "C",     "notes": "C5:2 R:12 R:2" },
-    { "chord": "G7",    "notes": "G5:2 D5:6 D5:8" },
-    { "chord": "C7",    "notes": "R:2 Eb5:2 E5:2 Eb5:2 E5:2 C5:6" },
-    { "chord": "C7",    "notes": "C5:4 R:12" },
-    { "chord": "G7",    "notes": "R:16" },
-
-    { "chord": "C7",    "notes": "E5:12 E5:4" },
-    { "chord": "Dm7",   "notes": "F5:8 [D#dim]F#5:8" },
-    { "chord": "Am7",   "notes": "R:2 G5:2 A5:2 C6:4 A5:2 G5:4" },
-    { "chord": "C7",    "notes": "E5:8 Eb5:2 D5:6" },
-    { "chord": "F7",    "notes": "R:2 C5:2 D5:2 Eb5:4 D5:6" },
-    { "chord": "F7",    "notes": "R:2 C5:2 D5:2 Eb5:4 C5:6" },
-    { "chord": "C",     "notes": "C5:16~" },
-    { "chord": "C",     "notes": "C5:8 R:4 Eb5:2 E5:2" },
-    { "chord": "G7",    "notes": "G5:2 D5:2 D5:2 D5:4 D5:6" },
-    { "chord": "C7",    "notes": "R:2 Eb5:2 E5:2 Eb5:2 E5:2 C5:6" },
-    { "chord": "C",     "notes": "C5:16" }
+    {
+      "chord": "G7",
+      "notes": "G5:2 G5:2 G5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:4 A5:4 Bb5:2 Bb5:2 A5:2 A5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:2 A5:4 Bb5:4 Bb5:2 A5:2 G#5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:4 A5:4 Bb5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:4 G5:6 R:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:4 C5:4 C5:4 C5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:2 D5:4 Eb5:6 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16~"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12 R:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "R:2 G5:2 F#5:2 F5:6 D5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "R:2 G5:2 G#5:2 A5:6 G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16~"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12 R:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:2 G5:2 A5:4 Bb5:4 A5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:2 A5:4 Bb5:6 R:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:2 G5:2 A5:4 Bb5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:4 G5:6 C6:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:4 C5:4 C5:4 C5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:2 D5:4 Eb5:6 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 A5:4 G5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:2 A5:4 G5:6 R:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "R:4 G5:4 A5:2 A5:2 Bb5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:2 E6:4 D6:2 C6:2 C6:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:12 R:4"
+    },
+    {
+      "chord": "C",
+      "notes": "R:8 R:2 C6:2 C6:2 C6:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:2 C6:12~ C6:2"
+    },
+    {
+      "chord": "F7",
+      "notes": "R:2 G#5:2 A5:2 C6:2 A5:2 Eb5:2 E5:2 [C]G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:16~"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:8 R:2 C6:2 C6:2 C6:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:2 C6:12~ C6:2"
+    },
+    {
+      "chord": "F",
+      "notes": "R:2 G#5:2 A5:2 C6:2 A5:2 F5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16~"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 R:6 G#5:2"
+    },
+    {
+      "chord": "D7",
+      "notes": "A5:2 A5:6 A5:8"
+    },
+    {
+      "chord": "D7",
+      "notes": "R:4 F#5:4 E5:4 D5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:16"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:4 G5:4 F#5:4 F5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:12 E5:4"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F5:8 [D#dim]F#5:8"
+    },
+    {
+      "chord": "Am7",
+      "notes": "R:2 G5:2 A5:2 C6:4 A5:2 G5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:8 Eb5:2 D5:6"
+    },
+    {
+      "chord": "F7",
+      "notes": "R:2 C5:2 D5:2 Eb5:6 D5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "R:2 C5:2 D5:2 Eb5:4 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16~"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 R:12 R:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 D5:6 D5:8"
+    },
+    {
+      "chord": "C7",
+      "notes": "R:2 Eb5:2 E5:2 Eb5:2 E5:2 C5:6"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:4 R:12"
+    },
+    {
+      "chord": "G7",
+      "notes": "R:16"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:12 E5:4"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F5:8 [D#dim]F#5:8"
+    },
+    {
+      "chord": "Am7",
+      "notes": "R:2 G5:2 A5:2 C6:4 A5:2 G5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:8 Eb5:2 D5:6"
+    },
+    {
+      "chord": "F7",
+      "notes": "R:2 C5:2 D5:2 Eb5:4 D5:6"
+    },
+    {
+      "chord": "F7",
+      "notes": "R:2 C5:2 D5:2 Eb5:4 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16~"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 R:4 Eb5:2 E5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 D5:2 D5:2 D5:4 D5:6"
+    },
+    {
+      "chord": "C7",
+      "notes": "R:2 Eb5:2 E5:2 Eb5:2 E5:2 C5:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
   ]
 }

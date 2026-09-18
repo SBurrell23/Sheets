@@ -1,38 +1,110 @@
 {
   "title": "Ye Banks and Braes",
-  "source": "Traditional Scottish, \"The Banks o' Doon\" / \"The Caledonian Hunt's Delight\", Scots Musical Museum 1792 - public domain",
+  "source": "Traditional Scottish, \"The Banks o' Doon\" / \"The Caledonian Hunt's Delight\", Scots Musical Museum 1792",
   "key": "C",
   "meter": "3/4",
   "tempo": 80,
   "pickup": 4,
   "bars": [
-    { "chord": "C",  "notes": "G4:4" },
-
-    { "chord": "C",  "notes": "C5:8 C5:4" },
-    { "chord": "G",  "notes": "D5:4 C5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:4 G5:4 E5:4" },
-    { "chord": "G",  "notes": "D5:4 C5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:6 D5:2 C5:4" },
-    { "chord": "F",  "notes": "C5:4 A4:4 [C]G4:4" },
-    { "chord": "C",  "notes": "G4:4 A4:4 C5:4" },
-    { "chord": "C",  "notes": "C5:8 E5:4" },
-
-    { "chord": "C",  "notes": "G5:8 [F]A5:4" },
-    { "chord": "C",  "notes": "G5:4 E5:4 C5:4" },
-    { "chord": "C",  "notes": "G5:8 [F]A5:4" },
-    { "chord": "C",  "notes": "G5:4 E5:4 C5:4" },
-    { "chord": "C",  "notes": "G5:4 E5:4 C5:4" },
-    { "chord": "C",  "notes": "G5:8 G5:4" },
-    { "chord": "Am", "notes": "A5:6 G5:2 F5:2 E5:2" },
-    { "chord": "G",  "notes": "D5:8 E5:4" },
-
-    { "chord": "C",  "notes": "C5:8 C5:4" },
-    { "chord": "G",  "notes": "D5:4 C5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:4 G5:4 E5:4" },
-    { "chord": "G",  "notes": "D5:4 C5:4 D5:4" },
-    { "chord": "C",  "notes": "E5:6 D5:2 C5:4" },
-    { "chord": "F",  "notes": "C5:4 A4:4 [C]G4:4" },
-    { "chord": "C",  "notes": "G4:4 A4:4 C5:4" },
-    { "chord": "C",  "notes": "C5:12" }
+    {
+      "chord": "C",
+      "notes": "G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 C5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 E5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 C5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:6 D5:2 C5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "C5:4 A4:4 [C]G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:4 A4:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 E5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 [F]A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 [F]A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 G5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:6 G5:2 F5:2 E5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:8 E5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 C5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 E5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 C5:4 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:6 D5:2 C5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "C5:4 A4:4 [C]G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:4 A4:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
   ]
 }

@@ -1,28 +1,73 @@
 {
   "title": "Yankee Doodle",
-  "source": "Traditional, 18th century — public domain",
+  "source": "Traditional, 18th century",
   "key": "C",
   "meter": "2/4",
   "tempo": 120,
   "bars": [
-    { "chord": "C",  "notes": "C5:2 C5:2 D5:2 E5:2" },
-    { "chord": "C",  "notes": "C5:2 E5:2 [G7]D5:2 B4:2" },
-    { "chord": "C",  "notes": "C5:2 C5:2 D5:2 E5:2" },
-    { "chord": "C",  "notes": "C5:4 [G7]B4:2 G4:2" },
-
-    { "chord": "C",  "notes": "C5:2 C5:2 D5:2 E5:2" },
-    { "chord": "F",  "notes": "F5:2 E5:2 D5:2 C5:2" },
-    { "chord": "G7", "notes": "B4:2 G4:2 A4:2 B4:2" },
-    { "chord": "C",  "notes": "C5:4 C5:2 R:2" },
-
-    { "chord": "F",  "notes": "A4:3 B4:1 A4:2 G4:2" },
-    { "chord": "F",  "notes": "A4:2 B4:2 C5:4" },
-    { "chord": "C",  "notes": "G4:3 A4:1 G4:2 F4:2" },
-    { "chord": "C",  "notes": "E4:2 F4:2 G4:2 R:2" },
-
-    { "chord": "F",  "notes": "A4:3 B4:1 A4:2 G4:2" },
-    { "chord": "F",  "notes": "A4:2 B4:2 C5:2 A4:2" },
-    { "chord": "G7", "notes": "G4:2 C5:2 B4:2 D5:2" },
-    { "chord": "C",  "notes": "C5:4 C5:4" }
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 [G7]D5:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 [G7]B4:2 G4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 E5:2 D5:2 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "B4:2 G4:2 A4:2 B4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:2 R:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:3 B4:1 A4:2 G4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:2 B4:2 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:3 A4:1 G4:2 F4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:2 F4:2 G4:2 R:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:3 B4:1 A4:2 G4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:2 B4:2 C5:2 A4:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:2 C5:2 B4:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4"
+    }
   ]
 }
