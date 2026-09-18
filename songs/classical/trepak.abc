@@ -1,0 +1,19 @@
+X:1
+T:Trepak
+C:Pyotr Ilyich Tchaikovsky, The Nutcracker, Op. 71, 1892 - Russian Dance (Trepak) - public domain
+M:2/4
+L:1/16
+Q:1/4=200
+K:C clef=treble
+"C"c'2c'1b1 c'2c'2 | "F"a2g2 f2a2 | "D7"g2g1^f1 g2g2 | "C"e2d2 c2e1g1 |
+"G7"d2d1g1 c2c1g1 | "G"B2B1g1 d2d1g1 | "C"e2e1g1 c2c1g1 | "G7"d2c2 d1g1a1b1 |
+"C"c'2c'1b1 c'2c'2 | "F"a2g2 f2a2 | "D7"g2g1^f1 g2g2 | "C"e2d2 c2e1g1 |
+"G7"d2d1g1 c2c1g1 | "G"B2B1g1 d2d1g1 | "G7"e2e1g1 d2d1g1 | "C"c2A2 c1g1a1b1 |
+"Am"g3^f1 g2=f2 | "Am"e4 A4 | "E7"d3^c1 d2=c2 | "Am"B4 E4 |
+"Am"A2A1G1 B2B1A1 | "A"c2c1B1 ^c2c1A1 | "D7"d1e1^f1g1 a1^g1a1^a1 | "G"b2b1g1 d4 |
+"Am"g3^f1 g2=f2 | "Am"e4 A4 | "E7"d3^c1 d2=c2 | "Am"B4 E4 |
+"Am"A2A1G1 B2B1A1 | "A"c2c1B1 ^c2c1B1 | "Dm"d2d1c1 e2e1d1 | "D7"^f2f1e1 "G7"g2G2 |
+"C"c'2c'1b1 c'2c'2 | "F"a2g2 f2a2 | "D7"g2g1^f1 g2g2 | "C"e2d2 c2e1g1 |
+"G7"d2d1g1 c2c1g1 | "G"B2B1g1 d2d1g1 | "C"e2e1g1 d2d1g1 | "C"c2c1g1 e2e1g1 |
+"G7"d2d1g1 f2f1g1 | "C"e2e1g1 c2c1g1 | "G7"d2d1g1 f2f1g1 | "C"e2e1g1 c2c1g1 |
+"G7"d2d1g1 c2c1g1 | "G7"d2d1g1 c2c1g1 | "G7"d2d1g1 c2c1g1 | "C"d2g2 Hc'4 |]

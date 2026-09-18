@@ -1,0 +1,31 @@
+{
+  "title": "America the Beautiful",
+  "source": "Samuel A. Ward, tune \"Materna\", 1882; words Katharine Lee Bates — public domain",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 88,
+  "bars": [
+    { "chord": "C",  "notes": "G5:4" },
+
+    { "chord": "C",  "notes": "G5:6 E5:2 E5:4 G5:4" },
+    { "chord": "G",  "notes": "G5:6 D5:2 D5:4 E5:4" },
+    { "chord": "G7", "notes": "F5:4 G5:4 A5:4 B5:4" },
+    { "chord": "C",  "notes": "G5:12 [G7]G5:4" },
+
+    { "chord": "C",  "notes": "G5:6 E5:2 E5:4 G5:4" },
+    { "chord": "G",  "notes": "G5:6 D5:2 D5:4 D6:4" },
+    { "chord": "A7", "notes": "C#6:4 D6:4 E6:4 A5:4" },
+    { "chord": "D7", "notes": "D6:12 [G7]G5:4" },
+
+    { "chord": "C",  "notes": "E6:6 E6:2 D6:4 C6:4" },
+    { "chord": "G",  "notes": "C6:6 B5:2 B5:4 C6:4" },
+    { "chord": "G7", "notes": "D6:4 B5:4 A5:4 G5:4" },
+    { "chord": "C",  "notes": "C6:12 [C7]C6:4" },
+
+    { "chord": "F",  "notes": "C6:6 A5:2 A5:4 C6:4" },
+    { "chord": "C",  "notes": "C6:6 G5:2 G5:4 G5:4" },
+    { "chord": "Dm", "notes": "A5:4 C6:4 [G7]G5:4 D6:4" },
+    { "chord": "C",  "notes": "C6:12" }
+  ]
+}

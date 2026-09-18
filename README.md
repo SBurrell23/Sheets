@@ -12,6 +12,7 @@ Published at <https://sburrell23.github.io/Sheets/>.
 
 | collection | what it is |
 |---|---|
+| **All Songs** | Every song on the site in one alphabetical list, no grouping. The default view. It is **synthetic** — assembled from the manifest at run time rather than existing as a folder — so a new collection appears in it automatically with no code, build or manual change. |
 | **Folk Songs** | Traditional and early-popular melodies in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
 | **Classical** | Famous classical themes in the public domain, reduced to a single melodic line. Where a piece has no separate tune — Für Elise, Clair de Lune, Canon in D — the arrangement takes the line an ear follows and leaves the accompaniment to the chord symbols. |
 | **Irish & Scottish** | Traditional Irish and Scottish airs, jigs and ballads in the public domain, in two sets. Modal tunes keep their flat sevenths and raised sixths rather than being flattened into major. |
@@ -64,6 +65,22 @@ folder can stay lowercase) and an `order`. `vN` sets always lead, newest first; 
 follows `order`, falling back to alphabetical. A set with no `SPEC.md` of its own inherits the
 collection's, which is what lets Ragtime & Blues share one brief across its three sets.
 
+### Responsive
+
+Three layouts, all verified by measurement rather than by eye — no element may sit outside the
+viewport, and at tablet width every control row must stay on one line (its children's centres
+within a pixel of each other).
+
+| width | layout |
+|---|---|
+| desktop | everything on one line |
+| tablet (≤980px) | masthead, picker and transport rows each still on one line |
+| phone (≤560px) | wraps on purpose: masthead breaks after the title, the song dropdown takes a line of its own with the transport beneath it, Play goes full width, and the score drops to two bars a line |
+
+The phone block sits **after** the tablet block in `app.css`. Both match on a phone, they have
+equal specificity, and the later one wins — putting it first silently squeezed the song dropdown
+to 43px and pushed the page into horizontal overflow.
+
 ### Why the data is JavaScript
 
 `fetch()` and ES module imports are both blocked on `file://` by CORS, and this page has to keep
@@ -81,6 +98,10 @@ them — which matters more with every collection added.
 ## The player
 
 - **Browse** — a modal listing the collections. Pick one and the page loads its songs.
+- **Shuffle** — the box beside **›**. When it is on, **›** jumps to a random song instead of the
+  next one, which is the point of pairing it with All Songs. It draws from a shuffled bag
+  rather than rolling the dice each press, so every song comes up once before any repeats.
+  The setting sticks across reloads.
 - **Song dropdown** — every song in the collection, grouped by set where a collection has more
   than one. The **‹ ›** buttons page through them (arrow keys work too), which is the easy way
   to audition a set on a tablet.

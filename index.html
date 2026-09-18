@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Piano Sheets</title>
+<title>Sheets</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +14,16 @@
 <div class="wrap">
 
   <header class="masthead">
-    <h1>Piano Sheets</h1>
+    <h1>Sheets</h1>
     <button class="btn browse" id="browse" type="button">&#9776;&nbsp; Browse Categories</button>
-    <button class="btn ghost" id="specbtn" type="button">View spec</button>
+    <button class="btn ghost" id="specbtn" type="button" aria-label="View the arranging spec" title="View spec">?</button>
     <span class="count" id="count"></span>
     <div class="ctl theme">
       <div class="seg" role="radiogroup" aria-label="Theme">
         <input type="radio" name="theme" id="th-light" value="light">
         <label for="th-light">Day</label>
-        <input type="radio" name="theme" id="th-dark" value="dark">
-        <label for="th-dark">Dark</label>
+        <input type="radio" name="theme" id="th-dusk" value="dusk">
+        <label for="th-dusk">Dusk</label>
       </div>
     </div>
   </header>
@@ -32,6 +32,15 @@
     <button class="btn nav" id="prev" type="button" aria-label="Previous song">&#8249;</button>
     <select id="songsel" aria-label="Choose a song"></select>
     <button class="btn nav" id="next" type="button" aria-label="Next song">&#8250;</button>
+    <button class="btn nav shuffle" id="shuffle" type="button" aria-pressed="false"
+            aria-label="Shuffle: the next button picks a random song" title="Shuffle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 6.5h3.6l3 4.2M3 17.5h3.6l8-11.2H19M3 6.5"/>
+        <path d="M14.6 17.7H19M11.4 13.3l3.2 4.4"/>
+        <path d="M16.9 3.6 19.8 6.3 16.9 9M16.9 15.1l2.9 2.6-2.9 2.7"/>
+      </svg>
+    </button>
     <span class="where" id="where"></span>
   </div>
 
@@ -39,9 +48,12 @@
     <div class="row">
       <button class="btn play" id="play" disabled><span class="glyph" id="glyph">&#9654;</span><span id="playlab">Play</span></button>
       <span class="ctl keygrp"><span>Key</span>
-        <button class="btn step" id="keydown" type="button" aria-label="Down a semitone">&#9662;</button>
         <select id="keysel" aria-label="Key"></select>
-        <button class="btn step" id="keyup" type="button" aria-label="Up a semitone">&#9652;</button>
+      </span>
+      <span class="ctl octgrp"><span>Octave</span>
+        <button class="btn step" id="octdown" type="button" aria-label="Down an octave">&#9662;</button>
+        <output id="octnow" aria-live="polite">0</output>
+        <button class="btn step" id="octup" type="button" aria-label="Up an octave">&#9652;</button>
       </span>
       <label class="ctl tempo" for="tempo"><span>Tempo</span>
         <input type="range" id="tempo" min="40" max="225" step="1" value="100">

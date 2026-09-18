@@ -8,11 +8,21 @@
   var song = null, set = null, visualObj = null, synth = null;
   var ready = false, playing = false, busy = false;
   var chordsOn = true, followOn = true, dragging = false;
+  // `transpose` is what the renderer and the synth both read. It is the sum of
+  // two independent controls: the key dropdown, and an octave bump. Keeping them
+  // separate means changing key does not lose the octave and vice versa.
   var curBar = 0, totalBars = 32, targetBpm = 100, transpose = 0;
+  var keySemis = 0, octaveShift = 0;
+  var OCT_MIN = -1, OCT_MAX = 1;
   // Once the listener moves the slider, that tempo sticks across song changes
   // and reloads; until then each song opens at its own written tempo.
   var userTempo = null;
   try { var _ut = localStorage.getItem('userTempo'); if (_ut) userTempo = +_ut; } catch (e) {}
+  // Shuffle: when on, the next button draws from a shuffled bag rather than
+  // stepping. A bag rather than repeated Math.random() so every song comes up
+  // once before any repeats -- that is what makes it feel shuffled.
+  var shuffleOn = false, bag = [];
+  try { shuffleOn = localStorage.getItem("shuffle") === "1"; } catch (e) {}
   var loadToken = 0, idc = 0, lastTop = null, playhead = null;
   var reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   var strip = $("strip"), paper = $("paper");
@@ -71,6 +81,7 @@
       cards[i].setAttribute("aria-current", String(cards[i].dataset.cid === coll.id));
     }
     buildSongList();
+    bag = [];
     try { localStorage.setItem("lastCollection", coll.id); } catch (e) {}
     if (flat.length) select(0);
   }
@@ -108,12 +119,13 @@
     set = flat[i].set;
     totalBars = song.bars;
     targetBpm = userTempo || song.tempo;
-    transpose = 0;
+    transpose = 0; keySemis = 0; octaveShift = 0;
     $("songsel").value = String(i);
     $("where").textContent = (idx + 1) + " / " + flat.length +
       (coll.sets.length > 1 ? "  ·  " + (set.title || set.id) : "");
     $("prev").disabled = idx === 0;
     $("next").disabled = idx === flat.length - 1;
+    paintShuffle();
     $("barsof").textContent = totalBars;
     strip.setAttribute("aria-valuemax", totalBars);
     targetBpm = Math.max(40, Math.min(targetBpm, 225));
@@ -123,8 +135,9 @@
     $("pdf").setAttribute("download", song.slug + ".pdf");
     $("spectitle").textContent = "Spec — " + coll.title +
       (coll.sets.length > 1 ? " · " + (set.title || set.id) : "");
-    $("spectext").textContent = set.spec || (coll.blurb || "(no spec recorded)");
+    $("spectext").textContent = song._spec || set.spec || (coll.blurb || "(no spec recorded)");
     buildKeys();
+    paintOctave();
     buildTicks();
     render();
     curBar = 0; setBar(1);
@@ -211,7 +224,12 @@
   // a readable note size; then we keep the narrowest layout going.
   function render() {
     var best = null, current = null;
-    for (var n = PER_LINE_MIN; n <= PER_LINE_MAX; n++) {
+    // On a phone four bars to a line would squeeze each one to ~85px. Let a
+    // narrow screen drop to two, so the notes stay legible and the score just
+    // gets taller.
+    var w = paper.clientWidth || 880;
+    var floorPerLine = Math.max(2, Math.min(PER_LINE_MIN, Math.floor(w / 150)));
+    for (var n = floorPerLine; n <= PER_LINE_MAX; n++) {
       renderWith(n); current = n;
       var w = widestBar();
       if (best === null || w < best.w) best = { n: n, w: w };
@@ -379,9 +397,19 @@
     setTimeout(release, 3000);
   }
 
-  function applyTranspose(semis) {
+  function paintOctave() {
+    $("octdown").disabled = octaveShift <= OCT_MIN;
+    $("octup").disabled = octaveShift >= OCT_MAX;
+    $("octnow").textContent = octaveShift > 0 ? "+" + octaveShift : String(octaveShift);
+  }
+
+  // One entry point for both controls: visualTranspose re-engraves the score and
+  // midiTranspose (in audioParams) moves the sound, so an octave bump is heard
+  // as well as seen.
+  function applyTranspose() {
     if (!song) return;
-    transpose = semis;
+    transpose = keySemis + 12 * octaveShift;
+    paintOctave();
     var wasPlaying = playing, bar = curBar;
     render();                       // re-engrave at the new key
     setupAudio().then(function () { // and re-prime from the transposed tune
@@ -435,28 +463,61 @@
   });
 
   /* ================= controls ================= */
+  function refillBag() {
+    bag = [];
+    for (var i = 0; i < flat.length; i++) if (i !== idx) bag.push(i);
+    for (var j = bag.length - 1; j > 0; j--) {          // Fisher-Yates
+      var k = Math.floor(Math.random() * (j + 1));
+      var t = bag[j]; bag[j] = bag[k]; bag[k] = t;
+    }
+  }
+
+  function goNext() {
+    if (!shuffleOn) { select(idx + 1); return; }
+    if (!bag.length) refillBag();
+    var n = bag.pop();
+    if (n === undefined || n === idx) return;
+    select(n);
+  }
+
+  function paintShuffle() {
+    $("shuffle").setAttribute("aria-pressed", String(shuffleOn));
+    // With shuffle on there is always somewhere else to go, even from the end.
+    $("next").disabled = shuffleOn ? flat.length < 2 : idx === flat.length - 1;
+  }
+
+  $("shuffle").addEventListener("click", function () {
+    shuffleOn = !shuffleOn;
+    bag = [];
+    try { localStorage.setItem("shuffle", shuffleOn ? "1" : "0"); } catch (e) {}
+    paintShuffle();
+  });
+
   $("prev").addEventListener("click", function () { select(idx - 1); });
-  $("next").addEventListener("click", function () { select(idx + 1); });
+  $("next").addEventListener("click", goNext);
   $("play").addEventListener("click", function () {
     if (!ready) return;
     playing = !playing; paintPlay(); synth.play();
   });
   // Chords and follow are always on now, so there is nothing to toggle.
-  function keyStep(dir) {
-    var sel = $("keysel");
-    if (!sel.options.length) return;
-    sel.selectedIndex = (sel.selectedIndex + dir + sel.options.length) % sel.options.length;
-    applyTranspose(+sel.value);
+  function octaveStep(dir) {
+    var next = Math.max(OCT_MIN, Math.min(OCT_MAX, octaveShift + dir));
+    if (next === octaveShift) return;
+    octaveShift = next;
+    applyTranspose();
   }
-  $("keydown").addEventListener("click", function () { keyStep(-1); });
-  $("keyup").addEventListener("click", function () { keyStep(1); });
+  $("octdown").addEventListener("click", function () { octaveStep(-1); });
+  $("octup").addEventListener("click", function () { octaveStep(1); });
   $("tempo").addEventListener("input", function () { $("bpm").textContent = this.value + " bpm"; });
   $("tempo").addEventListener("change", function () {
     userTempo = +this.value;
     try { localStorage.setItem("userTempo", userTempo); } catch (e) {}
     applyTempo(userTempo);
   });
-  $("keysel").addEventListener("change", function () { applyTranspose(+this.value); });
+  $("keysel").addEventListener("change", function () {
+    keySemis = +this.value;
+    applyTranspose();
+  });
 
   /* ================= modals ================= */
   function openDir() { $("dirmodal").hidden = false; $("dirclose").focus(); }
@@ -490,14 +551,17 @@
   // The root is never left unstamped, so prefers-color-scheme no longer decides:
   // the page opens in Day unless the listener has chosen otherwise.
   function applyTheme(v) {
-    if (v !== "light" && v !== "dark") v = "light";
+    if (v === "dark") v = "dusk";              // the old name for this slot
+    if (v !== "light" && v !== "dusk") v = "light";
     document.documentElement.setAttribute("data-theme", v);
     try { localStorage.setItem("theme", v); } catch (e) {}
   }
   var startTheme = "light";
-  // A stored 'auto' from the older three-way control falls back to Day.
+  // 'auto' from the older three-way control, and 'dark' from before Dusk
+  // replaced it, both resolve rather than falling through to nothing.
   try { startTheme = localStorage.getItem("theme") || "light"; } catch (e) {}
-  if (startTheme !== "light" && startTheme !== "dark") startTheme = "light";
+  if (startTheme === "dark") startTheme = "dusk";
+  if (startTheme !== "light" && startTheme !== "dusk") startTheme = "light";
   var themeRadios = document.querySelectorAll('.seg input[name="theme"]');
   for (var ti = 0; ti < themeRadios.length; ti++) {
     themeRadios[ti].checked = themeRadios[ti].value === startTheme;
@@ -543,6 +607,10 @@
     },
     playheadX: function () { return playhead ? +playhead.getAttribute("x1") : null; },
     theme: function () { return document.documentElement.getAttribute('data-theme') || 'auto'; },
+    shuffle: function () { return shuffleOn; },
+    octave: function () { return octaveShift; },
+    keySemis: function () { return keySemis; },
+    bagLeft: function () { return bag.length; },
     keySig: function () {
       try { return visualObj[0].getKeySignature().accidentals.length; } catch (e) { return null; }
     }

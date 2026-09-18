@@ -249,8 +249,8 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     fifths, mode, tonic, _ = KEYS[song['key']]
     defaults = key_defaults(fifths)
 
-    if not isinstance(song['tempo'], int) or not (50 <= song['tempo'] <= 220):
-        E.append('tempo must be a whole number between 50 and 220 (got %r)' % (song['tempo'],))
+    if not isinstance(song['tempo'], int) or not (30 <= song['tempo'] <= 240):
+        E.append('tempo must be a whole number between 30 and 240 (got %r)' % (song['tempo'],))
 
     if song.get('meter', '4/4') not in METERS:
         E.append('meter must be one of %s (got %r)' % (', '.join(METERS), song['meter']))
@@ -283,12 +283,20 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
         # Summed in ticks so a triplet counts for what it actually plays, then
         # reported back in sixteenths, which is what the author wrote.
         total = sum(e['span'] for e in evs)
-        want = (pickup if (i == 1 and pickup) else bar_units) * TICKS
-        if total != want:
+        if i == 1 and pickup:
+            allowed = [pickup * TICKS]
+            note_ = ' (the pickup bar)'
+        elif pickup and i == len(bars):
+            # The last bar may run full, or be short by the pickup as engravers write it.
+            allowed = [bar_units * TICKS, (bar_units - pickup) * TICKS]
+            note_ = ' (or %d, the pickup taken off the last bar)' % (bar_units - pickup)
+        else:
+            allowed = [bar_units * TICKS]
+            note_ = ''
+        if total not in allowed:
             E.append('bar %d: durations sum to %s, must be exactly %d%s '
                      '(1=16th 2=8th 3=dotted8th 4=quarter 6=dotted-quarter 8=half 12=dotted-half 16=whole)'
-                     % (i, ('%g' % (total / float(TICKS))), want // TICKS,
-                        ' (the pickup bar)' if want == pickup * TICKS and i == 1 else ''))
+                     % (i, ('%g' % (total / float(TICKS))), allowed[0] // TICKS, note_))
         # Original-composition sets want every bar struck on beat 1, which is what
         # keeps an invented tune landing. A transcription of a real song has no say
         # in the matter -- forcing it rewrites the tune's own phrasing.

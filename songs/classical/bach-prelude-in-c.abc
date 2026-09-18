@@ -1,0 +1,16 @@
+X:1
+T:Prelude in C
+C:J.S. Bach, Prelude No. 1 in C, The Well-Tempered Clavier Book I, BWV 846, 1722 - public domain
+M:4/4
+L:1/16
+Q:1/4=63
+K:C clef=treble
+"C"e8 e8 | "Dm7/C"f8 f8 | "G7/B"f8 f8 | "C"e8 e8 |
+"Am/C"a8 a8 | "D7/C"d8 d8 | "G/B"g8 g8 | "C/B"c8 c8 |
+"Am7"c8 c8 | "D7"c8 c8 | "G"B8 B8 | "Gdim"^c8 c8 |
+"Dm/F"d8 d8 | "Fdim"B8 B8 | "C/E"c8 c8 | "Fmaj7/E"f8 f8 |
+"Dm7"f8 f8 | "G7"f8 f8 | "C"e8 e8 | "C7"e8 e8 |
+"Fmaj7"e8 e8 | "F#dim"_e8 e8 | "Fdim/Ab"d8 d8 | "G7"d8 d8 |
+"C/G"e8 e8 | "G7sus4"f8 f8 | "G7"f8 f8 | "Adim/G"^f8 f8 |
+"C/G"g8 g8 | "G7sus4"f8 f8 | "G7"f8 f8 | "C7"e8 e8 |
+"Dm7/C"f8 f8 | "G7/C"z2 G1B1 d1f1d1B1 d1B1G1B1 d1f1e1d1 | "C"Hc'16 |]

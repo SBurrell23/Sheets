@@ -1,0 +1,12 @@
+X:1
+T:America the Beautiful
+C:Samuel A. Ward, tune "Materna", 1882; words Katharine Lee Bates — public domain
+M:4/4
+L:1/16
+Q:1/4=88
+K:C clef=treble
+"C"g4 | "C"g6 e2 e4 g4 | "G"g6 d2 d4 e4 | "G7"f4 g4 a4 b4 |
+"C"g12 "G7"g4 | "C"g6 e2 e4 g4 | "G"g6 d2 d4 d'4 | "A7"^c'4 d'4 e'4 a4 |
+"D7"d'12 "G7"g4 | "C"e'6 e'2 d'4 c'4 | "G"c'6 b2 b4 c'4 | "G7"d'4 b4 a4 g4 |
+"C"c'12 "C7"c'4 | "F"c'6 a2 a4 c'4 | "C"c'6 g2 g4 g4 | "Dm"a4 c'4 "G7"g4 d'4 |
+"C"Hc'12 |]

@@ -1,0 +1,11 @@
+X:1
+T:1812 Overture
+C:Pyotr Ilyich Tchaikovsky, 1812 Overture, 1880 - closing theme, the hymn "God Save the Tsar" by Alexei Lvov, 1833 - public domain
+M:4/4
+L:1/16
+Q:1/4=72
+K:C clef=treble
+"C"g8 a4 a4 | "C"g6 e2 c8 | "F"c'8 "G7"b4 "F"a4 | "C"g8 "A"a8 |
+"Dm"f8 "G/B"g4 g4 | "C"e6 d2 e4 "D7"^f4 | "Em"g8 "B"^f8 | "E"e8 z8 |
+"Dm"f8 e4 d4 | "Am"e8 e4 e4 | "Am"c'6 b2 a4 "E7"^g4 | "Am"a8 g8 |
+"C"c'8 b4 a4 | "G7"g8 g4 f4 | "C"e8 "G7"d8 | "C"Hc16 |]

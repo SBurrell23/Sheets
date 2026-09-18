@@ -1,0 +1,31 @@
+{
+  "title": "Billy Boy",
+  "source": "Traditional American — public domain",
+  "key": "C",
+  "meter": "2/4",
+  "pickup": 4,
+  "tempo": 112,
+  "bars": [
+    { "chord": "C",  "notes": "E5:2 F5:2" },
+
+    { "chord": "C",  "notes": "G5:4 G5:2 G5:2" },
+    { "chord": "C",  "notes": "C6:4 E5:2 F5:2" },
+    { "chord": "G7", "notes": "G5:4 G5:2 A5:2" },
+    { "chord": "G7", "notes": "G5:4 E5:2 F5:2" },
+
+    { "chord": "C",  "notes": "G5:4 G5:2 G5:2" },
+    { "chord": "C",  "notes": "C6:4 F5:2 E5:2" },
+    { "chord": "G7", "notes": "E5:2 D5:6~" },
+    { "chord": "G7", "notes": "D5:2 R:2 D5:2 E5:2" },
+
+    { "chord": "G7", "notes": "F5:2 F5:2 F5:2 F5:2" },
+    { "chord": "G7", "notes": "F5:4 G5:2 F5:2" },
+    { "chord": "C",  "notes": "E5:2 D5:2 E5:2 F5:2" },
+    { "chord": "C",  "notes": "G5:4 C6:3 A5:1" },
+
+    { "chord": "C",  "notes": "G5:4 E5:2 G5:2" },
+    { "chord": "G7", "notes": "G5:2 F5:2 D5:2 B4:2" },
+    { "chord": "G7", "notes": "D5:4 [C]C5:4~" },
+    { "chord": "C",  "notes": "C5:2 R:2" }
+  ]
+}

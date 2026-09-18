@@ -1,0 +1,14 @@
+X:1
+T:Lacrimosa
+C:W. A. Mozart, Requiem in D minor K. 626, 1791 - public domain
+M:12/8
+L:1/16
+Q:1/8=63
+K:Am clef=treble
+"Am"e8 "C"c'2a2 "E7"a6 ^g2 z4 | "Am"e8 "C"c'2a2 "E7"a6 ^g2 z4 | "Am"A2 z4 "E7"B2 z4 "Am"c2 z4 "G7"d2 z4 | "C"e2 z4 "B7"^f2 z4 "Em"g2 z4 "D7"a2 z4 |
+"Gm"_b6 "G7/F"=b6 "C/E"c'6 "C#dim"^c'6 | "D/F#"d'6 "F7"^d'6 "Am/E"e'6 "E7"e2 z4 | "E/G#"e8 f2e2 "Am"e8 c'2a2 | "Bdim"^g8 "E7"a2b2 b6 a6 |
+"Bb"_b8 d'2b2 "F7"b6 a2 z4 | "Am"a8 c'2b2 "F"b6 a2 z4 | "D7"a8 d'2c'2 "C"c'6 "G7"b6 | "E7/G#"b6- b4 "Am"e2 e6 e6 |
+"F#dim"^f6 g6 a6 a6 | "F#dim"a6 g6 ^f6 f6 | "D7"^f6 "G"g6 a6 "C/E"g4 c'2 | "F"c'8 a2^f2 "C/G"g8 "G7"=f2d2 |
+"Am"e8 "C"c'2a2 "E7"a6 ^g6 | "Am"e8 "C"c'2a2 "E7"a6 ^g2 z4 | "Dm"z12 a6 "A7"g6 | "Bb"f6 e6 "Dm"d6 "Am"c6 |
+"E7"B6 A6 ^G6 "Am"A6 | "E7"B6 "Am"c6 "E7"B6 B6 | "Am"A4 z8 z12 | "Dm"a24 |
+"A"Ha24 |]

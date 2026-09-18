@@ -1,0 +1,11 @@
+X:1
+T:Solveig's Song
+C:Edvard Grieg, Peer Gynt Op. 23 No. 19, 1875 - public domain
+M:4/4
+L:1/16
+Q:1/4=76
+K:Am clef=treble
+"Am"E4 | "Am"A4 B2c2 d4 e2f2 | "Am"f2e2 e2c2 A4 A2c2 | "E7"c2B2 B2^G2 "Am"E8- |
+"Am"E12 E4 | "Am"A2A2 B2c2 "G7"d4 e2f2 | "C"f2e2 e2c2 "Dm"A4 A2c2 | "G7"c2B2 B2G2 "C"E8- |
+"C"E12 z2 E2 | "E7"E2^G2 B2c2 "Am"A4 e2^d2 | "A7"B4 d2^c2 A6 A2 | "Dm"c2B2 B2A2 "E7"e6 E2 |
+"E7"E2^G2 B2c2 "Am"A2e2 e2^d2 | "A7"B2B2 d2^c2 A6 A2 | "Dm"c6 B2 "E7"B6 A2 | "Am"HA16 |]

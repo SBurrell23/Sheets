@@ -1,0 +1,41 @@
+{
+  "title": "Träumerei",
+  "source": "Robert Schumann, Kinderszenen Op. 15 No. 7, 1838 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 56,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4" },
+
+    { "chord": "C",  "notes": "C5:8~ C5:2 B4:2 C5:2 E5:2" },
+    { "chord": "C",  "notes": "G5:2 C6:2 C6:8 B5:2 A5:2" },
+    { "chord": "G7", "notes": "G5:2 C6:2 D5:2 E5:2 F5:2 A5:2 C5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:2 G5:2 [G7]D5:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:8~ C5:2 B4:2 C5:2 E5:2" },
+    { "chord": "C",  "notes": "G5:2 E6:2 E6:6 [E7]D6:2 C6:2 B5:2" },
+    { "chord": "Am", "notes": "C6:2 E6:2 A5:2 C6:2 [G]B5:6 Bb5:2" },
+    { "chord": "D7", "notes": "A5:4 B5:4 [G7]G5:4 R:2 G4:2" },
+
+    { "chord": "C",  "notes": "C5:8~ C5:2 B4:2 C5:2 E5:2" },
+    { "chord": "A7", "notes": "G5:2 Bb5:2 Bb5:8 A5:2 G5:2" },
+    { "chord": "Dm", "notes": "F5:2 A5:2 D5:2 E5:2 F5:6 E5:2" },
+    { "chord": "Dm", "notes": "D5:6 A4:2~ A4:4 R:2 C5:2" },
+
+    { "chord": "F",  "notes": "F4:8~ F4:2 E4:2 F4:2 A4:2" },
+    { "chord": "E7", "notes": "C5:2 F5:2 F5:8 E5:2 D5:2" },
+    { "chord": "Am", "notes": "C6:2 E6:2 A5:2 B5:2 C6:6 B5:2" },
+    { "chord": "Am", "notes": "A5:6 E5:2~ E5:4 [G7]D5:4" },
+
+    { "chord": "C",  "notes": "C5:8~ C5:2 B4:2 C5:2 E5:2" },
+    { "chord": "C",  "notes": "G5:2 C6:2 C6:8 B5:2 A5:2" },
+    { "chord": "G7", "notes": "G5:2 C6:2 D5:2 E5:2 F5:2 A5:2 C5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:2 G5:2 [G7]D5:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:8~ C5:2 B4:2 C5:2 E5:2" },
+    { "chord": "D7", "notes": "G5:2 E6:2 E6:6 D6:2 C6:2 A5:2" },
+    { "chord": "G7", "notes": "G5:2 C6:2 D5:2 E5:2 F5:2 A5:2 [D7]D5:2 E5:2" },
+    { "chord": "G7", "notes": "F5:2 A5:2 A4:2 B4:2 [C]C5:8" }
+  ]
+}

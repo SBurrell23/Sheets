@@ -1,0 +1,12 @@
+X:1
+T:Pathetique Adagio
+C:Ludwig van Beethoven, Piano Sonata No. 8 Op. 13 "Pathetique", second movement, 1798 - public domain
+M:2/4
+L:1/16
+Q:1/4=36
+K:C clef=treble
+"C"e4 "F"d4 | "C/E"g6 "G7/B"f2 | "C"e2g2 "Am"c'2d'2 | "G"g6 ^g2 |
+"F"a4 d2e1f1 | "Em"g4 "A7"^c4 | "Dm"f4 "G7"e1d1c1B1 | "G7"d4 "C"c4 |
+"C"e4- e1c'1b1a1 | "E/G#"e'4- e'1"Am"c'1b1a1 | "E7/B"e4- e1"Am"c'1b1a1 | "D7"g2 f4 "D#dim"a1g1 |
+"Em"g4 "C"A2c1e1 | "F"a4 d2e1f1 | "Em"g4 "A7"^c4 | "Dm"f4 "G7"e1d1c1B1 |
+"G7"d4 "C"Hc4 |]

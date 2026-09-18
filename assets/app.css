@@ -1,21 +1,25 @@
-/* The accent IS the playhead purple, so the thing you follow while a song plays
-   and the thing you click are the same colour. --btn sits a step away from --bg
-   so a bordered button reads as a raised surface rather than a painted outline. */
+/* The accent IS the playhead colour, so the thing you follow while a song plays
+   and the thing you click are the same. --btn sits a step off --bg so a bordered
+   button reads as a raised surface rather than a painted outline. */
 :root{
-  --bg:#E9E8EE; --surface:#F5F4F8; --paper:#FCFBF9; --paper-edge:#DBD9E2;
-  --btn:#FFFFFF; --btn-edge:#C4C0D2;
-  --ink:#1B1823; --ink-2:#5A5568; --ink-3:#8B869B;
-  --line:#CBC7D6; --accent:#7C3AED; --accent-soft:rgba(124,58,237,.12);
-  --accent-on:#FFFFFF; --cursor:#7C3AED; --radius:4px;
+  --bg:#E8EBE9; --surface:#F4F6F4; --paper:#FCFCFA; --paper-edge:#D9DEDA;
+  --btn:#FFFFFF; --btn-edge:#C1C9C5;
+  --ink:#141D1B; --ink-2:#4F5C58; --ink-3:#5C6862;
+  --line:#C7CFCB; --accent:#0F6E64; --accent-soft:rgba(15,110,100,.12);
+  --accent-on:#FFFFFF; --cursor:#0F6E64; --radius:4px;
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%234F5C58' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.6 6 6.4 11 1.6'/%3E%3C/svg%3E");
 }
-/* Day is the default; dark is opt-in via the toggle, never via the OS setting.
-   Dark is a soft neutral grey rather than the near-black it used to be. */
-:root[data-theme="dark"]{
-  --bg:#26242B; --surface:#2F2D36; --paper:#343139; --paper-edge:#413E49;
-  --btn:#3B3843; --btn-edge:#524E5C;
-  --ink:#ECEAF1; --ink-2:#B3AEBE; --ink-3:#8A8598;
-  --line:#474350; --accent:#B98CFF; --accent-soft:rgba(185,140,255,.18);
-  --accent-on:#211F27; --cursor:#C77DFF;
+/* Day is the default; Dusk is opt-in via the toggle, never via the OS setting.
+   Dusk is a LIGHT warm low-blue-light mode -- amber paper, near-black warm ink.
+   Nothing here is blue-dominant, the accent included: a blue accent would defeat
+   the point of the mode. */
+:root[data-theme="dusk"]{
+  --bg:#F6EEDA; --surface:#FBF5E6; --paper:#FCF7EA; --paper-edge:#E3D5B8;
+  --btn:#FAF4E4; --btn-edge:#D8C8A6;
+  --ink:#241A0B; --ink-2:#584427; --ink-3:#6E5930;
+  --line:#E5D8BD; --accent:#9A4E06; --accent-soft:rgba(154,78,6,.13);
+  --accent-on:#FCF7EA; --cursor:#9A4E06;
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23584427' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.6 6 6.4 11 1.6'/%3E%3C/svg%3E");
 }
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -32,11 +36,15 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
   font-size:clamp(24px,4.4vw,42px); line-height:1.1; margin:0; letter-spacing:-.01em;
   flex:0 1 auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .masthead .btn{flex:0 0 auto}
-.count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12px; color:var(--ink-3);
+.count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:14px; color:var(--ink-2);
   font-variant-numeric:tabular-nums; margin-left:auto; flex:0 1 auto; min-width:0;
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .ctl.theme{font-size:12px; color:var(--ink-3); gap:8px; flex:0 0 auto}
 .btn.browse{padding:10px 18px; font-size:14.5px; font-weight:600}
+/* A "?" rather than a label, sitting on the baseline of the masthead so it reads
+   as a footnote to the title rather than another primary action. */
+#specbtn{align-self:flex-end; min-width:34px; padding:6px 0; font-size:15px;
+  font-weight:700; line-height:1.15; text-align:center}
 .seg{display:inline-flex; border:1px solid var(--btn-edge); border-radius:var(--radius);
   overflow:hidden; background:var(--btn)}
 .seg input{position:absolute; opacity:0; width:0; height:0; pointer-events:none}
@@ -56,15 +64,28 @@ button{font:inherit; color:inherit; cursor:pointer; background:none; border:none
 .btn:disabled:hover{border-color:var(--btn-edge); color:inherit}
 .btn[aria-pressed="true"]{border-color:var(--accent); color:var(--accent); background:var(--accent-soft)}
 .btn.ghost{padding:6px 11px; font-size:12.5px}
-select{font:inherit; font-size:13px; color:var(--ink); background:var(--btn);
-  border:1px solid var(--btn-edge); border-radius:var(--radius); padding:7px 9px; cursor:pointer}
+select{font:inherit; font-size:13px; color:var(--ink);
+  border:1px solid var(--btn-edge); border-radius:var(--radius); cursor:pointer;
+  /* The UA draws its chevron hard against the right border and there is no way to
+     move it, so we draw our own and give it room. */
+  -webkit-appearance:none; -moz-appearance:none; appearance:none;
+  background-color:var(--btn); background-image:var(--chev);
+  background-repeat:no-repeat; background-position:right 12px center;
+  background-size:11px 7px; padding:7px 34px 7px 11px}
+select::-ms-expand{display:none}
 select:hover{border-color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
 /* ---------- song picker ---------- */
 .picker{display:flex; align-items:center; gap:10px; margin-top:18px; flex-wrap:wrap}
 .picker .nav{min-width:66px; font-size:20px; line-height:1; padding:10px 22px; font-weight:600}
-#songsel{flex:1 1 320px; min-width:0; font-size:15px; padding:9px 10px; font-weight:500}
+.picker .nav.shuffle{min-width:52px; padding:10px 13px; display:inline-flex;
+  align-items:center; justify-content:center}
+.picker .nav.shuffle svg{width:20px; height:20px; display:block}
+.picker .nav.shuffle[aria-pressed="true"]{background:var(--accent); border-color:var(--accent);
+  color:var(--accent-on)}
+.picker .nav.shuffle[aria-pressed="true"]:hover{color:var(--accent-on)}
+#songsel{flex:1 1 320px; min-width:0; font-size:15px; padding:9px 34px 9px 12px; font-weight:500}
 .where{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px;
   color:var(--ink-3); letter-spacing:.04em; white-space:nowrap}
 
@@ -79,11 +100,15 @@ select:hover{border-color:var(--accent)}
 .play:disabled{filter:none}
 .play .glyph{font-size:11px; line-height:1}
 a.dl{color:var(--ink)} a.dl:hover{color:var(--accent)}
+#pdf{margin-left:auto}   /* pushed to the end of its row */
 a.dl .arrow{color:var(--accent); font-weight:600}
 .ctl{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--ink-2)}
 .ctl input[type=range]{accent-color:var(--accent); width:118px}
 .keygrp{gap:5px}
-.keygrp select{min-width:104px; text-align:center}
+.keygrp select{min-width:112px; text-align:center; padding-left:34px}
+.octgrp{gap:5px}
+.octgrp #octnow{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
+  color:var(--ink); font-weight:500; min-width:22px; text-align:center}
 .btn.step{padding:8px 14px; font-size:17px; line-height:1; font-weight:700; min-width:40px}
 .ctl output{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
   color:var(--ink); font-weight:500; font-variant-numeric:tabular-nums; min-width:50px}
@@ -156,6 +181,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .readout{margin-left:0; width:100%}
   .ctl input[type=range]{width:96px}
 }
+
 /* Portrait tablet: the transport wraps to two or three rows, so give the rows
    room and let the song picker own a full line of its own. */
 @media (max-width:980px){
@@ -164,7 +190,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .masthead{gap:9px}
   .masthead h1{font-size:clamp(20px,3.4vw,28px)}
   .btn.browse{padding:9px 13px; font-size:13.5px}
-  .count{font-size:11.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  .count{font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
          flex:0 1 auto; min-width:0}
   .picker{gap:8px; flex-wrap:nowrap}
   .picker .nav{flex:0 0 auto; min-width:84px; padding:11px 16px}
@@ -172,20 +198,52 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .where{flex:0 0 auto}
   .row{flex-wrap:nowrap; gap:8px}
   .play{min-width:86px}
-  .keygrp{flex:0 0 auto}
-  .keygrp > span{display:none}
+  .keygrp,.octgrp{flex:0 0 auto}
   .keygrp select{min-width:76px}
   .ctl.tempo > span{display:none}
   .ctl input[type=range]{width:92px}
   .ctl output{min-width:46px; font-size:12px}
   #pdf{flex:0 0 auto}
 }
+/* Phone. A single line stops being realistic here, so everything wraps on
+   purpose: the masthead breaks after the title, the song dropdown takes a line
+   of its own with the transport buttons beneath it, and the score gets the full
+   width. Touch targets stay finger-sized. */
+@media (max-width:560px){
+  .wrap{padding-inline:12px; padding-block:16px 44px}
+  .masthead{flex-wrap:wrap; gap:8px 10px; padding-bottom:12px}
+  .masthead h1{font-size:25px; flex:1 1 auto; order:1}
+  .ctl.theme{order:2; margin-left:auto}
+  .btn.browse{order:3; flex:1 1 auto; padding:10px 12px; font-size:14px; text-align:center}
+  #specbtn{order:4; flex:0 0 auto}
+  .count{order:5; flex:1 1 100%; margin-left:0; text-align:right; font-size:12.5px}
+
+  .picker{flex-wrap:wrap; gap:8px; margin-top:14px}
+  #songsel{order:1; flex:1 1 100%; font-size:14.5px}
+  .picker .nav{order:2; flex:1 1 0; min-width:0; padding:12px 8px}
+  .picker .nav.shuffle{order:3; flex:0 0 auto; min-width:56px}
+  .where{order:4; flex:0 0 auto; margin-left:auto}
+
+  .transport{padding:10px; gap:9px}
+  .row{flex-wrap:wrap; gap:8px}
+  .play{flex:1 1 100%; min-width:0}
+  .keygrp{flex:1 1 auto}
+  .keygrp select{flex:1 1 auto; min-width:0}
+  .ctl.tempo{flex:1 1 auto}
+  .ctl.tempo input[type=range]{flex:1 1 auto; width:auto; min-width:0}
+  #pdf{flex:0 0 auto}
+  .barrow{gap:8px}
+
+  .sheet{padding:14px 8px 18px; margin-top:14px}
+  .modal{padding:10px}
+  .dirlist{grid-template-columns:1fr}
+}
 /* Anything driven by a finger gets a 44px-ish target. */
 @media (pointer:coarse){
   .btn{padding:11px 16px; font-size:14px}
   .btn.ghost{padding:10px 14px; font-size:13px}
-  select{padding:11px 10px; font-size:14px}
-  .ctl.theme select{padding:8px 8px; font-size:13px}
+  select{padding:11px 34px 11px 12px; font-size:14px}
+  .ctl.theme select{padding:8px 30px 8px 10px; font-size:13px}
   .picker .nav{padding:14px 24px; font-size:22px}
   .bar-strip{height:38px}
   .ctl input[type=range]{height:28px}

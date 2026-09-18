@@ -1,0 +1,14 @@
+X:1
+T:Träumerei
+C:Robert Schumann, Kinderszenen Op. 15 No. 7, 1838 - public domain
+M:4/4
+L:1/16
+Q:1/4=56
+K:C clef=treble
+"C"G4 | "C"c8- c2B2 c2e2 | "C"g2c'2 c'8 b2a2 | "G7"g2c'2 d2e2 f2a2 c2d2 |
+"C"e2g2 "G7"d8 G4 | "C"c8- c2B2 c2e2 | "C"g2e'2 e'6 "E7"d'2 c'2b2 | "Am"c'2e'2 a2c'2 "G"b6 _b2 |
+"D7"a4 b4 "G7"g4 z2 G2 | "C"c8- c2B2 c2e2 | "A7"g2_b2 b8 a2g2 | "Dm"f2a2 d2e2 f6 e2 |
+"Dm"d6 A2- A4 z2 c2 | "F"F8- F2E2 F2A2 | "E7"c2f2 f8 e2d2 | "Am"c'2e'2 a2b2 c'6 b2 |
+"Am"a6 e2- e4 "G7"d4 | "C"c8- c2B2 c2e2 | "C"g2c'2 c'8 b2a2 | "G7"g2c'2 d2e2 f2a2 c2d2 |
+"C"e2g2 "G7"d8 G4 | "C"c8- c2B2 c2e2 | "D7"g2e'2 e'6 d'2 c'2a2 | "G7"g2c'2 d2e2 f2a2 "D7"d2e2 |
+"G7"f2a2 A2B2 "C"Hc8 |]

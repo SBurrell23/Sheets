@@ -5,6 +5,9 @@ window.PS = window.PS || {};
   // <img src> to a sibling folder is fine but a fetch is not -- and drawing in
   // currentColor means the art follows the theme for free.
   var ART = {
+    "all-songs":
+      '<path d="M4 5.5h10M4 10h10M4 14.5h6"/>' +
+      '<circle cx="15.8" cy="18" r="2.6"/><path d="M18.4 18V7.4l3.2 1.2"/>',
     "folk-songs":
       '<path d="M12 21c-3 0-5.2-2-5.2-4.6 0-1.9 1.2-3 1.2-4.4S6.8 9.5 6.8 7.6C6.8 5 9 3.2 12 3.2' +
       's5.2 1.8 5.2 4.4c0 1.9-1.2 3-1.2 4.4s1.2 2.5 1.2 4.4C17.2 19 15 21 12 21z"/>' +

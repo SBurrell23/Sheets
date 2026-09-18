@@ -1,0 +1,24 @@
+{
+  "title": "John Henry",
+  "source": "Traditional American ballad — public domain",
+  "key": "Am",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 84,
+  "bars": [
+    { "chord": "Am", "notes": "G5:2 A5:2" },
+
+    { "chord": "Am", "notes": "A5:2 A5:6 C6:2 A5:2 C6:2 A5:2" },
+    { "chord": "Am", "notes": "C6:2 A5:2 A5:8 G5:2 A5:2" },
+    { "chord": "Am", "notes": "C6:2 A5:2 C6:2 A5:2 A5:2 A5:2 G5:2 E5:2" },
+    { "chord": "Am", "notes": "E5:12 E5:2 G5:2" },
+
+    { "chord": "C",  "notes": "C6:4 A5:2 G5:2 A5:2 A5:2 G5:2 E5:2" },
+    { "chord": "Am", "notes": "G5:2 E5:2 C5:2 A4:2 A4:4 G4:2 A4:2" },
+    { "chord": "Am", "notes": "C5:2 A4:2 C5:2 A4:2 A4:2 A4:2 [G]G4:2 G4:2" },
+    { "chord": "Am", "notes": "A4:12 G4:2 A4:2" },
+
+    { "chord": "Am", "notes": "C5:2 A4:2 C5:2 A4:2 A4:2 A4:2 [G]G4:2 G4:2" },
+    { "chord": "Am", "notes": "A4:16" }
+  ]
+}

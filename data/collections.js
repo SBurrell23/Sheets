@@ -12,6 +12,16 @@ window.PS_MANIFEST = [
     "order": 99,
     "songs": [
      {
+      "slug": "all-through-the-night",
+      "title": "All Through the Night",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 16,
+      "source": "Welsh traditional — \"Ar Hyd y Nos\", first printed 1784 — public domain",
+      "pdf": "songs/folk-songs/all-through-the-night.pdf"
+     },
+     {
       "slug": "amazing-grace",
       "title": "Amazing Grace",
       "key": "C",
@@ -20,6 +30,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Traditional — tune \"New Britain\", 1835; words John Newton — public domain",
       "pdf": "songs/folk-songs/amazing-grace.pdf"
+     },
+     {
+      "slug": "america-the-beautiful",
+      "title": "America the Beautiful",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 17,
+      "source": "Samuel A. Ward, tune \"Materna\", 1882; words Katharine Lee Bates — public domain",
+      "pdf": "songs/folk-songs/america-the-beautiful.pdf"
      },
      {
       "slug": "auld-lang-syne",
@@ -42,6 +62,36 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/aura-lee.pdf"
      },
      {
+      "slug": "battle-hymn-of-the-republic",
+      "title": "Battle Hymn of the Republic",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 17,
+      "source": "Traditional — tune \"Glory Hallelujah\"/\"John Brown's Body\", 1856; words Julia Ward Howe, 1862 — public domain",
+      "pdf": "songs/folk-songs/battle-hymn-of-the-republic.pdf"
+     },
+     {
+      "slug": "billy-boy",
+      "title": "Billy Boy",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 112,
+      "bars": 17,
+      "source": "Traditional American — public domain",
+      "pdf": "songs/folk-songs/billy-boy.pdf"
+     },
+     {
+      "slug": "blow-the-man-down",
+      "title": "Blow the Man Down",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 112,
+      "bars": 9,
+      "source": "Traditional sea shanty — public domain",
+      "pdf": "songs/folk-songs/blow-the-man-down.pdf"
+     },
+     {
       "slug": "buffalo-gals",
       "title": "Buffalo Gals",
       "key": "C",
@@ -62,6 +112,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/camptown-races.pdf"
      },
      {
+      "slug": "cotton-eyed-joe",
+      "title": "Cotton-Eyed Joe",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 120,
+      "bars": 17,
+      "source": "Traditional American — public domain",
+      "pdf": "songs/folk-songs/cotton-eyed-joe.pdf"
+     },
+     {
       "slug": "daisy-bell",
       "title": "Daisy Bell (Bicycle Built for Two)",
       "key": "C",
@@ -70,6 +130,16 @@ window.PS_MANIFEST = [
       "bars": 64,
       "source": "Harry Dacre, 1892 — public domain",
       "pdf": "songs/folk-songs/daisy-bell.pdf"
+     },
+     {
+      "slug": "down-by-the-riverside",
+      "title": "Down by the Riverside",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 13,
+      "source": "Traditional African-American spiritual, published 1918 — public domain",
+      "pdf": "songs/folk-songs/down-by-the-riverside.pdf"
      },
      {
       "slug": "down-in-the-valley",
@@ -90,6 +160,26 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Traditional sea shanty — public domain",
       "pdf": "songs/folk-songs/drunken-sailor.pdf"
+     },
+     {
+      "slug": "early-one-morning",
+      "title": "Early One Morning",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 16,
+      "source": "English traditional — public domain",
+      "pdf": "songs/folk-songs/early-one-morning.pdf"
+     },
+     {
+      "slug": "go-tell-it-on-the-mountain",
+      "title": "Go Tell It on the Mountain",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 16,
+      "source": "Traditional African-American spiritual, published 1907 — public domain",
+      "pdf": "songs/folk-songs/go-tell-it-on-the-mountain.pdf"
      },
      {
       "slug": "greensleeves",
@@ -120,6 +210,26 @@ window.PS_MANIFEST = [
       "bars": 32,
       "source": "Traditional American, first published 1894 as 'Levee Song' - public domain. Verse after the Digital Tradition setting; the chorus ('Someone's in the kitchen with Dinah') rests on that one setting alone, the only ABC source found carrying it, checked by ear against the tune as sung",
       "pdf": "songs/folk-songs/working-on-the-railroad.pdf"
+     },
+     {
+      "slug": "jimmy-crack-corn",
+      "title": "Jimmy Crack Corn",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 17,
+      "source": "Traditional American, 1846 — melody only — public domain",
+      "pdf": "songs/folk-songs/jimmy-crack-corn.pdf"
+     },
+     {
+      "slug": "john-henry",
+      "title": "John Henry",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 11,
+      "source": "Traditional American ballad — public domain",
+      "pdf": "songs/folk-songs/john-henry.pdf"
      },
      {
       "slug": "little-brown-jug",
@@ -190,6 +300,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Stephen Foster, 1848 — public domain",
       "pdf": "songs/folk-songs/oh-susanna.pdf"
+     },
+     {
+      "slug": "polly-wolly-doodle",
+      "title": "Polly Wolly Doodle",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 17,
+      "source": "Traditional American — public domain",
+      "pdf": "songs/folk-songs/polly-wolly-doodle.pdf"
      },
      {
       "slug": "red-river-valley",
@@ -292,6 +412,26 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/take-me-out-to-the-ball-game.pdf"
      },
      {
+      "slug": "the-ash-grove",
+      "title": "The Ash Grove",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 25,
+      "source": "Welsh traditional — \"Llwyn Onn\" — public domain",
+      "pdf": "songs/folk-songs/the-ash-grove.pdf"
+     },
+     {
+      "slug": "the-erie-canal",
+      "title": "The Erie Canal",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 25,
+      "source": "Thomas S. Allen, \"Low Bridge, Everybody Down\", 1905 — public domain",
+      "pdf": "songs/folk-songs/the-erie-canal.pdf"
+     },
+     {
       "slug": "the-water-is-wide",
       "title": "The Water Is Wide",
       "key": "C",
@@ -310,6 +450,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Traditional, 1853 — public domain",
       "pdf": "songs/folk-songs/yellow-rose-of-texas.pdf"
+     },
+     {
+      "slug": "this-train",
+      "title": "This Train",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 16,
+      "source": "Traditional American gospel song — public domain",
+      "pdf": "songs/folk-songs/this-train.pdf"
      },
      {
       "slug": "three-blind-mice",
@@ -358,6 +508,16 @@ window.PS_MANIFEST = [
     "order": 99,
     "songs": [
      {
+      "slug": "1812-overture",
+      "title": "1812 Overture",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 16,
+      "source": "Pyotr Ilyich Tchaikovsky, 1812 Overture, 1880 - closing theme, the hymn \"God Save the Tsar\" by Alexei Lvov, 1833 - public domain",
+      "pdf": "songs/classical/1812-overture.pdf"
+     },
+     {
       "slug": "air-on-the-g-string",
       "title": "Air on the G String",
       "key": "C",
@@ -368,6 +528,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/air-on-the-g-string.pdf"
      },
      {
+      "slug": "beethoven-seventh-allegretto",
+      "title": "Allegretto from the Seventh Symphony",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 76,
+      "bars": 32,
+      "source": "Ludwig van Beethoven, Symphony No. 7 Op. 92, second movement, 1812 - public domain",
+      "pdf": "songs/classical/beethoven-seventh-allegretto.pdf"
+     },
+     {
       "slug": "ave-maria-schubert",
       "title": "Ave Maria",
       "key": "C",
@@ -376,6 +546,16 @@ window.PS_MANIFEST = [
       "bars": 12,
       "source": "Franz Schubert, Ellens dritter Gesang, D. 839, 1825 - public domain",
       "pdf": "songs/classical/ave-maria-schubert.pdf"
+     },
+     {
+      "slug": "barcarolle",
+      "title": "Barcarolle",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 84,
+      "bars": 21,
+      "source": "Jacques Offenbach, Barcarolle (Belle nuit, ô nuit d'amour) from The Tales of Hoffmann, 1881 - public domain",
+      "pdf": "songs/classical/barcarolle.pdf"
      },
      {
       "slug": "brahms-lullaby",
@@ -438,6 +618,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/sugar-plum-fairy.pdf"
      },
      {
+      "slug": "danse-macabre",
+      "title": "Danse Macabre",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 190,
+      "bars": 31,
+      "source": "Camille Saint-Saens, Danse macabre, Op. 40, 1874 - public domain",
+      "pdf": "songs/classical/danse-macabre.pdf"
+     },
+     {
       "slug": "eine-kleine-nachtmusik",
       "title": "Eine kleine Nachtmusik",
       "key": "C",
@@ -446,6 +636,26 @@ window.PS_MANIFEST = [
       "bars": 18,
       "source": "Wolfgang Amadeus Mozart, Serenade No. 13, K. 525, first movement, 1787 - public domain",
       "pdf": "songs/classical/eine-kleine-nachtmusik.pdf"
+     },
+     {
+      "slug": "flower-duet",
+      "title": "Flower Duet",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 60,
+      "bars": 25,
+      "source": "Léo Delibes, Flower Duet (Sous le dôme épais) from Lakmé, 1883 - public domain",
+      "pdf": "songs/classical/flower-duet.pdf"
+     },
+     {
+      "slug": "chopin-funeral-march",
+      "title": "Funeral March",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 54,
+      "bars": 44,
+      "source": "Frédéric Chopin, Piano Sonata No. 2 in B flat minor Op. 35, third movement, 1839 - public domain",
+      "pdf": "songs/classical/chopin-funeral-march.pdf"
      },
      {
       "slug": "fur-elise",
@@ -538,6 +748,26 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/la-donna-e-mobile.pdf"
      },
      {
+      "slug": "mozart-lacrimosa",
+      "title": "Lacrimosa",
+      "key": "Am",
+      "meter": "12/8",
+      "tempo": 63,
+      "bars": 25,
+      "source": "W. A. Mozart, Requiem in D minor K. 626, 1791 - public domain",
+      "pdf": "songs/classical/mozart-lacrimosa.pdf"
+     },
+     {
+      "slug": "largo-al-factotum",
+      "title": "Largo al factotum",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 135,
+      "bars": 26,
+      "source": "Gioachino Rossini, The Barber of Seville, 1816 - Figaro's aria, vocal line - public domain",
+      "pdf": "songs/classical/largo-al-factotum.pdf"
+     },
+     {
       "slug": "new-world-largo",
       "title": "Largo from the New World Symphony",
       "key": "C",
@@ -546,6 +776,16 @@ window.PS_MANIFEST = [
       "bars": 12,
       "source": "Antonin Dvorak, Symphony No. 9 \"From the New World\", Op. 95, 1893 - public domain",
       "pdf": "songs/classical/new-world-largo.pdf"
+     },
+     {
+      "slug": "liebestraum",
+      "title": "Liebestraum No. 3",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 120,
+      "bars": 24,
+      "source": "Franz Liszt, Liebesträume No. 3 (O lieb, so lang du lieben kannst), S. 541, 1850 - public domain",
+      "pdf": "songs/classical/liebestraum.pdf"
      },
      {
       "slug": "minuet-in-g",
@@ -588,6 +828,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/nocturne-op9-no2.pdf"
      },
      {
+      "slug": "o-mio-babbino-caro",
+      "title": "O mio babbino caro",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 60,
+      "bars": 26,
+      "source": "Giacomo Puccini, Gianni Schicchi, 1918 - vocal line - public domain",
+      "pdf": "songs/classical/o-mio-babbino-caro.pdf"
+     },
+     {
       "slug": "ode-to-joy",
       "title": "Ode to Joy",
       "key": "C",
@@ -598,6 +848,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/ode-to-joy.pdf"
      },
      {
+      "slug": "pathetique-adagio",
+      "title": "Pathetique Adagio",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 36,
+      "bars": 17,
+      "source": "Ludwig van Beethoven, Piano Sonata No. 8 Op. 13 \"Pathetique\", second movement, 1798 - public domain",
+      "pdf": "songs/classical/pathetique-adagio.pdf"
+     },
+     {
       "slug": "pomp-and-circumstance",
       "title": "Pomp and Circumstance",
       "key": "C",
@@ -606,6 +866,56 @@ window.PS_MANIFEST = [
       "bars": 21,
       "source": "Edward Elgar, Pomp and Circumstance March No. 1, Op. 39, 1901 - public domain",
       "pdf": "songs/classical/pomp-and-circumstance.pdf"
+     },
+     {
+      "slug": "bach-prelude-in-c",
+      "title": "Prelude in C",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 63,
+      "bars": 35,
+      "source": "J.S. Bach, Prelude No. 1 in C, The Well-Tempered Clavier Book I, BWV 846, 1722 - public domain",
+      "pdf": "songs/classical/bach-prelude-in-c.pdf"
+     },
+     {
+      "slug": "handel-sarabande",
+      "title": "Sarabande",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 56,
+      "bars": 23,
+      "source": "G.F. Handel, Sarabande from the Suite in D minor HWV 437, 1733 - public domain",
+      "pdf": "songs/classical/handel-sarabande.pdf"
+     },
+     {
+      "slug": "sheep-may-safely-graze",
+      "title": "Sheep May Safely Graze",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 17,
+      "source": "J.S. Bach, aria from the Hunt Cantata BWV 208, c.1713 - public domain",
+      "pdf": "songs/classical/sheep-may-safely-graze.pdf"
+     },
+     {
+      "slug": "sleeping-beauty-waltz",
+      "title": "Sleeping Beauty Waltz",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 180,
+      "bars": 34,
+      "source": "Pyotr Ilyich Tchaikovsky, The Sleeping Beauty, Op. 66, 1890 - Garland Waltz - public domain",
+      "pdf": "songs/classical/sleeping-beauty-waltz.pdf"
+     },
+     {
+      "slug": "solveigs-song",
+      "title": "Solveig's Song",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 16,
+      "source": "Edvard Grieg, Peer Gynt Op. 23 No. 19, 1875 - public domain",
+      "pdf": "songs/classical/solveigs-song.pdf"
      },
      {
       "slug": "mozart-k545",
@@ -628,6 +938,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/spring-vivaldi.pdf"
      },
      {
+      "slug": "schubert-serenade",
+      "title": "Ständchen (Serenade)",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 66,
+      "bars": 34,
+      "source": "Franz Schubert, Schwanengesang D. 957 No. 4, 1828 - public domain",
+      "pdf": "songs/classical/schubert-serenade.pdf"
+     },
+     {
       "slug": "swan-lake",
       "title": "Swan Lake",
       "key": "Am",
@@ -638,6 +958,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/swan-lake.pdf"
      },
      {
+      "slug": "mozart-symphony-40",
+      "title": "Symphony No. 40",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 200,
+      "bars": 16,
+      "source": "W. A. Mozart, Symphony No. 40 in G minor K. 550, first movement, 1788 - public domain",
+      "pdf": "songs/classical/mozart-symphony-40.pdf"
+     },
+     {
       "slug": "beethoven-fifth",
       "title": "Symphony No. 5 (Opening)",
       "key": "Am",
@@ -646,6 +976,16 @@ window.PS_MANIFEST = [
       "bars": 20,
       "source": "Ludwig van Beethoven, Symphony No. 5 in C minor, Op. 67, first movement, 1808 - public domain",
       "pdf": "songs/classical/beethoven-fifth.pdf"
+     },
+     {
+      "slug": "tchaikovsky-piano-concerto-1",
+      "title": "Tchaikovsky Piano Concerto No. 1",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 80,
+      "bars": 18,
+      "source": "Pyotr Ilyich Tchaikovsky, Piano Concerto No. 1 in B-flat minor, Op. 23, 1875 - opening theme - public domain",
+      "pdf": "songs/classical/tchaikovsky-piano-concerto-1.pdf"
      },
      {
       "slug": "blue-danube",
@@ -668,6 +1008,46 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/the-swan.pdf"
      },
      {
+      "slug": "the-trout",
+      "title": "The Trout",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 104,
+      "bars": 21,
+      "source": "Franz Schubert, Die Forelle D. 550, 1817 - public domain",
+      "pdf": "songs/classical/the-trout.pdf"
+     },
+     {
+      "slug": "toccata-and-fugue",
+      "title": "Toccata and Fugue",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 12,
+      "source": "J.S. Bach, Toccata and Fugue in D minor, BWV 565, c.1704 - public domain",
+      "pdf": "songs/classical/toccata-and-fugue.pdf"
+     },
+     {
+      "slug": "trepak",
+      "title": "Trepak",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 200,
+      "bars": 48,
+      "source": "Pyotr Ilyich Tchaikovsky, The Nutcracker, Op. 71, 1892 - Russian Dance (Trepak) - public domain",
+      "pdf": "songs/classical/trepak.pdf"
+     },
+     {
+      "slug": "traumerei",
+      "title": "Träumerei",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 56,
+      "bars": 25,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 7, 1838 - public domain",
+      "pdf": "songs/classical/traumerei.pdf"
+     },
+     {
       "slug": "turkish-march",
       "title": "Turkish March",
       "key": "Am",
@@ -676,6 +1056,16 @@ window.PS_MANIFEST = [
       "bars": 33,
       "source": "Wolfgang Amadeus Mozart, Rondo alla Turca from Piano Sonata No. 11, K. 331, 1783 - public domain",
       "pdf": "songs/classical/turkish-march.pdf"
+     },
+     {
+      "slug": "va-pensiero",
+      "title": "Va, pensiero",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 52,
+      "bars": 33,
+      "source": "Giuseppe Verdi, Nabucco, 1842 - Chorus of the Hebrew Slaves - public domain",
+      "pdf": "songs/classical/va-pensiero.pdf"
      },
      {
       "slug": "waltz-of-the-flowers",
@@ -716,6 +1106,16 @@ window.PS_MANIFEST = [
       "bars": 41,
       "source": "Gioachino Rossini, William Tell Overture (Guillaume Tell) finale, 1829 - public domain",
       "pdf": "songs/classical/william-tell-overture.pdf"
+     },
+     {
+      "slug": "winter-largo",
+      "title": "Winter (Largo)",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 56,
+      "bars": 18,
+      "source": "Antonio Vivaldi, The Four Seasons - Winter, Op. 8 No. 4, second movement, 1725 - public domain",
+      "pdf": "songs/classical/winter-largo.pdf"
      }
     ]
    }

@@ -1,0 +1,31 @@
+{
+  "title": "Jimmy Crack Corn",
+  "source": "Traditional American, 1846 — melody only — public domain",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 120,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4" },
+
+    { "chord": "C",  "notes": "E5:4 E5:4 C5:4 C5:4" },
+    { "chord": "G7", "notes": "B4:4 D5:4 D5:4 D5:4" },
+    { "chord": "G7", "notes": "D5:4 D5:4 B4:4 D5:4" },
+    { "chord": "G7", "notes": "D5:4 [C]C5:4 C5:4 C5:4" },
+
+    { "chord": "C",  "notes": "E5:4 E5:4 C5:2 C5:2 C5:4" },
+    { "chord": "G7", "notes": "B4:4 D5:4 D5:4 D5:4" },
+    { "chord": "G7", "notes": "D5:4 D5:4 B4:4 D5:4" },
+    { "chord": "C",  "notes": "E5:4 C5:4 C5:8" },
+
+    { "chord": "C",  "notes": "G4:2 C5:2 C5:4 C5:6 C5:2" },
+    { "chord": "G7", "notes": "B4:4 D5:4 D5:4 R:4" },
+    { "chord": "G7", "notes": "G4:2 D5:2 D5:4 D5:6 D5:2" },
+    { "chord": "C",  "notes": "C5:4 E5:4 E5:4 R:4" },
+
+    { "chord": "C",  "notes": "C5:2 E5:2 E5:4 E5:6 E5:2" },
+    { "chord": "F",  "notes": "F5:4 A5:4 [Dm]A5:4 R:4" },
+    { "chord": "G7", "notes": "G5:6 G5:2 F5:4 B4:4" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

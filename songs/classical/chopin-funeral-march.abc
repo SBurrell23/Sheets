@@ -1,0 +1,18 @@
+X:1
+T:Funeral March
+C:Frédéric Chopin, Piano Sonata No. 2 in B flat minor Op. 35, third movement, 1839 - public domain
+M:4/4
+L:1/16
+Q:1/4=54
+K:Am clef=treble
+"Am"A4 A3A1 A8 | "Am"A4 A3A1 A8 | "Am"A4 A3A1 A4 c3B1 | "Am"B3A1 A3A1 A8 |
+"Am"c4 c3c1 c4 e3d1 | "Am"d3c1 c3c1 c8 | "Am"a3g1 f3e1 e4 c4 | "Am"a3g1 f3e1 e4 c4 |
+"Am"A4 A3A1 A4 c3B1 | "Am"B3A1 A3A1 A4 "G7"B4 | "C"c4 e3f1 g3a1 b3c'1 | "G7"e'8 d'6 z1 f1 |
+"Am"e4 e3^f1 ^g3a1 b3c'1 | "E"c'8 b4 z4 | "C/G"g4 g4 g4 z4 | "F"e4 e4 A8 |
+"Am"A4 A3A1 A4 c3B1 | "Am"B3A1 A3A1 A4 z4 | "C"e8 f2e2 d2c2 | "G7/D"B4 a4 g8 |
+"G7"f8 g2f2 e2d2 | "C"c4 c'4 g8 | "C"e8 "A7"f2e2 d2^c2 | "Dm"d2^c2 d2e2 f2A2 e2d2 |
+"F#dim"c8 "G7"a2g2 f2G2 | "G7"d8 "C"c4 z4 | "G"B8 c2B2 A2G2 | "D7/A"^F4 e4 d8 |
+"Adim"c8 d2c2 B2A2 | "G#dim"^G4 f4 e8 | "C"e8 f2e2 d2c2 | "Dm"c4 B4 z2 "Am"B2 c3B1 |
+"Dm/F"B4 A4 z2 B2 c3B1 | "E"B4 e4 "G7"f4 G4 | "C"e8 f2e2 d2c2 | "G7/D"B4 a4 g8 |
+"G7"f8 g2f2 e2d2 | "C"c4 c'4 g8 | "C"e8 "A7"f2e2 d2^c2 | "Dm"d2^c2 d2e2 f2A2 e2d2 |
+"F#dim"c8 "G7"a2g2 f2G2 | "G7"d8 "C"c4 z4 | "Am"A4 A3A1 A4 c3B1 | "Am"B3A1 A3A1 HA8 |]

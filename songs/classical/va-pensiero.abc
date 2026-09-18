@@ -1,0 +1,16 @@
+X:1
+T:Va, pensiero
+C:Giuseppe Verdi, Nabucco, 1842 - Chorus of the Hebrew Slaves - public domain
+M:4/4
+L:1/16
+Q:1/4=52
+K:C clef=treble
+"C"e3d1 | "C"c4 G3g1 g4 e3c1 | "C"(3c2B2d2 "F"f8 "G7"G3G1 | "C"G4 c3e1 e3d1 e3d1 |
+"C"c4 "G7"B8 e3d1 | "C"c4 G3g1 g4 e3c1 | "C"(3c2B2d2 "F"f8 "G7"G3G1 | "C"(3G2c2e2 (3g2f2d2 c4 "G7"(3B2e2d2 |
+"C"c12 e3e1 | "C"d4 (3^f2e2d2 c4 (3e2d2c2 | "G7"B3c1 d8 e3^f1 | "G7"g4 ^f3e1 (3e2d2^c2 (3e2d2=c2 |
+"G7"B3A1 G8 e3d1 | "C"c4 G3g1 g4 e3c1 | "C"(3c2B2d2 "F"f8 "G7"G3G1 | "C"(3G2c2e2 (3g2f2d2 c4 "G7"(3B2e2d2 |
+"C"c12 g3g1 | "G7"b4 b3b1 b4 (3b2a2g2 | "D7"^f4 (3e2f2g2 d4 (3z2 d2d2 | "C"c4 c3c1 c4 c3c1 |
+"C"e4 "G7"d8 d3d1 | "G7"b4 b3b1 b4 (3b2a2g2 | "D7"^f4 (3e2f2g2 d4 (3z2 d2d2 | "C"c4 c3c1 c4 (3c2e2d2 |
+"G7"B12 G3G1 | "Fm7"f4 f3f1 ^d4 d3d1 | "G7"d8 G4 G3G1 | "Fm7"f4 f3f1 ^d4 d3d1 |
+"G7"d4 G8 e3d1 | "C"c4 e3e1 e4 e3e1 | "F"a8- (3a2g2f2 (3e2f2d2 | "C"c4 e3e1 e4 e3e1 |
+"C"He16 |]

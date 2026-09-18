@@ -1,0 +1,12 @@
+X:1
+T:Winter (Largo)
+C:Antonio Vivaldi, The Four Seasons - Winter, Op. 8 No. 4, second movement, 1725 - public domain
+M:4/4
+L:1/16
+Q:1/4=56
+K:C clef=treble
+"C"c2g1f1 e2d1c1 "G"d2G2 z2 G2 | "G7"f1e1d1c1 B2f2 "C"f2e2 z2 e2 | "G7/B"d2e1f1 g2a1b1 "Am"c2d1e1 f2g1a1 | "G"B2c1d1 e2f1g1 "F"A2B1c1 "F#dim"d2e1c1 |
+"G"B4- B1G1^F1G1 d4- d1G1F1G1 | "C"e4- e1G1^F1G1 "D7/C"^f4- f1d1c1d1 | "G"g2G2 z2 g2 "D"g1f1e1d1 c1B1A1G1 | "D"A6 G2 "G"G4 z4 |
+"G"G2d1c1 B2A1G1 "D"A2d2 z2 d2 | "D7"c1B1A1G1 ^F2c2 "G"c2B2 z2 G2 | "G7"f1e1d1c1 B2f2 "C"f2e2 z2 e2 | "F"A2B1c1 d2e1f1 "G"B2c1d1 e2f1g1 |
+"Am"c2d1e1 f2g1a1 "G"B4 z2 B1c1 | "G7"d1B1A1G1 e1f1g1e1 d2G2 z2 B1c1 | "G7"d1B1A1G1 e1f1g1e1 d2G2 z2 d1g1 | "C"e2d1c1 "G"B3c1 "C"c8- |
+"C"c16 | "C"Hc16 |]
