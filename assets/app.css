@@ -57,7 +57,12 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
    drawn with the hook. Georgia's italic f has it, Times' does too, and this is
    the same stack favicon.svg uses, so the logo and the tab icon are one letter. */
 h1 .mark{font-family:Georgia,"Times New Roman",serif;
-  font-style:italic; font-weight:700; font-size:1.5em;
+  /* 1em, not the 1.5em it wore while the curl was missing: that size was an
+     attempt to make an absent hook legible by enlarging it, and once the font
+     had the hook the f just dwarfed the word. Georgia's ascender already rises
+     a little above Playfair's cap height, so at 1em the mark still reads as a
+     mark and the lockup reads as one word. */
+  font-style:italic; font-weight:700; font-size:1em;
   margin-left:.08em; margin-right:.22em; letter-spacing:0;
   line-height:0}
 .masthead .btn{flex:0 0 auto}
