@@ -36,8 +36,10 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
   font-size:clamp(24px,4.4vw,42px); line-height:1.1; margin:0; letter-spacing:-.01em;
   /* The site name never shrinks. It and .count were both flex:0 1 auto, so a
      crowded masthead ate 'Sheets' into 'Sh...'. The count is the one that can
-     afford to ellipsise. */
-  flex:0 0 auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+     afford to ellipsise -- and since this one cannot shrink, its own overflow
+     clipping had nothing left to do except cut the tail off the italic f, whose
+     descender hangs 3px below the line box. */
+  flex:0 0 auto; min-width:0; white-space:nowrap}
 /* The forte marking is just an italic f, which is what the printed dynamic is.
    Set rather than drawn: a hand-built path came out stiff next to Playfair, and
    the real italic already has the thick-and-thin and the long descender. The
