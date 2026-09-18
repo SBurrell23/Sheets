@@ -29,8 +29,11 @@
 
   var PC = { C:0, "C#":1, Db:1, D:2, "D#":3, Eb:3, E:4, F:5, "F#":6, Gb:6,
              G:7, "G#":8, Ab:8, A:9, "A#":10, Bb:10, B:11 };
-  var MAJOR = ["C","Db","D","Eb","E","F","Gb","G","Ab","A","Bb","B"];
-  var MINOR = ["Am","Bbm","Bm","Cm","C#m","Dm","Ebm","Em","Fm","F#m","Gm","G#m"];
+  // Ordered roughly by how often a player meets them, not by pitch class. The
+  // dropdown's value is computed from the name, so this list is display order
+  // only and can be reordered freely.
+  var MAJOR = ["C","G","F","D","Bb","A","Eb","E","Ab","B","Db","Gb"];
+  var MINOR = ["Am","Dm","Em","Gm","Bm","Cm","F#m","Fm","G#m","Bbm","Ebm","C#m"];
 
   function tonicPc(key) { return PC[key.replace(/m$/, "")]; }
   function isMinor(key) { return /m$/.test(key); }
