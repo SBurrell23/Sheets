@@ -1,0 +1,98 @@
+[
+ {
+  "name": "abcnotation-ic-abc-mirror-corneymusers-o-little-town-of-bethlehem-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fcorneymusers%2FO_LITTLE_TOWN_OF_BETHLEHEM_1%2F0000",
+  "kind": "abc",
+  "bytes": 114,
+  "sha256": "6f08a7bbdd2234520336f2d853eea18c2e04c282e5704068e8da78513b683e29",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0042.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0042",
+  "kind": "abc",
+  "bytes": 691,
+  "sha256": "ca9254301ddd633c221ed436502c7fd75eb37f3fc37babd6f486a79afb10e9f0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-www-stephenmerrony-co-uk-o-little-town-of-bethlehem-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FO_Little_Town_Of_Bethlehem_1%2F0000",
+  "kind": "abc",
+  "bytes": 1234,
+  "sha256": "0dfd0b5acfadf81f31697e02760ce8d58ace27d7c745d57d9e5f7146354bb62c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-www-stephenmerrony-co-uk-o-little-town-of-bethlehem-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FO_Little_Town_Of_Bethlehem_2%2F0000",
+  "kind": "abc",
+  "bytes": 1444,
+  "sha256": "d443b7ff7749efd2c4a18fd6a4cdecccc8881fab59d67f790a76cb17713334e4",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-www-stephenmerrony-co-uk-o-little-town-of-bethlehem-3-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FO_Little_Town_Of_Bethlehem_3%2F0000",
+  "kind": "abc",
+  "bytes": 649,
+  "sha256": "5b4195c8e6419ae156ff7920b864c4187574f4c998d1ed41450f073e1b17e2e1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-www-stephenmerrony-co-uk-o-little-town-of-bethlehem-4-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FO_Little_Town_Of_Bethlehem_4%2F0000",
+  "kind": "abc",
+  "bytes": 1380,
+  "sha256": "6f031f3427149003d69738fc8dfdd3ae5f412e8a7968a7c881d7a0c516756ce4",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ror-www-stephenmerrony-co-uk-o-little-town-of-bethlehem-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FO_Little_Town_Of_Bethlehem%2F0000",
+  "kind": "abc",
+  "bytes": 1432,
+  "sha256": "6ab62ef2d44989d311345698b5614c2aee2c94b1c10afefbd025c8cc23fbc490",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-usic-abc-mirror-lesterbailey-o-little-town-of-bethlehem-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FO_Little_Town_of_Bethlehem%2F0000",
+  "kind": "abc",
+  "bytes": 209,
+  "sha256": "83be76fbbcea0d0a4295fb089f78bd379218cc6d0bb19fef0b42c3266d0aec8b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-o_little_town_of_bethlehem-st_louis.abc",
+  "url": "http://openhymnal.org/Abc/O_Little_Town_Of_Bethlehem-St_Louis.abc",
+  "kind": "abc",
+  "bytes": 6379,
+  "sha256": "5d79b8a78c662677f8fa62be75d5ee1858143bdcf1d4c3f8f6a1965894f72021",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-7736.json",
+  "url": "https://thesession.org/tunes/7736?format=json",
+  "kind": "abc",
+  "bytes": 12325,
+  "sha256": "16064e625ff460024790a38803dfda3282c21fb89dc8cabbd5821e455223b699",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-7955.json",
+  "url": "https://thesession.org/tunes/7955?format=json",
+  "kind": "abc",
+  "bytes": 1642,
+  "sha256": "d29241e1b0af6cc794817ff615b3440146a846a06158f3f1f40d343c14a03887",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-o-little-town-of-bethlehem.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/O_Little_Town_of_Bethlehem",
+  "kind": "lilypond",
+  "bytes": 17790,
+  "sha256": "e0416f03203850ea1122afe449764b0acee66b106cebb111f052b0d1dc79623e",
+  "fetched": "2026-09-18"
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "name": "abcnotation-c-book-everydaysongbook-194-hark-the-herald-angels-sing-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fbook%2FEverydaySongBook%2F194_Hark_the_Herald_Angels_Sing%2F0000",
+  "kind": "abc",
+  "bytes": 388,
+  "sha256": "0aa9a55f9f4fa701f953b5650c7dfe6f867414c6008075a22f50b8a64949b043",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-lian-mit-edu-jc-music-abc-session-safd-christmas-carols-0020.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fsession%2FSAFD%2F___%2FChristmas_Carols%2F0020",
+  "kind": "abc",
+  "bytes": 467,
+  "sha256": "8370247936032bac23ae8ee9c17d1c99c7d30a0aef8460751da549c5d116fac5",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-mit-edu-jc-music-abc-demo-tunes-harktheheraldangelssing-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fdemo%2FTunes%2FHarkTheHeraldAngelsSing%2F0000",
+  "kind": "abc",
+  "bytes": 568,
+  "sha256": "823edcdf4fbd4ea79eab500d2b54f5fd95fea7cdf3a7866bf3a9d7f2a2c6bea9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-or-folkinfo-org-hark-the-herald-angels-sing-carlingcott-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Ffolkinfo.org%2FHark_the_Herald_Angels_Sing_Carlingcott_%2F0000",
+  "kind": "abc",
+  "bytes": 3281,
+  "sha256": "0fedcd8787fdadec9346cf8b703925161a1ff34543c02e443250dffa440b6829",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-or-www-stephenmerrony-co-uk-hark-the-herald-angels-sing-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FHark_The_Herald_Angels_Sing%2F0000",
+  "kind": "abc",
+  "bytes": 782,
+  "sha256": "c07e636c7d284490d2f0c002fb38a56d73d86ceb53e4aea0a9038a7b207d3753",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0022.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0022",
+  "kind": "abc",
+  "bytes": 890,
+  "sha256": "51828e6d45a2ae769cee4e515862e521a34c731635f42177cefaf99cd29c48a9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-sic-abc-mirror-lesterbailey-hark-the-herald-angels-sing-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FHark_The_Herald_Angels_Sing%2F0000",
+  "kind": "abc",
+  "bytes": 330,
+  "sha256": "fc83abf11693b88de7ec15f69ccc8fd93273f2935a49b9204bc91d733ab96916",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-hark_the_herald_angels_sing-mendelssohn.abc",
+  "url": "http://openhymnal.org/Abc/Hark_The_Herald_Angels_Sing-Mendelssohn.abc",
+  "kind": "abc",
+  "bytes": 7062,
+  "sha256": "0f3623f6f7656a596b60256b304333262ce3ef651f16b1a3ab8cd67698973f7e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-hark-the-herald-angels-sing.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Hark%21_The_Herald_Angels_Sing",
+  "kind": "lilypond",
+  "bytes": 23013,
+  "sha256": "07ea41882d544f52914112c9df215a99789ccbb65f4bdca3857532ecf72a9dec",
+  "fetched": "2026-09-18"
+ }
+]

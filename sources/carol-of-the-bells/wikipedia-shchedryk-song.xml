@@ -1,0 +1,330 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Shchedryk (song)</title>
+    <ns>0</ns>
+    <id>3020594</id>
+    <revision>
+      <id>1372067988</id>
+      <parentid>1364404565</parentid>
+      <timestamp>2026-08-30T03:46:32Z</timestamp>
+      <contributor>
+        <username>KhrabrosyerdtseShalfyey</username>
+        <id>48738916</id>
+      </contributor>
+      <minor/>
+      <comment>fixed capitalization</comment>
+      <origin>1372067988</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22477" sha1="raczdqqv939qhtux2eer27wcfulu4xt" xml:space="preserve">{{Short description|1916 Ukrainian song by Mykola Leontovych}}
+{{DISPLAYTITLE:{{lang|uk-Latn|Shchedryk|cat=no}} (song)}}
+{{About|the song|the choir|Shchedryk (choir){{!}}{{lang|uk-Latn|Shchedryk|cat=no}} (choir)}}
+{{Infobox song
+| name          = {{lang|uk-Latn|Shchedryk}}
+| cover         = Ukrainian National Choir - "Shchedryk"; "Koza".png
+| caption       = Disc label for the 1922 recording of "{{lang|uk-Latn|Shchedryk}}" by the Ukrainian National Choir
+| type          = song
+| artist        = 
+| language      = Ukrainian
+| released      = 1901 (first version)&lt;br&gt;1919 (final revision)&lt;br /&gt;
+| recorded      = 
+| genre         = &lt;!--do not add unsourced genres--&gt;
+| length        = 
+| writer        = {{langrlink|uk-Latn|Mykola Leontovych}}
+| misc          = 
+}}
+
+"'''{{lang|uk-Latn|Shchedryk}}'''" ({{lang|uk|Щедрик}}, from {{langx|uk|Щедрий вечiр||Bountiful Evening}}) is a Ukrainian '[[shchedrivka]]', or [[New Year]] celebration song, known in English as "The Little Swallow". The song tells a story of a [[swallow]] flying into a household at New Year to sing of the wealth that will come with the following spring. "{{lang|uk-Latn|Shchedryk}}" was sung during {{langlink|uk-Latn|koliada}} on the night of 31 December, [[Julian calendar#New Year's Day|New Year's Eve]] in the [[Julian calendar]] (13 January in the [[Gregorian Calendar]]), known in Ukraine as {{langlink|uk-Latn|Malanka}}. The song was arranged by the [[List of Ukrainian composers|Ukrainian composer]] {{langrlink|uk-Latn|Mykola Leontovych}} between 1901 and 1919 with early performances of the piece being performed by students at [[Kyiv University]]. 
+
+It was made into a [[Christmas carol]], "[[Carol of the Bells]]", by the American composer and educator [[Peter J. Wilhousky]]. Following a performance of Leontovych's composition by [[Alexander Koshetz]]'s [[Ukrainian National Chorus]] at [[Carnegie Hall]] on 5 October, 1922, Wilhousky published his own [[lyrics]] for the melody and secured a copyright on his lyrics in 1936. The music has since become strongly associated with [[Christmas]].
+
+== History ==
+=== Origin ===
+[[File:Shchedryk 4-note motif.jpg|thumb|The ostinato motif of "{{lang|uk-Latn|Shchedryk}}"]]
+[[File:2025ShchedrykLeiden.jpg|thumb|''Shchedryk'' on a wall in [[Wall poems in Leiden|Leiden]] (2025)]]
+"Shchedryk" ('Bountiful Evening') is a Ukrainian {{lang|uk-Latn|shchedrivka}}, or [[New Year]] celebration song, known in English as "The Little Swallow". It tells of a [[swallow]] flying into a home to proclaim that the family will enjoy a plentiful and bountiful year.&lt;ref name="Alm"&gt;{{cite web |last1=Almond |first1=B. J. |title=Grad student traces origin of 'super holiday hit' |url=http://www.media.rice.edu/media/NewsBot.asp?MODE=VIEW&amp;ID=6897 |publisher=[[Rice University]]|access-date=5 July 2008 |archive-url=https://web.archive.org/web/20080929060815/http://www.media.rice.edu/media/NewsBot.asp?MODE=VIEW&amp;ID=6897 |archive-date=29 September 2008 |location=Houston, Texas |date=16 December 2004 |url-status=dead}}&lt;/ref&gt;&lt;ref name="Mus1"&gt;{{cite web |title=The cultural code of Shchedryk |url=http://leontovychmuseum.org.ua/en/the-cultural-code-of-shchedrik/ |publisher=Museum of M.D. Leontovych |access-date=3 August 2023}}&lt;/ref&gt; The title is derived from the [[Ukrainian language|Ukrainian]] word for "bountiful".&lt;ref name="Alm" /&gt; The song is based on a traditional folk song whose language was thought to have magical properties. The traditional Ukrainian text used a device known as [[hemiola]] in the rhythm (alternating the accents within each measure from {{music|time|3|4}} to {{music|time|6|8}} and back again). The chant based on an [[ostinato]] four-note pattern within the range of a [[minor third]] is thought to be of prehistoric origins, predating the introduction of [[Christianity]]. It was associated with the coming New Year that was celebrated in Ukraine in March.&lt;ref&gt;Snyder, Timothy, ''[https://snyder.substack.com/p/o-generous-one O Generous One! Christmas Carols, 2/2]'', Thinking About..., December 14, 2025&lt;/ref&gt; Conceptually, the Ukrainian lyrics of this song meet the definition of a {{lang|uk-Latn|shchedrivka}}, while the English content of "The Little Swallow" identifies it as a {{langlink|uk-Latn|koliadka}}.{{citation needed|date=December 2024}}
+
+With the introduction of Christianity to Ukraine, the celebration of the New Year was moved from March to January and "{{lang|uk-Latn|Shchedryk}}" became associated with the [[Epiphany (holiday)|Feast of Epiphany]], also known in Ukrainian as {{lang|uk-Latn|Shchedryi vechir}}. The song was then sung on the night of [[Julian calendar#New Year.27s Day|New Year's Eve]] in the [[Julian Calendar]] (corresponding to 13 January on the Gregorian Calendar), which is {{lang|uk-Latn|Shchedryi vechir}}. In modern Ukraine, the song is again sung on the eve of the Julian New Year (January 13).{{cn|date=December 2024}} The folk melody was one of many "well-wishing songs" performed across Ukraine on 13 January, often by girls who went singing from house to house, and were given treats.&lt;ref name="Alm" /&gt;
+
+=== Composition by &lt;span title="Ukrainian-language text" lang="uk-Latn"&gt;Leontovych&lt;/span&gt; ===
+{{listen|type=music
+ | pos = right
+ | filename = Shchedryk's "Carol of the Bells" (1922).oga
+ | title = "{{lang|uk-Latn|Shchedryk|cat=no}}"
+ | description = A recording of "{{lang|uk-Latn|Shchedryk}}", with the original words in Ukrainian, performed by the "Ukrainian National Choir" ([[Ukrainian Republic Capella]]) in New York in 1922}}
+The conductor [[Alexander Koshetz]] commissioned the Ukrainian composer and teacher {{langrlink|uk-Latn|Mykola Leontovych}} to write a song based on Ukrainian folk melodies for a Christmas concert. Using the four notes and the original folk lyrics of a well-wishing song he found in an anthology of Ukrainian folk melodies, Leontovych created a new choral work.&lt;ref name="Alm" /&gt; The four-note melody over a minor third of the chant was used by him as an ostinato theme in several arrangements {{langr|uk-Latn|Leontovych}} composed. "{{lang|uk-Latn|Shchedryk}}" is the most famous of all his songs.&lt;ref name="Wyt"&gt;{{cite web |last1=Wytwycky|first1=Wasyl |title=Leontovych, Mykola |url=http://www.encyclopediaofukraine.com/display.asp?AddButton=/pages/l/e/leontovychmykola.htm |website=Internet Encyclopaedia of Ukraine |publisher=Canadian Institute of Ukrainian Studies |access-date=2 December 2022}}&lt;/ref&gt;
+
+"{{lang|uk-Latn|Shchedryk}}" is incorrectly said to have been first performed by students at [[Kyiv University]] on 25 December 1916. However, the song was first performed on 29 December 1916 in the Kyiv Merchants' Assembly Hall, now part of the [[National Philharmonic of Ukraine]].{{sfn|Vysotska|2019|p=78}} The arrangement for an [[a cappella]] mixed voice choir was popularised by the [[Ukrainian Republic Capella]] directed by Koshetz when it toured Europe in 1920 and 1921 under the auspices of the newly independent Ukrainian government, with the task of promoting Ukrainian music abroad. The chorus performed more than 1000 concerts in Europe, North America, and South America. The first recording was made in New York in October 1922 for [[Brunswick Records]].&lt;ref name="Alm" /&gt;{{sfn|Malko|2021|p=41}}
+
+=== "Carol of the Bells" ===
+{{Main|Carol of the Bells}}
+After "{{lang|uk-Latn|Shchedryk}}" was performed by [[Alexander Koshetz]]'s [[Ukrainian National Chorus]] for the first time at Carnegie Hall 5 October, 1922, the song was adapted as an English [[Christmas carol]], "[[Carol of the Bells]]", by the American composer and educator [[Peter J. Wilhousky]] of [[NBC]] Radio. Wilhousky published and copyrighted his new [[lyrics]]—which were not based on the Ukrainian lyrics—in 1936. In the late 1930s, a number of Wilhousky's choirs began to perform his arrangement of the song at Christmas.&lt;ref name="Alm" /&gt; Thereafter, the song became popular in the English-speaking world, where it became strongly associated with [[Christmas]].&lt;ref&gt;{{Cite web |title=Ukrainian Live Classic – Leontovych Mykola |url=https://ukrainianlive.org/leontovych-mykola |access-date=3 August 2023 |website=ukrainianlive.org}}&lt;/ref&gt;
+
+Although "Carol of the Bells" uses the melody from "{{langr|uk-Latn|Shchedryk}}", the lyrics of these two songs have nothing in common. The ostinato of the Ukrainian song suggested to Wilhousky the sound of ringing bells, so he wrote lyrics on that theme. Several other lyricists have written for the same melody, usually retaining Wilhousky's bell theme. A 1947 version, "Ring, Christmas Bells", has become a Christian devotional song.{{sfn|Nobbman|2000|p=91}} There is an English adaptation of the original Ukrainian by {{langrlink|uk-Latn|Stepan Pasicznyk}}.&lt;ref&gt;{{Cite AV media |url=https://www.youtube.com/watch?v=OfF_E5TSN_Y |title=Shchedryk English new lyrics + Choir in Ukrainian London 26/01/16 |date=2016-01-27 |last=ukrainianmusicvideo |access-date=2026-01-03 |via=YouTube}}&lt;/ref&gt;
+
+== Lyrics ==
+{| cellpadding=8
+! Ukrainian lyrics&lt;ref name="Ukr1"&gt;{{cite web |title=Щедрик |url=https://www.pisni.org.ua/songs/4244232.html |publisher=Ukrainian Songs |access-date=2 December 2022 |ref=|trans-title=Shchedryk |language=uk}}&lt;/ref&gt;
+! Transliteration ([[Romanization of Ukrainian|BGN/PCGN]])&lt;ref name="Tra"&gt;{{cite web |title=Стандартна українська транслітерація |url=http://translit.kh.ua/ |publisher=Webmezha |access-date=2 December 2022 |page=|trans-title=Standard Ukrainian transliteration |language=uk}}&lt;/ref&gt;
+! English translation
+|- style="vertical-align:top; white-space:nowrap;"
+
+|{{Lang|uk|&lt;poem&gt;
+Щедрик, щедрик, щедрівочка,
+Прилетіла ластівочка,
+Стала собі щебетати,
+Господаря викликати.
+Вийди, вийди, господарю,
+Подивися на кошару.
+Там овечки покотились,
+А ягнички народились.
+В тебе товар весь хороший,
+Будеш мати мірку грошей,
+Хоч не гроші, то полова,
+В тебе жінка чорноброва.
+Хоч не гроші, то полова,
+В тебе жінка чорноброва.
+&lt;/poem&gt;}}
+
+|{{lang|uk-Latn|&lt;poem&gt;
+Shchedryk, shchedryk, shchedrivochka,
+Pryletila lastivochka,
+Stala sobi shchebetaty,
+Hospodaria vyklykaty:
+Vyidy, vyidy, hospodariu,
+Podyvysia na kosharu,
+Tam ovechky pokotylys,
+A yahnychky narodylys.
+V tebe tovar ves khoroshyi,
+Budesh maty mirku hroshei,
+Khoch ne hroshi, to polova,
+V tebe zhinka chornobrova,
+Khoch ne hroshi, to polova.
+V tebe zhinka chornobrova.
+&lt;/poem&gt;}}
+
+|{{lang|en|&lt;poem&gt;
+Bountiful evening, bountiful evening,
+The swallow has flown in,
+She began to chirp,
+To call the host.
+Come out, come out, good host,
+Look at the sheepfold.
+The sheep have rolled over,
+And the lambs have been born.
+Your goods are all good,
+You will have a measure of money,
+If not money, then a half-sheaf,
+You have a black-browed wife.
+If not money, then a half-sheaf,
+You have a black-browed wife.
+&lt;/poem&gt;}}
+|}
+
+== Melody ==
+&lt;score sound raw&gt;
+\header { tagline = ##f }
+\paper { paper-height = 380\mm system-separator-markup = \slashSeparator
+  system-system-spacing.basic-distance = #15
+}
+\layout { indent = 0 \set Score.tempoHideNote = ##t \context { \Score \remove "Bar_number_engraver" } }
+global = { \key g \minor \time 3/4 }
+
+soprano = \relative c'' { \global \autoBeamOff
+  \set Staff.midiPanPosition = -0.5 \set midiInstrument = "vibraphone"
+  bes4 a8 bes g4 \repeat volta 2 { \repeat unfold 15 { bes4 a8 bes g4 | }
+  \repeat unfold 4 { d'4 c8 d bes4 | }
+  g'4 g8 g f ([es]) | d4 d8 d c ([bes]) | c4 c8 c d ([c]) | g4 g8 g g4 |
+  d8 ([e fis g a bes]) | c ([d]) c4 bes |
+  d,8 ([e fis g a bes]) | c ([d]) c4 bes |
+  \repeat unfold 4 { bes4 a8 bes g4 | } }
+  \alternative { { bes4 a8 bes g4 } { g2.~ | g2.~ | g2. |
+    \tempo 4. = 72 d'4 c8 d \tempo 4. = 36 g,4 } } \bar "|."
+}
+
+alto = \relative c' { \global \autoBeamOff
+  \set Staff.midiPanPosition = -0.5 \set midiInstrument = "oboe"
+  R2. | \repeat volta 2 { R2.*3 | \repeat unfold 2 { g'2. | f | es | d | }
+  \repeat unfold 4 { g4 g8 g g4 | }
+  \repeat unfold 4 { bes4 a8 bes g4 | }
+  \repeat unfold 4 { g4 g8 g g4 | }
+  d2. | e4 fis g | d2. | e4 fis g |
+  d2.( | c | f | es | }
+  \alternative { { d2) r4 } { d2.~ | d~ | d | bes'4 a8 bes g4 } } \bar "|."
+}
+
+tenor = \relative c' { \global \autoBeamOff
+  \set Staff.midiPanPosition = -0.5 \set midiInstrument = "french horn"
+  R2. | \repeat volta 2 { \repeat unfold 7 { R2. } es2. | bes | c | g |
+  c4 c8 c c4 | d4 d8 d d4 | es4 es8 es es4 | d4 d8 d d4 |
+  d2. | e | f4 (es) d | g8 ([f]) es4 d |
+  d4 es8 es d ([c]) | d4 d8 d d4 | es es8 es f ([es]) | d4 d8 d d4 |
+  \repeat unfold 4 { bes4 a8 bes g4 | }
+  g2.~ | g~ | g~ | g~ | }
+  \alternative { { g2 r4 } { \repeat unfold 3 { bes4 a8 bes g4 } R2. } } \bar "|."
+}
+
+bass = \relative c { \global \autoBeamOff
+  \set Staff.midiPanPosition = -0.5 \set midiInstrument = "tuba"
+  R2. | \repeat volta 2 { \repeat unfold 11 { R2. }
+  es4 es8 es es4 | g g8 g g4 | c c8 c c4 | g g8 g g4 |
+  \repeat unfold 4 { g g8 g g4 | }
+  \repeat unfold 4 { bes a8 bes g4 | }
+  d2. | d | d~ | d2 es4 |
+  f2.( | es | d | c | }
+  \alternative { { g2) r4 } { g2.~ | g~ |g | R2. } } \bar "|."
+}
+
+sopranoVerse = \lyricmode {
+  Щед -- рик, щед -- рик, щед -- рі -- воч -- ка,
+  При -- ле -- ті -- ла лас -- ті -- воч -- ка,
+  Ста -- ла со -- бі ще -- бе -- та -- ти,
+  Гос -- по -- да -- ря ви -- кли -- ка -- ти.
+  Вий -- ди, вий -- ди, гос -- по -- да -- рю,
+  По --ди -- ви --ся на ко -- ша -- ру.
+  Там о -- веч -- ки по -- ко -- ти -- лись,
+  a яг -- нич -- ки на -- ро -- ди -- лись.
+  В~те -- бе то -- вар весь хо -- ро -- ший,
+  Бу -- деш ма -- ти мір -- ку гро -- шей,
+  В~те -- бе то -- вар весь хо -- ро -- ший,
+  Бу -- деш ма -- ти мір -- ку гро -- шей,
+  В~те -- бе жін -- ка чор -- но -- бро -- ва.
+  Хоч не гро -- ші, то по -- ло -- ва,
+  В~те -- бе жін -- ка чор -- но -- бро -- ва.
+  Щед -- рик, щед -- рик
+  M __ лас -- ті -- воч -- ка.
+}
+
+altoVerse = \lyricmode {
+  Ста -- ла со -- бі ще -- бе -- та -- ти,
+  \repeat unfold 55 { \skip 1 } M __
+}
+
+tenorVerse = \lyricmode {
+  \repeat unfold 20 { \skip 1 } В~те -- бе то -- вар хо -- ро -- ший,
+  \repeat unfold 16 { \skip 1 } Хоч не гро -- ші, то по -- ло -- ва,
+  В~те -- бе жін -- ка чор -- но -- бро -- ва.
+  \skip 1 Щед -- рик, щед -- рик,
+  щед -- рі -- воч -- ка, При -- ле -- ті -- ла.
+}
+
+bassVerse = \lyricmode {
+  \repeat unfold 48 { \skip 1 } В~те -- бе жін -- ка
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff = "sa"
+    &lt;&lt;
+      \new Voice = "soprano" { \voiceOne \soprano }
+      \new Voice = "alto" { \voiceTwo \alto }
+    &gt;&gt;
+    \new Lyrics \with {
+      alignAboveContext = "sa" \override VerticalAxisGroup #'staff-affinity = #DOWN }
+    \lyricsto "soprano" \sopranoVerse
+    \new Lyrics \lyricsto "alto" \altoVerse
+    \new Staff = "tb" \with { \consists "Merge_rests_engraver" }
+    &lt;&lt;
+      \clef bass
+      \new Voice = "tenor" { \voiceOne \tenor }
+      \new Voice = "bass" { \voiceTwo \bass }
+    &gt;&gt;
+    \new Lyrics \with {
+      alignAboveContext = "tb" \override VerticalAxisGroup #'staff-affinity = #DOWN }
+    \lyricsto "tenor" \tenorVerse
+    \new Lyrics \lyricsto "bass" \bassVerse
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \soprano \\ \alto \\ \tenor \\ \bass &gt;&gt; }
+  \midi {
+    \tempo 4.=112
+    \context { \Score midiChannelMapping = #'instrument }
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;
+
+== In popular culture ==
+Originally a New Year celebration song, "{{lang|uk-Latn|Shchedryk}}" is not a popular Christmas song in Ukraine, unlike elsewhere in the world where the introduction of the Wilhousky lyrics became popularized since the late 1930s. Instead, in Ukraine its association with the new year is retained and the song is more often performed on the eve of the Julian Calendar new year.&lt;ref name="Alm" /&gt;
+
+It was used in the [[Lost media|lost]] 1930 [[Cinema of the United States|American film]] "[[Song of the Flame (film)|Song of the Flame]]", which takes place during the [[Russian Revolution]]. The song is played during a scene in a [[harvest festival]], and sung by a choir.&lt;ref&gt;{{Cite AV media |url=https://www.youtube.com/watch?v=Hl1uJUoHxBw |title=The Song Of The Flame 1930 (Reels 1,4,5,7, &amp; 9, Audio Only) |date=2016-08-20 |last=The Vitaphone Sound-On-Disc Channel |access-date=2026-07-10 |via=YouTube}}&lt;/ref&gt;
+
+The ''Family Guy'' episode "[[Deep Throats]]" contains a scene where Peter Griffin sings a song to the same tune as "{{lang|uk-Latn|Shchedryk}}" while performing a part-time job.
+
+"{{lang|uk-Latn|Shchedryk}}" was [[cover version|covered]] by [[Ukrainian rock]] band {{langrlink|uk-Latn|Vopli Vidopliassova}} in 2012.
+
+"{{lang|uk-Latn|Shchedryk}}" was used in the 2016 film ''[[Hunt for the Wilderpeople]]'', and in the 2024 horror film ''[[Immaculate_(2024_film)|Immaculate]]'', just as Sister Cecilia gives birth.{{cn|date=December 2024}} In the Christmas scene of the 2022 Ukrainian historical drama film ''[[Carol of the Bells (film)|Carol of the Bells]]'', children are caroling and singing "{{lang|uk-Latn|Shchedryk}}". The role of the song in the film is as a symbol of peace, hope, and faith for a better future.&lt;ref name="Uni1"&gt;{{cite web |title=сторична драма "Щедрик": чому її варто подивитися кожному українцю |url=https://www.unian.ua/lite/kino/istorichna-drama-shchedrik-chomu-jiji-varto-podivitisya-kozhnomu-ukrajincyu-12067887.html |publisher=Unian |access-date=10 March 2024 |ref=|trans-title=Historical drama "Shchedryk": why every Ukrainian should watch it |language=uk |date=5 December 2022}}&lt;/ref&gt;
+
+Because of the [[Russian invasion of Ukraine]], at the second semifinal of the [[Eurovision Song Contest 2023]] that was held in the UK city of [[Liverpool]] rather than in Ukraine, the song was sung by the Ukrainian singers {{langrlink|uk-Latn|Zlata Dziunka}} and {{langrlink|uk-Latn|Mariya Yaremchuk}}.&lt;ref name="Byl"&gt;{{cite news |last1=Bylim |first1=Olena |title="A Cherry Orchard Near the House" and "Shchedryk": Maria Yaremchuk, OTOY, Zlata Dziunka "blew up" Eurovision with their Ukrainian performances (video) |url=https://news-eng.uaportal.com/section-news/news-sadok-vishnevij-kolo-hati-i-schedrik-mariya-yaremchuk-otoy-zlata-dzyunka-vzorvali-evrovidenie-svoim-ukrainskim-vyistupleniem-video-12-05-2023.html |access-date=24 December 2024 |work=UAportal|date=12 May 2023}}&lt;/ref&gt;
+
+== References ==
+{{Reflist}}
+
+=== Sources ===
+* {{cite book |last1=Malko |first1=Victoria A. |title=The Ukrainian Intelligentsia and Genocide: the struggle for history, language, and culture in the 1920s and 1930s |date=2021 |publisher=Lexington Books |location=London |isbn=978-14985-9-679-4 |url=https://books.google.com/books?id=FqhGEAAAQBAJ}}
+* {{cite book |last1=Nobbman |first1=Dale V. |title=Christmas Music Companion Fact Book: The Chronological History of Our Most Well-Known Traditional Christmas Hymns, Carols, Songs And the Writers &amp; Composers Who Created Them |date=2000 |publisher=Centerstream Publishing |location=Anaheim Hills, California |isbn=978-1-57424-067-2}}
+* {{cite journal |last1=Vysotska |first1=Kateryna |editor1-last=Brodz |editor1-first=Olena |editor2-last=Koshelnyk |editor2-first=Maryna |title=Микола Леонтович: музична легенда Поділля |journal=Materials of the Scientific and Practical Conference for the 140th Anniversary of the Birth of M. D. Leontovich, December 13, 2017 |date=2019 |url=https://vinnytsia-museum.in.ua/media/leontovych_zbirnyk.pdf |access-date=17 November 2022 |trans-title=Mykola Leontovych: a musical legend of Podillia |publisher=Vinnytsia Regional Museum of Local Lore |location=Vinnytsia, Ukraine |language=uk }} ([https://books.google.com/books?id=g39-DwAAQBAJ English text version])
+
+== Further reading ==
+{{Commons}}
+* {{cite news |last1=Korchova |first1=Olena |title=Від архаїки до Голлівуда. Культурні мандри українського «Щедрика» |url=http://tyzhden.ua/Culture/68783 |access-date=24 December 2024 |work=[[The Ukrainian Week]] |date=14 January 2013 |archive-url=https://web.archive.org/web/20131219054107/http://tyzhden.ua/Culture/68783 |archive-date=19 December 2013 |page=|trans-title=From Archaic to Hollywood. Cultural Journeys of the Ukrainian "Shchedryk" |language=uk|ref=none}}
+* &lt;!-- &lt;ref name="McC"&gt; --&gt;{{cite news |last1=McCoy |first1=Tatiana |title=Сумна доля веселого "Щедрика": ім'я Леонтовича замовчується, а етика ігнорується |url=https://www.radiosvoboda.org/a/tochka-zoru-shchedryk-leontovych/31655826.html |access-date=2 December 2022 |publisher=[[Radio Svoboda]] |date=15 January 2022 |ref=none |page=|trans-title=The sad fate of the cheerful "Schedryk": the name of Leontovych is silenced, and ethics are ignored |language=uk}}&lt;!-- &lt;/ref&gt; --&gt;
+* {{cite web |last1=Peresunko |first1=Tina |title=«Щедрик». Відома пісня з невідомою історією |url=https://www.ukrainer.net/shchedryk/ |publisher=[[Ukraїner]] |access-date=24 December 2024 |ref=none |page=|trans-title="Shchedryk". A famous song with an unknown history |language=uk |date=24 December 2022}}
+
+== External links ==
+* [https://life.pravda.com.ua/culture/2022/12/22/251981/ "В Україні вперше показали оригінали рукопису "Щедрика" Миколи Леонтовича. ФОТО"] [The original manuscript of "Shchedryk" by Mykola Leontovych was shown for the first time in Ukraine. Photo], ''[[Ukrainska Pravda]]'', 22 December 2022 (in Ukrainian)
+
+{{Authority control}}
+
+[[Category:Ukrainian-language songs]]
+[[Category:New Year songs]]
+[[Category:Winter traditions]]
+[[Category:Compositions by Mykola Leontovych]]
+[[Category:Ukrainian folk songs]]
+[[Category:Songs about birds]]
+[[Category:Ukrainian songs]]</text>
+      <sha1>raczdqqv939qhtux2eer27wcfulu4xt</sha1>
+    </revision>
+  </page>
+</mediawiki>

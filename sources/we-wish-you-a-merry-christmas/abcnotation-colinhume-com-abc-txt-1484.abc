@@ -1,0 +1,43 @@
+
+X:1482
+T:We Wish You a Merry Christmas
+C:Traditional English
+C:Counter-melody by Colin Hume, 2021/2023
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+M:3/4
+R:Waltz
+L:1/4
+K:G
+V:1
+%%MIDI control 10 0     % Left speaker
+%%MIDI program 71       % Clarinet
+%%MIDI chordprog 45     % Pizzicato Strings
+%%MIDI bassprog 32      % Acoustic Bass
+D | "G"G G/A/ G/F/ | "C"E E E |
+w:We wish you a Mer-ry Christ-mas, we
+"A7"A A/B/ A/G/ | "D"F D D |
+w:wish you a Mer-ry Christ-mas, we
+"B7"B B/c/ B/A/ | "Em"G E D/D/ | "Am"E A "D7"F | "G"G2 D |
+w:wish you a Mer-ry Christ-mas, and a Hap-py New Year.  Good
+V:2
+%%MIDI control 10 127   % Right speaker
+%%MIDI program 65       % Alto Sax
+z | z2 B | c c/d/ c/B/ |
+w:We wish you a Mer-ry
+A E ^c | d d/e/ d/c/ |
+w:Christ-mas, we wish you a Mer-ry
+B F B | e B B | c c c | B2 z |
+w:Christ-mas, we wish you a Hap-py New Year.
+V:1
+"G"G G G | "D"F2 F | "A7"G F E | "D"D2 A |
+w:ti-dings we bring to you and your kin.  We
+"A7"B A/A/ G/G/ | "D"d D D/D/ | "Am"E A "D7"F | "G"G2 |]
+w:wish you a Mer-ry Christ-mas, and a Hap-py New Year.
+V:2
+z2G | d d d | ^c2 c | d d c |
+w:Good ti-dings we bring to you and we
+B ^c/c/ c/c/ | d A A/A/ | A E A | B2 |]
+w:wish you a Mer-ry Christ-mas, and a Hap-py New Year.
+

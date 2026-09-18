@@ -11,6 +11,12 @@ is the part a congregation sings and the only one anybody hums. The alto, tenor 
 become chord symbols. This is the single most likely way to get one of these wrong: the
 inner parts are right there on the page and they are not the tune.
 
+**The one exception is where the composer hands the tune to another voice.** It is rare,
+but it happens: Leontovych gives the Shchedryk ostinato to the tenor for three bars while
+the soprano holds a pedal, and taking the soprano there produces a held note where the
+piece is still ringing. Follow the tune, not the staff position, and say in your report
+where you did.
+
 ---
 
 ## 1. The job

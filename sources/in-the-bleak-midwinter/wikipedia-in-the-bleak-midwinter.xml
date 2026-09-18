@@ -1,0 +1,225 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>In the Bleak Midwinter</title>
+    <ns>0</ns>
+    <id>2846888</id>
+    <revision>
+      <id>1372659039</id>
+      <parentid>1355538713</parentid>
+      <timestamp>2026-09-01T17:45:15Z</timestamp>
+      <contributor>
+        <username>Jnestorius</username>
+        <id>89336</id>
+      </contributor>
+      <comment>/* Darke */ ce</comment>
+      <origin>1372659039</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16893" sha1="e0flhxipi5lzph8yegeqgzez544zod8" xml:space="preserve">{{short description|Christmas-themed poem and carol}}
+{{About||the film|In the Bleak Midwinter (film){{!}}''In the Bleak Midwinter'' (film)|the novel|In the Bleak Midwinter (novel){{!}}''In the Bleak Midwinter'' (novel)}}
+{{Use dmy dates|date=October 2019}}
+[[Image:Christina Rossetti 3.jpg|thumb|Christina Rossetti, portrait by her brother, [[Dante Gabriel Rossetti]]]]
+"'''In the Bleak Midwinter'''" is a poem by the English poet [[Christina Rossetti]]. It was published under the title "'''A Christmas Carol'''" in the January 1872 issue of ''[[Scribner's Monthly]]'',&lt;ref name="petersen"&gt;{{Cite book |last=Petersen |first=Randy |url=https://books.google.com/books?id=IXEiAQAAQBAJ&amp;q=in%20the%20bleak%20midwinter%20scribner's%20monthly&amp;pg=PA145 |title=Be Still, My Soul: The Inspiring Stories behind 175 of the Most-Loved Hymns |date=2014 |publisher=Tyndale House Publishers, Inc. |isbn=9781414388427 |page=145 |access-date=4 October 2019}}&lt;/ref&gt;&lt;ref&gt;{{Cite journal |last=Rossetti |first=Christina G. |date=January 1872 |title=A Christmas Carol |url=https://archive.org/stream/scribnersmonthly03newy#page/278/mode/1up |location=New York |publisher=Scribner &amp; Co. |volume=iii |issue=3 |page=278 |journal=Scribner's Monthly}}&lt;/ref&gt; and first collected in book form in ''Goblin Market, The Prince's Progress and Other Poems'' (Macmillan, 1875).
+
+It has been set to music several times. Two settings, those by [[Gustav Holst]] and by [[Harold Darke]], are popular and often sung as [[Christmas carol|Christmas carols]]. Holst's is a hymn tune called Cranham, published in 1906 in ''[[The English Hymnal]]'' and simple enough to be sung by a congregation.&lt;ref name=cranham/&gt; Darke's is an [[anthem]] composed in 1909 and intended for a trained choir; it was named the best Christmas carol in a 2008 poll of leading [[Choirmaster (musician)|choirmasters]] and choral experts.&lt;ref&gt;{{Cite news |date=27 November 2008 |title='Bleak Midwinter' named best carol |work=BBC News |url=https://news.bbc.co.uk/2/hi/entertainment/arts_and_culture/7752029.stm |access-date=26 November 2014}}&lt;/ref&gt;
+
+==Analysis==
+
+{{Quote box
+|border  = 2px
+|bgcolor = White
+|align   = right
+|tstyle  = text-align:centre
+|title   = A Christmas Carol
+|quote   = 
+{{Col-begin}}
+{{Col-break}}
+&lt;poem&gt;
+In the bleak mid-winter
+  Frosty wind made moan
+Earth stood hard as iron,
+  Water like a stone;
+Snow had fallen, snow on snow,
+  Snow on snow,
+In the bleak mid-winter
+  Long ago.
+
+Our God, heaven cannot hold Him
+  Nor earth sustain,
+Heaven and earth shall flee away
+  When He comes to reign:
+In the bleak mid-winter
+  A stable-place sufficed
+The Lord God Almighty —
+  Jesus Christ.
+
+Enough for Him, whom cherubim
+  Worship night and day,
+A breastful of milk
+  And a mangerful of hay;
+Enough for Him, whom Angels
+  Fall down before,
+The ox and ass and camel
+  Which adore.
+&lt;/poem&gt;
+{{Col-break|style=padding-left:2em}}
+&lt;poem&gt;
+Angels and Archangels
+  May have gathered there,
+Cherubim and seraphim
+  Thronged the air;
+But only His Mother
+  In her maiden bliss
+Worshipped the Beloved
+  With a kiss.
+
+What can I give Him,
+  Poor as I am? —
+If I were a Shepherd
+  I would bring a lamb;
+If I were a Wise Man
+  I would do my part, —
+Yet what I can I give Him, —
+  Give my heart.
+&lt;/poem&gt;
+{{Col-end}}
+
+|salign  = right
+|author  = Christina Rossetti
+|source  = 1872
+}}
+
+In verse one, Rossetti describes the physical circumstances of the [[Nativity of Jesus]] in [[Bethlehem]]. In verse two, Rossetti contrasts [[Christ]]'s first and [[second coming]].
+
+The third verse dwells on Christ's birth and describes the simple surroundings, in a humble stable and watched by beasts of burden. Rossetti achieves another contrast in the fourth verse, this time between the [[incorporeal]] angels attendant at Christ's birth with [[Mary, mother of Jesus|Mary]]'s ability to render Jesus physical affection. The final verse shifts the description to a more introspective thought process.
+
+[[Literary criticism|Literary critics]] have questioned a number of aspects of Rossetti's poem. Professor of Historical Theology, John Mulder, with his coauthor and fellow Presbyterian minister, F. Morgan Roberts, have noted that the reference to winter weather in the title and first verse is incongruous with its geographical setting in the hot climate of [[Herodian kingdom|Judea]]. They note that, "Although not unheard of, snow in [[Palestine (region)|Palestine]] is rare", and that Rossetti was writing at a time when popular literary works such as [[Charles Dickens]]' ''[[A Christmas Carol]]'' (1843) had established the strong association of snow with Christmas in the English mind.&lt;ref name="mulder-roberts"&gt;{{cite book |last1=Mulder |first1=John M. |last2=Roberts |first2=F. Morgan |title=28 Carols to Sing at Christmas |date=13 October 2015 |publisher=Wipf and Stock Publishers |isbn=978-1-4982-0682-2 |page=66 |quote=The theology of 'In the Bleak Midwinter' has been questioned. Ian Bradley{{nbsp}}... has written '[...] ...{{nbsp}}earth perhaps, but is heaven going to flee at the second coming?' A worthy question perhaps but one ignorant of the biblical vision of [[John of Patmos]]{{nbsp}}... (Rev 21:1) |url=https://books.google.com/books?id=EfK7CgAAQBAJ&amp;pg=PA66 |url-access=limited |language=en}}&lt;/ref&gt; Musicologist C. Michael Hawn, however, asserts that Rossetti is not implying that snow literally fell in Palestine, but that the wintry conditions described are a metaphor for a "harsh spiritual landscape" experienced at the time of Christ's birth, referring to the political oppression of Jews during the [[Roman Palestine|Roman occupation of Palestine]].&lt;ref name="Lamport"&gt;{{cite book |chapter=Hymnody in the Global South |first=C. Michael |last=Hawn  |editor1=Lamport |editor1-first=Mark A. |editor2=Forrest |editor2-first=Benjamin |editor3=Whaley |editor3-first=Vernon M. |title=Hymns and Hymnody: Historical and Theological Introductions, Volume 3 |date=2020 |publisher=James Clark &amp; Co |isbn=978-0-227-17722-8 |pages=276–7 |chapter-url=https://books.google.com/books?id=ZchxEAAAQBAJ&amp;dq=rossetti%20%22In%20the%20Bleak%20Midwinter%22%20palestine&amp;pg=PA276 |access-date=27 October 2024 |language=en}}&lt;/ref&gt;
+
+Hymnologist and theologian [[Ian Bradley]] has questioned the poem's theology: "Is it right to say that heaven cannot hold God, nor the earth sustain, and what about heaven and earth fleeing away when he comes to reign?", which he considers not justified by scripture. He concedes that the image of a heaven unable to contain God, could be read as a "bold and original attempt to express the mysterious paradox at the heart of the Christian doctrine of the Incarnation".&lt;ref name="Telegraph"&gt;{{Cite news |last=Christiansen |first=Rupert |author-link=Rupert Christiansen |date=14 December 2007 |title=The story behind the carol: 'In the bleak midwinter' |work=[[The Daily Telegraph]] |location=London |url=https://www.telegraph.co.uk/culture/music/3674116/The-story-behind-the-carol-In-the-bleak-midwinter.html |access-date=26 November 2014 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Bradley |first1=Ian C. |title=The Penguin Book of Carols |date=1999 |publisher=Penguin |location=New York |isbn=978-0-14-027526-1 |pages=154–157 |quote-page=154 |chapter-url=https://archive.org/details/penguinbookofcar00brad/page/154/mode/2up |chapter=38 'In the Bleak Mid-winter' |chapter-url-access=registration |author-link=Ian Bradley |quote=The fact is, of course, that this is not the sort of text that bears or warrants detailed exegesis and analysis. It is a mystical offering by a Victorian poet justly famous for her devotional verse.{{nbsp}}[...] The image of God as the one that heaven cannot hold could, in fact, be read as a bold and original attempt to express the mysterious paradox at the heart of the Christian doctrine of the Incarnation.}}&lt;/ref&gt; 
+
+Several writers have conversely pointed to scriptural precedent for the lines that Bradley finds questionable.&lt;ref name="beall"&gt;{{cite magazine |last=Beall |first=Mary Kay |title=Hymn Interpretation: 'In the Bleak Midwinter' |url=https://babel.hathitrust.org/cgi/pt?id=mdp.39015057454657&amp;seq=273 |magazine=[[The Hymn (journal)|The Hymn]] |number=4 |publisher=|volume=56 |date=Autumn 2005 |archive-url=https://web.archive.org/web/20220405031435/https://hymnary.org/files/articles/Beall%2C%20In%20the%20Bleak%20Midwinter.pdf |archive-date=5 April 2022 |pages=47–49}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Mann |first1=Rachel |title=In the Bleak Midwinter: Advent and Christmas with Christina Rossetti |date=2 August 2019 |publisher=Canterbury Press |isbn=978-1-78622-162-9 |language=en |author-link=Rachel Mann |chapter=Christmas Day}}&lt;/ref&gt; Mulder and Roberts have commented that Rossetti's lines "Heaven and earth shall flee away, When He comes to reign" accord with the apocalyptic account of the second coming in [[Revelation 21]]:1:{{efn|{{Bibleverse|Revelation|21:1}}}} "Then I saw a new heaven and a new earth; for the first heaven and the first earth had passed away."&lt;ref name="mulder-roberts"/&gt; Guidance on the hymn, provided by the [[Methodist Church of Great Britain|British Methodist Church]] for their churches, notes that [[Solomon]] asks a similarly-phrased question in {{avoid wrap|[[1 Kings]] 8:27:}}{{efn|{{Bibleverse|1 Kings|8:27}}}} "But will God really dwell on earth? The heavens, even the highest heaven, cannot contain you{{nbsp}}..." when he dedicates the temple. It also points to [[2 Peter]] 3:10–11{{efn|{{Bibleverse|2 Peter|3:10–11}}}} as New Testament support for the phrase "heaven and earth shall flee away":&lt;ref&gt;{{cite web |title=The Resource Hub: Hymns – 'In the Bleak Midwinter' (StF 204) |url=https://www.methodist.org.uk/our-faith/worship/singing-the-faith-plus/hymns/in-the-bleak-midwinter-stf-204/ |website=The Methodist Church UK |language=en}}&lt;/ref&gt; {{bq|text=But the day of the Lord will come like a thief, and then the heavens will pass away with a loud noise, and the elements will be dissolved with fire, and the earth and everything that is done on it will be disclosed.|2=2 Peter 3:10}} Isaiah also contains a verse that also evokes a similar idea: "Lift up your eyes to the heavens, and look at the earth beneath; for the heavens will vanish like smoke, the earth will wear out like a garment... but my salvation will be forever, and my deliverance will never be ended."{{efn|{{Bibleverse|Isaiah|51:6}}}}
+
+==Settings==
+The text of this Christmas poem has been set to music many times. Two of the most famous settings were composed by [[Gustav Holst]] and [[Harold Darke]] in the early 20th century.
+
+===Holst===
+[[File:Cranham Holst.png|thumb|"Cranham", by Gustav Holst]]
+Holst's setting, ''Cranham'', is a hymn tune setting suitable for congregational singing, since the poem is irregular in metre and any setting of it requires a skilful and adaptable tune.&lt;ref name="beall"/&gt; The hymn is titled after [[Cranham, Gloucestershire]] and was written for the ''[[English Hymnal]]'' of 1906.&lt;ref&gt;{{Cite book |title=The English Hymnal |publisher=[[Oxford University Press]] |year=1916 |page=44}}&lt;/ref&gt;&lt;ref name=cranham&gt;{{Cite news |date=6 January 2009 |title=Shnugget: Carols at Cranham |work=BBC News |url=https://www.bbc.co.uk/gloucestershire/content/articles/2009/01/05/midwinter_shnugget_feature.shtml |access-date=26 November 2014}}&lt;/ref&gt;
+{{listen|filename=Carol concert practice by The University of Greenwich Choir (2018).ogg|title=Gustav Holst's setting (''Cranham'', 1906)|description="In the Bleak Midwinter" arranged for congregational singing|pos=left|format=[[Ogg]]}}
+&lt;score&gt;
+ \relative
+ {
+  \key f \major
+  \time 4/4
+     a'4. bes8 c4 a
+     g2 f4 r
+     g4. a8 g4 d
+     g2. r4   
+  }
+\addlyrics {
+     In the bleak mid- -- win -- ter
+     Frost -- y wind made moan, 
+   }
+&lt;/score&gt;
+
+{{clear left}}
+
+===Darke===
+The [[Harold Darke|Darke]] setting was written in 1909 while he was a student at the [[Royal College of Music]]. Although melodically similar, it is more advanced than Holst's; each verse is treated slightly differently, with solos for soprano and tenor (or a group of sopranos and tenors) and a delicate organ accompaniment.&lt;ref name="Telegraph" /&gt; This version is favoured by cathedral choirs and is the one usually heard performed on the radio broadcasts of [[Nine Lessons and Carols]] by the [[Choir of King's College, Cambridge|King's College Choir]]. Darke served as conductor of the choir during [[World War II]].&lt;ref name="hcc"&gt;{{Cite web |title='In The Bleak Midwinter' |url=http://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/in_the_bleak_midwinter.htm |website=Hymnsandcarolsofchristmas.com |access-date=28 December 2015}}&lt;/ref&gt;
+{{listen|filename=In the Bleak Midwinter (Harold Darke) - excerpt.ogg|title=Harold Darke's setting (1909)|description="In the Bleak Midwinter" arranged for choir|pos=left|format=[[Ogg]]}} 
+
+&lt;score&gt;
+ \transpose c bes,
+ \relative
+ {
+  \key g \major
+  \time 4/4
+     b'4. a8 d4 b
+     g2 fis2
+     e4. fis8 g4 e
+     d1         
+  }
+\addlyrics {
+     In the bleak mid- -- win -- ter
+     Frost -- y wind made moan, 
+   }
+&lt;/score&gt;
+Darke omits verse four of Rossetti's original, and [[bowdlerization|bowdlerizes]] Rossetti's "a breastful of milk" to "a heart full of mirth",&lt;ref&gt;{{Cite book |last=Wooton |first=Janet |url=https://books.google.com/books?id=HVpNAwAAQBAJ&amp;q=%22heart+full+of+mirth%22 |title=This Is Our Song: Women's Hymn-Writing |date=7 January 2013 |publisher=Wipf &amp; Stock |location=Eugene, OR |page=143|isbn=9781620321294 }}&lt;/ref&gt; although later editions reversed this change. Darke also repeats the last line of the final verse. Darke would complain, however, that the popularity of this tune prevented people from performing his other compositions, and rarely performed it outside of Christmas services.&lt;ref&gt;Galaxy Music Corporation: 'In the Bleak Midwinter' by [[Harold Darke]] arr. Ronald Arnatt&lt;/ref&gt;
+
+In 2016, the Darke setting was used in a [[Multitrack recording|multitrack]] rearrangement of the song by music producer [[Jacob Collier]]. It features contemporary compositional techniques such as [[Microtonal music|microtonality]].&lt;ref&gt;{{cite web|title=7 pop songs that deploy microtones ingeniously|first=Rosie|last=Pentreath|date=17 September 2021|url=https://www.classicfm.com/discover-music/pop-songs-that-use-microtones/|website=Classic FM|access-date=7 October 2021}}&lt;/ref&gt;
+
+===Other settings===
+[[File:In_the_bleak_midwinter_1872.png|thumb|As first published in ''Scribner's Monthly'' (January 1872)]]
+[[Benjamin Britten]] includes an elaborate five-part setting of the first verse for high voices (combined with the medieval ''[[Corpus Christi Carol]]'') in his work ''[[A Boy was Born]]''.
+
+Other settings include those by Robert C. L. Watson, [[Edmund Crispin|Bruce Montgomery]], [[Bob Chilcott]], Michael John Trotta,&lt;ref&gt;{{Citation |title=YouTube | date=11 November 2011 |url=https://www.youtube.com/watch?v=Aq-j48lnZRU |archive-url=https://ghostarchive.org/varchive/youtube/20211221/Aq-j48lnZRU |archive-date=2021-12-21 |url-status=live|contribution=Michael John Trotta's setting }}{{cbignore}}&lt;/ref&gt; Robert Walker,&lt;ref&gt;{{cite web |title=Catalogue of Works: Unaccompanied Vocal and Choral |url=http://www.robert-walker.net/catalogue/unaccompanied-vocal-and-choral |website=Robert Walker.net |archive-url=https://web.archive.org/web/20230925085533/http://robert-walker.net/catalogue/unaccompanied-vocal-and-choral |archive-date=25 September 2023}} {{webarchive |url=https://web.archive.org/web/20110724042624/http://www.robert-walker.net/catalogue.php |date=24 July 2011 }}&lt;/ref&gt; [[Eric Thiman]], who wrote a setting for solo voice and piano, and [[Leonard Lehrman]].&lt;ref&gt;{{Cite web |title='In the bleak midwinter' (Rossetti, set by Harold Edwin Darke, Gustav Holst, Bruce Montgomery, Leonard J[ordan&amp;#93; Lehrman, Michael John Trotta, Mick Swithinbank, Stephen Wilkinson, Benjamin Britten) |url=http://www.lieder.net/lieder/get_text.html?TextId=13949 |date=16 June 2014 |website=Lieder.net |access-date=28 December 2015}}&lt;/ref&gt;
+
+==See also==
+* [[List of Christmas carols]]
+
+==Notes==
+===Biblical verses cited===
+{{notelist}}
+
+==References==
+{{Reflist|28em}}
+
+==External links==
+{{commons category}}
+{{wikisource|In the Bleak Midwinter}}
+* {{Citation |title=In the Bleak Midwinter for SATB |url=http://cantorion.org/music/489/Christmas%20Carol%20Songbook |publisher=Cantorion |format=sheet music}} (free).
+* {{Citation |title=In the Bleak Midwinter for SATB (Harold Darke setting) |url=https://www.cpdl.org/wiki/index.php/In_the_bleak_midwinter_(Harold_Darke)|publisher=[[Choral Public Domain Library]] |format=sheet music}}.
+
+{{authority control}}
+
+{{DEFAULTSORT:In The Bleak Midwinter}}
+[[Category:Christmas carols]]
+[[Category:Poetry by Christina Rossetti]]
+[[Category:Epiphany music]]
+[[Category:1872 poems]]
+[[Category:Songs based on poems]]
+[[Category:Hymns in The New English Hymnal]]
+[[Category:Works subject to expurgation]]</text>
+      <sha1>e0flhxipi5lzph8yegeqgzez544zod8</sha1>
+    </revision>
+  </page>
+</mediawiki>

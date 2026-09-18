@@ -1,0 +1,42 @@
+[
+ {
+  "name": "abcnotation-c-music-abc-mirror-colin-hume-20180912-colin-hume-tunes-0130.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FColin_Hume%2F20180912-Colin_Hume_tunes%2F0130",
+  "kind": "abc",
+  "bytes": 1292,
+  "sha256": "26aaacaaba9c6acb946f96cbe0a1b461b6dda711b6d22f5f7162d5cfd89fc306",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0247.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0247",
+  "kind": "abc",
+  "bytes": 2623,
+  "sha256": "1ee468b159d65aa958a56a978108ff8f291a0605bdc2ab634d4c2831218a8b37",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-1484.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F1484",
+  "kind": "abc",
+  "bytes": 1296,
+  "sha256": "0f3b6c35a94eb9fd42075be98ffb9e4b058aa5aa80e555cd624551b0bf277d8a",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-it-edu-jc-music-abc-demo-tunes-wewishyouamerrychristmas-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fdemo%2FTunes%2FWeWishYouAMerryChristmas%2F0000",
+  "kind": "abc",
+  "bytes": 242,
+  "sha256": "89095222ed520fe6b577e882a3c192f255d2349393a72c612b2eb8d91116b1f8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0055.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0055",
+  "kind": "abc",
+  "bytes": 626,
+  "sha256": "1ec9b56efe23a2b435303b0ae66212e602ae6796b5df5f0e62ac00c48f5d0354",
+  "fetched": "2026-09-18"
+ }
+]

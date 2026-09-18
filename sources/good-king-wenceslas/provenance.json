@@ -1,0 +1,98 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-goodking-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FGOODKING%2F0000",
+  "kind": "abc",
+  "bytes": 258,
+  "sha256": "3601c57cf3c1f5e645cf12cd3c53f48cc98ee4edd452e4a875303ab5febb3dc9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-lesterbailey-melnets-big-abc-file-12722.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2Fmelnets_big_abc_file%2F12722",
+  "kind": "abc",
+  "bytes": 175,
+  "sha256": "612749d2dbf9a3c5312df9584884bf4cc52b144d6a0922bc6c784ab6731af51b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-mirror-www-stephenmerrony-co-uk-tempus-adest-floridum-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FTempus_adest_floridum%2F0000",
+  "kind": "abc",
+  "bytes": 619,
+  "sha256": "310b8c1ce48acc5a88a3b938efcae9322def78451e9220c788f165cb88b2d6fe",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-music-abc-mirror-colin-hume-20180912-colin-hume-tunes-0289.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FColin_Hume%2F20180912-Colin_Hume_tunes%2F0289",
+  "kind": "abc",
+  "bytes": 436,
+  "sha256": "5e440fb1973c3f82eb5ba088ee9e0686a58b1c221d8c830d22133e77880bd79d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0245.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0245",
+  "kind": "abc",
+  "bytes": 1681,
+  "sha256": "74bb784ca8eb4addd1ef66fffb2c771b2e0d297e6ba8b7286497a4d849857be1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0541.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0541",
+  "kind": "abc",
+  "bytes": 433,
+  "sha256": "0861292df295b946f8436cd6161a360e24c89e71d12e0bdcb2c6b45560ed4b1e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-it-edu-jc-music-abc-mirror-abcusers-goodkingwenceslas-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fabcusers%2FGoodKingWenceslas_1%2F0000",
+  "kind": "abc",
+  "bytes": 857,
+  "sha256": "29fd3eeace2fa41731d1487d59596e96e30e687430319ff97cebb3ddd676e8e3",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-mirror-www-stephenmerrony-co-uk-tempus-adest-floridum-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FTempus_Adest_Floridum_2%2F0000",
+  "kind": "abc",
+  "bytes": 820,
+  "sha256": "6727efd6996e0a3b6b42ced5bad333422c2781225bb794bbff8f0ff689d2824b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0020.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0020",
+  "kind": "abc",
+  "bytes": 641,
+  "sha256": "5b327ee64ecb227a77550f13d9e598b1a28d50cbd788d03d7b9a18071c58c704",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-usic-abc-mirror-gulfweb-net-34043-rlwalker-abc-goodking-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgulfweb.net%3A34043%2F~rlwalker%2Fabc%2Fgoodking%2F0000",
+  "kind": "abc",
+  "bytes": 137,
+  "sha256": "77ac58235af146372f85e31d0fb0b7547026d329faa5d7646c6b7829c3d229ba",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-gentle_mary_laid_her_child-tempus_adest_floridum.abc",
+  "url": "http://openhymnal.org/Abc/Gentle_Mary_Laid_Her_Child-Tempus_Adest_Floridum.abc",
+  "kind": "abc",
+  "bytes": 5553,
+  "sha256": "7fe15d7f82be9835e1d640e49ccf14380af390702329b18fd1b90958659caa6c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-good_king_wenceslas-tempus_adest_floridum.abc",
+  "url": "http://openhymnal.org/Abc/Good_King_Wenceslas-Tempus_Adest_Floridum.abc",
+  "kind": "abc",
+  "bytes": 5830,
+  "sha256": "e857f1fe678f2d1f8a0960846d361f16da53e45cb78014b5476477e6ac411957",
+  "fetched": "2026-09-18"
+ }
+]

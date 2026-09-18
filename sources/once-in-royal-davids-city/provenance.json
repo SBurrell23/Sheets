@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation-irror-otis-irish-session-once-in-royal-davids-city-dmaj-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FOTIS_Irish_Session%2FOnce_In_Royal_Davids_City_Dmaj_%2F0000",
+  "kind": "abc",
+  "bytes": 1040,
+  "sha256": "584f05455f8a787257b3e3fae0b4597a5f5240c60bba49526aee484a7716c4c9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-or-www-stephenmerrony-co-uk-once-in-royal-davids-city-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FOnce_In_Royal_Davids_City_1%2F0000",
+  "kind": "abc",
+  "bytes": 615,
+  "sha256": "fdc214353e510ed40c2a5ef14421af59f6a7e85470353184ad31ce12b7bb8b1d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-or-www-stephenmerrony-co-uk-once-in-royal-davids-city-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FOnce_In_Royal_Davids_City_2%2F0000",
+  "kind": "abc",
+  "bytes": 1354,
+  "sha256": "d5aeaff50b7a9212b1211c7ad8f925c613d248a7f74ed94da7ad350dda3960a0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0043.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0043",
+  "kind": "abc",
+  "bytes": 577,
+  "sha256": "9cce6fbbcaecb9061bd21eb6372b8e290a673a6759585f7b5e3c0c6b409734c1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-rror-www-stephenmerrony-co-uk-once-in-royal-davids-city-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FOnce_In_Royal_Davids_City%2F0000",
+  "kind": "abc",
+  "bytes": 1676,
+  "sha256": "6b5d6be016667b1cd839140a59ce239b1e024e784d9bf31fa69b39eca54787d5",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-t-edu-jc-music-abc-scotland-air-onceinroyaldavidscity-d-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FScotland%2Fair%2FOnceInRoyalDavidsCity_D%2F0000",
+  "kind": "abc",
+  "bytes": 221,
+  "sha256": "9317a76ea80f10e52ac54ebded247d50e24cfb2c2d8efdbb05280a6b1b2967b6",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-t-edu-jc-music-abc-scotland-air-onceinroyaldavidscity-f-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FScotland%2Fair%2FOnceInRoyalDavidsCity_F%2F0000",
+  "kind": "abc",
+  "bytes": 224,
+  "sha256": "caa59f81da451edf0f6d23b72171add3835a1a6feefba31e30a6be5e3ea4d016",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-once-in-royal-davids-city.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Once_in_Royal_David%27s_City",
+  "kind": "lilypond",
+  "bytes": 13229,
+  "sha256": "d19707e8df1a8682aff80ef1a1a66dbc192c63eb6d2b270d55cc80fedd5b011d",
+  "fetched": "2026-09-18"
+ }
+]

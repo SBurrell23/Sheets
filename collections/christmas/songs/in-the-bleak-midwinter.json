@@ -1,0 +1,25 @@
+{
+  "title": "In the Bleak Midwinter",
+  "source": "Tune CRANHAM, Gustav Holst, 1906, from The English Hymnal; words by Christina Rossetti, 1872",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 80,
+  "bars": [
+    { "chord": "C",   "notes": "E5:6 F5:2 G5:4 E5:4" },
+    { "chord": "Am",  "notes": "D5:8 C5:4 R:4" },
+    { "chord": "Dm",  "notes": "D5:6 E5:2 D5:4 A4:4" },
+    { "chord": "G7",  "notes": "D5:12 R:4" },
+    { "chord": "C",   "notes": "E5:6 F5:2 G5:4 E5:4" },
+    { "chord": "Am",  "notes": "D5:8 C5:4 R:4" },
+    { "chord": "F",   "notes": "D5:4 E5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",   "notes": "C5:12 R:4" },
+    { "chord": "F",   "notes": "F5:6 E5:2 F5:4 [C7]G5:4" },
+    { "chord": "F",   "notes": "A5:4 A5:4 [Am]E5:4 R:4" },
+    { "chord": "C/E", "notes": "G5:4 [Em]E5:4 [Dm]D5:4 [F]C5:4" },
+    { "chord": "G7",  "notes": "B4:12 R:4" },
+    { "chord": "C",   "notes": "E5:6 F5:2 G5:4 E5:4" },
+    { "chord": "Am",  "notes": "D5:8 C5:4 R:4" },
+    { "chord": "F",   "notes": "D5:4 E5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",   "notes": "C5:16" }
+  ]
+}

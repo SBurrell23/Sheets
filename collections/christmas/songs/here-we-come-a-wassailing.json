@@ -1,0 +1,30 @@
+{
+  "title": "Here We Come A-Wassailing",
+  "source": "Traditional English carol, the Wassail Song, c.1850",
+  "key": "C",
+  "meter": "6/8",
+  "pickup": 2,
+  "tempo": 96,
+  "bars": [
+    { "chord": "C",  "notes": "C5:2" },
+    { "chord": "C",  "notes": "C5:4 D5:2 E5:4 D5:2" },
+    { "chord": "C",  "notes": "C5:4 D5:2 E5:4 D5:2" },
+    { "chord": "C",  "notes": "C5:4 G5:2 [G7]G5:4 G5:2" },
+    { "chord": "C",  "notes": "G5:6~ G5:4 G5:2" },
+    { "chord": "F",  "notes": "A5:4 A5:2 [C]G5:4 E5:2" },
+    { "chord": "G7", "notes": "G5:4 G5:2 F5:4 E5:2" },
+    { "chord": "Dm", "notes": "D5:4 C5:2 D5:4 E5:2" },
+    { "chord": "G7", "notes": "F5:6 E5:3 F5:3" },
+    { "chord": "C",  "notes": "G5:6 [F]C6:3 A5:3" },
+    { "chord": "C",  "notes": "G5:6 [G7]E5:3 F5:3" },
+    { "chord": "C",  "notes": "G5:3 G5:3 [F]C6:3 A5:3" },
+    { "chord": "C",  "notes": "G5:6 [G7]E5:3 F5:3" },
+    { "chord": "C",  "notes": "G5:6 [A7]A5:3 E5:3" },
+    { "chord": "Dm", "notes": "F5:3 D5:3 [G7]C5:3 B4:3" },
+    { "chord": "C",  "notes": "C5:4 D5:2 E5:3 C5:3" },
+    { "chord": "Dm", "notes": "F5:6 [G7]E5:3 F5:3" },
+    { "chord": "C",  "notes": "G5:6 [A7]A5:3 E5:3" },
+    { "chord": "Dm", "notes": "F5:3 D5:3 [G7]C5:3 B4:3" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

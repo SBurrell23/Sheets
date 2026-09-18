@@ -1,0 +1,227 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Coventry Carol</title>
+    <ns>0</ns>
+    <id>1472452</id>
+    <revision>
+      <id>1370151384</id>
+      <parentid>1370144262</parentid>
+      <timestamp>2026-08-19T11:32:33Z</timestamp>
+      <contributor>
+        <username>~2026-45575-05</username>
+        <id>55294686</id>
+      </contributor>
+      <origin>1370151384</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13037" sha1="o42kivbarezaudt66somqc3dfpddzsc" xml:space="preserve">{{short description|Christmas carol about the massacre of the innocents}}
+{{Use dmy dates|date=February 2018}}
+{{Use British English|date=February 2018}}
+{{Infobox musical composition
+| name                = Coventry Carol
+| composer            = 
+| image               = WLANL - legalizefreedom - De kindermoord te Bethlehem.jpg
+| alt                 = 
+| caption             = ''Massacre of the Innocents'', by [[Cornelis van Haarlem]], 1591
+| translation         = 
+| native_name         = 
+| native_name_lang    = 
+| key                 = 
+| catalogue           = 
+| genre               = [[Christmas music]]
+| form                = 
+| text                = Robert Croo (oldest known)
+| language            = English
+| melody              =
+| composed            = 
+| performed           = 
+| published           = 
+| movements           = 
+| scoring             = 
+| misc                = 
+}}
+{{Listen|type=music
+|filename=U.S. Army Band - Coventry Carol.ogg|title=Coventry Carol|description=Performed by the U.S. Army Band Chorus
+|filename2=Coventry Carol.mid|title2=Brass choral arrangement|description2=MIDI}}
+The "'''Coventry Carol'''" is an English [[Christmas carol]] dating from the 16th century. The carol was traditionally performed in [[Coventry]] in [[England]] as part of a [[mystery play]] called ''[[Coventry Mystery Plays|The Pageant of the Shearmen and Tailors]]'' (1392–3). The play depicts the [[Christmas]] story from [[Matthew 2|chapter two]] in the [[Gospel of Matthew]]: the carol itself refers to the [[Massacre of the Innocents]], in which [[Herod the Great|Herod]] ordered all male infants under the age of two in [[Bethlehem]] to be killed, and takes the form of a [[lullaby]] sung by the mothers of the doomed children.
+
+The music contains a well-known example of a [[Picardy third]]. The author is unknown; the oldest known text was written down by Robert Croo in 1534, and the oldest known setting of the melody dates from 1591.&lt;ref&gt;Studwell, W. E. (1995). ''The Christmas Carol Reader.'' Haworth Press. pp. 15 {{ISBN|978-1-56023-872-0}}&lt;/ref&gt; There are alternative, modern settings of the carol by [[Kenneth Leighton]], [[Philip Stopford]] and [[Michael McGlynn]].
+
+==History and text==
+The carol is the second of three songs included in the Pageant of the Shearmen and Tailors, a [[nativity play]] that was one of the [[Coventry Mystery Plays]], originally performed by the city's [[guild]]s.
+
+The exact date of the text is unknown, though there are references to the Coventry guild pageants from 1392 onwards. The single surviving text of the carol and the pageant containing it was edited by one Robert Croo, who dated his manuscript 14 March 1534.&lt;ref name=rastall179&gt;{{cite book|last=Rastall|first=Richard|title=Minstrels Playing: Music in Early English Religious Drama|publisher=Boydell and Brewer|year=2001|page=179}}&lt;/ref&gt; Croo, or Crowe, acted for some years as the 'manager' of the city pageants. Over a twenty-year period, payments are recorded to him for playing the part of God in the Drapers' Pageant,&lt;ref&gt;King and Davidson, ''The Coventry Corpus Christi plays'', Medieval Institute Publications, Western Michigan University, 2000, p. 53&lt;/ref&gt; for making a hat for a "pharysye", and for mending and making other costumes and props, as well as for supplying new dialogue and for copying out the Shearmen and Tailors' Pageant in a version which Croo described as "newly correcte".&lt;ref name=redmond38&gt;{{cite book |first1=Pamela M. |last1=King |chapter=Faith, Reason and the Prophets' dialogue in the Coventry Pageant of the Shearmen and Taylors |chapter-url=https://books.google.com/books?id=z8QJK_O2UicC&amp;pg=PA37 |pages=37–46 |year=1990 |editor1-first=James |editor1-last=Redmond |title=Drama and Philosophy |series=Themes in Drama |publisher=Cambridge University Press |isbn=978-0-521-38381-3}}&lt;/ref&gt; Croo seems to have worked by adapting and editing older material, while adding his own verse, “characterized by its ponderously intricate metres”.&lt;!--Source  the earlier appearing “ponderous and undistinguished verse”.--&gt;&lt;ref name="redmond38"/&gt;
+
+Religious changes caused the plays' suppression during the later 16th century, but Croo's [[prompt book]], including the songs, survived, and a transcription was eventually published by the Coventry [[antiquarian]] Thomas Sharp in 1817 as part of his detailed study of the city's mystery plays.&lt;ref name="rastall179"/&gt; Sharp published a second edition in 1825, which included the songs' music. Both printings were intended to be a facsimile of Croo's manuscript, copying both the orthography and layout; this proved fortunate as Croo's original 1534 manuscript, which had passed into the collection of the [[Birmingham Central Library|Birmingham Free Library]], was destroyed in a fire there in 1879.&lt;ref name="rastall179"/&gt; Sharp's transcriptions are therefore the only source; Sharp had a reputation as a careful scholar, and his copying of the text of the women's carol appears to be accurate.&lt;ref&gt;{{cite journal |first1=John P. |last1=Cutts |date=Spring 1957 |title=The Second Coventry Carol and a Note on ''The Maydes Metamorphosis'' |journal=[[Renaissance News]]|volume=10 |issue=1 |pages=3–8 |doi=10.2307/2857697 |jstor=2857697}}&lt;/ref&gt;
+
+Within the pageant, the carol is sung by three women of Bethlehem, who enter on stage with their children immediately after Joseph is warned by an angel to take his family to Egypt:&lt;ref&gt;Glover (ed.) ''The Hymnal 1982 Companion, Volume 1'', 1990, p. 488&lt;/ref&gt;
+
+{| class="wikitable"
+|-
+!width="350"|Original spelling&lt;ref&gt;{{Cite book |last=Sharp |first=Thomas |url=http://archive.org/details/dissertationonpa00sharuoft |title=A dissertation on the pageants or dramatic mysteries anciently performed at Coventry |date=1825 |publisher=Coventry Merridew |others=Internet Archive}}&lt;/ref&gt;
+!width="350"|Modernised spelling&lt;ref&gt;{{cite book |first=Mark|last=Lawson-Jones|year=2011 |chapter=The Coventry Carol |chapter-url=https://books.google.com/books?id=A1k7AwAAQBAJ&amp;pg=PT44 |pages=44–49 |title=Why was the Partridge in the Pear Tree?: The History of Christmas Carols |publisher=The History Press |isbn=978-0-7524-7750-3}}&lt;/ref&gt;
+|-
+|&lt;poem style="margin-left: 1em;"&gt;Lully, lulla, þᵂ littell tiné child,
+By by, lully, lullay
+þᵂ  littell tyné child,
+By by, lully, lullay!&lt;/poem&gt;
+|&lt;poem style="margin-left: 1em;"&gt;Lully, lullah, thou little tiny child,
+Bye bye, lully, lullay.
+Thou little tiny child,
+Bye bye, lully, lullay.&lt;/poem&gt;
+|-
+|&lt;poem style="margin-left: 1em;"&gt;O sisters too, how may we do
+For to preserve þⁱˢ day
+This pore yongling for whom we do singe
+By by, lully, lullay?&lt;/poem&gt;
+|&lt;poem style="margin-left: 1em;"&gt;O sisters too, how may we do
+For to preserve this day
+This poor youngling for whom we sing,
+"Bye bye, lully, lullay"?&lt;/poem&gt;
+|-
+|&lt;poem style="margin-left: 1em;"&gt;Herod, the king, in his raging,
+Chargid he hath this day
+His men of might in his owne sight
+All yonge children to slay,—&lt;/poem&gt;
+|&lt;poem style="margin-left: 1em;"&gt;Herod the king, in his raging,
+Chargèd he hath this day
+His men of might in his own sight
+All young children to slay.&lt;/poem&gt;
+|-
+|&lt;poem style="margin-left: 1em;"&gt;That wo is me, pore child, for thee,
+And ever morne and say
+For thi parting nether say nor singe,
+By by, lully, lullay.&lt;/poem&gt;
+|&lt;poem style="margin-left: 1em;"&gt;That woe is me, poor child, for thee
+And ever mourn and may
+For thy parting neither say nor sing,
+"Bye bye, lully, lullay."&lt;/poem&gt;
+|}
+
+Sharp's publication of the text stimulated some renewed interest in the pageant and songs, particularly in Coventry itself. Although the Coventry mystery play cycle was traditionally performed in summer, the lullaby has, in modern times, been regarded as a [[Christmas carol]]. It was brought to a wider audience after being featured in the BBC's Empire Broadcast at Christmas 1940, shortly after the [[Coventry Blitz|Bombing of Coventry]] in [[World War II]], when the broadcast concluded with the singing of the carol in the bombed-out ruins of the Cathedral.&lt;ref&gt;Wiebe, Heather. ''Britten's Unquiet Pasts: Sound and Memory in Postwar Reconstruction'', Cambridge University Press, p. 192&lt;/ref&gt;
+
+==Music==
+The carol's music was added to Croo's manuscript at a later date by Thomas Mawdyke, his additions being dated 13 May 1591. Mawdyke wrote out the music in three-part harmony, though whether he was responsible for its composition is debatable, and the music's style could be indicative of an earlier date.&lt;ref name=duffin259&gt;Duffin, ''A Performer's Guide to Medieval Music'', Indiana University Press, 259&lt;/ref&gt; The three (alto, tenor and baritone) vocal parts confirm that, as was usual with mystery plays, the parts of the "mothers" singing the carol were invariably played by men.&lt;ref name="duffin259"/&gt; The original three-part version contains a "startling" [[false relation]] (F{{music|#}} in treble, F in tenor) at "by, by".&lt;ref&gt;''[[Gramophone (magazine)|Gramophone]]'', volume 66, issues 21988–21989, p. 968&lt;/ref&gt;
+
+Mawdyke, who may be identifiable with a tailor of that name living in the St Michael's parish of Coventry in the late 16th century, is thought to have made his additions as part of an unsuccessful attempt to revive the play cycle in the summer of 1591, though in the end the city authorities chose not to support the revival.{{sfn|Rastall|2001|p=180}} The surviving pageants were revived in the Cathedral from 1951 onwards.
+
+A four-part setting of the tune by [[Walford Davies]] is shown below:&lt;ref&gt;[http://www1.cpdl.org/wiki/index.php/Coventry_Carol Coventry Carol] at the Choral Public Domain Library. Accessed 2016-09-07.&lt;/ref&gt;
+
+&lt;score sound="1"&gt;
+\new ChoirStaff &lt;&lt;
+\new Staff {
+  \time 3/4
+  \key g \minor
+  \relative c'' {
+  &lt;g d&gt; &lt;g d&gt; &lt;fis c&gt; |
+  &lt;g d&gt;2 &lt;bes f&gt;4 |
+  &lt;a f&gt;2 &lt;g d&gt;4 | &lt;fis d&gt;2. |
+  &lt;g d&gt;4 &lt;a f!&gt; &lt;bes f&gt; |
+  &lt;c g&gt; &lt;a f&gt;2 &lt;g d&gt;2. ~ &lt;g d&gt;2 &lt;d' f,&gt;4 |
+  &lt;c f,&gt;2 &lt;bes d,&gt;4 |
+  &lt;a d,&gt;2 &lt;bes bes,&gt;4 |
+  &lt;a c,&gt;2
+  &lt;&lt; { \voiceOne g4 }
+  \new Voice { \voiceTwo bes,8 c } &gt;&gt;
+  \oneVoice &lt;fis d&gt;2. |
+  &lt;g bes,&gt;4 &lt;fis c&gt; &lt;g d&gt; |
+  &lt;c ees,&gt; &lt;a d,&gt;2 | &lt;b d,&gt;2. \bar "|."
+  }
+ }
+\new Staff {
+  \time 3/4
+  \key g \minor
+  \clef bass
+  &lt;bes g&gt;4 &lt;bes g&gt; &lt;c' a&gt; |
+  &lt;bes g&gt;2 &lt;d' d&gt;4 |
+  &lt;c' f&gt;2 &lt;bes g&gt;4 |
+  &lt;a d&gt;2. | &lt;bes g&gt;4 &lt;c' f&gt; &lt;d' d&gt; |
+  &lt;ees' c&gt; &lt;c' f&gt;2 | &lt;bes g&gt;2. ~ &lt;bes g&gt;2 &lt;bes d&gt;4 |
+  &lt;a f&gt;2 &lt;bes bes,&gt;4 | &lt;f d&gt;2 &lt;g g,&gt;4 |
+  &lt;ees c&gt;( &lt;f d&gt;) &lt;g ees&gt; | &lt;a d&gt;2. |
+  &lt;d' bes&gt;4 &lt;c' a&gt; &lt;bes g&gt; | &lt;a c&gt;
+  &lt;&lt; { \voiceOne g( fis) }
+  \new Voice { \voiceTwo d2 } &gt;&gt;
+  \oneVoice &lt;g g,&gt;2. \bar "|."
+  }
+&gt;&gt;
+&lt;/score&gt;
+
+==="Appalachian" variant===
+A variant of the carol was supposedly collected by folklorist [[John Jacob Niles]] in [[Gatlinburg, Tennessee]], in June 1934 (from an "old lady with a gray hat", who according to Niles's notes insisted on remaining anonymous).&lt;ref&gt;See notes to ''I Wonder as I Wander – Love Songs and Carols'', John Jacob-Niles, Tradition TLP 1023 (1957).&lt;/ref&gt; Niles surmised that the carol had been transplanted from England via the [[shape note]] singing tradition, although this version of the carol has not been found elsewhere and there is reason to believe that Niles, a prolific composer, actually wrote it himself.&lt;ref&gt;Crump (ed). ''The Christmas Encyclopedia'', 3rd ed., McFarland, 2001, p.&amp;nbsp;154&lt;/ref&gt; [[Joel Cohen (musician)|Joel Cohen]] uncovered an early shape note choral song from the 18th century which also includes some of the lyrics to the Coventry Carol and has a tune at least marginally resembling Niles' variant. For this reason, Cohen argued that the Appalachian variant was likely to be authentic and that Crump et al. had been too quick to assume chicanery on Niles' part due to his proclivity for editing some of his collected material.
+
+Although the tune is quite different from that of the "Coventry Carol", the text is largely similar except for the addition of an extra verse (described by [[Elizabeth Poston|Poston]] as "regrettable"):
+
+{{poemquote|And when the stars ingather do
+In their far venture stay
+Then smile as dreaming, little one,
+By, by, lully, lullay.&lt;ref&gt;Poston, E. ''The Second Penguin Book of Christmas Carols'', Penguin, 1970&lt;/ref&gt;}}
+
+A number of subsequent recorded versions have incorporated the fifth verse.
+
+==See also==
+* [[List of Christmas carols]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://cantorion.org/musicsearch/title/Coventry%20Carol Sheet music] for voice and SATB from Cantorion.org
+*{{cite book |type=Thesis |last1=Amman |first1=Douglas D. |year=1986 |title=The slaying of the innocents: a relational treatise on composition and conducting |publisher=Ball State University |url=http://liblink.bsu.edu/uhtbin/catkey/484783|ref=none}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Coventry Carol}}
+[[Category:16th-century hymns]]
+[[Category:Christmas carols]]
+[[Category:Culture in Coventry]]
+[[Category:History of Coventry]]
+[[Category:Lullabies]]
+[[Category:Massacre of the Innocents]]
+[[Category:Music based on the Bible]]
+[[Category:Songs inspired by deaths]]
+[[Category:Works based on the Gospel of Matthew]]
+[[Category:Tori Amos songs]]</text>
+      <sha1>o42kivbarezaudt66somqc3dfpddzsc</sha1>
+    </revision>
+  </page>
+</mediawiki>

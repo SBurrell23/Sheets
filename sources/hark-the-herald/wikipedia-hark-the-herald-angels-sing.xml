@@ -1,0 +1,418 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Hark! The Herald Angels Sing</title>
+    <ns>0</ns>
+    <id>1093655</id>
+    <revision>
+      <id>1359078229</id>
+      <parentid>1359077728</parentid>
+      <timestamp>2026-06-12T23:11:26Z</timestamp>
+      <contributor>
+        <username>~2026-28287-86</username>
+        <id>53709696</id>
+      </contributor>
+      <comment>/* In popular culture */ REFERENCE</comment>
+      <origin>1359078229</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19262" sha1="eckypn3pw1k80nwgxz61bx7yo2lecza" xml:space="preserve">{{Short description|English Christmas carol}}
+{{use dmy dates|date=July 2023}}
+{{Infobox musical composition
+| name                = Hark! The Herald Angels Sing
+| type                = 
+| image               = Worship of the shepherds by bronzino.jpg
+| alt                 = 
+| caption             = ''Worship of the Shepherds'', 1539, by [[Bronzino]]
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Christmas carol]]
+| occasion            = 
+| text                = [[Charles Wesley]]
+| language            = 
+| written             = 1739
+| based_on            = [https://bible.oremus.org/?passage=Luke%202:8%E2%80%9314&amp;version=av Luke 2:8–14]
+| meter               = 7.7.7.7 D with refrain
+| melody              = "Vaterland, in deinen Gauen" from ''[[Festgesang]]'' by [[Felix Mendelssohn]], adapted by [[William H. Cummings]]
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+}}
+
+"'''Hark! The Herald Angels Sing'''" is an English [[Christmas carol]] authored by [[Charles Wesley]] in 1739. The carol, based on [https://bible.oremus.org/?passage=Luke%202:8%E2%80%9314&amp;version=av Luke 2:8–14], describes an [[angel]]ic chorus singing of [[Jesus|Christ's]] [[Nativity of Jesus|nativity]].
+
+Wesley's version, entitled "Hymn for Christmas-Day", consisted of ten four-line verses. The version most commonly sung today includes six of these, arranged into three eight-line verses, with a [[refrain]]. The modern text incorporates revisions made by a number of authors, among them [[George Whitefield]], who altered the opening [[couplet]] from "Hark how all the [[wikt:welkin|welkin]] rings / Glory to the King of Kings" to the familiar "Hark! the herald angels sing / Glory to the newborn King".
+
+Various [[Musical setting|settings]] have been used for the carol. Since the mid-19th century, it has usually been sung to a melody from [[Felix Mendelssohn]]'s ''[[Festgesang|Festgesang zum Gutenbergfest]]'' (1840), originally composed for the 400th anniversary of the invention of the printing press.
+
+==Textual history==
+"Hymn for Christmas-Day" first appeared in ''Hymns and Sacred Poems'' (1739), compiled by [[Charles Wesley]] and his brother [[John Wesley|John]]. [[George Whitefield]], who, like the Wesleys, was an early leader of the [[Methodist]] movement, subsequently included it in his ''Collection of Hymns for Social Worship'' (1753). Whitefield omitted the eighth and tenth verses and made various revisions to the remaining ones, chief of which was the alteration of the opening couplet. Whitefield's version was included in [[Martin Madan]]'s ''Collection of Psalms and Hymns'' (1760) with another significant change, namely the alteration of the end of verse two to "With th' angelic host proclaim / Christ is born in Bethlehem".&lt;ref&gt;{{cite book|last=Madan|first=Martin|year=1760|title=A Collection of Psalms and Hymns, Extracted From Various Authors|location=London|pages=8–9|url=https://archive.org/details/bim_eighteenth-century_a-collection-of-psalms-a_madan-martin_1760/page/n19}}&lt;/ref&gt;
+
+The carol made its first appearance in an [[Church of England|Anglican]] publication in 1782, when it was included in a supplement to [[Tate and Brady]]'s ''New Version of the Psalms of David''. The ''New Version'' and its supplement were bound up with all copies of the ''[[Book of Common Prayer]]'', which enabled the carol to diffuse widely, becoming one of the "[[Great Four Anglican Hymns|great four]]" Anglican hymns.&lt;ref&gt;{{cite book|last=Breed|first=David R.|year=1934|orig-year=1903|title=The History and Use of Hymns and Hymn-Tunes|location=New York|publisher=Fleming H. Revell Company|edition=8th|page=85|url=https://archive.org/details/historyandusehym007965mbp/page/n94}}&lt;/ref&gt; A final change occurred when it was added to ''[[Hymns Ancient and Modern]]'' (1861), namely the alteration of the end of verse four to "Pleased as man with man to dwell / Jesus, our Emmanuel".&lt;ref&gt;{{cite book|title=The New Oxford Book of Carols|editor-last1=Keyte|editor-first1=Hugh|editor-last2=Parrott|editor-first2=Andrew|editor-last3=Bartlett|editor-first3=Clifford|location=Oxford|publisher=the University Press|year=1998|orig-year=1992|isbn=0-19-353322-7|pages=328–329|url=https://archive.org/details/newoxfordbookofc0000unse_k9n1/page/328}}&lt;/ref&gt;
+
+{| class="wikitable"
+! style="width:33%;" |"Hymn for Christmas-Day"&lt;br /&gt;(Charles Wesley, 1739)&lt;ref&gt;{{cite book|last1=Wesley|first1=John|last2=Wesley|first2=Charles|year=1739|title=Hymns and Sacred Poems|location=London|publisher=William Strahan|pages=206–208|url=https://archive.org/details/bim_eighteenth-century_hymns-and-sacred-poems-_wesley-john_1739_0/page/206}}&lt;/ref&gt;
+! style="width:33%;" |Adaptation by&lt;br /&gt;George Whitefield (1753)&lt;ref&gt;{{cite book|last=Whitefield|first=George|year=1753|title=A Collection of Hymns for Social Worship, More Particularly Design'd for the Use of the Tabernacle Congregation, in London|location=London|publisher=William Strahan|pages=24–25|url=https://archive.org/details/bim_eighteenth-century_a-collection-of-hymns-fo_whitefield-george_1753/page/24}}&lt;/ref&gt;
+! style="width:34%;" |''Hymns Ancient and Modern'' (1861)&lt;ref&gt;{{cite book|editor-last=Monk|editor-first=William Henry|year=1861|title=Hymns Ancient and Modern|location=London|publisher=J. Alfred Novello|at=Hymn 43|url=https://archive.org/details/modeance00chur/page/n74}}&lt;/ref&gt;
+|-
+|&lt;poem&gt;{{Smallcaps|Hark}} how all the Welkin rings
+"Glory to the King of Kings,
+"Peace on Earth, and Mercy mild,
+"{{Smallcaps|God}} and Sinners reconcil'd!&lt;/poem&gt;
+|&lt;poem&gt;{{Smallcaps|Hark}}! the Herald Angels sing
+Glory to the new-born King!
+Peace on Earth and Mercy mild,
+God and Sinners reconcil'd.&lt;/poem&gt;
+| rowspan="2" |&lt;poem&gt;{{Smallcaps|Hark}}! the herald-angels sing
+Glory to the new-born {{Smallcaps|King}},
+Peace on earth, and mercy mild,
+{{Smallcaps|God}} and sinners reconciled.
+Joyful, all ye nations, rise,
+Join the triumph of the skies;
+With the angelic host proclaim
+{{Smallcaps|Christ}} is born in Bethlehem.
+:Hark! the herald-angels sing
+:Glory to the new-born {{Smallcaps|King}}.&lt;/poem&gt;
+|-
+|&lt;poem&gt;Joyful all ye Nations rise,
+Join the Triumph of the Skies,
+Universal Nature say
+"{{Smallcaps|Christ}} the {{Smallcaps|Lord}} is born to Day!&lt;/poem&gt;
+|&lt;poem&gt;Joyful all ye Nations rise,
+Join the Triumphs of the Skies;
+Nature rise and worship him,
+Who is born at Bethlehem.&lt;/poem&gt;
+|-
+|&lt;poem&gt;{{Smallcaps|Christ}}, by highest Heav'n ador'd,
+{{Smallcaps|Christ}}, the Everlasting Lord,
+Late in Time behold him come,
+Offspring of a Virgin's Womb.&lt;/poem&gt;
+|&lt;poem&gt;Christ by highest Heav'n ador'd,
+Christ the everlasting Lord;
+Late in Time behold him come,
+Offspring of the Virgin's Womb.&lt;/poem&gt;
+| rowspan="2" |&lt;poem&gt;{{Smallcaps|Christ}}, by highest heaven adored,
+{{Smallcaps|Christ}}, the Everlasting {{Smallcaps|Lord}},
+Late in time behold Him come,
+Offspring of a Virgin's womb.
+Veiled in flesh the {{Smallcaps|Godhead}} see
+Hail, the Incarnate Deity!
+Pleased as Man with man to dwell,
+{{Smallcaps|Jesus}}, our {{Smallcaps|Emmanuel}}.
+:Hark! the herald-angels sing
+:Glory to the new-born {{Smallcaps|King}}.&lt;/poem&gt;
+|-
+|&lt;poem&gt;Veil'd in Flesh, the Godhead see,
+Hail th' Incarnate Deity!
+Pleas'd as Man with Men t' appear
+{{Smallcaps|Jesus}}, our ''Immanuel'' here!&lt;/poem&gt; 
+|&lt;poem&gt;Veil'd in Flesh the Godhead see,
+Hail the incarnate Deity!
+Pleas'd as Man with Men t'appear,
+Jesus our Emmanuel here.&lt;/poem&gt;
+|-
+|&lt;poem&gt;Hail the Heav'nly Prince of Peace!
+Hail the Sun of Righteousness!
+Light and Life to All he brings,
+Ris'n with Healing in his Wings.&lt;/poem&gt;
+|&lt;poem&gt;Hail the Heav'n born Prince of Peace!
+Hail the Sun of Righteousness!
+Light and Life around he brings,
+Ris'n with Healing in his Wings.&lt;/poem&gt;
+| rowspan="2" |&lt;poem&gt;Hail, the heaven-born Prince of Peace!
+Hail, the Sun of Righteousness!{{efn|This line is a reference to Malachi 4:2 ("But unto you that fear my name shall the Sun of righteousness arise with healing in his wings"), but is often mistakenly changed to "Son of righteousness".&lt;ref&gt;{{cite web |last1=Fentress |first1=Sara Beth |title=Hark! Thoughts on a Christmas Classic |url=https://cfc.sebts.edu/faith-and-culture/hark-thoughts-on-a-christmas-classic/ |website=cfc.sebts.edu |publisher=The Center for Faith and Culture. |access-date=16 March 2022 |language=en |date=13 December 2018}}&lt;/ref&gt;}}
+Light and Life to all He brings,
+Risen with healing in His wings.
+Mild He lays His glory by,
+Born that man no more may die,
+Born to raise the sons of earth,
+Born to give them second birth.
+:Hark! the herald-angels sing
+:Glory to the new-born {{Smallcaps|King}}.&lt;/poem&gt;
+|-
+|&lt;poem&gt;Mild he lays his Glory by,
+Born—that Man no more may die,
+Born—to raise the Sons of Earth,
+Born—to give them Second Birth.&lt;/poem&gt;
+|&lt;poem&gt;Mild he lays his Glory by,
+Born that Men no more may die:
+Born to raise the sons of Earth,
+Born to give them second Birth.&lt;/poem&gt;
+|-
+|&lt;poem&gt;Come, Desire of Nations, come,
+Fix in Us thy humble Home,
+Rise, the Woman's Conqu'ring Seed,
+Bruise in Us the Serpent's Head.&lt;/poem&gt;
+|&lt;poem&gt;Come Desire of Nations, come
+Fix in us thy heav'nly Home;
+Rise the Woman's conqu'ring Seed,
+Bruise in us the Serpent's Head.&lt;/poem&gt;
+| rowspan="2" |
+|-
+|&lt;poem&gt;Now display thy saving Pow'r,
+Ruin'd Nature now restore,
+Now in Mystic Union join
+Thine to Ours, and Ours to Thine.&lt;/poem&gt;
+|
+|-
+|&lt;poem&gt;''Adam'''s Likeness, {{Smallcaps|Lord}}, efface,
+Stamp thy Image in its Place,
+Second ''Adam'' from above,
+Reinstate us in thy Love.&lt;/poem&gt;
+|&lt;poem&gt;Adam's Likeness now efface,
+Stamp thy Image in its Place;
+Second Adam from above,
+Work it in us by thy Love.&lt;/poem&gt;
+| rowspan="2" |
+|-
+|&lt;poem&gt;Let us Thee, tho' lost, regain,
+Thee, the Life, the Inner Man:
+O! to All Thyself impart,
+Form'd in each Believing Heart.&lt;/poem&gt;
+|
+|}
+
+== Melodies ==
+
+===Mendelssohn melody===
+[[File:U.S. Army Band - Hark! The Herald Angels Sing.ogg|thumb|Sung by the [[United States Army Band]] Chorus]]
+In 1855, British musician [[William Hayman Cummings]], organist at [[Waltham Abbey Church]],&lt;ref&gt;{{cite web|url=http://christmasclassics.com/christmasmusic/tag/waltham-abbey|title=Christmas Classics Person of the Day: William Hayman Cummings|date=2013-08-30|publisher=Christmas Classics Ltd|via=Waltham Abbey Archives|accessdate=2023-12-19}}&lt;/ref&gt; adapted a movement from [[Felix Mendelssohn]]'s secular ''[[Festgesang]]'' to fit the lyrics of "Hark! The Herald Angels Sing".&lt;ref&gt;[http://www.carols.org.uk/hark_the_herald_angels_sing.htm Hark the Herald Angels Sing] carols.org.uk&lt;/ref&gt; Wesley had originally envisioned the words being sung to the same tune as his Easter hymn "[[Christ the Lord Is Risen Today]]".&lt;ref name="Hoare"&gt;{{cite web |title=Wesley, Gutenberg, and ‘Hark! The Herald Angels Sing’ |publisher=The Methodist Church of Great Britain |first=Charlotte |last=Hoare
+|url=https://www.methodist.org.uk/about/our-stories/wesley-gutenberg-and-hark-the-herald-angels-sing/
+|url-status=live |access-date=19 December 2024 |date=16 December 2020 |archive-url=https://web.archive.org/web/20240715052405/https://www.methodist.org.uk/about/our-stories/wesley-gutenberg-and-hark-the-herald-angels-sing/ |archive-date=15 July 2024 }}&lt;/ref&gt;
+
+In Britain, the carol is popularly performed in an arrangement that retains Cummings' original harmonisation of the Mendelssohn tune for the first two verses, but adds a [[soprano]] [[descant]] and a [[last verse harmonisation]] for the organ in verse three, by [[Sir David Willcocks]]. This arrangement was first published in 1961 by [[Oxford University Press]] in the first book of the ''[[Carols for Choirs]]'' series. For many years it has served as the [[recessional hymn]] of the annual [[Festival of Nine Lessons and Carols]] at [[King's College Chapel, Cambridge]].&lt;ref&gt;{{cite web |url=http://www.kings.cam.ac.uk/chapel/ninelessons/index.html |title=Nine Lessons and Carols |publisher=[[King's College, Cambridge]] |access-date=2007-10-25 |url-status=dead |archive-url=https://web.archive.org/web/20071016061944/http://www.kings.cam.ac.uk/chapel/ninelessons/index.html |archive-date=2007-10-16 }}&lt;/ref&gt;
+
+{{anchor|score}}
+&lt;score raw="1" vorbis="1"&gt;
+% There are many different arrangements;
+% this is from https://imslp.org/wiki/File:PMLP576994-Hark_the_Herald_Angels_Sing_Full_Score.pdf
+\header { tagline = ##f }
+\layout { indent = 0 \context { \Score \remove "Bar_number_engraver" } }
+global = { \key f \major \numericTimeSignature \time 4/4 \set Score.tempoHideNote = ##t }
+
+soprano = \relative c' { \global
+  c4 f f4. e8 |
+  f4 a a (g) |
+  c c c4. bes8 |
+  a4 g a2 |
+  c,4 f f4. e8 |
+  f4 a a (g) |
+  c4 g g4. e8 |
+  e4 d c2 |
+  \repeat unfold 2 { c'4 c c f, |
+    bes a a (g) | }
+  d'4 d d c |
+  bes a bes2 |
+  g4 a8 (bes) c4. f,8 |
+  f4 g a2 |
+  d4. d8 d4 c |
+  bes a bes2 |
+  g4 \tempo 4=102 a8 (bes) c4. f,8 |
+  f4 g f2 \bar "|."
+}
+
+alto = \relative c' {
+  \global
+  c4 c c4. c8 |
+  c4 f f (e) |
+  f e d g |
+  f4 e f2 |
+  c4 c c4. c8 |
+  a4 f' f2 |
+  e4 d e4. c8 |
+  c4 b c2 |
+  \repeat unfold 2 { c4 c c f |
+    g f f (e) | }
+  bes'4 bes bes a |
+  g fis g2 |
+  e4 e4 f4. c8 |
+  c4 e f2 |
+  bes4 bes bes a |
+  g fis g2 |
+  c,4 e4 f4. f8 |
+  c4 c c2
+}
+
+tenor = \relative c { \global
+  a'4 a a4. g8 |
+  f4 c' c2 |
+  c4 c d d |
+  c c c2 |
+  a4 a a4. g8 |
+  f4 c' d2 |
+  c4 d c4. g8 |
+  a4 f e2 |
+  \repeat unfold 2 { c'4 c c c | c c c2 } |
+  d4 d d d |
+  d c bes2 |
+  c4 c c4. a8 |
+  a4 c c2 |
+  &lt;d bes&gt;4 q q &lt;c a&gt; |
+  &lt;bes g&gt; &lt;a fis&gt; bes2
+  c4 c c4. a8 |
+  a4 bes a2
+}
+
+bass = \relative c { \global
+  f4 f f4 c |
+  a4 f c'2 |
+  a4 a bes bes |
+  c4 c f2 |
+  f4 f f c |
+  d4 c b4. (g8) |
+  a4 b c4 &lt;e, e'&gt; |
+  f4 g c2 |
+  \repeat unfold 2 { c'4 c c a | e f c2 } |
+  bes4 bes bes bes |
+  bes d g2 |
+  bes4 bes a f |
+  c4 c f2 |
+  bes,1~ | bes4 d g (f)
+  e bes' a f |
+  c4 c f2
+}
+
+verseOne = \lyricmode {
+  \set stanza = "1."
+  Hark! the her -- ald an -- gels sing,
+  "\"Glo" -- ry to the new -- born King;
+  peace on earth, and mer -- cy mild,
+  God and sin -- ners rec -- on -- "ciled!\"" \break
+  Joy -- ful, all ye na -- tions rise,
+  join the tri -- umph of the skies;
+  With th'an -- gel -- ic host pro -- claim
+  "\"Christ" is born in Beth -- le -- "hem!\""
+  Hark! the her -- ald an -- gels sing,
+  "\"Glo" -- ry to the new -- born "king.\""
+}
+
+verseTwo = \lyricmode {
+  \set stanza = "2."
+  Christ, by high -- est heav'n a -- dored,
+  Christ, the ev -- er -- last -- ing Lord!
+  late in time be -- hold him come,
+  Off -- spring of the Vir -- gin's womb:
+  veiled in flesh the God -- head see;
+  hail th'in -- car -- nate De -- i -- ty,
+  pleased as man with men to dwell,
+  Je -- sus, our Em -- man -- u -- el!
+}
+
+verseThree = \lyricmode {
+  \set stanza = "3."
+  Hail, the heav'n -- born Prince of Peace!
+  Hail the Sun of Right -- eous -- ness!
+  Light and life to all he brings,
+  ris'n with heal -- ing in his wings.
+  Mild He lays his glo -- ry by,
+  born that we no more may die,
+  born to raise us from the earth,
+  born to give us sec -- ond birth.
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff \with { midiInstrument = "brass section" }
+    &lt;&lt;
+      \new Voice = "soprano" { \voiceOne \soprano }
+      \new Voice = "alto" { \voiceTwo \alto }
+    &gt;&gt;
+    \new Lyrics \lyricsto "soprano" \verseOne
+    \new Lyrics \lyricsto "soprano" \verseTwo
+    \new Lyrics \with { \override VerticalAxisGroup #'staff-affinity = #CENTER } % a little less spacing
+      \lyricsto "soprano" \verseThree
+    \new Staff \with { midiInstrument = "tuba" }
+    &lt;&lt;
+      \clef bass
+      \new Voice = "tenor" { \voiceOne \tenor }
+      \new Voice = "bass" { \voiceTwo \bass }
+    &gt;&gt;
+  &gt;&gt;
+  \layout { }
+  \midi { \tempo 4=112 }
+}
+&lt;/score&gt;
+
+===Handel melody===
+[[File:Thine Be The Glory.ogg|thumb|Handel's tune in ''Judas Maccabaeus'']]
+An uncommon arrangement of the hymn to the tune "See, the Conqu'ring hero comes" from [[George Frideric Handel|Handel]]'s ''[[Judas Maccabaeus (Handel)|Judas Maccabaeus]]'', normally associated with the hymn "[[Thine Be the Glory]]", is traditionally&lt;ref&gt;{{cite journal|title=Cornet v. Trumpet|author=C. George Bannister|journal=[[The Musical Times]]|volume=85|number=1213|page=91|date=March 1944|jstor=921578|doi=10.2307/921578 }}&lt;/ref&gt; used as the recessional hymn of the Festival of Nine Lessons and Carols at [[St Patrick's Cathedral, Dublin]]. This is broadcast live each year on Christmas Eve on [[RTÉ Radio 1]]. The usual three verses are divided into six, each with a refrain. The arrangement features a brass fanfare with drums in addition to the cathedral organ, and takes about seven and a half minutes to sing.
+
+The Victorian organist [[W. H. Jude]], in his day a popular composer, also composed a new setting of the work, published in his ''Music and the Higher Life''.&lt;ref&gt;[http://catalogue.nla.gov.au/Record/2248889 ''Hark! The Herald Angels Sing''], National Library of Australia.&lt;/ref&gt;
+
+==In popular culture==
+A popular carol, appearances of "Hark! The Herald Angels Sing" in popular culture include:
+* ''[[A Charlie Brown Christmas]]'' – sung by the children's choir in the closing scene, one of the most famous uses of the hymn in popular culture.&lt;ref&gt;{{cite book |last1=Lind |first1=Stephen J. |title=A Charlie Brown Religion: Exploring the Spiritual Life and Work of Charles M. Schulz |year=2015 |publisher=Univ. Press of Mississippi |isbn=978-1-4968-0469-3 |page=46 |url=https://www.google.co.uk/books/edition/A_Charlie_Brown_Religion/tfGYCgAAQBAJ |language=en}}&lt;/ref&gt;
+* ''[[The Muppet Christmas Carol]]'' – featured as part of the film's Christmas music and atmosphere.
+*''[[South Park]]'' – in the episode "[[Merry Christmas, Charlie Manson!]]", the song is used in a parody of the closing choir scene from ''A Charlie Brown Christmas''.&lt;ref&gt;{{cite book |last1=Cooper |first1=Ian |title=The Manson Family on Film and Television |date=20 October 2018 |publisher=McFarland |isbn=978-1-4766-3380-0 |page=166 |url=https://books.google.com/books?id=XOxzDwAAQBAJ |language=en}}&lt;/ref&gt;
+
+==See also==
+* [[List of Christmas carols]]
+
+== Footnotes ==
+'''Notes'''
+{{notelist}}
+
+'''Citations'''
+{{reflist}}
+
+== External links ==
+{{wikisource|Hark! The Herald Angels Sing}}
+* {{Commons category-inline}}
+* {{IMSLP|work=Hark! The Herald Angels Sing (Cummings, William Hayman)|cname="Hark! The Herald Angels Sing" (Cummings)}}
+* [http://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/hark_the_herald_angels_sing.htm "Hark! The Herald Angels Sing"], various versions at ''Hymns and Carols of Christmas''
+* {{YouTube|Jwcx39rBSng|"Hark! The Herald Angels Sing"}} (to the arrangement by [[David Willcocks]]) sung by the [[Georgia Boy Choir]]
+* {{YouTube|J3M2DMzXPqo|Animated score and orchestral MIDI rendition|link=no}}, Mendelssohn's "Vaterland, in deinen Gauen" from his ''[[Festgesang]]''
+
+{{Portal bar|Christianity}}
+{{authority control}}
+
+[[Category:18th-century Christian texts]]
+[[Category:Christmas carols]]
+[[Category:Hymns by Charles Wesley]]
+[[Category:Choral compositions by Felix Mendelssohn]]
+[[Category:Songs about Jesus]]
+[[Category:18th-century hymns]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>eckypn3pw1k80nwgxz61bx7yo2lecza</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,27 @@
+{
+  "title": "Ding Dong Merrily on High",
+  "source": "BRANLE DE L'OFFICIAL, a French dance tune from Thoinot Arbeau's Orchesographie, 1589; words George Ratcliffe Woodward, 1924",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 116,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4 C5:4 [G]D5:2 C5:2 B4:2 A4:2" },
+    { "chord": "C",  "notes": "G4:12 G4:4" },
+    { "chord": "F",  "notes": "A4:4 C5:4 [G7]C5:4 B4:4" },
+    { "chord": "C",  "notes": "C5:8 C5:8" },
+
+    { "chord": "C",  "notes": "C5:4 C5:4 [G]D5:2 C5:2 B4:2 A4:2" },
+    { "chord": "C",  "notes": "G4:12 G4:4" },
+    { "chord": "F",  "notes": "A4:4 C5:4 [G7]C5:4 B4:4" },
+    { "chord": "C",  "notes": "C5:8 C5:8" },
+
+    { "chord": "C",  "notes": "G5:6 F5:2 [Am]E5:2 F5:2 G5:2 E5:2" },
+    { "chord": "Dm", "notes": "F5:6 E5:2 [G7]D5:2 E5:2 F5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:6 D5:2 [Am]C5:2 D5:2 E5:2 C5:2" },
+    { "chord": "Dm", "notes": "D5:6 C5:2 [G7]B4:2 C5:2 D5:2 B4:2" },
+    { "chord": "Am", "notes": "C5:6 B4:2 [F]A4:2 B4:2 C5:2 A4:2" },
+    { "chord": "G",  "notes": "B4:6 A4:2 G4:4 G4:4" },
+    { "chord": "F",  "notes": "A4:4 C5:4 [G7]C5:4 B4:4" },
+    { "chord": "C",  "notes": "C5:8 C5:8" }
+  ]
+}

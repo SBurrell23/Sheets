@@ -40,6 +40,14 @@
   "fetched": "2026-09-18"
  },
  {
+  "name": "openhymnal-joy_to_the_world-antioch.abc",
+  "url": "http://openhymnal.org/Abc/Joy_To_The_World-Antioch.abc",
+  "kind": "abc",
+  "bytes": 6062,
+  "sha256": "7ff9d5aacf3923924af34cf5494caa66c1d207e1c8e0e95dcfa621e3b37f16b7",
+  "fetched": "2026-09-18"
+ },
+ {
   "name": "wikipedia-joy-to-the-world.xml",
   "url": "https://en.wikipedia.org/wiki/Special:Export/Joy_to_the_World",
   "kind": "lilypond",

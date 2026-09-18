@@ -1,0 +1,42 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-isaw3shp-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FISAW3SHP%2F0000",
+  "kind": "abc",
+  "bytes": 204,
+  "sha256": "ca1283faf97f8cfcbd1d289eb69c2c2ddec9e8c18e39d365450a544f9f5c823c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-alijc-github-io-music-holiday-music-0022.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=alijc.github.io%2Fmusic%2Fholiday-music%2F0022",
+  "kind": "abc",
+  "bytes": 1248,
+  "sha256": "fcd18436ab6190a405c1fce207e8d1383e922ff6da7b2b5bbe07dddb11288649",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-6494-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F6494.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 217,
+  "sha256": "71d334f4983eea83eb3f829166f1b3654e18d36d10c5ed650583265af2a74d22",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-6494.json",
+  "url": "https://thesession.org/tunes/6494?format=json",
+  "kind": "abc",
+  "bytes": 7805,
+  "sha256": "e269947cb532aa444e844573d1e1b48e5a8bbe7ad37539089aa18a6d547d0810",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-i-saw-three-ships.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/I_Saw_Three_Ships",
+  "kind": "lilypond",
+  "bytes": 18721,
+  "sha256": "1925ab75792abe0ef3b591cb63a1696d36ee4c9fe576bd104973ace9c4bd8f50",
+  "fetched": "2026-09-18"
+ }
+]

@@ -1,0 +1,227 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Once in Royal David's City</title>
+    <ns>0</ns>
+    <id>2616377</id>
+    <revision>
+      <id>1366764659</id>
+      <parentid>1336388463</parentid>
+      <timestamp>2026-07-30T02:00:53Z</timestamp>
+      <contributor>
+        <username>MathMan4</username>
+        <id>50263571</id>
+      </contributor>
+      <comment>/* Text and melody */ Removed unnecessary numbers from melody</comment>
+      <origin>1366764659</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9792" sha1="kylboqehmvppiuhkllgghn4h871yh1k" xml:space="preserve">{{short description|1848 Christmas carol}}
+{{Infobox musical composition
+| name                = Once in Royal David's City
+| type                = 
+| image               = Derry St Columb's Cathedral North Vestibule Cecil Frances Alexander Memorial Window Detail Nativity 2013 09 17.jpg
+| alt                 = 
+| caption             = Left light of the memorial window dedicated to Cecil F. Alexander in [[St Columb's Cathedral]]
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Hymn]]
+| occasion            = Christmas
+| text                = [[Cecil Frances Alexander]]
+| language            = English
+| written             = 1848
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Luke|chapter=2|verse=4–7}}
+| meter               = 8.7.8.7.7.7
+| melody              = "Irby" by [[Henry Gauntlett]]
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                =
+}}
+
+[[File:Henry John Gauntlett.jpg|thumb|Henry John Gauntlett]]
+
+'''Once in Royal David's City''' is a [[Christmas carol]] originally written as a [[poem]] by [[Cecil Frances Alexander]]. The carol was first published in 1848 in her [[hymn]]book ''Hymns for Little Children''. A year later, the English organist [[Henry Gauntlett]] discovered the poem and set it to music.&lt;ref name=carol/&gt;
+
+==History==
+''Hymns for Little Children'' was a collection of poems aimed to elucidate parts of the [[Apostles' Creed]] for use in [[Sunday school]]s or in the home; "Once in Royal David's City" told the story of the [[nativity of Jesus]] to illuminate "born of the Virgin Mary". Other well-known hymns in the collection included "[[All Things Bright and Beautiful]]" (on the subject of "[[Genesis creation narrative|maker of Heaven and Earth]]") and "[[There is a green hill far away]]" (on "[[Crucifixion of Jesus|Was crucified dead and buried]]").&lt;ref&gt;{{cite book|last=Julian|first=John|author-link=John Julian (priest)|title=Dictionary of Hymnology|publisher=John Murray|date=1892|location=London|page=869}}&lt;/ref&gt;
+
+Alexander was married to the [[Anglicanism|Anglican]] [[clergy]]man [[William Alexander (bishop)|William Alexander]], who became [[Bishop of Derry and Raphoe]], and after her death became [[Archbishop of Armagh (Church of Ireland)|Archbishop of Armagh]]. Her most famous poems are commemorated in a memorial window at [[St Columb's Cathedral]], [[Derry]].&lt;ref name=carol&gt;[http://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/once_in_royal_davids_city.htm Hymns and Carols of Christmas]&lt;/ref&gt;
+
+==Tune and modern usage==
+Henry John Gauntlett was organist at a number of London churches, including [[St Olave's Church, Southwark|St Olave's]] in Tooley Street, Southwark from 1827 to 1846, [[Christ Church Greyfriars]] and [[Union Chapel, Islington]] from 1852 to 1861. He edited many hymnbooks and wrote more than a thousand hymn tunes, although his setting of "Once in Royal David's City" to the tune of "Irby" is his most famous.&lt;ref&gt;{{cite ODNB|last1=Crolley|first1=Terence|last2=Blezzard|first2=Judith|date=2004|title=Gauntlett, Henry John (1805–1876), organist, organ designer, and composer|doi=10.1093/ref:odnb/10462}}&lt;/ref&gt;
+
+Since 1919, the [[Nine Lessons and Carols|Festival of Nine Lessons and Carols]] at the [[King's College Chapel, Cambridge]] has begun its [[Christmas Eve]] service, with Dr [[Arthur Henry Mann]]'s arrangement of "Once in Royal David's City" as the [[processional hymn]].&lt;ref name="carol" /&gt; Mann was organist at King's between 1876 and 1929.&lt;ref&gt;{{cite book|title=Dictionary of Organs and Organists|edition=2nd|date=1921|publisher=G. A. Mate|location=London}}&lt;/ref&gt;
+
+In Mann's arrangement, the first verse is sung by a boy chorister of the [[Choir of King's College, Cambridge|college's choir]] as a [[Solo (music)|solo]]. The second verse is sung by the choir, and the [[Wiktionary:congregation|congregation]] joins in the third verse. Excluding the first verse, the hymn is accompanied by the [[organ (music)|organ]].
+
+In ''The English Carol'', [[Erik Routley]] notes that Mann's unaccompanied arrangement of Gauntlett's original hymn changes the character of the work into one which emphasises the acoustic space of the chapel: "with subtle art that arrangement turns the homely children's hymn into a processional of immense spaciousness."&lt;ref&gt;{{cite book|last=Routley|first=Erik|author-link=Erik Routley|title=The English Carol|location=New York|publisher=Oxford University Press|date=1959|page=231}}&lt;/ref&gt;
+
+According to the tradition of the King's College Choir, the soloist of this hymn is usually chosen right before the performance, when the choirmaster decides whose voice is the strongest on the day, prior to the start of the broadcast.&lt;ref&gt;{{Cite web|url=https://www.classicfm.com/discover-music/occasions/christmas/festival-of-nine-lessons-and-carols-broadcast/|title=What is the Festival of Nine Lessons and Carols – and what is the order of service?|website=[[Classic FM (UK)]]|access-date=2018-12-27}}&lt;/ref&gt; The final verse is often accompanied by a soprano [[descant]], most commonly the version written by [[David Willcocks]] and first published in [[Carols for Choirs|Carols for Choirs 2]].
+
+This carol was the first recording that the [[Choir of King's College, Cambridge|King's College Choir]] under [[Boris Ord]] made for [[EMI]] in 1948.&lt;ref&gt;[http://www.kings.cam.ac.uk/chapel/ninelessons/index.html King's College Chapel, Festival of Nine Lessons and Carols] {{webarchive|url=https://web.archive.org/web/20071016061944/http://www.kings.cam.ac.uk/chapel/ninelessons/index.html |date=2007-10-16 }}&lt;/ref&gt;
+
+==Text and melody==
+&lt;poem style="float:left;"&gt;
+Once in royal David's city
+Stood a lowly cattle shed,
+Where a mother laid her baby
+In a manger for his bed:
+Mary was that Mother mild,
+Jesus Christ her little Child.
+
+He came down to earth from heaven
+Who is God and Lord of all,
+And his shelter was a stable,
+And his cradle was a stall:
+With the poor and mean and lowly,
+Lived on earth our Saviour holy.
+
+And through all His wondrous childhood
+He would honour and obey,
+Love and watch the lowly maiden,
+In whose gentle arms He lay:
+Christian children all must be
+Mild, obedient, good as He.
+
+For he is our childhood's pattern;
+Day by day like us he grew,
+He was little, weak, and helpless,
+Tears and smiles like us he knew:
+And he feeleth for our sadness,
+And he shareth in our gladness.
+
+And our eyes at last shall see him
+Through his own redeeming love,
+For that Child so dear and gentle,
+Is our Lord in heaven above:
+And he leads his children on
+To the place where he is gone.
+
+Not in that poor lowly stable,
+With the oxen standing by,
+We shall see him: but in heaven,
+Set at God's right hand on high,
+Where like stars his children crowned,
+All in white shall wait around.
+&lt;/poem&gt;&lt;div style="margin-left:1em; float:left;"&gt;&lt;score raw sound&gt;
+\header { arranger = "arr. A. H. Mann" tagline = ##f }
+\layout { indent = 0 \context { \Score \remove "Bar_number_engraver" } }
+global = { \key f \major \time 4/4 \partial 2 }
+
+rightOne = \new Voice = "melody" \relative c' {
+  \global \autoBeamOff \voiceOne \set Staff.midiInstrument = "church organ"
+  \repeat volta 2 { c4 e | f4. f8 f [(e)] f [(g)] | g4 f f a | c4. a8 a [(g)] f [(e)] | f2 }
+  d'4 d | c4. f,8 bes4 bes | a2 d4 d | c4. a8 a [(g)] f [(e)] | f2\bar "|."
+}
+
+verse = \new Lyrics \lyricsto "melody" {
+  &lt;&lt; { Once in roy -- al Da -- vid's ci -- ty
+       stood a low -- ly cat -- tle shed, }
+       \new Lyrics { Where a moth -- er laid her ba -- by
+         in a man -- ger for his bed: }
+  &gt;&gt;
+  Ma -- ry was that moth -- er mild,
+  Je -- sus Christ her lit -- tle child.
+}
+
+rightTwo = \relative c' {
+  \global
+  \repeat volta 2 { c4 e | c c b b | c8 [(bes!)] a4 c f | c c d c | c2 }
+  d8 [(e)] f [(g)] | c,4 c d e | f2 d8 [(e)] f [(g)] | c, ([e] f) [f] d4 c | c2 \bar "|."
+  
+}
+
+leftOne = \relative c' {
+  \global \set Staff.midiInstrument = "church organ"
+  \repeat volta 2 { a4 bes |c a g f | e f a c | g a8 ([c]) c ([bes]) a ([g]) | a2 }
+  f4 bes | a a bes c | c2 bes4 bes | a8 ([bes] c) c c ([bes]) a ([g]) | &lt;a f&gt;2 \bar "|."
+}
+
+leftTwo = \relative c' {
+  \global
+  \repeat volta 2 { a4 g | a f d g, | c f, f' f | e f bes, c | f2 }
+  bes,8 ([c]) d ([e]) | f4 a g c, | f2 bes,8 ([c]) d ([e]) | f ([g] a) [f] bes,4 c | f,2 \bar "|."
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff = "right"
+      &lt;&lt; \rightOne \\ \rightTwo &gt;&gt;
+      \addlyrics \verse
+    \new Staff = "left"
+      { \clef bass &lt;&lt; \leftOne \\ \leftTwo &gt;&gt; }
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \rightOne \\ \rightTwo \\ \leftOne \\ \leftTwo &gt;&gt; }
+  \midi { \tempo 4=100 }
+}
+&lt;/score&gt;&lt;/div&gt;{{clear|left}}
+
+==See also==
+* [[List of Christmas carols]]
+
+==References==
+{{Reflist}}
+
+== External links ==
+{{Commons category}}
+* {{IMSLP|work=Once in Royal David's City (Gauntlett, Henry John)|cname="Once in Royal David's City" (Gauntlett)}}
+* [https://hymnary.org/text/once_in_royal_davids_city_stood_a_lowly "Once in Royal David's City"] (four stanzas), hymnary.org
+* {{YouTube|Cs9KnxRfhO4|"Once in Royal David's City" (audio)]}}, [[descant]] by [[Stephen Cleobury]], sung by the [[Choir of King's College, Cambridge]]
+*{{YouTube|cpUiSucN73c|"Once in Royal David's City"}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Once In Royal David's City}}
+[[Category:English Christian hymns]]
+[[Category:Christmas carols]]
+[[Category:1848 songs]]
+[[Category:19th-century hymns]]
+[[Category:Irish Christmas songs]]
+[[Category:Hymns in The New English Hymnal]]
+[[Category:Songs about Bethlehem]]</text>
+      <sha1>kylboqehmvppiuhkllgghn4h871yh1k</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,12 @@
+X:1
+T:Good King Wenceslas
+C:Tune TEMPUS ADEST FLORIDUM, a spring carol from the Swedish Piae Cantiones, 1582; words John Mason Neale, 1853
+M:4/4
+L:1/16
+Q:1/4=126
+K:C clef=treble
+"C"c4 c4 "Am"c4 "G"d4 | "C"c4 "F"c4 "G"G8 | "F"A4 "C"G4 "F"A4 "G7"B4 | "C"c8 c8 |
+"C"c4 c4 "Am"c4 "G"d4 | "C"c4 "F"c4 "G"G8 | "F"A4 "C"G4 "F"A4 "G7"B4 | "C"c8 c8 |
+"C"g4 "F"f4 "G"e4 d4 | "C"e4 "G"d4 "Am"c8 | "F"A4 "C"G4 "F"A4 "G7"B4 | "C"c8 c8 |
+"C"G4 G4 "F"A4 "G7"B4 | "Am"c4 c4 "G"d8 | "C"g4 "F"f4 "G"e4 d4 | "Am"c8 "F"f8 |
+"C"Hc16 |]

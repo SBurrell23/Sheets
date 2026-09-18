@@ -1,0 +1,58 @@
+{
+    "format": "json",
+    "id": 20073,
+    "name": "The Christmas Tree",
+    "url": "https://thesession.org/tunes/20073",
+    "member": {
+        "id": 60897,
+        "name": "Fernando Durb\u00e1n Galnares",
+        "url": "https://thesession.org/members/60897"
+    },
+    "date": "2020-12-01 15:59:44",
+    "type": "reel",
+    "composer": "Paddy O'Brien",
+    "tunebooks": 13,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 39720,
+            "url": "https://thesession.org/tunes/20073#setting39720",
+            "key": "Gmixolydian",
+            "abc": "|:BG (3GAG AdcA|(3ded cA GFDE|(3FGF cF dcAc|(3fgf ga fdcA|! BG (3GAG AdcA|dcAc (3fgf dc|dg (3gag fdcA|1 ^FGAF G3 d:|2 ^FGAF (3GAG Bd||! |:(3gag dg BG (3GAG|DGBd fdcA|cf (3fgf gfde|(3fgf ag fdcA|! (3gag dc ABce|dcAc (3fgf dc|dg (3gag fdcA|1 ^FGAF GdBd:|2 ^FGAF G3 d||",
+            "member": {
+                "id": 60897,
+                "name": "Fernando Durb\u00e1n Galnares",
+                "url": "https://thesession.org/members/60897"
+            },
+            "date": "2020-12-01 15:59:44"
+        }
+    ],
+    "comments": [
+        {
+            "id": 910387,
+            "url": "https://thesession.org/tunes/20073#comment910387",
+            "subject": "The Christmas Tree",
+            "content": "Composition of Paddy O'Brien (1922 - 1991).    This setting of the tune is very much inspired by the playing of the box player Pat Barton. The ornaments that have been included are triplets and some of his variations to the main melody.    You can listen Pat playing it in one video in his YouTube channel:    https:\/\/www.youtube.com\/channel\/UC3Pqx0otFZnc8UWPk9YfbiQ",
+            "member": {
+                "id": 60897,
+                "name": "Fernando Durb\u00e1n Galnares",
+                "url": "https://thesession.org/members/60897"
+            },
+            "date": "2020-12-01 15:59:44"
+        },
+        {
+            "id": 910391,
+            "url": "https://thesession.org/tunes/20073#comment910391",
+            "subject": "Re: The Christmas Tree",
+            "content": "Playlist of Paddy O'Brien tunes in the YouTube channel of Pat Barton where this reel can be found:    https:\/\/www.youtube.com\/playlist?list=PLDpDX8JKP5ZrgMpxX4wRgtyXW1pmWIK_o",
+            "member": {
+                "id": 60897,
+                "name": "Fernando Durb\u00e1n Galnares",
+                "url": "https://thesession.org/members/60897"
+            },
+            "date": "2020-12-01 16:39:07"
+        }
+    ]
+}

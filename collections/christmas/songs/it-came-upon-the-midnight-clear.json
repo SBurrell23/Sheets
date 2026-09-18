@@ -1,0 +1,31 @@
+{
+  "title": "It Came Upon the Midnight Clear",
+  "source": "CAROL, Richard Storrs Willis, 1850; words Edmund H. Sears, 1849; harmony after the Reformed Church Order of Worship, 1866",
+  "key": "C",
+  "meter": "6/8",
+  "pickup": 2,
+  "tempo": 52,
+  "bars": [
+    { "chord": "C",  "notes": "G4:2" },
+
+    { "chord": "C",  "notes": "E5:4 B4:2 D5:2 C5:2 A4:2" },
+    { "chord": "C",  "notes": "G4:4 A4:2 G4:4 G4:2" },
+    { "chord": "F",  "notes": "A4:2 B4:2 C5:2 [D7]C5:2 D5:2 E5:2" },
+    { "chord": "G",  "notes": "D5:6~ D5:4 G4:2" },
+
+    { "chord": "C",  "notes": "E5:4 B4:2 D5:2 C5:2 A4:2" },
+    { "chord": "C",  "notes": "G4:4 A4:2 G4:4 G4:2" },
+    { "chord": "F",  "notes": "A4:4 [Dm]A4:2 [G7]B4:2 A4:2 G4:2" },
+    { "chord": "C",  "notes": "C5:6~ C5:4 E5:2" },
+
+    { "chord": "E",  "notes": "E5:4 E4:2 E4:2 F#4:2 [E7]G#4:2" },
+    { "chord": "Am", "notes": "A4:4 B4:2 C5:4 E5:2" },
+    { "chord": "D7", "notes": "D5:2 C5:2 B4:2 A4:2 B4:2 A4:2" },
+    { "chord": "G",  "notes": "G4:6~ G4:4 [G7]G4:2" },
+
+    { "chord": "C",  "notes": "E5:4 B4:2 D5:2 C5:2 A4:2" },
+    { "chord": "C",  "notes": "G4:4 A4:2 G4:4 G4:2" },
+    { "chord": "F",  "notes": "A4:4 [Dm]A4:2 [G7]B4:2 A4:2 G4:2" },
+    { "chord": "C",  "notes": "C5:6~ C5:4" }
+  ]
+}

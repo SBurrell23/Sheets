@@ -1,0 +1,23 @@
+{
+  "title": "Once in Royal David's City",
+  "source": "Tune IRBY, Henry John Gauntlett, 1849; words by Cecil Frances Alexander, 1848",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 8,
+  "tempo": 100,
+  "bars": [
+    { "chord": "C",   "notes": "G4:4 [G7]B4:4" },
+    { "chord": "C",   "notes": "C5:6 C5:2 [D7]C5:2 B4:2 C5:2 D5:2" },
+    { "chord": "G7",  "notes": "D5:4 [C]C5:4 C5:4 E5:4" },
+    { "chord": "G/B", "notes": "G5:6 [C]E5:2 [F]E5:2 D5:2 [G7]C5:2 B4:2" },
+    { "chord": "C",   "notes": "C5:8 G4:4 [G7]B4:4" },
+    { "chord": "C",   "notes": "C5:6 C5:2 [D7]C5:2 B4:2 C5:2 D5:2" },
+    { "chord": "G7",  "notes": "D5:4 [C]C5:4 C5:4 E5:4" },
+    { "chord": "G/B", "notes": "G5:6 [C]E5:2 [F]E5:2 D5:2 [G7]C5:2 B4:2" },
+    { "chord": "C",   "notes": "C5:8 [F]A5:4 A5:4" },
+    { "chord": "C",   "notes": "G5:6 C5:2 [Dm]F5:4 [G7]F5:4" },
+    { "chord": "C",   "notes": "E5:8 [F]A5:4 A5:4" },
+    { "chord": "C",   "notes": "G5:6 E5:2 [F]E5:2 D5:2 [G7]C5:2 B4:2" },
+    { "chord": "C",   "notes": "C5:16" }
+  ]
+}

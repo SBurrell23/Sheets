@@ -1,0 +1,253 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>I Saw Three Ships</title>
+    <ns>0</ns>
+    <id>2205791</id>
+    <revision>
+      <id>1358441275</id>
+      <parentid>1358033084</parentid>
+      <timestamp>2026-06-08T18:09:27Z</timestamp>
+      <contributor>
+        <username>CambridgeBayWeather</username>
+        <id>294180</id>
+      </contributor>
+      <minor/>
+      <comment>Reverted edit by [[Special:Contribs/~2026-31557-32|~2026-31557-32]] ([[User talk:~2026-31557-32|talk]]) to last version by Aleczander2025</comment>
+      <origin>1354985478</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15000" sha1="rr1nmeng5d6zaww0bd34w9b5i7de1f2" xml:space="preserve">{{Short description|Traditional Christmas carol}}
+{{use dmy dates|date=November 2025}}
+{{Infobox musical composition
+| composer            = 
+| name                = I Saw Three Ships
+| image               = 
+| alt                 = 
+| caption             = 
+| translation         = 
+| native_name         = 
+| native_name_lang    = 
+| key                 = 
+| catalogue           = 
+| genre               = [[Christmas carol]]
+| form                = 
+| text                = 
+| language            = English
+| melody              = 
+| composed            =
+| performed           = 
+| published           = {{start date|1833}}
+| movements           = 
+| scoring             = 
+| misc                = 
+}}
+{{listen|type=music|filename=I Saw Three Ships (Come Sailing In).ogg|title=I Saw Three Ships|description=Performed by Matt Norris &amp; the Moon}}
+
+"'''I Saw Three Ships (Come Sailing In)'''" is an English [[Christmas carol]], listed as [[List of folk songs by Roud number|number 700]] in the [[Roud Folk Song Index]]. The earliest printed version of "I Saw Three Ships" is from the 17th century, possibly [[Derbyshire]], and was also published by [[William Sandys (antiquarian)|William Sandys]] in 1833.&lt;ref&gt;Cecil James Sharp (2008) [https://books.google.com/books?id=3wk3HTOrvmYC&amp;dq=three+ships+-+variant+of+Greensleeves&amp;pg=PA9 The Morris Book: With a Description of Dances as Performed by the Morris Men]&lt;/ref&gt;&lt;ref name=HYM/&gt; The song was probably traditionally known as "As I Sat On a Sunny Bank",&lt;ref&gt;{{Cite web|title=Ballads Online|url=http://ballads.bodleian.ox.ac.uk/search/advanced/?q_RoudNumbers=700&amp;q_TitleElements=&amp;q_TextBodyElements=&amp;q_Subjects=&amp;q_Themes=&amp;q_ImprintElements=&amp;q_TuneNameElements=&amp;q_Printers=&amp;q_Authors=&amp;q_Notes=&amp;q_References=&amp;searchany=on|access-date=2020-12-15|website=ballads.bodleian.ox.ac.uk}}&lt;/ref&gt; and was particularly popular in [[Cornwall]].
+
+== Lyrics and melody==
+{{image frame|content=&lt;score sound raw&gt;
+\header { tagline = ##f }
+\paper { paper-width = 140\mm }
+\layout { indent = 0 \context { \Score \remove "Bar_number_engraver" } }
+
+global = { \key as \major \time 6/8 \partial 8 \autoBeamOff }
+
+soprano = \relative c' { \global \set midiInstrument = "flute"
+  \repeat volta 2 { es8 | as4 as8 bes4 c8 | es4 c8 bes4 des8 | c4 as8 }
+    \alternative { { as4 c8 | bes4 g8 es4 } { as8 bes c bes4. as4 } } \bar "|."
+}
+
+alto = \relative c' { \global \set midiInstrument = "flute"
+  \repeat volta 2 { es8 | c4 c8 des4 es8 | es4 es8 es4 f8 | es4 es8 }
+    \alternative { { es4 es8 es4 es8 es4 } { es8 es es | g4. as4 } }
+}
+
+tenor = \relative c { \global \set midiInstrument = "clarinet"
+  \repeat volta 2 { es8 | as4 as8 as4 as8 | as4 as8 g4 as8 | as4 c8 }
+    \alternative { { c8 (bes) as | g4 bes8 g4 } { c8 bes as | es'4. c4 } }
+  
+}
+
+bass = \relative c { \global \set midiInstrument = "bassoon"
+  \repeat volta 2 { es8 | as4 as,8 as4 as8 | c4 c8 es4 des8 | as'4 as8 }
+    \alternative { { as4 as8 | es4 es8 es4 } { as8 g as | es4. as4 } }
+}
+
+verse = \new Lyrics \lyricmode
+  { \repeat volta 2 \lyricmode { I saw three ships come sail -- ing in on Christ -- mas }
+    \alternative { { day, on Christ -- mas day; } { day in the morn -- ing. } }
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff
+    &lt;&lt;
+      \new Voice = "soprano" { \voiceOne \soprano }
+      \new Voice = "alto" { \voiceTwo \alto }
+    &gt;&gt;
+    \new Lyrics
+      \lyricsto "soprano" \verse
+    \new Staff
+    &lt;&lt;
+      \clef bass
+      \new Voice = "tenor" { \voiceOne \tenor }
+      \new Voice = "bass" { \voiceTwo \bass }
+    &gt;&gt;
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \soprano \\ \alto \\ \tenor \\ \bass &gt;&gt; }
+  \midi { \tempo 4=112
+    \context { \Score midiChannelMapping = #'instrument }
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;Source&lt;ref name=Shaw /&gt;}}
+The modern lyrics are from an 1833 version by the English lawyer and antiquarian [[William Sandys (antiquarian)|William Sandys]], and consist of nine verses.
+{{Poem quote
+|text=I saw three ships come sailing in
+⁠On Christmas day, on Christmas day;
+I saw three ships come sailing in
+⁠On Christmas day in the morning.
+
+And what was in those ships all three,
+⁠On Christmas day, on Christmas day?
+And what was in those ships all three,
+⁠On Christmas day in the morning?
+
+[[Jesus|Our Saviour Christ]] and [[Mary, mother of Jesus|His Lady]],
+⁠On Christmas day, on Christmas day;
+Our Saviour Christ and His Lady,
+⁠On Christmas day in the morning.
+
+Pray whither sailed those ships all three,
+⁠On Christmas day, on Christmas day?
+Pray whither sailed those ships all three,
+⁠On Christmas day in the morning?
+
+O they sailed into Bethlehem,
+⁠On Christmas day, on Christmas day;
+O they sailed into Bethlehem,
+⁠On Christmas day in the morning.
+
+And all the bells on earth shall ring,
+⁠On Christmas day, on Christmas day;
+And all the bells on earth shall ring,
+⁠On Christmas day in the morning.
+
+And all the Angels in Heaven shall sing,
+⁠On Christmas day, on Christmas day;
+And all the Angels in Heaven shall sing,
+⁠On Christmas day in the morning.
+
+And all the Souls on Earth shall sing,
+⁠On Christmas day, on Christmas day;
+And all the Souls on Earth shall sing,
+⁠On Christmas day in the morning.
+
+Then let us all rejoice amain,&lt;!-- DO NOT CHANGE THIS to "again" as "amain" is correct. --&gt;
+⁠On Christmas day, on Christmas day;
+Then let us all rejoice amain,
+⁠On Christmas day in the morning.}}
+
+The lyrics mention the ships sailing into [[Bethlehem]], but the nearest body of water is the [[Dead Sea]] about {{convert|20|mile}} away. The reference to three ships is thought to originate in the three ships that bore the purported relics of the [[Biblical Magi]] to [[Cologne Cathedral]] in the 12th century.&lt;ref name="HYM"&gt;[https://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/i_saw_three_ships.htm "I Saw Three Ships"], texts, melodies, notes, references; hymnsandcarolsofchristmas.com&lt;/ref&gt; Another possible reference is to King [[Wenceslaus II of Bohemia]], who bore a coat of arms "Azure three galleys argent".&lt;ref&gt;Camden Roll, dated c.1280, entry 11 and Heralds' Roll, dated c.1280, entry 18.&lt;/ref&gt; Another suggestion is that the ships are actually the camels used by the Magi, as camels are frequently referred to as "ships of the desert".{{citation needed|date=November 2025}}
+
+== Traditional recordings and collected versions ==
+Countless traditional versions of the song have been collected. Many different melodies were used, as is typical of traditional folk songs including Christmas carols. In the 1910s, the English folklorists [[Cecil Sharp]]&lt;ref&gt;{{Cite web|title=Search: RN700 Cecil Sharp|url=https://www.vwml.org/search?q=rn700%20cecil%20sharp&amp;is=1|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt; and [[Janet Blunt]]&lt;ref&gt;{{Cite web|title=Search: RN700 Janet Blunt|url=https://www.vwml.org/search?q=rn700%20janet%20blunt&amp;is=1|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt; noted the tunes and lyrics of dozens of versions, primarily in the south of England.
+
+Several traditional recordings have been made of the song. The American folk song collector [[James Madison Carpenter]] recorded several slightly different English versions in the early 1930s, all of which can be heard online via the [[Vaughan Williams Memorial Library]], several recorded in [[Cornwall]]&lt;ref&gt;{{Cite web|title=I Saw Three Ships Come Sailing (VWML Song Index SN16774)|url=https://www.vwml.org/record/VWMLSongIndex/SN16774|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title=I Sat on a Sunny Bank (VWML Song Index SN16758)|url=https://www.vwml.org/record/VWMLSongIndex/SN16758|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title=As I Sat on a Sunny Bank (VWML Song Index SN16728)|url=https://www.vwml.org/record/VWMLSongIndex/SN16728|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title=I Saw Three Ships Come Sailing (VWML Song Index SN16765)|url=https://www.vwml.org/record/VWMLSongIndex/SN16765|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt; and one in [[Gloucestershire]].&lt;ref&gt;{{Cite web|title=I Saw Three Ships Come Sailing By (VWML Song Index SN16800)|url=https://www.vwml.org/record/VWMLSongIndex/SN16800|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt; In 1956, [[Peter Kennedy (folklorist)|Peter Kennedy]] recorded a man named John Thomas singing the song in [[Camborne]], Cornwall.&lt;ref&gt;{{Cite web|title=I Saw Three Ships Come Sailing in (Roud Folksong Index S178912)|url=https://www.vwml.org/record/RoudFS/S178912|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt;
+
+[[Jean Ritchie]], a musician from the [[Appalachian Mountains]], was recorded by [[Alan Lomax]] in 1949 singing a traditional version learned from her [[Kentucky]] family (whose ancestors seemingly brought the song from England), which can be heard courtesy of the Alan Lomax archive.&lt;ref&gt;{{Cite web|title=Alan Lomax Archive|url=http://research.culturalequity.org/rc-b2/get-audio-detailed-recording.do?recordingId=12734|access-date=2020-12-15|website=research.culturalequity.org|archive-date=2021-03-21|archive-url=https://web.archive.org/web/20210321080258/http://research.culturalequity.org/rc-b2/get-audio-detailed-recording.do?recordingId=12734|url-status=dead}}&lt;/ref&gt; Ritchie later recorded the song on her album ''Carols of All Seasons'' (1959).&lt;ref&gt;{{Cite web|title=I Saw Three Ships (Roud Folksong Index S304348)|url=https://www.vwml.org/record/RoudFS/S304348|access-date=2020-12-15|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt; While Jean Ritchie's family version is the only traditional American version to be recorded, the song was known to be present in the [[United States]] in previous decades, particularly in the south.&lt;ref&gt;{{Cite web|title=Search: RN700 USA|url=https://www.vwml.org/search?q=rn700%20usa&amp;is=1|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt;
+
+When they were collecting folk songs in the British Isles in 1952, Jean Ritchie and her husband [[George Pickow]] encountered the Irish traditional singer [[Elizabeth Cronin]] in [[Macroom]], [[County Cork]], who sang a version called "The Bells of Heaven".&lt;ref&gt;{{Cite web|title=The Bells of Heaven (Roud Folksong Index S228692)|url=https://www.vwml.org/record/RoudFS/S228692|access-date=2021-02-18|publisher=[[Vaughan Williams Memorial Library]]}}&lt;/ref&gt;
+
+==Arrangements==
+An arrangement by [[Martin Shaw (composer)|Martin Shaw]] appears in ''[[The Oxford Book of Carols]]''.&lt;ref name=Shaw&gt;''[[The Oxford Book of Carols]]'' (1928) [https://archive.org/details/oxfordbookofcaro0000perc_u3o4/page/38/mode/1up p. 38].&lt;/ref&gt; {{citation needed-span|date=November 2025|text=The ''[[Carols for Choirs]]'' series of carol books features arrangements of the carol by both Sir [[David Willcocks]] and [[John Rutter]]. Organist [[Simon Preston]] and former conductor of the [[Choir of King's College, Cambridge]], Sir [[Philip Ledger]], have also written arrangements that the choir have performed at the Festival of [[Nine Lessons and Carols]] in recent years. There is also a more recent choral arrangement by British composer Richard Fox. This carol is also featured in the musical ''[[Caroline, or Change]]'', but as a counterpoint. It has been adapted by [[Jon Schmidt]] on his ''Jon Schmidt Christmas'' album. [[John Renbourn]] has arranged it (in a rather free adaptation) for guitar.}} The song appears on [[Nat King Cole]]'s 1960 album ''[[The Magic of Christmas (Nat King Cole album)|The Magic of Christmas]]''.
+
+==Other versions==
+[[File:The Baby's Opera (babysoperabookof00cran) page 19.jpg|thumb|Illustration from [[Walter Crane]]'s ''The Baby's Opera'' (1877)]]
+* "I saw three ships come sailing by on New Year's Day" is a 19th-century version, which mentions three pretty girls in the ship entertaining at a wedding held on New Year's Day.&lt;ref&gt;{{cite book|url=http://www.gutenberg.org/cache/epub/25418/pg25418.txt|title=The Baby's Opera: A Book of Old Rhymes with New Dresses|last=Crane|first=Walter|author-link=Walter Crane|pages=18–19|year=1877|publisher=[[Frederick Warne &amp; Co.]]|access-date=7 October 2010}}&lt;/ref&gt;
+
+==Other recordings==
+
+* English musician [[Sting (musician)|Sting]] recorded a version for the compilation album ''[[A Very Special Christmas 3]]'' in 1997.
+* Progressive rock singer [[Jon Anderson]] released a version as the title track of his album ''[[3 Ships]]'' in 1985.&lt;ref&gt;{{AllMusic|class=album|id=mw0000836320|title=Jon Anderson: ''Three Ships''|last=Connolly|first=Dave}}&lt;/ref&gt;
+* Keyboardist [[Keith Emerson]] recorded an instrumental rock adaptation on his ''The Christmas Album'' (1988).&lt;ref&gt;{{cite web |url=https://www.amazon.com/Christmas-Album-Keith-Emerson/dp/B00002Z86O |title=The Christmas Album |access-date= 2016-12-24 |year=2000 |work=Amazon.com}}&lt;/ref&gt;
+* In 1995, [[Glen Campbell]] recorded the song on his Christmas album ''[[Christmas with Glen Campbell (1995 album)|Christmas with Glen Campbell]]''.
+* [[Cyndi Lauper]] recorded the song on her 1998 Christmas album ''[[Merry Christmas ... Have a Nice Life]]''.
+* [[Barenaked Ladies]] recorded the song on their 2004 Christmas album ''[[Barenaked for the Holidays]]''.
+* [[Sufjan Stevens]] recorded the song on his 2006 Christmas album ''[[Songs for Christmas (Sufjan Stevens album)|Songs for Christmas]]''.
+* [[Blackmore's Night]] recorded the song on their 2006 Christmas-themed album ''[[Winter Carols]]''.
+* [[Lindsey Stirling]] released her version on her holiday album ''[[Warmer in the Winter]]''.&lt;ref&gt;Katrina Rees, [http://celebmix.com/album-review-lindsey-stirling-witw/ "Album Review: Lindsey Stirling – ''Warmer in the Winter''"], ''CelebMix'', 19 October 2017&lt;/ref&gt;
+* [[Celtic Woman]] released their version on ''Christmas Cards From Ireland'' in 2022.&lt;ref&gt;{{Cite web|title=''Christmas Cards From Ireland''|date=2022-11-04 |url=https://open.spotify.com/album/5GDc58Wzs5hS4N2OXAggzR|publisher=[[Spotify]]|access-date=2022-12-06}}&lt;/ref&gt;
+
+==See also==
+* [[List of Christmas carols]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{commons category}}
+* {{wikisource-inline|I Saw Three Ships}}
+* {{ChoralWiki|I saw three ships come sailing in (Traditional)|"I Saw Three Ships"|prep=of}}
+* Free sheet music for [http://cantorion.org/music/144/I%20Saw%20Three%20Ships piano], [http://cantorion.org/music/146/I%20Saw%20Three%20Ships voice] and [http://cantorion.org/music/145/I%20Saw%20Three%20Ships SATB] from ''Cantorion.org''
+* [https://www.carols.org.uk/i_saw_three_ships.htm "Lyrics"], carols.org.uk
+
+{{Christmas}}
+
+{{authority control}}
+
+[[Category:Christmas carols]]
+[[Category:British Christmas songs]]
+[[Category:Biblical Magi in music]]
+[[Category:Christmas in England]]
+[[Category:Sailing in England]]
+[[Category:17th-century songs]]
+[[Category:17th century in England]]
+[[Category:Epiphany music]]</text>
+      <sha1>rr1nmeng5d6zaww0bd34w9b5i7de1f2</sha1>
+    </revision>
+  </page>
+</mediawiki>

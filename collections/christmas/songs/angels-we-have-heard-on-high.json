@@ -1,0 +1,33 @@
+{
+  "title": "Angels We Have Heard on High",
+  "source": "GLORIA, traditional French carol melody ('Les anges dans nos campagnes'), printed 1842; English words James Chadwick, 1862",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 104,
+  "bars": [
+    { "chord": "C",  "notes": "E5:4 E5:4 [Em]E5:4 G5:4" },
+    { "chord": "G",  "notes": "G5:6 [G7]F5:2 [C]E5:8" },
+    { "chord": "C",  "notes": "E5:4 [G]D5:4 [C]E5:4 G5:4" },
+    { "chord": "G7", "notes": "E5:6 D5:2 [C]C5:8" },
+
+    { "chord": "C",  "notes": "E5:4 E5:4 [Em]E5:4 G5:4" },
+    { "chord": "G",  "notes": "G5:6 [G7]F5:2 [C]E5:8" },
+    { "chord": "C",  "notes": "E5:4 [G]D5:4 [C]E5:4 G5:4" },
+    { "chord": "G7", "notes": "E5:6 D5:2 [C]C5:8" },
+
+    { "chord": "C",  "notes": "G5:8 [Am]A5:2 G5:2 [F]F5:2 E5:2" },
+    { "chord": "Dm", "notes": "F5:8 [G7]G5:2 F5:2 E5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:8 [F]F5:2 E5:2 [Dm]D5:2 C5:2" },
+    { "chord": "G",  "notes": "D5:6 G4:2 G4:8" },
+    { "chord": "C",  "notes": "C5:4 [G]D5:4 [C]E5:4 [F]F5:4" },
+    { "chord": "G",  "notes": "E5:8 D5:8" },
+
+    { "chord": "C",  "notes": "G5:8 [Am]A5:2 G5:2 [F]F5:2 E5:2" },
+    { "chord": "Dm", "notes": "F5:8 [G7]G5:2 F5:2 E5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:8 [F]F5:2 E5:2 [Dm]D5:2 C5:2" },
+    { "chord": "G",  "notes": "D5:6 G4:2 G4:8" },
+    { "chord": "C",  "notes": "C5:4 [G]D5:4 [C]E5:4 [F]F5:4" },
+    { "chord": "G7", "notes": "E5:8 D5:8" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

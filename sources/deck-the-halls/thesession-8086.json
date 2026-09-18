@@ -1,0 +1,249 @@
+{
+    "format": "json",
+    "id": 8086,
+    "name": "Deck The Halls",
+    "url": "https://thesession.org/tunes/8086",
+    "member": {
+        "id": 38352,
+        "name": "Joseph Chordmichael",
+        "url": "https://thesession.org/members/38352"
+    },
+    "date": "2007-12-27 20:30:48",
+    "type": "hornpipe",
+    "tunebooks": 33,
+    "recordings": 2,
+    "collections": 0,
+    "aliases": ["Dawns Flodau Nantgarw","The Nantgarw Flower Dance","New Year's Eve","Nos Calan","Nos Galan"],
+    "settings": [
+        {
+            "id": 8086,
+            "url": "https://thesession.org/tunes/8086#setting8086",
+            "key": "Gmajor",
+            "abc": "|:d3c B2A2|G2A2 B2G2|1 ABcA B3A|G2F2 G2Bc:|2 ABcA B3A|G2F2 G2D2||! A3B c2A2|B3c d2A2|Bcd2 efg2|(3fgf(3efe d2Bc|! d3c B2A2|G2A2 B2G2|e3e d3c|B2A2 G4||",
+            "member": {
+                "id": 38352,
+                "name": "Joseph Chordmichael",
+                "url": "https://thesession.org/members/38352"
+            },
+            "date": "2007-12-27 20:30:48"
+        },
+        {
+            "id": 19300,
+            "url": "https://thesession.org/tunes/8086#setting19300",
+            "key": "Gmajor",
+            "abc": "|:d>cBA|GABG|1 A\/B\/c\/A\/B>A|GFGB\/c\/:|2 A\/B\/c\/A\/B>A|GFGD||! A>BcA|B>cdA|B\/c\/de\/f\/g|fedB\/c\/|d>cBA|GABG|e>e d>c|BAG2||",
+            "member": {
+                "id": 38352,
+                "name": "Joseph Chordmichael",
+                "url": "https://thesession.org/members/38352"
+            },
+            "date": "2007-12-27 20:31:55"
+        },
+        {
+            "id": 19301,
+            "url": "https://thesession.org/tunes/8086#setting19301",
+            "key": "Gmajor",
+            "abc": "d>c BA|GG\/A\/ BG|A\/B\/c\/A\/ B>A|GF G2|! dd\/c\/ BA|G>A BG|A\/B\/c\/A\/ B>A|GF G2||! AA\/B\/ cA|BB\/c\/ dA|B\/^A\/B\/c\/ dg|fe d\/A\/B\/c\/|! d>c B>A|G\/F\/G\/A\/ BG|A\/e\/c\/A\/ d>G|GF G2||! ~|A\/e\/c\/A\/ d>c|BA G2||",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 15:17:40"
+        },
+        {
+            "id": 19302,
+            "url": "https://thesession.org/tunes/8086#setting19302",
+            "key": "Fmajor",
+            "abc": "|:c3 B A2 G2|F2 F2 A2 F2|GABG A3 G|F2 E2 F4:|! G3 A B2 G2|A3 B c2 G2|A\/B\/ c3 B\/c\/ d3|e2 d2 c4|! c3 B A2 G2|F2 F2 A2 F2|GdBG A3 G|F2 C2 F4||",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 15:49:44"
+        },
+        {
+            "id": 19303,
+            "url": "https://thesession.org/tunes/8086#setting19303",
+            "key": "Gmajor",
+            "abc": "|:c3 B A2 G2|F2 FG A2 F2|GABG A3 G|F2 E2 F4:|! G2 GA B2 G2|A2 AB c2 G2|AGAB c2 f2|e2 d2 cGAB|! c2 cB A2 AG|FEFG A2 F2|GdBG c3 G|F2 E2 F4||! d>c BA|GG\/A\/ BG|A\/B\/c\/A\/ B>A|GF G\/D\/G\/B\/|! dd\/c\/ B\/c\/B\/A\/|G\/F\/G\/A\/ BG|A\/B\/c\/A\/ B>A|GF G2||! A>B cA|B>c dA|B\/^A\/B\/c\/ dg|f>e d2|! d>c BA|G>A BG|A\/e\/c\/A\/ d>c|BA G2||! |:d>c BA|GG\/A\/ BG|A\/B\/c\/A\/ B>A|GF G2:|! AA\/B\/ cA|B\/A\/B\/c\/ dA|B\/A\/B\/c\/ dg|fe d2|! d>c BA|GG\/A\/ BG|A\/e\/c\/A\/ d>c|BA G2||",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2009-03-02 12:43:08"
+        },
+        {
+            "id": 26746,
+            "url": "https://thesession.org/tunes/8086#setting26746",
+            "key": "Dmajor",
+            "abc": "|:\"G\" d3 c B2 A2|G2 A2 B2 G2|\"C\" ABcA \"G\" B3 A|\"D\" G2 F2 \"G\" G4:|! \"D\" A3 B c2 A2|\"G\" B3 c d2 A2|Bc d2 \"A\" ef g2|\"D\" f2 e2 d4! \"G\" d3 c B2 A2|G2 A2 B2 G2|\"Am\" AecA \"G\" d3 c|\"D\" B2 A2 \"G\" G4||",
+            "member": {
+                "id": 93361,
+                "name": "sallyanndra",
+                "url": "https://thesession.org/members/93361"
+            },
+            "date": "2015-06-30 16:52:27"
+        }
+    ],
+    "comments": [
+        {
+            "id": 336031,
+            "url": "https://thesession.org/tunes/8086#comment336031",
+            "subject": "",
+            "content": "Guess I'm a little late for Christmas time, but I figured somebody already did this. I like playing it like this as a hornpipe, but it also works well as a polka:  X:1  T:Deck The Halls  L:1\/8  M:2\/4  R:Polka  K:G  |:d>cBA|GABG|1A\/B\/c\/A\/B>A|GFGB\/c\/:|2A\/B\/c\/A\/B>A|GFGD||  |A>BcA|B>cdA|B\/c\/de\/f\/g|fedB\/c\/|d>cBA|GABG|e>e d>c|BAG2||",
+            "member": {
+                "id": 38352,
+                "name": "Joseph Chordmichael",
+                "url": "https://thesession.org/members/38352"
+            },
+            "date": "2007-12-27 20:31:55"
+        },
+        {
+            "id": 336074,
+            "url": "https://thesession.org/tunes/8086#comment336074",
+            "subject": "Deck The Halls",
+            "content": "John K on his CD \"Wassail\" says this was a traditional Welsh tune, known as \"Nos Galan\" -Welsh for New Years's Eve - and hence played on New Year's Eve. So you're not too late!",
+            "member": {
+                "id": 16085,
+                "name": "ph",
+                "url": "https://thesession.org/members/16085"
+            },
+            "date": "2007-12-28 07:59:47"
+        },
+        {
+            "id": 343462,
+            "url": "https://thesession.org/tunes/8086#comment343462",
+            "subject": "\"Nos Galan\" \/ \"New Year's Eve\" \/ \"Dawns Flodau Nantgarw\" \/ \"The Nantgarw Flower Dance\"",
+            "content": "X:3  T: Nos Galan  T: New Year's Eve  T: Dawns Flodau Nantgarw  |: The Nantgarw Flower Dance  T: Deck the Halls  M: 2\/4  L: 1\/8  R: polka  K: G Major  d>c BA | GG\/A\/ BG | A\/B\/c\/A\/ B>A | GF G2 |  dd\/c\/ BA | G>A BG | A\/B\/c\/A\/ B>A | GF G2 ||  AA\/B\/ cA | BB\/c\/ dA | B\/^A\/B\/c\/ dg | fe d\/A\/B\/c\/ |  d>c B>A | G\/F\/G\/A\/ BG | A\/e\/c\/A\/ d>G | GF G2 |]    another way to carry those last two bars ~    ~ | A\/e\/c\/A\/ d>c | BA G2 |]",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 15:17:40"
+        },
+        {
+            "id": 343463,
+            "url": "https://thesession.org/tunes/8086#comment343463",
+            "subject": "\"Blodau'r Grug: 100 Popular Welsh Folk Dance Tunes\"",
+            "content": "Alex Hamilton & Robin Huw Bowen  Cymdeithas Ddawns Werin Cymru \/ The Welsh Folk Dance Society, 1992    Another transcript can be found here,   page 7, tune #1: \"Dawns Flodau Nantgarw\" \/ \"Nos Galan\"",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 15:20:41"
+        },
+        {
+            "id": 343468,
+            "url": "https://thesession.org/tunes/8086#comment343468",
+            "subject": "Dawns Calan \/ New Year's Eve Dance ~ a Welsh Twmpath Dawns",
+            "content": "Basic step: 1 2 3 hop (skip) ~ throughout (hornpipe step)    Formation: lines-of-3, usually a gent with a lady on either side, but any combination will do.  All lines-of-3 face around the hall in Line-of-Direction (LOD), ACW, around the hall.  Only the centers progress, around the hall one place forward, ACW, at the end of each turn of the dance, once through the melody...    1 - 8 ~ Advance & Retire twice  1 - 4 ~ (arches) Gent raises a R-arch with his R-hand partner, L-hand woman dances under and around back to place, followed by the man  5 - 8 ~ Gent raises a L-arch with his L-hand partner, R-hand partner dances under and around back to place, followed by the man  1 - 4 ~ Gent arms R with R-hand partner, turning CW  5 - 8 ~ Gent arms L with L-hand partner, turning ACW (=CCW)  9 - 16 ~ Hey for 3, starting with the Gent passing R-shoulders with his R-hand partner ~ finishing by progressing forward to join and take hands with the next line-of-3...    \"Dawns Flodau Nantgarw\" is a different dance, primarily for exhibition, danced 'in costume', and not from the Welsh Twmpath (barndance \/ ceilidh) tradition...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 15:37:56"
+        },
+        {
+            "id": 343472,
+            "url": "https://thesession.org/tunes/8086#comment343472",
+            "subject": "\"Nos Galan\" ~ in F Major ~ 1840",
+            "content": "This is also described at times as a Welsh 'hornpipe', and transcribed in 4\/4 or 2\/4, and also played and danced to in the key of F Major...  The following is adapted from ABCs found online, courtes of Z: brian_martin...    From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs adapted for The Harp, Piano-Forte, Harpsichord, Violin, or Flute by Edward Jones \"Harper to His Late Majesty King George IV, when Prince of Wales\".    X: 4  T: Nos Galan  T: New Year's Eve  M: 4\/4  L: 1\/8  R: Hornpipe  K: F Major  |: c3 B A2 G2 | F2 F2 A2 F2 | GABG A3 G| F2 E2 F4 :|  G3 A B2 G2 | A3 B c2 G2 | A\/B\/ c3 B\/c\/ d3 | e2 d2 c4 |  c3 B A2 G2 | F2 F2 A2 F2 | GdBG A3 G | F2 C2 F4 |]",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 15:49:44"
+        },
+        {
+            "id": 343480,
+            "url": "https://thesession.org/tunes/8086#comment343480",
+            "subject": "",
+            "content": "I've just found it in F in a couple of books within reach...pretty much as given or close...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 16:04:00"
+        },
+        {
+            "id": 343483,
+            "url": "https://thesession.org/tunes/8086#comment343483",
+            "subject": "The Dance: Dawns Calan \/ New Year's Eve Dance ~ ABAB",
+            "content": "I've just realized I wasn't clear on the music to the dance ~ once through the dance is twice through the music, or ABAB...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-01-31 16:07:32"
+        },
+        {
+            "id": 433702,
+            "url": "https://thesession.org/tunes/8086#comment433702",
+            "subject": "\"Nos Galan\" \/ \"New Year's Eve\" ~ some other ways with it, F & G",
+            "content": "X: 5  T: Nos Galan  T: New Year's Eve  M: 4\/4  L: 1\/8  R: Hornpipe  K: FMaj  |: c3 B A2 G2 | F2 FG A2 F2 | GABG A3 G | F2 E2 F4 :|  G2 GA B2 G2 | A2 AB c2 G2 | AGAB c2 f2 | e2 d2 cGAB |  c2 cB A2 AG | FEFG A2 F2 | GdBG c3 G | F2 E2 F4 |]    X: 6  T: Nos Galan  T: New Year's Eve  M: 4\/4  L: 1\/8  R: polka  K: GMaj  d>c BA | GG\/A\/ BG | A\/B\/c\/A\/ B>A | GF G\/D\/G\/B\/ |  dd\/c\/ B\/c\/B\/A\/ | G\/F\/G\/A\/ BG | A\/B\/c\/A\/ B>A | GF G2 ||  A>B cA | B>c dA | B\/^A\/B\/c\/ dg | f>e d2 |  d>c BA | G>A BG | A\/e\/c\/A\/ d>c | BA G2 |]    X: 7  T: Nos Galan  T: New Year's Eve  M: 4\/4  L: 1\/8  R: polka  K: GMaj  |: d>c BA | GG\/A\/ BG | A\/B\/c\/A\/ B>A | GF G2 :|  AA\/B\/ cA | B\/A\/B\/c\/ dA | B\/A\/B\/c\/ dg | fe d2 |  d>c BA | GG\/A\/ BG | A\/e\/c\/A\/ d>c | BA G2 |]    It is and can be notated in either 2\/4 or 4\/4, but the measure have a strong duple identity, two beats to the bar, and tends to have more the feel of a march...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2009-03-02 12:43:08"
+        },
+        {
+            "id": 435126,
+            "url": "https://thesession.org/tunes/8086#comment435126",
+            "subject": "Dawnsiau i Drioedd \/ Dances for Threes (Triads) ~ two examples given...",
+            "content": "Some sets of 16 bar Welsh tunes, in session and for dancing:    Nos Calan \/ Glanbargoed \/ Llwydgoed   Nos Calan  \/ Llwydgoed  \/ Glanbargoed  Nos Calan \/ Glanbargoed \/ Maen' Nhw'n Dwed    \"Glanbargoed\" & 2 x Twmpath Dances:  \"Benthyg Dwy\" \/ \"Borrowing Two\" & \"Seren Tair Llaw\" \/ \"The Three Hand Star\"  Key signature: D Major  Submitted on March 1st 2009 by ceolachan.  https:\/\/thesession.org\/tunes\/9395  https:\/\/thesession.org\/tunes\/9395\/comments    \"Llwydcoed\"   Key signature: G Major  Submitted on March 3rd 2009 by ceolachan.  https:\/\/thesession.org\/tunes\/9400",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2009-03-08 17:37:20"
+        },
+        {
+            "id": 764672,
+            "url": "https://thesession.org/tunes/8086#comment764672",
+            "subject": "Deck The Halls, X:6",
+            "content": "Nos Galan - \"New Year's Eve\"  Traditional Welsh polka with optional chords.  May be played in a set: 1. Nos Galan, 2. Glanbargoed, 3. Llwytcoed, 4. Nos Galan",
+            "member": {
+                "id": 93361,
+                "name": "sallyanndra",
+                "url": "https://thesession.org/members/93361"
+            },
+            "date": "2015-06-30 16:52:27"
+        },
+        {
+            "id": 764723,
+            "url": "https://thesession.org/tunes/8086#comment764723",
+            "subject": "",
+            "content": "Source for the above tune list?:   http:\/\/www.alawoncymru.com\/  http:\/\/www.alawoncymru.com\/alawon\/Tunes\/Tuneset.htm     & one other listed set with this tune:   Hen Galan (caneuon + polcas): Hen Galan (Em~), C\u00e2n y Fari Lwyd  (D*), Blwyddyn Newydd Dda  (G*), Nos Galan (G~)",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2015-07-01 00:31:40"
+        },
+        {
+            "id": 1001486,
+            "url": "https://thesession.org/tunes/8086#comment1001486",
+            "subject": "Re: Deck The Halls",
+            "content": "I cover this tune on my new Christmas album, you can find the set here:    https:\/\/cedardobsonmusic.bandcamp.com\/track\/hark-the-herald-angels-sing-pat-a-pan-deck-the-halls-ding-dong-merrily-on-high  ",
+            "member": {
+                "id": 110082,
+                "name": "Cedar Dobson",
+                "url": "https://thesession.org/members/110082"
+            },
+            "date": "2024-12-08 10:47:30"
+        }
+    ]
+}

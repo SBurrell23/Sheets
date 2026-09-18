@@ -1,0 +1,262 @@
+{
+    "format": "json",
+    "id": 11999,
+    "name": "Cradle Song",
+    "url": "https://thesession.org/tunes/11999",
+    "member": {
+        "id": 57801,
+        "name": "Dr. T\u00f8m",
+        "url": "https://thesession.org/members/57801"
+    },
+    "date": "2012-06-21 12:00:13",
+    "type": "reel",
+    "composer": "James Scott Skinner",
+    "tunebooks": 57,
+    "recordings": 2,
+    "collections": 0,
+    "aliases": ["The Cradle Song"],
+    "settings": [
+        {
+            "id": 11999,
+            "url": "https://thesession.org/tunes/11999#setting11999",
+            "key": "Amajor",
+            "abc": "|:Ac BA e2 f2|e4 c4|Ac BA e2 c2|B6 c2|! Ac BA e2 f2|e4 c2A2|FE AB c2 B2|A6 z2:|! |:fd Ad f2 a2|e4 c4|Ac BA e2 c2|B6 z2|! Ac BA ef ga|e4 c2 A2|FE AB c2 B2|A6 z2:|",
+            "member": {
+                "id": 57801,
+                "name": "Dr. T\u00f8m",
+                "url": "https://thesession.org/members/57801"
+            },
+            "date": "2012-06-21 12:00:13"
+        },
+        {
+            "id": 22736,
+            "url": "https://thesession.org/tunes/11999#setting22736",
+            "key": "Amajor",
+            "abc": "|:(Ac {c}BA) (e2 f2)|(e4 c2) z2|(Ac) {c}(BA) {A}(e2 c2)|{c}B6 c2|! (Ac {c}BA) (e2 f2)|(e4 c2) .A2|{FG}(FE AB) {AB}c2 {Ac}B2|A6 z2:|! |:(fd Ad) (f2 a2)|(e4 c2) z2|(Ac) {c}(BA) {A}(e2 c2)|{c}B6 z2|! (AcBA) (ef).g.a|(e4 c2) .A2|{FG}(FE AB) {AB}c2 {Ac}B2|A6 z2:|",
+            "member": {
+                "id": 57801,
+                "name": "Dr. T\u00f8m",
+                "url": "https://thesession.org/members/57801"
+            },
+            "date": "2013-11-13 10:31:16"
+        },
+        {
+            "id": 23086,
+            "url": "https://thesession.org/tunes/11999#setting23086",
+            "key": "Gmajor",
+            "abc": "V:1! |:GBAG d2 e2|d4 B4|GBAG d2 B2|A6 B2|! V:2! |:G2 FG BGcG|BcBA G2 D2|G2 FG BAGE|FGFE F2 D2|! V:1! GBAG d2 e2|d4 B2G2|EDGA B2 A2|G6 z2:|! V:2! G2 FG BGcG|BcBA G2 B2|GABc dgdc|B2 dc B4:|! V:1! |:ecGc e2 g2|d4 B4|GBAG d2 B2|A6 z2|! V:2! |:cEDE cGec|BcBA G2 D2|G2 FG BAGE|FGFE F2 D2|! V:1! GBAG defg|d4 B2 G2|EDGA B2 A2|G6 z2:|! V:2! BdcB Bcdc|BcBA G2 B2|GABc dgdc|B6 z2:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2013-12-16 06:00:24"
+        },
+        {
+            "id": 47630,
+            "url": "https://thesession.org/tunes/11999#setting47630",
+            "key": "Dmajor",
+            "abc": "V:1! |:DFED A2 B2|A4 F4|DFED A2 F2|E6 F2|! V:2! |:D2 ED FDGD|FGFE D2 A2|D2 ED FEDB|cdcB c2 A2|! V:1! DFED A2 B2|A4 F2D2|BADE F2 E2|D6 z2:|! V:2! D2 ED FDGD|FGFE D2 F2|DEFG AdAG|F2 AG F4:|! V:1! |:BGDG B2 d2|A4 F4|DFED A2 F2|E6 z2|! V:2! |:GBAB GDBG|FGFE D2 A2|D2 ED FEDB|cdcB A4|! V:1! DFED ABcd|A4 F2 D2|BADE F2 E2|D6 z2:|! V:2! FAGF FGAG|FGFE D2 F2|DEFG AdAG|F6 z2:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2023-07-11 01:20:37"
+        }
+    ],
+    "comments": [
+        {
+            "id": 644492,
+            "url": "https://thesession.org/tunes/11999#comment644492",
+            "subject": "C: James Scott Skinner",
+            "content": "Strictly an air, for muted violin. Could play it for a strathspey dance though.    Original manuscript here: http:\/\/www.abdn.ac.uk\/scottskinner\/display.php?ID=JSS0577  Printed version here: http:\/\/www.abdn.ac.uk\/scottskinner\/display.php?ID=JSS0064  JSS plays it here: http:\/\/www.abdn.ac.uk\/scottskinner\/music\/cd213a.m3u  And a YouTube version here: http:\/\/www.youtube.com\/watch?v=drM4STf1EiU",
+            "member": {
+                "id": 57801,
+                "name": "Dr. T\u00f8m",
+                "url": "https://thesession.org/members/57801"
+            },
+            "date": "2012-06-21 12:01:49"
+        },
+        {
+            "id": 644494,
+            "url": "https://thesession.org/tunes/11999#comment644494",
+            "subject": "With twiddly bits",
+            "content": "X: 1  T: The Cradle Song  C: J.S.Skinner  R: air  M: C  L: 1\/8  K: Amaj  |: (Ac {c}BA) (e2 f2) | (e4 c2) z2 | (Ac) {c}(BA) {A}(e2 c2) | {c}B6 c2 |  (Ac {c}BA) (e2 f2) | (e4 c2) .A2 | {FG}(FE AB) {AB}c2 {Ac}B2 | A6 z2 :|  |: (fd Ad) (f2 a2) | (e4 c2) z2 | (Ac) {c}(BA) {A}(e2 c2) | {c}B6 z2 |  (AcBA) (ef).g.a | (e4 c2) .A2 | {FG}(FE AB) {AB}c2 {Ac}B2 | A6 z2 :|",
+            "member": {
+                "id": 57801,
+                "name": "Dr. T\u00f8m",
+                "url": "https://thesession.org/members/57801"
+            },
+            "date": "2012-06-21 12:10:46"
+        },
+        {
+            "id": 647015,
+            "url": "https://thesession.org/tunes/11999#comment647015",
+            "subject": "",
+            "content": "(if you ever want to play it from the dots with all the \"twiddly bits\")",
+            "member": {
+                "id": 57801,
+                "name": "Dr. T\u00f8m",
+                "url": "https://thesession.org/members/57801"
+            },
+            "date": "2012-07-07 19:52:25"
+        },
+        {
+            "id": 904051,
+            "url": "https://thesession.org/tunes/11999#comment904051",
+            "subject": "Re: Cradle Song",
+            "content": "Setting 3 is the beautiful counterpoint written by Derek Hobbs and published in Book 3 of his series \"Pipers Companion\".",
+            "member": {
+                "id": 5334,
+                "name": "Brian Maddison",
+                "url": "https://thesession.org/members/5334"
+            },
+            "date": "2020-08-22 02:13:49"
+        },
+        {
+            "id": 969930,
+            "url": "https://thesession.org/tunes/11999#comment969930",
+            "subject": "Cradle Song, X:4",
+            "content": "D maj.",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2023-07-11 01:20:37"
+        },
+        {
+            "id": 1005414,
+            "url": "https://thesession.org/tunes/11999#comment1005414",
+            "subject": "Re: Cradle Song",
+            "content": "I'm shocked to see this presented as a reel. Scottish tunes get placed in some strange categories on here but this is possibly the strangest I've seen. It's The Cradle Song. A lullaby. A beautiful slow air. The suggestion of playing it as a Strathspey is also a bit bizarre!",
+            "member": {
+                "id": 98913,
+                "name": "Nessie",
+                "url": "https://thesession.org/members/98913"
+            },
+            "date": "2025-02-13 00:01:07"
+        },
+        {
+            "id": 1005425,
+            "url": "https://thesession.org/tunes/11999#comment1005425",
+            "subject": "Re: Cradle Song",
+            "content": "Nessie, make yourself a nice cup of tea, sit down, calm down, breathe. There is no category for airs on this site, so we use workarounds to sneak them in. Your making a fuss might wake the giant and then the game will be up.  Anyway, when Niel Gow played \"The Cradle Song\" I'm sure he played it as a rather fast jig.    |A2c cBA|efe e2c|A2c cBA|B3 e2c|A2c cBA|efe e2d|cAE FAB|ABA A2:|",
+            "member": {
+                "id": 11834,
+                "name": "Nigel Gatherer",
+                "url": "https://thesession.org/members/11834"
+            },
+            "date": "2025-02-13 08:32:25"
+        },
+        {
+            "id": 1005430,
+            "url": "https://thesession.org/tunes/11999#comment1005430",
+            "subject": "Re: Cradle Song",
+            "content": "I'm sorry if this causes hurt and upset, but I've just imagined the conversation above as Nessie as Mrs. Pike and Nigel Gatherer as Wilson in Dad's Army!",
+            "member": {
+                "id": 181769,
+                "name": "Arabella Murphy",
+                "url": "https://thesession.org/members/181769"
+            },
+            "date": "2025-02-13 13:42:46"
+        },
+        {
+            "id": 1005436,
+            "url": "https://thesession.org/tunes/11999#comment1005436",
+            "subject": "Re: Cradle Song",
+            "content": "That's what I was going for, Arabella. :-)",
+            "member": {
+                "id": 11834,
+                "name": "Nigel Gatherer",
+                "url": "https://thesession.org/members/11834"
+            },
+            "date": "2025-02-13 14:38:06"
+        },
+        {
+            "id": 1012176,
+            "url": "https://thesession.org/tunes/11999#comment1012176",
+            "subject": "Re: Cradle Song",
+            "content": "Others can argue whether this is an air or a reel.  What I find objectionable is that this, like many other Scottish tunes, is described as Irish on this site.      James Scott Skinner was a born in Aberdeenshire and wrote Cradle Song following an incident in Forres.",
+            "member": {
+                "id": 166620,
+                "name": "David G E Brown",
+                "url": "https://thesession.org/members/166620"
+            },
+            "date": "2025-05-31 18:33:25"
+        },
+        {
+            "id": 1012178,
+            "url": "https://thesession.org/tunes/11999#comment1012178",
+            "subject": "Re: Cradle Song",
+            "content": "Where precisely is this tune described as \"Irish\" ?",
+            "member": {
+                "id": 726,
+                "name": "Kenny",
+                "url": "https://thesession.org/members/726"
+            },
+            "date": "2025-05-31 19:03:02"
+        },
+        {
+            "id": 1012191,
+            "url": "https://thesession.org/tunes/11999#comment1012191",
+            "subject": "Re: Cradle Song",
+            "content": "Kenny, precisely, on entering Cradle Song on Google you get, for thesession.org, the description:  \"A traditional Irish reel by James Scott Skinner with settings and ten comments that has been added to fifty-four tunebooks.\"  [Except now it'll probably be eleven comments.]    And read this comment from Phil Cunningham:  https:\/\/thesession.org\/tunes\/11698#comment970135",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2025-05-31 21:55:11"
+        },
+        {
+            "id": 1012208,
+            "url": "https://thesession.org/tunes/11999#comment1012208",
+            "subject": "Re: Cradle Song",
+            "content": "So the answer is \"Google\", not anyone at \"thesession.org\", so why bring it up here ? It wisnae us.",
+            "member": {
+                "id": 726,
+                "name": "Kenny",
+                "url": "https://thesession.org/members/726"
+            },
+            "date": "2025-06-01 05:48:55"
+        },
+        {
+            "id": 1012218,
+            "url": "https://thesession.org/tunes/11999#comment1012218",
+            "subject": "Re: Cradle Song",
+            "content": "\"What I find objectionable is that this, like many other Scottish tunes, is described as Irish on this site...\"    David, David, David. Dinna fash. This is primarily a site for Irish music, but some awful Scots people have been sneaking in the odd ditty frae Caledonia, knowing that at ony moment they could be excommunicated. The site's benign leader Jeremy pretends tae be tolerant of this, but I hae witnessed him fuming, and shouting, \"If we let the Scots in, what'll be next - Eng... Eng... THE ENGLISH?\" So when you announce to all and sundry that a particular tune is Scottish, it just sets him off again, an' we dinna want that.     DonaldK, Kenny, myself and few other insurgents frae Alba meet clandestinely and carefully plan which tune we'll attempt to slip in through the back door next. By the way, I'm pretty sure that when Niel Gow played \"The Cradle Song\" he played it as a mazurka.",
+            "member": {
+                "id": 11834,
+                "name": "Nigel Gatherer",
+                "url": "https://thesession.org/members/11834"
+            },
+            "date": "2025-06-01 09:47:32"
+        },
+        {
+            "id": 1012228,
+            "url": "https://thesession.org/tunes/11999#comment1012228",
+            "subject": "Re: Cradle Song",
+            "content": "Well, there you go!  You shouldn't trust Google.  It says Niel Gow died in 1807 and James Scott Skinner, who wrote this traditional Irish reel, wasn't born till 1847.  Can't be true.  We know from Nigel that Gow played it both as a rather fast jig and as a mazurka.",
+            "member": {
+                "id": 41856,
+                "name": "Bazza",
+                "url": "https://thesession.org/members/41856"
+            },
+            "date": "2025-06-01 12:23:24"
+        },
+        {
+            "id": 1012229,
+            "url": "https://thesession.org/tunes/11999#comment1012229",
+            "subject": "Re: Cradle Song",
+            "content": "I think Nigel is getting mixed up. I don't think it was NIEL Gow but HARRY Gow who played The Cradle Song as a hornpipe, whilst waiting for his excellent steak pies to come out the oven.",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2025-06-01 12:41:15"
+        }
+    ]
+}

@@ -2162,5 +2162,321 @@ window.PS_MANIFEST = [
     ]
    }
   ]
+ },
+ {
+  "id": "christmas",
+  "title": "Christmas",
+  "blurb": "Carols everyone knows, from Silent Night to the Wassail Song. Shortened and simplified.",
+  "order": 6,
+  "sets": [
+   {
+    "id": "christmas",
+    "title": "",
+    "label": "Carols and Christmas songs",
+    "order": 99,
+    "songs": [
+     {
+      "slug": "angels-we-have-heard-on-high",
+      "title": "Angels We Have Heard on High",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 21,
+      "source": "GLORIA, traditional French carol melody ('Les anges dans nos campagnes'), printed 1842; English words James Chadwick, 1862",
+      "pdf": "songs/christmas/angels-we-have-heard-on-high.pdf"
+     },
+     {
+      "slug": "away-in-a-manger",
+      "title": "Away in a Manger",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 17,
+      "source": "MUELLER, James R. Murray, 1887; words anonymous, Philadelphia 1885; harmony after Hymnal for American Youth, 1919",
+      "pdf": "songs/christmas/away-in-a-manger.pdf"
+     },
+     {
+      "slug": "carol-of-the-bells",
+      "title": "Carol of the Bells (Shchedryk)",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 160,
+      "bars": 28,
+      "source": "Shchedryk, Ukrainian folk chant set for choir by Mykola Leontovych, 1916; Ukrainian words traditional",
+      "pdf": "songs/christmas/carol-of-the-bells.pdf"
+     },
+     {
+      "slug": "coventry-carol",
+      "title": "Coventry Carol",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 112,
+      "bars": 15,
+      "source": "Traditional English carol from the Coventry Pageant of the Shearmen and Tailors; text Robert Croo, 1534, melody first set down 1591",
+      "pdf": "songs/christmas/coventry-carol.pdf"
+     },
+     {
+      "slug": "deck-the-halls",
+      "title": "Deck the Halls",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 16,
+      "source": "Traditional Welsh air NOS GALAN, first printed in Edward Jones, Musical and Poetical Relicks of the Welsh Bards, 1794; English words Thomas Oliphant, 1862",
+      "pdf": "songs/christmas/deck-the-halls.pdf"
+     },
+     {
+      "slug": "ding-dong-merrily-on-high",
+      "title": "Ding Dong Merrily on High",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 16,
+      "source": "BRANLE DE L'OFFICIAL, a French dance tune from Thoinot Arbeau's Orchesographie, 1589; words George Ratcliffe Woodward, 1924",
+      "pdf": "songs/christmas/ding-dong-merrily-on-high.pdf"
+     },
+     {
+      "slug": "god-rest-ye-merry",
+      "title": "God Rest Ye Merry, Gentlemen",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 160,
+      "bars": 20,
+      "source": "Traditional English carol, 18th century or earlier; the London minor-key melody, printed complete in Chappell, Popular Music of the Olden Time, 1855",
+      "pdf": "songs/christmas/god-rest-ye-merry.pdf"
+     },
+     {
+      "slug": "good-king-wenceslas",
+      "title": "Good King Wenceslas",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 126,
+      "bars": 17,
+      "source": "Tune TEMPUS ADEST FLORIDUM, a spring carol from the Swedish Piae Cantiones, 1582; words John Mason Neale, 1853",
+      "pdf": "songs/christmas/good-king-wenceslas.pdf"
+     },
+     {
+      "slug": "hark-the-herald",
+      "title": "Hark! The Herald Angels Sing",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 20,
+      "source": "Felix Mendelssohn, tune MENDELSSOHN, from Festgesang, 1840, adapted by W. H. Cummings; words Charles Wesley, 1739",
+      "pdf": "songs/christmas/hark-the-herald.pdf"
+     },
+     {
+      "slug": "here-we-come-a-wassailing",
+      "title": "Here We Come A-Wassailing",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 96,
+      "bars": 20,
+      "source": "Traditional English carol, the Wassail Song, c.1850",
+      "pdf": "songs/christmas/here-we-come-a-wassailing.pdf"
+     },
+     {
+      "slug": "i-saw-three-ships",
+      "title": "I Saw Three Ships",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 96,
+      "bars": 9,
+      "source": "Traditional English carol, printed by William Sandys in Christmas Carols Ancient and Modern, 1833",
+      "pdf": "songs/christmas/i-saw-three-ships.pdf"
+     },
+     {
+      "slug": "in-the-bleak-midwinter",
+      "title": "In the Bleak Midwinter",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 16,
+      "source": "Tune CRANHAM, Gustav Holst, 1906, from The English Hymnal; words by Christina Rossetti, 1872",
+      "pdf": "songs/christmas/in-the-bleak-midwinter.pdf"
+     },
+     {
+      "slug": "it-came-upon-the-midnight-clear",
+      "title": "It Came Upon the Midnight Clear",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 52,
+      "bars": 17,
+      "source": "CAROL, Richard Storrs Willis, 1850; words Edmund H. Sears, 1849; harmony after the Reformed Church Order of Worship, 1866",
+      "pdf": "songs/christmas/it-came-upon-the-midnight-clear.pdf"
+     },
+     {
+      "slug": "jingle-bells",
+      "title": "Jingle Bells",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 32,
+      "source": "James Lord Pierpont, 1857, published as The One Horse Open Sleigh",
+      "pdf": "songs/christmas/jingle-bells.pdf"
+     },
+     {
+      "slug": "jolly-old-saint-nicholas",
+      "title": "Jolly Old Saint Nicholas",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 16,
+      "source": "Traditional American carol, first printed c.1865; words attributed to Emily Huntington Miller",
+      "pdf": "songs/christmas/jolly-old-saint-nicholas.pdf"
+     },
+     {
+      "slug": "joy-to-the-world",
+      "title": "Joy to the World",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 96,
+      "bars": 20,
+      "source": "Lowell Mason, tune ANTIOCH, 1839, after Handel; words Isaac Watts, 1719",
+      "pdf": "songs/christmas/joy-to-the-world.pdf"
+     },
+     {
+      "slug": "lo-how-a-rose",
+      "title": "Lo, How a Rose E'er Blooming",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 18,
+      "source": "German, tune ES IST EIN ROS ENTSPRUNGEN, Speyer Hymnal 1599; harmonised by Michael Praetorius, 1609; words tr. Theodore Baker, 1894",
+      "pdf": "songs/christmas/lo-how-a-rose.pdf"
+     },
+     {
+      "slug": "o-christmas-tree",
+      "title": "O Christmas Tree",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 13,
+      "source": "Traditional German folk tune, tune O TANNENBAUM; words Ernst Anschütz, 1824",
+      "pdf": "songs/christmas/o-christmas-tree.pdf"
+     },
+     {
+      "slug": "o-come-o-come-emmanuel",
+      "title": "O Come, O Come, Emmanuel",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 20,
+      "source": "VENI EMMANUEL, 15th-century French processional adapted by Thomas Helmore, 1851; Latin words translated by John Mason Neale, 1851",
+      "pdf": "songs/christmas/o-come-o-come-emmanuel.pdf"
+     },
+     {
+      "slug": "o-holy-night",
+      "title": "O Holy Night",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 46,
+      "bars": 50,
+      "source": "Adolphe Adam, 1847, tune CANTIQUE DE NOEL; English words John Sullivan Dwight, 1855",
+      "pdf": "songs/christmas/o-holy-night.pdf"
+     },
+     {
+      "slug": "o-little-town-of-bethlehem",
+      "title": "O Little Town of Bethlehem",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 17,
+      "source": "ST LOUIS, Lewis H. Redner, 1868; words Phillips Brooks, 1868; harmony after The Chapel Hymnal, 1898",
+      "pdf": "songs/christmas/o-little-town-of-bethlehem.pdf"
+     },
+     {
+      "slug": "once-in-royal-davids-city",
+      "title": "Once in Royal David's City",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 13,
+      "source": "Tune IRBY, Henry John Gauntlett, 1849; words by Cecil Frances Alexander, 1848",
+      "pdf": "songs/christmas/once-in-royal-davids-city.pdf"
+     },
+     {
+      "slug": "silent-night",
+      "title": "Silent Night",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 42,
+      "bars": 12,
+      "source": "Franz Xaver Gruber, tune STILLE NACHT, 1818; words Joseph Mohr, 1818",
+      "pdf": "songs/christmas/silent-night.pdf"
+     },
+     {
+      "slug": "sussex-carol",
+      "title": "Sussex Carol",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 104,
+      "bars": 15,
+      "source": "Traditional English carol, tune SUSSEX CAROL, collected in Sussex 1904; words first printed by Luke Wadding, 1684",
+      "pdf": "songs/christmas/sussex-carol.pdf"
+     },
+     {
+      "slug": "the-first-noel",
+      "title": "The First Noel",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 25,
+      "source": "Traditional English carol, tune THE FIRST NOWELL, first printed in Sandys, Christmas Carols Ancient and Modern, 1833",
+      "pdf": "songs/christmas/the-first-noel.pdf"
+     },
+     {
+      "slug": "the-holly-and-the-ivy",
+      "title": "The Holly and the Ivy",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 106,
+      "bars": 17,
+      "source": "Traditional English carol; melody from Cecil Sharp's English Folk-Carols, 1911, as sung by Mary Clayton at Chipping Campden",
+      "pdf": "songs/christmas/the-holly-and-the-ivy.pdf"
+     },
+     {
+      "slug": "twelve-days-of-christmas",
+      "title": "The Twelve Days of Christmas",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 6,
+      "source": "Traditional English cumulative carol, words first printed 1780; the familiar tune from Frederic Austin's setting, 1909",
+      "pdf": "songs/christmas/twelve-days-of-christmas.pdf"
+     },
+     {
+      "slug": "up-on-the-housetop",
+      "title": "Up on the Housetop",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 16,
+      "source": "Benjamin R. Hanby, 1864, first published in Our Song Birds (Root & Cady, Chicago)",
+      "pdf": "songs/christmas/up-on-the-housetop.pdf"
+     },
+     {
+      "slug": "we-three-kings",
+      "title": "We Three Kings of Orient Are",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 180,
+      "bars": 32,
+      "source": "John Henry Hopkins Jr., 1857; tune THREE KINGS OF ORIENT, published in his Carols, Hymns, and Songs, 1863",
+      "pdf": "songs/christmas/we-three-kings.pdf"
+     },
+     {
+      "slug": "we-wish-you-a-merry-christmas",
+      "title": "We Wish You a Merry Christmas",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 150,
+      "bars": 17,
+      "source": "Traditional English carol from the West Country; the traditional tune, not Arthur Warrell's 1935 arrangement",
+      "pdf": "songs/christmas/we-wish-you-a-merry-christmas.pdf"
+     }
+    ]
+   }
+  ]
  }
 ];

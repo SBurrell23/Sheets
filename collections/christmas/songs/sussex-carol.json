@@ -1,0 +1,25 @@
+{
+  "title": "Sussex Carol",
+  "source": "Traditional English carol, tune SUSSEX CAROL, collected in Sussex 1904; words first printed by Luke Wadding, 1684",
+  "key": "C",
+  "meter": "6/8",
+  "pickup": 2,
+  "tempo": 104,
+  "bars": [
+    { "chord": "C",  "notes": "G5:2" },
+    { "chord": "C",  "notes": "G5:4 E5:2 [F]F5:4 G5:2" },
+    { "chord": "C",  "notes": "E5:2 D5:2 C5:2 [G]D5:4 B4:2" },
+    { "chord": "C",  "notes": "C5:4 C5:2 [Dm]D5:2 E5:2 F5:2" },
+    { "chord": "G",  "notes": "E5:4 D5:2 [C]C5:4 G5:2" },
+    { "chord": "C",  "notes": "G5:4 E5:2 [F]F5:4 G5:2" },
+    { "chord": "C",  "notes": "E5:2 D5:2 C5:2 [G]D5:4 B4:2" },
+    { "chord": "C",  "notes": "C5:4 C5:2 [Dm]D5:2 E5:2 F5:2" },
+    { "chord": "G",  "notes": "E5:4 D5:2 [C]C5:4 D5:2" },
+    { "chord": "G",  "notes": "D5:6 D5:4 C5:2" },
+    { "chord": "G",  "notes": "D5:2 E5:2 F5:2 G5:2 F5:2 E5:2" },
+    { "chord": "G",  "notes": "D5:12" },
+    { "chord": "C",  "notes": "G5:6 [F]A5:6" },
+    { "chord": "G",  "notes": "G5:6 [Dm]F5:4 E5:2" },
+    { "chord": "G",  "notes": "D5:2 C5:2 D5:2 [C]C5:6" }
+  ]
+}

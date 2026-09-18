@@ -1,0 +1,31 @@
+{
+  "title": "O Little Town of Bethlehem",
+  "source": "ST LOUIS, Lewis H. Redner, 1868; words Phillips Brooks, 1868; harmony after The Chapel Hymnal, 1898",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 88,
+  "bars": [
+    { "chord": "C",     "notes": "E5:4" },
+
+    { "chord": "C",     "notes": "E5:4 E5:4 D#5:4 E5:4" },
+    { "chord": "Dm/F",  "notes": "G5:4 F5:4 A4:4 D5:4" },
+    { "chord": "G7",    "notes": "C5:4 B4:2 C5:2 D5:4 G4:4" },
+    { "chord": "C",     "notes": "E5:12 E5:4" },
+
+    { "chord": "C",     "notes": "E5:4 E5:4 [A]A5:4 [A7]G5:4" },
+    { "chord": "Dm",    "notes": "G5:4 F5:4 A4:4 D5:4" },
+    { "chord": "G7",    "notes": "C5:4 B4:2 C5:2 E5:4 D5:4" },
+    { "chord": "C",     "notes": "C5:12 E5:4" },
+
+    { "chord": "C",     "notes": "E5:4 E5:4 [G7]D5:4 [D#dim]C5:4" },
+    { "chord": "E",     "notes": "B4:8 B4:4 B4:4" },
+    { "chord": "Am",    "notes": "A4:4 [E]B4:4 [Am]C5:4 [Dm]D5:4" },
+    { "chord": "E",     "notes": "E5:12 [C]E5:4" },
+
+    { "chord": "C",     "notes": "E5:4 E5:4 D#5:4 E5:4" },
+    { "chord": "Dm/F",  "notes": "G5:4 F5:4 A4:4 A5:4" },
+    { "chord": "G7",    "notes": "G5:4 [D7]C5:4 [G7]E5:6 D5:2" },
+    { "chord": "C",     "notes": "C5:12" }
+  ]
+}

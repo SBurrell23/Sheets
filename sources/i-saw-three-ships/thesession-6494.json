@@ -1,0 +1,153 @@
+{
+    "format": "json",
+    "id": 6494,
+    "name": "I Saw Three Ships",
+    "url": "https://thesession.org/tunes/6494",
+    "member": {
+        "id": 11705,
+        "name": "ceolachan",
+        "url": "https://thesession.org/members/11705"
+    },
+    "date": "2006-12-10 17:56:46",
+    "type": "jig",
+    "tunebooks": 100,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 6494,
+            "url": "https://thesession.org/tunes/6494#setting6494",
+            "key": "Gmajor",
+            "abc": "|:D|G2 G A2 B|d2 B A2 c|B2 G GAB|A2 F D2 D|! G2 G A2 B|d2 B ABc|B2 G GAB|A3 G2:|! |:d|gfe d2 d|gfe d2 d|gg\/f\/e d>cB|A2 B c2 e|! dcB c2 A|BAG ABc|d2 G G>AB|A3 G2:|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2006-12-10 17:56:46"
+        },
+        {
+            "id": 45693,
+            "url": "https://thesession.org/tunes/6494#setting45693",
+            "key": "Gmajor",
+            "abc": "|:D|\"G\"GGG \"D\"ABc|\"G\"dcB \"D7\"ABc|\"G\"BAG GAB|\"D\"A2F DEF|! \"G\"GGG \"D7\"ABc|\"G\"dcB \"D7\"ABc|\"G\"BAG GAB|\"D\"AGF \"G\"G2:|! d|\"G\"gfe \"D\"d^cd|\"G\"gfe \"D\"d^cd|\"G\"gg\/f\/e \"D\"d>cB|\"D7\"A2B \"Am\"cde|! \"G\"dcB \"D7\"cBA|\"G\"BAG \"Am\"ABc|\"G\"dBG G>AB|\"D\"AGF \"G\"G2:|",
+            "member": {
+                "id": 929,
+                "name": "lukegarry",
+                "url": "https://thesession.org/members/929"
+            },
+            "date": "2022-12-22 07:27:59"
+        },
+        {
+            "id": 48643,
+            "url": "https://thesession.org/tunes/6494#setting48643",
+            "key": "Gmajor",
+            "abc": "|:D|\"G\"G2 G A2 B|\"D\"d2 B A2 c|\"G\"B2 G G2B|\"D\"A2 F D2 D|! \"G\"G2 G A2 B|\"D\"d2 B A2c|B2 G GAB|\"G\"A3 G2:|",
+            "member": {
+                "id": 157971,
+                "name": "Aaron Bergen",
+                "url": "https://thesession.org/members/157971"
+            },
+            "date": "2023-11-12 09:47:35"
+        },
+        {
+            "id": 52607,
+            "url": "https://thesession.org/tunes/6494#setting52607",
+            "key": "Gmajor",
+            "abc": "D|:\"G\"G2 G A2 B|\"D\"d2 B A2 c|\"G\"B2 G GAB|\"D\"A2 F D2 D|! \"G\"G2 G A2 B|\"D\"d2 B A2c|\"G\"B2 G GAB|1 \"D\"A3 \"G\"G2 D:|2 \"D\"A3 \"G\" G2 B||! |:\"G\"d2d Bcd|\"C\"c2c ABc |\"G\" B2B GAB|\"D\" A2F D2B |! \"G\"d2d Bcd|\"C\"c2c ABc |\"D\" edc BAF|1 \"G\"G4 z1 B:|2 \"G\"G6||",
+            "member": {
+                "id": 129660,
+                "name": "Irrlicht",
+                "url": "https://thesession.org/members/129660"
+            },
+            "date": "2024-12-07 15:45:36"
+        }
+    ],
+    "comments": [
+        {
+            "id": 244063,
+            "url": "https://thesession.org/tunes/6494#comment244063",
+            "subject": "\"I Saw Three Ships\" ~ something for the season? :-)",
+            "content": "The subject came up and I remembered the sets we used to work up for Christmas, one being a 32 bar jig where we used two different melodies for the song \"I Saw Three Ships\", one making the A-part and the other the B-part.  I'm pretty sure we got the versions from 'The Oxford Book of Carols', but we had a lot of material to draw from.  My ma-in-law used to get upset with me butchering the carols and speeding them up, but we had fun and we didn't roast the tunes.  She also got upset with me putting old folk songs to the airs of famous Welsh carols too, which I used to do just to irritate her and wind her up, bless her soul.    I haven't been able to find our sets, and I haven't the carol books on hand, so this is what my memory reconstructed for the tune.  I had a slew of other tunes, in particular hornpipes and a few marches, lined up, but it is the month of Christmas, and a recent 'Discussion' pulled this out of the shadows...  Don't be surprised if there are a couple of others knocking about.  I'm pretty sure we had a set or two based completely on French carols...  ;-)",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2006-12-10 18:03:53"
+        },
+        {
+            "id": 244067,
+            "url": "https://thesession.org/tunes/6494#comment244067",
+            "subject": "Discussion: \"I saw three ships as a jig?\"",
+            "content": "# Posted on December 8th 2006 by GaryAMartin   https:\/\/thesession.org\/discussions\/11960",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2006-12-10 18:05:44"
+        },
+        {
+            "id": 332941,
+            "url": "https://thesession.org/tunes/6494#comment332941",
+            "subject": "Nice variation",
+            "content": "I like the way you re-arranged it with a variation for the second half. And it works beautifully as a set with the Greensleeves jig.",
+            "member": {
+                "id": 41876,
+                "name": "AgnesRegina",
+                "url": "https://thesession.org/members/41876"
+            },
+            "date": "2007-12-09 15:10:12"
+        },
+        {
+            "id": 955316,
+            "url": "https://thesession.org/tunes/6494#comment955316",
+            "subject": "I Saw Three Ships (with Chords)",
+            "content": "A Christmas offering from me and Barnacle Bob here in Greece. Sailing ships feature heavily in Greek Christmas decorations. Here is an explanation of the tradition: https:\/\/greekreporter.com\/2022\/12\/05\/karavaki-the-old-greek-tradition-of-decorating-boats-not-trees-at-christmas\/    Best Christmas & New Year wishes to everyone from Barnacle Bob & Luke",
+            "member": {
+                "id": 929,
+                "name": "lukegarry",
+                "url": "https://thesession.org/members/929"
+            },
+            "date": "2022-12-22 07:27:59"
+        },
+        {
+            "id": 978460,
+            "url": "https://thesession.org/tunes/6494#comment978460",
+            "subject": "I Saw Three Ships, X:3",
+            "content": "Simple for beginners",
+            "member": {
+                "id": 157971,
+                "name": "Aaron Bergen",
+                "url": "https://thesession.org/members/157971"
+            },
+            "date": "2023-11-12 09:47:35"
+        },
+        {
+            "id": 978487,
+            "url": "https://thesession.org/tunes/6494#comment978487",
+            "subject": "Re: I Saw Three Ships",
+            "content": "For Christmas gigs we interlace this tune's A part with \"Merrily Kiss the Quaker.\"     That is, A part of \"Quaker,\" then \"Three Ships\";   then B part of \"Quaker,\" then \"Three Ships\";   then C part of \"Quaker\"; then \"Three Ships.\"",
+            "member": {
+                "id": 9895,
+                "name": "frkrygow",
+                "url": "https://thesession.org/members/9895"
+            },
+            "date": "2023-11-12 16:28:49"
+        },
+        {
+            "id": 1001485,
+            "url": "https://thesession.org/tunes/6494#comment1001485",
+            "subject": "Re: I Saw Three Ships",
+            "content": "I cover this tune in my new Christmas album:   https:\/\/cedardobsonmusic.bandcamp.com\/track\/i-saw-three-ships-come-sailing-bring-a-torch-jeanette-isabella-on-christmas-night-i-saw-three-ships-come-sailing",
+            "member": {
+                "id": 110082,
+                "name": "Cedar Dobson",
+                "url": "https://thesession.org/members/110082"
+            },
+            "date": "2024-12-08 10:46:33"
+        }
+    ]
+}

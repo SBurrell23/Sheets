@@ -1,0 +1,93 @@
+{
+    "format": "json",
+    "id": 10064,
+    "name": "Here We Come A-Wassailing",
+    "url": "https://thesession.org/tunes/10064",
+    "member": {
+        "id": 5234,
+        "name": "Niles H",
+        "url": "https://thesession.org/members/5234"
+    },
+    "date": "2009-11-29 18:11:07",
+    "type": "hornpipe",
+    "tunebooks": 18,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": ["Here We Come With Vaseline"],
+    "settings": [
+        {
+            "id": 10064,
+            "url": "https://thesession.org/tunes/10064#setting10064",
+            "key": "Dmajor",
+            "abc": "\"D\"D2A A2B|\"D\" A2A F2D|\"D\" D2E F2G|\"A\" (E3 E2) E|! \"D\"D2A A2B|\"D\" A2A F2D|\"D\" D2E F2G|\"A\" E3 ABc||! \"D\"d2d d2d|\"C\" =c3 \"G\" B2B|\"D\"A2F DEF|\"G\" G3 F2G|! \"D\"A3 A2B|\"D\" A3 A2B|\"A\" A3 G2E|\"D\" (D3 D2) E||",
+            "member": {
+                "id": 5234,
+                "name": "Niles H",
+                "url": "https://thesession.org/members/5234"
+            },
+            "date": "2009-11-29 18:11:07"
+        }
+    ],
+    "comments": [
+        {
+            "id": 483003,
+            "url": "https://thesession.org/tunes/10064#comment483003",
+            "subject": "Christmas repertoire - wassail song.",
+            "content": "English wassail song.     This version comes from the Lea Nicholson LP, \"Horsemusic\" (on the UK Trailer label). On the record it was done in the key of C.",
+            "member": {
+                "id": 5234,
+                "name": "Niles H",
+                "url": "https://thesession.org/members/5234"
+            },
+            "date": "2009-11-29 18:13:46"
+        },
+        {
+            "id": 489651,
+            "url": "https://thesession.org/tunes/10064#comment489651",
+            "subject": "Kate rusby sweet bells",
+            "content": "there is a great version of this on kate rusby's sweet bells album. i think that its in c but i'm not sure.",
+            "member": {
+                "id": 58675,
+                "name": "mandolinist",
+                "url": "https://thesession.org/members/58675"
+            },
+            "date": "2010-01-12 11:06:06"
+        },
+        {
+            "id": 552457,
+            "url": "https://thesession.org/tunes/10064#comment552457",
+            "subject": "Changed the abc notation",
+            "content": "I changed the ABC to read (easier) in 6\/8 , with chords, but this doesn't seem to have any effect to the sheet music jpg\/gif.",
+            "member": {
+                "id": 5234,
+                "name": "Niles H",
+                "url": "https://thesession.org/members/5234"
+            },
+            "date": "2010-11-30 17:59:22"
+        },
+        {
+            "id": 872935,
+            "url": "https://thesession.org/tunes/10064#comment872935",
+            "subject": "Re: Here We Come A-Wassailing",
+            "content": "A different tune from the one I learned in my schooldays.  I don't do ABC, but here it is, in dot formation (the version I know)! Note the time sig change for the chorus.  https:\/\/www.partitionsdechansons.com\/sheet-music\/19903-england-here-we-come-a-wassailing.html",
+            "member": {
+                "id": 23308,
+                "name": "trish santer",
+                "url": "https://thesession.org/members/23308"
+            },
+            "date": "2019-06-19 22:27:16"
+        },
+        {
+            "id": 872954,
+            "url": "https://thesession.org/tunes/10064#comment872954",
+            "subject": "Re: Here We Come A-Wassailing",
+            "content": "Neither Lea Nicholson, 'Horsemusic', nor this tune show up under the 'Recordings' tab on this site.  An unfortunate omission, surely?",
+            "member": {
+                "id": 41856,
+                "name": "Bazza",
+                "url": "https://thesession.org/members/41856"
+            },
+            "date": "2019-06-20 16:49:03"
+        }
+    ]
+}

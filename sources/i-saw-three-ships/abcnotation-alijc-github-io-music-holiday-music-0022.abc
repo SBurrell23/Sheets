@@ -1,0 +1,41 @@
+
+X: 122
+T: I Saw Three Ships
+C: English Traditional
+L: 1/4
+M: 6/8
+Q:1/4=100
+P:BABABABAB
+V: S 
+%%MIDI program 1 19 %Church Organ
+V: A
+%%MIDI program 2 60 %French Horn
+V: T clef=treble_8
+%%MIDI program 3 57 %Trombone
+K: G
+P:A
+[V: S]  D/ | G G/ A B/ | d B/ A c/ |
+B G/ G B/ |A F/ D D/ | G G/ A B/ |
+[V: A]  D/ | D D/ D D/ | D D/ D D/ |
+D D/ D D/ | D D/ D C/ | B, E/ D G/ |
+%
+w:1~I saw three ships come sail-ing in, On Christ-mas day, on Christ-mas day, I saw three ships come 
+%
+w:2~And what was in those ships all three, On Christ-mas Day, on Christ-mas Day? And what was in those
+%
+w:3~The Vir-gin Mary and Christ were there, On Christ-mas Day, on Christ-mas Day; The Vir-gin Mary and
+%
+w:4~Then let us all re-joice a-gain, On Christ-mas Day, on Christ-mas Day; Then let us all re-
+%
+[V: T]  D,/ | B, B,/ C B,/ | A, G,/ F, A,/ |
+G, B,/ B, G,/ | F, A,/ F, F,/ | G, B,/ A, D/ |
+P:B
+[V: S]d B/ A |c/ B G/ G/ A/ B/ | A3/ G2/ |]
+[V: A] (G/F/) G/ F | A/ G D/ E/ F/ G/ | F3/ G2/ |]
+w: sail_ing in, On Christ-mas day in the morn-ing.
+w: ships_ all three, On Christ-mas Day in the morn-ing?
+w: Christ_ were there, On Christ-mas Day in the morn-ing.
+w: joice_ a-gain, On Christ-mas Day in the morn-ing.
+%
+[V: T] (D/C/) D/ D | D/ D B,/ C/ C/ D/ | D3/ B,2/ |]
+

@@ -1,0 +1,253 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Angels We Have Heard on High</title>
+    <ns>0</ns>
+    <id>3304825</id>
+    <revision>
+      <id>1367911574</id>
+      <parentid>1367911550</parentid>
+      <timestamp>2026-08-05T23:03:17Z</timestamp>
+      <contributor>
+        <username>Justdoowit665</username>
+        <id>49793640</id>
+      </contributor>
+      <minor/>
+      <comment>/* German */</comment>
+      <origin>1367911574</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13317" sha1="8bwie3cqychvjj5zdovtkd2pk8guzfd" xml:space="preserve">{{Short description|Christmas carol}}
+{{Use dmy dates|date=March 2025}}
+{{Infobox musical composition
+| name                = Angels We Have Heard on High
+| type                = 
+| image               = Madonna with child and angels.jpg
+| alt                 = 
+| caption             = ''Madonna with Child and Angels'' by [[Giovanni Battista Salvi da Sassoferrato]]
+| composer            =
+| genre               = [[Hymn]]
+| occasion            = [[Christmas]]
+| text                = Unknown French original; English paraphrase by [[James Chadwick (bishop)|James Chadwick]]&lt;ref&gt;{{cite book |author=&lt;!-- not stated --&gt; |date=1860 |title=The Holy Family Hymns |url= |location=London |publisher= Richardson &amp; Son |pages=12–13 |access-date=}}&lt;/ref&gt;
+| written             = 1862
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Luke|chapter=2|verse=8–20}}
+| meter               = 7.7.7.7 with refrain
+| melody              = "Gloria", arranged by [[Edward Shippen Barnes]]
+| composed            = 
+| published           = 
+| misc                =
+}}
+{{listen
+ | type         = music
+ | image        = none
+ | help         = no 
+ | filename     = U.S. Army Band - Angels We Have Heard on High.ogg
+ | title        = "Angels We Have Heard on High"
+ | description  = Chorus of [[United States Army Band|U.S. Army Band]], ''[[a cappella]]''
+ | type2        = music
+ | image2       = none
+ | filename2    = Angels We Have Heard On High (piano) (Kevin MacLeod) (ISRC USUAN1100329).oga
+ | title2       = "Angels We Have Heard on High"
+ | description2 = Performed by [[Kevin MacLeod]] on [[piano]]
+}}
+"'''Angels We Have Heard on High'''" is a [[Christmas carol]] to the [[hymn tune]] "Gloria" from a traditional French song called "'''{{lang|fr|Les Anges dans nos campagnes|italic=no}}'''", with [[paraphrase]]d English lyrics by [[James Chadwick (bishop)|James Chadwick]].&lt;ref name="HA"&gt;{{cite web |last1=Fenner |first1=Chris |last2=Eggert |first2=James R. |date=13 June 2025 |title=Les anges dans nos campagnes / J’Entends là sur ces collines / translated as: Angels we have heard on high / with GLORIA (IRIS) |url=https://www.hymnologyarchive.com/angels-we-have-heard-on-high?rq=Les%20Anges |website=Hymnology Archive |access-date=14 August 2025}}&lt;/ref&gt; The song's subject is the [[Nativity of Jesus|birth of Jesus Christ]] as narrated in the [[Gospel of Luke]], specifically the scene outside [[Bethlehem]] in which shepherds [[Annunciation to the shepherds|encounter a multitude of angels]] singing and praising the newborn child.
+
+==Tune==
+"Angels We Have Heard on High" is generally sung to the [[hymn tune]] "Gloria", a traditional French carol as arranged by [[Edward Shippen Barnes]]. Its most memorable feature is its chorus, "[[Gloria in excelsis Deo]]", where the "o" of "Gloria" is fluidly sustained through 16 notes of a rising and falling [[melisma]]tic melodic sequence.
+
+"{{Lang|fr|Les Anges dans nos campagnes|italic=no}}" is sung to a similar tune known as "Iris". This tune takes its name from the newspaper associated with [[James Montgomery (poet)|James Montgomery]], who wrote "[[Angels from the Realms of Glory]]", the version of this carol normally sung in the United Kingdom.&lt;ref&gt;{{cite web |url=http://www.christmas-carols.org.uk/christmas-carols/angels-from-the-realms-of-glory |archive-url=https://web.archive.org/web/20091227072931/http://www.christmas-carols.org.uk/christmas-carols/angels-from-the-realms-of-glory |url-status=dead |archive-date=2009-12-27 |title=Angels from the Realms of Glory |website=Christmas-Carols.org.uk}}&lt;/ref&gt; "Iris" is also generally used with "Shepherds in the Fields Abiding", the version normally sung in Canada.&lt;ref name=pbc&gt;''The Popular Carol Book''. Mowbray (1992), {{ISBN|9780264672236}}.&lt;/ref&gt;
+&lt;score raw sound&gt;
+\header { tagline = ##f arranger = "arr.: Edward Shippen Barnes" }
+\layout { indent = 0 \context { \Score \remove "Bar_number_engraver" } }
+global = { \key f \major \time 4/4 }
+
+verse = \lyricmode {
+  An -- gels we have heard on high
+  Sweet -- ly sing -- ing o'er the plains,
+  \repeat volta 2 { Glo -- ri -- a in ex -- cel -- sis } \alternative { { De -- o! } { De -- o! } }
+}
+verseR = \lyricmode {
+  And the moun -- tains in re -- ply
+  E -- cho -- ing their joy -- ous strains.
+}
+soprano = \relative c'' { \global \set midiInstrument = "flute" \voiceOne
+  \repeat volta 2 { a4 a a c | c4. bes8 a2
+    a4 g a c | a4. g8 f2 | }
+  \repeat volta 2 { c'2 (d8 c bes a |bes2 c8 bes a g | a2 bes8 a g f | g4.) c,8 c2 |
+    f4 g a bes | } \alternative { { a2 g | } { a2 (g) | f1 \bar "|." } }
+}
+
+alto = \relative c' { \global \set midiInstrument = "flute" \voiceTwo
+  \repeat volta 2 { \stemUp f4 f e e | \stemDown g e f2 |
+    \stemUp f4 e f f | \stemDown f e f2 | }
+  \repeat volta 2 { f4 (a8 g f2~ | f4 g8 f e2~ | e4 f8 e d2 | c4.) c8 c2 |
+    \stemUp c4 e f g | } \alternative { { f2 e | } { f2 (e) | c1 \bar "|." } }
+}
+
+tenor = \relative c' { \global \set midiInstrument = "clarinet"
+  \repeat volta 2 { c4 c c c | d c c2 |
+    c4 c c c | c4. bes8 a2 | }
+  \repeat volta 2 { a2 (d~ | d c~ | c bes | g4) f e2 |
+    f4 c' c d | } \alternative { { c2 c } { c2. (bes4) | a1 \bar "|." } }
+}
+
+bass = \relative c { \global \set midiInstrument = "clarinet"
+  \repeat volta 2 { f4 f a a | d, e f2 |
+    f4 c f a,8 bes | c4 c a2 | }
+  \repeat volta 2 { f'2 (d4 f | g2 c,4 e | f2 bes,4 d | e) d c (bes) |
+    a c f bes, | } \alternative { { c2 c } { c1 | f1 \bar "|." } }
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff
+    &lt;&lt;
+      \new Voice \soprano
+      \addlyrics \verse
+      \addlyrics \verseR
+      \alto
+    &gt;&gt;
+    \new Staff
+    &lt;&lt;
+      \clef bass
+      \partCombine \tenor \bass
+    &gt;&gt;
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \soprano \\ \alto \\ \tenor \\ \bass &gt;&gt; }
+  \midi { \tempo 4=120
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;
+
+==Lyrics==
+Like the 1816 "[[Angels from the Realms of Glory]]", the lyrics of "Angels We Have Heard on High" are inspired by, but not an exact translation of, the traditional French carol now known as "{{lang|fr|Les Anges dans nos campagnes|italic=no}}" ("the angels in our countryside"). Its first known publication was in 1805 in a book of French carols by Révérend Père Roche, as "{{lang|fr|J'Entends, là sur ces collines|italic=no}}".&lt;ref&gt;R. P. Roche, ''Noëls français et provençaux'', Marseille, 1805, p. 81–83, "Noël du Gloria in Excelsis".&lt;/ref&gt; No author of the carol was given, and it is unclear whether Rev. Roche wrote the carol or merely collected it. The melody, listed as "Cherche-moi, etc.", has not yet been identified. Twelve stanzas were provided, with the first stanza significantly different from what was later more widely adopted. Dozens of textual variants appeared in the 19th century.&lt;ref name="Eggert"&gt;{{cite journal|last=Eggert |first=James R. |date=Spring 2025 |title=A Century of Angels: The First Hundred Years o! a French Carol and Its English Counterparts |url=https://thehymnsociety.org/resources/the-hymn-a-journal-of-congregational-song/ |journal=The Hymn |volume=76 |issue=2 |publisher=The Hymn Society |pages=26–33 }}&lt;/ref&gt;
+
+The earliest known publication of the carol as "{{lang|fr|Les Anges dans nos campagnes|italic=no}}", with text and notes, was in 1842.&lt;ref&gt;[[Louis Lambillotte]], [https://books.google.com/books?id=VTB-zcgOARkC ''Choix de cantiques sur des airs nouveaux''], Paris, 1842, p. 8, "L'écho des montagnes de Béthléem".&lt;/ref&gt; The music was attributed to "W. M.". According to some websites,&lt;ref&gt;For example [https://infocatho.cef.fr/fichiers_html/cefnoel/avtpastoraleschants.html Infocatho].&lt;/ref&gt; the music is by the nineteenth-century Wilfrid Moreau from Poitiers. This should probably read Wulfran Moreau (1827–1905), who,
+though only about fifteen years old in 1842, was from Poitiers and later was professor of rhetoric at Montmorillon and a published composer of religious and school music.&lt;ref name="Eggert" /&gt;
+
+"Angels We Have Heard on High" was an 1862 [[paraphrase]] by [[James Chadwick (bishop)|James Chadwick]],&lt;ref name="HA" /&gt; the Roman Catholic [[Bishop of Hexham and Newcastle]], in the north-east of England. Chadwick's lyrics, original in some sections, and loosely translated from the French in other sections, may have been based on multiple versions of the French carol.&lt;ref name="Eggert" /&gt; The carol quickly became popular in the [[West Country]], where it was described as "Cornish" by R. R. Chope, and featured in William Adair Pickard-Cambridge's ''Collection of Dorset Carols''.&lt;ref&gt;{{cite web|url=https://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/angels_we_have_heard_on_high_1.htm|title=Angels We Have Heard on High|website=hymnsandcarolsofchristmas.com}}&lt;/ref&gt; It has since been translated into other languages,&lt;ref&gt;{{cite web |url=http://www.hymntime.com/tch/htm/a/n/g/e/l/s/angelswe.htm |title=Angels We Have Heard on High |website=The Cyber Hymnal |access-date=8 December 2020}}&lt;/ref&gt; and is widely sung and published. Modern hymnals usually include three verses.&lt;ref&gt;{{cite web |url=https://hymnary.org/text/angels_we_have_heard_on_high |title=Angels We Have Heard on High |website=Hymnary.org |access-date=6 July 2019}}&lt;/ref&gt;
+
+===English===
+&lt;poem style="margin-left:1em;"&gt;Angels we have heard on high
+Sweetly singing o'er the plains
+And the mountains in reply
+Echoing their joyous strains
+|: Gloria in excelsis Deo! :|
+
+Shepherds, why this jubilee?
+Why your joyous strains prolong?
+What the gladsome tidings be?
+Which inspire your heavenly songs?
+|: Gloria in excelsis Deo! :|
+
+Come to Bethlehem and see
+Him whose birth the angels sing;
+Come, adore on bended knee,
+Christ the Lord, the newborn King.
+|: Gloria in excelsis Deo! :|
+
+See Him in a manger laid
+Whom the choirs of angels praise;
+Mary, Joseph, lend your aid,
+While our heart in love we raise. 
+|: Gloria in excelsis Deo! :|&lt;/poem&gt;
+
+===French===
+&lt;poem lang="fr" style="margin-left:1em;"&gt;(First stanza, 1805 version)
+J'Entends, là sur ces collines,
+Les Anges descendus des Cieux,
+Chanter d'une voix divine
+Ce Cantique mélodieux,
+|: Gloria in excelsis Deo! :|
+
+(First stanza, 1842 version)
+Les anges dans nos campagnes
+Ont entonné l'hymne des cieux,
+Et l'écho de nos montagnes
+Redit ce chant mélodieux
+|: Gloria in excelsis Deo! :|
+
+Bergers, pour qui cette fête?
+Quel est l'objet de tous ces chants?
+Quel vainqueur, quelle conquête
+Mérite ces cris triomphants?
+|: Gloria in excelsis Deo! :|
+
+Ils annoncent la naissance
+Du libérateur d'Israël
+Et pleins de reconnaissance
+Chantent en ce jour solennel
+|: Gloria in excelsis Deo! :|&lt;/poem&gt;
+
+=== German ===
+In 1951, Lieselotte Holzmeister (1921–1994) translation „Engel haben Himmelslieder“ (Angels Have Heavenly Songs) was the first transmission in German-speaking countries. Another German text version comes from [[Otto Abel]] (1905–1977); „Hört der Engel helle Lieder“ (Hear the angels' bright songs). It was created in 1954 and was included in the [[Evangelisches Gesangbuch|German evangelical hymn book]] (EG 54); The chorus is accompanied by a movement for three equal voices by Theophil Rothenberg. Also in 1954, [[Maria Luise Thurmair]] wrote "Engel auf den Feldern singen" (Angels sing in the fields). The same melody was used by [[Diethard Zils]] for a hymn for Epiphany, "Seht ihr unsern Stern dort stehen" (Do you see our star there standing). Both hymns are part of the Catholic hymnal ''[[Gotteslob]]''. The Austrian composer [[Cesar Bresgen]] (1913–1988) created two other arrangements. Johannes Haas (1931–2004) created „Engel bringen frohe Kunde“ (Angels Bring Good News").&lt;ref&gt;[https://www.gerth.de/index.php?id=details&amp;sku=L258020 Engel bringen frohe Kunde] bei GerthMedien&lt;/ref&gt; A translation by the evangelist Manfred Paul (1938–2020) appeared in 1972 under the title „Friede, Freude hier auf Erden“ (Peace, Joy here on Earth).&lt;ref&gt;Urheberrechtsangaben auf Tonträgerveröffentlichung ''Freue dich Welt: Singende-klingende Weihnachtszeit'', Janz Team, LP-Nr. 6019, 1972&lt;/ref&gt; [[Rolf Zuckowski]] (*1947) published his text version „Hört ihr, wie die Engel singen“ (Hear how the angels sing) in 1987.
+
+==See also==
+*"[[Ding Dong Merrily on High]]" – similar ''Gloria'' refrain
+* [[List of Christmas carols]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category|Les Anges dans nos campagnes}}
+* {{IMSLP|work=Angels We have Heard on High (Barnes, Edward Shippen)|cname="Angels We have Heard on High" (Edward Shippen Barnes)}}
+* {{Cantorion|pieces/2906/Angels-We-Have-Heard-on-High|"Angels We Have Heard on High"}}
+* [https://books.google.com/books?id=rAVRlIP6NgAC&amp;pg=PA39&amp;lpg=PA42 "Hört, der Engel helle Lieder"] (in German), in ''Liederkunde zum Evangelischen Gesangbuch'', no. 12, pp.&amp;nbsp;39–42. Vandenhoeck &amp; Ruprecht, 2000 ({{ISBN|978-3525503355}})
+* {{IMSLP|work=Les anges dans nos campagnes (Gevaert, François-Auguste)|cname="Les anges dans nos campagnes"}} ([[François-Auguste Gevaert]])
+*{{YouTube|eJUbMKrTYV0|"Angels We Have Heard on High"}}
+
+{{Authority control|state=collapsed}}
+
+{{DEFAULTSORT:Angels We Have Heard on High}}
+[[Category:Christmas carols]]
+[[Category:French folk songs]]
+[[Category:1862 songs]]
+[[Category:French-language Christmas carols]]
+[[Category:Tori Amos songs]]</text>
+      <sha1>8bwie3cqychvjj5zdovtkd2pk8guzfd</sha1>
+    </revision>
+  </page>
+</mediawiki>

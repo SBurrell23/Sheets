@@ -1,0 +1,10 @@
+[
+ {
+  "name": "wikipedia-shchedryk-song.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Shchedryk_%28song%29",
+  "kind": "lilypond",
+  "bytes": 26006,
+  "sha256": "d3e29bb8d0cd9b95d03e09c3f54dd7491cf75e091558c4ecc0f702f9b6ee03d0",
+  "fetched": "2026-09-18"
+ }
+]

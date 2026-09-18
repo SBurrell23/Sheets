@@ -1,0 +1,105 @@
+{
+    "format": "json",
+    "id": 12320,
+    "name": "The Twelve Days Of Christmas",
+    "url": "https://thesession.org/tunes/12320",
+    "member": {
+        "id": 83490,
+        "name": "Peter Jenkins",
+        "url": "https://thesession.org/members/83490"
+    },
+    "date": "2012-11-25 05:40:14",
+    "type": "polka",
+    "tunebooks": 13,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 12320,
+            "url": "https://thesession.org/tunes/12320#setting12320",
+            "key": "Fmajor",
+            "abc": "|:\"C7\"B|\"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||! \"C7\"CC|\"F\"C2 FF|\"Dm\"F2 EF|\"Gm\"GA \"C7\"BG|\"F\"A3 \"C7\"B||! \"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||! \"C7\"CC|\"F\"CF FF|\"Dm\"F2 EF|\"Gm\"GA \"C7\"BG|\"F\"A4|\"C7\"c2 GA|\"C7\"B2 AB|! \"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||! \"C7\"CC|\"F\"C2 FF|\"Dm\"F2 EF|\"Gm\"GA \"C7\"BG|\"F\"A4|! [M:3\/4]\"C7\"c2 GA B2|[M:2\/4]\"C7\"c2 GA|\"C7\"B2 AB|! \"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||! \"C7\"CC|\"F\"C2 FF|\"Dm\"F2 EF|\"Gm\"GA \"C7\"BG|\"F\"A4|! [M:3\/4]\"C7\"c2 GA B2|\"C7\"c2 GA B2|[M:2\/4] \"C7\"c2 GA|\"C7\"B2 AB|! \"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||! \"C7\"CC|\"F\"C2 FF|\"Dm\"F2 EF|\"Gm\"GA \"C7\"BG|\"F\"A4|\"Am\"c4|\"G7\"d2 =B2|! [M:3\/4]\"C7\"c6|[M:2\/4] \"F\"cB AG|\"Dm\"F2 \"Bb\"B2|\"Bb\"D2 F2|\"G7\"GF ED|\"C7\"C2 AB|! \"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||! \"C7\"CC|\"F\"C2 FF|\"Dm\"F2 EF|\"Gm\"GA \"C7\"BG|\"F\"A4|! [M:3\/4]\"^as required\" \"C7\"c2 GA BG:|[M:2\/4] \"Am\"c4|\"G7\"d2 =B2|! [M:3\/4]\"C7\"c6|[M:2\/4] \"F\"cB AG|\"Dm\"F2 \"Bb\"B2|\"Bb\"D2 F2|\"G7\"GF ED|\"C7\"C2 AB|! \"F\"c2 \"Bb\"dB|\"F\"AF \"C7\"G2|\"F\"F2- \"Bb\"F2-|\"F\"F2||",
+            "member": {
+                "id": 83490,
+                "name": "Peter Jenkins",
+                "url": "https://thesession.org/members/83490"
+            },
+            "date": "2012-11-25 05:40:14"
+        }
+    ],
+    "comments": [
+        {
+            "id": 663663,
+            "url": "https://thesession.org/tunes/12320#comment663663",
+            "subject": "The Twelve Days of Christmas - a Yuletide story",
+            "content": "Not  trad Irish, I know, but I hope that this will be of interest to some and of use on occasions (perhaps in December?).    And just what you would expect to be posted in the latter part of a year.    This is my transcription from an arrangement by Colin Hume (which has been in our band pad for many years). It is not a polka (described as a reel or march elsewhere) or in 2\/4. But this amended version plays as I expect it to in the Folkinfo converter\/interpreter, at    http:\/\/www.folkinfo.org\/songs\/abcconvert.php.    The abc code has been amended to suit this site; I originally had it in 2\/2 (with changes to 3\/2 where necessary) and described it as a reel; the printed copy looks better that way. I will post the original code if requested, or better still  I will send a copy by off-list e-mail.    I have worked on this recently as I am asked to play for the dance of the same name at the Ashford Folk Dancers' Christmas Party (but in F rather than the G of our pad). The dance instructions are show below:    The Twelve Days of Christmas    Circle      Men on inside     Own tune (reel)  Two chass\u00e9es to man's left; all cast left shoulder and face the next person.    The first time through, swing this one.  Thereafter, give right hand and (wrong way) grand chain the ring, swinging on the word \"partridge\".    Exception: On \"five gold rings\" give whichever hand is next: step forward, back, honour.  Then use the same hand and count the   same person as \"four\".    [Walk it through for seven].    Twelve drummers drumming  Eleven pipers piping  Ten lords a-leaping  Nine ladies dancing  Eight maids a-milking  Seven swans a-swimming  Six geese a-laying  Five gold rings  Four colly birds  Three French hens  Two turtle doves  And a partridge in a pear tree.    Dance by Geoff Shaull, 1982    Listing produced by Colin Hume's Dance Organiser program.      It would be possible to \"expand\" the abc code for verses 6 to 12 to allow midi to play the music for the correct dance length. But there are full length versions by Bing Crosby and others available through Google. The dance could be called over any of these, if needs must.     But keep music live, I say; hire a real musician to play it for you. Or play it yourself!     All the best    Peter Jenkins",
+            "member": {
+                "id": 83490,
+                "name": "Peter Jenkins",
+                "url": "https://thesession.org/members/83490"
+            },
+            "date": "2012-11-25 06:13:27"
+        },
+        {
+            "id": 663666,
+            "url": "https://thesession.org/tunes/12320#comment663666",
+            "subject": "12 days",
+            "content": "Seems to be the 4 days of Chrstmas - according to the concertina.net converter.",
+            "member": {
+                "id": 12433,
+                "name": "rwarford",
+                "url": "https://thesession.org/members/12433"
+            },
+            "date": "2012-11-25 06:59:14"
+        },
+        {
+            "id": 663667,
+            "url": "https://thesession.org/tunes/12320#comment663667",
+            "subject": "'Tis Twelve..",
+            "content": "Try the folkinfo converter at  http:\/\/www.folkinfo.org\/songs\/abcconvert.php  which uses different programs    ATBPJ",
+            "member": {
+                "id": 83490,
+                "name": "Peter Jenkins",
+                "url": "https://thesession.org/members/83490"
+            },
+            "date": "2012-11-25 07:13:16"
+        },
+        {
+            "id": 663738,
+            "url": "https://thesession.org/tunes/12320#comment663738",
+            "subject": "",
+            "content": "You did it!  However, I doubt that the goble-de-goop from that ABC program will be well received on site here, or by Jeremy.  There are so many variables, from one programmers efforts to another.  It is best to keep things simple here, but I'm always glad to see another Christmas addition...      Now if I can only have a nice Islay single malt for Christmas I'll be happy, or a bottle of Irish Redbreast...  My Christmas wish list is small...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-11-25 16:03:04"
+        },
+        {
+            "id": 663739,
+            "url": "https://thesession.org/tunes/12320#comment663739",
+            "subject": "",
+            "content": "That it failed at 'concertina.net' is telling...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-11-25 16:04:19"
+        },
+        {
+            "id": 663765,
+            "url": "https://thesession.org/tunes/12320#comment663765",
+            "subject": "Different key",
+            "content": "I already play this in G - probably much easier than what's written here, but I'll give it a go and see if it sounds any better.  But playing it in G gives you a better opening to segue into a reel immediately afterwards.  At least that's what I do.  If you want to try this in G just move all the notes up a full step.",
+            "member": {
+                "id": 81281,
+                "name": "Michael B",
+                "url": "https://thesession.org/members/81281"
+            },
+            "date": "2012-11-25 17:45:04"
+        }
+    ]
+}

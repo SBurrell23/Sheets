@@ -1,0 +1,90 @@
+[
+ {
+  "name": "abcnotation--mirror-bruceshawyer-english-tmp-in-the-bleak-midwinter-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FBruceShawyer%2Fenglish%2Ftmp%2FIn_The_Bleak_Midwinter%2F0000",
+  "kind": "abc",
+  "bytes": 588,
+  "sha256": "7f9117f6de1ad6ec0e7f73d1e23be97d8e446f7e0efe1155392caa465f70b0b6",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-du-jc-music-abc-mirror-www-stephenmerrony-co-uk-cranham-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FCranham%2F0000",
+  "kind": "abc",
+  "bytes": 1296,
+  "sha256": "942f0ad9b9787d4134320b5688f8aeec757e198f4b1259b66bf2ee6258911bfe",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ic-master-12-string-baroque-lute-in-the-bleak-midwinter-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=gitlab.com%2Fchrisspen%2Fabc-music%2Fabc-music-master.zip%2Fabc-music-master%2F12-string-baroque-lute%2Fin-the-bleak-midwinter%2F0000",
+  "kind": "abc",
+  "bytes": 153,
+  "sha256": "e38c9967319272c5dc7bf1fe7464b7e7694a560c1f75c3758abcf1b18d761855",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-england-inthebleakmidwinter-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2FInTheBleakMidwinter%2F0000",
+  "kind": "abc",
+  "bytes": 274,
+  "sha256": "c790fa4055e7d3269f8a5dd31dbc13277ab6c39e3349889bd8f07390ecee49ce",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-england-inthebleakmidwinter-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2FInTheBleakMidwinter%2F0002",
+  "kind": "abc",
+  "bytes": 273,
+  "sha256": "d07958b96d8523845e809071f1ef1f9f0068ec90489ddcdb75921aaed6d552ec",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-england-inthebleakmidwinter-0004.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2FInTheBleakMidwinter%2F0004",
+  "kind": "abc",
+  "bytes": 277,
+  "sha256": "091a459cd158d9d7ccd721d265fd0ad773d7e40fc608bb64bdae3553b99674a4",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-jc-music-abc-mirror-lesterbailey-in-the-bleak-midwinter-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FIn_the_Bleak_Midwinter%2F0000",
+  "kind": "abc",
+  "bytes": 185,
+  "sha256": "6b90482892b16953a942758116bed124bb984d45370df11fd44aaa90306461c7",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0028.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0028",
+  "kind": "abc",
+  "bytes": 603,
+  "sha256": "30b678c09de65746c8dda3ab8d614c3a90640df98dbf03714f25aa52cfd20bd3",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-spuds-thursdaycontra-com-tuneswaps-0-spuds-tuneswap-all-0355.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=spuds.thursdaycontra.com%2FTuneSwaps%2F0_SPUDS_TuneSwap_All%2F0355",
+  "kind": "abc",
+  "bytes": 269,
+  "sha256": "ccc3adc23b07ff13c3b225c1ee2ae546353e8634c8a227a30bf2e4e4c227cfb6",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-in_the_bleak_midwinter-cranham.abc",
+  "url": "http://openhymnal.org/Abc/In_The_Bleak_MidWinter-Cranham.abc",
+  "kind": "abc",
+  "bytes": 7385,
+  "sha256": "7cddd814352e67ed31489e68d9428a84fa2512c47bb2092e4c748752464d7f9e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-in-the-bleak-midwinter.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/In_the_Bleak_Midwinter",
+  "kind": "lilypond",
+  "bytes": 20401,
+  "sha256": "0f3c0a86772b8f5f8aa4caa1624846f2d6e19a632298953cedf0214aa5ca00e2",
+  "fetched": "2026-09-18"
+ }
+]

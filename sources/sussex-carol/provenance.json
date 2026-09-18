@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation--com-gubbledenut-abc-tunebooks-main-butterworth-all-txt-0017.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=raw.githubusercontent.com%2FGubbledenut%2FABC_TuneBooks%2Fmain%2FButterworth_All.txt%2F0017",
+  "kind": "abc",
+  "bytes": 1264,
+  "sha256": "356b0738fdbed6f19340afc114df1a153638a020a480453015da911d05f4babb",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--com-rbdmdtallis-media-abctranscriptions-abc-gb-6a-12-0-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.vwml.org%2Fcomponents%2Fcom_rbdmdtallis%2Fmedia%2Fabctranscriptions%2Fabc%2FGB-6a-12-0%2F0001",
+  "kind": "abc",
+  "bytes": 1246,
+  "sha256": "7c8f59c33b97debe196ec800eb186f67504b5c43b6c0940a5c3210dfb861183e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0052.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0052",
+  "kind": "abc",
+  "bytes": 594,
+  "sha256": "a396b045f9a879493dae28983845de707f20c112b2c304cd3ede6c177f7f4bbc",
+  "fetched": "2026-09-18"
+ }
+]

@@ -1,0 +1,26 @@
+{
+  "title": "O Christmas Tree",
+  "source": "Traditional German folk tune, tune O TANNENBAUM; words Ernst Anschütz, 1824",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 2,
+  "tempo": 100,
+  "bars": [
+    { "chord": "C",  "notes": "G4:2" },
+
+    { "chord": "C",  "notes": "C5:3 C5:1 C5:4 [G]D5:4" },
+    { "chord": "C",  "notes": "E5:3 E5:1 E5:6 E5:2" },
+    { "chord": "Dm", "notes": "D5:2 E5:2 F5:4 [G7]B4:4" },
+    { "chord": "G7", "notes": "D5:4 [C]C5:4 R:2 G5:2" },
+
+    { "chord": "C7", "notes": "G5:2 E5:2 [F]A5:6 G5:2" },
+    { "chord": "G7", "notes": "G5:2 F5:2 F5:6 F5:2" },
+    { "chord": "G7", "notes": "F5:2 D5:2 G5:6 F5:2" },
+    { "chord": "C",  "notes": "F5:2 E5:2 E5:4 R:2 G4:2" },
+
+    { "chord": "C",  "notes": "C5:3 C5:1 C5:4 [G]D5:4" },
+    { "chord": "C",  "notes": "E5:3 E5:1 E5:6 E5:2" },
+    { "chord": "Dm", "notes": "D5:2 E5:2 F5:4 [G7]B4:4" },
+    { "chord": "G7", "notes": "D5:4 [C]C5:8" }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-irror-www-stephenmerrony-co-uk-jolly-old-saint-nicholas-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FJolly_Old_Saint_Nicholas%2F0000",
+  "kind": "abc",
+  "bytes": 1361,
+  "sha256": "52873291d6eeaa335600f5054717c35e33bbcdb47e63040ad15d6c58c699d9bb",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-rror-mindspring-com-thornton-rose-jollyoldsaintnicholas-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fmindspring.com%2F~thornton.rose%2FJollyOldSaintNicholas%2F0003",
+  "kind": "abc",
+  "bytes": 821,
+  "sha256": "f8003e21ad1b839ea0d84aa158f3b7fa967d2d15488770c942005d17c516ea34",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "hymnsandcarols-jolly-old-st-nicholas.xml",
+  "url": "https://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/XML/Jolly_Old_St_Nicholas.xml",
+  "kind": "musicxml",
+  "bytes": 44954,
+  "sha256": "1b63d8dda38825291a5d21c74d711b8f24925b3f4f599171da1616836f567a2b",
+  "fetched": "2026-09-18"
+ }
+]

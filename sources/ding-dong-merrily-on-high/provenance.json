@@ -1,0 +1,98 @@
+[
+ {
+  "name": "abcnotation--abc-mirror-bruceshawyer-reel-ding-dong-merrily-on-high-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FBruceShawyer%2Freel%2FDing_Dong_Merrily_on_High%2F0000",
+  "kind": "abc",
+  "bytes": 373,
+  "sha256": "87a8b05d20310fff6d95ce9e82fbfd988408725afbc93cde8e108ea296901124",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--mit-edu-jc-music-abc-mirror-galouvielle-free-fr-branle-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgalouvielle.free.fr%2Fbranle%2F0003",
+  "kind": "abc",
+  "bytes": 745,
+  "sha256": "59fc90f18fdb10f0d5b0cd402ddfcaf0dbc4afb7eee26dd71e52659e2ce38755",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-anamnese-online-fr-site2-abc-arbeau-ps-0060.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=anamnese.online.fr%2Fsite2%2Fabc%2Farbeau_ps%2F0060",
+  "kind": "abc",
+  "bytes": 306,
+  "sha256": "4da9d650ae9e05ce68e76919ed4166bba56925ee7f409e6f59a75d51283f614f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-graner-name-nicolas-arbeau-partitions-branledelofficial-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=graner.name%2Fnicolas%2Farbeau%2Fpartitions%2FBranledelOfficial%2F0000",
+  "kind": "abc",
+  "bytes": 404,
+  "sha256": "62ec4eace6399c8f1b476b014eb583fcee49da0c8eca2002b8908681eb2c7479",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ian-mit-edu-jc-music-abc-mirror-bardicrose-com-abctunes-0225.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fbardicrose.com%2FABCTUNES%2F0225",
+  "kind": "abc",
+  "bytes": 416,
+  "sha256": "03743bdfbb64f1229410f347b39ac1f45dc3320136a3b015d96f525bdb758e91",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-music-abc-mirror-lesterbailey-ding-dong-merrily-on-high-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FDing_Dong_Merrily_on_High%2F0000",
+  "kind": "abc",
+  "bytes": 198,
+  "sha256": "0520a1519d75ee16f9a02f1aa12863b42bff41c66d7ab143285eda8b9b05d3c0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0015.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0015",
+  "kind": "abc",
+  "bytes": 600,
+  "sha256": "0ab172052b96bdd60065ef0dae832a11b3cbbb2d5c54c75ffc47ae233b6e7b46",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-rror-www-stephenmerrony-co-uk-ding-dong-merrily-on-high-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FDing_Dong_Merrily_On_High%2F0000",
+  "kind": "abc",
+  "bytes": 1415,
+  "sha256": "4deed229d2f7fb495b500e3f0e3f091542661201d530151dea74be40cf8b657d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-15031-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F15031.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 221,
+  "sha256": "d347b896b528a084f7d5601d79462ddb0d87929d6adc938d66fc887db458fe91",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-15031-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F15031.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 340,
+  "sha256": "51f3aa0f428daf1e315c19367a6c793abcf169fe00a45c316401d15437cfe5ee",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-15031.json",
+  "url": "https://thesession.org/tunes/15031?format=json",
+  "kind": "abc",
+  "bytes": 6588,
+  "sha256": "21c12964822f19dc02727c28eadb7d4eb7cd496f1226ff74419d372e5205c090",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-ding-dong-merrily-on-high.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Ding_Dong_Merrily_on_High",
+  "kind": "lilypond",
+  "bytes": 9963,
+  "sha256": "9e0822cab1458214f113d018d3d27d048f130cdcb5b2786d32f46531b133e857",
+  "fetched": "2026-09-18"
+ }
+]

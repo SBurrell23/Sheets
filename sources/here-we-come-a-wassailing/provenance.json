@@ -1,0 +1,82 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-wasscome-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FWASSCOME%2F0000",
+  "kind": "abc",
+  "bytes": 330,
+  "sha256": "dfe62e8d5cdc1097d70075e6015ea350ff1670804e7779acdefe27fb345fa082",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-lesterbailey-melnets-big-abc-file-05548.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2Fmelnets_big_abc_file%2F05548",
+  "kind": "abc",
+  "bytes": 678,
+  "sha256": "39de675b4a83d2c64a050381b2473dacfdaa9c3f8fcf04e4518dc35a4aa6e2fb",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0023.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0023",
+  "kind": "abc",
+  "bytes": 710,
+  "sha256": "f5feaaba87f91749884647f32422ddbf7c606425ce9210882af534631492f6a5",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-s-com-rbdmdtallis-media-abctranscriptions-abc-fk-5-22-0-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.vwml.org%2Fcomponents%2Fcom_rbdmdtallis%2Fmedia%2Fabctranscriptions%2Fabc%2FFK-5-22-0%2F0000",
+  "kind": "abc",
+  "bytes": 449,
+  "sha256": "b32bc72543ceeced77397bcf24e5e88f10e8999381381465b2af9a98d10fffb7",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-10064-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F10064.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 266,
+  "sha256": "e829b29ac6b5bc2a9f732dfd0eb23d1ccedb90f24082b218f9927ec714d19514",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-usic-abc-england-morris-bsh-here-we-come-a-wassailing-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2Fmorris%2FBSH%2FHere_We_Come_A_Wassailing_1%2F0000",
+  "kind": "abc",
+  "bytes": 694,
+  "sha256": "b07afb2a4db1a587e5e7e6ceda1b10fc49e6ee3fd5c89b2e3169746429ff389d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-www-joe-offer-com-folkinfo-songs-abc-614-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.joe-offer.com%2Ffolkinfo%2Fsongs%2Fabc%2F614%2F0000",
+  "kind": "abc",
+  "bytes": 690,
+  "sha256": "808bec12645813d3616df42457ec13392264834d27a89eef03e93cbab8d82e0f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-10064.json",
+  "url": "https://thesession.org/tunes/10064?format=json",
+  "kind": "abc",
+  "bytes": 3907,
+  "sha256": "b99f337bee1d7316f76be211269e6f29b3d9f911eb5cb71b2ae822f5de6e7495",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-14135.json",
+  "url": "https://thesession.org/tunes/14135?format=json",
+  "kind": "abc",
+  "bytes": 1930,
+  "sha256": "3521175d8de17790badd1b71cc88f6e4de62d5b392802d392471df20bc064921",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-here-we-come-a-wassailing.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Here_We_Come_A-wassailing",
+  "kind": "lilypond",
+  "bytes": 16168,
+  "sha256": "86f86479d23a1e2469ea204949b7d9cf27ff27f2146960200fe2e77e71013567",
+  "fetched": "2026-09-18"
+ }
+]

@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0247.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0247",
+  "kind": "abc",
+  "bytes": 2623,
+  "sha256": "1ee468b159d65aa958a56a978108ff8f291a0605bdc2ab634d4c2831218a8b37",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ian-mit-edu-jc-music-abc-scotland-xmas-coventrycarol-am-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FScotland%2Fxmas%2FCoventryCarol_Am%2F0000",
+  "kind": "abc",
+  "bytes": 318,
+  "sha256": "15b23f38a655a5ef76007aeaad50b4d5581179d2f1b4942baf0544d0a29fb10f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ic-abc-mirror-www-stephenmerrony-co-uk-coventry-carol-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FCoventry_Carol_1%2F0000",
+  "kind": "abc",
+  "bytes": 838,
+  "sha256": "40635805fb54b154e02d0ae2368c7995e1292e9def323412ccacdab98573dc21",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-mit-edu-jc-music-abc-mirror-folkinfo-org-coventry-carol-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Ffolkinfo.org%2FCoventry_Carol%2F0000",
+  "kind": "abc",
+  "bytes": 1022,
+  "sha256": "aa37bdf9276bee3ad2eaa2671930d8d7f80d2e0379088bf72d3afd969750d81e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0012.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0012",
+  "kind": "abc",
+  "bytes": 712,
+  "sha256": "361223d2673d52c1491ae18c8f47c47f2c9106bf4ecbd451c43dda0d9dafb48f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-usic-abc-mirror-www-stephenmerrony-co-uk-coventry-carol-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FCoventry_Carol%2F0000",
+  "kind": "abc",
+  "bytes": 457,
+  "sha256": "b93a28697bc12994142c0ac3153bf3a9de85878e12564b27e63f54c8bb704c4d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-www-joe-offer-com-folkinfo-songs-abc-289-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.joe-offer.com%2Ffolkinfo%2Fsongs%2Fabc%2F289%2F0000",
+  "kind": "abc",
+  "bytes": 535,
+  "sha256": "d81f8e4fad701169c40920cc5cfc9dd7e2182724e41d4e14b56660c3c28924ff",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-coventry-carol.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Coventry_Carol",
+  "kind": "lilypond",
+  "bytes": 16868,
+  "sha256": "8a864b49b666250d71ddbca837b44851dde426d509ba06ecf78854869c17e163",
+  "fetched": "2026-09-18"
+ }
+]

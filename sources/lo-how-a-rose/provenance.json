@@ -1,0 +1,26 @@
+[
+ {
+  "name": "openhymnal-a_great_and_mighty_wonder-es_ist_ein_ros_entsprungen.abc",
+  "url": "http://openhymnal.org/Abc/A_Great_And_Mighty_Wonder-Es_Ist_Ein_Ros_Entsprungen.abc",
+  "kind": "abc",
+  "bytes": 5607,
+  "sha256": "c57e836f6b2fd67b62651f26b7469d55f44f680167bb3f66d336cdd2992e5558",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-lo_how_a_rose_eer_blooming-es_ist_ein_ros_entsprungen.abc",
+  "url": "http://openhymnal.org/Abc/Lo_How_A_Rose_Eer_Blooming-Es_Ist_Ein_Ros_Entsprungen.abc",
+  "kind": "abc",
+  "bytes": 6335,
+  "sha256": "1859a08491ce15b905252a57a5449f7467e07d80516c456bd8fc38045b5b8cb7",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-es-ist-ein-ros-entsprungen.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Es_ist_ein_Ros_entsprungen",
+  "kind": "lilypond",
+  "bytes": 28778,
+  "sha256": "784aeca88853edbc7952e1d2cc6d85e3bd6f1bbe3faab8a8e0e7db4fce5f88ba",
+  "fetched": "2026-09-18"
+ }
+]

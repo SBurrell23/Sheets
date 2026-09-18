@@ -1,0 +1,261 @@
+{
+    "format": "json",
+    "id": 7736,
+    "name": "The Green Forest",
+    "url": "https://thesession.org/tunes/7736",
+    "member": {
+        "id": 12308,
+        "name": "fidkid",
+        "url": "https://thesession.org/members/12308"
+    },
+    "date": "2007-09-20 13:54:20",
+    "type": "jig",
+    "tunebooks": 122,
+    "recordings": 2,
+    "collections": 2,
+    "aliases": ["Come Along With Me","Come West Along With Me","The Hideout","Innisfree","Kilhouries"],
+    "settings": [
+        {
+            "id": 7736,
+            "url": "https://thesession.org/tunes/7736#setting7736",
+            "key": "Gmajor",
+            "abc": "|:ge|dBG GAG|GBd efg|dBG GBd|ecA ABc|! dBG EFG|DGB ABc|ded cAF|AGF G:|! |:Ad|gfg GBd|gbg afd|gfg Bcd|ecA A2 f|! gfe ded|cBc ABc|ded cAF|AGF G:|",
+            "member": {
+                "id": 12308,
+                "name": "fidkid",
+                "url": "https://thesession.org/members/12308"
+            },
+            "date": "2007-09-20 13:54:20"
+        },
+        {
+            "id": 19090,
+            "url": "https://thesession.org/tunes/7736#setting19090",
+            "key": "Gmajor",
+            "abc": "|:g|dBG GFG|GBd efg|dBG GBd|ecA ABc|! dBG EFG|DGB ABc|dec BcA|BGG G2:|! |:B|gfg GBd|gbg afd|gfg GBd|ecA A2d|! gfe ded|cBc ABc|dec BcA|BGG G2:|",
+            "member": {
+                "id": 12308,
+                "name": "fidkid",
+                "url": "https://thesession.org/members/12308"
+            },
+            "date": "2007-09-20 13:57:18"
+        },
+        {
+            "id": 19091,
+            "url": "https://thesession.org/tunes/7736#setting19091",
+            "key": "Gmajor",
+            "abc": "|:g|dBG GAG|GBd efg|dBG GBd|ecA ABc|! dBG DEG|DGB ABc|.d2e cAF|1 AGF G(3Bcd:|2 AGF GBd||! gdB GBd|g3 afd|gdB G(3Bcd|e2A A(3Bcd|! gfe ded|cBc ABc|d2e cAF|AGF G(3Bcd|! gdB GBd|gbg afd|gdB G(3Bcd|e2A A(3Bcd|! gfe d2e|cBc ABc|d2e cAF|AGF GBd||",
+            "member": {
+                "id": 23956,
+                "name": "Moritz Haas",
+                "url": "https://thesession.org/members/23956"
+            },
+            "date": "2009-07-19 12:08:36"
+        },
+        {
+            "id": 24023,
+            "url": "https://thesession.org/tunes/7736#setting24023",
+            "key": "Gmajor",
+            "abc": "|:e|dBG GAG|GBd efg|dBG GBd|ecA ABc|! dBG E2 G|DGB ABc|ded B2 A|BGF G2:|! |:d|ggg B2 d|ggg agf|g3 dBd|ecA A2 d|! gfe ddd|cBc ABc|ded B2 A|BGF G2:|",
+            "member": {
+                "id": 23657,
+                "name": "OsvaldoLaviosa",
+                "url": "https://thesession.org/members/23657"
+            },
+            "date": "2014-04-24 06:59:29"
+        },
+        {
+            "id": 27121,
+            "url": "https://thesession.org/tunes/7736#setting27121",
+            "key": "Gmajor",
+            "abc": "|:ge|dBG GAG|GBd efg|dBG GBd|ecA ABc|! dBG EFG|DGB ABc|dec BcA|BGF G:|! |:Bd|gfg GBd|gfg afd|gfg GBd|ecA ABd|! gfe ded|cBc ABc|dec BcA|BGF G:|",
+            "member": {
+                "id": 87172,
+                "name": "Shan",
+                "url": "https://thesession.org/members/87172"
+            },
+            "date": "2015-09-02 06:18:01"
+        },
+        {
+            "id": 32205,
+            "url": "https://thesession.org/tunes/7736#setting32205",
+            "key": "Gmajor",
+            "abc": "|:e|dBG GAG|GBd efg|dBG GBd|ecA ABc|! dBG E2 G|DGB ABc|ded B2 A|BGF G2:|! |:d|g3 B2 d|g3 agf|g3 dB\/c\/d|ecA A2 d|! gfe d3|cBc ABc|ded B2 A|BGF G2:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2018-04-03 20:22:00"
+        },
+        {
+            "id": 35114,
+            "url": "https://thesession.org/tunes/7736#setting35114",
+            "key": "Gmajor",
+            "abc": "fe|:dBG G(3BAG|GBd edg|dBG GBd|ecA ABc|! dBG E3|DGB ABc|ded B2A|1 AGF Gze:|2 AGF GBd||! |:gfg GBd|gfg afd|gfg GBd|ecA Acd|! [1g3 d(3fed|cBc ABc|ded B2A|AGF GBd:|! [2gfe ded|cBc ABc|ded BdA|AGF Gze||",
+            "member": {
+                "id": 21485,
+                "name": "Tim@Copenhagen",
+                "url": "https://thesession.org/members/21485"
+            },
+            "date": "2019-06-18 08:55:50"
+        },
+        {
+            "id": 42113,
+            "url": "https://thesession.org/tunes/7736#setting42113",
+            "key": "Gmajor",
+            "abc": "|:g|dBG GBG|GB\/c\/d efg|dBG GB\/c\/d|ecA ABc|! dBG E2G|DGG ABc|ded cBA|1 BGF G2:|2 BGF GBd||! |:gfg GBd|~g3 bge|gfg GB\/c\/d|ecA AB\/c\/d|! gfe d^cd|cBc ABc|ded cBA|1 BGF GBd:|2 BGF G3||",
+            "member": {
+                "id": 116353,
+                "name": "John E Roche",
+                "url": "https://thesession.org/members/116353"
+            },
+            "date": "2021-10-16 13:13:36"
+        }
+    ],
+    "comments": [
+        {
+            "id": 314077,
+            "url": "https://thesession.org/tunes/7736#comment314077",
+            "subject": "Aka \"Come Along With Me\"",
+            "content": "This is from a .pdf of the scanned manuscript of Martin Mulvilhill's collection, p.74 Tune #45   (a handwritten note at the bottom of page indicates he got it from Brendan).    Here is \"Come Along With Me\" (from O'Neill) copied and pasted from Andrew Kuntz's Fiddlers   Companion:    X:1  T:Come Along with Me [2]  M:6\/8  L:1\/8  R:Jig  S:O\u2019Neill \u2013 Dance Music of Ireland: 1001 Gems (1907), No. 337  Z:AK\/Fiddler\u2019s Companion  K:G  g|dBG GFG|GBd efg|dBG GBd|ecA ABc|  dBG EFG|DGB ABc|dec BcA|BGG G2:|  |:B|gfg GBd|gbg afd|gfg GBd|ecA A2d|  gfe ded|cBc ABc|dec BcA|BGG G2:|    this tune is also apparently called Paddy Fahy's Jig -- not this, I think:    https:\/\/thesession.org\/tunes\/2561",
+            "member": {
+                "id": 12308,
+                "name": "fidkid",
+                "url": "https://thesession.org/members/12308"
+            },
+            "date": "2007-09-20 13:57:18"
+        },
+        {
+            "id": 349713,
+            "url": "https://thesession.org/tunes/7736#comment349713",
+            "subject": "The Hideout",
+            "content": "Finbarr Dwyer recorded this as The Hideout.",
+            "member": {
+                "id": 19847,
+                "name": "Paahto",
+                "url": "https://thesession.org/members/19847"
+            },
+            "date": "2008-02-24 14:03:02"
+        },
+        {
+            "id": 349715,
+            "url": "https://thesession.org/tunes/7736#comment349715",
+            "subject": "The Hideout",
+            "content": "Finbarr Dwyer recorded this as The Hideout and it's also in one of Breathnach's volumes (I think its No.3) under the title Paddy O'Brien's which I WON'T stick in as an alternative title (ahem..!). :)",
+            "member": {
+                "id": 19847,
+                "name": "Paahto",
+                "url": "https://thesession.org/members/19847"
+            },
+            "date": "2008-02-24 14:04:27"
+        },
+        {
+            "id": 459686,
+            "url": "https://thesession.org/tunes/7736#comment459686",
+            "subject": "",
+            "content": "As played by Steph Geremia on \"The Open Road\"    X: 1  T: Green Forest, The  M: 6\/8  L: 1\/8  R: jig  K: Gmaj  |:g | dBG GAG | GBd efg | dBG GBd | ecA ABc |  dBG DEG | DGB ABc | .d2e cAF |1 AGF G(3Bcd  :|2 AGF GBd ||  |gdB GBd | g3 afd | gdB G(3Bcd | e2A A(3Bcd|  gfe ded |cBc ABc | d2e cAF |AGF G(3Bcd |  |gdB GBd | gbg afd | gdB G(3Bcd | e2A A(3Bcd|  gfe d2e |cBc ABc | d2e cAF |AGF GBd ||",
+            "member": {
+                "id": 23956,
+                "name": "Moritz Haas",
+                "url": "https://thesession.org/members/23956"
+            },
+            "date": "2009-07-19 12:08:36"
+        },
+        {
+            "id": 546674,
+            "url": "https://thesession.org/tunes/7736#comment546674",
+            "subject": "The Green Forest",
+            "content": "Joe Ryan recorded this tune on his superb album 'An Buachaill Dreoite' under the name 'Kilhouries'.",
+            "member": {
+                "id": 66250,
+                "name": "Christina Kelly",
+                "url": "https://thesession.org/members/66250"
+            },
+            "date": "2010-11-05 08:25:25"
+        },
+        {
+            "id": 720851,
+            "url": "https://thesession.org/tunes/7736#comment720851",
+            "subject": "Innisfree",
+            "content": "From \"Owenmore ceili band\" by Owenmore ceili band, track 6, 2nd tune.",
+            "member": {
+                "id": 23657,
+                "name": "OsvaldoLaviosa",
+                "url": "https://thesession.org/members/23657"
+            },
+            "date": "2014-04-24 06:59:29"
+        },
+        {
+            "id": 872854,
+            "url": "https://thesession.org/tunes/7736#comment872854",
+            "subject": "Gan Ainm",
+            "content": "The second tune of a set of jigs (roughly) as played by the McAuley family. Anyone have a name for this one?",
+            "member": {
+                "id": 21485,
+                "name": "Tim@Copenhagen",
+                "url": "https://thesession.org/members/21485"
+            },
+            "date": "2019-06-18 08:55:50"
+        },
+        {
+            "id": 872862,
+            "url": "https://thesession.org/tunes/7736#comment872862",
+            "subject": "Re: Gan Ainm",
+            "content": "https:\/\/thesession.org\/tunes\/7736#setting7736  Hope all well with you, Tim. A' the best,  Kenny",
+            "member": {
+                "id": 726,
+                "name": "Kenny",
+                "url": "https://thesession.org/members/726"
+            },
+            "date": "2019-06-18 11:26:34"
+        },
+        {
+            "id": 872863,
+            "url": "https://thesession.org/tunes/7736#comment872863",
+            "subject": "Re: Gan Ainm",
+            "content": "PS - great version recorded by Steph Geremia on her first CD.",
+            "member": {
+                "id": 726,
+                "name": "Kenny",
+                "url": "https://thesession.org/members/726"
+            },
+            "date": "2019-06-18 11:27:37"
+        },
+        {
+            "id": 872875,
+            "url": "https://thesession.org/tunes/7736#comment872875",
+            "subject": "Re: Gan Ainm",
+            "content": "Thanks Kenny! All well here. Hope the same with you. Off to Milltown, I presume? If so, have a good one! All the best, Tim",
+            "member": {
+                "id": 21485,
+                "name": "Tim@Copenhagen",
+                "url": "https://thesession.org/members/21485"
+            },
+            "date": "2019-06-18 16:38:53"
+        },
+        {
+            "id": 903132,
+            "url": "https://thesession.org/tunes/7736#comment903132",
+            "subject": "",
+            "content": "https:\/\/www.youtube.com\/watch?v=YVZ5t7z9cpw",
+            "member": {
+                "id": 63653,
+                "name": "fluther",
+                "url": "https://thesession.org/members/63653"
+            },
+            "date": "2020-08-03 13:39:20"
+        },
+        {
+            "id": 929863,
+            "url": "https://thesession.org/tunes/7736#comment929863",
+            "subject": "The Green Forest, X:8",
+            "content": "This is a setting of this jig from Wexford All- Ireland accordion winner Tom Ferris. Unusually for Tom, he never had a name for it and had learned it from another great Wexford player George Ross. Tom usually referred to it as Georgie's Number 1, because there were a few other jigs from George Ross's repetoire that he hadn't names for. The wonders of Tunepal have solved the name issue for me. Tom usually played this tune first in a set that had the Second setting of Tatter Jack Walsh (which I've posted a few minutes ago) as the middle jig and finished with another George Ross tune (which Tunepal has identified as the pride of the west, or Jack Coen's leg of the duck). Tom would usually have referred to this jig as 'Georgie's Number 2'. I'll post a setting of that to complete the set of three tunes.",
+            "member": {
+                "id": 116353,
+                "name": "John E Roche",
+                "url": "https://thesession.org/members/116353"
+            },
+            "date": "2021-10-16 13:13:36"
+        }
+    ]
+}

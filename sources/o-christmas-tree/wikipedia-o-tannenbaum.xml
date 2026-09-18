@@ -1,0 +1,327 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>O Tannenbaum</title>
+    <ns>0</ns>
+    <id>1242322</id>
+    <revision>
+      <id>1375509940</id>
+      <parentid>1375509890</parentid>
+      <timestamp>2026-09-18T06:23:07Z</timestamp>
+      <contributor>
+        <username>~2026-48776-93</username>
+        <id>55629280</id>
+      </contributor>
+      <comment>self-rv per prior announcement</comment>
+      <origin>1375509940</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="18808" sha1="nxq43xgo7og2c14mns8nh31txgxz27o" xml:space="preserve">{{Short description|German song about a fir tree, associated in English with Christmas}}
+{{redirect|O Christmas Tree|the album by Celtic Woman|O Christmas Tree (album)}}
+{{Distinguish|text=[[Operation Tannenbaum]], the proposed World War II invasion of Switzerland by the Axis Powers}}
+{{use dmy dates|date=December 2025}}
+{{Infobox song
+| name          = {{Lang|de|O Tannenbaum|italic=no}}
+| cover         = Abies alba1.jpg
+| caption       = Silver fir (''[[Abies alba]]'')
+| type          =
+| language      = German
+| English_title = O Christmas Tree
+| written       =
+| published     = 1824
+| writer        = 
+| composer      =
+| lyricist      = [[Ernst Anschütz]]
+| misc = {{Audio sample
+ | type        = song
+ | file        = U.S. Army Band - O Tannenbaum.ogg
+ | description = Bilingual performance of the first verse by the [[United States Army Band]] Chorus
+}}
+}}
+"'''{{Lang|de|O Tannenbaum|italic=no}}'''" ({{IPA|de|oː ˈtanənbaʊm|lang}}; "O fir tree"), known in English as "'''O Christmas Tree'''", is a German [[Christmas]] song. Based on a traditional folk song that was unrelated to the holiday, it became associated with the traditional [[Christmas tree]].
+
+==History==
+The song lyrics draw on a long-standing tradition of the ''[[:wikt:Tannenbaum|Tannenbaum]]'' (the German name for a [[fir]] tree) as a symbol of faithfulness due to the tree's [[evergreen]] quality. As early as the 16th century, songbooks included a text that gave rise to a folk song, "O Tannenbaum, du trägst ein' grünen Zweig" ("O fir tree, you wear a green branch").&lt;ref&gt;{{cite book |chapter=CXXI. Es hieng ein stallknecht seinen zaum |trans-chapter=A stable-boy hung his bridle |editor-last=Bergmann |editor-first=Joseph |title=Das Ambraser Liederbuch vom Jahre 1582 |trans-title=The [[Ambras Castle|Ambras]] Songbook of 1582 |language=de|publication-place=Stuttgart |publisher=Bibliothek des Literarischen Vereins |publication-date=1845 |pages=137–138 |quote=O danne du bist ein edler zweig, Du grünest winter und die liebe sommerzeit, Wenn alle beume dürre sein, So grünest du edles dannenbeumelein.}}&lt;/ref&gt; In the 1856 edition of the ''[[Deutscher Liederhort]]'', folk song collector [[Ludwig Erk]] identified three distinct melodies associated with this song in different regions of Germany.&lt;ref&gt;{{cite book |last=Erk |first=Ludwig |author-link=Ludwig Erk |title=[[Deutscher Liederhort]]: Auswahl der vorzüglichern deutschen Volkslieder aus der Vorzeit und der Gegenwart mit ihren eigenthümlichen Melodien |publication-place=Berlin |publisher=Enslin |publication-date=1856 |pages=348–349 }}&lt;/ref&gt; While the tunes were only recorded in the 18th and 19th centuries, a line from the song using one of the melodies was quoted in 1605 by [[Melchior Franck]] in the [[quodlibet]] "Nun fanget an".&lt;ref&gt;{{cite book |last=Franck |first=Melchior |author-link=Melchior Franck |editor-last=Gudewill |editor-first=Kurt |editor-link=Kurt Gudewill |title=Drei Quodlibets |publication-place=Wolfenbüttel |publisher=Möseler Verlag |publication-date=1955 }}&lt;/ref&gt;
+
+In 1820 German educator [[August Zarnack]] published the second volume of his collection of folk songs for use in schools, including as No. 51 "Der Tannenbaum".&lt;ref&gt;{{cite book |last=Zarnack |first=August |author-link=August Zarnack |title=Deutsche Volkslieder mit Volksweisen für Volksschulen |publication-place=Berlin |publisher=Maurersche Buchhandlung |publication-date=1820 |pages=29–30}}&lt;/ref&gt; For this number the existing folk song may have served as inspiration, but the text now presented as a lover's complaint, in which the fidelity of the fir tree is contrasted with the fickleness of a maiden. Zarnack also paired the song with a tune a bit different from those collected by Erk, using a melody that had earlier been published with the song "Es lebe hoch der Zimmermannsgeselle" ("Up high works the carpenter's apprentice").&lt;ref&gt;{{cite web |last=Widmaier |first=Tobias |title=O Tannenbaum |url=http://www.liederlexikon.de/lieder/o_tannenbaum |work={{ill|Historisch-kritisches Liederlexikon|de}} [Historical-Critical Song Lexicon]|language=de|publisher={{ill|Zentrum für Populäre Kultur und Musik|de}}, [[University of Freiburg]]|publication-date=2007 |access-date=December 26, 2025}}&lt;/ref&gt; As was occasionally the practice of folklorists under [[German Romanticism]], Zarnack may well have written much or all of the text himself, basing the song on his own conception of a suitably folk idiom.
+
+The lyrics known today were written by [[Ernst Anschütz]], a teacher and organist in Leipzig, and published in his 1824 ''Musikalisches Schulgesangbuch''.&lt;ref&gt;{{cite book |last=Anschütz |first=Ernst |author-link=Ernst Anschütz |title=Musikalisches Schulgesangbuch |publication-place=Leipzig |publisher=Carl Heinrich Reclam |publication-date=1824 |pages=134–135 }}&lt;/ref&gt; Anschütz wrote two additional verses to the song, linking the tree's faithful colouration to the joy and hope of the Christmas season. While he published it with the same "Zimmermannsgeselle" tune as Zarnack, it eventually was associated with the melody of "Lauriger Horatius", an old student song. As the custom of decorating Christmas trees became more widespread in this period, this became one of the most popular Christmas songs in both German and English, although it is not explicitly about such a tree.
+
+Anschütz retained Zarnack's first verse, hence in German the song does not actually refer to Christmas until the second verse. Some versions today change {{lang|de|treu}} ("faithful") to {{lang|de|grün}} ("green") and may also alter the line {{lang|de|Wie oft hat nicht zur Weihnachtszeit}} to {{lang|de|Wie oft hat schon zur Winterzeit}}; if the third verse with pedagogical allusions to religion is omitted, the text can be made effectively secular.
+
+== Melody ==
+&lt;score sound="1" raw="1"&gt;
+\header { tagline = ##f }
+\paper { paper-width = 200\mm }
+\layout { indent = 0
+  \context { \Score \remove "Bar_number_engraver" }
+  \context { \Voice \remove "Dynamic_engraver" }
+}
+
+global = { \key g \major \time 3/4 \partial 8 }
+
+chordNamesC = \chordmode { \global \set midiInstrument = "acoustic guitar (nylon)"
+  \set chordChanges = ##t \transpose c c, {
+  s8 | g2\pp d4 | g2. | a2:m d4:7~ | d:7 g s8 }
+}
+chordNamesV = \chordmode { \set midiInstrument = "acoustic guitar (nylon)"
+  \set chordChanges = ##t \transpose c c, {
+  s8 | g4:7 c2 | d2.:7 | d:7 | g2 s8 \bar "|." }
+}
+
+sopranoC = \relative c' { \global \autoBeamOff \set midiInstrument = "flute"
+  d8 | g8. g16 g4 a | b8. b16 b4. b8 | a b c4 fis, | a g r8^"Fine" \bar "|." \break
+}
+sopranoV = \relative c' { \autoBeamOff \set midiInstrument = "flute"
+  d'8 | d b e4. d8 | d c c4. c8 | c a d4. c8 | c b b4^"D.C. al fine" r8 \bar "|."
+}
+verse = \lyricmode {
+  O Tan -- nen -- baum, o Tan -- nen -- baum!
+  Wie treu sind dei -- ne Blät -- ter;
+  du grünst nicht nur zur Som -- mer -- zeit,
+  nein, auch im Win -- ter, wenn es schneit.
+  O Tan -- nen -- baum, o Tan -- nen -- baum,
+  wie treu sind dei -- ne Blät -- ter.
+}
+
+rightC = \relative c' { \global
+  d8~\pp | &lt;d b&gt;2 &lt;fis d&gt;4 | &lt;g d&gt; &lt;gis e&gt;2 | e4 &lt;a e&gt; d, | c8. b16 b4 r8
+}
+rightV = \relative c' {
+  g'8~ | g4 &lt;c g&gt;2\pp | &lt;a fis&gt;4 &lt;fis d&gt;2 | &lt;fis d&gt;4 &lt;a fis&gt;2 | &lt;g d&gt;4 q r8 \bar "|."
+}
+leftC = \relative c' { \global
+  d,8 | &lt;b' g&gt;2\p &lt;fis d&gt;4 | f e d | &lt;a' c,&gt;2 &lt;a d,&gt;4 | &lt;fis g,&gt; &lt;g g,&gt; r8
+}
+leftV = \relative c' {
+  r8 | &lt;g g,&gt;4 q q | &lt;a a,&gt; q q | &lt;d, d,&gt; q q | &lt;g g,&gt; q r8 \bar "|."
+}
+\score {
+  &lt;&lt;
+    \new ChordNames { \chordNamesC \chordNamesV }
+    \new Staff { \sopranoC \sopranoV } \addlyrics \verse
+    \new PianoStaff &lt;&lt;
+      \new Staff { \rightC \rightV }
+      \new Staff { \clef bass \leftC \leftV }
+    &gt;&gt;
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats {
+  &lt;&lt; \chordNamesC \\ \sopranoC \\ \leftC \\\rightC &gt;&gt;
+  &lt;&lt; \chordNamesV \\ \sopranoV \\ \leftV \\\rightV &gt;&gt;
+  &lt;&lt; \chordNamesC \\ \sopranoC \\ \leftC \\\rightC &gt;&gt;
+  }
+  \midi {
+    \tempo 4 = 90
+    \context { \Score midiChannelMapping = #'instrument }
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;
+Source&lt;ref&gt;{{cite book|editor=William L. Simon|title=The Reader's Digest Merry Christmas Songbook|orig-year=1981|pages=16–17|isbn=0-89577-105-5|edition=14th printing|date=September 1995|postscript=,}} modified to use "D.C. al fine".&lt;/ref&gt;
+
+==Lyrics==
+{{col-begin-fixed}}
+{{col-break}}
+'''Anschütz (1824)'''&lt;ref&gt;{{cite journal|url=https://publikationen.sachsen.de/bdb/artikel/17400/documents/22899|access-date=29 December 2025|url-status=live|journal=Sächsisches Archivblatt|language=de|number=2|year=2008|author=Birgit Horn-Kolditz|title='O Tannenbaum': Originalhandschrift im Stadtarchiv Leipzig|pages=3–4|archive-url=https://web.archive.org/web/20150923183855/http://www.archiv.sachsen.de/download/Archivblatt_2_2008.pdf|archive-date=2015-09-23}}&lt;/ref&gt;
+&lt;poem lang="de"&gt;O Tannenbaum, o Tannenbaum!
+Wie treu sind deine Blätter;
+Du grünst nicht nur zur Sommerzeit,
+Nein, auch im Winter, wenn es schneit.&lt;ref&gt;Zarnack published his collection of songs in two formats: one with a musical setting for two vocal parts, for which only the first verse of each song was printed, and one without printed music that included all the verses of each song. In the latter version, he gives the line as {{lang|de|im Winter auch, wenns friert und schneit.}} ("Also in winter, when it freezes and snows.") Anschütz copied the text and both vocal parts from the edition with printed music, so it is not entirely certain whether he knew that in writing additional verses, he was replacing others with different subject matter.&lt;/ref&gt;
+O Tannenbaum, o Tannenbaum,
+Wie treu sind deine Blätter.
+
+O Tannenbaum, o Tannenbaum,
+Du kannst mir sehr gefallen;
+Wie oft hat nicht zur Weihnachtszeit
+Ein Baum von dir mich hoch erfreut.
+O Tannenbaum, o Tannenbaum,
+Du kannst mir sehr gefallen.
+
+O Tannenbaum, o Tannenbaum,
+Dein Kleid will mir was lehren;
+Die Hoffnung und Beständigkeit
+Giebt Trost und Kraft zu jeder Zeit!
+O Tannenbaum, o Tannenbaum,
+Dein Kleid will mir was lehren.&lt;/poem&gt;
+{{col-break}}
+Loose English translation&lt;ref&gt;[https://books.google.com/books?id=3ITInayzssQC&amp;q=%22Your+branches+green+delight+us%22 by John Rutter]&lt;/ref&gt;
+&lt;poem&gt;O Tannenbaum, O Tannenbaum,
+How faithfully you blossom!
+Through summer's heat and winter's chill
+Your leaves are green and blooming still.
+O Tannenbaum, O Tannenbaum,
+How faithfully you blossom!
+
+O Tannenbaum, O Tannenbaum,
+With what delight I see you!
+When winter days are dark and drear
+You bring us hope for all the year.
+O Tannenbaum, O Tannenbaum,
+With what delight I see you!
+
+O Tannenbaum, O Tannenbaum,
+You bear a joyful message:
+That faith and hope shall ever bloom
+To bring us light in winter's gloom.
+O Tannenbaum, O Tannenbaum,
+You bear a joyful message&lt;/poem&gt;
+{{col-break}}
+Another English version&lt;ref&gt;''The Bay View Magazine'' (1913), [https://books.google.com/books?id=RbWgAAAAMAAJ&amp;q=%22How+are+thy+leaves+so+verdant%22 p. 175]&lt;/ref&gt;
+&lt;poem&gt;O Christmas tree, O Christmas tree!
+How are thy leaves so verdant!
+Not only in the summertime,
+But even in winter is thy prime.
+O Christmas tree, O Christmas tree,
+How are thy leaves so verdant!
+
+O Christmas tree, O Christmas tree,
+Much pleasure dost thou bring me!
+For ev'ry year the Christmas tree,
+Brings to us all both joy and glee.
+O Christmas tree, O Christmas tree,
+Much pleasure dost thou bring me!
+
+O Christmas tree, O Christmas tree,
+How lovely are thy branches!
+Not only green when summer's here
+But in the coldest time of year.
+O Christmas tree, O Christmas tree,
+How lovely are thy branches!
+
+O Christmas tree, O Christmas tree,
+How sturdy God hath made thee!
+Thou bidd'st us all place faithfully
+Our trust in God, unchangingly!
+O Christmas tree, O Christmas tree,
+How sturdy God hath made thee!
+
+O Christmas tree, O Christmas tree,
+Thy candles shine out brightly!
+Each bough doth hold its tiny light,
+That makes each toy to sparkle bright.
+O Christmas tree, O Christmas tree,
+Thy candles shine out brightly!&lt;/poem&gt;
+{{col-break}}
+Yet another English version&lt;ref&gt;{{Cite web |url=http://www.decantus.com/music/gtwb/Tannenbaum.htm |title=O Tannenbaum (English lyrics)|access-date=2019-12-05|website=decantus.com|archive-date=2019-12-05 |archive-url=https://web.archive.org/web/20191205132425/http://www.decantus.com/music/gtwb/Tannenbaum.htm |url-status=dead }}&lt;/ref&gt;
+&lt;poem&gt;O Christmas Tree, O Christmas Tree,
+Your branches green delight us!
+They are green when summer days are bright,
+They are green when winter snow is white.
+O Christmas Tree, O Christmas Tree,
+Your branches green delight us!
+
+O Christmas Tree, O Christmas Tree,
+You give us so much pleasure!
+How oft at Christmas tide the sight,
+O green fir tree, gives us delight!
+O Christmas Tree, O Christmas Tree,
+You give us so much pleasure!
+
+O Christmas Tree, O Christmas Tree
+Forever true your colour.
+Your boughs so green in summertime
+Stay bravely green in wintertime.
+O Christmas Tree, O Christmas Tree
+Forever true your colour.
+
+O Christmas Tree, O Christmas Tree
+You fill my heart with music.
+Reminding me on Christmas Day
+To think of you and then be gay.
+O Christmas Tree, O Christmas Tree
+You fill my heart with music.&lt;/poem&gt;
+{{col-end}}
+
+==Other uses==
+
+The tune has also been used (as a [[contrafactum]]) to carry other texts on many occasions. Notable uses include:
+* "[[The Red Flag]]", anthem of the [[Labour Party (UK)|British]] and [[Labour Party (Ireland)|Irish Labour Parties]]
+* [[Florida]] – "[[Florida, My Florida]]", former state song&lt;ref&gt;{{cite web |url=http://heritage.acld.lib.fl.us/1351-1400/1374.html |title=Rev. C. V. Waugh |publisher=Alachua County Library District Heritage Collection |access-date=12 February 2008 |archive-date=19 July 2011 |archive-url=https://web.archive.org/web/20110719103846/http://heritage.acld.lib.fl.us/1351-1400/1374.html |url-status=dead }}&lt;/ref&gt;
+* [[Maryland]] – "[[Maryland, My Maryland]]", the former [[List of U.S. state songs|state song]] of Maryland
+* [[Michigan]] – "[[Michigan, My Michigan]]", widely believed to be the official state song
+* [[Iowa]] – "[[The Song of Iowa]]", official state song&lt;ref name=statesong&gt;{{cite web|title=New Citizen Civic Handbook, page 44|url=http://www.sos.state.ia.us/pdfs/NewCitizens/EntireEnglish.pdf|year=2006|publisher=sos.state.ia.us|access-date=26 December 2006|archive-url=https://web.archive.org/web/20090325112939/http://www.sos.state.ia.us/pdfs/NewCitizens/EntireEnglish.pdf|archive-date=25 March 2009|url-status=dead}}&lt;/ref&gt;
+* [[Labrador]] – "[[Ode to Labrador]]", [[regional anthem]]
+* [[Dickinson College]]'s [[alma mater (song)|alma mater]], "Noble Dickinsonia," with words written by [[Horatio Collins King]].
+* The [[College of the Holy Cross]]'s alma mater is sung to the tune of "O Tannenbaum".&lt;ref&gt;[https://www.holycross.edu/departments/publicaffairs/hcm/summer00/GAA/gaa1-sum00.html Letter from the President of the General Alumni Association] {{Webarchive|url=https://web.archive.org/web/20210506225512/https://www.holycross.edu/departments/publicaffairs/hcm/summer00/GAA/gaa1-sum00.html |date=2021-05-06 }}, ''Holy Cross Magazine''&lt;/ref&gt;
+* When traveling by bus, [[education in Sweden|schoolchildren in Sweden]] sing "En busschaufför" (Swedish for "a bus driver") or "Vår busschaufför" ("Our bus driver") to the melody.&lt;ref&gt;{{cite web|url=http://banken.musiknavet.se/res/Default/musikalisktidhafte.pdf|title=Musiknavet|page=22|publisher=Idébanken|date=2005|access-date=20 September 2014}}&lt;/ref&gt;
+* [[St. Bonaventure University]]'s alma mater, "With Myrtle Wreath We'll Deck Thy Brow"&lt;ref&gt;[http://web.sbu.edu/friedsam/archives/football/Cheers.htm Saint Bonavenure University website]  {{Webarchive|url=https://web.archive.org/web/20110527174747/http://web.sbu.edu/friedsam/archives/football/Cheers.htm |date=2011-05-27}} . Accessed January 3, 2014.&lt;/ref&gt;
+* [[Nankai University]]'s alma mater is sung to the melody.&lt;ref&gt;{{Cite web|url=https://www.nankai.edu.cn/166/list.htm |title=校歌歌谱 |publisher=Nankai University |language=zh |access-date=30 December 2024}}&lt;/ref&gt;
+* [[St. John's University (New York City)]]'s alma mater is sung to the melody.&lt;ref&gt;
+{{Cite web|url=https://www.stjohns.edu/who-we-are/history-and-facts/alma-mater |title=The Alma Mater  St. John's University |publisher=St. John's University|language=en |access-date=9 February 2025}}
+&lt;/ref&gt;
+* "Scout Vespers", used by the [[Boy Scouts of America]], "Old St. John's", is sung to the melody.&lt;ref&gt;{{Cite web|url=http://www.scoutsongs.com/lyrics/scoutvesper.html |title=Scout Vesper |website=ScoutSongs.com |access-date=2015-12-27}}&lt;/ref&gt; Similarly, "Softly Falls" in which used by the [[Girl Scouts of the USA]], is sung to the melody, as referenced in the song "On My Honor".&lt;ref&gt;{{Cite web|url=https://www.scoutsongs.com/lyrics/onmyhonor_gs.html|title=On My Honor – Girl Scout Version Lyrics}}&lt;/ref&gt;
+* In the 1988 film ''[[Moon over Parador]]'', the Parador national anthem is sung to the melody.&lt;ref&gt;{{YouTube|uMzaajZ-O7s|''Moon over Parador'' (1988) – We Have a Hit}}{{dead link|date=December 2025}}{{citation needed|date=December 2025}}&lt;/ref&gt;
+* "Democrats, Good Democrats", an [[1884 United States presidential election | 1884]] campaign song for [[Grover Cleveland]].&lt;ref&gt;{{cite web|title=Democrats, Good Democrats (Grover Cleveland)|url=https://folkways.si.edu/oscar-brand/democrats-good-democrats-grover-cleveland/childrens-historical-song/music/track/smithsonian|website=[[Smithsonian]]}}&lt;/ref&gt;
+
+==See also==
+* [[List of Christmas carols]]
+* "[[Snoopy's Christmas]]" (1967), song that opens with "O Tannenbaum"
+
+==References ==
+{{Reflist}}
+
+==External links==
+{{Commons category}}
+{{wikisourcelang|de|O Tannenbaum (Zarnack)}}
+*[https://web.archive.org/web/20051126190340/http://www2.hu-berlin.de/kulturtechnik/kabinette.php?show=odm&amp;month=200412 "Eglite" – old recording of the song and article from The Hermann von Helmholtz Center for Cultural Technology] {{in lang|de}}
+*[https://ingeb.org/images/OTannenb.GIF "Notes 'O Tannenbaum{{'"}}], ingeb.org
+*[https://ingeb.org/Lieder/OTannenb.html {{"'}}O Tannenbaum' / 'O Christmas Tree{{'"}}], lyrics and MIDI, ingeb.org
+*[https://www.lieder-archiv.de/o_tannenbaum-notenblatt_200078.html "Sheet music, lyrics, MIDI"], Tom Borg, 10 December 2016, lieder-archiv.de (in German)
+*[http://thelayaways.com/songs/o-christmas-tree-the-layaways.html "Lyrics and MP3"],  [[The Layaways (band)|The Layaways]]
+*[https://www.free-scores.com/download-sheet-music.php?pdf=58193 "Sheet music"], Free-scores.com
+
+{{Authority control|state=collapsed}}
+
+[[Category:Christmas carols in German]]
+[[Category:Christmas in Germany]]
+[[Category:Volkslied]]
+[[Category:Wedding songs]]
+[[Category:Christmas songs]]
+[[Category:Songs about trees]]
+[[Category:1824 songs]]
+[[Category:Songs with unknown songwriters]]</text>
+      <sha1>nxq43xgo7og2c14mns8nh31txgxz27o</sha1>
+    </revision>
+  </page>
+</mediawiki>

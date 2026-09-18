@@ -1,0 +1,110 @@
+{
+  "title": "The First Noel",
+  "source": "Traditional English carol, tune THE FIRST NOWELL, first printed in Sandys, Christmas Carols Ancient and Modern, 1833",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 100,
+  "bars": [
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 D5:2 [Am]E5:2 F5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 A5:2 B5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:4 B5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 A5:2 B5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:4 B5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 [F]A5:4 [G7]B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 G5:4 [G7]F5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 [G7]E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 D5:2 [Am]E5:2 F5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 A5:2 B5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:4 B5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 A5:2 B5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:4 B5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 [F]A5:4 [G7]B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 G5:4 [G7]F5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 [G7]E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:6 D5:2 [Am]E5:2 F5:2"
+    },
+    {
+      "chord": "Em",
+      "notes": "G5:8 [C]C6:2 B5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:12"
+    },
+    {
+      "chord": "F",
+      "notes": "C6:4 B5:4 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 A5:4 [G7]B5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 G5:4 [G7]F5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-xmas-o-come-o-come-emmanuel-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2FO_Come_O_Come_Emmanuel%2F0000",
+  "kind": "abc",
+  "bytes": 617,
+  "sha256": "c54c7df6a6fa9eb5c80fec53c8185b030c79203b1727aabf3076513984023693",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-xmas-o-come-o-come-emmanuel-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2FO_Come_O_Come_Emmanuel%2F0002",
+  "kind": "abc",
+  "bytes": 606,
+  "sha256": "f93822b72693a2828dc30526602336d574048ab804fa56f07d50e4b4fd4907bf",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-parts-tunebook-0007.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_parts_tunebook%2F0007",
+  "kind": "abc",
+  "bytes": 282,
+  "sha256": "3c3a5808aea547ebaa4202c636020943ba24b81ac101e6afd1b1219f8db798d4",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0040.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0040",
+  "kind": "abc",
+  "bytes": 675,
+  "sha256": "84e629fb911dfc6f6fcb367870957bc029d4138027891d7374409c7b0d0b3b2e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-xmas-2018xmas-0004.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2F2018xmas%2F0004",
+  "kind": "abc",
+  "bytes": 620,
+  "sha256": "86be18796457a5ff3f226158b4b0d2c176eb96bd5466a816fa7f68d4e3a08afe",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-o_come_o_come_emmanuel-veni_emmanuel.abc",
+  "url": "http://openhymnal.org/Abc/O_Come_O_Come_Emmanuel-Veni_Emmanuel.abc",
+  "kind": "abc",
+  "bytes": 5959,
+  "sha256": "b63cbb270d705c5b3e8f3787324497fdcff6337eaca116421ecf20ffcce95ffc",
+  "fetched": "2026-09-18"
+ }
+]

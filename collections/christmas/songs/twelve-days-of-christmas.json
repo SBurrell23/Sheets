@@ -1,0 +1,34 @@
+{
+  "title": "The Twelve Days of Christmas",
+  "source": "Traditional English cumulative carol, words first printed 1780; the familiar tune from Frederic Austin's setting, 1909",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 116,
+  "bars": [
+    {
+      "chord": "G7",
+      "notes": "G4:2 G4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G4:2 C5:2 C5:2 C5:2 C5:4 B4:2 C5:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:2 E5:2 [G7]F5:2 D5:2 [C]E5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:4 D5:2 E5:2 F5:4 E5:2 F5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 [F]A5:2 F5:2 [C]E5:2 C5:2 [G7]D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
+  ]
+}

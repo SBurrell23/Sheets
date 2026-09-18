@@ -1,0 +1,350 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Away in a Manger</title>
+    <ns>0</ns>
+    <id>1094305</id>
+    <revision>
+      <id>1331519026</id>
+      <parentid>1326906816</parentid>
+      <timestamp>2026-01-06T18:59:49Z</timestamp>
+      <contributor>
+        <username>Orholam</username>
+        <id>50189172</id>
+      </contributor>
+      <comment>/* growthexperiments-addlink-summary-summary:1|1|0 */</comment>
+      <origin>1331519026</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="31431" sha1="8fmuw3ti5cw0ekfme19qm0plr59paqy" xml:space="preserve">{{Short description|Late nineteenth century Christmas carol}}
+{{Use dmy dates|date=September 2024}}
+{{Infobox musical composition
+| name                = Away in a Manger
+| type                = 
+| image               = The Birth of Jesus.jpg
+| alt                 = 
+| caption             = ''The Birth of [[Jesus]]'' (1878) by [[Gustave Doré]]
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            =
+| genre               = [[Christmas carol]]
+| occasion            = 
+| text                =
+| language            = 
+| written             = 1882
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Luke|chapter=2|verse=4-7}}
+| meter               = 11.11.11.11
+| melody              = "Cradle Song" by [[William J. Kirkpatrick]], "Mueller" by James R. Murray
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                =
+}}
+
+"'''Away in a Manger'''" is a [[Christmas carol]] first published in the late nineteenth century and used widely throughout the English-speaking world. In Britain, it is one of the most popular carols; a 1996 [[Gallup Poll]] ranked it joint second. Although it was long claimed to be the work of German religious reformer [[Martin Luther]], the carol is now thought to be wholly American in origin.&lt;ref name="hill"/&gt; The two most common musical settings are by [[William J. Kirkpatrick]] (1895) and [[James Ramsey Murray]] (1887).
+
+==Words==
+[[File:WilliamJKirkpatrick.jpg|thumb|William J. Kirkpatrick]]
+
+The popularity of the carol has led to many variants in the words, which are discussed in detail below. The following are taken from Kirkpatrick (1895):&lt;ref name="kirkpatrick"/&gt;
+&lt;!-- 
+ Any choice of text is going to be controversial. Kirkpatrick (1895) was chosen for the following reasons:
+
+  * It's one of the two most popular musical settings of the carol, along with Murray (1887).
+  * Murray (1887) doesn't include the third verse (because it wasn't yet written), so if we used Murray as the text, we would need to find a different source for the third verse.
+  * For most of the significant textual choices, Kirkpatrick's version is the more popular, as far as Google N-grams can tell us.
+  ** The only (possible) exception is Kirkpatrick's "stars in the BRIGHT sky". This is hard to research with Google, because "stars in the sky" is a very common phrase outside the carol.
+
+  Please don't change this text to be the version you sang growing up :) If you have a serious suggestion for a better choice of text, please discuss first on the talk page. Thanks!
+--&gt;
+{{blockquote|&lt;poem&gt;Away in a manger, no crib for a bed,
+The little Lord Jesus laid down his sweet head.
+The stars in the bright sky looked down where he lay,
+The little Lord Jesus asleep on the hay.
+
+The cattle are lowing, the baby awakes,
+But little Lord Jesus, no crying he makes.
+I love thee, Lord Jesus! look down from the sky,
+And stay by my cradle till morning is nigh.
+
+Be near me, Lord Jesus; I ask thee to stay
+Close by me forever, and love me I pray.
+Bless all the dear children in thy tender care,
+And take us to heaven to live with thee there.&lt;/poem&gt;}}
+
+===Variants===
+Almost every line in the carol has recorded variants. The most significant include the following:
+* Verse 1, line 1: The earliest sources have "no crib for '''his''' bed".&lt;ref name="cynosure"/&gt;&lt;ref name="little_pilgrim_songs"/&gt;&lt;ref name="clark"/&gt; "No crib for '''a''' bed" is found in Murray (1887).&lt;ref name="murray"/&gt;
+* Verse 1, line 2: The earliest sources have "'''lay''' down his sweet head."&lt;ref name="cynosure"/&gt;&lt;ref name="little_pilgrim_songs"/&gt; "'''Laid'''" is first found in "Little Children's Book" (1885)&lt;ref name="clark"/&gt; – see [[List of English words with disputed usage#L|lie/lay distinction]].
+* Verse 1, line 2: Some sources, from as early as 1900, have "his '''wee''' head" instead of "his sweet head."&lt;ref&gt;{{cite book |title=Make his praise glorious |url=https://archive.org/stream/makehispraiseglo00exce#page/n167/mode/2up |page=156|editor1-first=E. O.|editor1-last=Excell|location=Chicago|publisher=E. O. Excell|year=1900}}&lt;/ref&gt;
+* Verse 1, line 3: The earliest sources have "[t]he stars in the sky looked down where he lay",&lt;ref name="cynosure"/&gt;&lt;ref name="little_pilgrim_songs"/&gt; leading to this line having only ten syllables as opposed to the eleven of the other lines of the verse (unless "looked" is pronounced as two syllables, as is done in some musical settings).&lt;ref name="rowland"/&gt; Herbert (1891) substituted "stars in the '''heaven'''",&lt;ref name="herbert"/&gt; and Gabriel (1892) "stars in the '''heavens'''" to regularize the meter. Kirkpatrick (1895) may have been the first to use "stars in the '''bright''' sky".&lt;ref name="kirkpatrick"/&gt;
+* Verse 1, line 4: The earliest sources have "asleep '''in''' the hay."&lt;ref name="cynosure"/&gt;&lt;ref name="clark"/&gt;&lt;ref name="myrtle"/&gt; Murray (1887) changes this to "'''on''' the hay."&lt;ref name="murray"/&gt;
+* Verse 2, line 1: The earliest sources have "the '''poor''' baby wakes".&lt;ref name="cynosure"/&gt;&lt;ref name="little_pilgrim_songs"/&gt;&lt;ref name="murray"/&gt; "The baby '''awakes'''" is found in Herbert (1891).&lt;ref name="herbert"/&gt;
+* Verse 2, line 3: Some sources have "look down from '''on high'''".&lt;ref&gt;{{cite book |title=The Australian Hymn Book, Harmony Edition |first=William |last=Collins |year=1977 |publisher=Wm Collins Publishers Pty Ltd |location=Sydney |page=310}}&lt;/ref&gt;
+* Verse 2, line 4: This line has a multitude of variants:
+** "And stay by my crib watching my lullaby" (''Christian Cynosure'', 1882)&lt;ref name="cynosure"/&gt;
+** "And stay by my crib to watch lullaby" (''Seamen's Magazine'', 1883)&lt;ref name="seamen"/&gt;
+** "And stay by my cradle to watch lullaby" (Murray, 1887)&lt;ref name="murray"/&gt;
+** "And watch by me always, and ever be nigh" (1890)&lt;ref name="pearson"&gt;{{cite book |title=Madonna Hall |first=Emily Clemens |last=Pearson |page=422 |location=Boston |publisher=James H. Earle |url=http://hdl.handle.net/2027/uc2.ark:/13960/t40r9nt3z?urlappend=%3Bseq=426 |year=1890|hdl=2027/uc2.ark:/13960/t40r9nt3z?urlappend=%3Bseq=426 }}&lt;/ref&gt;
+** "And stay by my cradle till morning is nigh" (Herbert, 1891)&lt;ref name="herbert"/&gt;
+** "And watch o'er my bed while in slumber I lie" (1893)&lt;ref name="moderator"&gt;{{cite journal |journal=Michigan School Moderator |title=Christmas Exercises |last=Fox |first=Florence C. |date=7 December 1893 |volume=xiv |issue=7 |url=http://hdl.handle.net/2027/mdp.39015086611871?urlappend=%3Bseq=59 |page=213|hdl=2027/mdp.39015086611871?urlappend=%3Bseq=59 }}&lt;/ref&gt;
+** "And stay by my side until morning is nigh" (1905)&lt;ref name="bonner"&gt;{{cite book |title=Sunday School Hymnary |first=Carey |last=Bonner |url= http://hdl.handle.net/2027/hvd.32044017173246?urlappend=%3Bseq=76 |year=1905 |publisher=Sunday School Union |location=London |page=14|hdl=2027/hvd.32044017173246?urlappend=%3Bseq=76 }}&lt;/ref&gt;
+* Verse 3 is absent from the earliest publications. It first appears in ''Gabriel's Vineyard Songs'' (1892).&lt;ref name="gabriel"&gt;{{cite book |title=Gabriel's vineyard songs: for Sunday-schools praise meetings, home circle, and all occasions of church service |first=Charles H. |last=Gabriel |year=1892 |location=Louisville, KY |publisher=Guide Printing and Publishing Co. |oclc=9301040 |page=125 |url=https://commons.wikimedia.org/wiki/File:Cradle_Song_Gabriel.png}}&lt;/ref&gt;
+* Verse 3, line 4: Instead of "'''take us to''' heaven", one popular variant found from 1899 has "'''fit us for''' heaven".&lt;ref name="sunday"&gt;{{cite book |title=The Sunday School Hymnal |year=1899 |location=New York |publisher=Board of Publication of the Reformed Church in America |url=https://archive.org/stream/sundayhym99efo#page/n257/mode/2up}}&lt;/ref&gt;
+
+==History==
+[[File:Away in a manger Christian cynosure.png|thumb|right|''The Christian Cynosure'' (2 March 1882)]]
+[[File:Away in a manager little pilgrim songs.png|thumb|right|''Little Pilgrim Songs'' (1883)]]
+
+===First and second verses===
+The origin of the words is obscure. An early appearance was on 2 March 1882, in the "{{sic|Childre|ns'}}&lt;!-- punctuation is original; please don't "correct" --&gt; Corner" section of the [[Anti-Masonry|anti-Masonic]] journal ''[[Christian Cynosure|The Christian Cynosure]]''.&lt;ref name="cynosure"&gt;{{cite journal |journal=The Christian Cynosure |title={{as written|Childr|ens' [sic]}} Corner: Luther's Cradle Song |date=1882-03-02 |url=https://archive.org/stream/christiancynosurv14blan#page/n373/mode/2up |page=11 |volume=xiv |issue=23 |location=Chicago}}&lt;/ref&gt; Under the heading "Luther's Cradle Song", an anonymous author contributed the first two verses, writing: {{blockquote|The following hymn, composed by Martin Luther for his children, is still sung by many of the German mothers to their little ones.&lt;ref name="cynosure"/&gt;}}
+
+A near-identical article appeared in the November 1883 issue of ''The Sailors' Magazine and Seamen's Friend''.&lt;ref name="seamen"&gt;{{cite journal |journal=The Sailor's Magazine and Seamen's Friend |title=Luther's Cradle Song |date=November 1883 |volume=55 |issue=11 |publisher=American Seamen's Friend Society |location=New York |page=351 |hdl=2027/hvd.ah6ggx?urlappend=%3Bseq=381 |url=http://hdl.handle.net/2027/hvd.ah6ggx?urlappend=%3Bseq=381}}&lt;/ref&gt;
+
+Another early version was published in ''Little Pilgrim Songs'', a book of [[Christian child's prayer|Christian music for young children]], whose preface is dated 10 November 1883. ''Little Pilgrim Songs'' includes a similar claim that the song was written "by Martin Luther for his own children".&lt;ref name="little_pilgrim_songs"&gt;{{cite book |title=Little Pilgrim Songs: for Primary Classes and Singing in the Home |first1=Mrs. Wilbur F. |last1=Crafts |first2=Hubert P. |last2=Main |location=New York |publisher=Biglow &amp; Main |year=1883 |page=148 |url=https://archive.org/stream/littlepilgrimson00craf#page/148/mode/2up}}&lt;/ref&gt;
+
+An article in the May 1884 issue of ''The Myrtle'', a periodical of the [[Universalism|Universalist]] Publishing House in [[Boston]],&lt;ref name="myrtle"&gt;{{cite journal |journal=The Myrtle |volume=xxxiv |issue=1 |date=3 May 1884 |title=Luther's Cradle Song |publisher=Universalist Publishing House |location=Boston, MA |pages=6 |hdl=2027/hvd.ah3nkn?urlappend=%3Bseq=152 |url=http://hdl.handle.net/2027/hvd.ah3nkn?urlappend=%3Bseq=152}}&lt;/ref&gt; also included the carol, stating: {{blockquote|[[Martin Luther]], the great German reformer, who was born four hundred years ago the 10th of next November, composed the following hymn for his children; and it is still sung by many German mothers to their little ones.&lt;ref name="myrtle"/&gt;&lt;ref&gt;The article's claim about Luther's birth was out-of-date by May 1884, suggesting that ''The Myrtle'' may not have been its first publication.&lt;/ref&gt;}} All four sources include almost-identical text of the first two verses, with no music. ''Little Pilgrim Songs'' and ''The Myrtle'' both suggest the melody of ''[[Home! Sweet Home!]]''&lt;ref name="myrtle"/&gt;
+
+===Third verse===
+[[File:Cradle Song Gabriel.png|thumb|right|''Gabriel's Vineyard Songs'' (1892), the earliest known publication of the third verse]]
+The third [[stanza]], "Be near me, Lord Jesus", is absent from the known early sources. Its first known appearance was in ''Gabriel's Vineyard Songs'' (1892), where it was set to a melody by [[Charles H. Gabriel]] (simply marked "C").&lt;ref name="hill"/&gt;&lt;ref name="gabriel"/&gt; Gabriel credited the entire text to Luther and gave it the title "Cradle Song". Decades later, a story was published attributing the third verse to John T. MacFarland:
+
+{{blockquote|Bishop [[William F. Anderson (bishop)|William F. Anderson]] has given the story of the writing of the third stanza:
+
+When I was Secretary of the Board of Education, 1904–08, I wanted to use "Away in a manger", which I found with the designation "Martin Luther's Cradle Song", in the Children's Day program one year. It had but two stanzas, 1 and 2. Dr. John T. McFarland, then Secretary of our Board of Sunday Schools, was my near neighbor in his office at 150 Fifth Avenue (New York). I asked him to write a third stanza. He went to his office and within an hour brought me the third stanza beginning, "Be near me, Lord Jesus, I ask Thee to stay." I used it, which was the first time it was ever published. I am pleased to see that it is now being used very widely. The honor of it belongs to that great and good man, Dr. John T. McFarland.&lt;ref&gt;{{cite book |last=McCutchan |first=Robert Guy |title=Our hymnody: a manual of the Methodist hymnal |location=New York |publisher=The Methodist book concern |year=1937 |page=436 |oclc=4051199}}, quoted in Hill.&lt;/ref&gt;}}
+
+Since this story dates the composition of the stanza to 1904–1908, over a decade after its first known appearance, Hill judges that "the 1892 publication [of ''Gabriel's Vineyard Songs''] renders the Bishop's story suspect, and additional evidence must be found before McFarland can be safely credited with the writing of the third stanza."&lt;ref name="hill"/&gt; It has been suggested that Gabriel may have written the third stanza himself and attributed it to Luther.&lt;ref&gt;{{cite book |title=Be Still, My Soul: The Inspiring Stories behind 175 of the Most-Loved Hymns |first=Randy |last=Petersen |publisher=Tyndale House |year=2014 |page=35 |isbn=9781414388427 |url=https://books.google.com/books?id=IXEiAQAAQBAJ&amp;pg=PA35}}&lt;/ref&gt;
+
+===Popularity===
+By Christmas of 1883, "Luther's Cradle Song" was already being performed as a recitation as part of a Sunday School celebration in a church in [[Nashville]].&lt;ref&gt;{{cite journal |journal=The Daily American |location=Nashville, Tennessee |url=https://www.newspapers.com/clip/8453083/luthers_cradle_song/ |date=1883-12-25 |page=5 |title=Christmas Festivities |volume=ix |issue=2,712}}&lt;/ref&gt; The early popularity of the hymn may also be reflected in a report (published in 1885, but covering the year 1884) from an American mission in [[Maharashtra]], India, stating:&lt;ref&gt;{{cite book |author=American Marathi Mission |title=Report of the American Marathi Mission for the year 1884 |year=1885 |location=Poona |publisher=Orphanage Press |page=58 |hdl=2027/mdp.39015063866340?urlappend=%3Bseq=187}}&lt;/ref&gt; {{blockquote|[t]he hymns and cradle songs learned in the school, are often sung at home. One woman said that 'Hush my dear', and 'Mother mine', were heard all day in their alley, and now more lately, Luther's cradle hymn, 'Away in a manger, no cot for his bed', has a place with them and is a favorite.}} By 1891, Hill writes, "the carol was sweeping the country [the United States]", with at least four musical settings published that year.&lt;ref name="hill"/&gt;
+
+==Spurious attribution to Luther==
+The great majority of early publications ascribe the words to German Protestant reformer [[Martin Luther]]. Many go so far as to title the carol "Luther's Cradle Song" or "Luther's Cradle Hymn", to describe the English words as having been ''translated'' from Luther,&lt;ref name="bonner"/&gt; or to speak of its alleged popularity in Germany.&lt;ref&gt;For example, Murray (1887) repeats ''The Myrtle''&lt;nowiki&gt;'s title of "Luther's Cradle Hymn" and the claim that it was "[c]omposed by Martin Luther for his children, and still sung by German mothers to their little ones".&lt;/nowiki&gt;&lt;/ref&gt; The claim of Luther's authorship continued to be made well into the 20th century, but it is now rejected as spurious for the following reasons:&lt;ref name="hill"/&gt;
+
+* No text in Luther's known writings corresponds to the carol.
+* No German text for the carol has been found from earlier than 1934, more than 50 years after the first English publication. That German text reads awkwardly, and appears to be a result of a translation from the English original.
+* The unadorned narrative style of the carol is atypical of Luther, who, Hill states,&lt;ref name="hill"/&gt; "could never throw off his role of educator and doctrinarian."
+* When some earlier 19th-century sources do mention a carol written by Luther for his son Hans, they are referring to a different text: "[[Vom Himmel hoch, da komm ich her]]".
+
+Richard Hill, in a comprehensive study of the carol written in 1945, suggested that "Away in a Manger" might have originated in "a little play for children to act or a story about Luther celebrating Christmas with his children", likely connected with the 400th anniversary of the reformer's birth in 1883.&lt;ref name="hill"/&gt;
+
+==Music==
+==="Mueller"===
+&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+\autoBeamOff
+  \time 3/4
+  \key f \major
+  \partial 4
+  \relative c''
+{
+  c4 |
+  c4. bes8 a4 |
+  a4. g8 f4 |
+  f4 e4 d4 |
+  c2 c4 |
+\break
+  c4. d8 c4 |
+  c4 g'4 e4 |
+  d4 c4 f4 |
+  a2 c4 |
+\break
+  c4. bes8 a4 |
+  a4. (g8) f4 |
+  f4 e4 d4 |
+  c2 c4 |
+\break
+  bes'4. a8 g4 |
+  a4 g4 f4 |
+  g4 d4 e4 |
+  f2 |
+  \bar "|."
+}
+\addlyrics {
+  A -- way in a man -- ger,
+  No crib for a bed,
+  The lit -- tle Lord Je -- sus
+  Laid down His sweet head.
+  The stars in the sky
+  Looked down where He lay,
+  The lit -- tle Lord Je -- sus
+  A -- sleep on the hay.
+}
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 4 = 106 }
+&lt;/score&gt;
+The most popular musical setting in the United States is commonly known as "Mueller".&lt;ref name="hill"/&gt; The melody was first published, under the title "Luther's Cradle Hymn", by James R. Murray in his collection ''Dainty Songs for Little Lads and Lasses'' (1887).&lt;ref name="hill"/&gt;&lt;ref name="murray"&gt;{{cite book |title=Dainty Songs for Little Lads and Lasses, for use in the Kindergarten, School and Home |first=James R. |last=Murray |publisher=John Church |location=Cincinnati |year=1887 |page=110 |url=http://digital.library.pitt.edu/cgi-bin/t/text/pageviewer-idx?c=nietz&amp;cc=nietz&amp;idno=00z426609m&amp;node=00z426609m%3A1.100&amp;frm=frameset&amp;view=image&amp;seq=116}}&lt;/ref&gt;
+
+Murray included a claim that the hymn was "[c]omposed by Martin Luther for his children". Hill writes:&lt;ref name="hill"/&gt; {{blockquote|Wherever he got the ideas expressed in the heading, Mr. Murray made one serious tactical mistake in saying that Luther "composed" the hymn, and then placing only his own initials where the composer's name is normally given. As a consequence, his fellow compilers of song books apparently supposed that all he had done was to arrange the accompaniment.}}
+
+As a result of this "tactical mistake", Murray's melody appeared, without credit, in several subsequent publications. By 1914, the melody was attributed to "Carl Mueller",&lt;ref&gt;{{cite book |title=Primary School Carols |year=1914 |publisher=Lutheran Book Concern |location=Columbus, OH |url=https://archive.org/stream/primaryschoolcar00colu#page/n19/mode/2up}}&lt;/ref&gt; and this attribution was repeated several times in other publications.&lt;ref name="hill"/&gt; The identity of "Carl Mueller" is unknown, but the tune is widely known as "Mueller" as a result.
+{{Clear}}
+
+==="Cradle Song"===
+&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+
+\autoBeamOff
+  \time 3/4
+  \key f \major
+  \partial 4
+  \relative c'{
+c4 |
+  f4 f4 g8 ([a8]) |
+  f4 f4 a8 ([bes8]) |
+  c4 c4 d4 |
+  bes2 g8 ([a8]) |
+
+\break
+
+  bes4 bes4 c4 |
+  a4 a4 f8 ([a8])
+  g4 d4 f4 |
+  e2 c4 |
+
+\break
+
+  f4 f4 g8 ([a8]) |
+  f4 f4 a8 ([bes8]) |
+  c4 c4 d4 |
+  bes2 g8 ([a8]) |
+
+\break
+
+  bes4 bes4 c4 |
+  a4 a4 f8 ([a8])
+  g4 d4 e4 |
+  f2 |
+  \bar "|."
+}
+
+\addlyrics {
+A -- way in a man -- ger,
+  no crib for a bed,
+  The lit -- tle Lord Je -- sus
+  laid down his sweet head.
+  The stars in the bright sky
+  looked down where he lay,
+  The lit -- tle Lord Je -- sus
+  a -- sleep on the hay.}
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 4 = 106 }
+&lt;/score&gt;
+
+The standard melody in Britain, Ireland and Canada is "Cradle Song". The tune, written by the Irish-American composer [[William J. Kirkpatrick]], was first published as part of the collection ''Around the World with Christmas'' (1895), a "Christmas Exercise" for schools featuring material representing various countries: "Away in a Manger" was included, under the title "Luther's Cradle Hymn", as a representative of "The German Fatherland".&lt;ref name="kirkpatrick"&gt;{{cite book |title=Around the World with Christmas: A Christmas Exercise |first1=E. E. |last1=Hewitt |first2=John R. |last2=Sweeney |first3= Wm. J. |last3=Kirkpatrick |publisher=Cranston &amp; Curts |location=Cincinnati |year=1895 |url=http://brbl-dl.library.yale.edu/vufind/Record/3446568 |page=11 }}&lt;/ref&gt;&lt;ref&gt;{{cite book |editor1-first=Hugh |editor1-last=Keyte |editor2-first=Andrew |editor2-last=Parrott |title=The New Oxford Book of Carols |location=Oxford |publisher=Oxford University Press |year=1992 |pages=361}}&lt;/ref&gt;
+
+Kirkpatrick's melody was later published in numerous hymnbooks, and was the setting that, in Hill's words, "first carried the words beyond the confines of the United States", being included in collections such as [[Carey Bonner]]'s ''Sunday School Hymnary'' (1905).&lt;ref name="hill"/&gt;&lt;ref name="bonner"/&gt; It remains the most popular musical setting of "Away in a Manger" outside the United States.
+{{Clear}}
+
+===Other musical settings===
+In his article "Not So Far Away in a Manger; Forty-One Settings of an American Carol", published in the ''Music Library Association Notes'' (second series) III, no. 1, for December 1945,&lt;ref name="hill"&gt;{{cite journal |first=Richard S. |last=Hill |title=Not so Far Away in a Manger: Forty-One Settings of an American Carol |url=http://www.hymnsandcarolsofchristmas.com/History/away_in_a_manger.htm |journal=Notes |publisher=Music Library Association |pages=12–36 |volume=3 |issue=1 |date=December 1945 |doi=10.2307/891185 |jstor=891185|url-access=subscription }}&lt;/ref&gt; Richard Hill treated 41 of the nearly 200 different musical settings of this text.
+
+The first music mentioned in connection with "Away in a Manger" was a pre-existing composition: ''[[Home! Sweet Home!]]'' (also known as "There's No Place Like Home"). This was suggested as a musical setting in ''Little Pilgrim Songs'' (1883) and ''The Myrtle'' (1884), and continued to be mentioned as an appropriate melody for decades to come.&lt;ref&gt;E.g.
+* {{cite journal|title=Mister Dod|journal=Home Knowledge|first=Bulkeley|last=Booth|page=382|date=October 1887|volume=i|issue=6|hdl=2027/nyp.33433104905579?urlappend=%3Bseq=392|quote=The quaint verses, sung to the dear, old-fashioned melody of 'Sweet Home'|ref=none}})
+* ({{cite book |title=Sunshine All the Year Round |url=https://books.google.com/books?id=6s5CAQAAMAAJ&amp;pg=PA178 |page=178 |publisher=L. P. Miller |year=1888 |location=Chicago|quote=[I]t may be sung by a child to the air of 'Home, Sweet Home'|ref=none}}
+* ({{cite journal |first=Fanny Hyde |last=Merrill |volume=lxx |issue=3 |location=New York |publisher=Congregational Home Missionary Society |journal=The Home Missionary |date=January 1898 |title=Bantam's Christmas Carol |page=158 |hdl=2027/hvd.ah6fdh?urlappend=%3Bseq=178|quote=He paused but a moment, then, to the tune of 'Home, Sweet Home', he sang the old hymn Luther wrote|ref=none}})
+* ({{cite journal|page=242 |journal=Wisconsin Journal of Education |title=The Christmas Manger Hymn |date=December 1904 |volume=xxxvi |issue=10|hdl=2027/iau.31858046241075?urlappend=%3Bseq=246|quote=To the tune of 'Flow Gently, Sweet Afton', or 'Home, Sweet Home'|ref=none}})&lt;/ref&gt; A musical arrangement was published in the early 1920s.&lt;ref&gt;{{cite book |title=Christmas carols. Number two |location=Ft. Wayne, Indiana|publisher=Parish Press|year=c. 1923}}; mentioned by Hill&lt;/ref&gt;
+
+The first known musical setting specifically published with the words appeared in an [[Evangelical Lutheran]] [[Sunday school]] collection, ''Little Children's Book for Schools and Families'' (1885; preface dated Christmas 1884), where it simply bore the title "Away in a Manger". It was set to a tune called "St. Kilda", credited to J.E. Clark.&lt;ref name="clark"&gt;{{cite book |author=Evangelical Lutheran Church in North America |title=Little Children's Book: for Schools and Families |publisher = J. C. File |location=Philadelphia |year=1885 |page=140 |hdl=2027/hvd.ah4wl6?urlappend=%3Bseq=146 |url=http://hdl.handle.net/2027/hvd.ah4wl6?urlappend=%3Bseq=146}}&lt;/ref&gt; The tune, according to Hill, "gives every appearance of being a standard melody used elsewhere for other hymns", but Hill adds that "no information on J. E. Clark or any other printing of his tune, previous or later, has been located."&lt;ref name="hill"/&gt; This publication is also notable for refraining from attributing the carol to Luther.&lt;ref name="hill"/&gt;
+
+The melody by John Bunyan Herbert&lt;ref name="herbert"&gt;{{cite book |title=The Joyful Story |page=11 |first=John Bunyan |last=Herbert |publisher=[[S. Brainard Sons|S. Brainard's Sons]] |location=Chicago |year=1891}}, reproduced in Hill&lt;/ref&gt; (first published in 1891), is identified by Hill as among the most popular.&lt;ref name="hill"/&gt; Like Murray's, Herbert's setting was often republished without credit to the original composer, with the melody sometimes even being misattributed to Luther himself.&lt;ref name="belle"&gt;{{cite book |title=Songs for the little child |first1=Clara Belle |last1=Baker |first2=Caroline |last2=Kohlsaat |publisher=Abingdon Press |location=New York |year=1921 |page=89 |hdl=2027/coo.31924055347250?urlappend=%3Bseq=101 |url=https://hdl.handle.net/2027/coo.31924055347250?urlappend=%3Bseq=101}}&lt;/ref&gt;
+
+Charles H. Gabriel, already mentioned as being the first to publish the third verse in 1892, is also notable for having published more different musical arrangements of the hymn than any other known composer.&lt;ref name="hill"/&gt;&lt;ref&gt;In detail:
+* {{cite book |title=Gabriel's vineyard songs: for Sunday-schools praise meetings, home circle, and all occasions of church service |first=Charles H. |last=Gabriel |year=1892 |location=Louisville, Kentucky|publisher=Guide Printing and Publishing Co. |oclc=9301040 |page=125|ref=none}} (Copyright 1892 by Guide Printing &amp; Pub. Co.)
+* {{cite book |title=Little Branches|editor1-first=Charles H.|editor1-last=Gabriel|editor2-first=W. S.|editor2-last=Nickle|year=1893 |location=Chicago |publisher=Meyer &amp; Brother |page=21|hdl=2027/hvd.32044077924330?urlappend=%3Bseq=27|ref=none}} (Copyright 1893 by Chas. H. Gabriel)
+* {{cite book |title=Make his praise glorious |url=https://archive.org/stream/makehispraiseglo00exce#page/n167/mode/2up |page=156 |editor-first=E. O.|editor-last=Excell|location=Chicago |publisher=E. O. Excell |year=1900|ref=none}} (Copyright 1896 by Chas. H. Gabriel. E. O. Excell, Owner.) (Melody almost identical to that of 1892, but with a changed time signature and addition of a refrain)
+* {{cite book |title=Sacred Songs for little voices |url=https://archive.org/stream/gsforli00kirk#page/n49/mode/2up |page=156|editor-first=Wm James|editor-last=Kirkpatrick|location=Chicago|publisher=Hope Publishing|year=1900|ref=none}} (Copyright 1899 by Henry Date)
+* {{cite book |title=The Counselor |location=Chicago |publisher=Chas. H. Gabriel |year=c. 1906}} cited in Hill&lt;/ref&gt; His 1896 setting, reprinted in many different collections, is based on his 1892 melody but adds a chorus at the end of each verse, with the word "asleep" sung antiphonally.&lt;ref name="hill"/&gt;
+
+Another popular arrangement, found at least as early as 1897,&lt;ref&gt;{{cite journal |journal=The Plan Book |volume=i |issue=4 |date=December 1897 |page=334 |first=Minnie M. |last=George |title=The Christmas Manger Hymn |hdl=2027/hvd.32044029941259?urlappend=%3Bseq=18 |url=https://hdl.handle.net/2027/hvd.32044029941259?urlappend=%3Bseq=18 }}&lt;/ref&gt; sets the words to [[Jonathan E. Spilman]]'s 1838 melody "[[Flow Gently, Sweet Afton]]". Hill, writing in 1941, found Spilman's musical setting to be the second-most published, after Murray's.&lt;ref name="hill"/&gt;
+
+An arrangement dating from 1911 sets the words to an "old Normandy Carol".&lt;ref name="hill"/&gt; This melody was subsequently published in [[Carols for Choirs]], arranged by [[Reginald Jacques]].
+
+An arrangement by Christopher Erskine combines the two most popular tunes for the hymn, from Kirkpatrick and Murray. Erskine's arrangement was first performed in 1996 at the annual pair of joint Carol Services in [[Manuka, Australian Capital Territory|Manuka]], [[Canberra]], sung by the choirs of St Paul's Church (Anglican) and St Christopher's Cathedral (Roman Catholic). In this version, the Kirkpatrick setting is sung by one choir, and the Murray setting by the other choir, alternating through the first two verses. Both settings are sung together for the third verse.{{citation needed|date=March 2017}}
+
+{{Gallery
+
+|title=Musical settings of "Away In A Manger"
+|width=300
+|height=300
+|lines=
+|align=center
+|File:Home sweet home 1880.png|An 1880 publication of "Home, Sweet Home", the earliest known musical setting of the carol.&lt;ref&gt;{{cite book |title=Garfield and Arthur Campaign Song Book|url=https://hdl.handle.net/2027/umn.31951001954527o?urlappend=%3Bseq=16 |page=12 |publisher=Republican Congressional Committee |location=Washington, DC |year=1880|hdl = 2027/umn.31951001954527o?urlappend=%3Bseq=16}}&lt;/ref&gt;
+|File:Away in a manger St Kilda.png|First known musical setting to be published with the carol, from "Little children's book" (1885).&lt;ref name="clark"/&gt;
+|File:Away in a manger Murray.png|"Mueller" by James R. Murray, as originally published in 1887.&lt;ref name="murray"/&gt;
+|File:Away in a Manger Herbert.png|J. B. Herbert's setting (1891), misattributed to Luther in this 1921 collection.&lt;ref name="belle"/&gt;
+|File:Away in a manger Kirkpatrick.png|"Cradle Song" by William J. Kirkpatrick, as originally published in 1895.&lt;ref name="kirkpatrick"/&gt;
+|File:Away in a manger gabriel 1896.png|Charles H. Gabriel's 1896 setting, featuring a chorus at the end of each verse.&lt;ref&gt;{{cite book |title=International Praise for the Sunday School and Church|editor-first=E. O.|editor-last=Excell|publisher=E. O. Excell|location=Chicago|page=153|year=1902|hdl = 2027/uiug.30112065893460?urlappend=%3Bseq=157}}&lt;/ref&gt;
+|File:Away in a manger Spilman ed Rowland.png|Set to the melody "Flow gently, Sweet Afton" by Spilman (from an 1898 collection).&lt;ref name="rowland"&gt;{{cite book|title=Childhood Songs|page=67|editor-first=Mira and Mabel|editor-last=Rowland|location=Philadelphia|publisher=A. J. Rowland|year=1898|hdl=2027/hvd.32044077925832?urlappend=%3Bseq=71}}&lt;/ref&gt;
+|File:Away in a manger Spilmen ed hutchins.png|A more expansive arrangement of Spilman's melody (1916).&lt;ref&gt;{{cite book |title=Carols Old and Carols New|editor-first=Charles L.|editor-last=Hutchins|location=Boston|publisher=The Parish Choir|page=495|year=1916|hdl = 2027/hvd.32044040543662?urlappend=%3Bseq=438|ref=none}}&lt;/ref&gt;
+|File:Away in a manger normandy carol.png|Set to an "Old Normandy carol" (1911).&lt;ref&gt;{{cite book |title=The Supplement |publisher=Morgan &amp; Scott |location=London |year=1914 |page=250 |url=https://archive.org/stream/supplec00lond#page/n231/mode/1up}}&lt;/ref&gt;
+}}
+
+==See also==
+* [[List of Christmas carols]]
+* [[Nativity scene]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{wikisource-inline|Away in a Manger}}
+
+{{authority control}}
+
+
+{{Commons category-inline}}
+
+{{DEFAULTSORT:Away in a Manger}}
+[[Category:1882 songs]]
+[[Category:Christmas carols]]
+[[Category:American Christian hymns]]
+[[Category:Glen Campbell songs]]
+[[Category:Songs about Jesus]]
+[[Category:English children's songs]]
+[[Category:19th-century hymns]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>8fmuw3ti5cw0ekfme19qm0plr59paqy</sha1>
+    </revision>
+  </page>
+</mediawiki>

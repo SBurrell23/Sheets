@@ -1,0 +1,383 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>The Holly and the Ivy</title>
+    <ns>0</ns>
+    <id>2616025</id>
+    <revision>
+      <id>1363959661</id>
+      <parentid>1361636292</parentid>
+      <timestamp>2026-07-13T15:39:59Z</timestamp>
+      <contributor>
+        <username>ShelfSkewed</username>
+        <id>1152308</id>
+      </contributor>
+      <comment>Dab link</comment>
+      <origin>1363959661</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21657" sha1="7ld6xgn6ziuc8kxxghex3vdmp8wy5uw" xml:space="preserve">{{short description|Traditional British folk Christmas carol}}
+{{For|the 1952 film|The Holly and the Ivy (film)}}
+{{use dmy dates|date=January 2015}}
+{{use British English|date=January 2015}}
+{{Infobox musical composition
+| name                = The Holly and the Ivy
+| type                = 
+| image               = Holly and the ivy in mid-February - geograph.org.uk - 342864.jpg
+| alt                 = 
+| caption             = Holly and ivy in Wales
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Christmas carol]]
+| occasion            = 
+| text                = English traditional carol
+| language            = 
+| written             =  
+| based_on            =  
+| meter               = 7.6.8.6 with refrain
+| melody              =  
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                =  
+}}
+
+[[File:The Holly and the Ivy (Cecil James Sharp 1911).mid|thumb|"The Holly and the Ivy" with piano accompaniment by [[Cecil Sharp|Cecil James Sharp]] (1911)]]
+"'''The Holly and the Ivy'''" is a traditional British folk [[Christmas carol]], listed as number 514 in the [[Roud Folk Song Index]]. The song can be traced only as far as the early nineteenth century, but the lyrics reflect an association between [[holly]] and [[Christmas]] dating back at least as far as [[Middle Ages|medieval]] times. The lyrics and melody varied significantly in traditional communities, but the song has since become standardised. The version which is now popular was collected in 1909 by the English folk song collector [[Cecil Sharp]] from a woman called Mary Clayton, in the market town of [[Chipping Campden]] in [[Gloucestershire]], [[England]].
+
+[[Trans-Siberian Orchestra]]'s "[[Christmas Eve and Other Stories|The Prince of Peace]]" is set to the same music.
+
+==Words==
+
+The following are taken from Sharp's ''English Folk-Carols'' (1911), the publication that first established the current words and melody:&lt;ref name="sharp"&gt;{{cite book |title=English Folk-Carols |first=Cecil J. |last=Sharp |location=London |publisher=Novello |year=1911 |url=http://imslp.org/wiki/English_Folk-Carols_(Sharp,_Cecil)}}&lt;/ref&gt;
+
+{|
+|-
+|&lt;poem&gt;1. The holly and the ivy,
+When they are both full grown,
+Of all the trees that are in the wood,{{0|—}}
+The holly bears the crown.
+
+:REFRAIN:
+:''The rising of the sun''
+:''And the running of the deer,''
+:''The playing of the merry organ,''
+:''Sweet singing in the choir.''
+
+2. The holly bears a blossom,
+As white as the lily flower,
+And Mary bore sweet Jesus Christ,
+To be our sweet Saviour. (''Refrain'')
+
+3. The holly bears a berry,
+As red as any blood,
+And Mary bore sweet Jesus Christ
+For to do us sinners good. (''Refrain'')&lt;/poem&gt;
+|valign="top"|&lt;poem&gt;4. The holly bears a prickle,
+As sharp as any thorn,
+And Mary bore sweet Jesus Christ
+On Christmas Day in the morn. (''Refrain'')
+
+5. The holly bears a bark,
+As bitter as any gall,
+And Mary bore sweet Jesus Christ
+To redeem us all. (''Refrain'')
+
+6. The holly and the ivy,
+When they are both full grown,
+Of all the trees that are in the wood,
+The holly bears the crown. (''Refrain'')&lt;/poem&gt;
+|}
+
+==History==
+[[File:Holly and Ivy Wadsworth.png|thumb|First verse from an anonymous broadside published by H. Wadsworth, Birmingham, 1814–1818. Note the repetition of "the sun".]]
+
+The words of the carol occur in three [[Broadside (music)|broadsides]] published in [[Birmingham]] in the early 19th century.&lt;ref name="wadsworth"&gt;{{cite book |title=The Holly &amp; Ivy |publisher=H. Wadsworth |location=Birmingham |url=https://www.vwml.org/record/CJS1/10/2/432/1}}; see also http://www.mustrad.org.uk/articles/birming4.htm&lt;/ref&gt;&lt;ref name="wrighton"&gt;{{cite book |title=The Holly &amp; Ivy; Twelve Articles |url=http://ballads.bodleian.ox.ac.uk/view/edition/6268 |publisher=D. Wrighton |location=Birmingham}}&lt;/ref&gt;&lt;ref name="bloomer"&gt;{{cite book |title=Herald Angels; The Holly &amp; Ivy |url=http://ballads.bodleian.ox.ac.uk/view/edition/24343 |publisher=T. Bloomer |location=Birmingham}}&lt;/ref&gt;
+
+An early mention of the carol's title occurs in [[William Hone]]'s 1823 work ''Ancient Mysteries Described'', which includes "The holly and the ivy, now are both well grown" among an alphabetical list of "Christmas Carols, now annually printed" that were in the author's possession.&lt;ref name="hone"&gt;{{cite book |last=Hone |first=William |location=London |publisher=W. Hone |title=Ancient mysteries described: especially the English miracle plays, founded on apocryphal New testament story, extant among the unpublished manuscripts in the British museum: including notices of ecclesiastical shows |pages=97–99 |url=http://babel.hathitrust.org/cgi/pt?num=97&amp;u=1&amp;seq=116&amp;view=image&amp;size=100&amp;id=hvd.32044004989851|date=2 January 2020 }}&lt;/ref&gt;
+
+The complete words of the carol are found in a book review dating from 1849, in which the reviewer suggested using the text of "The Holly and the Ivy" in place of one of the readings found in the book under discussion.&lt;ref name="theologian"&gt;[https://books.google.com/books?id=uikEAAAAQAAJ&amp;pg=PA198 Review of Rivington, ''Sertum Ecclesiae, the Church's Flowers''], from ''The Theologian and Ecclesiastic'' vol. vii, January to June 1849, pp. 198–200&lt;/ref&gt; The anonymous reviewer introduced the lyrics of carol thus: {{blockquote |Instead of passages from Bernard Barton, however, and Mary Howitt, we think we could have gathered more from the seventeenth century poets; and especially might larger use have been made of that touchingly simple class of religious ballads, which under the name of carols, &amp;c., is so rife throughout the rural districts, and the humbler quarters of England's great towns. Many of these are only orally preserved, but with a little trouble a large number might be recovered. We have before us at this time a collection of carols printed in the cheapest form, at Birmingham, uniting for the most part extreme simplicity, with distinct doctrinal teaching, a combination which constitutes the excellence of a popular religious literature. From this little volume we will extract one which might well take the place of the passage from Milton for Christmas Day. It is called the "Holly and the Ivy."}}
+
+The words of the carol were included in Sylvester's 1861 collection ''A Garland of Christmas Carols'' where it is claimed to originate from "an old broadside, printed a century and a half since" [i.e. around 1711]:&lt;ref name="sylvester"&gt;{{cite book |editor-first=Joshua |editor-last=Sylvester |title=A Garland of Christmas Carols, Ancient and Modern |year=1861 |location=London |publisher=John Camden Hotten |url=https://books.google.com/books?id=kXMCAAAAQAAJ&amp;pg=148 |page=148}}&lt;/ref&gt; Husk's 1864 ''Songs of the Nativity'' also includes the carol, stating:&lt;ref name="husk"&gt;{{cite book |editor-first1=William Henry |editor-last1=Husk |title=Songs of the Nativity |year=1864 |location=London |publisher=John Camden Hotten |url=https://archive.org/stream/songsofnativityb00husk#page/85/mode/1up |page=85}}&lt;/ref&gt; {{blockquote |This carol appears to have nearly escaped the notice of collectors, as it has been reprinted by one alone, who states his copy to have been taken from "an old broadside, printed a century and a half since," i.e. about 1710. It is still retained on the broadsides printed at [[Birmingham]].}} ''Early English Lyrics'' by Chambers and Sidgwick, published in 1907, repeats Husk's statement.&lt;ref&gt;{{cite book |first1=E.K. |last1=Chambers |first2=Frank|last2=Sidgwick |title=Early English lyrics : amorous, divine, moral &amp; trivial |location=London |publisher=A.H. Bullen |year=1907 |pages=374 |url=http://babel.hathitrust.org/cgi/pt?q1=holly;id=mdp.39015031006557;seq=390;start=1;sz=10;page=root;num=374;view=image;size=100;orient=0}}&lt;/ref&gt;
+
+==Variants==
+There have been many variants collected from traditional singers and early printed versions which differ significantly from the now popular version. The most popular traditional variant seems to have been "[[Sans Day Carol|The Holly Bears a Berry]]", whilst the more familiar "The Holly and the Ivy" variant was sung with a variety of tunes and lyrics.
+
+=== Lyrics ===
+{| style="text-align:center;"
+|+ '''Textual variants differing from Sharp (1911) (first verse and chorus)'''&lt;br /&gt;
+|-
+! style="width:20%; | Variant
+! style="width:10%;"|Wadsworth (1814–1818)&lt;ref name="wadsworth"/&gt;
+! style="width:10%;"|Bloomer (1817–1827)&lt;ref name="bloomer"/&gt;
+! style="width:10%;"|Wrighton (1812–1830)&lt;ref name="wrighton"/&gt;
+! style="width:10%;"|''The Theologian'' (1849)&lt;ref name="theologian"/&gt;
+! style="width:10%;"| Sylvester (1861)&lt;ref name="sylvester"/&gt;
+! style="width:10%;"| Husk (1864)&lt;ref name="husk"/&gt;
+|-
+|style="text-align:left;"|verse 1 line 2: '''''Now are''' both well grown''
+| X
+| X
+| X
+| X
+| X
+| X
+
+|-
+|style="text-align:left;"|chorus line 1: ''The rising of the sun, '''the sun,'''''
+| X
+| 
+| 
+| 
+| 
+|
+|-
+|style="text-align:left;"|chorus line 2: '''''{{strikethrough|And}} '''The running of the deer''
+| X
+| X
+| X
+| X
+| X
+| X
+
+|-
+|style="text-align:left;"|chorus line 3: ''The playing of the merry '''groan''''' {{sic}}
+| 
+| 
+| X
+| 
+| 
+|
+|-
+|style="text-align:left;"|chorus line 4: ''Sweet singing '''of''' the choir'' &lt;br /&gt;
+| X
+| 
+| 
+|
+| 
+|
+|-
+|style="text-align:left;"|chorus line 4: '''''The''' singing in the choir'' &lt;br /&gt;
+| 
+| 
+| 
+|
+| X
+| X
+|}
+
+==Music==
+
+===Standard melody===
+The popular melody for the carol was first published in Cecil Sharp's 1911 collection ''English Folk-Carols''.&lt;ref name="sharp" /&gt; Sharp states that he heard the tune sung by "Mrs. Mary Clayton, at [[Chipping Campden]]",&lt;ref&gt;Sharp (1911), p. 63&lt;/ref&gt; a quaint town in the [[Cotswolds]]. Sharp's manuscript transcription of Clayton's singing of the third verse, dated "Jan 13th 1909", is archived in the Cecil Sharp Manuscript Collection at [[Clare College, Cambridge]] and viewable online.&lt;ref&gt;[http://www.vwml.org/record/CJS2/10/2068 "The Holly &amp; the Ivy. Xmas Carol. Mrs. M. A. Clayton at Chipping Campden. Jan 13th 1909" (manuscript facsimile)]&lt;/ref&gt; The melody is notable in being confined to the notes of a [[hexachord]]. {{Image frame
+|align=center
+|caption=Melody as first published in Sharp, ''English Folk-Carols'' (1911)&lt;ref name="sharp"/&gt;
+|content=&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+  \time 3/4
+  \key g \major
+  \partial 4
+  \relative c''
+{ \set Staff.midiInstrument = #"flute"
+  \autoBeamOff
+  g4 |
+  g8 g8 g4 e'4 |
+  d4 b4. g8 |
+  g8 g8 g4 e'4 |
+  d2 d8 ([c8]) |
+  b8 a8 g4 b8 b8 |
+  e,8 e8 d4 g8 ([a8]) |
+  b8 c8 b4 a4 |
+  g2 r8 g8 |
+  g8 g8 g4 e'4 |
+  d4 ([b4]) g8 g8 |
+  g8 g8 g4 e'4 |
+  d2 d8 ([c8]) |
+  b8 a8 g4 b4 |
+  e,8 e8 d4 g8 a8 |
+  b8 c8 b4 a4 |
+  g2
+  \bar "|."
+}
+\addlyrics {
+  The
+  hol -- ly and the i -- vy,
+  When they are both full grown,
+  Of all the trees that are in the wood,
+  The hol -- ly bears the crown.
+  The ri -- sing of the sun
+  And the run -- ning of the deer,
+  The play -- ing of the mer -- ry or -- gan,
+  Sweet sing -- ing in the choir.
+}
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 4 = 106 }
+&lt;/score&gt;
+}}
+
+{{Listen|type=music|filename=HWW The holly and the ivy.ogg|title=Tune
+|filename2=The Holly and the Ivy.ogg|title2=Piano arrangement}}
+
+=== Other melodies ===
+The words have traditionally been sung to countless folk melodies, including three further tunes having been collected in Gloucestershire alone.&lt;ref&gt;{{Cite web|title=From the Gloucestershire Traditions online library|url=http://glostrad.com/browse/?fwp_search_browse=holly+and+the+ivy&amp;search_radio=Songs%2FTunes}}&lt;/ref&gt; Some traditional recordings have been made which demonstrate this melodic variety; these include one sung by Peter Jones of [[Ross-on-Wye]], [[Herefordshire]],&lt;ref&gt;{{Cite web|title=The Holly and the Ivy (Roud Folksong Index S178225)|url=https://www.vwml.org/record/RoudFS/S178225|access-date=2020-12-05|website=The Vaughan Williams Memorial Library|language=en-gb}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title=The Holly and the Ivy (Roud Folksong Index S380642)|url=https://www.vwml.org/record/RoudFS/S380642|access-date=2020-12-05|website=The Vaughan Williams Memorial Library|language=en-gb}}&lt;/ref&gt; and another performed by Bessie Wallace of [[Camborne]], [[Cornwall]] in the early 1930s and recorded by [[James Madison Carpenter]], which is publicly available on the [[Vaughan Williams Memorial Library]] website.&lt;ref&gt;{{Cite web|title=Holly and the Ivy, The (VWML Song Index SN16706)|url=https://www.vwml.org/record/VWMLSongIndex/SN16706|access-date=2020-12-05|website=The Vaughan Williams Memorial Library|language=en-gb}}&lt;/ref&gt; The "[[Sans Day Carol]]", considered a variant of the song, is associated with a different tune.
+
+The early nineteenth-century sources do not provide music for the carol. Several late nineteenth-century collections set the words to "old French carol" in D minor.&lt;ref&gt;{{cite book
+|title=The holidays: Christmas, Easter, and Whitsuntide: their social festivities, customs, and carols
+|first=Nathan Boughton
+|last=Warren
+|publisher=Hurd and Houghton
+|year=1868
+|location=Cambridge, MA
+|url=https://babel.hathitrust.org/cgi/pt?id=coo1.ark:/13960/t16m3tm27;view=2up;seq=210;size=150
+|pages=182–183
+}}
+&lt;/ref&gt;&lt;ref&gt;{{cite book |title=Christmas Carols New and Old
+|first1=Henry Ramsden
+|last1=Bramley
+|first2=John
+|last2=Stainer
+|publisher=Novello, Ewer and Co.
+|location=London
+|year=c. 1871
+|url=https://www.ccel.org/ccel/bramley/carols/files/jpg/0055=50.htm
+}}&lt;/ref&gt;&lt;ref&gt;{{cite book |title=Old English Carols set to music: traditional and original
+|publisher=Alexander Shapcott
+|year=c. 1875
+|location=London
+|url=https://archive.org/details/oldenglishcarols00wins
+|pages=[https://archive.org/details/oldenglishcarols00wins/page/7 7]–8
+}}&lt;/ref&gt;
+[[File:Holly and the Ivy (Old French Carol).png|thumb|center|upright=2.5|Set to an "Old French Carol"]]
+
+==Cultural background==
+[[File:The holly and the ivy - geograph.org.uk - 723060.jpg|thumb|Green holly and ivy]]
+
+[[Holly]], especially the variety found in Europe, is commonly referenced at [[Christmastide|Christmas time]], and is often referred to by the name ''Christ's thorn''.&lt;ref&gt;{{cite book|editor=Sanford Niles|title=Christmas History and Customs|year=1895|publisher=School Education Company|language=en|page=24|quote=In Germany and Scandinavia the holly, or holy tree, is called "Christ's thorn," from its use in church decorations, and because it bears berries at Christmas-tide.}}&lt;/ref&gt;&lt;ref name="Mosteller2008"/&gt; Since medieval times the plant has carried a [[Christian symbolism]],&lt;ref name="Struthers2012"&gt;{{cite book|last=Struthers|first=Jane|title=The Book of Christmas|date=4 October 2010|publisher=Ebury Publishing|language=en|isbn=9781448148936|page=218|quote=The British native holly (''Ilex aquifolim'') has tremendous religious significance at Christmas. Its prickly leave are evocative of the crown of thorns that was placed on Jesus Christ's head at His crucifixion, and its scarlet berries are synonymous with drops of His blood.}}&lt;/ref&gt; as expressed in this popular Christmas carol "The Holly and the Ivy", in which the holly represents [[Jesus]] and the [[ivy]] represents His mother, the [[Virgin Mary]].&lt;ref name="Mosteller2008"/&gt; Angie Mostellar discusses the Christian use of holly at Christmas, stating that:&lt;ref name="Mosteller2008"/&gt;
+{{blockquote|Christians have identified a wealth of symbolism in its form. The sharpness of the leaves help to recall the [[crown of thorns]] worn by Jesus; the red berries serve as a reminder of the drops of [[Blood of Christ|blood]] that were shed for [[Salvation (Christianity)|salvation]]; and the shape of the leaves, which resemble flames, can serve to reveal God's burning love for His people. Combined with the fact that holly maintains its bright colors during the [[Christmastide|Christmas season]], it naturally came to be associated with the Christian holiday.&lt;ref name="Mosteller2008"&gt;{{cite book|last=Mosteller|first=Angie |title=Christmas|year=2008|publisher=Itasca Books|language=en|isbn=9781607910084|pages=86–87, 89}}&lt;/ref&gt;}} As such, holly and ivy have been a mainstay of British Advent and Christmas decorations for Church use since at least the fifteenth and sixteenth centuries, when they were mentioned regularly in [[churchwardens' accounts]] (Roud 2004).&lt;ref name="CieslaNations2002"&gt;{{cite book|last=Ciesla|first=William M.|title=Non-wood Forest Products from Temperate Broad-leaved Trees|url=https://archive.org/details/bub_gb_yDoE8-8YPwsC|year=2002|publisher=Food and Agriculture Organization of the United Nations|language=en|isbn=9789251048559|page=[https://archive.org/details/bub_gb_yDoE8-8YPwsC/page/n118 13]|quote=Holly is still a popular Christmas decoration among Christian cultures.}}&lt;/ref&gt;
+
+Holly and ivy figure in the lyrics of the "[[Sans Day Carol]]". The music was first published by [[Cecil Sharp]].&lt;ref&gt;[http://www.carols.org.uk/the_holly_and_the_ivy.htm The Holly and the Ivy lyrics]&lt;/ref&gt; Sir [[Henry Walford Davies]] wrote a popular choral arrangement that is often performed at the Festival of [[Nine Lessons and Carols]] and by choirs around the world. [[Henry VIII]] wrote a love song ''[[Green Groweth the Holly]]'' which alludes to holly and ivy resisting winter blasts and not changing their green hue ''So I am and ever hath been Unto my lady true''.
+
+Hone's 1823 ''Ancient Mysteries Described'', which lists the carol's title as mentioned above, also describes (p 94)&lt;ref name="hone"/&gt; a British Museum manuscript: ''The same volume contains a song on the Holly and the Ivy which I mention because there is an old Carol on the same subject still printed. The MS begins with'',
+
+[[File:Winter in Elmstead Woods (8), the holly and the ivy - geograph.org.uk - 1655707.jpg|thumb|Holly and ivy in the snow in [[Elmstead Wood]]]]
+
+&lt;poem style="margin-left: 2em;"&gt;Nay, my nay, hyt shal not be I wys,
+Let holy hafe the maystry, as the maner ys:
+
+Holy stond in the hall, faire to behold,
+Ivy stond without the dore, she ys ful sore acold,
+Nay, my nay etc
+
+Holy and hys mery men, they dawnseyn and they syng,
+Ivy and hur maydyns, they wepen and they wryng.
+
+Nay, my nay etc&lt;/poem&gt;
+
+"The Holly and the Ivy" is also related to an older carol described by Sharp as: "The Contest of the Ivy and the Holly", a contest between the traditional emblems of woman and man respectively.
+
+&lt;poem style="margin-left: 2em;"&gt;Holly stands in the hall, fair to behold:
+Ivy stands without the door, she is full sore a cold.
+''Nay, ivy, nay, it shall not be I wis;''
+''Let holly have the mastery, as the manner is.''
+
+Holly and his merry men, they dance and they sing,
+Ivy and her maidens, they weep and they wring.
+''Nay, ivy, nay,'' etc
+
+Ivy hath chapped fingers, she caught them from the cold,
+So might they all have, aye, that with ivy hold.
+''Nay, ivy, nay,'' etc
+
+Holly hath berries red as any rose,
+The forester, the hunter, keep them from the does.
+''Nay, ivy, nay,'' etc
+
+Ivy hath berries black as any sloe;
+There come the owl and eat him as she go.
+''Nay, ivy, nay,'' etc
+
+Holly hath birds a fair full flock,
+The nightingale, the popinjay, the gentle laverock.
+''Nay, ivy, nay,'' etc
+
+Good ivy, what birds hast thou?
+None but the owlet that cries how, how.
+''Nay, ivy, nay,'' etc&lt;/poem&gt;
+
+==See also==
+* [[List of Christmas carols]]
+
+==References==
+{{Reflist}}
+
+==Further reading==
+*{{cite book|author=Steve Roud|year=2004|title=A Pocket Guide to Superstitions of the British Isles|publisher=Penguin|isbn=0-14-051549-6|ref=none}}
+*{{cite book|author=Brendan Lehane|year=1986|title=The Book of Christmas (The Enchanted World)|publisher=Time-Life Books Inc|isbn=0-8094-5261-8|url-access=registration|url=https://archive.org/details/bookofchristmas00leha|ref=none}}
+
+==External links==
+{{wikisource}}
+* Free [http://cantorion.org/music/17/The+Holly+and+the+Ivy sheet music] for piano from ''Cantorion.org''
+* [http://www.hymnswithoutwords.com/hymns/The_holly_and_the_ivy Hymns Without Words] {{Webarchive|url=https://web.archive.org/web/20131214041221/http://www.hymnswithoutwords.com/hymns/The_holly_and_the_ivy |date=14 December 2013 }} free recording for download suitable for services
+* [https://web.archive.org/web/20070212193036/http://www.penguin.co.uk/nf/Author/AuthorPage/0,,0_1000062980,00.html?sym=MIS Steve Roud on superstitions]
+* [http://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/contest_of_the_ivy_and_the_h.htm?sym= "Notes on 'The Contest of the Holy and the Ivy'"]
+* [http://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/holly_and_the_ivy.htm Hymns and Carols of Christmas]
+* [https://books.google.com/books?id=fukFAAAAQAAJ&amp;pg=PA99 Ancient Mysteries Described Especially the English Miracle Plays, Founded on Apocryphal New Testament Story, Extant Among the Unpublished Manuscripts in the British Museum, Including Notices of Ecclesiastical Shows, the Festivals of Fools and Asses, the English Boy-bishop, the Descent Into Hell, the Lord Mayor's Show, the Guildhall Giants, Christmas Carols, Etc By William Hone, George Cruikshank]
+* {{usurped|1=[https://web.archive.org/web/20120120004038/http://piereligion.org/yulesongs.html#holly Holly and Ivy Songs]}}
+
+{{Portal bar|Christianity}}
+{{Marian hymns}}
+{{Authority control}}
+
+{{DEFAULTSORT:Holly And The Ivy, The}}
+[[Category:Christmas carols]]
+[[Category:Songs about plants]]
+[[Category:Pinky and Perky songs]]
+[[Category:British Christmas songs]]
+[[Category:Marian hymns]]
+[[Category:Songs about Jesus]]
+[[Category:Year of song unknown]]
+[[Category:Advent songs]]</text>
+      <sha1>7ld6xgn6ziuc8kxxghex3vdmp8wy5uw</sha1>
+    </revision>
+  </page>
+</mediawiki>

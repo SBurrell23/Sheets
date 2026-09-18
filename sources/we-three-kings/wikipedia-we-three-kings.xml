@@ -1,0 +1,284 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>We Three Kings</title>
+    <ns>0</ns>
+    <id>1092557</id>
+    <revision>
+      <id>1373948208</id>
+      <parentid>1370639357</parentid>
+      <timestamp>2026-09-08T22:39:50Z</timestamp>
+      <contributor>
+        <username>DC1466</username>
+        <id>25354610</id>
+      </contributor>
+      <comment>/* Parodies */</comment>
+      <origin>1373948208</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20755" sha1="bbg5b6o2uxeuyylzige0u1t33yuafrc" xml:space="preserve">{{Short description|Epiphany carol}}
+{{Distinguish|The Three Kings}}
+{{other uses}}
+{{use American English|date=January 2026}}
+{{Infobox musical composition
+| name                = Three Kings of Orient
+| type                = 
+| image               = Bartolomé Esteban Murillo - Adoration of the Magi - Google Art Project.jpg
+| alt                 = 
+| caption             = The ''[[Adoration of the Magi]]'' by [[Bartolomé Esteban Murillo]], about 1655–1660. [[Toledo Museum of Art]], [[Toledo, Ohio]].
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Christmas carol]]
+| occasion            = 
+| text                = [[John Henry Hopkins Jr.]]
+| language            = 
+| written             = 1857
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Matthew|chapter=2|verse=1}}
+| meter               = 8.8.4.4.6 with refrain
+| melody              = "Three Kings of Orient" by John Henry Hopkins Jr.
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 1863
+| misc                = 
+}}
+"'''We Three Kings'''", original title "'''Three Kings of Orient'''", also known as "'''We Three Kings of Orient Are'''" or "'''The Quest of the Magi'''", is a [[Christmas carol]] that was written by [[John Henry Hopkins Jr.]] in 1857. At the time of composing the carol, Hopkins served as the rector of [[Christ Episcopal Church (Williamsport, Pennsylvania)|Christ Episcopal Church]] in [[Williamsport, Pennsylvania]], and he wrote the carol for a [[Nativity play|Christmas pageant]] in [[New York City]]. It became the first widely popular Christmas carol written in America.&lt;ref name=huron&gt;{{cite news|title=America's first Christmas carol written in Huron|url=https://news.google.com/newspapers?id=hbdaAAAAIBAJ&amp;pg=5456,507145|date=December 17, 1982|access-date=December 26, 2013|page=12B|first=Doug|last=Storer|newspaper=[[Evening Independent]]|location=St. Petersburg, Florida}}&lt;/ref&gt;
+
+==Lyrics==
+{|
+|+'''Three Kings of Orient'''
+|-
+|style="vertical-align: top;"|&lt;poem&gt;All&lt;/poem&gt;||&lt;poem&gt;We [[Biblical Magi|Three Kings]] of [[Orient]] are,
+Bearing gifts we traverse afar,
+Field and fountain,
+Moor and mountain,
+Following yonder [[Star of Bethlehem|Star]].&lt;/poem&gt;
+|-
+|style="vertical-align: top;"|&lt;poem&gt;''Refrain''&lt;/poem&gt;||&lt;poem&gt;{{0|—}}O Star of Wonder, Star of Night,
+{{0|—}}Star with Royal Beauty bright,
+{{0|—}}Westward leading,
+{{0|—}}Still proceeding,
+{{0|—}}Guide us to Thy perfect Light.&lt;/poem&gt;
+|-
+|style="vertical-align: top;"|&lt;poem&gt;[[Caspar (magus)|Gaspard]]&lt;/poem&gt;||&lt;poem&gt;Born a [[Kingly office of Christ|King]] on [[Bethlehem]] plain,
+[[Gold]] I bring to crown [[Jesus|Him]] again,
+King for ever,
+Ceasing never
+Over us all to reign.
+{{0|—}}''Refrain''&lt;/poem&gt;
+|-
+|style="vertical-align: top;"|&lt;poem&gt;[[Melchior (magus)|Melchior]]&lt;/poem&gt;||&lt;poem&gt;[[Frankincense]] to offer have I,
+[[Incense]] owns a [[Deity]] nigh:
+[[Prayer]] and praising
+All men raising,
+Worship Him [[God]] on High.
+{{0|—}}''Refrain''&lt;/poem&gt;
+|-
+|style="vertical-align: top;"|&lt;poem&gt;[[Balthazar (magus)|Balthazar]]&lt;/poem&gt;||&lt;poem&gt;[[Myrrh]] is mine; its bitter perfume
+Breathes a life of gathering gloom;—
+[[Agony in the Garden|Sorrowing, sighing]],
+[[Crucifixion of Jesus|Bleeding, dying]],
+Sealed in the [[tomb of Jesus|stone-cold tomb]].
+{{0|—}}''Refrain''&lt;/poem&gt;
+|-
+|style="vertical-align: top;"|&lt;poem&gt;All&lt;/poem&gt;||&lt;poem&gt;Glorious now behold Him arise,
+King, and God, and Sacrifice;
+Heav'n sings [[Hallelujah]]:
+Hallelujah the earth replies.
+{{0|—}}''Refrain''&lt;ref name=HopkinsIMSLP&gt;{{IMSLP|work=We Three Kings (Hopkins Jr., John Henry)|cname="We Three Kings" (Hopkins)}}&lt;/ref&gt;&lt;/poem&gt;
+|}
+
+===Composition===
+&lt;score raw="1" sound="1"&gt;
+\header { tagline = ##f }
+\layout { indent = 0 \set Score.tempoHideNote = ##t
+  \context { \Score \remove "Bar_number_engraver" }
+  \context { \Voice \consists "Melody_engraver" }
+}
+
+global = { \key e \minor \time 3/8 }
+
+chordNames = \chordmode {
+  \global \set midiInstrument = #"acoustic guitar (steel)"
+  \repeat volta 2 { e4.:m\p | e:m | b:7 | e:m }
+  \once \set chordChanges = ##f e:m | d | g | g | a:m | e4:m b8:7 | e4.:m \bar "||"
+  d:7 | \repeat volta 2 { g | g | c | g | }
+  e:m | d4 g8 | c4 g8 | d4 g8 | g4 c8 | g4. | c | g \bar "|."
+}
+
+soprano = \relative c'' {
+  \global \set midiInstrument = #"trumpet" \tempo 4=100
+  \repeat volta 2 { b4 a8 | g4 e8 | fis g fis | e4 r8 | }
+  g4 g8 | a4 a8 | b4 b8 | d (c) b | a b a | g4 fis8 | e4 r8 \bar "||"
+  \tempo 4=45 fis4\fermata (\tempo 4=24 a8) | \tempo 4=100 \repeat volta 2 { g4 g8 | g4 d8 | g4 e8 | g4 r8 | }
+  g4 g8 | a4 b8 | c4 b8 | a4 b8 |
+  g4 g8 | g4 d8 | g4 e8 | g4. \bar "|."
+}
+
+alto = \relative c' {
+  \global \set midiInstrument = #"trumpet"
+  \repeat volta 2 { e4 fis8 | e4 b8 | dis dis dis | b4 r8 | }
+  e4 e8 | fis4 fis8 | g4 g8 | g (a) g | e e e |e4 dis8 | b4 r8 \bar "||"
+  d4. | \repeat volta 2 { d4 d8 | d4 b8 |e4 c8 | d4 r8 | }
+  e4 e8 |fis4 g8 | g4 g8 | fis4 g8 | g4 e8 | d4 d8 | e4 c8 | d4. \bar "|."
+}
+
+tenor = \relative c' {
+  \global \set midiInstrument = #"french horn"
+  \repeat volta 2 { g4 b8 | b4 g8 | a b a | g4 r8 | }
+  b4 b8 |d4 d8 | d4 d8 | d4 d8 | c c c | b4 a8 g4 r8 \bar "||"
+  c4.\fermata | \repeat volta 2 { b4 b8 | b4 g8 | g4 g8 | b4 r8 | }
+  b4 b8 |d4 d8 | e4 d8 |d4 d8 | b4 c8 | b4 g8 | g4 a8 | b4. \bar "|."
+}
+
+bass = \relative c {
+  \global \set midiInstrument = #"french horn"
+  \repeat volta 2 { e4 e8 | e4 e8 | b b b | e4 r8 | }
+  e4 e8 |d4 d8 | g4 g8 | b (fis) g | a a a | b4 b,8 | e4 r8 \bar "||"
+  d4. | \repeat volta 2 { g4 g8 | g4 g8 | c,4 c8 | g4 r8 | }
+  e'4 e8 | d4 g8 | c,4 g'8 | d4 g8 | g4 g8 | g4 b,8 | c4 c8 | &lt;g g'&gt;4. \bar "|."
+}
+
+verse = \lyricmode {
+  We three kings of O -- ri -- ent are,
+  Field and foun -- tain, Moor and moun -- tain,
+  Fol -- low -- ing yon -- der star.
+    
+  O star of won -- der, star of night,
+    
+  West -- ward lead -- ing,
+  Still pro -- ceed -- ing,
+  Guide us to Thy per -- fect light.
+}
+verseR = \lyricmode { % This is a terrible hack to get the lyrics aligned.
+  Bear -- ing gifts we tra -- verse a -- far,
+  "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" Star with roy -- al beau -- ty bright,
+}
+
+chordsPart = \new ChordNames { \set chordChanges = ##t \chordNames }
+
+choirPart = \new ChoirStaff &lt;&lt;
+  \new Staff \with { \consists "Merge_rests_engraver" }
+  &lt;&lt;
+    \new Voice = "soprano" { \voiceOne \soprano }
+    \new Voice = "alto" { \voiceTwo \alto }
+  &gt;&gt;
+  \new Lyrics \lyricsto "soprano" \verse
+  \new Lyrics \lyricsto "soprano" \verseR
+  \new Staff \with { \consists "Merge_rests_engraver" }
+  &lt;&lt;
+    \clef bass
+    \new Voice = "tenor" { \voiceOne \tenor }
+    \new Voice = "bass" { \voiceTwo \bass }
+  &gt;&gt;
+&gt;&gt;
+
+\score {
+  &lt;&lt;
+    \chordsPart
+    \choirPart
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \chordsPart \\ \soprano \alto \\ \tenor \bass &gt;&gt; }
+  \midi {
+    \context { \Score midiChannelMapping = #'instrument }
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;
+:Source&lt;ref name=HopkinsIMSLP /&gt;
+
+[[John Henry Hopkins Jr.]] organized the carol in such a way that three male voices would each sing a [[solo (music)|solo]] verse in order to correspond with the three kings.&lt;ref name=encyclopedia&gt;{{cite book|url=https://books.google.com/books?id=OSuXAAAAQBAJ&amp;pg=PA436|title=The Christmas Encyclopedia, 3d ed.|publisher=McFarland|date=August 30, 2013|last=Crump|first=William D.|pages=436–437|isbn=9781476605739}}&lt;/ref&gt; The first and last verses of the carol are sung together by all three as "verses of praise", while the intermediate verses are sung individually with each king describing the gift he was bringing.&lt;ref&gt;{{cite news|title=The Stories Behind The Songs|url=http://nl.newsbank.com/nl-search/we/Archives?p_product=RO&amp;p_theme=ro&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0EAEA366CA791B4F&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM|date=December 24, 1993|access-date=December 27, 2013|page=NRV5|first=Cody|last=Lowe|newspaper=[[The Roanoke Times]]|archive-date=January 2, 2014|archive-url=https://web.archive.org/web/20140102200309/http://nl.newsbank.com/nl-search/we/Archives?p_product=RO&amp;p_theme=ro&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0EAEA366CA791B4F&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM|url-status=dead}}{{subscription required}}&lt;/ref&gt; The [[refrain]] proceeds to praise the beauty of the [[Star of Bethlehem]].&lt;ref name=tradition&gt;{{cite news|title=Carol singing popular tradition|url=https://news.google.com/newspapers?id=ceJUAAAAIBAJ&amp;pg=972,5442230&amp;dq=we+three+kings+carol&amp;hl=en|date=December 24, 1966|access-date=December 26, 2013|page=6|first=Ruth|last=Willson|newspaper=[[The Leader-Post]]|location=Regina}}&lt;/ref&gt; The Magi's solos are typically not observed during contemporary performances of the carol.&lt;ref name=encyclopedia/&gt;
+
+The carol's melody has been described as "sad" and "shifting" in nature.&lt;ref name=hand&gt;{{cite news|title=Caroling Into Christmas Insurance Salesmen, Teachers Had A Hand In Writing Songs|url=http://nl.newsbank.com/nl-search/we/Archives?p_product=AS&amp;p_theme=as&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0F78E92BC211BE51&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM|date=December 19, 1993|access-date=December 27, 2013|page=G1|first=Mike|last=Dunham|newspaper=[[Anchorage Daily News]]|archive-date=December 26, 2022|archive-url=https://web.archive.org/web/20221226130419/http://nl.newsbank.com/nl-search/we/Archives?p_product=AS&amp;p_theme=as&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0F78E92BC211BE51&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM|url-status=dead}}{{subscription required}}&lt;/ref&gt; Because of this, it highly resembles a song from the [[Middle Ages]] and [[Middle Eastern music]], both of which it has been frequently compared to.&lt;ref name=hand/&gt;
+
+===Context===
+The carol centers around the [[Biblical Magi]], who visited [[Jesus]] as a child in a manger ({{Sourcetext|source=Bible|version=King James|book=Matthew|chapter=2|verse=1}}) sometime after [[Nativity of Jesus|his Nativity]] and gave him gifts of [[gold]], [[frankincense]], and [[myrrh]] while [[Adoration of the Magi|paying homage]] to him. Though the event is recounted in the [[Gospel of Matthew]], there are no further details given in the New Testament with regards to their names, the number of Magi who were present, or whether they were even royal.&lt;ref&gt;{{cite book|url=https://books.google.com/books?id=NlbGbPk9zBUC&amp;pg=PA65|title=A Book of Feasts and Seasons|publisher=Gracewing Publishing|year=1992|last=Bogle|first=Joanna|pages=65|isbn=9780852442173}}&lt;/ref&gt;&lt;ref name=carolers&gt;{{cite book|url=https://books.google.com/books?id=43W_cwcQJQIC&amp;pg=PA36|title=The Christmas Carolers' Book in Song and Story|publisher=Alfred Music Publishing|date=March 1, 1985|page=36|isbn=9781457466618}}&lt;/ref&gt; There are, however, verses in the Old Testament that foretell of the visitors: Isaiah 60:6: "The wealth of the nations will come to you. A multitude of camels will cover you. The young camels of Midian and Ephah; All those from Sheba will come; They will bring gold and frankincense, and will bear good news of the praises of the Lord." (New American Standard Bible), and two selections from the Psalms – Psalm 72:10: "The kings of Tarshish and of the isles shall pay tribute, and the kings of Arabia and Saba offer gifts" and Psalm 72:15: "...and may there be given to him gold from Arabia" (New American Standard Bible). Hence, the names of the Magi—[[Melchior (magus)|Melchior]], [[Caspar (magus)|Caspar]], and [[Balthazar (magus)|Balthazar]]—and their status as kings from the [[Orient]] are legendary and based on tradition.&lt;ref name=tradition/&gt;&lt;ref name=carolers/&gt; The number three stems from the fact that there were three separate gifts that were given.&lt;ref name=joy&gt;{{cite book|url=https://books.google.com/books?id=Ke_dH6P1mQMC&amp;pg=PA97|title=Joy to the World!: The Stories Behind Your Favorite Christmas Carols|publisher=Kregel Publications|year=1999|last=Osbeck|first=Kenneth W.|page=97|isbn=9780825434310}}&lt;/ref&gt; The solo verses and final verse make explicit a tradition according to which the three gifts symbolize three aspects of Jesus, as "[[Christ the King|King]]" (gold, representing wealth and power) and "[[God the Son|God]]" (incense, representing worship) and "[[Lamb of God|sacrifice]]" (myrrh, used to embalm the dead).&lt;ref name=carolers /&gt;
+
+==Background and influence==
+At the time he was writing "We Three Kings" in 1857, [[John Henry Hopkins Jr.]] was serving as the rector of [[Christ Episcopal Church (Williamsport, Pennsylvania)|Christ Episcopal Church]] in [[Williamsport, Pennsylvania]].&lt;ref name=tradition/&gt;&lt;ref name=Bethlehem&gt;{{cite news|title=Bethlehem Inspired American To Write Famous Carol|url=https://news.google.com/newspapers?id=RK4rAAAAIBAJ&amp;pg=6263,5398644&amp;dq=john+henry+hopkins+jr+we+three+kings&amp;hl=en|date=December 22, 1959|access-date=December 26, 2013|page=13|first=Hugh A.|last=Mulligan|newspaper=[[The Telegraph (Nashua, New Hampshire)|The Telegraph]]|location=Nashua, New Hampshire}}&lt;/ref&gt; Although he originally worked as a [[journalist]] for a New York newspaper and studied to become a [[lawyer]],&lt;ref name=hand/&gt;&lt;ref&gt;{{cite news|title=Christmas Classics|url=https://news.google.com/newspapers?id=nKk0AAAAIBAJ&amp;pg=5265,7059692&amp;dq=we+three+kings+carol&amp;hl=en|date=December 19, 2005|access-date=December 28, 2013|page=6|first=Neil|last=Pond|newspaper=[[McCook Daily Gazette]]}}&lt;/ref&gt; he chose to join the [[Minister (Christianity)|clergy]] upon graduating from the [[University of Vermont]].&lt;ref name=behind&gt;{{cite news|title=Stories Behind The Hymns – We Three Kings|url=http://www.gaffneyledger.com/news/2007-11-30/lifestyles/039.html|date=November 30, 2007|access-date=December 28, 2013|first=Warren|last=Shiver|newspaper=[[The Gaffney Ledger]]}}&lt;/ref&gt; Hopkins studied at the [[General Theological Seminary]] in New York City and after graduating and being ordained a [[deacon]] in 1850, he became its first music teacher five years later, holding the post until 1857 alongside his ministry in the Episcopal Church.&lt;ref name=joy/&gt;&lt;ref name=behind/&gt;
+
+During his final year of teaching at the seminary,&lt;ref name=behind/&gt; Hopkins wrote "We Three Kings" for a [[Nativity play|Christmas pageant]] held at the college.&lt;ref&gt;{{cite news|title=Creation of classics|url=https://news.google.com/newspapers?id=0gpFAAAAIBAJ&amp;pg=1972,4258244&amp;dq=john+henry+hopkins+jr+we+three+kings&amp;hl=en|date=December 25, 2006|access-date=December 26, 2013|page=6B|first=Cathy|last=Higgins|newspaper=[[The Albany Herald]]}}&lt;/ref&gt; It was noteworthy that Hopkins composed both the lyrics and music; contemporary carol composers usually wrote either the lyrics or music but not both.&lt;ref name=Bethlehem/&gt;&lt;ref name=origins&gt;{{cite news|title=The origins of Christmas Songs|url=https://news.google.com/newspapers?id=8L4yAAAAIBAJ&amp;pg=3078,5536068&amp;dq=we+three+kings&amp;hl=en|date=December 19, 1986|access-date=December 26, 2013|page=H1|first=Mike|last=Flanagan|newspaper=[[Ottawa Citizen]]}}&lt;/ref&gt; Originally titled "Three Kings of Orient", it was sung within his circle of family and friends. Because of the popularity it achieved among them, Hopkins decided to publish the carol in 1863 in his book ''Carols, Hymns, and Songs''.&lt;ref&gt;{{cite book|last=Hopkins|first=John Henry Jr.|author-link=John Henry Hopkins Jr.|title=Carols, Hymns, and Songs|chapter=Three Kings of Orient|pages=12–13|chapter-url=https://archive.org/details/carolshym00hopk/page/n19/mode/2up|year=1863|publisher=Church Book Depository|location=New York City}}&lt;/ref&gt; It became the first Christmas carol originating from the United States to achieve widespread popularity,&lt;ref name=huron/&gt; as well as the first to be featured in ''Christmas Carols Old and New'',{{clarify|date=December 2022|reason=The source, Mike Flanagan at the Ottawa Citizen, may be mistaken as no such book can be found.}} a collection of carols that was published in the United Kingdom.&lt;ref name=origins /&gt; In 1916, the carol was printed in the [[List of hymnals#Anglican|hymnal for the Episcopal Church]]; that year's edition was the first to have a separate section for Christmas songs.&lt;ref name=hand/&gt;&lt;!--but this is actually an Epiphany song; was there no Epiphany section?--&gt; "We Three Kings" was also included in ''[[The Oxford Book of Carols]]'' published in 1928, which praised the song as "one of the most successful of modern composed carols".&lt;ref name=carolers/&gt;
+
+==In popular music==
+Jazz, rock, and reggae musicians recorded "We Three Kings".
+*[[Percy Faith]] (1958)&lt;ref&gt;[https://www.percyfaith.info/discography/original/Hallelujah Percy Faith discography]&lt;/ref&gt;
+*[[Ramsey Lewis]] (1964)&lt;ref&gt;[https://www.ramseylewis.com/discography Ramsey Lewis discography]&lt;/ref&gt;
+*[[The Beach Boys]] (1964)&lt;ref&gt;{{AllMusic|class=album|id=mw0000041748|title=The Beach Boys' Christmas Album|author=Jason Birchmeier}}&lt;/ref&gt;
+*[[Patti Smith]] (1997)&lt;ref&gt;On ''[[A Very Special Christmas 3]]'' produced by [[Bobby Shriver]]&lt;/ref&gt;
+*[[Jethro Tull (band)|Jethro Tull]] (2003) [[The Jethro Tull Christmas Album|"We Five Kings"]]&lt;ref&gt;{{AllMusic|class=album|id=mw0000318223|title=The Jethro Tull Christmas Album|author=Dave Sleger}}&lt;/ref&gt;
+*[[Blondie (band)|Blondie]] (2009)&lt;ref&gt;{{YouTube|title=Blondie – "We Three Kings" music video|id=r0h-GNWvKDE}}&lt;/ref&gt;
+
+In the televised cartoon ''[[A Claymation Christmas Celebration]]'' (1987), the Three Kings sing the verses in traditional choral style, while their camels perform the chorus as a [[doo-wop]] song. The kings were voiced by [[Dan Sachs]], [[Jim Steinberger]], and [[Pat Harryman]], and the camels by [[Ron Tinsley]] and [[Patric J. Miller]], the arrangement was written by Miller.&lt;ref&gt;''Claymation Christmas Celebration'', [[Atlantic Records]], 1988.&lt;/ref&gt;
+
+==Parodies==
+Since the early 1950s, the carol has been parodied by British and American children. The subject of the lyrics varies widely depending upon the region. One well-known parody involves the three kings smoking explosive rubber cigars;&lt;ref&gt;{{Cite news |last=King |first=Betty |last2=Lunner |first2=Lucille |date=December 20, 1951 |title=Kampus Kwickies |url=https://www.newspapers.com/image/763638047 |work=[[The York Republican]] |pages=5}}&lt;/ref&gt;&lt;ref&gt;{{Cite book |last=Bronner |first=Simon J. |url=https://books.google.com/books?id=sHfVZFl4JTIC&amp;pg=PA254|title=American Children's Folklore |date=1988 |publisher=August House |isbn=978-0-87483-068-2 |page=254}}&lt;/ref&gt; another involves them following yonder star in/on a taxi, car, and scooter.&lt;ref&gt;{{Cite news |date=December 22, 1954 |title=Topics of the Day |url=https://www.newspapers.com/image/1182276462 |work=[[The Bolton News]] |pages=5}}&lt;/ref&gt;&lt;ref&gt;{{Cite book |last=Kelsey |first=N. G. N. |url=https://books.google.com/books?id=3HSKDwAAQBAJ&amp;pg=PA418|title=Games, Rhymes, and Wordplay of London Children |date=2019-02-26 |publisher=Springer |isbn=978-3-030-02910-4 |page=418}}&lt;/ref&gt; "We Four [[The Beatles|Beatles]]" involves [[John Lennon]], [[Paul McCartney]], and [[George Harrison]] following [[Ringo Starr]] in/on the aforementioned vehicles.&lt;ref&gt;{{Cite news |date=December 19, 1963 |title=In and About |url=https://www.newspapers.com/image/940994571 |work=[[Huddersfield Daily Examiner]] |pages=4}}&lt;/ref&gt;
+
+==See also==
+* [[List of Christmas carols]]
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==Further reading==
+*{{cite book|title=The Book of World Famous Music Classical, Popular and Folk|url=https://archive.org/details/bookofworldfamou00fuld|url-access=registration|first=James|last=Fuld|year=1966|location=New York|publisher=Crown Publishers|ref=none}}
+
+==External links==
+* {{ChoralWiki|work=We three kings of Orient are (John Henry Hopkins, Jr.)|"We Three Kings of Orient Are" (John Henry Hopkins Jr.)|prep=of}}
+* [http://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/we_three_kings_of_orient_are.htm "We Three Kings of Orient Are"], images of early editions of the carol and historical information, hymnsandcarolsofchristmas.com
+* [http://cantorion.org/musicsearch/title/We%20Three%20Kings Sheet music], Cantorion.org
+
+{{Epiphany|state=expanded}}
+{{Portal bar|Christianity}}
+{{Authority control}}
+
+[[Category:Christmas carols]]
+[[Category:Songs about kings]]
+[[Category:American Christmas songs]]
+[[Category:Biblical Magi in music]]
+[[Category:Epiphany music]]
+[[Category:Songs about Bethlehem]]</text>
+      <sha1>bbg5b6o2uxeuyylzige0u1t33yuafrc</sha1>
+    </revision>
+  </page>
+</mediawiki>

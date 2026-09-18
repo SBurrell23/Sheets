@@ -1,0 +1,28 @@
+{
+  "title": "Deck the Halls",
+  "source": "Traditional Welsh air NOS GALAN, first printed in Edward Jones, Musical and Poetical Relicks of the Welsh Bards, 1794; English words Thomas Oliphant, 1862",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 132,
+  "bars": [
+    { "chord": "C",  "notes": "G5:6 F5:2 E5:4 D5:4" },
+    { "chord": "Am", "notes": "C5:4 D5:4 E5:4 C5:4" },
+    { "chord": "Dm", "notes": "D5:2 E5:2 F5:2 D5:2 [C]E5:6 D5:2" },
+    { "chord": "G",  "notes": "C5:4 B4:4 [C]C5:8" },
+
+    { "chord": "C",  "notes": "G5:6 F5:2 E5:4 D5:4" },
+    { "chord": "Am", "notes": "C5:4 D5:4 E5:4 C5:4" },
+    { "chord": "Dm", "notes": "D5:2 E5:2 F5:2 D5:2 [C]E5:6 D5:2" },
+    { "chord": "G",  "notes": "C5:4 B4:4 [C]C5:8" },
+
+    { "chord": "G",  "notes": "D5:6 E5:2 F5:4 D5:4" },
+    { "chord": "C",  "notes": "E5:6 F5:2 [G]G5:4 D5:4" },
+    { "chord": "C",  "notes": "E5:2 F5:2 G5:4 [Am]A5:2 B5:2 C6:4" },
+    { "chord": "D7", "notes": "B5:4 A5:4 [G]G5:8" },
+
+    { "chord": "C",  "notes": "G5:6 F5:2 E5:4 D5:4" },
+    { "chord": "Am", "notes": "C5:4 D5:4 E5:4 C5:4" },
+    { "chord": "F",  "notes": "A5:2 A5:2 A5:2 A5:2 [C]G5:6 F5:2" },
+    { "chord": "G7", "notes": "E5:4 D5:4 [C]C5:8" }
+  ]
+}

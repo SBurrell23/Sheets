@@ -1,0 +1,43 @@
+{
+  "title": "Carol of the Bells (Shchedryk)",
+  "source": "Shchedryk, Ukrainian folk chant set for choir by Mykola Leontovych, 1916; Ukrainian words traditional",
+  "key": "Am",
+  "meter": "3/4",
+  "tempo": 160,
+  "bars": [
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+
+    { "chord": "F",     "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "C",     "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Dm",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+
+    { "chord": "Am",    "notes": "E5:4 D5:2 E5:2 C5:4" },
+    { "chord": "Am6",   "notes": "E5:4 D5:2 E5:2 C5:4" },
+    { "chord": "Am7",   "notes": "E5:4 D5:2 E5:2 C5:4" },
+    { "chord": "Am",    "notes": "E5:4 D5:2 E5:2 C5:4" },
+
+    { "chord": "Am",    "notes": "A5:4 A5:2 A5:2 G5:2 F5:2" },
+    { "chord": "Am",    "notes": "E5:4 E5:2 E5:2 D5:2 C5:2" },
+    { "chord": "Dm",    "notes": "D5:4 D5:2 D5:2 E5:2 D5:2" },
+    { "chord": "Am",    "notes": "A4:4 A4:2 A4:2 A4:4" },
+
+    { "chord": "Am/E",  "notes": "E4:2 F#4:2 G#4:2 A4:2 B4:2 C5:2" },
+    { "chord": "E7",    "notes": "D5:2 E5:2 D5:4 C5:4" },
+    { "chord": "Am/E",  "notes": "E4:2 F#4:2 G#4:2 A4:2 B4:2 C5:2" },
+    { "chord": "E7",    "notes": "D5:2 E5:2 D5:4 [F]C5:4" },
+
+    { "chord": "Am7/G", "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Dm7/F", "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am7/E", "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Dm7",   "notes": "C5:4 B4:2 C5:2 A4:4" },
+
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "C5:4 B4:2 C5:2 A4:4" },
+    { "chord": "Am",    "notes": "E5:4 D5:2 E5:2 A4:4" }
+  ]
+}

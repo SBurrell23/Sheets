@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-hollyivy-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FHOLLYIVY%2F0000",
+  "kind": "abc",
+  "bytes": 294,
+  "sha256": "947e1c3f05efe55689ecb22b09795e5a0b03a1c4c929a9c04bc8e40175248b9d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--edu-jc-music-abc-mirror-lesterbailey-holly-and-the-ivy-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FHolly_and_the_Ivy%2F0000",
+  "kind": "abc",
+  "bytes": 125,
+  "sha256": "5b9479353e3a2a6f8d6a8caf5a5487995cffc4fd69b167aa7b78bcaaeb434803",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-lesterbailey-melnets-big-abc-file-13484.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2Fmelnets_big_abc_file%2F13484",
+  "kind": "abc",
+  "bytes": 171,
+  "sha256": "454913956e1ff11b48eca0baeb5d4dba489f41bb57688554b0fbb444bb245cb2",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-abc-sourceforge-net-nmd-nmd-xmas-txt-0005.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=abc.sourceforge.net%2FNMD%2Fnmd%2Fxmas.txt%2F0005",
+  "kind": "abc",
+  "bytes": 469,
+  "sha256": "bc7d7bb67a909a2345bcb40ebb5f6797578c6f7d5a9032b3fd7d0212a4fa4efe",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-edu-jc-music-abc-england-morris-bsh-holly-and-the-ivy-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2Fmorris%2FBSH%2FHolly_and_the_Ivy_1%2F0000",
+  "kind": "abc",
+  "bytes": 187,
+  "sha256": "e83c53357597d2743292cc29b1d8cff0b164d2cf1d91aba2d478ce4ad8f16199",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-edu-jc-music-abc-england-morris-bsh-holly-and-the-ivy-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2Fmorris%2FBSH%2FHolly_and_the_Ivy_2%2F0000",
+  "kind": "abc",
+  "bytes": 171,
+  "sha256": "e29036521ce075805a0e03533342df32d4c9e6a6f367f6b8ecd4cd00b4306b78",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-england-xmas-hollyandtheivy-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2Fxmas%2FHollyAndTheIvy%2F0000",
+  "kind": "abc",
+  "bytes": 225,
+  "sha256": "c83185ee2bd0127bd1e5688d05a53078b2b62aa5e74a154a2e520039e5bd0725",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-the-holly-and-the-ivy.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/The_Holly_and_the_Ivy",
+  "kind": "lilypond",
+  "bytes": 25339,
+  "sha256": "9a862afe9e6dbc4b6e053f471ac94a842b296ae707a7019d9b06b112539d9bf3",
+  "fetched": "2026-09-18"
+ }
+]

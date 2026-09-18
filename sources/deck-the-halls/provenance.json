@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-deckhall-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FDECKHALL%2F0000",
+  "kind": "abc",
+  "bytes": 341,
+  "sha256": "4323b4056101fe3e42898f0da464f996e8910c5d790d2abe3a9a1c3aebb0ea06",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0338.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0338",
+  "kind": "abc",
+  "bytes": 428,
+  "sha256": "02953a7e9520f71c0339b382344841a422bdaafe8054c1dd9dab8191f45829e0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0014.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0014",
+  "kind": "abc",
+  "bytes": 768,
+  "sha256": "681fe65fe2b60313253cf9bfc47aaf623c6a7570343a7aab38e52ad7fd863d89",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-8086-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F8086.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 207,
+  "sha256": "599820461749bf93a40df545f0e017453c6c5a0317032c045ac74fd4bc7510be",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-8086-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F8086.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 173,
+  "sha256": "714191b69b1ac22485a093e72b9f5b0f5c8cb603e51100c1f9c4ee899d655241",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-8086-no-ext-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F8086.no-ext%2F0003",
+  "kind": "abc",
+  "bytes": 240,
+  "sha256": "510c6c41c32e6df99ed4eb21635757c66d8d332285a4af5f9aaac42a505e625e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-8086-no-ext-0004.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F8086.no-ext%2F0004",
+  "kind": "abc",
+  "bytes": 197,
+  "sha256": "a0820a30c1f50502c2847712f8af60f66b08c5dfc6d15a8850e2e9c8c5ea8187",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-8086.json",
+  "url": "https://thesession.org/tunes/8086?format=json",
+  "kind": "abc",
+  "bytes": 14996,
+  "sha256": "1f1a297d5a187a610f0632c3721dbdeb67a35b5bcdf0808c1cff196fbe0e35b3",
+  "fetched": "2026-09-18"
+ }
+]

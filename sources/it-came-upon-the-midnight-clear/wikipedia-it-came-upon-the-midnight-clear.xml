@@ -1,0 +1,219 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>It Came Upon the Midnight Clear</title>
+    <ns>0</ns>
+    <id>1092465</id>
+    <revision>
+      <id>1351514635</id>
+      <parentid>1351513783</parentid>
+      <timestamp>2026-04-28T13:08:04Z</timestamp>
+      <contributor>
+        <username>Undiacritical</username>
+        <id>36997457</id>
+      </contributor>
+      <minor/>
+      <comment>/* Melody */ actually, 95%</comment>
+      <origin>1351514635</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11676" sha1="p5s99kony37ddj75iz67th6ak7gmi4z" xml:space="preserve">{{Short description|1849 literary work by Edmund Sears}}
+{{for|the 1984 film|It Came Upon the Midnight Clear (film)}}
+{{Use mdy dates|date=December 2017}}
+{{Use American English|date=December 2017}}
+
+{{Infobox musical composition
+| name                = It Came Upon the Midnight Clear
+| type                = 
+| image               = Rembrandt van Rijn - The Angel Appearing to the Shepherds.jpg
+| alt                 = 
+| caption             = ''The Angel Appearing to the Shepherds'', 1634, by [[Rembrandt]]
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Christmas carol]]
+| occasion            = 
+| text                = [[Edmund Sears]] 
+| language            = 
+| written             = 1849
+| based_on            = [[Luke 2]]:14
+| meter               = 8.6.8.6 ([[Common metre|CMD]])
+| melody              = "Carol", by [[Richard Storrs Willis]], or "Noel", adapted by [[Arthur Sullivan]]
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                =  
+}}
+
+"'''It Came Upon the Midnight Clear'''", sometimes rendered as "'''It Came Upon a Midnight Clear'''", is an 1849 poem and [[Christmas]] [[Carol (music)|carol]] written by [[Edmund Sears]], pastor of the [[American Unitarian Association|Unitarian Church]] in [[Wayland, Massachusetts|Wayland]], [[Massachusetts]]. In 1850, Sears' lyrics were set to "Carol", a tune written for the poem the same year at his request, by [[Richard Storrs Willis]]. This pairing remains the most popular in the United States, while in [[Commonwealth of Nations|Commonwealth countries]], the lyrics are set to "Noel", a later adaptation by [[Arthur Sullivan]] from an English melody.
+
+== History ==
+
+[[File:Edmund_H_Sears.jpg|thumb|upright|[[Edmund Sears]]]]
+
+[[Edmund Sears]] composed the five-[[stanza]] poem in [[common metre]] doubled during 1849. It first appeared on December 29, 1849, in ''[[The Christian Register]]'' in [[Boston]], [[Massachusetts]].&lt;ref name="Christian_Register"&gt;{{cite journal |title=Christmas Carols |journal=Christian Register |date=December 29, 1849 |volume=28 |issue=52 |page=206 |url=https://archive.org/details/sim_unitarian-register-and-the-universalist-leader_1849-12-29_28_52/page/n1/mode/1up |access-date=14 April 2025}}&lt;/ref&gt;&lt;ref name="Cyber" /&gt;
+
+Sears served the Unitarian congregation in [[Wayland, Massachusetts|Wayland]], Massachusetts, before moving on to a larger congregation at [[First Church of Christ, Unitarian]], in [[Lancaster, Massachusetts|Lancaster]], also known as The Bulfinch Church, for its design by [[Charles Bulfinch]]. After seven years, he suffered a breakdown and returned to Wayland. He wrote ''It Came Upon the Midnight Clear'' while serving as a part-time preacher in Wayland.&lt;ref name=Sawyer&gt;[http://www.uuworld.org/ideas/articles/8732.shtml Sawyer, Ken. "It came upon a Unitarian midnight clear", ''UUWorld'', November 1, 2002] {{webarchive|url=https://web.archive.org/web/20150328171054/http://uuworld.org/ideas/articles/8732.shtml |date=March 28, 2015 }}&lt;/ref&gt; Writing during a period of personal melancholy, and with news of revolution in Europe and the United States' war with Mexico fresh in his mind, Sears portrayed the world as dark, full of "sin and strife", and not hearing the Christmas message.&lt;ref name=duub&gt;[http://uudb.org/articles/edmundhamiltonsears.html Hughes, Peter. "Edmund Hamilton Sears", ''Dictionary of Unitarian and Universalist Biography'', April 24, 2002] {{webarchive|url=https://web.archive.org/web/20150520041039/http://uudb.org/articles/edmundhamiltonsears.html |date=May 20, 2015 }}&lt;/ref&gt;
+
+{{listen|type=music|filename=It Came Upon a Midnight Clear (Kevin MacLeod) (ISRC USUAN1100191).oga|title="It Came Upon the Midnight Clear"|description=Instrumental of the tune "Carol" – piano, violin, and English horn; variation in first phrase present (see above)}}
+
+Sears is said to have written these words at the request of his friend, William Parsons Lunt, pastor of [[United First Parish Church]], [[Quincy, Massachusetts|Quincy]], Massachusetts, for Lunt's Sunday school.&lt;ref name="Cyber"&gt;{{cite web |url = http://www.hymntime.com/tch/htm/i/t/c/itcameup.htm |title = It Came upon the Midnight Clear |website = www.hymntime.com |access-date = December 25, 2017 |url-status = live |archive-url = https://web.archive.org/web/20131019145206/http://www.hymntime.com/tch/htm/i/t/c/itcameup.htm |archive-date = October 19, 2013 |df = mdy-all }}&lt;/ref&gt; One account says the carol was first performed by parishioners gathered in Sears' home on Christmas Eve, but to what tune the carol was sung is unknown as Willis' familiar melody was not written until the following year.&lt;ref name=Sawyer /&gt;
+
+According to Ken Sawyer, Sears' song is remarkable for its focus not on Bethlehem, but on his own time, and on the contemporary issue of war and peace. Written in 1849, it has long been assumed to be Sears' response to the just ended [[Mexican–American War]].&lt;ref name=Sawyer /&gt; The song has been included in many of the Christmas albums recorded by numerous singers in the modern era.
+
+== Melody ==
+
+[[File:Richard_Storrs_Willis.jpg|thumb|upright|[[Richard Storrs Willis]], composer of the tune common to the United States]]
+
+In 1850, [[Richard Storrs Willis]], a composer who trained under [[Felix Mendelssohn]], published a "choir study" that was originally paired with other lyrics.&lt;ref name="Church_Chorals"&gt;{{cite book |last1=Willis |first1=Richard Storrs |author1-link=Richard Storrs Willis |title=Church Chorals and Choir Studies |date=1850 |publisher=Clark, Austin &amp; Smith |location=New York |page=93 |url=https://archive.org/details/churchchoralscho00will/page/92/mode/2up |access-date=14 April 2025 |chapter=Study No. 23}}&lt;/ref&gt; This tune eventually came to be known as "Carol". Pairings of Sears' lyrics with Willis' tune had already begun to appear by 1880,&lt;ref name="Alleluia"&gt;{{cite book |editor1-last=Stryker |editor1-first=Melancthon Woolsey |editor2-last=Main |editor2-first=Hubert P. |title=The Alleluia |date=1880 |publisher=Biglow &amp; Main |location=New York |page=63 |url=https://archive.org/details/alleluiacollecti00stry/page/62/mode/2up |access-date=14 April 2025}}&lt;/ref&gt; and it is still the most widely associated tune with Sears' lyrics in the United States.&lt;ref name="Cyber" /&gt;&lt;ref name="umh"&gt;The United Methodist Hymnal, © 1989&lt;/ref&gt;&lt;ref name="lbw"&gt;Lutheran Book of Worship, © 1978&lt;/ref&gt;&lt;ref name="uni"&gt;The official Unitarian-Universalist hymnal, ''[[Singing the Living Tradition]]'', © 1993&lt;/ref&gt;
+&lt;div style="zoom: 95%;"&gt;
+&lt;score sound="1"&gt;
+\new Staff&lt;&lt;
+\clef treble \key bes \major {
+      \time 6/8 \partial 8     
+      \relative f' {
+	f8 | d'4 a8 c bes g | f4 g8 f4 f8 | g a bes bes c d | c4.~ c4 \bar"" \break
+        f,8 | d'4 a8 c bes g | f4 g8 f4 f8 | g4 g8 a g f | bes4.~ bes4 \bar"" \break
+        d8 | d4 d,8 d e fis | g4 a8 bes4 d8 | c bes a g a g | f4.~ f4 \bar"" \break
+        f8 | d'4 a8 c bes g | f4 g8 f4 f8 | g4 g8 a g f | bes4.~ bes4 \bar"|." %repeat of the second line - if these two aren't the same, then it means somebody has vandalized ... 
+      }
+    }
+%\new Lyrics \lyricmode {
+%}
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 4. = 54 }
+&lt;/score&gt;
+&lt;/div&gt;
+[[File:Sir Arthur Seymour Sullivan.jpg|thumb|upright|[[Arthur Sullivan|Sir Arthur Sullivan]], composer of the tune common to Commonwealth countries]]
+In Commonwealth countries, the tune called "Noel", which was adapted from an English melody in 1874 by [[Arthur Sullivan]], is the usual accompaniment. This tune also appears as an alternative in ''[[The Hymnal 1982]]'', the [[hymnal]] of the United States [[Episcopal Church (United States)|Episcopal Church]].&lt;ref&gt;{{cite book |title = The Hymnal 1982 |publisher = The Church Hymnal Corporation |location = New York City |editor = Raymond F. Glover |year = 1985 |id = Hymn #90 }}&lt;/ref&gt;
+&lt;div style="zoom: 95%;"&gt;
+&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+\clef treble \key f \major {
+      \time 4/4 \partial 4     
+      \relative f' {
+	f8 g | a4 g f g8 a | bes4 a g c | c a bes8 c d4 | c2. \bar"" \break
+        a8 bes | c4 c a f | bes a g f8 g | a bes c4 a g | f2. \bar"" \break
+        f4 | e d e g | f4. e8 d4 a' | g f e d | c2. \bar"" \break
+        c4 | c' bes a g8 a | bes4 a g f8 g | a bes c4 a g | f2. \bar"|."
+      }
+    }
+%\new Lyrics \lyricmode {
+%}
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 4 = 86 }
+&lt;/score&gt;
+&lt;/div&gt;
+
+== Lyrics ==
+
+The full song comprises five stanzas. Some versions, including the ''[[United Methodist Hymnal]]''&lt;ref name="umh" /&gt; and ''[[Lutheran Book of Worship]]'',&lt;ref name="lbw" /&gt; omit verse three, while others (including ''The Hymnal 1982'') omit verse four.&lt;ref name="th1982"&gt;{{cite book |title = The Hymnal 1982 |publisher = The Church Hymnal Corporation |location = New York City |editor = Raymond F. Glover |year = 1985 |id = Hymn #89 }}&lt;/ref&gt; The [[Hymns of The Church of Jesus Christ of Latter-day Saints (1985 book)|1985 hymnal]] of [[the Church of Jesus Christ of Latter-day Saints]] omits verses three and four.&lt;ref&gt;[https://www.churchofjesuschrist.org/media/music/songs/it-came-upon-the-midnight-clear?lang=eng The Church of Jesus Christ of Latter-day Saints]&lt;/ref&gt; Several variations also exist to Sears' original lyrics.
+
+{{poemquote|It came upon the midnight clear,
+That glorious song of old,
+From angels bending near the earth
+To touch their harps of gold;
+"Peace on the earth, good will to men
+From heaven's all-gracious King" –
+The world in solemn stillness lay
+To hear the angels sing.
+
+Still through the cloven skies they come
+With peaceful wings unfurled,
+And still their heavenly music floats
+O'er all the weary world;
+Above its sad and lowly plains
+They bend on hovering wing,
+And ever o'er its [[Tower of Babel|Babel]]-sounds
+The blessed angels sing.
+
+But with the woes of sin and strife
+The world has suffered long;
+Beneath the angel-strain have rolled
+Two thousand years of wrong;
+And man, at war with man, hears not
+The love-song which they bring; –
+Oh hush the noise, ye men of strife,
+And hear the angels sing!
+
+And ye, beneath life's crushing load,
+Whose forms are bending low,
+Who toil along the climbing way
+With painful steps and slow,
+Look now! for glad and golden hours
+Come swiftly on the wing; –
+Oh, rest beside the weary road
+And hear the angels sing!
+
+For lo! the days are hastening on
+By prophet bards foretold,
+When with the ever circling years
+Comes round the age of gold;
+When Peace shall over all the earth
+Its ancient splendors fling,
+And the whole world give back the song
+Which now the angels sing.|sign=Sears, Edmund H. (Edmund Hamilton)|title=Sermons and Songs of Christian Life, pp. 17-18|source=Library of Congress and The Internet Archive.&lt;ref&gt;{{cite web | url=https://archive.org/details/sermonssongsofch00sear/page/16/mode/2up | title=Sermons and songs of Christian life | year=1875 }}&lt;/ref&gt;}}
+
+==See also==
+* [[List of Christmas carols]]
+
+== References ==
+
+{{reflist}}
+
+== External links ==
+*{{IMSLP|author=Sears, Edmund Hamilton/Librettist|cname=Edmund Sears|descr=Various settings of the words}}
+*[http://vmirror.imslp.org/files/imglnks/usimg/6/6a/IMSLP562974-PMLP906993-Sullivan_midnight_clear.pdf Setting by Arthur Sullivan] at IMSLP
+
+{{Portal bar|Christianity|Poetry}}
+{{authority control}}
+
+[[Category:American Christian hymns]]
+[[Category:American Christmas songs]]
+[[Category:19th-century hymns]]
+[[Category:Christmas carols]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>p5s99kony37ddj75iz67th6ak7gmi4z</sha1>
+    </revision>
+  </page>
+</mediawiki>

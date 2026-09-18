@@ -1,0 +1,12 @@
+X:1
+T:We Wish You a Merry Christmas
+C:Traditional English carol from the West Country; the traditional tune, not Arthur Warrell's 1935 arrangement
+M:3/4
+L:1/16
+Q:1/4=150
+K:C clef=treble
+"C"G4 | "C"c4 c2d2 c2B2 | "F"A4 F4 A4 | "D7"d4 d2e2 d2c2 |
+"G"B4 G4 G4 | "E7"e4 e2f2 e2d2 | "Am"c4 A4 G2G2 | "Dm"A4 d4 "G7"B4 |
+"C"c8 G4 | "C"c4 c4 c4 | "G"B8 B4 | "D7"c4 B4 A4 |
+"G7"G8 d4 | "C"e4 d2d2 c2c2 | "G"g4 G4 G2G2 | "Dm"A4 d4 "G7"B4 |
+"C"Hc12 |]

@@ -1,0 +1,31 @@
+{
+  "title": "The Holly and the Ivy",
+  "source": "Traditional English carol; melody from Cecil Sharp's English Folk-Carols, 1911, as sung by Mary Clayton at Chipping Campden",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 106,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4" },
+
+    { "chord": "C",  "notes": "C5:2 C5:2 C5:4 [F]A5:4" },
+    { "chord": "C",  "notes": "G5:4 E5:6 C5:2" },
+    { "chord": "C",  "notes": "C5:2 C5:2 C5:4 [F]A5:4" },
+    { "chord": "G7", "notes": "G5:8 G5:2 F5:2" },
+
+    { "chord": "C",  "notes": "E5:2 D5:2 C5:4 E5:2 E5:2" },
+    { "chord": "F",  "notes": "A4:2 A4:2 [C]G4:4 [Am]C5:2 D5:2" },
+    { "chord": "F",  "notes": "E5:2 F5:2 [C]E5:4 [G7]D5:4" },
+    { "chord": "C",  "notes": "C5:8 R:2 C5:2" },
+
+    { "chord": "C",  "notes": "C5:2 C5:2 C5:4 [F]A5:4" },
+    { "chord": "C",  "notes": "G5:4 E5:4 C5:2 C5:2" },
+    { "chord": "C",  "notes": "C5:2 C5:2 C5:4 [F]A5:4" },
+    { "chord": "G7", "notes": "G5:8 G5:2 F5:2" },
+
+    { "chord": "C",  "notes": "E5:2 D5:2 C5:4 E5:4" },
+    { "chord": "F",  "notes": "A4:2 A4:2 [C]G4:4 [Am]C5:2 D5:2" },
+    { "chord": "F",  "notes": "E5:2 F5:2 [C]E5:4 [G7]D5:4" },
+    { "chord": "C",  "notes": "C5:8" }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-frstnoel-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FFRSTNOEL%2F0000",
+  "kind": "abc",
+  "bytes": 383,
+  "sha256": "695e975789b4b995ef9407635a9c3a3bb6c80410366c6b004e705e5d04feb961",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--music-abc-mirror-www-stephenmerrony-co-uk-first-nowell-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FFirst_Nowell%2F0000",
+  "kind": "abc",
+  "bytes": 1667,
+  "sha256": "edbf0f538c3e014751baddc15f23cc4d68e47bca9c3e0387ede9008df1f19634",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-mirror-gulfweb-net-34043-rlwalker-abc-christmas-first-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgulfweb.net%3A34043%2F~rlwalker%2Fabc%2Fchristmas%2Ffirst%2F0000",
+  "kind": "abc",
+  "bytes": 1731,
+  "sha256": "439330c510298bb8ef9906661f17e2d3fa18792ac7cd52970dba55fcd3ad3035",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-music-abc-mirror-gulfweb-net-34043-rlwalker-abc-first-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgulfweb.net%3A34043%2F~rlwalker%2Fabc%2Ffirst%2F0000",
+  "kind": "abc",
+  "bytes": 1716,
+  "sha256": "02b974fa080d95eb39c79df8657d68540443349ae3b3756d5738ec64629447e3",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0247.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0247",
+  "kind": "abc",
+  "bytes": 2623,
+  "sha256": "1ee468b159d65aa958a56a978108ff8f291a0605bdc2ab634d4c2831218a8b37",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-jc-music-abc-mirror-www-stephenmerrony-co-uk-first-noel-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FFirst_Noel%2F0000",
+  "kind": "abc",
+  "bytes": 1633,
+  "sha256": "c6259ac1240a21113c443142ffc28415f7a78e0abc7b1be1764edd70ddfe46f4",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-n-mit-edu-jc-music-abc-mirror-corneymusers-first-noel-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fcorneymusers%2FFIRST_NOEL_1%2F0000",
+  "kind": "abc",
+  "bytes": 253,
+  "sha256": "543fc4e1316d47892bbeda74b611fa585a8cb89cab6c798a979d67cb4a46cc1a",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0016.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0016",
+  "kind": "abc",
+  "bytes": 732,
+  "sha256": "2527ae4c0c4cdc8aa5fcfa0b2869c2ff38f590ac6d697efebef970820f882a4a",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-simonwascher-info-tradarchiv-lieder-the-first-nowell-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=simonwascher.info%2FTradArchiv_lieder%2Fthe_first_nowell%2F0000",
+  "kind": "abc",
+  "bytes": 232,
+  "sha256": "e75bb8e36a21818a6975053d271fd8da3e7185285729684264ea73bf6040aeab",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-the_first_noel-the_first_noel.abc",
+  "url": "http://openhymnal.org/Abc/The_First_Noel-The_First_Noel.abc",
+  "kind": "abc",
+  "bytes": 6262,
+  "sha256": "11f4f87f36cba5edacb6fd09e7c1e98174a65b70c4a26c1ca3cb16d88303215f",
+  "fetched": "2026-09-18"
+ }
+]

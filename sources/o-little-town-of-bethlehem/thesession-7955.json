@@ -1,0 +1,45 @@
+{
+    "format": "json",
+    "id": 7955,
+    "name": "St. Louis",
+    "url": "https://thesession.org/tunes/7955",
+    "member": {
+        "id": 23657,
+        "name": "OsvaldoLaviosa",
+        "url": "https://thesession.org/members/23657"
+    },
+    "date": "2007-11-11 05:49:52",
+    "type": "waltz",
+    "tunebooks": 19,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": ["Saint Louis"],
+    "settings": [
+        {
+            "id": 7955,
+            "url": "https://thesession.org/tunes/7955#setting7955",
+            "key": "Gmajor",
+            "abc": "|:D2|B3 A Bc|B3 A Bc|B2 G2 E2|D2 B,2 B2|d3 A c2|d3 A c2|d2 f3 e|d3 A c2|! B3 A Bc|B3 A Bc|B2 G3 E|D2 G2 B2|d2 A2 B2|c2 B2 BA|G3 A GF|G4:|! |:AB|c2 EE E2|c2 B2 A2|B2 DD D2|B2 A2 G2|A2 A2 AB|c2 B2 BA|G2 B2 e2|d4 AB|! c2 EE E2|c2 B2 A2|B2 DD D2|B2 A2 G2|A2 A2 AB|c2 B2 BA|G3 A GF|G4:|",
+            "member": {
+                "id": 23657,
+                "name": "OsvaldoLaviosa",
+                "url": "https://thesession.org/members/23657"
+            },
+            "date": "2007-11-11 05:49:52"
+        }
+    ],
+    "comments": [
+        {
+            "id": 327083,
+            "url": "https://thesession.org/tunes/7955#comment327083",
+            "subject": "\"St. Louis waltz\" by Mary Custy and Eoin O'Neill",
+            "content": "From \"Mary Custy and Eoin O'Neill: With a lot of help from their friends\" album, track 15, 2nd tune.",
+            "member": {
+                "id": 23657,
+                "name": "OsvaldoLaviosa",
+                "url": "https://thesession.org/members/23657"
+            },
+            "date": "2007-11-11 05:52:01"
+        }
+    ]
+}

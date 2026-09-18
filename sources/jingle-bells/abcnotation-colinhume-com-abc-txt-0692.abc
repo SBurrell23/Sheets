@@ -1,0 +1,25 @@
+
+X:690
+T:Jingle Bells
+C:James Lord Pierpont, 1857
+M:2/2
+R:Reel
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:G
+V:1
+%%MIDI chordprog 70     % Bassoon
+%%MIDI program 57       % Trombone
+%%MIDI gchord zzczzzcz
+"G"DB AG | "/"D3 D/D/ | "G"DB AG | "C"E4 | "Am"Ec BA | "D"F4 | "D7"dd cA | "G"B4 |
+"G"DB AG | "/"D4 | "G"DB "G7"AG | "C"E4 | "Am"Ec BA | "D"dd d3/d/ | "D7"ed cA | "G"G2 "D7"d2 |
+"G"BB B2 | "/"BB B2 | "Em"Bd "D"G3/A/ | "G"B2- "G7"B2 | "C"cc c3/c/ | "G"cB BB/B/ | "A7"BA AB | "D7"A2 d2 |
+"G"BB B2 | "/"BB B2 | "Em"Bd "D7"G3/A/ | "G"B2- "G7"B2 | "C"cc c3/c/ | "G"cB BB/B/ | "D7"dd cA | "G"G2 z2 |]
+V:2 bass octave=-2
+%%MIDI program 42       % Cello
+G2 D2 | G2 D2 | G2 AB | c2 B2 | A2 E2 | D2 F2 | D2 EF | GF ED |
+G2 D2 | G2 D2 | G2 AB | c2 B2 | A2 G2 | F2 E2 | D2 EF | G2D2 |
+G2 F2 | E2 D2 | E2 D2 | G2 =F2 | E2 C2 | G2 D2 | A2 ^c2 | d=c BA |
+G2 F2 | E2 D2 | E2 D2 | G2 =F2 | E2 C2 | G2 D2 | F2 D2 | G2 z2 |]
+

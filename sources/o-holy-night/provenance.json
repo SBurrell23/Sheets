@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-jc-xmas-o-holy-night-D.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2Fsong%2FO_Holy_Night-D-50-6W%2F0000",
+  "kind": "abc",
+  "bytes": 1354,
+  "sha256": "09e6d6dd20346b2f4cf6804ee08436da16c85fd946dcf3effa57f0b460458475",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "hymnsandcarols-schirmer-1871.xml",
+  "url": "https://www.hymnsandcarolsofchristmas.com/Hymns_and_Carols/XML/O_Holy_Night-Adam-1871.xml",
+  "kind": "musicxml",
+  "bytes": 194137,
+  "sha256": "e1c5d84e417ecc8d993069764d8d644a96b9df2efec9116818d759de445beb4b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "timelesstruths-cantique-de-noel.xml",
+  "url": "https://library.timelesstruths.org/library/music/O/Oh_Holy_Night/Oh_Holy_Night.xml",
+  "kind": "musicxml",
+  "bytes": 203354,
+  "sha256": "cb98d7a75a1ef679ed08cb7b6f5855ce2444dbeea52224f8457692c51fef4330",
+  "fetched": "2026-09-18"
+ }
+]

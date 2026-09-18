@@ -1,0 +1,90 @@
+[
+ {
+  "name": "abcnotation--edu-jc-music-abc-mirror-granis-net-rlwalker-abc-angels-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgranis.net%2Frlwalker%2Fabc%2Fangels%2F0000",
+  "kind": "abc",
+  "bytes": 1207,
+  "sha256": "b4874af481d1940f1e576c1d9790736464e4df6fd5840c93125df1f303240d8d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--mit-edu-jc-music-abc-xmas-angels-we-have-heard-on-high-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2FAngels_We_Have_Heard_On_High%2F0000",
+  "kind": "abc",
+  "bytes": 1306,
+  "sha256": "a36ea0a665855161e6eda728dd5aa6c6c345fe7567088fefe885e81465b22fa8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--music-abc-mirror-gulfweb-net-34043-rlwalker-abc-angels-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgulfweb.net%3A34043%2F~rlwalker%2Fabc%2Fangels%2F0000",
+  "kind": "abc",
+  "bytes": 1190,
+  "sha256": "4c61a1e700365195a8a6b9ebfad0e4bbf22b83b3998a97159bac3f84aed32728",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--osj-revised-appendix-a-1088-angelswehaveheardonhigha43-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FSeymourShlien%2Fottawaslowjam%2FOSJ_revised_appendix-A%2F%251088%3AANGELSWEHAVEHEARDONHIGHA43%2F0000",
+  "kind": "abc",
+  "bytes": 1251,
+  "sha256": "45563c19321b7fdd0cb72e8db19880278e496cddb2dd39163d14de8faab7a7ff",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-i-com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-angonhi-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FANGONHI%2F0000",
+  "kind": "abc",
+  "bytes": 355,
+  "sha256": "61c1204935e05f8121fe530472ea06035f30572a2cdbd2e177d89b55547b1920",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-lian-mit-edu-jc-music-abc-session-safd-christmas-carols-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fsession%2FSAFD%2F___%2FChristmas_Carols%2F0001",
+  "kind": "abc",
+  "bytes": 695,
+  "sha256": "22014bbed52b39fa324c66c89f5ad35b9442769523d8b8226277d42554252106",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-www-stephenmerrony-co-uk-angels-we-have-heard-on-high-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAngels_We_Have_Heard_On_High%2F0000",
+  "kind": "abc",
+  "bytes": 1579,
+  "sha256": "cb0df264f49db0b7197803540037ac7368afbecefecf371d2d4c97705365549d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-www-stephenmerrony-co-uk-les-anges-dans-nos-campagnes-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FLes_Anges_Dans_Nos_Campagnes%2F0000",
+  "kind": "abc",
+  "bytes": 407,
+  "sha256": "b0ac66abe03f4bae0eac3f595bfcb7ded713957607d19b8f30e6da603ebe32a9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-angels_we_have_heard_on_high-gloria.abc",
+  "url": "http://openhymnal.org/Abc/Angels_We_Have_Heard_On_High-Gloria.abc",
+  "kind": "abc",
+  "bytes": 5753,
+  "sha256": "848c059c258f53d965d473d793f5f0afce74f008febc212579c4502f6d4cbdf8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-20939.json",
+  "url": "https://thesession.org/tunes/20939?format=json",
+  "kind": "abc",
+  "bytes": 1467,
+  "sha256": "7a83e61715d1d89b000020402a7c6a047c40284f57f43391510f331b9a51ad3b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-angels-we-have-heard-on-high.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Angels_We_Have_Heard_on_High",
+  "kind": "lilypond",
+  "bytes": 16794,
+  "sha256": "a6a2e7e80a6bcc366e697d806a78f02bf55e94621d64680232b9ecaf9324a7ff",
+  "fetched": "2026-09-18"
+ }
+]

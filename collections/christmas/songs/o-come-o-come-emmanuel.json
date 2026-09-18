@@ -1,0 +1,36 @@
+{
+  "title": "O Come, O Come, Emmanuel",
+  "source": "VENI EMMANUEL, 15th-century French processional adapted by Thomas Helmore, 1851; Latin words translated by John Mason Neale, 1851",
+  "key": "Am",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 96,
+  "bars": [
+    { "chord": "Am", "notes": "A4:4" },
+
+    { "chord": "Am", "notes": "C5:4 [Em]E5:4 [C]E5:4 E5:4" },
+    { "chord": "Dm", "notes": "D5:4 F5:4 [C]E5:4 [G7]D5:4" },
+    { "chord": "C",  "notes": "C5:12 [G]D5:4" },
+
+    { "chord": "C",  "notes": "E5:4 C5:4 [F]A4:4 [C]C5:4" },
+    { "chord": "Dm", "notes": "D5:4 [Bdim]B4:4 [Am]A4:4 [Em]G4:4" },
+    { "chord": "Am", "notes": "A4:12 [Dm]D5:4" },
+
+    { "chord": "Dm", "notes": "D5:4 A4:4 [Am]A4:4 [G#dim]B4:4" },
+    { "chord": "Am", "notes": "C5:8 [G]B4:4 [D7]A4:4" },
+    { "chord": "G",  "notes": "G4:12 [Am]C5:4" },
+
+    { "chord": "G",  "notes": "D5:4 [Em]E5:4 [C]E5:4 E5:4" },
+    { "chord": "Dm", "notes": "D5:4 F5:4 [C]E5:4 [G7]D5:4" },
+    { "chord": "C",  "notes": "C5:12 G5:4" },
+
+    { "chord": "G",  "notes": "G5:12 [Am]E5:4" },
+    { "chord": "Em", "notes": "E5:12 [C]E5:4" },
+    { "chord": "Dm", "notes": "D5:4 F5:4 [C]E5:4 [G7]D5:4" },
+    { "chord": "Am", "notes": "C5:12 [G]D5:4" },
+
+    { "chord": "C",  "notes": "E5:4 C5:4 [F]A4:4 [C]C5:4" },
+    { "chord": "Dm", "notes": "D5:4 [Bdim]B4:4 [Am]A4:4 [Em]G4:4" },
+    { "chord": "Am", "notes": "A4:12" }
+  ]
+}

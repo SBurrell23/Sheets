@@ -32,6 +32,14 @@
   "fetched": "2026-09-18"
  },
  {
+  "name": "openhymnal-silent_night-stille_nacht.abc",
+  "url": "http://openhymnal.org/Abc/Silent_Night-Stille_Nacht.abc",
+  "kind": "abc",
+  "bytes": 5769,
+  "sha256": "ef76300608c3651d0c6ab1570e58d93a223445374f3ca346d43922934751303a",
+  "fetched": "2026-09-18"
+ },
+ {
   "name": "thesession-25069.json",
   "url": "https://thesession.org/tunes/25069?format=json",
   "kind": "abc",

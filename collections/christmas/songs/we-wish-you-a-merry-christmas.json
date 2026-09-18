@@ -1,0 +1,27 @@
+{
+  "title": "We Wish You a Merry Christmas",
+  "source": "Traditional English carol from the West Country; the traditional tune, not Arthur Warrell's 1935 arrangement",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 150,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4" },
+    { "chord": "C",  "notes": "C5:4 C5:2 D5:2 C5:2 B4:2" },
+    { "chord": "F",  "notes": "A4:4 F4:4 A4:4" },
+    { "chord": "D7", "notes": "D5:4 D5:2 E5:2 D5:2 C5:2" },
+    { "chord": "G",  "notes": "B4:4 G4:4 G4:4" },
+    { "chord": "E7", "notes": "E5:4 E5:2 F5:2 E5:2 D5:2" },
+    { "chord": "Am", "notes": "C5:4 A4:4 G4:2 G4:2" },
+    { "chord": "Dm", "notes": "A4:4 D5:4 [G7]B4:4" },
+    { "chord": "C",  "notes": "C5:8 G4:4" },
+    { "chord": "C",  "notes": "C5:4 C5:4 C5:4" },
+    { "chord": "G",  "notes": "B4:8 B4:4" },
+    { "chord": "D7", "notes": "C5:4 B4:4 A4:4" },
+    { "chord": "G7", "notes": "G4:8 D5:4" },
+    { "chord": "C",  "notes": "E5:4 D5:2 D5:2 C5:2 C5:2" },
+    { "chord": "G",  "notes": "G5:4 G4:4 G4:2 G4:2" },
+    { "chord": "Dm", "notes": "A4:4 D5:4 [G7]B4:4" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

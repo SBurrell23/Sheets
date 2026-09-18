@@ -1,0 +1,98 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-awaymngr-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FAWAYMNGR%2F0000",
+  "kind": "abc",
+  "bytes": 259,
+  "sha256": "e7ddfe3d830ce157b3c00e270bbc7ee40ac132e8afe49cffa8de78f1f296ccb6",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-edu-jc-music-abc-mirror-folkinfo-org-away-in-a-manger-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Ffolkinfo.org%2FAway_In_A_Manger_2%2F0000",
+  "kind": "abc",
+  "bytes": 217,
+  "sha256": "484a0ce8efb4b94e880c76da2070608d24892e0525be2b1e0ee42d338fc9bb22",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-edu-jc-music-abc-mirror-folkinfo-org-away-in-a-manger-3-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Ffolkinfo.org%2FAway_In_A_Manger_3%2F0000",
+  "kind": "abc",
+  "bytes": 1013,
+  "sha256": "a9c3f530290641649f743c78df1c22bbd5f81c718d4836a99551f02bd1da9caf",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-edu-jc-music-abc-mirror-folkinfo-org-away-in-a-manger-6-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Ffolkinfo.org%2FAway_In_A_Manger_6%2F0000",
+  "kind": "abc",
+  "bytes": 1036,
+  "sha256": "12776a81b5dac8a3c3c6c6b2772d46ab5de06c1ab5a6d3d0ce1a4c1c59ad7d1c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0006.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0006",
+  "kind": "abc",
+  "bytes": 635,
+  "sha256": "a8c2dd942de82c6edab58c17c7e7d11710ee5cc00fbd8842968cb4aad99cb970",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-t-edu-jc-music-abc-mirror-folkinfo-org-away-in-a-manger-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Ffolkinfo.org%2FAway_In_A_Manger%2F0000",
+  "kind": "abc",
+  "bytes": 141,
+  "sha256": "4fa9e6ef4351626af0f647571955530f273123410ce59704983183958498ec86",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-t-edu-jc-music-abc-mirror-lesterbailey-away-in-a-manger-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FAway_in_a_Manger%2F0000",
+  "kind": "abc",
+  "bytes": 216,
+  "sha256": "fb3a82eb17856c6d4ebf36d0579f5c2926a7df1916b806f998e21599045ee39b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-contra-waltz-ashgrove1-g-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FContra%2Fwaltz%2FAshGrove1_G%2F0000",
+  "kind": "abc",
+  "bytes": 417,
+  "sha256": "8ab09700e3911161423bb6d1d3633fdca621af033b9e7f81c660e4ea0d7aa084",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-www-joe-offer-com-folkinfo-songs-abc-284-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.joe-offer.com%2Ffolkinfo%2Fsongs%2Fabc%2F284%2F0000",
+  "kind": "abc",
+  "bytes": 441,
+  "sha256": "34a64cbe1ce15fc5407adb9b9b148ebec4eb1bcc9e67085172605adae822d653",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-away_in_a_manger-mueller.abc",
+  "url": "http://openhymnal.org/Abc/Away_In_A_Manger-Mueller.abc",
+  "kind": "abc",
+  "bytes": 5059,
+  "sha256": "a2f89040f938cc0708385f7999d90d838df95f1f94b8391995adc987a5fe99e9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-11999.json",
+  "url": "https://thesession.org/tunes/11999?format=json",
+  "kind": "abc",
+  "bytes": 13491,
+  "sha256": "ae213f619004ca81bf8e8b3889660ad3c9677c347cba9df7fe8a76faeb38688c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-away-in-a-manger.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Away_in_a_Manger",
+  "kind": "lilypond",
+  "bytes": 35520,
+  "sha256": "e59a9c484340ac1c6fbd3568e2bd298f8fce3c0e92b8180a8b095727479c7755",
+  "fetched": "2026-09-18"
+ }
+]

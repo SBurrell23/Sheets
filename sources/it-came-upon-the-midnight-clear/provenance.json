@@ -1,0 +1,50 @@
+[
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-parts-tunebook-0005.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_parts_tunebook%2F0005",
+  "kind": "abc",
+  "bytes": 267,
+  "sha256": "3b8661eec7358be02f78aae00ee1205da14778212af0f209c7585c0820e273b6",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-xmas-tunebook-0031.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_xmas_tunebook%2F0031",
+  "kind": "abc",
+  "bytes": 255,
+  "sha256": "2c3bde1eaaaaff02681bbcd565f03f1d29aa14c60e43535b334541660a2e2c89",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-r-mindspring-com-thornton-rose-itcameuponamidnightclear-0005.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fmindspring.com%2F~thornton.rose%2FItCameUponAMidnightClear%2F0005",
+  "kind": "abc",
+  "bytes": 207,
+  "sha256": "8dd712b0957544871cad8248183da3b532549293c080d298c67436353e944d28",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ww-stephenmerrony-co-uk-it-came-upon-the-midnight-clear-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FIt_Came_Upon_The_Midnight_Clear%2F0000",
+  "kind": "abc",
+  "bytes": 768,
+  "sha256": "ba793072e1b3531949f7636dce91a50aec91a0db0529ba738a8e88dcf814ac40",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-it_came_upon_a_midnight_clear-carol.abc",
+  "url": "http://openhymnal.org/Abc/It_Came_Upon_A_Midnight_Clear-Carol.abc",
+  "kind": "abc",
+  "bytes": 7044,
+  "sha256": "0a7916362fab40edb1ffc7f391461b92d4f01d559d6498e6a1d3960d87b6eca2",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-it-came-upon-the-midnight-clear.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/It_Came_Upon_the_Midnight_Clear",
+  "kind": "lilypond",
+  "bytes": 15178,
+  "sha256": "6fc47d1a6fb39404bba49df825fbd348f0af5c0545e70da308f2202c976bbe32",
+  "fetched": "2026-09-18"
+ }
+]

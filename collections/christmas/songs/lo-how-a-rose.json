@@ -1,0 +1,31 @@
+{
+  "title": "Lo, How a Rose E'er Blooming",
+  "source": "German, tune ES IST EIN ROS ENTSPRUNGEN, Speyer Hymnal 1599; harmonised by Michael Praetorius, 1609; words tr. Theodore Baker, 1894",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 8,
+  "tempo": 96,
+  "bars": [
+    { "chord": "C",    "notes": "G5:8" },
+
+    { "chord": "C",    "notes": "G5:4 G5:4 [F]A5:4 [C]G5:4" },
+    { "chord": "G",    "notes": "G5:8 [Am]E5:8" },
+    { "chord": "F",    "notes": "F5:8 [C]E5:4 [G/B]D5:4~" },
+    { "chord": "Am",   "notes": "D5:4 C5:8 [G]B4:4" },
+    { "chord": "C",    "notes": "C5:8 G5:8" },
+
+    { "chord": "C",    "notes": "G5:4 G5:4 [F]A5:4 [C]G5:4" },
+    { "chord": "G",    "notes": "G5:8 [Am]E5:8" },
+    { "chord": "F",    "notes": "F5:8 [C]E5:4 [G/B]D5:4~" },
+    { "chord": "Am",   "notes": "D5:4 C5:8 [G]B4:4" },
+    { "chord": "C",    "notes": "C5:8 R:4 E5:4" },
+
+    { "chord": "Dm",   "notes": "D5:4 [Em]B4:4 [C]C5:4 [D]A4:4" },
+    { "chord": "G",    "notes": "G4:8 R:4 G5:4" },
+    { "chord": "G/B",  "notes": "G5:4 [C]G5:4 [F]A5:4 [C]G5:4" },
+    { "chord": "G",    "notes": "G5:8 [A]E5:8" },
+    { "chord": "Dm",   "notes": "F5:8 [C/E]E5:4 [Dm/F]D5:4~" },
+    { "chord": "G",    "notes": "D5:4 C5:8 B4:4" },
+    { "chord": "C",    "notes": "C5:16" }
+  ]
+}
