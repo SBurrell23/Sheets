@@ -3,7 +3,7 @@ T:Radetzky March
 C:Johann Strauss Sr., Radetzky March, Op. 228, 1848
 M:2/2
 L:1/16
-Q:1/2=108
+Q:1/2=64
 K:C clef=treble
 "C"c2c2c2 z2 c2c2c2 z2 | "C"e4 d4 c6 B2 | "D7"A2^G2A2B2 c4 d4 | "G7"G4 z8 "C"e2^d2 |
 "C"e2 z2 e2^d2 e2 z2 e2d2 | "C"e2 z2 d2 z2 c2 z2 e2^d2 | "C"e2 z2 e2^d2 e2 z2 e2d2 | "C"e2 z2 a2 z2 g2 z2 g2e2 |

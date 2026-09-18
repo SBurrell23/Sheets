@@ -61,7 +61,14 @@ Write exactly one file to the path you are given, `collections/classical/songs/<
   Use the meter the piece is really in; do not force it into 4/4.
 - `pickup` — **omit** if the theme starts on beat 1. Otherwise set it to the upbeat's length in
   sixteenth units, and make bar 1 exactly that long.
-- `tempo` — a sensible performance tempo in BPM (50–220).
+- `tempo` — a sensible performance tempo, counted in the **beat the meter names**, not
+  always a quarter note: a quarter in 4/4, 3/4 and 2/4, a **dotted quarter** in 6/8, 9/8
+  and 12/8, and a **half note** in cut time (2/2). A jig marked 120 therefore plays at 120
+  dotted quarters — 360 eighth notes — a minute, which is roughly twice as fast as a 4/4
+  song marked 120. Give a compound tune the tempo its printed `♩. =` mark would carry,
+  and if the number you found came from a tempo database (those quote quarter notes), divide
+  it by 1.5 before writing it down.
+  Stay inside 50–220.
 - `bars` — the theme, one object per bar.
 
 ## 3. The note language

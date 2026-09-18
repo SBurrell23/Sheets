@@ -106,7 +106,7 @@ window.PS_MANIFEST = [
       "title": "Blow the Man Down",
       "key": "C",
       "meter": "6/8",
-      "tempo": 112,
+      "tempo": 63,
       "bars": 9,
       "source": "Traditional sea shanty",
       "pdf": "songs/folk-songs/blow-the-man-down.pdf"
@@ -206,7 +206,7 @@ window.PS_MANIFEST = [
       "title": "Greensleeves",
       "key": "Am",
       "meter": "6/8",
-      "tempo": 100,
+      "tempo": 66,
       "bars": 17,
       "source": "Traditional English, 16th century",
       "pdf": "songs/folk-songs/greensleeves.pdf"
@@ -466,7 +466,7 @@ window.PS_MANIFEST = [
       "title": "Sweet Betsy from Pike",
       "key": "C",
       "meter": "6/8",
-      "tempo": 120,
+      "tempo": 72,
       "bars": 12,
       "source": "Traditional, 1858",
       "pdf": "songs/folk-songs/sweet-betsy-from-pike.pdf"
@@ -546,7 +546,7 @@ window.PS_MANIFEST = [
       "title": "Three Blind Mice",
       "key": "C",
       "meter": "6/8",
-      "tempo": 126,
+      "tempo": 80,
       "bars": 16,
       "source": "Traditional, first printed 1609",
       "pdf": "songs/folk-songs/three-blind-mice.pdf"
@@ -586,7 +586,7 @@ window.PS_MANIFEST = [
       "title": "When Johnny Comes Marching Home",
       "key": "Am",
       "meter": "6/8",
-      "tempo": 112,
+      "tempo": 104,
       "bars": 17,
       "source": "Patrick S. Gilmore (as \"Louis Lambert\"), 1863",
       "pdf": "songs/folk-songs/when-johnny-comes-marching-home.pdf"
@@ -672,7 +672,7 @@ window.PS_MANIFEST = [
       "title": "Barcarolle",
       "key": "C",
       "meter": "6/8",
-      "tempo": 84,
+      "tempo": 63,
       "bars": 21,
       "source": "Jacques Offenbach, Barcarolle (Belle nuit, ô nuit d'amour) from The Tales of Hoffmann, 1881",
       "pdf": "songs/classical/barcarolle.pdf"
@@ -862,7 +862,7 @@ window.PS_MANIFEST = [
       "title": "Jesu, Joy of Man's Desiring",
       "key": "C",
       "meter": "9/8",
-      "tempo": 88,
+      "tempo": 63,
       "bars": 9,
       "source": "J.S. Bach, chorale from Cantata BWV 147, 1723",
       "pdf": "songs/classical/jesu-joy.pdf"
@@ -892,7 +892,7 @@ window.PS_MANIFEST = [
       "title": "Lacrimosa",
       "key": "Am",
       "meter": "12/8",
-      "tempo": 63,
+      "tempo": 44,
       "bars": 25,
       "source": "W. A. Mozart, Requiem in D minor K. 626, 1791",
       "pdf": "songs/classical/mozart-lacrimosa.pdf"
@@ -902,7 +902,7 @@ window.PS_MANIFEST = [
       "title": "Largo al factotum",
       "key": "C",
       "meter": "6/8",
-      "tempo": 135,
+      "tempo": 112,
       "bars": 26,
       "source": "Gioachino Rossini, The Barber of Seville, 1816 - Figaro's aria, vocal line",
       "pdf": "songs/classical/largo-al-factotum.pdf"
@@ -962,7 +962,7 @@ window.PS_MANIFEST = [
       "title": "Morning Mood",
       "key": "C",
       "meter": "6/8",
-      "tempo": 108,
+      "tempo": 60,
       "bars": 16,
       "source": "Edvard Grieg, Peer Gynt, Op. 23, 1875",
       "pdf": "songs/classical/morning-mood.pdf"
@@ -982,7 +982,7 @@ window.PS_MANIFEST = [
       "title": "Nocturne, Op. 9 No. 2",
       "key": "C",
       "meter": "12/8",
-      "tempo": 66,
+      "tempo": 48,
       "bars": 9,
       "source": "Frederic Chopin, Nocturne in E-flat major, Op. 9 No. 2, 1832",
       "pdf": "songs/classical/nocturne-op9-no2.pdf"
@@ -1042,7 +1042,7 @@ window.PS_MANIFEST = [
       "title": "Radetzky March",
       "key": "C",
       "meter": "2/2",
-      "tempo": 108,
+      "tempo": 64,
       "bars": 28,
       "source": "Johann Strauss Sr., Radetzky March, Op. 228, 1848",
       "pdf": "songs/classical/radetzky-march.pdf"
@@ -1052,7 +1052,7 @@ window.PS_MANIFEST = [
       "title": "Ride of the Valkyries",
       "key": "Am",
       "meter": "9/8",
-      "tempo": 100,
+      "tempo": 92,
       "bars": 22,
       "source": "Richard Wagner, Die Walküre, Act III prelude, 1870",
       "pdf": "songs/classical/ride-of-the-valkyries.pdf"
@@ -1182,7 +1182,7 @@ window.PS_MANIFEST = [
       "title": "The Great Gate of Kiev",
       "key": "C",
       "meter": "2/2",
-      "tempo": 66,
+      "tempo": 54,
       "bars": 16,
       "source": "Modest Mussorgsky, Pictures at an Exhibition, 1874",
       "pdf": "songs/classical/great-gate-of-kiev.pdf"
@@ -2270,7 +2270,7 @@ window.PS_MANIFEST = [
       "title": "Here We Come A-Wassailing",
       "key": "C",
       "meter": "6/8",
-      "tempo": 96,
+      "tempo": 76,
       "bars": 20,
       "source": "Traditional English carol, the Wassail Song, c.1850",
       "pdf": "songs/christmas/here-we-come-a-wassailing.pdf"
@@ -2280,7 +2280,7 @@ window.PS_MANIFEST = [
       "title": "I Saw Three Ships",
       "key": "C",
       "meter": "6/8",
-      "tempo": 96,
+      "tempo": 80,
       "bars": 9,
       "source": "Traditional English carol, printed by William Sandys in Christmas Carols Ancient and Modern, 1833",
       "pdf": "songs/christmas/i-saw-three-ships.pdf"
@@ -2410,7 +2410,7 @@ window.PS_MANIFEST = [
       "title": "Sussex Carol",
       "key": "C",
       "meter": "6/8",
-      "tempo": 104,
+      "tempo": 84,
       "bars": 15,
       "source": "Traditional English carol, tune SUSSEX CAROL, collected in Sussex 1904; words first printed by Luke Wadding, 1684",
       "pdf": "songs/christmas/sussex-carol.pdf"

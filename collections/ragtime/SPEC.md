@@ -71,8 +71,15 @@ Write exactly one file to the path you are given, `collections/ragtime/songs/<sl
   Use the meter the piece is really in; do not force it into 4/4.
 - `pickup` — **omit** if the tune starts on beat 1. Otherwise set it to the upbeat's length in
   sixteenth units, and make bar 1 exactly that long.
-- `tempo` — a sensible performance tempo (50–220). Rags are marched, not raced: Joplin wrote
-  "Not fast" on most of them. 76–96 suits nearly all of these.
+- `tempo` — a sensible performance tempo, counted in the **beat the meter names**, not
+  always a quarter note: a quarter in 4/4, 3/4 and 2/4, a **dotted quarter** in 6/8, 9/8
+  and 12/8, and a **half note** in cut time (2/2). A jig marked 120 therefore plays at 120
+  dotted quarters — 360 eighth notes — a minute, which is roughly twice as fast as a 4/4
+  song marked 120. Give a compound tune the tempo its printed `♩. =` mark would carry,
+  and if the number you found came from a tempo database (those quote quarter notes), divide
+  it by 1.5 before writing it down.
+  Stay inside 50–220. Rags are marched, not raced: Joplin wrote "Not fast" on most of
+  them, and 76–96 suits nearly all of these.
 - `bars` — the arrangement, one object per bar.
 
 ## 4. The note language
@@ -118,8 +125,8 @@ That convention is what the rest of the collection uses, and there are two reaso
 
 - **Readability.** A bar of fourteen sixteenth notes is not a beginner–intermediate lead sheet,
   whatever the first edition looks like.
-- **Tempo.** The player reads `tempo` as quarter-notes per minute. Halving the note values makes
-  the piece play at double speed against every other song on the site.
+- **Tempo.** Rags are in 2/4, where `tempo` counts quarter notes. Halving the note values would
+  make the piece play at double speed against every other song on the site.
 
 So a full `A B A C D` at 16 bars a strain comes to **about 80 written bars**, and a typical bar
 looks like `E5:2 C6:4 E5:2 C6:4 E5:2 C6:2` — not `A5:1 G5:2 F5:1 E5:1 Eb5:1 E5:1 D5:1 C5:1 ...`.

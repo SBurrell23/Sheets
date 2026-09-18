@@ -95,7 +95,13 @@ Write exactly one file to the path you are given, `collections/christmas/songs/<
 - `meter` — `4/4`, `3/4`, `2/4`, `6/8`, `9/8` or `12/8`. Use the meter the tune is really in.
 - `pickup` — **omit it** if the tune starts on beat 1. If the tune starts with an upbeat, set
   this to the length of that upbeat in sixteenth units, and make bar 1 exactly that long.
-- `tempo` — a sensible performance tempo in beats per minute.
+- `tempo` — a sensible performance tempo, counted in the **beat the meter names**, not
+  always a quarter note: a quarter in 4/4, 3/4 and 2/4, a **dotted quarter** in 6/8, 9/8
+  and 12/8, and a **half note** in cut time (2/2). A jig marked 120 therefore plays at 120
+  dotted quarters — 360 eighth notes — a minute, which is roughly twice as fast as a 4/4
+  song marked 120. Give a compound tune the tempo its printed `♩. =` mark would carry,
+  and if the number you found came from a tempo database (those quote quarter notes), divide
+  it by 1.5 before writing it down.
 - `bars` — the tune, one object per bar.
 
 ## 3. The note language

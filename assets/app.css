@@ -49,13 +49,16 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
    sitting first in the line put its tail outside the content box and against the
    page edge, where anything clipping the document cut the tail flat. The left
    margin buys the overhang its own room. */
-h1 .mark{font-style:italic; font-weight:700; font-size:1.5em;
+/* Georgia, NOT the Playfair Display the rest of the title is set in. A forte
+   mark is mostly tail -- a descender that swings left and curls back under the
+   baseline -- and Playfair's italic f has no curl at all: its descender stops in
+   a blunt angled stub, which reads exactly like a letter whose bottom has been
+   cut off. No amount of overflow, margin or size fixes a glyph that was never
+   drawn with the hook. Georgia's italic f has it, Times' does too, and this is
+   the same stack favicon.svg uses, so the logo and the tab icon are one letter. */
+h1 .mark{font-family:Georgia,"Times New Roman",serif;
+  font-style:italic; font-weight:700; font-size:1.5em;
   margin-left:.08em; margin-right:.22em; letter-spacing:0;
-  /* A forte f is mostly tail: a long descender that curls left well below the
-     baseline. At 1.16em of a 21px title that curl came out about two pixels and
-     read as though the letter had been chopped. Nothing was clipping it -- the
-     glyph paints outside the line box correctly -- it was simply too small to
-     read as a curl. Hence the size, and the line-height that gives it room. */
   line-height:0}
 .masthead .btn{flex:0 0 auto}
 .count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:14px; color:var(--ink-2);

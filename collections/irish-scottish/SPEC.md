@@ -76,7 +76,14 @@ Write exactly one file to the path you are given:
 - `pickup` — these tunes very often start on an upbeat. Set it to the upbeat's length in
   sixteenth units, and make bar 1 exactly that long. **Omit it only if the tune truly starts on
   beat 1** — do not invent a pickup, and do not remove a real one.
-- `tempo` — a sensible performance tempo (50–220). An air is slow; a jig or reel is not.
+- `tempo` — a sensible performance tempo, counted in the **beat the meter names**, not
+  always a quarter note: a quarter in 4/4, 3/4 and 2/4, a **dotted quarter** in 6/8, 9/8
+  and 12/8, and a **half note** in cut time (2/2). A jig marked 120 therefore plays at 120
+  dotted quarters — 360 eighth notes — a minute, which is roughly twice as fast as a 4/4
+  song marked 120. Give a compound tune the tempo its printed `♩. =` mark would carry,
+  and if the number you found came from a tempo database (those quote quarter notes), divide
+  it by 1.5 before writing it down.
+  Stay inside 50–220. An air is slow; a jig or reel is not.
 - `bars` — the tune, one object per bar.
 
 ## 5. The note language
