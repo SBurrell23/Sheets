@@ -17,7 +17,7 @@ or one or more named sets:
 Songs and specs are embedded in index.html rather than fetched, because fetch() is
 blocked on file:// URLs -- that is what keeps index.html openable by double-clicking.
 """
-import io, json, os, re, subprocess, sys, glob
+import hashlib, io, json, os, re, subprocess, sys, glob
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -69,13 +69,79 @@ def landing_rotation(song):
             for s in range(len(song['bars']) // 8)]
 
 
+# Engraving is the whole cost of a build: MuseScore takes about 1.2s per score
+# when it is launched once per file, which is ~4 minutes across the collection.
+# Two things fix that. A job file converts the whole batch in ONE process, and
+# almost all of that 1.2s turns out to be startup -- the marginal cost per score
+# is about 28ms. And a PDF only needs redrawing when its MusicXML changes, so we
+# remember the hash of the MusicXML each PDF was made from.
+#
+# Hashing the generated MusicXML rather than the song JSON is deliberate: it also
+# catches a change in the renderer. When the compound-meter tempo was fixed, every
+# score's metronome mark changed while its JSON did not, and a JSON-based cache
+# would have shipped 20 stale PDFs.
+PDF_CACHE = os.path.join(ROOT, 'songs', '.build-cache.json')
+ENGRAVE_CHUNK = 100
+
+
+def load_cache():
+    try:
+        with io.open(PDF_CACHE, encoding='utf-8') as f:
+            c = json.load(f)
+        return c if isinstance(c, dict) else {}
+    except Exception:
+        return {}
+
+
+def save_cache(cache):
+    with io.open(PDF_CACHE, 'w', encoding='utf-8', newline=chr(10)) as f:
+        f.write(json.dumps(cache, indent=1, sort_keys=True) + chr(10))
+
+
+def engrave(ms, jobs, cache):
+    """Convert every queued score, then record what each PDF was made from.
+
+    A job is only cached once its PDF exists AND is newer than it was before the
+    run, so a MuseScore failure leaves the old file in place and simply retries
+    next time rather than marking a stale PDF as current.
+    """
+    jobfile = os.path.join(ROOT, 'songs', '.mscore-job.json')
+    done = 0
+    for i in range(0, len(jobs), ENGRAVE_CHUNK):
+        part = jobs[i:i + ENGRAVE_CHUNK]
+        with io.open(jobfile, 'w', encoding='utf-8') as f:
+            f.write(json.dumps([{'in': j['in'], 'out': j['out']} for j in part],
+                               indent=1))
+        try:
+            subprocess.run([ms, '-j', jobfile],
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                           timeout=120 + 5 * len(part), check=False)
+        except Exception as ex:
+            print('  warn  engraving batch failed: %s' % ex)
+        finally:
+            try:
+                os.remove(jobfile)
+            except OSError:
+                pass
+        for j in part:
+            if not os.path.exists(j['out']):
+                print('  warn  %s was not engraved' % j['rel'])
+                continue
+            if j['was'] is not None and os.path.getmtime(j['out']) <= j['was']:
+                print('  warn  %s was not refreshed' % j['rel'])
+                continue
+            cache[j['rel']] = j['digest']
+            done += 1
+    return done
+
 def landing_rhythms(song):
     return [songlib.rhythm_of(songlib.parse_bar(song['bars'][i - 1]['notes'])[0])
             for i in range(4, len(song['bars']) + 1, 4)]
 
 
 def main():
-    ms = find_musescore()
+    force = '--force' in sys.argv          # re-engrave even if unchanged
+    ms = None if '--no-pdf' in sys.argv else find_musescore()
     if not ms:
         print('note: MuseScore not found, skipping PDF engraving')
     if not os.path.isdir(COLLECTIONS):
@@ -83,6 +149,8 @@ def main():
         return 1
 
     out_collections, failed, total = [], [], 0
+    cache = {} if force else load_cache()
+    jobs, fresh = [], 0
 
     for cid in sorted(os.listdir(COLLECTIONS)):
         cdir = os.path.join(COLLECTIONS, cid)
@@ -136,19 +204,24 @@ def main():
                 with io.open(os.path.join(outdir, slug + '.abc'), 'w', encoding='utf-8') as f:
                     f.write(songlib.to_abc(song, with_title=True, swing=swing))
                 xml_path = os.path.join(outdir, slug + '.musicxml')
+                xml_text = songlib.to_musicxml(song, swing=swing)
                 with io.open(xml_path, 'w', encoding='utf-8') as f:
-                    f.write(songlib.to_musicxml(song, swing=swing))
+                    f.write(xml_text)
 
                 if ms:
                     pdf_path = os.path.join(outdir, slug + '.pdf')
-                    try:
-                        subprocess.run([ms, '-o', pdf_path, xml_path],
-                                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
-                                       timeout=180, check=False)
-                    except Exception as ex:
-                        print('  warn %-26s PDF failed: %s' % (name, ex))
-                    if not os.path.exists(pdf_path):
-                        print('  warn %-26s PDF was not produced' % name)
+                    rel_pdf = 'songs/' + reldir + '/' + slug + '.pdf'
+                    digest = hashlib.sha256(xml_text.encode('utf-8')).hexdigest()
+                    if cache.get(rel_pdf) == digest and os.path.exists(pdf_path):
+                        fresh += 1
+                    else:
+                        jobs.append({
+                            'in': os.path.abspath(xml_path),
+                            'out': os.path.abspath(pdf_path),
+                            'rel': rel_pdf, 'digest': digest,
+                            'was': os.path.getmtime(pdf_path)
+                                   if os.path.exists(pdf_path) else None,
+                        })
 
                 if len(song['bars']) >= 8:
                     land[song['title']] = (
@@ -196,6 +269,16 @@ def main():
         out_collections.append({'id': cid, 'title': meta.get('title', cid),
                                 'blurb': meta.get('blurb', ''),
                                 'order': meta.get('order', 99), 'sets': out_sets})
+
+    if ms:
+        if jobs:
+            print(chr(10) + 'engraving %d score(s), %d already current'
+                  % (len(jobs), fresh))
+            made = engrave(ms, jobs, cache)
+            print('engraved %d PDF(s)' % made)
+        else:
+            print(chr(10) + 'all %d PDF(s) already current' % fresh)
+        save_cache(cache)
 
     if not out_collections:
         print('\nnothing built')
