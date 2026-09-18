@@ -1,0 +1,27 @@
+{
+  "title": "Blessed Assurance",
+  "source": "Phoebe P. Knapp, tune ASSURANCE, 1873; words Fanny J. Crosby, 1873",
+  "key": "C",
+  "meter": "9/8",
+  "pickup": 6,
+  "tempo": 60,
+  "bars": [
+    { "chord": "C",  "notes": "E5:2 D5:2 C5:2" },
+    { "chord": "C",  "notes": "G5:6 G5:6 F5:2 G5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:12 G5:2 E5:2 G5:2" },
+    { "chord": "C",  "notes": "C6:6 [G]B5:4 B5:2 A5:2 G5:2 F#5:2" },
+    { "chord": "G",  "notes": "G5:12 [C]E5:2 D5:2 C5:2" },
+    { "chord": "C",  "notes": "G5:6 G5:6 F5:2 G5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:12 C5:2 D5:2 E5:2" },
+    { "chord": "Dm", "notes": "F5:6 D5:6 [G7]C5:2 D5:2 B4:2" },
+    { "chord": "C",  "notes": "C5:12 G5:2 G5:2 G5:2" },
+    { "chord": "C",  "notes": "C6:6 G5:6 [F]A5:2 A5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:12 G5:2 G5:2 G5:2" },
+    { "chord": "F",  "notes": "A5:6 C6:6 [G]B5:2 B5:2 A5:2" },
+    { "chord": "G",  "notes": "B5:12 B5:2 C6:2 D6:2" },
+    { "chord": "C",  "notes": "C6:6 G5:6 A5:2 G5:2 A5:2" },
+    { "chord": "C",  "notes": "G5:12 C5:2 D5:2 E5:2" },
+    { "chord": "Dm", "notes": "F5:6 D5:6 [G7]C5:3 D5:1 B4:2" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

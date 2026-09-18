@@ -1,0 +1,12 @@
+X:1
+T:The Old Rugged Cross
+C:George Bennard, tune OLD RUGGED CROSS, 1913; words George Bennard, 1913
+M:6/8
+L:1/16
+Q:3/8=44
+K:C clef=treble
+"C"E1F1 | "C"G3^F1A2 G4 G1G1 | "F"A3^G1B2 A4 A1A1 | "G7"B3A1G2 F2G2F2 |
+"C"E6- E4 E1F1 | "C"G3^F1A2 G4 G1G1 | "F"A3^G1B2 A4 A1A1 | "G7"B3A1G2 f2e2d2 |
+"C"c6- c4 B1c1 | "G7"d3d1d2 d2c2B2 | "C"c6- c4 c1B1 | "F"A3A1A2 c2B2A2 |
+"C"G6- G4 G1c1 | "C"e3e1e2 e2f2e2 | "F"A6- A4 f1f1 | "C"e3d1c2 "G7"G2B2d2 |
+"C"c6- Hc4 |]

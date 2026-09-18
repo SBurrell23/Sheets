@@ -21,6 +21,13 @@ window.PS = window.PS || {};
       '<rect x="6.7" y="5.4" width="2.5" height="7.6" rx=".5" fill="currentColor" stroke="none"/>' +
       '<rect x="12.7" y="5.4" width="2.5" height="7.6" rx=".5" fill="currentColor" stroke="none"/>' +
       '<rect x="17.4" y="5.4" width="2.5" height="7.6" rx=".5" fill="currentColor" stroke="none"/>',
+    // An open hymnal: a hymn is indexed and sung from the book, and a book reads
+    // at 24px where a church or a cross does not.
+    "hymns":
+      '<path d="M12 6.6C10.2 5.1 7.9 4.4 5 4.4c-.8 0-1.4.6-1.4 1.3v11.5c0 .8.6 1.3 1.4 1.3' +
+      ' 2.9 0 5.2.7 7 2.2 1.8-1.5 4.1-2.2 7-2.2.8 0 1.4-.5 1.4-1.3V5.7c0-.7-.6-1.3-1.4-1.3' +
+      '-2.9 0-5.2.7-7 2.2z"/>' +
+      '<path d="M12 6.6v14.1"/>',
     "ai-music":
       '<path d="M8.6 2.4l1.3 3.6 3.6 1.3-3.6 1.3-1.3 3.6-1.3-3.6L3.7 7.3l3.6-1.3z"/>' +
       '<circle cx="13.6" cy="18.3" r="2.4"/><path d="M16 18.3v-7.1l3.8 1.4"/>'

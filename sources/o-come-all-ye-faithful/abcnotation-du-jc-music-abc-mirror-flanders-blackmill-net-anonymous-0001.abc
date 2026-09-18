@@ -1,0 +1,33 @@
+
+X:1
+T:O come all ye faithful
+T:Adeste fideles
+C:Unknown (prob. 18th C), arr. David Willcocks
+Z:Bert Van Vreckem <bertvv@advalvas.be>
+M:4/4
+L:1/4
+%%staves {(1 2) (3 4)}
+K:G
+%
+% 1st system
+%
+V:1 clef=treble
+G | G2 DG | A2 D2 | BA Bc | B2 AG |
+w: Oh come, all ye faith-ful, Joy-ful and tri-um-phant, O
+V:2 clef=treble
+D | D2 DD | E2 E2 | DD DE | D2 DB, |
+V:3 clef=bass
+b | b2 bb | c'2 a2 | ga gg | g2 fg |
+V:4 clef=bass
+g | g2 gg | g2 f2 | gf gc | d2 de |
+V:1
+G2 DG | A2 D2 | BA Bc | B2 AG |
+%D | G2 FE | FG AB | F2 ED | D3 D |
+%w: come ye, O come_ ye to Beth-_le-hem
+%V:2
+%D2 DB, | ( B,^C ) DC | D2 DD | ( D2 ^C3/2) D/ | D3 z |
+%V:3
+%g2 aa | ( ag ) fd | ( a2 g3/2 ) f/ | f3 z |
+%V:4
+%d2 de | e2 eA | ( dB ) FG | ( A2 A3/2 ) d/ | 3 z |
+

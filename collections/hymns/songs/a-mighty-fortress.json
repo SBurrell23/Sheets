@@ -1,0 +1,138 @@
+{
+  "title": "A Mighty Fortress Is Our God",
+  "source": "Martin Luther, tune EIN FESTE BURG, c.1529 — original rhythmic form; words Martin Luther, tr. Frederick H. Hedge",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 92,
+  "bars": [
+    {
+      "chord": "C",
+      "notes": "C6:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 [Am]C6:8"
+    },
+    {
+      "chord": "Em",
+      "notes": "G5:8 [F]A5:4 C6:4~"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 B5:4 [D]A5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 R:4 [Am]C6:4"
+    },
+    {
+      "chord": "Em",
+      "notes": "B5:8 [F]A5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 [Dm]A5:4 F5:4~"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:4 E5:4 D5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 R:4 C6:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 [Am]C6:8"
+    },
+    {
+      "chord": "Em",
+      "notes": "G5:8 [F]A5:4 C6:4~"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 B5:4 [D]A5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 R:4 [Am]C6:4"
+    },
+    {
+      "chord": "Em",
+      "notes": "B5:8 [F]A5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 [Dm]A5:4 F5:4~"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:4 E5:4 D5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 R:4 C5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:6 F5:2 [C]G5:4 A5:4~"
+    },
+    {
+      "chord": "Am",
+      "notes": "A5:4 G5:8 [D]F#5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 [C]C5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 [Am]A5:8"
+    },
+    {
+      "chord": "G",
+      "notes": "B5:8 [C]C6:8"
+    },
+    {
+      "chord": "Em",
+      "notes": "R:8 B5:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "C6:8 [G]B5:8"
+    },
+    {
+      "chord": "D",
+      "notes": "A5:8 [G]G5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:8 A5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 A5:8 [G]G5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:8 R:4 C6:4"
+    },
+    {
+      "chord": "Em",
+      "notes": "B5:8 [F]A5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 [Dm]A5:4 F5:4~"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:4 E5:4 D5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12"
+    }
+  ]
+}

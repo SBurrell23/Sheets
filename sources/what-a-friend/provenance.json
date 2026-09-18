@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-frndjsus-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FFRNDJSUS%2F0000",
+  "kind": "abc",
+  "bytes": 328,
+  "sha256": "d28815660de7a8b25aa91af4424b37fd742b1cf3cbb47e790e5fe99157090bda",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-abc-mirror-gulfweb-net-34043-rlwalker-abc-whatafriend-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgulfweb.net%3A34043%2F~rlwalker%2Fabc%2Fwhatafriend%2F0000",
+  "kind": "abc",
+  "bytes": 1560,
+  "sha256": "4772ea65946b435371dc9a0940e375b6aa82f57010abe7744e4bcb5260a87e03",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ic-abc-mirror-lesterbailey-when-this-bloody-war-is-over-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FWhen_This_Bloody_War_is_Over%2F0000",
+  "kind": "abc",
+  "bytes": 252,
+  "sha256": "195c321c1d2286cc5d47dd1d7466cd56f94177e616edfa6f1e1ac69cf11b3d85",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-songs-tunebook-0037.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_songs_tunebook%2F0037",
+  "kind": "abc",
+  "bytes": 602,
+  "sha256": "ac4fffcdffc863aff89692a012cd17d08b5d47c1899e35294b2233855e79f627",
+  "fetched": "2026-09-18"
+ }
+]

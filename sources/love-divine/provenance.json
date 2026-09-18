@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation-abc-sourceforge-net-nmd-nmd-waltzes-txt-0004.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=abc.sourceforge.net%2FNMD%2Fnmd%2Fwaltzes.txt%2F0004",
+  "kind": "abc",
+  "bytes": 439,
+  "sha256": "4ea6e9905265922e1c15cded16987198bdfac15fc4e7ac78574e724de4400bed",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-jc-music-abc-mirror-www-stephenmerrony-co-uk-hyfrydol-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FHyfrydol_1%2F0000",
+  "kind": "abc",
+  "bytes": 1739,
+  "sha256": "1646a81127d20158276670b7f33d196beab4f8dde8bd2fe00a58b35833f4c7a5",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-jc-music-abc-mirror-www-stephenmerrony-co-uk-hyfrydol-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FHyfrydol_2%2F0000",
+  "kind": "abc",
+  "bytes": 1042,
+  "sha256": "0400bebd637f00d6fcf4c46749f0b96939c339fdbefb33f085aeeb13c4ff8f5d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-u-jc-music-abc-mirror-www-stephenmerrony-co-uk-hyfrydol-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FHyfrydol%2F0000",
+  "kind": "abc",
+  "bytes": 1436,
+  "sha256": "45912c1eb66c13e00a83ab6a1a2f7c05167b9213f3f3c1768835dbfa3b4b3823",
+  "fetched": "2026-09-18"
+ }
+]

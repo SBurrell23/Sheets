@@ -1,0 +1,25 @@
+{
+  "title": "Abide With Me",
+  "source": "William H. Monk, tune EVENTIDE, 1861; words Henry Francis Lyte, 1847",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 76,
+  "bars": [
+    { "chord": "C",  "notes": "E5:8 E5:4 [G]D5:4" },
+    { "chord": "Am", "notes": "C5:8 [C]G5:8" },
+    { "chord": "F",  "notes": "A5:4 [G7]G5:4 G5:4 F5:4" },
+    { "chord": "C",  "notes": "E5:16" },
+    { "chord": "C",  "notes": "E5:8 F5:4 [G]G5:4" },
+    { "chord": "F",  "notes": "A5:8 [C]G5:8" },
+    { "chord": "Dm", "notes": "F5:4 D5:4 E5:4 [D]F#5:4" },
+    { "chord": "G",  "notes": "G5:16" },
+    { "chord": "C",  "notes": "E5:8 E5:4 [G]D5:4" },
+    { "chord": "Am", "notes": "C5:8 [C]G5:8" },
+    { "chord": "Dm", "notes": "G5:4 F5:4 F5:4 [A7]E5:4" },
+    { "chord": "Dm", "notes": "D5:16" },
+    { "chord": "G7", "notes": "D5:8 E5:4 F5:4" },
+    { "chord": "C",  "notes": "E5:4 D5:4 C5:4 [F]F5:4" },
+    { "chord": "C",  "notes": "E5:8 [G]D5:8" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

@@ -1,0 +1,234 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Joy to the World</title>
+    <ns>0</ns>
+    <id>639064</id>
+    <revision>
+      <id>1343676954</id>
+      <parentid>1334538042</parentid>
+      <timestamp>2026-03-15T19:33:31Z</timestamp>
+      <contributor>
+        <username>Rerun799</username>
+        <id>38173076</id>
+      </contributor>
+      <minor/>
+      <comment>changed the word "verses" to "stanzas" as this is the more accurate way to phrase it in hymnology</comment>
+      <origin>1343676954</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15537" sha1="51f96qlbpujb0uj64lpz8z3ro55ogz0" xml:space="preserve">{{short description|1719 English Christian hymn}}
+{{About|the hymn|other uses}}
+{{Use dmy dates|date=November 2020}}
+{{Infobox musical composition
+| name                = Joy to the World
+| type                = 
+| image               = 
+| caption             = 
+| composer            = 
+| genre               = [[Christmas carol]]
+| occasion            = 
+| text                = [[Isaac Watts]]
+| language            = 
+| written             = 1719
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Psalm|chapter=98}}
+| meter               = 8.6.8.6 [[Common metre]] (C.M.)
+| melody              = "Antioch" by [[George Frideric Handel]], arranged by [[Lowell Mason]]
+| composed            = 
+| published           = 
+}}
+
+"'''Joy to the World'''" is an English [[hymn]] and [[Christmas carol]]. Written in 1719 by the English minister and hymnist [[Isaac Watts]], the hymn is usually sung to an 1848 [[arrangement]] by the American composer [[Lowell Mason]] of a tune attributed to [[George Frideric Handel]]. The hymn's lyrics are a [[Christianity|Christian]] interpretation of [[Psalm 98]] and [[Book of Genesis#Primeval history (chapters 1–11)|Genesis 3]]. 
+
+Since the 20th century, "Joy to the World" has been the most-published Christmas carol in North America. {{As of|December 2009}}, it was published in 1,387 hymnals in North America, according to the ''Dictionary of North American Hymnology''.&lt;ref name=popular&gt;{{cite web|url=https://hymnary.org/node/6445|access-date=14 January 2024|title=Joy to the world!|date=1 December 2009|author=hplanton|website=[[Hymnary.org]]}}&lt;/ref&gt;
+
+==Lyrics==
+"Joy to the World" has four stanzas, although the third stanza is occasionally omitted.&lt;ref&gt;{{cite web|author=Sian Moore|title=What are the lyrics to 'Joy to the World', who composed the carol and what does it mean?|url=https://www.classicfm.com/discover-music/occasions/christmas/joy-to-the-world-hymn-carol-lyrics-composer/|access-date=14 January 2024|website=[[Classic FM (UK)|Classic FM]]|date=23 November 2021}}&lt;/ref&gt;{{failed verification|date=January 2024|reason=That's not mentioned there.}}
+
+{{Poem quote
+|text=Joy to the world; the Lord is come!
+Let Earth receive her King;
+Let every heart prepare Him room,
+{{Music repeat|And heaven and nature sing,}}
+And heaven, and heaven, and nature sing.
+
+Joy to the Earth,{{efn|Some editions have "world" here instead of "Earth", which the original text from 1719 uses.}} the Saviour reigns;
+Let men their songs employ;
+While fields and floods, rocks, hills, and plains
+{{Music repeat|Repeat the sounding joy,}}
+Repeat, repeat the sounding joy.
+
+No more let sins and sorrows grow,
+Nor thorns infest the ground;
+He comes to make His blessings flow
+{{Music repeat|Far as the curse is found,}}
+Far as, far as, the curse is found.
+
+He rules the world with truth and grace,
+And makes the nations prove
+The glories of His righteousness,
+{{Music repeat|And wonders of His love,}}
+And wonders, wonders, of His love.&lt;ref name=hymnary /&gt;
+}}
+
+==History==
+
+===Origin===
+[[File:Isaac_Watts_from_NPG.jpg|thumb|right|upright=1|[[Isaac Watts]], the author of the lyrics to "Joy to the World"]]
+"Joy to the World" was written by the English minister and hymnist Isaac Watts, based on a Christian interpretation of [[Psalm 98]] and [[Book of Genesis#Primeval history (chapters 1–11)|Genesis 3]]. The song was first published in 1719 under the title "The Messiah's Coming and Kingdom" in Watts's collection ''The Psalms of David: Imitated in the Language of the New Testament, and applied to the Christian State and Worship''.&lt;ref&gt;{{cite book|last=Watts|first=Isaac|year=1719|title=The Psalms of David: Imitated in the Language of the New Testament, and applied to the Christian State and Worship|location=London|publisher=J. Clarke|url=https://archive.org/details/chrtwimi00watt/page/n3/mode/2up|via=[[Internet Archive]]}}&lt;/ref&gt; In it, he asserts that Psalms 96-98 refer to "Christ's Incarnation, his setting up his Gospel-Kingdom to judge or rule the Gentiles, and the Judgment and Destruction of the Heathen Idols".&lt;ref&gt;{{Cite web |last=Bringe |first=Peter |title=Joy to the World: A Christmas Song |url=https://www.forchristskingdom.com/2025/12/joy-to-world-christmas-song.html |access-date=2025-12-09}}&lt;/ref&gt; The paraphrase is Watts's [[Christology|Christological]] interpretation of Psalm 98. In first and second stanzas, Watts writes of heaven and earth rejoicing at the coming of the King. Stanza three, an interlude that alludes to Genesis 3:17–19 rather than to the psalm text, speaks of Christ's blessings extending victoriously over the realm of sin. The cheerful repetition of the phrase "far as the curse is found" has caused this stanza to be omitted from some hymnals. But the line makes joyful sense when understood from the [[New Testament]] eyes through which Watts interprets the psalm. Stanza four celebrates Christ's [[Christ the King|rule over the nations]].&lt;ref name=hymnary&gt;[http://www.hymnary.org/text/joy_to_the_world_the_lord_is_come "Joy to the world, the Lord is come!"], ''[[Hymnary.org]]''&lt;/ref&gt; The nations are called to celebrate because God's faithfulness to the [[Israelites|House of Israel]] had brought salvation to the world.&lt;ref&gt;[https://web.archive.org/web/20110718115809/http://www.worshipleader.com/index.cfm?tdc=dsp&amp;page=features_detail&amp;aid=57 "Joy to the World!"], ''Worship Leader Magazine'' – via [[Internet Archive]]&lt;/ref&gt;
+
+===Music===
+{{listen|image=none|help=no
+|filename=Lowell Mason's "Antioch".mp3|title=Mason's "Antioch"|description=On piano
+|filename2=Joy To The World.ogg|title2="Joy to the World"|description2=[[United States Army Chorus]]}}
+Watts's 1719 preface says the verses "are fitted to the [[hymn tune|Tune]]s of the Old Psalm-Book" and includes the instruction, "''To the'' Common Tunes ''sing all entitled'' Common Metre."&lt;!-- italics in the original --&gt;{{sfn|Watts|1719|p=[https://archive.org/details/chrtwimi00watt/page/n35/mode/2up xxxii]}} It is not clear whether "Old Psalm-Book" means [[John Playford|Playford's]] 1677 publication or some other. [[Sternhold and Hopkins Psalter|Sternhold and Hopkins]]'s "old version" and [[Tate and Brady]]'s "new version", among others, circulated at that time as well. In the late 18th century, "Joy to the World" was printed with music several times, but the tunes were unrelated to the one commonly used today.&lt;ref&gt;For example to the tune "Warsaw" in [[Samuel Holyoke]]'s [[scores:Harmonia Americana (Holyoke, Samuel)|''Harmonia Americana'']], 1791 (p. 87)&lt;/ref&gt;
+
+The tune usually used today is from an 1848 edition by [[Lowell Mason]] for ''The National Psalmist'' (Boston, 1848).&lt;ref&gt;"Celebrate, Rejoice and Sing: Christmas Music in America", Roger L. Hall, PineTree Press, 2003, p. 8&lt;/ref&gt;&lt;ref name=hymnary /&gt; Mason was by that time an accomplished and well-known composer and arranger, having composed tunes such as "Bethany" and "Hamburg", which were used for the hymns "[[Nearer, My God, to Thee]]" and "[[When I Survey the Wondrous Cross]]". Mason's 1848 publication of the current tune was the fourth version to have been published. The first, published in his 1836 book ''Occasional Psalm and Hymn Tunes'', featured the present day tune (in a different arrangement) with the present-day lyrics, the first such publication to do so. The name of this tune was given as "Antioch", and was attributed as being "From [[George Frideric Handel|Handel]]".&lt;ref&gt;Mason, Lowell. [https://web.archive.org/web/20191125213821/https://static1.squarespace.com/static/5b11858da2772cf01402ee6e/t/5b29109f2b6a2803f3ab3227/1529417903437/Mason-1836-OccasionalPsalm.pdf#page=70 "No. 72: Antioch"], ''Occasional Psalm and Hymn Tunes'', 1836, p. 70 – via [[Internet Archive]]&lt;/ref&gt; A very similar arrangement of the tune to today's arrangement, and also with the present-day lyrics, was published in Mason's 1839 book ''The Modern Psalmist''. It was also titled "Antioch" and attributed to Handel.&lt;ref&gt;Mason, Lowell. ''The Modern Psalmist'', 1839, [https://archive.org/details/modernpsalmistco00maso/page/144 p. 144.]&lt;/ref&gt;
+
+Musically, the first four notes of "Joy to the World" are the same as the first four in the chorus "[[Messiah Part II#33|Lift up your heads]]" from Handel's ''[[Messiah (Handel)|Messiah]]'' (premiered 1742), and, in the third line, the same as found in another ''Messiah'' piece: the [[arioso]], "[[Messiah Part I#1|Comfort ye]]". Consequently, and with Mason's attribution to Handel, there has long been speculation over how much a part Handel's ''Messiah'' had in "Joy to the World".&lt;ref&gt;Hugh Keyte and [[Andrew Parrott]], eds., ''[[The New Oxford Book of Carols|The Shorter New Oxford Book of Carols]]'' (Oxford: Oxford University Press, 1993)&lt;/ref&gt;  The limited resemblances between ''Messiah'' and "Joy to the World", have been dismissed as 'chance resemblance' by Handel scholars today.&lt;ref&gt;''The Cambridge Handel Encyclopedia'', Annette Landgraf, David Vickers, Cambridge University Press, 26 November 2009. "Joy to the World" entry by [[Nicholas Temperley]]&lt;/ref&gt;  However, the possibility of a common source antedating Antioch, Handel, and Mason alike may suggest that resemblances are more than coincidental. Handel was a native German and [[Lutheranism|Lutheran]] from [[Halle (Saale)|Halle]] in [[Brandenburg–Prussia|Brandenburg-Prussia]] before he moved to [[England]] in 1712 aged 27, and most likely was familiar with his denomination's hymnic repertoire. In addition, it is known Mason was a great admirer and scholar of Handel's music, and had in fact become president of the Boston [[Handel and Haydn Society]] in 1827&lt;ref&gt;Pemberton, Carol Ann (1971), ''Lowell Mason: His Life and Work'' (doctoral dissertation, University of Minnesota), ProQuest Dissertations &amp; Theses 7128272. Revised in Studies in Musicology [[iarchive:lowellmasonhisli0000pemb/page/n3/mode/2up|no. 86, 1985]], {{ISBN|9780835716505}}, Ann Arbor, UMI Research Press&lt;/ref&gt; and was also an editor for them.&lt;ref&gt;Mason, Lowell. ''The Modern Psalmist'', 1839, [[iarchive:modernpsalmistco00maso/page/n5|p. 5]].&lt;/ref&gt;  The possibility of a common source is described in the next paragraph.
+
+Several tunes have been found from the early 1830s closely resembling that of "Antioch", the earliest of which was published in 1832 under the title "Comfort" (possibly as a nod to Handel's "Comfort ye").&lt;ref&gt;Charles Rider, ''Psalmodia Britannica'', vol. 4 (ca. 1831), no. 87, p. 949&lt;/ref&gt; This would make it at least four years older than Mason's first publication of "Antioch". Other publications from the early 1830s further suggest the tune may have been around for some time before Mason published his arrangement. Thomas Hawkes published the "Comfort" tune in 1833 in his ''Collection of Tunes''. In it, the attribution was given simply as "Author Unknown", suggesting it may have been older.&lt;ref&gt;Thomas Hawkes, ''Collection of Tunes'' (Watchet: Thomas Whitehorn, 1833)&lt;/ref&gt;&lt;ref&gt;Fenner, Chris. [https://web.archive.org/web/20191125223213/https://www.hymnologyarchive.com/joy-to-the-world "Psalm 98 – Joy to the World with 'Antioch' ('Comfort')"]. HymnologyArchive.com, 22 March 2019.&lt;/ref&gt; A 1986 article by John Wilson also showed "Antioch"'s close resemblance to an 1833 publication of "Comfort" and its associated [[Charles Wesley|Wesley]] hymn "O Joyful Sound".&lt;ref&gt;"The Origins of the Tune 'Antioch{{'"}}, bulletin no. 166 of the Hymn Society of Great Britain and Ireland; a summary is given in ''[[The Oxford Book of Carols]]'' 1994, p. 273&lt;/ref&gt; In any case, there is no evidence to suggest that the tune is older than [[Martin Luther]]'s "[[Vom Himmel hoch da komm ich her]]", a Christmas chorale of which Antioch appears to be an expanded paraphrase. This resemblance suggests Vom Himmel hoch as a common source and also may explain the widespread use of "Joy to the World" as a Christmas hymn.
+
+A version by the Trinity Choir was very popular in 1911.&lt;ref&gt;{{cite book|last=Whitburn|first=Joel|author-link=Joel Whitburn|title=Joel Whitburn's Pop Memories 1890–1954|date=1986|publisher=Record Research Inc|location=Wisconsin|isbn=0-89820-083-0|chapter=Trinity Choir|page=422|chapter-url-access=registration|chapter-url=https://archive.org/details/joelwpopmemories00whit/page/422}}&lt;/ref&gt;{{Relevance inline|date=January 2024}} {{As of|December 2009}}, "Joy to the World" was the most-published Christmas hymn in North America.&lt;ref name=popular/&gt;
+&lt;score sound raw&gt;
+% Source: Lowell Mason, "The Modern Psalmist" (1839), No. 144
+%   https://archive.org/details/modernpsalmistco00maso/page/143/mode/1up
+% Also: http://cantorion.org/music/3710/Joy-to-the-World-Voice-SATB
+\header { tagline = ##f }
+\layout { indent = 0
+  \context { \Score \remove "Bar_number_engraver" }
+  \context { \Voice \remove "Dynamic_engraver" }
+}
+global = { \key d \major \numericTimeSignature \time 2/4 \autoBeamOff}
+
+soprano = \relative c'' { \global
+  d4 cis8. b16 | a4. g8 | fis4 e | d4.
+  a'8 | b4. b8 | cis4. cis8 | d2~ | d4. \bar "" \break
+  \repeat unfold 2 { d8 | d [cis] b [a] | a8. [g16 fis8] } \bar ""
+  fis8 | fis fis fis fis16 [g] | a4. \bar ""
+  g16 [fis] | e8 e e e16 [fis] | g4.
+  fis16 [e] | fis8\( d'4\) b8 | a8. [g16] fis8 g | fis4 e | d2 \bar "|."
+}
+
+alto = \relative c' { \global
+  fis4 a8. g16 | fis4. e8 | d4 cis | d4.
+  a'8 g4. g8 | e4. e8 | fis2~ | fis4.
+  \repeat unfold 2 { fis8 | fis [a] g [fis] | fis8. [e16 d8] }
+  d8 | d d d d16 [e] | fis4.
+  e16 [d] | cis8 cis cis cis16 [d] | e4.
+  d16 [cis] | d8 \(fis4\) g8 | fis8. [e16] d8 e | d4 cis | d2 \bar "|."
+}
+
+tenor = \relative c' { \global
+  d4 d8. d16 | d4. b8 | a4. g8 | d4.
+  d'8 | d4. d8 | a4. a8 | a2~ | a4.
+  r8 | R2*4 | r4
+  r8 a8-. | a-. a-. a-. a-. | a2~ | a2~ | a4.
+  d8\ppp | d4. b8 | a4 a8 [g] | fis2 \bar "|."
+}
+
+bass = \relative c {
+  \global
+  d4 d8. d16 | d4. g,8 | a4 a | d4.
+  fis8 | g4. g8 | a4. a8 | d,2~ | d4.
+  r8 | d,4 r | d r | d r | d r |
+  r r8 d'8-. | d-. d-. d-. d-. | a'4.
+  a,8-. | a-. a-. a-. a-. | d4.
+  d8 | d4. g,8 | a4 a | d2 \bar "|."
+}
+
+verse = \lyricmode {
+  Joy to the world, the Lord is come!
+  Let earth re -- ceive her King;
+  Let ev' -- ry heart pre -- pare Him room,
+  \repeat unfold 2 { And heav'n and na -- ture sing, }
+  and hea -- ven, and hea -- ven and na -- ture sing.
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff \with { midiInstrument = "trumpet" }
+    &lt;&lt;
+      \new Voice = "soprano" { \voiceOne \soprano }
+      \new Voice = "alto" { \voiceTwo \alto }
+    &gt;&gt;
+    \new Lyrics \with { \override VerticalAxisGroup #'staff-affinity = #CENTER }
+      \lyricsto "soprano" \verse
+    \new Staff \with { midiInstrument = "trombone" \consists "Merge_rests_engraver" }
+    &lt;&lt;
+      \clef bass
+      \new Voice = "tenor" { \voiceOne \tenor }
+      \new Voice = "bass" { \voiceTwo \bass }
+    &gt;&gt;
+  &gt;&gt;
+  \layout { }
+  \midi { \tempo 4=102 }
+}
+&lt;/score&gt;
+
+==See also==
+* [[List of Christmas carols]]
+
+==References==
+{{notelist}}
+{{reflist}}
+
+==External links==
+{{Commons category}}
+* [http://cantorion.org/music/3710/Joy-to-the-World-Voice-SATB "Joy to the World"], [[SATB]] sheet music, Cantorion.org
+* [http://www.americanmusicpreservation.com/joytotheworldmason.htm "Joy to the World"], americanmusicpreservation.com
+
+{{portal bar|Christianity|Holidays|Music|United States}}
+{{Christmas}}
+{{authority control}}
+
+[[Category:Christmas carols]]
+[[Category:18th-century Christian texts]]
+[[Category:Hymns by Isaac Watts]]
+[[Category:British songs]]
+[[Category:1719 compositions]]
+[[Category:Songs about Jesus]]
+[[Category:18th-century hymns]]
+[[Category:Psalm settings]]</text>
+      <sha1>51f96qlbpujb0uj64lpz8z3ro55ogz0</sha1>
+    </revision>
+  </page>
+</mediawiki>

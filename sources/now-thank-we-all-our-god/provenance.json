@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-ifdo-ca-seymour-runabc-esac-altdeu20-0296.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=ifdo.ca%2F~seymour%2Frunabc%2Fesac%2Faltdeu20%2F0296",
+  "kind": "abc",
+  "bytes": 333,
+  "sha256": "8ab9c7810b7638fe13de999629978a550fe3be5f1e743e1761d0305d6d6911cd",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ifdo-ca-seymour-runabc-esac-erk30-0627.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=ifdo.ca%2F~seymour%2Frunabc%2Fesac%2Ferk30%2F0627",
+  "kind": "abc",
+  "bytes": 246,
+  "sha256": "222e2195c41855a0f67e9e3aae9a21924a19eb98ed051d0d7d02e357d03d96ff",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-now-thank-we-all-our-god.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Now_Thank_We_All_Our_God",
+  "kind": "lilypond",
+  "bytes": 16183,
+  "sha256": "372356e9890ebeb534482e0b384d292ff3963c5f22bb9918cab596cbe845ee8d",
+  "fetched": "2026-09-18"
+ }
+]

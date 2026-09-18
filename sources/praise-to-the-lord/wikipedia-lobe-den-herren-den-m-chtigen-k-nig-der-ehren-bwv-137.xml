@@ -1,0 +1,615 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Lobe den Herren, den mächtigen König der Ehren, BWV 137</title>
+    <ns>0</ns>
+    <id>33009525</id>
+    <revision>
+      <id>1315122772</id>
+      <parentid>1315093153</parentid>
+      <timestamp>2025-10-05T00:25:33Z</timestamp>
+      <contributor>
+        <username>ChristieBot</username>
+        <id>44604045</id>
+      </contributor>
+      <minor/>
+      <comment>Add good article icon</comment>
+      <origin>1315122772</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="28116" sha1="45zlg00pyt2xi5zmda0dupxo7jdt7yc" xml:space="preserve">{{Short description|1725 cantata by Johann Sebastian Bach}}
+{{good article}}
+{{DISPLAYTITLE:''Lobe den Herren, den mächtigen König der Ehren'', BWV 137}}
+{{use dmy dates|date=June 2025}}
+{{use list-defined references|date=June 2025}}
+{{Infobox Bach composition
+| title                 = {{lang|de|Lobe den Herren, den mächtigen König der Ehren}}
+| bwv                   = 137
+| type                  = [[Chorale cantata (Bach)|Chorale cantata]]
+| image                 = JoachimNeander.jpg
+| alt                   = Portrait engraving of a 17th-century reformed pastor in the simple outfit for services 
+| caption               = [[Joachim Neander]], the author of the hymn text
+| occasion              = {{nowrap|Twelfth Sunday after [[Trinity Sunday|Trinity]]}}
+| performed             = {{Timeline-event|date={{Start date|1725|08|19|df=y}}|location=[[Leipzig]]}}
+| movements             = five
+| chorale               = {{based on|"{{langr|de|[[Lobe den Herren, den mächtigen König der Ehren]]}}|[[Joachim Neander]]}}
+| vocal                 = [[SATB|{{abbr|SATB|soprano, alto, tenor and bass}}]] choir and solo
+| instrumental          = {{hlist | 3 trumpets | timpani | 2 oboes | 2 violins | viola | continuo }}
+}}
+[[Johann Sebastian Bach]] composed the [[church cantata]] '''{{lang|de|Lobe den Herren, den mächtigen König der Ehren}}''' (Praise the Lord, the mighty King of honor),{{sfn|Dellal|2025}} '''{{abbr|BWV|Bach-Werke-Verzeichnis (catalogue of Bach's works)}}{{nbsp}}137''', in [[Leipzig]] for the twelfth Sunday after [[Trinity Sunday|Trinity]] and led the first performance on 19 August 1725. The [[Chorale cantata (Bach)|chorale cantata]] is based on [[Lobe den Herren|the hymn]] by [[Joachim Neander]], a general song of praise published in 1680.
+
+Bach composed the cantata in his third year in office as [[Thomaskantor]] in Leipzig. He set the unchanged text of the hymn to music, structuring the cantata in five movements, with choral outer movements framing three intimate [[aria]]s. He scored it for four vocal soloists, a [[SATB|four-part]] choir, and a festive [[Baroque instruments|Baroque instrumental]] ensemble of three trumpets with timpani, two oboes, strings and continuo. The chorale melody is present in all of the movements, in varied treatment.
+
+Bach used the second movement for his [[Schübler Chorales]], and made the closing chorale, which unusually features independent parts for the trumpets and timpani, also part of a 1729 wedding cantata.
+
+== History and words ==
+In office as [[Thomaskantor]], director of church music in [[Leipzig]], Bach composed {{lang|de|Lobe den Herren, den mächtigen König der Ehren}} for the [[List of church cantatas by liturgical occasion#12th Sunday after Trinity (Trinity XII)|Twelfth Sunday after Trinity]].{{sfn|''Bach Digital''|2025}}{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}} It forms part of a [[Chorale cantata cycle|cycle of chorale cantatas]] which Bach composed mainly from mid-1724, his second year in the position. He had composed chorale cantatas between the first Sunday after [[Trinity Sunday|Trinity]] of 1724 and [[Palm Sunday]], but for [[Easter]] had returned to cantatas on more varied texts, possibly because he lost his [[Libretto|librettist]].{{sfn|Wolff|2000}} Later, Bach composed more chorale cantatas to complete the cycle. This cantata is one of the completing works. It is based entirely on the unchanged words on the [[hymn]] "{{langr|de|[[Lobe den Herren, den mächtigen König der Ehren]]}}" (1680) by [[Joachim Neander]].{{sfn|''Bach Digital''|2025}}{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}}{{sfn|Wolf|2015}}
+
+The prescribed readings for the Sunday were from the [[Second Epistle to the Corinthians]], the ministry of the Spirit ({{Sourcetext|source=Bible|version=King James|book=2 Corinthians|chapter=3|verse=4|range=–11}}), and from the [[Gospel of Mark]], the [[Healing the deaf mute of Decapolis|healing of a deaf mute man]] ({{Sourcetext|source=Bible|version=King James|book=Mark|chapter=7|verse=31|range=–37}}).{{sfn|''Bach Digital''|2025}}{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA501 501]}} Unlike most chorale cantatas of the second cycle, but similar to the early {{lang|de|[[Christ lag in Todes Banden, BWV 4|''Christ lag in Todes Banden'', BWV 4]] |italic=unset}}, Bach retained the chorale text unchanged, thus without a reference to the readings.{{sfn|Wolf|2015}}{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}}
+
+[[John Eliot Gardiner]] assumes, looking at the festive instrumentation and the general content of praise and thanksgiving, that the cantata was also performed that year to celebrate ''Ratswahl'', the inauguration of the town council.{{sfn|Gardiner|2010}} In 1729 Bach used the setting of the final chorale, [[Transposition (music)|transposed]] to [[D major]], to conclude the wedding cantata {{lang|de|[[Herr Gott, Beherrscher aller Dinge, BWV 120a|''Herr Gott, Beherrscher aller Dinge'', BWV 120a]] |italic=unset}}, with the last two [[stanza]]s of the hymn.{{sfn|Mincham|2010}} With its general content of praise, and no specific narrative, the cantata is suitable for many occasions.{{sfn|Wolf|2015}}
+
+== Music ==
+=== Structure and scoring ===
+Bach structured the cantata into five [[Movement (music)|movements]]. A [[chorale fantasia]] and a closing [[chorale]] frame a sequence of three arias for vocal soloists with accompaniment of {{lang|it|[[obbligato]]}} instruments. Bach scored the work for four vocal soloists ([[soprano]], [[alto]], [[tenor]] and [[Bass (voice type)|bass]]), a [[SATB|four-part choir]] and a festive [[Baroque instruments|Baroque instrumental]] ensemble of three [[trumpets]] (Tr), [[timpani]], two [[oboe]]s (Ob), two [[violin]]s (Vl), [[viola]] (Va), and [[basso continuo]].{{sfn|''Bach Digital''|2025}}{{sfn|Wolf|2015}}{{sfn|Dürr|Jones|2006|pp=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA504 504–505]}} The duration is given as 18 minutes.{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA504 504]}}
+
+In the following table of the movements, the scoring follows the [[Neue Bach-Ausgabe]]. The [[Key (music)|keys]] and [[time signature]]s are taken from [[Alfred Dürr]]'s {{lang|de|Die Kantaten von Johann Sebastian Bach}}.{{sfn|Dürr|Jones|2006|pp=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 504–505]}} The continuo, playing throughout, and the timpani, always playing with the three trumpets, are not shown.
+
+{{Classical movement header | work = {{lang|de|Lobe den Herren, den mächtigen König der Ehren}} | instruments1 = Winds | instruments2 = Strings }}
+
+{{Classical movement row
+| id = m1
+| number = [[#1|1]]
+| title = {{langr|de|Lobe den Herren, den mächtigen König der Ehren}}
+| type = Chorus
+| vocal = SATB
+| instruments1 = 3Tr 2Ob
+| instruments2 = 2Vl Va
+| key = [[C major]]
+| time = {{music|time|3|4}}
+}}
+{{Classical movement row
+| id = m2
+| number = [[#2|2]]
+| title = {{langr|de|Lobe den Herren, der alles so herrlich regieret}}
+| type = Aria (chorale)
+| vocal = A
+| instruments1 = 
+| instruments2 = Vl solo
+| key = [[G major]]
+| time = {{music|time|9|8}}
+}}
+{{Classical movement row
+| id = m3
+| number = [[#3|3]]
+| title = {{langr|de|Lobe den Herren, der künstlich und fein dich bereitet}}
+| type = Aria (duet)
+| vocal = S B
+| instruments1 = 2Ob
+| instruments2 = 
+| key = [[E minor]]
+| time = {{music|time|3|4}}
+}}
+{{Classical movement row
+| id = m4
+| number = [[#4|4]]
+| title = {{langr|de|Lobe den Herren, der deinen Stand sichtbar gesegnet}}
+| type = Aria
+| vocal = T
+| instruments1 = Tr (or Ob)
+| instruments2 = 
+| key = [[A minor]]
+| time = {{music|time|3|4}}
+}}
+{{Classical movement row
+| id = m5
+| number = [[#5|5]]
+| title = {{langr|de|Lobe den Herren, was in mir ist, lobe den Namen}}
+| type = Chorale
+| vocal = SATB
+| instruments1 = 3Tr
+| instruments2 = 2Vl Va
+| key = C major
+| time = {{music|time|3|4}}
+}}
+{{End}}
+
+=== Movements ===
+[[File:Lobe den Herren.jpg|thumb|upright=0.9|alt=17th-century print of the five stanzas of a hymn, preceeded by the first line from [[Psalm 103]], with the lines more or less centered |The hymn text in a 1686 print]]
+As Dürr and Gardiner observed, the text as well as the chorale melody is present in all movements. The melody in [[bar form]] has an unusual {{lang|de|Stollen}} of five measures{{sfn|Mincham|2010}} and reaches a climax at the beginning of the {{lang|de|Abgesang}}, which Bach also stresses in a variety of means in the movements.{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}} The cantata is constructed in symmetry: the soprano carries the melody in the outer movements; in the second movement it is sung by the alto, and in the fourth movement played by the trumpet. In the central movement, the beginning of both the vocal and the instrumental theme are derived from it for the cantata's most intimate setting.{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}}{{sfn|Gardiner|2010}}
+
+==== 1 ====
+In the opening chorus, "{{langr|de|Lobe den Herren, den mächtigen König der Ehren}}" (Praise the Lord, the mighty King of honor),{{sfn|Dellal|2025}} the first stanza of the hymn, is rendered as a [[chorale fantasia]]. The trumpets, oboes and strings begin with an instrumental concerto; the soprano sings the {{lang|la|[[cantus firmus]]}} while the lower voices prepare the entries by [[Imitation (music)|imitation]] of the instrumental [[Motif (music)|motifs]].{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}} For the words "{{langr|de|Kommet zu Hauf, Psalter und Harfen, wacht auf}}" (Come join the crowd, psaltery and harps, awake!),{{sfn|Dellal|2025}} the setting is [[Homophony|homophonic]] and thus singled out.{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}}{{sfn|Gardiner|2010}}
+
+==== 2 ====
+In the second movement, "{{langr|de|Lobe den Herren, der alles so herrlich regieret}}" (Praise the Lord, who directs everything so gloriously),{{sfn|Dellal|2025}} a solo violin accompanies the embellished melody of the chorale. Bach included this movement in his [[Schübler Chorales]], but on a text for [[Advent]], "{{langr|de|Kommst du nun, Jesu, vom Himmel herunter auf Erden}}" ('Come thou, Jesu, from heaven to earth').{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505]}}
+
+==== 3 ====
+The third stanza, "{{langr|de|Lobe den Herren, der künstlich und fein dich bereitet}}" (Praise the Lord, who prepares you wisely and well),{{sfn|Dellal|2025}} is set as a duet of soprano and bass.{{sfn|Dürr|Jones|2006|pp=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505–506]}} In great contrast to [[C major]] and [[G major]], the central movement is in [[E minor]].{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA504 504]}} Two [[obbligato]] oboes take part in the setting; their motifs are derived from the beginning of the chorale melody.{{sfn|Dürr|Jones|2006|pp=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA505 505–506]}} In an unusual way, the first vocal section is repeated three times; only the words "{{langr|de|In wieviel Not}}" (in how much suffering){{sfn|Dellal|2025}} are set differently,{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA506 506]}} in "grinding [[Chromatic scale|chromatic]] descent".{{sfn|Gardiner|2010}}
+
+==== 4 ====
+The fourth movement, "{{langr|de|Lobe den Herren, der deinen Stand sichtbar gesegnet}}" (Praise the Lord, who surely blesses your condition),{{sfn|Dellal|2025}} is in [[A minor]],{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA504 504]}} but the cantus firmus of the trumpet is nonetheless in C major,{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA506 506]}} in "a battle for harmonic supremacy".{{sfn|Gardiner|2010}} In the final movement of his ''[[Christmas Oratorio]]'' Bach would later embed the chorale in [[Phrygian mode]] in a concerto in D major.{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA182 182]}} The independent vocal line quotes parts of the chorale melody several times. The words "{{langr|de|Denke daran}}" (consider this){{sfn|Dellal|2025}} are accented by a different metre, matching the slightly changed words "{{langr|de|Denke dran}}".{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA506 506]}}
+
+==== 5 ====
+For the closing chorale, Bach set the last hymn stanza, "{{langr|de|Lobe den Herren, was in mir ist, lobe den Namen!}}" (Praise the Lord, what is within me, praise his name!),{{sfn|Dellal|2025}} as four-part vocal setting doubled by the strings and oboes, with independent parts for three trumpets and timpani.{{sfn|Dürr|Jones|2006|p=[https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA506 506]}}{{sfn|Dahn|2025}}{{sfn|Hengel|2020}} The first trumpet "[soaring] above all", illustrates the words of the final lines effectively for an affirmative conclusion.{{sfn|Mincham|2010}} Gardiner notes that Bach "knew exactly how best to use the resources of the ceremonial trumpet-led orchestra and choir of his day to convey unbridled joy and majesty".{{sfn|Gardiner|2010}}
+
+&lt;score sound raw&gt;
+\header { tagline = ##f }
+\layout { indent = 0
+  \set Score.tempoHideNote = ##t
+  \context { \Score \remove "Bar_number_engraver" }
+  \context { \Voice \remove "Dynamic_engraver" }
+}
+
+global = { \key c \major \time 3/4 }
+tn = \tempo 4 = 102
+tf = \tempo 4 = 39
+trumpet = \relative c''' { \global \set midiInstrument = "trumpet"
+  \repeat volta 2 { &lt;g e c&gt;4^"3 trumpets" &lt;g c, e,&gt; &lt;g d g,&gt; | &lt;g e c&gt;4. q8 &lt;a fis c&gt;4 |
+    &lt;b g d&gt; &lt;g d g,&gt; &lt;b g d&gt; | &lt;c g e&gt; &lt;b g f&gt; &lt;&lt; { &lt;c e,&gt;8 &lt;a c,&gt; } \\ { g4 } &gt;&gt; |
+    &lt;b g d&gt;2 &lt;c g e&gt;4 | }
+  &lt;g e&gt;4. &lt;&lt; { bes8 a [g] } \\ { g16 f e8 f16 e } &gt;&gt; | &lt;f d&gt;2. |
+  &lt;&lt; { c4. d8 d4 | e8 [d] e [f] &lt;g e&gt; &lt;a f&gt; } \\ { e,4 r4 r | &lt;c' g&gt;4. &lt;d g,&gt;8 c4 } &gt;&gt; | &lt;b' g d&gt;2. |
+  &lt;&lt; { g2.~ | g8 [f] g [a] g a | g a16 b b4 c } \\
+     { &lt;d, g,&gt;4 q2 | &lt;c g&gt;4 &lt;f d&gt; &lt;e c&gt;8 &lt;c e,&gt; | &lt;d g,&gt;2 &lt;e g,&gt;4 } &gt;&gt; \bar "|."
+}
+
+soprano = \new Voice = "soprano" \relative c'' {
+  \global \voiceOne \clef treble \set midiInstrument = "violin" %"oboe"
+  \repeat volta 2 { \tn c4 c g' | e4. d8 c4 | b4. a8 g4 | c d e8 (f) | d2 \tf c4\fermata | }
+  \tn e4. d8 e4 | f2.\fermata e4. f8 g4 | g4. f8 e4 | d2.\fermata |
+  g,4 a b | c d e8. (f16) | d2 \tf c4\fermata \bar "|."
+}
+
+alto = \new Voice \relative c'' { \global \voiceTwo \set midiInstrument = "viola" %"flute"
+  \repeat volta 2 { g4\ff g g | g4. g8 fis4 | d g g | g b g | g (f) e | }
+  g4. g8 cis,4 | a'2. | a4. a8 d,4 | c g' g | g2. |
+  d4 d d | g g g | g2 e4 \bar "|."
+}
+
+tenor = \new Voice \relative c' { \global \voiceThree \clef bass \set midiInstrument = "cello" %"clarinet"
+  \repeat volta 2 { e4 e d | c4. g8 c4 | g' g, d' | c f, c' | d b g | }
+  e'4. e8 e ([cis]) | d2. | e4. c8 b ([a]) | g4 b c | b2. |
+  b4 d g, | g g g8 (c) | c4 (b) g \bar "|."
+}
+
+bass = \relative c { \global \voiceFour \set midiInstrument = "contrabass" %"bassoon"
+  \repeat volta 2 { c4 c' b | c4. b8 a4 | g g, f' | e d c | g' g, c | }
+  c4 e a | d,2. | a'4 g f | e4. d8 c4 | g2. |
+  g'4 f8 ([e]) f (d) | e4 b c | g' g, c \bar "|."
+}
+
+verse = \new Lyrics = "firstVerse" \lyricsto "soprano" {
+  &lt;&lt; { \set stanza = "5." Lo -- be den Her -- ren, was in mir ist, lo -- be den Na -- men. }
+  \new Lyrics = "secondVerse" \with { alignBelowContext = "firstVerse" } { \set associatedVoice = "soprano"
+    Al -- les, was O -- dem hat, lo -- be mit A -- bra -- hams Sa -- men. } &gt;&gt;
+  Er ist dein Licht,
+  See -- le, ver -- giss es ja nicht;
+  Lo -- ben -- de, schlie -- ße mit A -- men!
+}
+
+timpani = \relative c { \global \set midiInstrument = "timpani"
+  \repeat volta 2 { c4^"timpani" c g | c4. c8 c4 | g g g | c g c | g8 g16 g g8 g c4 | }
+  R2. | R | c4 r4 r4 | c4. g8 c4 | g2. | g4 g2 | c4 g c | g2 c4 \bar "|."
+}
+
+\score {
+  &lt;&lt;
+    \new Staff \with { \magnifyStaff #3/4 } \trumpet
+    \new ChoirStaff
+    &lt;&lt;
+      \new Staff
+      &lt;&lt;
+        { \soprano }
+        { \alto }
+        \context Lyrics = "soprano" { \lyricsto "soprano" { \verse } }
+      &gt;&gt;
+
+      \new Staff
+         \with { \override VerticalAxisGroup.staff-staff-spacing = % reduce spacing to timpani staff
+           #'( (basic-distance . 0) (minimum-distance . 0) (padding . 0.5 ) (stretchability . 0) ) }
+      &lt;&lt;
+        { \tenor }
+        { \bass }
+      &gt;&gt;
+    &gt;&gt;
+    \new Staff \with { \magnifyStaff #3/4 } { \clef bass \timpani }
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \trumpet \\ \soprano \\ \alto \\ \tenor \\ \bass \\ \timpani &gt;&gt; }
+  \midi {
+    \context { \Score midiChannelMapping = #'instrument }
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;
+
+== Manuscripts and publication ==
+The manuscripts of the original parts of {{lang|de|Lobe den Herren}} are extant, while the original score is lost. An extant copy of the score made by [[Christian Friedrich Penzel]], and dated 1755, assigns the cantata to [[John the Baptist|St. John's Day]] (24 June). It is unclear if this designation was copied from Bach's score.{{sfn|Wolf|2015}}
+
+The first critical edition of the cantata, edited by [[Wilhelm Rust]], was published by the [[Bach Gesellschaft]] in 1881 as part of its complete edition of Bach's works. In the ''[[Neue Bach-Ausgabe]]'', the second edition of Bach's works, the cantata was published in 1986, edited by [[Klaus Hofmann]].{{sfn|''Bach Digital''|2025}}{{sfn|Wolf|2015}}
+
+== Recordings ==
+The entries are taken from the listing on the Bach Cantatas Website.{{sfn|Oron|2025}} Ensembles playing period instruments in [[historically informed performance]]s are marked green under the header {{abbr|Instr.|Type of instruments}}.
+
+{| class="wikitable sortable plainrowheaders"
+|-
+|+ Recordings of ''Lobe den Herren, den mächtigen König der Ehren''
+|-
+! scope="col" | Title
+! scope="col" class="unsortable" | Conductor / Choir / Orchestra
+! scope="col" class="unsortable" | Soloists
+! scope="col" | Label
+! scope="col" | Year
+! scope="col" | Instr.
+|-
+{{Cantata discography row
+| id = Ramin
+| title = ''Bach Made in Germany Vol. 1 – Cantatas VII''
+| conductor = {{sortname|Günther|Ramin}}
+| choir = [[Thomanerchor]]
+| orchestra = [[Gewandhausorchester]]
+| soloists = {{plainlist|
+* soloists of Thomanerchor
+* Gert Lutze
+* Johannes Oettel
+}}
+| label = [[Eterna Records|Eterna]]
+| year = {{Start date|1953}}
+| orchestra_type = 
+}}
+{{Cantata discography row
+| id = Thamm
+| title = ''J. S. Bach: Cantatas BWV 137 &amp; BWV 190''
+| conductor = {{sortname|Hans|Thamm}}
+| choir = [[Windsbacher Knabenchor]]
+| orchestra = Consortium Musicum
+| soloists = {{plainlist|
+* [[Teresa Żylis-Gara]]
+* [[Ingeborg Ruß]]
+* [[Peter Schreier]]
+* [[Franz Crass]]
+}}
+| label = [[EMI Records|EMI]]
+| year = {{Start date|1966}}
+| orchestra_type = 
+}}
+{{Cantata discography row
+| id = Werner
+| title = {{lang|fr|Les Grandes Cantates de J.S. Bach Vol. 27}}
+| conductor = {{sortname|Fritz|Werner}}
+| choir = [[Heinrich-Schütz-Chor Heilbronn]]
+| orchestra = [[Württemberg Chamber Orchestra Heilbronn]]
+| soloists = {{plainlist|
+* [[Ingeborg Reichelt]]
+* [[Barbara Scherler]]
+* Friedrich Melzer
+* [[Bruce Abel]]
+}}
+| label = [[Erato Records|Erato]]
+| year = {{Start date|1973}}
+| orchestra_type = 
+}}
+{{Cantata discography row
+| id = Richter
+| title = ''Bach Cantatas Vol. 4 – Sundays after Trinity I''
+| conductor = {{sortname|Karl|Richter|dab=conductor}}
+| choir = [[Münchener Bach-Chor]]
+| orchestra = [[Münchener Bach-Orchester]]
+| soloists = {{plainlist|
+* [[Edith Mathis]]
+* [[Julia Hamari]]
+* [[Peter Schreier]]
+* [[Dietrich Fischer-Dieskau]]
+}}
+| label = [[Archiv Produktion]]
+| year = {{Start date|1977}}
+| orchestra_type = 
+}}
+{{Cantata discography row
+| id = Rilling
+| title = ''Die Bach Kantate Vol. 10''
+| conductor = {{sortname|Helmuth|Rilling}}
+| choir = [[Gächinger Kantorei]]
+| orchestra = [[Bach-Collegium Stuttgart]]
+| soloists = {{plainlist|
+* [[Arleen Auger]]
+* [[Gabriele Schreckenbach]]
+* [[Adalbert Kraus]]
+* [[Walter Heldwein]]
+}}
+| label = [[Hänssler]]
+| year = {{Start date|1982}}
+| orchestra_type = 
+}}
+{{Cantata discography row
+| id = Rotzsch
+| title = ''Bach Made in Germany Vol. 4 – Cantatas IV''
+| conductor = {{sortname|Hans-Joachim|Rotzsch}}
+| choir = [[Thomanerchor]]
+| orchestra = [[Neues Bachisches Collegium Musicum]]
+| soloists = {{plainlist|
+* [[Arleen Auger]]
+* [[Ortrun Wenkel]]
+* [[Peter Schreier]]
+* [[Theo Adam]]
+}}
+| label = Eterna
+| year = {{Start date|1982}}
+| orchestra_type = Period
+}}
+{{Cantata discography row
+| id = Harnoncourt
+| title = ''J. S. Bach: Das Kantatenwerk • Complete Cantatas • Les Cantates, Fol / Vol. 2''
+| conductor = {{sortname|Nikolaus|Harnoncourt}}
+| choir = [[Tölzer Knabenchor]]
+| orchestra = [[Concentus Musicus Wien]]
+| soloists = {{plainlist|
+* soloist of the [[Tölzer Knabenchor]]
+* [[Paul Esswood]]
+* [[Kurt Equiluz]]
+* {{ill|Albert Hartinger|de}}
+}}
+| label = [[Teldec]]
+| year = {{Start date|1982}}
+| orchestra_type = Period
+}}
+{{Cantata discography row
+| id = Leusink
+| title = ''Bach Edition Vol. 19 – Cantatas Vol. 10''
+| conductor = {{sortname|Pieter Jan|Leusink}}
+| choir = [[Holland Boys Choir]]
+| orchestra = [[Netherlands Bach Collegium]]
+| soloists = {{plainlist|
+* [[Marjon Strijk]]
+* [[Sytse Buwalda]]
+* [[Knut Schoch]]
+* [[Bas Ramselaar]]
+}}
+| label = [[Brilliant Classics]]
+| year = {{Start date|2000}}
+| orchestra_type = Period
+}}
+{{Cantata discography row
+| id = Gardiner
+| title = ''Bach Cantatas Vol. 6: Köthen/Frankfurt''{{sfn|Gardiner|2010}}
+| conductor = {{sortname|John Eliot|Gardiner}}
+| choir = [[Monteverdi Choir]]
+| orchestra = [[English Baroque Soloists]]
+| soloists = {{plainlist|
+* [[Katharine Fuge]]
+* [[Robin Tyson]]
+* [[Christoph Genz]]
+* [[Peter Harvey (bass)|Peter Harvey]]
+}}
+| label = [[Soli Deo Gloria (record label)|Soli Deo Gloria]]
+| year = {{Start date|2000}}
+| orchestra_type = Period
+}}
+{{Cantata discography row
+| id = Koopman
+| title = ''J. S. Bach: Complete Cantatas Vol. 18''
+| conductor = {{sortname|Ton|Koopman}}
+| orchestra = [[Amsterdam Baroque Orchestra &amp; Choir]]
+| soloists = {{plainlist|
+* [[Johannette Zomer]]
+* [[Christoph Prégardien]]
+* [[Klaus Mertens]]
+}}
+| label = [[Antoine Marchand]]
+| year = {{Start date|2002}}
+| orchestra_type = Period
+}}
+{{Cantata discography row
+| id = Suzuki
+| title = ''J. S. Bach: Cantatas Vol. 40 – BWV 79, 137, 164, 168''
+| conductor = {{sortname|Masaaki|Suzuki}}
+| orchestra = [[Bach Collegium Japan]]
+| soloists = {{plainlist|
+* [[Yukari Nonoshita]]
+* [[Robin Blaze]]
+* [[Makoto Sakurada]]
+* [[Peter Kooy]]
+}}
+| label = [[BIS Records|BIS]]
+| year = {{Start date|2007}}
+| orchestra_type = Period
+}}
+{{Cantata discography row
+| id = Dijkstra
+| title = ''J. S. Bach: Lobe den Herren, den mächtigen König der Ehren, BWV 137 – Cantata, BWV 137''
+| conductor = {{sortname|Peter|Dijkstra}}
+| orchestra = [[Netherlands Bach Society]]
+| soloists = {{plainlist|
+* [[Miriam Feuersinger]]
+* Alex Potter
+* Thomas Hobbs
+* [[Peter Kooy]]
+}}
+| label = Netherlands Bach Society
+| year = {{Start date|2017}}
+| orchestra_type = Period
+}}&lt;!--
+{{Cantata discography row
+| id = Lutz
+| title = ''J. S. Bach: Kantate 79 "Gott der Herr ist Sonn und Schild"''
+| conductor = {{sortname|Rudolf|Lutz}}
+| orchestra = Choir &amp; orchestra of the [[J. S. Bach-Stiftung]]
+| soloists = {{plainlist|
+* [[Miriam Feuersinger]]
+* [[Markus Forster]]
+* [[Daniel Johannsen]]
+* Matthias Helm
+}}
+| label = J. S. Bach-Stiftung
+| year = {{Start date|2017}}
+| orchestra_type = Period
+}}--&gt;
+{{End}}
+
+== References ==
+{{reflist | 20em }}
+
+=== Cited sources ===
+* {{cite web
+  | url = https://www.bach-digital.de/receive/BachDigitalWork_work_00000169?lang=en
+  | title = Lobe den Herren, den mächtigen König der Ehren BWV 137; BC A 124
+  | website = [[Bach Digital]]
+  | date = 2025
+  | access-date = 18 August 2025
+  | ref = {{sfnref|''Bach Digital''|2025}}
+  }}
+* {{cite web
+  | last = Dahn
+  | first = Luke
+  | url = http://www.bach-chorales.com/BWV0137_5.htm
+  | title = BWV 137.5
+  | date = 2025
+  | website = bach-chorales.com
+  | access-date = 18 August 2025
+  }}
+* {{cite web
+  | last = Dellal
+  | first = Pamela
+  | author-link = Pamela Dellal
+  | url = https://www.emmanuelmusic.org/bach-translations/bwv-137
+  | title = BWV 137 – "Lobe den Herren, den mächtigen König der Ehren"
+  | work = [[Emmanuel Music]]
+  | date = 2025
+  | access-date = 18 August 2025
+  }}
+* {{cite book
+  | last1 = Dürr
+  | first1 = Alfred
+  | author-link1 = Alfred Dürr
+  | last2 = Jones
+  | first2 = Richard D. P.
+  | author2-link = Richard D. P. Jones
+  | chapter-url = https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA504
+  | chapter = Lobe den Herren, den mächtigen König der Ehren, BWV 137
+  | title = The Cantatas of J. S. Bach: With Their Librettos in German-English Parallel Text
+  | publisher = [[Oxford University Press]]
+  | date = 2006
+  | isbn = 978-0-19-929776-4
+  | pages = 504–506
+  }}
+* {{Cite AV media notes 
+  | last = Gardiner
+  | first = John Eliot
+  | author-link = John Eliot Gardiner
+  | url = https://www.hyperion-records.co.uk/dc.asp?dc=D_SDG134
+  | title = Johann Sebastian Bach (1685-1750) / Cantatas Nos 33, 35, 69a, 77, 137 &amp; 164
+  | work = [[Soli Deo Gloria (record label)|Soli Deo Gloria]] (at [[Hyperion Records]] website)
+  | date = 2010
+  | access-date = 15 August 2018
+  }}
+* {{cite web
+  | last = Hengel
+  | first = Eduard van
+  | title = Lobe den Herren, den mächtigen König der Ehren (BWV 137)
+  | url = https://www.eduardvanhengel.nl/werken/BWV_137
+  | website = www.eduardvanhengel.nl
+  | date = 2020
+  | access-date = 5 June 2020
+  | language = nl
+  }}
+* {{cite web
+  | last = Mincham
+  | first = Julian
+  | url = https://www.jsbachcantatas.com/documents/chapter-3-bwv-137
+  | title = Chapter 3 BWV 137 Lobe den Herren, den mächtigen König der Ehren
+  | website = jsbachcantatas.com
+  | date = 2010
+  | access-date = 1 September 2022
+  }}
+* {{cite web
+  | last = Oron
+  | first = Aryeh
+  | url = https://www.bach-cantatas.com/BWV137.htm
+  | title = Cantata BWV 137 Lobe den Herren, den mächtigen König der Ehren
+  | work = Bach Cantatas
+  | date = 2025
+  | access-date = 18 August 2025
+  }}
+* {{cite book
+  | last = Wolf
+  | first = Uwe
+  | author-link = Uwe Wolf
+  | translator-last = Coombs
+  | translator-first = John
+  | url = https://www.carusmedia.com/images-intern/medien//30/3113700/3113700x.pdf
+  | title = Johann Sebastian Bach / Lobe den Herren, den mächtigen König der Ehren / Praise ye to the Lord Almighty, the King of Creation / BWV 137
+  | publisher = [[Carus-Verlag]]
+  | location = Stuttgart
+  | date = May 2015
+  | pages = 2, 4
+  }}
+* {{cite web
+  | last = Wolff
+  | first = Christoph
+  | author-link = Christoph Wolff
+  | url = http://www.bach-cantatas.com/Pic-Rec-BIG/Koopman-C18c%5BAM-3CD%5D.pdf
+  | title = The third yearly cycle of Leipzig cantatas (1725–1727), III
+  | work = Bach Cantatas
+  | date = 2000
+  | pages = 13, 15
+  | access-date = 1 June 2011
+  }}
+
+== External links ==
+* {{IMSLP|work=Lobe den Herren, den mächtigen König der Ehren, BWV 137 (Bach, Johann Sebastian)|cname=''Lobe den Herren, den mächtigen König der Ehren'', BWV 137)}}
+* [https://www.uvm.edu/~classics/faculty/bach/BWV137.html "BWV 137 ''Lobe den Herren, den mächtigen König der Ehren''"], English translation, [[University of Vermont]]
+* [https://webdocs.cs.ualberta.ca/~wfb/cantatas/137.html "BWV 137 ''Lobe den Herren, den mächtigen König der Ehren''], text, scoring, [[University of Alberta]]
+* [https://www.bachvereniging.nl/en/bwv/bwv-137 "''Lobe den Herren, den mächtigen König der Ehren'', BWV 137"], performance by the [[Netherlands Bach Society]] (video and background information)
+
+{{Church cantatas by Johann Sebastian Bach}}
+{{Bach cantatas}}
+{{authority control}}
+
+[[Category:Church cantatas by Johann Sebastian Bach]]
+[[Category:1725 compositions]]
+[[Category:Chorale cantatas]]</text>
+      <sha1>45zlg00pyt2xi5zmda0dupxo7jdt7yc</sha1>
+    </revision>
+  </page>
+</mediawiki>

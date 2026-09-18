@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-it-edu-jc-music-abc-mirror-corneymusers-abide-with-me-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fcorneymusers%2FAbide_with_Me_1%2F0000",
+  "kind": "abc",
+  "bytes": 116,
+  "sha256": "1c4f0ce61426b56d360a16a308ae8ed33708f78f532ee747462280022665dbcd",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mfiles-abide-with-me.mid",
+  "url": "https://www.mfiles.co.uk/downloads/abide-with-me.mid",
+  "kind": "other",
+  "bytes": 2901,
+  "sha256": "49f2f398afa758f87d087901423c9dbc02699384c58a8204802588ebb8f14994",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-abide-with-me.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Abide_with_Me",
+  "kind": "other",
+  "bytes": 25420,
+  "sha256": "3273fa58d7eff44eb5a84570804b38bcf1bea83ebb1b287e53b8aaac5b9f3f59",
+  "fetched": "2026-09-18"
+ }
+]

@@ -1,0 +1,25 @@
+{
+  "title": "Holy, Holy, Holy",
+  "source": "John B. Dykes, tune NICAEA, 1861; words Reginald Heber, 1826",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 90,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4 C5:4 [Am]E5:4 E5:4" },
+    { "chord": "G",  "notes": "G5:8 [C]G5:8" },
+    { "chord": "F",  "notes": "A5:8 A5:4 A5:4" },
+    { "chord": "C",  "notes": "G5:8 E5:8" },
+    { "chord": "G",  "notes": "G5:6 G5:2 G5:4 G5:4" },
+    { "chord": "Am", "notes": "C6:8 [G]B5:4 G5:4" },
+    { "chord": "G",  "notes": "D5:4 G5:4 A5:6 G5:2" },
+    { "chord": "G7", "notes": "G5:16" },
+    { "chord": "C",  "notes": "C5:4 C5:4 [Am]E5:4 E5:4" },
+    { "chord": "G",  "notes": "G5:8 [C]G5:8" },
+    { "chord": "F",  "notes": "A5:6 A5:2 A5:4 A5:4" },
+    { "chord": "C",  "notes": "G5:8 G5:8" },
+    { "chord": "Am", "notes": "C6:8 [C]G5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:8 [C7]E5:8" },
+    { "chord": "F",  "notes": "F5:4 D5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

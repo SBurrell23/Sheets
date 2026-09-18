@@ -1,0 +1,50 @@
+[
+ {
+  "name": "abcnotation-c-music-abc-mirror-colin-hume-20180912-colin-hume-tunes-0130.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FColin_Hume%2F20180912-Colin_Hume_tunes%2F0130",
+  "kind": "abc",
+  "bytes": 1292,
+  "sha256": "26aaacaaba9c6acb946f96cbe0a1b461b6dda711b6d22f5f7162d5cfd89fc306",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0247.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0247",
+  "kind": "abc",
+  "bytes": 2623,
+  "sha256": "1ee468b159d65aa958a56a978108ff8f291a0605bdc2ab634d4c2831218a8b37",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-xmas-silent-night-finland-c-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2FSilent_Night_Finland_C%2F0000",
+  "kind": "abc",
+  "bytes": 999,
+  "sha256": "d6a2e23f195a8448bd575287c6a7633cdeb9a5d13194ce65b4ac88c4b1d77c30",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-xmas-glade-jul-bb-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fxmas%2FGlade_Jul_Bb%2F0000",
+  "kind": "abc",
+  "bytes": 485,
+  "sha256": "22e6067f96517876d44aafb9cdca0e5a21a425d8bdaeaf24bf36466bd49b94cd",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-25069.json",
+  "url": "https://thesession.org/tunes/25069?format=json",
+  "kind": "abc",
+  "bytes": 1901,
+  "sha256": "d56aa78bf5c8e4607520806c4b126ebd157a155f5ed177b944a39adc49a4436e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-silent-night.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Silent_Night",
+  "kind": "lilypond",
+  "bytes": 32861,
+  "sha256": "bbefaf2846a767302931ced8d08ef1f28c961cb4a04932af1366a91de09073d4",
+  "fetched": "2026-09-18"
+ }
+]

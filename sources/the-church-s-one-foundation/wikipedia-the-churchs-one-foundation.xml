@@ -1,0 +1,147 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>The Church's One Foundation</title>
+    <ns>0</ns>
+    <id>18273113</id>
+    <revision>
+      <id>1290525277</id>
+      <parentid>1176706651</parentid>
+      <timestamp>2025-05-15T09:51:45Z</timestamp>
+      <contributor>
+        <ip>2A00:23C6:5E82:AD01:6CD6:A995:2A02:1FD0</ip>
+      </contributor>
+      <comment>/* Background */</comment>
+      <origin>1290525277</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5359" sha1="ef00dfzt1oi13w44ofqfwkwma383rsu" xml:space="preserve">{{Short description|Hymn by Samuel John Stone}}
+{{Infobox musical composition
+| name                = The Church's One Foundation
+| type                = 
+| image               = Samuel John Stone.jpg
+| alt                 = 
+| caption             = 
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Hymn]]
+| occasion            = 
+| text                = [[Samuel John Stone]]
+| language            = 
+| written             = 1866
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=1 Corinthians|chapter=3|verse=11}}
+| meter               = 7.6.7.6 D
+| melody              = "Aurelia" by [[Samuel Sebastian Wesley]]
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                =
+}}
+
+"'''The Church's One Foundation'''" is a [[Christianity|Christian]] [[hymn]] written in the 1860s by [[Samuel John Stone]].
+
+==Background==
+The song was written as a direct response to the schism within the [[Anglican Church of Southern Africa|Church of South Africa]] caused by [[John William Colenso]], first [[Bishop of Natal]]. When the bishop was deposed for his teachings, he appealed to the higher ecclesiastical authorities in England. It was then that Samuel Stone became involved in the debate. It inspired him to write a set of hymns titled ''Lyra Fidelium; Twelve Hymns on the Twelve Articles of the [[Apostles' Creed]]'' (1866).
+
+"The Church's One Foundation" is included there under the ninth article, ''The holy Catholic Church; The Communion of Saints.'' The controversy is alluded to in the hymn's fourth verse: "Though with a scornful wonder men see her sore oppressed, by schisms rent asunder, by heresies distressed."
+&lt;ref&gt;{{cite web
+ | url=http://songsandhymns.org/hymns/detail/the-churchs-one-foundation
+ | title=The Church's One Foundation
+ | accessdate=2008-07-03
+}}&lt;/ref&gt; The hymn is typically set to the tune "Aurelia" by [[Samuel Sebastian Wesley]].&lt;ref&gt;{{Cite book|url = https://archive.org/details/101hymnstories0000osbe_e7v5|url-access = registration|quote = 101%20Hymn%20Stories%20by%20Kenneth%20W.%20Osbeck.|title = 101 Hymn Stories|last = Osbeck|first = Kenneth W.|date = 1982-01-01|publisher = Kregel Publications|isbn = 9780825493270|language = en}}&lt;/ref&gt;
+
+The words also served as inspiration for [[Rudyard Kipling]]'s 1896 poem, ''[[Hymn Before Action]]'', during his time in Africa.
+
+As part of a move to exclude a range of traditional hymns, "The Church's One Foundation" was due to be excluded from the fourth edition of the [[Church of Scotland]]'s ''Church Hymnary''. It was, however, retained after many objections were submitted to the church committee.&lt;ref&gt;Clare Garner, [https://www.independent.co.uk/news/uk/this-britain/church-casts-out-golden-oldie-hymns-278937.html "Church casts out golden oldie hymns"], ''[[The Independent]]'', 7 May 2000&lt;/ref&gt;
+
+==Tune==
+
+&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+  \set Staff.midiInstrument = "flute"
+  \time 4/4
+  \key es \major
+  \partial 4
+  \relative c'' {
+  g4 | g g as g | g2 f4 es | es c' bes as | g2.
+  as4 | bes es es d | d2 c4 bes | as bes g es | f2.
+  f4 | g as bes c | c2 bes4 es | es4. d8 c4 g | as2.
+  f4 | g g as g | g2 f4 es | es f es d | es2. \bar "|."
+  }
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 4 = 90 }
+&lt;/score&gt;
+
+===Lyrics===
+
+The hymn originally had seven stanzas, of which the first runs:
+
+&lt;poem style="margin-left:1em;"&gt;The church's one foundation
+is Jesus Christ, her Lord;
+she is his new creation
+by water and the Word:
+from heav'n he came and sought her
+to be his holy bride;
+with his own blood he bought her,
+and for her life he died.&lt;ref&gt;{{cite web |title=The Church's one foundation |url=https://hymnary.org/text/the_churchs_one_foundation#authority_media_flexscores |website=Hymnary.org |accessdate=18 April 2019 |language=en}}&lt;/ref&gt;&lt;/poem&gt;
+
+When the hymn came to be added to ''[[Hymns Ancient and Modern]]'' it was rewritten to include only five stanzas. In 1885, three more stanzas were added to the original seven for use as an ecclesiastical processional hymn in [[Salisbury Cathedral]]; this version was used again during the 1888 [[Lambeth Conference]].&lt;ref&gt;[https://www.hymnologyarchive.com/the-churchs-one-foundation "The church's one foundation"], Hymnology archive&lt;/ref&gt;
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category|The Church's one foundation|The Church's One Foundation}}
+* [https://web.archive.org/web/20160319100545/http://lyrafidelium.com/lyrafidelium.html Lyra Fidelium – Twelve Hymns on the Twelve Articles of the Apostle's Creed] by [[Samuel John Stone|S. J. Stone]], B.A., Curate of Windsor
+* [http://churchclubny.org/the-club/history/the-churchs-one-foundation/ Autograph manuscript of "The Church's One Foundation"] {{Webarchive|url=https://web.archive.org/web/20131029202641/http://churchclubny.org/the-club/history/the-churchs-one-foundation/ |date=2013-10-29 }}
+
+{{DEFAULTSORT:Churchs One Foundation}}
+[[Category:English Christian hymns]]
+[[Category:1860s songs]]
+[[Category:Year of song unknown]]
+[[Category:19th-century hymns]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>ef00dfzt1oi13w44ofqfwkwma383rsu</sha1>
+    </revision>
+  </page>
+</mediawiki>

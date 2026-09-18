@@ -1,0 +1,453 @@
+{
+    "format": "json",
+    "id": 6415,
+    "name": "Be Thou My Vision",
+    "url": "https://thesession.org/tunes/6415",
+    "member": {
+        "id": 27102,
+        "name": "nicholas",
+        "url": "https://thesession.org/members/27102"
+    },
+    "date": "2006-11-24 14:02:56",
+    "type": "waltz",
+    "tunebooks": 247,
+    "recordings": 2,
+    "collections": 0,
+    "aliases": ["The Banks Of The Bann","Slane"],
+    "settings": [
+        {
+            "id": 6415,
+            "url": "https://thesession.org/tunes/6415#setting6415",
+            "key": "Gmajor",
+            "abc": "D2|G2 G2 AG|E2 D2 DE|G2 G2 A2|B4 dB|! A2 A2 A2|A2 B2 d2|e2 d2 B2|d4 d2|! e2 ef gf|e2 d2 B2|d2 G2 F2|E4 D2|! G2 B2 d2|ed B2 GB|A2 G2 G2|G4||",
+            "member": {
+                "id": 27102,
+                "name": "nicholas",
+                "url": "https://thesession.org/members/27102"
+            },
+            "date": "2006-11-24 14:02:56"
+        },
+        {
+            "id": 20973,
+            "url": "https://thesession.org/tunes/6415#setting20973",
+            "key": "Dmajor",
+            "abc": "M:2\/4! L: 1\/16! K: Dmaj! \"D\"D2 D4 ED|\"G\"B,2 A,4 A,B,|\"D\"D2 D4 \"A\"E2|\"D\"F8|! w:Be Thou my_ Vision, O_ Lord of my heart;! \"A\"E2 E4 E2|E2 F4 A2|\"G\"B2 A4 F2|\"A\"A8|! w:Naught be all else to me, save that Thou art,! \"Bm\"B2 c4 dc|\"G\"B2 A4 F2|\"D\"A2 D4 C2|\"G\"B,4 A,4|! w:Thou my best_ thought, by day or by night_! \"D\"D2 F4 A2|\"Bm\"B2 F4 DF|\"A\"E2 D4 D2|\"D\"D6||! w:Waking or sleeping, Thy* presence my light.",
+            "member": {
+                "id": 86249,
+                "name": "jdogbishop96",
+                "url": "https://thesession.org/members/86249"
+            },
+            "date": "2013-02-18 23:28:56"
+        },
+        {
+            "id": 31812,
+            "url": "https://thesession.org/tunes/6415#setting31812",
+            "key": "Amajor",
+            "abc": "M:4\/4! EF|A2A4 BA|F2 E4 EF|A2 A4 B>e|c6 BA|! B2 e4 AB|c2 e4 ce|f2 e4 Bc|e6 ce|! f2 f4 [a][g]|[f2] [e4] Bc|e2 A4 GF\/A\/|F4- FF EF|! A2 {B}c4- ce|fe c4(3ABc|B2 A4 A2|A6:|",
+            "member": {
+                "id": 99656,
+                "name": "Beleragor",
+                "url": "https://thesession.org/members/99656"
+            },
+            "date": "2018-02-06 08:29:42"
+        },
+        {
+            "id": 40716,
+            "url": "https://thesession.org/tunes/6415#setting40716",
+            "key": "Amajor",
+            "abc": "|:E>F|A2 A2 B>A|F2 E2 EF|A2 A2 B>e|c4 BA|! B2 B2 A>B|c2 e2 ce|f2 e2 Bc|e4 ce|! f2 a2 ag|f2 e2 Bc|e2 A2 G2|F4 E>F|! A2 c3 e|f>e c2 (3ABc|B2 A2 AF|1 E4:|2 A6||",
+            "member": {
+                "id": 22109,
+                "name": "dersulle",
+                "url": "https://thesession.org/members/22109"
+            },
+            "date": "2021-03-06 01:12:52"
+        },
+        {
+            "id": 47485,
+            "url": "https://thesession.org/tunes/6415#setting47485",
+            "key": "Gmajor",
+            "abc": "DE|G3GAG|E2D2DE|G2G2A2|B3BAG|! A3GAB|A2GABd|e2d2B2|d3dBd|! e3fgf|e2d2GA|B2G2F2|E3EDE|! G3ABd|e2d3B|A3AGF|G4||",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 01:05:19"
+        },
+        {
+            "id": 48027,
+            "url": "https://thesession.org/tunes/6415#setting48027",
+            "key": "Dmajor",
+            "abc": "D2D2ED|B,DA,2A,B,|D2D2EA|F2>G2FD|! E2E2EF|E2F2A2|B2A2F2|A4FA|! B2Bcdc|B2A2F2|A2D2C2|B,2A,2A,B,|! D2F2Ad|BAF2DF|EFD2D2|D6||",
+            "member": {
+                "id": 161286,
+                "name": "Christian Messier",
+                "url": "https://thesession.org/members/161286"
+            },
+            "date": "2023-08-24 21:47:43"
+        },
+        {
+            "id": 54364,
+            "url": "https://thesession.org/tunes/6415#setting54364",
+            "key": "Dmajor",
+            "abc": "A2|\"D\" d2 d2 ed|\"G\" B2 A2 AB|\"D\" d2 d2 \"A\" e2| \"D\" f4 af|! \"A\" e2 e2 e2| \"Bm\" e2 f2 a2| \"G\" b2 a2 f2|\"A\" a4 a2|! \"Bm\" b2 bc' d'c'|\"G\" b2 a2 f2|\"D\" a2 d2 c2| \"G\" B4 A2|! \"D\" d2 f2 a2| \"Bm\" ba f2 df| \"A\" e2 d2 d2| \"D\" d4||",
+            "member": {
+                "id": 174414,
+                "name": "Jim Sime",
+                "url": "https://thesession.org/members/174414"
+            },
+            "date": "2025-06-20 05:28:25"
+        },
+        {
+            "id": 54369,
+            "url": "https://thesession.org/tunes/6415#setting54369",
+            "key": "Dmajor",
+            "abc": "A,2|\"D\" D2 D2 ED|\"G\" B,2 A,2 A,B,|\"D\" D2 D2 \"A\" E2| \"D\" F4 AF|! \"A\" E2 E2 E2| \"Bm\" E2 F2 A2| \"G\" B2 A2 F2|\"A\" A4 A2|! \"Bm\" B2 Bc dc|\"G\" B2 A2 F2|\"D\" A2 D2 C2| \"G\" B,4 A,2|! \"D\" D2 F2 A2| \"Bm\" BA F2 DF| \"A\" E2 D2 D2| \"D\" D4||",
+            "member": {
+                "id": 174414,
+                "name": "Jim Sime",
+                "url": "https://thesession.org/members/174414"
+            },
+            "date": "2025-06-20 14:56:21"
+        }
+    ],
+    "comments": [
+        {
+            "id": 240305,
+            "url": "https://thesession.org/tunes/6415#comment240305",
+            "subject": "Be Thou My Vision \/ Slane",
+            "content": "I put this in as an answer to a request. It is used as a hymn tune, and like many such is called both by its opening words and by the name of a place associated maybe with its composition or use, or history that inspired it. The tune is said to be an Irish folk tune, deriving the title \"Slane\" from the association of Slane Hill, Co. Meath, with St. Patrick.  The tune, with an altered ending, also carries the song \"The Banks Of The Bann\"; the last four bars of this version go:                    |G3 B AG|E2 D2 DE|G3 B AF|G4  ||",
+            "member": {
+                "id": 27102,
+                "name": "nicholas",
+                "url": "https://thesession.org/members/27102"
+            },
+            "date": "2006-11-24 14:25:24"
+        },
+        {
+            "id": 326692,
+            "url": "https://thesession.org/tunes/6415#comment326692",
+            "subject": "Be Thou My Vision",
+            "content": "key of C, but we like the G7     Dallan Forgaill c. 700  Tr. Mary E Byrne  Ancient Irish Hymn (Slane)",
+            "member": {
+                "id": 41380,
+                "name": "Anniem",
+                "url": "https://thesession.org/members/41380"
+            },
+            "date": "2007-11-09 10:20:30"
+        },
+        {
+            "id": 337816,
+            "url": "https://thesession.org/tunes/6415#comment337816",
+            "subject": "Thanks",
+            "content": "I used this tune years ago with my middle school choir and began to wonder about it's origin.  So many tunes have a simple annotation of \"Irish Folk tune.\"  Thanks for the additional information.      Brent",
+            "member": {
+                "id": 1892,
+                "name": "bknjholl",
+                "url": "https://thesession.org/members/1892"
+            },
+            "date": "2008-01-07 08:09:56"
+        },
+        {
+            "id": 672940,
+            "url": "https://thesession.org/tunes/6415#comment672940",
+            "subject": "Bluegrass Version",
+            "content": "The third setting has a cut time feel with the traditional melody.  I used this for inspiration:  http:\/\/www.youtube.com\/watch?v=RkmAjPh75RA",
+            "member": {
+                "id": 86249,
+                "name": "jdogbishop96",
+                "url": "https://thesession.org/members/86249"
+            },
+            "date": "2013-02-18 23:31:51"
+        },
+        {
+            "id": 839536,
+            "url": "https://thesession.org/tunes/6415#comment839536",
+            "subject": "Be Thou My Vision, X:4",
+            "content": "An arrangement of this waltz where we changed to a 4\/4 measure. So, not a waltz anymore but still beautiful.",
+            "member": {
+                "id": 99656,
+                "name": "Beleragor",
+                "url": "https://thesession.org/members/99656"
+            },
+            "date": "2018-02-06 08:29:42"
+        },
+        {
+            "id": 839538,
+            "url": "https://thesession.org/tunes/6415#comment839538",
+            "subject": "Re: Be Thou My Vision",
+            "content": "Paddy's yer man..........................    https:\/\/youtu.be\/QpYuSmDbxnA",
+            "member": {
+                "id": 726,
+                "name": "Kenny",
+                "url": "https://thesession.org/members/726"
+            },
+            "date": "2018-02-06 09:38:23"
+        },
+        {
+            "id": 869516,
+            "url": "https://thesession.org/tunes/6415#comment869516",
+            "subject": "Re: Be Thou My Vision",
+            "content": "Tune also used for \u201cLord of All Hopefulness\u201d by Jan Struther in \u2018Enlarger Songs of Praise,\u2019 1931",
+            "member": {
+                "id": 78229,
+                "name": "jaicmac",
+                "url": "https://thesession.org/members/78229"
+            },
+            "date": "2019-05-03 00:52:11"
+        },
+        {
+            "id": 875691,
+            "url": "https://thesession.org/tunes/6415#comment875691",
+            "subject": "Re: Be Thou My Vision",
+            "content": "The Rend Collective band from Bangor in Northern Ireland (or Norn Ireland as some people refer to it) took this tune and changed the rhythm to 4\/4.  Then they took the original words and added some verses of their own to turn it into a five verse religious song suitable to be played for church services.  We have played this version in E Major for the services at the church I attend.      Laurence",
+            "member": {
+                "id": 11581,
+                "name": "fauxcelt",
+                "url": "https://thesession.org/members/11581"
+            },
+            "date": "2019-08-02 01:28:38"
+        },
+        {
+            "id": 916928,
+            "url": "https://thesession.org/tunes/6415#comment916928",
+            "subject": "Re: Be Thou My Vision",
+            "content": "I did an arrangement of this hymn for mariachi, in \"bolero\" tempo. Message me for sheet music and\/or recording.",
+            "member": {
+                "id": 30163,
+                "name": "Pinono",
+                "url": "https://thesession.org/members/30163"
+            },
+            "date": "2021-03-07 17:37:54"
+        },
+        {
+            "id": 917079,
+            "url": "https://thesession.org/tunes/6415#comment917079",
+            "subject": "Re: Be Thou My Vision",
+            "content": "A superb Irish tune. SK",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2021-03-10 01:33:49"
+        },
+        {
+            "id": 917080,
+            "url": "https://thesession.org/tunes/6415#comment917080",
+            "subject": "Re: Be Thou My Vision",
+            "content": "I like the G7 too.",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2021-03-10 01:35:45"
+        },
+        {
+            "id": 917139,
+            "url": "https://thesession.org/tunes/6415#comment917139",
+            "subject": "Re: Be Thou My Vision",
+            "content": "Here's version of Be Thou My Vision that I performed for a church service. I was playing a Copeland D whistle:  (Sorry, audio only. It was 1996, after all.)  https:\/\/www.dropbox.com\/s\/z2uq0rpw4exyq32\/Be%20Thou%20My%20Vision.aiff?dl=0",
+            "member": {
+                "id": 49476,
+                "name": "LastPosted",
+                "url": "https://thesession.org/members/49476"
+            },
+            "date": "2021-03-10 16:26:17"
+        },
+        {
+            "id": 917176,
+            "url": "https://thesession.org/tunes/6415#comment917176",
+            "subject": "Re: Be Thou My Vision",
+            "content": "It's been alluded to above, but in traditional Hymnody there are two separate things  Hymns: song-texts, like a poem.    Tunes: melodies.   In the world of Hymnody (which I know is a different world than folk-songs) SLANE is a tune.   Hymns (texts) sung to the tune SLANE in various churches include  -Be Thou My Vision  -Lord Of All Hopefulness  -Bridegroom And Bride   -Lord Of Creation, To You Be All Praise  -Christ Be My Leader By Night As By Day  and several others.",
+            "member": {
+                "id": 36889,
+                "name": "Richard D Cook",
+                "url": "https://thesession.org/members/36889"
+            },
+            "date": "2021-03-10 23:31:19"
+        },
+        {
+            "id": 917183,
+            "url": "https://thesession.org/tunes/6415#comment917183",
+            "subject": "Re: Be Thou My Vision",
+            "content": "This is an interesting comment Richard.   Maybe one might call the words of St Patricks Breast-plate (on thesession) a folksong.   Beautiful words written by the saint about the natural world.   For example, ... \"the flashing of the lightning free, the whirling wind's tempestuous shocks, the stable earth, the deep salt sea, around the old eternal rocks\".",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2021-03-11 01:47:48"
+        },
+        {
+            "id": 948404,
+            "url": "https://thesession.org/tunes/6415#comment948404",
+            "subject": "Re: Be Thou My Vision",
+            "content": "https:\/\/www.youtube.com\/watch?v=k9_h17-dv60",
+            "member": {
+                "id": 63653,
+                "name": "fluther",
+                "url": "https://thesession.org/members/63653"
+            },
+            "date": "2022-08-27 20:40:58"
+        },
+        {
+            "id": 968546,
+            "url": "https://thesession.org/tunes/6415#comment968546",
+            "subject": "The Banks of the Bann",
+            "content": "LYRICS: The banks of the Bann  (a traditional song - known in County Antrim)  1.  When first to this country a stranger I came  I placed my affection on a maid that was young  she being young and tender her waist small and slender  kind Nature had formed her for my overthrow  2.  On the banks of the Bann where I first beheld her  she appeared like fair Juno or a Grecian queen  her eyes shone like diamonds, her hair softly twining  her cheeks were like roses or blood drops in snow  are the cause of my ruin and absence from home  3.  Twas her cruel parents that first caused our variance  All because I was poor and of a low degree  But I'll do my endeavour to gain my love's favour  Although she is come from a rich family  4.  My name is Delaney, a name that won't shame me  And if I had saved money, I'd have plenty in store  But drinking and courting, night rambling and sporting  Are the cause of my ruin and absence from home  5.  Had I all the money that's in the West Indies  or had I the gold of the African shore  I would spend it on pearls and on you my brown girl  for there's no other love on this earth I adore  6.  Now since I have gained her I'm contented for life  I'll put rings on her fingers and gold in her ear  we'll live on the banks of the lovely Bann river  and in all sorts of splendour I will style her my dear",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 00:46:31"
+        },
+        {
+            "id": 968547,
+            "url": "https://thesession.org/tunes/6415#comment968547",
+            "subject": "Banks of the Bann",
+            "content": "https:\/\/www.youtube.com\/watch?v=2qFF0YlVjho&pp=ygUddGhlIGJhbmtzIG9mIHRoZSBCYW5uIHBsYW54dHk%3D",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 00:47:31"
+        },
+        {
+            "id": 968548,
+            "url": "https://thesession.org/tunes/6415#comment968548",
+            "subject": "On the Banks of the Bann",
+            "content": "sung by Joseph Higgins    https:\/\/www.youtube.com\/watch?v=xFV0R480gQQ",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 00:50:32"
+        },
+        {
+            "id": 968552,
+            "url": "https://thesession.org/tunes/6415#comment968552",
+            "subject": "Banks of the Bann, X:5",
+            "content": "From the singing of ___? , copied on to a tape given to a French student in Ireland who passed it on to me in the late 1980's or early 1990's after. A tape of a tape with no credits on it.",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 01:05:19"
+        },
+        {
+            "id": 968553,
+            "url": "https://thesession.org/tunes/6415#comment968553",
+            "subject": "The Banks of the Bann",
+            "content": "Se\u00e1n Cannon, 1977  https:\/\/youtu.be\/acWFxn-u0SA?t=12",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 01:13:57"
+        },
+        {
+            "id": 968554,
+            "url": "https://thesession.org/tunes/6415#comment968554",
+            "subject": "The Banks of the Bann",
+            "content": "Richard Hayward (shellac side, 1930's?):  https:\/\/youtu.be\/rjtBsLUyYGM?t=85",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 01:21:26"
+        },
+        {
+            "id": 968556,
+            "url": "https://thesession.org/tunes/6415#comment968556",
+            "subject": "By the banks of the Bann",
+            "content": "instrumental from the Ulsterman (you might recognise) with a gentle way with the mallets:  https:\/\/youtu.be\/CYKodma9A5c?t=26    (check out the comments on origins of tune in the notes box below the video)",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 01:35:30"
+        },
+        {
+            "id": 968560,
+            "url": "https://thesession.org/tunes/6415#comment968560",
+            "subject": "By the banks of the Bann",
+            "content": "the voice squad, 1987  https:\/\/www.youtube.com\/watch?v=S2A1HeWAKlw  from 9'57\" to 13'30  not bad",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2023-06-24 01:55:00"
+        },
+        {
+            "id": 973518,
+            "url": "https://thesession.org/tunes/6415#comment973518",
+            "subject": "Be Thou My Vision, X:6",
+            "content": "I heard this version at a bar in Minneapolis, and I really liked it. I always knew Slane as \"Be Thou My Vision,\" but knew that it had its roots in traditional Irish music. This version is pretty similar to the hymn, with a few extra eighth notes; I especially love the final high D!",
+            "member": {
+                "id": 161286,
+                "name": "Christian Messier",
+                "url": "https://thesession.org/members/161286"
+            },
+            "date": "2023-08-24 21:47:43"
+        },
+        {
+            "id": 996565,
+            "url": "https://thesession.org/tunes/6415#comment996565",
+            "subject": "Re: The banks of the Bann ...etc...",
+            "content": "Martin Simpson (2007) sings the ballad \"The lakes of Champlain\" to this tune (it is usually sung to the tune to \" The lakes of Coolfin\").   ",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2024-09-08 03:45:40"
+        },
+        {
+            "id": 1013254,
+            "url": "https://thesession.org/tunes/6415#comment1013254",
+            "subject": "Be Thou My Vision, X:7",
+            "content": "3\/4 version with chords.",
+            "member": {
+                "id": 174414,
+                "name": "Jim Sime",
+                "url": "https://thesession.org/members/174414"
+            },
+            "date": "2025-06-20 05:28:25"
+        },
+        {
+            "id": 1013267,
+            "url": "https://thesession.org/tunes/6415#comment1013267",
+            "subject": "Re: Be Thou My Vision",
+            "content": "https:\/\/www.youtube.com\/watch?v=36fM0FmIa58    ",
+            "member": {
+                "id": 92162,
+                "name": "Tervs and Tunes",
+                "url": "https://thesession.org/members/92162"
+            },
+            "date": "2025-06-20 11:53:54"
+        },
+        {
+            "id": 1013273,
+            "url": "https://thesession.org/tunes/6415#comment1013273",
+            "subject": "Be Thou My Vision, X:8",
+            "content": "Lower octave for fiddlers.",
+            "member": {
+                "id": 174414,
+                "name": "Jim Sime",
+                "url": "https://thesession.org/members/174414"
+            },
+            "date": "2025-06-20 14:56:22"
+        }
+    ]
+}

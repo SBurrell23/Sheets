@@ -1,0 +1,25 @@
+
+
+X: 14
+T: Nearer My God to Thee
+P: piffero primo a0215
+O: safd
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+V: 1
+V: 2
+% - - - - - - - - - -
+V: 1 staves=2
+z |\
+B2 AG | G>E E2 | D2 GB | A3   z | B2 AG | G>E E2 | DG FA | G3 z |
+d2 ed | d>B d2 | d2 ed | d>B A2 | B2 AG | G>E E2 | DG FA | G3 :|
+% - - - - - - - - - -
+V: 2
+z |\
+G2 FE | E>C C2 | B,2 DG | F3   z | G2 FE | E>C C2 | B,D DD | D3 z |
+B2 cB | B>G B2 | B2  cB | A>G F2 | G2 FE | E>C C2 | B,D DD | D3 :|
+

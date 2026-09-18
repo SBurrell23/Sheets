@@ -1,0 +1,78 @@
+{
+  "title": "Come Thou Fount of Every Blessing",
+  "source": "American folk hymn, tune NETTLETON, attrib. John Wyeth, Repository of Sacred Music Part Second, 1813; words Robert Robinson, 1758",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 90,
+  "bars": [
+    {
+      "chord": "C",
+      "notes": "E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 E5:2 G5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 D5:4 [C]E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:4 [G7]E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 E5:2 G5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 D5:4 [C]E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:4 [G7]E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 G5:2 A5:1 B5:1"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 B5:4 A5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:2 G5:2 [C]E5:4 G5:2 A5:1 B5:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "C6:4 B5:4 [G7]A5:2 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:4 E5:2 G5:2"
+    },
+    {
+      "chord": "G",
+      "notes": "D5:4 D5:4 [C]E5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:4 [G7]E5:2 D5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8"
+    }
+  ]
+}

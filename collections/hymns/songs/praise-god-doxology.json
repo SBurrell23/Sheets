@@ -1,0 +1,17 @@
+{
+  "title": "Old Hundredth (Doxology)",
+  "source": "Louis Bourgeois (attrib.), tune OLD HUNDREDTH, Genevan Psalter 1551; words Thomas Ken, 1674",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 96,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4 C5:4 [Am]B4:4 A4:4" },
+    { "chord": "C",  "notes": "G4:4 C5:4 D5:4 E5:4" },
+    { "chord": "C",  "notes": "E5:4 E5:4 E5:4 D5:4" },
+    { "chord": "F",  "notes": "C5:4 F5:4 E5:4 [G]D5:4" },
+    { "chord": "C",  "notes": "C5:4 D5:4 E5:4 D5:4" },
+    { "chord": "F",  "notes": "C5:4 A4:4 [C]B4:4 C5:4" },
+    { "chord": "C",  "notes": "G5:4 E5:4 C5:4 [G]D5:4" },
+    { "chord": "G7", "notes": "F5:4 E5:4 D5:4 [C]C5:4" }
+  ]
+}

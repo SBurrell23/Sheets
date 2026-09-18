@@ -1,0 +1,50 @@
+[
+ {
+  "name": "abcnotation--jc-music-abc-mirror-www-stephenmerrony-co-uk-antioch-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAntioch_1%2F0000",
+  "kind": "abc",
+  "bytes": 1500,
+  "sha256": "c129fa94647ce3e67b4d86782582d5790740e25f06acce03f8be84e438283372",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-www-stephenmerrony-co-uk-antioch-2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAntioch_2%2F0000",
+  "kind": "abc",
+  "bytes": 1495,
+  "sha256": "569068796761768b630443e79c0f7e139d95bb5313401b083f05354084e71233",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-www-stephenmerrony-co-uk-antioch-3-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAntioch_3%2F0000",
+  "kind": "abc",
+  "bytes": 1269,
+  "sha256": "5b7a5586072b3a09dd637375a328548c1d82d8d070ad09b51213ef6169b21007",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-www-stephenmerrony-co-uk-antioch-5-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAntioch_5%2F0000",
+  "kind": "abc",
+  "bytes": 1487,
+  "sha256": "2d4daab343039df5950d9454c84745c0cc2f1492ef2477eec0bbde843545c3e8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-du-jc-music-abc-mirror-www-stephenmerrony-co-uk-antioch-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAntioch%2F0000",
+  "kind": "abc",
+  "bytes": 1475,
+  "sha256": "3c9301e3ab868a8fb5f06ffb7ac7b6c4ab9ce25612d482d5087a875dec8066cf",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-joy-to-the-world.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Joy_to_the_World",
+  "kind": "lilypond",
+  "bytes": 19105,
+  "sha256": "5657e7d0b9b9b96ed057f815519e3652e5dc05a9cff29637c64ba0715caa3222",
+  "fetched": "2026-09-18"
+ }
+]

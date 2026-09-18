@@ -1,0 +1,73 @@
+{
+  "title": "Jesus Loves Me",
+  "source": "William B. Bradbury, tune CHINA, 1862; words Anna B. Warner, 1860",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 100,
+  "bars": [
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 E5:4 [G]D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 A5:4 C6:4 A5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 [C]G5:4 G5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 E5:4 E5:4 [G]D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:4 G5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 A5:4 [C]G5:4 C5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:4 D5:4 [C]C5:8"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 E5:4 G5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 C6:12"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 E5:4 C5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "E5:4 D5:12"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:8 E5:4 G5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 C6:8 A5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "G5:4 C5:4 E5:4 [G7]D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
+  ]
+}

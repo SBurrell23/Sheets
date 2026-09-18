@@ -1,0 +1,315 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Silent Night</title>
+    <ns>0</ns>
+    <id>161636</id>
+    <revision>
+      <id>1368768347</id>
+      <parentid>1356661611</parentid>
+      <timestamp>2026-08-11T00:43:28Z</timestamp>
+      <contributor>
+        <username>WikipediholicRat</username>
+        <id>52750217</id>
+      </contributor>
+      <minor/>
+      <comment>Fix [[MOS:CURLY]]; Cleaning up syntax using [[:en:User:Zackmann08/scripts/indent|indent.js]]</comment>
+      <origin>1368768347</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="28780" sha1="r0xck0el43cmhwgtb3y2mh3u4baqs70" xml:space="preserve">{{Short description|1818 Christmas carol}}
+{{redirect2|Stille Nacht|Silent Night, Holy Night|the 1995 film|Stille Nacht (film){{!}}''Stille Nacht'' (film)|the 1976 film|Silent Night, Holy Night (film)}}
+{{About|the Christmas carol}}
+{{Use dmy dates|date=May 2021}}
+{{Infobox musical composition
+| name             = Stille Nacht &lt;br /&gt; Silent Night
+| type             = [[Christmas carol]]
+| image            = Stille nacht.jpg
+| image_upright    = 1.4
+| alt              = 
+| caption          = [[Autograph (manuscript)|Autograph]] (c. 1860) of the carol by Franz Gruber
+| full_title       = Silent Night, Holy Night
+| native_name      = Stille Nacht, heilige Nacht
+| native_name_lang = de
+| text             = [[Joseph Mohr]]
+| language         = German
+| melody           = [[Franz Xaver Gruber]]
+| composed         = 
+| performed        = {{start date|df=yes|1818|12|24}}
+| published        = {{start date|1833}}
+| movements        = 
+| scoring          = 
+| misc             = 
+}}
+
+"'''Silent Night'''" ({{langx|de|"'''Stille Nacht, heilige Nacht'''"|links=no|italic=no}}) is a popular [[Christmas carol]], composed in 1818 by [[Franz Xaver Gruber]] to lyrics by [[Joseph Mohr]] in [[Oberndorf bei Salzburg]], Austria.&lt;ref name="SI"&gt;{{cite web |last1=Daley |first1=Jason |title=It's the Bicentennial of 'Silent Night': The classic Christmas tune was first composed as a poem, and it was set to music for the first time in the winter of 1818 |url=https://www.smithsonianmag.com/smart-news/silent-night-celebrates-its-bicentennial-180971044/|work=[[Smithsonian (magazine)|Smithsonian]]|access-date=12 December 2020|date=17 December 2018}}&lt;/ref&gt; It was declared an [[intangible cultural heritage]] by [[UNESCO]] in 2011.&lt;ref&gt;{{cite web|url=http://immaterielleskulturerbe.unesco.at/cgi-bin/unesco/element.pl?eid=68&amp;lang=en|title=Österreichische UNESCO-Kommission – Nationalagentur für das Immaterielle Kulturerbe – Austrian Inventory|access-date=25 December 2014|archive-date=18 December 2015|archive-url=https://web.archive.org/web/20151218094123/http://immaterielleskulturerbe.unesco.at/cgi-bin/unesco/element.pl?eid=68&amp;lang=en|url-status=dead}}&lt;/ref&gt; The song was first recorded in 1905&lt;ref&gt;{{cite news|first= Marita |last= Berg |title= Silent Night |work= [[Deutsche Welle]] |date= 15 December 2013 |access-date= 8 October 2020 |url= https://www.dw.com/en/silent-night/a-17295427}}&lt;/ref&gt; and has remained a popular success, appearing in films and multiple successful recordings, as well as being quoted in other musical compositions. It is one of the most recorded Christmas songs, with more than 137,000 known recordings.&lt;ref&gt;{{cite magazine |last1=Malone |first1=Chris |title=Christmas Classics From Mariah Carey &amp; Wham! Among Most-Recorded Holiday Songs |url=https://www.billboard.com/culture/lifestyle/mariah-carey-most-recorded-holiday-songs-8061679/|magazine=[[Billboard (magazine)|Billboard]]|access-date=12 December 2023|date=5 December 2017}}&lt;/ref&gt;
+
+{{TOC limit|2}}
+
+
+==Creation==
+Father Joseph Mohr, a young Catholic priest, had come to Oberndorf in 1817. In the aftermath of the [[Napoleonic Wars]],&lt;ref name="SI"/&gt; he had written the poem "{{Lang|de|Stille Nacht|italic=no}}" in 1816 at [[Mariapfarr]], the home town of his father in the Salzburg [[Tamsweg District|Lungau]] region, where Joseph had worked as an assistant priest.&lt;ref name="icce"&gt;{{cite journal | url=http://www.icce.rug.nl/~soundscapes/VOLUME02/Silent_Night_History.shtml | title=Silent Night, Holy Night | first=Bill | last=Egan | date=December 1999 | journal=Soundscapes | volume=2 | publisher=[[University of Groningen]] | issn=1567-7745 | access-date=26 December 2024 | archive-url=https://web.archive.org/web/20171216175758/http://www.icce.rug.nl/~soundscapes/VOLUME02/Silent_Night_History.shtml | archive-date=16 December 2017 |url-status=dead | df=dmy-all}}&lt;/ref&gt;
+
+The melody was composed by [[Franz Xaver Gruber]], schoolmaster and [[organist]] in the nearby village of {{ill|Arnsdorf (Lamprechtshausen)|de|Arnsdorf (Gemeinde Lamprechtshausen)|lt=Arnsdorf}}, now part of [[Lamprechtshausen]]. On Christmas Eve, 1818, Mohr brought the words to Gruber and asked him to compose a melody and [[guitar]] [[accompaniment]] for that night's mass, after river flooding had possibly damaged the church organ.&lt;ref name="SI"/&gt;&lt;ref name=bbc&gt;{{cite web |url=https://www.bbc.co.uk/religion/religions/christianity/christmas/carols_1.shtml |title=Christmas carols |publisher=BBC |date=4 August 2009 |access-date=6 December 2011 |archive-url=https://web.archive.org/web/20090522000130/http://www.bbc.co.uk/religion/religions/christianity/christmas/carols_2.shtml |archive-date=22 May 2009 |url-status=live}}&lt;/ref&gt; The church was eventually destroyed by repeated flooding and replaced with the [[Silent-Night-Chapel]]. 
+
+"{{Lang|de|Stille Nacht|italic=no}}" was first performed on [[Christmas Eve]], 1818, at the [[Nikolauskirche, Oberndorf|Nikolauskirche]], the parish church of [[Oberndorf bei Salzburg|Oberndorf]], a village in the [[Austrian Empire]] on the [[Salzach]] river in present-day Austria. 
+==Subsequent history==
+According to Gruber, Karl Mauracher, an organ builder who serviced the instrument at the Oberndorf church, was enamoured of the song, and took the composition home with him to the [[Zillertal]].&lt;ref name="spreading"&gt;{{cite web | url=http://www.stillenacht.at/en/spreading_song.asp | title=Spreading of the Song Locally | publisher=Silent Night Association | access-date=22 December 2017 | archive-url=https://web.archive.org/web/20171217094807/http://www.stillenacht.at/en/spreading_song.asp | archive-date=17 December 2017 |url-status=live | df=dmy-all}}&lt;/ref&gt; From there, two travelling families of folk singers, the Strassers and the Rainers, included the tune in their shows. The Rainers were already singing it around Christmas 1819, and they once performed it for an audience that included [[Francis II, Holy Roman Emperor|Franz I of Austria]] and [[Alexander I of Russia]], as well as making the first performance of the song in the U.S., in New York City in 1839.&lt;ref name="SI"/&gt; By the 1840s the song was well known in [[Lower Saxony]] and was reported to be a favourite of [[Frederick William IV of Prussia]]. During this period, the melody changed slightly to become the version that is commonly played today.&lt;ref name="icce"/&gt;&lt;ref name="spreading"/&gt;
+
+[[File:Autograph Mohr Stille Nacht.png|thumb|Mohr's autograph, 1820/1825]]
+
+In 1995, a manuscript was discovered in Mohr's handwriting and dated by researchers as {{circa|1820}}. It revealed that Mohr wrote the words in 1816 when he was assigned to a pilgrim church in Mariapfarr, Austria, and shows that the music was composed by Gruber in 1818. This is the earliest manuscript that exists and the only one in Mohr's handwriting.&lt;ref&gt;{{cite web | url=http://www.stillenacht.at/en/origin_song.asp | title=Origin of the Song | publisher=Silent Night Association | access-date=22 December 2017 | archive-url=https://web.archive.org/web/20171215204225/http://www.stillenacht.at/en/origin_song.asp | archive-date=15 December 2017 |url-status=live | df=dmy-all}}&lt;/ref&gt; Prior to this, it was long attributed to more famous Austrian composers including [[Joseph Haydn|Haydn]], [[Wolfgang Amadeus Mozart|Mozart]] and [[Franz Schubert|Schubert]].
+
+;Original melody:
+:&lt;score sound="1"&gt;
+&lt;&lt;
+\new Staff &lt;&lt;
+  \new Voice="melody" \relative c'' { \set Staff.midiInstrument = #"acoustic guitar (nylon)"
+    \autoBeamOff
+\tempo 4 = 60 \set Score.tempoHideNote = ##t
+    \voiceOne
+    \language "deutsch"
+    \key d \major
+    \time 6/8
+    a8. [ h16 ] a8 fis4 h8\rest
+    a8. h16 a8 fis4 h8\rest
+    e8. [ dis16 ] e8 cis4 h8\rest
+    d8. [ cis16 ] d8 a4 h8\rest
+    h4 h8 d8. [ cis16 ] h8
+    a8. h16 a8 fis4 h8\rest
+    h4 h8 d8. [ cis16 ] h8
+    a8. h16 a8 fis4 h8\rest
+    cis8. cis16 cis8 e8. d16 cis8
+    d4. ( fis4 ) h,8\rest
+    d8. a16 fis8 a8. g16 e8
+    d4.~ d4 h'8\rest
+  }
+  \new Voice \relative c' {
+    \voiceTwo
+    \autoBeamOff
+    %\omit "Rest_engraver"
+    fis8. [ g16 ] fis8 d4 s8
+    fis8. g16 fis8 d4 s8
+    g8. [ fis16 ] g8 e4 s8
+    fis8. [ e16 ] fis8 fis4 s8
+    g4 g8 h8. [ a16 ] g8
+    fis8. g16 fis8 d4 s8
+    g4 g8 h8. [ a16 ] g8
+    fis8. g16 fis8 d4 s8
+    e8. e16 e8 g8. fis16 e8
+    fis4. ( a4 ) s8
+    fis8. fis16 d8 fis8. e16 cis8
+    d4.~ d4
+  }
+&gt;&gt;
+\new Lyrics \lyricsto "melody" {
+  Stil -- le Nacht! Hei -- li -- ge Nacht!
+  Al -- les schläft; ein -- sam wacht
+  Nur das trau -- te hei -- li -- ge Paar.
+  Hol -- der Knab' im lok -- kig -- ten Haar,
+  schla -- fe in himm -- li -- scher Ruh! __
+  Schla -- fe in himm -- li -- scher Ruh! __
+}
+&gt;&gt;
+&lt;/score&gt;
+
+The first edition was published by {{ill|August Robert Friese|de|lt=Friese}} in 1833 in a collection of ''Four Genuine Tyrolean Songs'', with the following musical text:&lt;ref&gt;[http://www.henle.de/blog/en/2012/12/24/%e2%80%98silent-night%e2%80%99-revisited/ "Silent Night" revisited] {{Webarchive|url=https://web.archive.org/web/20160827004545/http://www.henle.de/blog/en/2012/12/24/%e2%80%98silent-night%e2%80%99-revisited/ |date=27 August 2016}} by Norbert Müllemann, [[G. Henle Verlag]], 24 December 2012&lt;/ref&gt;
+
+[[File:Franz Xaver Gruber (1787-1863).jpg|thumb|upright|Franz Xaver Gruber, painted by Sebastian Stief (1846)]]
+:&lt;score sound="1"&gt;
+\transpose c d \relative c'' {
+  \key c \major \set Staff.midiInstrument = #"acoustic guitar (nylon)"
+  \time 6/8 \set Score.tempoHideNote = ##t \tempo 4 = 60 \autoBeamOff
+  g8.^"First edition" [a16] g8 e4. | g8. [a16] g8 e4. | d'4 d16. [b32] b4. | c4 c16. [g32] g4. | a4 a8 c8. b16 a8 | g8. a16 g8 e4. |
+  a4 a8 c8. b16 a8 | g8. a16 g8 e4. | d'4 d8 f8.-&gt; d16 b8 | c4. (e4) r8 | c8. [g16] e8 g8. f16 d8 | c4.~ c4 r8 \bar "|."
+}
+&lt;/score&gt;
+
+The contemporary version, as in the [[#choral|choral example]] below, is:
+{{anchor|score}}
+:&lt;score sound="1"&gt;
+\transpose c d \relative c'' {
+  \key c \major \set Staff.midiInstrument = #"acoustic guitar (nylon)"
+  \time 6/8 \set Score.tempoHideNote = ##t \tempo 4 = 60 \autoBeamOff
+  g8.^"Contemporary" [(a16)] g8 e4. | g8. [a16] g8 e4. | d'4 d8 b4. | c4 c8 g4. | a4 a8 c8. [b16] a8 | g8. [a16] g8 e4. |
+  a4 a8 c8. [b16] a8 | g8. [a16] g8 e4. | d'4 d8 f8.-&gt; [d16] b8 | c4. (e4) r8 | c8. [(g16)] e8 g8. [f16] d8 | c4.~ c4 r8 \bar "|."
+}
+
+&lt;/score&gt;
+
+==Translations==
+In 1859, the [[Episcopal Church of the United States|Episcopal]] priest [[John Freeman Young]], then serving at [[Trinity Church (Manhattan)|Trinity Church]], New York City, wrote and published the English translation that is most frequently sung today, translated from three of Mohr's original six verses.&lt;ref&gt;Underwood, Byron Edward, "Bishop John Freeman Young, Translator of '{{Lang|de|Stille Nacht|italic=no}}'", ''[[The Hymn (journal)|The Hymn]]'', v. 8, no. 4, October 1957, pp. 123–132.&lt;/ref&gt; The version of the melody that is generally used today is a slow, meditative [[lullaby]] or [[pastorale]], differing slightly (particularly in the final strain) from Gruber's original, which was a "[[Grave (music)|moderato]]" tune in {{music|time|6|8}} [[Time signature|time]] and [[siciliana]] rhythm.&lt;ref&gt;Meredith Ellis Little (2001). [http://oxfordindex.oup.com/view/10.1093/gmo/9781561592630.article.25698 ''Siciliana''] {{Webarchive|url=https://web.archive.org/web/20160419093719/http://oxfordindex.oup.com/view/10.1093/gmo/9781561592630.article.25698 |date=19 April 2016 }}. Grove Music Online. {{ISBN|978-1561592630}}.&lt;/ref&gt;&lt;ref&gt;[[Gerlinde Haid]] (1994). ''Siciliano als Typus weihnachtlicher Volksmusik''. 175 Jahre "Stille Nacht! Heilige Nacht!" (in German), pp. 135–146. Salzburg.&lt;/ref&gt; Today, the lyrics and melody are in the [[public domain]], although newer translations usually are not. 
+
+In 1998, the Silent Night Museum in Salzburg commissioned a new English translation by Bettina Klein of Mohr's German lyrics. For the most part, Klein preserves both Young's translation and the interpretive decisions that inform his word-choices.  Yet Klein also attempts occasionally to restore Mohr's original phrasing, changing, for instance, Young's "Holy infant, so tender and mild" to Mohr's "Holy infant with curly hair" (''Holder Knab' im lockigten Haar'').  However, she continues to interpret Mohr's ''traute heilige Paar'' as referring to Mary and the baby, whereas Mohr's use of the word ''traute'' can mean "espoused," thus suggesting perhaps that the "holy pair" represents Mary and Joseph watching (picking up Mohr's ''wacht'') over the curly-haired infant/boy.&lt;ref&gt;[https://silent-night-museum.org/sounds/lyrics.htm "Silent night! Holy night!"], translated in 1998 by Bettina Klein, Silent Night Museum&lt;/ref&gt;
+
+The carol has been translated into about 300 languages.&lt;ref&gt;Ronald M. Clancy, [[William Studwell|William E. Studwell]]. ''Best-Loved Christmas Carols''. Christmas Classics Ltd, 2000. {{page missing|date=December 2018}}&lt;/ref&gt;
+
+== Lyrics ==
+{{Listen|type=music|image=none|help=no|filename=Silent Night (choral).ogg|title={{anchor|choral}}"Silent Night"|description=Choral version performed by the [[United States Army Band|United States Army Chorus]]
+|filename2=Gruber - Schumann-Heink - Stille Nacht.ogg|title2="Stille Nacht, heilige Nacht"|description2= Solo performed by [[Ernestine Schumann-Heink]]
+|filename3=Silent Night (Kevin MacLeod) (ISRC USUAN1100075).oga|title3="Silent Night"|description3=Instrumental version played on piano by [[Kevin MacLeod]] in 2000}}
+:{|
+!German lyrics&lt;ref&gt;''[[Evangelisches Gesangbuch]]'', hymn [https://www.evangeliums.net/lieder/liederbuch_evangelisches_gesangbuch.html no. 46] {{Webarchive|url=https://web.archive.org/web/20171214183821/https://www.evangeliums.net/lieder/liederbuch_evangelisches_gesangbuch.html |date=14 December 2017 }}; ''[[Gotteslob]]'', hymn [http://gotteslob.katholisch.de/?name=Stille+Nacht&amp;sbid=&amp;thema=&amp;sortdir=ASC no. 249] {{Webarchive|url=https://web.archive.org/web/20171214235927/http://gotteslob.katholisch.de/?name=Stille+Nacht&amp;sbid=&amp;thema=&amp;sortdir=ASC |date=14 December 2017 }} (was 145)&lt;/ref&gt;
+!Young's &lt;!--There are several versions in English, so using this term is required--&gt;English lyrics&lt;ref&gt;{{Cite book|url=http://archive.org/details/greathymn00youn|title=Great hymns of the church|last=Young|first=John Freeman|author-link=John F. Young|date=1887|publisher=New York : James Pott &amp; Co.|others=Princeton Theological Seminary Library}}&lt;/ref&gt;
+|-
+|&lt;poem&gt;{{Lang|de|Stille Nacht, heilige Nacht,
+Alles schläft; einsam wacht
+Nur das traute hochheilige Paar.
+Holder Knabe im lockigen Haar,
+Schlaf in himmlischer Ruh!
+Schlaf in himmlischer Ruh!
+
+Stille Nacht, heilige Nacht,
+Hirten erst kundgemacht
+Durch der Engel Halleluja,
+Tönt es laut von fern und nah:
+Christ, der Retter ist da!
+Christ, der Retter ist da!
+
+Stille Nacht, heilige Nacht,
+Gottes Sohn, o wie lacht
+Lieb' aus deinem göttlichen Mund,
+Da uns schlägt die rettende Stund'.
+Christ, in deiner Geburt!
+Christ, in deiner Geburt!}}&lt;/poem&gt;
+|style="padding-left:2em;"|&lt;poem&gt;Silent night! Holy night!
+All is calm, all is bright
+Round yon virgin mother and child!
+Holy infant, so tender and mild,
+Sleep in heavenly peace!
+Sleep in heavenly peace!
+
+Silent night! Holy night!
+Shepherds quake at the sight!
+Glories stream from heaven afar,
+Heavenly hosts sing ''Alleluia''!
+Christ the Saviour is born!
+Christ the Saviour is born!
+
+Silent night! Holy night!
+Son of God, love's pure light
+Radiant beams from thy holy face
+With the dawn of redeeming grace,
+Jesus, Lord, at thy birth!
+Jesus, Lord, at thy birth!&lt;/poem&gt;
+|}
+
+In the second stanza, some English versions read "shepherds [[wiktionary:quail|quail]]"&lt;ref&gt;{{Cite book |url=https://books.google.com/books?id=fa8zNaAbTy8C |title=Christmas Carols, Hymns, Etc. |publisher=F. Pitman |year=1881 |location=London |pages=69}}&lt;/ref&gt;&lt;ref&gt;{{Cite book |last=Ruffer |first=Tim |url=https://books.google.com/books?id=hWqmDwAAQBAJ |title=Ancient and Modern Words Edition |publisher=Canterbury Press |year=2013 |isbn=978-1-84825-243-1 |location=London |at=#84 Silent night! Holy night!}}&lt;/ref&gt; rather than "shepherds quake."&lt;ref&gt;{{Cite book |url=https://books.google.com/books?id=9kEWAAAAYAAJ |title=The Church Porch: A Service Book and Hymnal for Sunday Schools |publisher=E.P. Dutton &amp; Co |year=1878 |editor-last=Huntington |editor-first=William R. |location=New York |at=#42 Holy Night}}&lt;/ref&gt;
+
+A common fourth verse or alternative third verse&lt;ref&gt;{{cite web |title=Silent Night, Holy Night |url=https://www.hymnsite.com/lyrics/umh239.sht |website=HymnSite.com |access-date=26 December 2024}}&lt;/ref&gt; is:
+&lt;poem&gt;Silent night, holy night,
+wondrous star, lend thy light;
+with the angels let us sing,
+Alleluia to our King;
+Christ the Saviour is born,
+Christ the Saviour is born!&lt;/poem&gt;
+
+== Musical settings ==
+[[File:Chapel2.jpg|thumb|upright|[[Silent-Night-Chapel]] in Oberndorf on the site where the song was first performed.]]
+
+The carol was arranged by various composers, such as [[Carl Reinecke]], [[Gustav Schreck]], [[Eusebius Mandyczewski]], [[Malcolm Sargent]], [[David Willcocks]], [[Charles Mackerras]], [[Philip Ledger]], [[John Rutter]], [[Stephen Cleobury]], [[Jacob de Haan (composer)|Jacob de Haan]] and [[Taylor Scott Davis]].
+
+[[Max Reger]] quotes the tune in the Christmas section of his organ pieces [[Sieben Stücke, Op. 145|''Sieben Stücke'', Op. 145]].
+
+[[Alfred Schnittke]] composed an arrangement of "Stille Nacht" for violin and piano in 1978, as a holiday greeting for violinist [[Gidon Kremer]]. Due to its dissonant and nightmarish character, the miniature caused a scandal in Austria.&lt;ref&gt;{{cite web |url=https://www.bostonglobe.com/arts/music/2014/12/20/with-stille-nacht-schnittke-couched-protest-tradition/UJtywvJv9A1Q4iWxwrNaOJ/story.html |title=With 'Stille Nacht', Schnittke couched protest in tradition |first=Matthew |last=Guerrieri |date=20 December 2014 |access-date=24 December 2017 |work=[[The Boston Globe]] |archive-url=https://web.archive.org/web/20171225035023/https://www.bostonglobe.com/arts/music/2014/12/20/with-stille-nacht-schnittke-couched-protest-tradition/UJtywvJv9A1Q4iWxwrNaOJ/story.html |archive-date=25 December 2017 |url-status=live }}&lt;/ref&gt;&lt;ref&gt;{{cite magazine|url=http://www.therestisnoise.com/2004/05/schnittke_1992.html|title=Connoisseur of Chaos: Schnittke|first=Alex|last=Ross|author-link=Alex Ross (music critic)|magazine=[[The New Republic]]|via=The Rest Is Noise|date=28 September 1992|access-date=24 December 2017|url-status=dead|archive-url=https://web.archive.org/web/20170629121830/http://www.therestisnoise.com/2004/05/schnittke_1992.html|archive-date=29 June 2017}}&lt;/ref&gt;
+
+==In film==
+Several theatrical and television films depict how the song was ostensibly written. Most of them report the organ breaking down at the church in Oberndorf, which appeared in a fictional story published in the U.S. in the 1930s.&lt;ref name=bbc/&gt;
+
+* ''[[The Legend of Silent Night]]'' (1968) TV film directed by [[Daniel Mann]]
+* ''[[Silent Night, Holy Night (1976 film)|Silent Night, Holy Night]]'' (1976) animated short film by [[Hanna-Barbera]].&lt;ref&gt;{{Cite web| title=Silent Night, Holy Night (TV Movie 1976)| publisher=IMDb| date=27 December 2008| access-date=17 February 2017| url=https://www.imdb.com/title/tt1283944/| archive-url=https://web.archive.org/web/20170210161614/http://www.imdb.com/title/tt1283944/| archive-date=10 February 2017|url-status=live| df=dmy-all}}&lt;/ref&gt;
+* ''[[Silent Mouse]]'' (1988) television special directed and produced by Robin Crichton and narrated by [[Lynn Redgrave]].&lt;ref&gt;{{cite web|url=https://www.tcm.com/tcmdb/title/479772/silent-mouse|title=Silent Mouse (1988)|publisher=Turner Classic Movies|access-date=29 November 2015|archive-url=https://web.archive.org/web/20151208055731/http://www.tcm.com/tcmdb/title/479772/Silent-Mouse/|archive-date=8 December 2015|url-status=dead}}&lt;/ref&gt;
+* ''[[Buster &amp; Chauncey's Silent Night]]'' (1998) direct-to-video animated feature&lt;ref&gt;{{cite web|url=http://www.tcm.com/tcmdb/title/412432/Buster-And-Chauncey-s-Silent-Night/|publisher=Turner Classic Movies|title=Buster and Chauncey's Silent Night|access-date=23 November 2016|archive-url=https://web.archive.org/web/20161123201842/http://www.tcm.com/tcmdb/title/412432/Buster-And-Chauncey-s-Silent-Night/|archive-date=23 November 2016|url-status=dead}}&lt;/ref&gt;
+* ''Silent Night'' (2012) directed by [[Christian Vuissa]]&lt;ref&gt;{{cite web |url=https://www.movieguide.org/reviews/silent-night.html |title=''Silent Night'' &amp;#124; Movieguide &amp;#124; Movie Reviews for Christians |date=21 October 2014 |publisher=Movieguide |access-date=17 February 2017 |archive-url=https://web.archive.org/web/20170910174327/https://www.movieguide.org/reviews/silent-night.html |archive-date=10 September 2017 |url-status=live }}&lt;/ref&gt;
+* ''The First Silent Night'' (2014), documentary narrated by [[Simon Callow]]&lt;ref&gt;[http://www.netaonline.org/search/ProgramDetails.aspx?id=4346 ''First Silent Night, The''] {{Webarchive|url=https://web.archive.org/web/20141225172127/http://www.netaonline.org/search/ProgramDetails.aspx?id=4346 |date=25 December 2014 }}, production details&lt;/ref&gt;
+*''Stille Nacht – ein Lied für die Welt'' (2018), music documentary created and directed by [[Hannes M. Schalle]], narrated by [[Peter Simonischek]].&lt;ref&gt;{{Cite web|work=[[Salzburger Nachrichten]]|date=15 December 2018|title=Stille-Nacht-Film feierte im Salzburger 'Das Kino' Premiere|url=https://www.sn.at/salzburg/kultur/stille-nacht-film-feierte-im-salzburger-das-kino-premiere-62582143|access-date=20 December 2020|language=de}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title=Stille Nacht – eine Friedensbotschaft geht um die Welt|url=https://www.austriatourism.com/blog/2018/stille-nacht-eine-friedensbotschaft-geht-um-die-welt/|access-date=20 December 2020|website=Österreich Werbung|language=de-DE}}&lt;/ref&gt; An English version, ''Silent Night – A Song for the World'' (2020), narrated by [[Hugh Bonneville]], was released two years later.&lt;ref&gt;{{Cite web|last=Oganesyan|first=Natalie|date=18 November 2020|title=The Story of 'Silent Night', as Told and Sung by Kelly Clarkson, Josh Groban, Joss Stone and More, Set for CW Special|url=https://variety.com/2020/music/news/silent-night-cw-documentary-hugh-bonneville-kelly-clarkson-katharine-mcphee-joss-stone-1234831569/|access-date=27 November 2020|work=[[Variety (magazine)|Variety]]}}&lt;/ref&gt;&lt;ref&gt;{{IMDb title|tt6045924|Silent Night – A Song for the World|(2018)}}&lt;/ref&gt;
+
+==On record charts==
+Several recordings of "Silent Night" have reached the record charts in various countries. These include:
+*1969–1979: [[Percy Sledge]] {{numero|10}} on the [[Dutch Charts]]&lt;ref&gt;{{cite web|url=https://dutchcharts.nl/showitem.asp?interpret=Percy+Sledge&amp;titel=Silent+Night&amp;cat=s|title=Percy Sledge – Silent Night|website=[[Dutch Charts|Dutchcharts.nl]]|language=Dutch|quote=Piekpositie: 10|access-date=August 22, 2021}}&lt;/ref&gt;
+*1972–1973: Tom Tomson {{Numero|21}} on the Belgium [[Ultratop]] [[Flanders]] chart&lt;ref&gt;{{cite web|url=https://www.ultratop.be/nl/song/100886/Tom-Tomson-Silent-Night|title=Tom Tomson – Silent Night|website=[[Ultratop|Ultratop.be]]|language=Dutch|quote=Piekpositie: 21|access-date=August 22, 2021}}&lt;/ref&gt; and {{Numero|10}} on its [[Wallonia]] chart&lt;ref&gt;{{cite web|url=https://www.ultratop.be/fr/song/100886/Tom-Tomson-Silent-Night|title=Tom Tomson – Silent Night|website=[[Ultratop|Ultratop.be]]|language=French|quote=Top: 10|access-date=August 22, 2021}}&lt;/ref&gt; 
+*1975–1976: [[The Cats (Dutch band)|The Cats]] {{numero|10}} on the [[Dutch Charts]]&lt;ref&gt;{{cite web|url=https://dutchcharts.nl/showitem.asp?interpret=The+Cats&amp;titel=Silent+Night&amp;cat=s|title=The Cats – Silent Night|website=[[Dutch Charts|Dutchcharts.nl]]|language=Dutch|quote=Piekpositie: 21|access-date=August 22, 2021}}&lt;/ref&gt;
+*1987: Argentine post-punk band [[Sumo (band)|Sumo]] cover version is one of the most popular Christmas songs on Spotify Argentina 2025&lt;ref&gt;{{cite web|title=Los jingles navideños más escuchados en Argentina y el impactante récord que rompió el país |url=https://www.lanacion.com.ar/espectaculos/los-jingles-navidenos-mas-escuchados-en-argentina-y-el-impactante-record-que-rompio-el-pais-nid19122025}}/&lt;/ref&gt;
+*1991–1992: [[Sinéad O'Connor]] {{Numero|71}} on the [[Dutch Charts]]&lt;ref&gt;{{cite web|url=https://dutchcharts.nl/showitem.asp?interpret=Sin%E9ad+O%27Connor&amp;titel=Silent+Night&amp;cat=s|title=Sinéad O'Connor – Silent Night|website=[[Dutch Charts|Dutchcharts.nl]]|language=Dutch|quote=Piekpositie: 71|access-date=August 22, 2021}}&lt;/ref&gt;
+*1993: [[Enya]] No. 48 on the [[ARIA Charts|Australian Charts]] with an Irish language version of the song.&lt;ref&gt;{{cite web|url=https://australian-charts.com/showitem.asp?interpret=Enya&amp;titel=O%EDche+chi%FAn+%28Silent+Night%29&amp;cat=s|title=Enya – Oíche Chiúin (Silent Night)|website=australian-charts.com|access-date=14 October 2023}}&lt;/ref&gt;
+*2007–2008: [[Josh Groban]] {{Numero|5}} on the Norwegian Charts&lt;ref&gt;{{cite web|url=https://norwegiancharts.com/showitem.asp?interpret=Josh+Groban&amp;titel=Noche+de+Paz+(Silent+Night)&amp;cat=s|title=Josh Groban – Noche de Paz (Silent Night)|website=Norwegiancharts.com|quote=Peak: 5|access-date=August 22, 2021}}&lt;/ref&gt; and {{Numero|19}} on the U.S. [[Adult Contemporary (chart)|''Billboard'' Adult Contemporary Chart]]&lt;ref&gt;{{cite magazine|url=https://www.billboard.com/artist/josh-groban/chart-history/asi/|title=Chart History: Josh Groban – Adult Contemporary|magazine=[[Billboard (magazine)|Billboard]]|quote=Silent Night{{snd}}Peaked at #19|access-date=August 22, 2021}}&lt;/ref&gt;
+*2008: [[Glasvegas]] {{Numero|42}} on the Swedish Charts&lt;ref&gt;{{cite web|url=https://swedishcharts.com/showitem.asp?interpret=Glasvegas&amp;titel=Silent+Night+(Noapte+de+vis)&amp;cat=s|title=Glasvegas – Silent Night (Noapte de Vis)|website=Swedishcharts.com|quote=Peak: 42|access-date=August 22, 2021}}&lt;/ref&gt;
+*2009: [[Mariah Carey]] {{Numero|67}} on the U.S. [[Digital Song Sales|''Billboard'' Digital Song Sales Chart]]&lt;ref&gt;{{cite magazine|url=https://www.billboard.com/artist/mariah-carey/chart-history/hds/|title=Chart History: Mariah Carey – Digital Song Sales|magazine=[[Billboard (magazine)|Billboard]]|quote=Silent Night{{snd}}Peaked at #67|access-date=August 22, 2021}}&lt;/ref&gt;
+*2010: [[Rene Kirby]] and [[Ryne Sandberg]] in American version of Silent Night (sung by Living Voices) 
+*2011:  [[The Temptations]] {{Numero|27}} on the U.S. [[Holiday 100|''Billboard'' Holiday 100]] chart.&lt;ref&gt;{{cite magazine|url=https://www.billboard.com/artist/the-temptations/chart-history/hsx/|title=The Temptations Chart History: Holiday 100|magazine=[[Billboard (magazine)|Billboard]]|accessdate=December 25, 2025}}&lt;/ref&gt;
+*2013–2014: [[Elvis Presley]] {{Numero|120}} on the French Charts&lt;ref&gt;{{cite web|url=https://lescharts.com/showitem.asp?interpret=Elvis+Presley&amp;titel=Silent+Night&amp;cat=s|title=Elvis Presley – Silent Night (Chanson)|website=Lescharts.com|language=French|quote=Top: 120|access-date=August 22, 2021}}&lt;/ref&gt;
+*2013–2014: [[Nat King Cole]] {{Numero|125}} on the French Charts&lt;ref&gt;{{cite web|url=https://lescharts.com/showitem.asp?interpret=Nat+%22King%22+Cole&amp;titel=Silent+Night&amp;cat=s|title=Nat "King" Cole – Silent Night (Chanson)|website=Lescharts.com|language=French|quote=Top: 125|access-date=August 22, 2021}}&lt;/ref&gt;
+*2017: [[The Temptations]] {{Numero|11}} on the Swedish Heatseeker ([[Sverigetopplistan]]) charts&lt;ref&gt;{{cite web|url=https://www.sverigetopplistan.se/chart/215?dspy=2017&amp;dspp=52|title=Veckolista Heatseeker, vecka 52, 2017|publisher=[[Sverigetopplistan]]|access-date=December 27, 2021}}&lt;/ref&gt;
+
+== See also ==
+* [[List of Christmas carols]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{Wikisource|Silent Night}}
+{{Wikisourcelang|de|Stille Nacht! Heilige Nacht!}}
+* {{Commons category-inline|Silent Night}}
+* [https://www.stillenacht.com/en/history/song-of-peace/ "Song of peace – 'Silent Night' as a message of peace"] {{Webarchive|url=https://web.archive.org/web/20180612143406/https://www.stillenacht.com/en/history/song-of-peace/ |date=12 June 2018 }}
+* [https://www.stillenacht.at/en/text-and-music Translation of all six verses of the German original]
+* Free arrangements for [http://cantorion.org/music/15/Silent+Night piano] and [http://cantorion.org/music/54/Silent+Night voice] from Cantorion.org
+* [https://www.stillenacht.info/en/silent-night/index.asp Silent Night Chapel, origin of song]
+{{Portal bar|Music|Austria}}
+{{Barbra Streisand songs}}
+{{Bing Crosby singles}}
+{{Frank Sinatra singles}}
+{{Authority control}}
+
+[[Category:1818 songs]]
+[[Category:19th-century hymns in German]]
+[[Category:Austrian songs]]
+[[Category:Bing Crosby songs]]
+[[Category:Christmas carols in German]]
+[[Category:Intangible Cultural Heritage of Humanity]]
+[[Category:Public domain music]]
+[[Category:Songs about Jesus]]
+[[Category:Volkslied]]
+[[Category:Frederick William IV of Prussia]]</text>
+      <sha1>r0xck0el43cmhwgtb3y2mh3u4baqs70</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,26 @@
+[
+ {
+  "name": "cyberhymnal-jesus-loves-me.mid",
+  "url": "http://hymntime.com/tch/mid/j/e/s/u/s/l/Jesus_loves_me.mid",
+  "kind": "midi",
+  "bytes": 1836,
+  "sha256": "5b7771c66a731ca674b102ec42424c3ee417a655d3a1f84c0d909e9643c68fb3",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-jesus_loves_me-untitled.abc",
+  "url": "http://openhymnal.org/Abc/Jesus_Loves_Me-untitled.abc",
+  "kind": "abc",
+  "bytes": 5078,
+  "sha256": "b96ef2eba393fd838a3d9616661e9992e95c78e150e6e6064cf8f1940c520e8b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "timelesstruths-jesus-loves-me.musicxml",
+  "url": "https://library.timelesstruths.org/library/music/J/Jesus_Loves_Me/Jesus_Loves_Me.xml",
+  "kind": "musicxml",
+  "bytes": 91281,
+  "sha256": "b173753d1a0eb708fb0a777d19eb8bbf2b8e55d90ae587c9980d3bd5425e0e5a",
+  "fetched": "2026-09-18"
+ }
+]

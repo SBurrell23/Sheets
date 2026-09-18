@@ -1,0 +1,412 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Cwm Rhondda</title>
+    <ns>0</ns>
+    <id>3028530</id>
+    <revision>
+      <id>1373518634</id>
+      <parentid>1371804989</parentid>
+      <timestamp>2026-09-06T12:22:51Z</timestamp>
+      <contributor>
+        <username>~2026-40271-26</username>
+        <id>54827021</id>
+      </contributor>
+      <comment>/* History */</comment>
+      <origin>1373518634</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="22851" sha1="4kjidp75gs8ejgvmw53k6vr3vjxutg9" xml:space="preserve">{{short description|Welsh hymn tune}}
+{{About|the hymn tune and the words most commonly sung to it|the South Wales valley|Rhondda Valley}}
+
+{{Infobox musical composition
+| name                = Cwm Rhondda&lt;br&gt;Guide Me, O Thou Great Redeemer&lt;br&gt;Guide Me, O Thou Great Jehovah
+| type                = 
+| image               = &lt;!-- without leading "File:" --&gt;
+| alt                 = 
+| caption             = 
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = 
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Hymn]]
+| occasion            = 
+| text                = [[William Williams Pantycelyn|William Williams]]
+| language            = 
+| written             =  1907
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Isaiah|chapter=58|verse=11}} 
+| meter               = 8.7.8.7.4.4.7.7
+| melody              = [[John Hughes (1873–1932)|John Hughes]]
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+}}
+[[File:Bread of Heaven - John Owen Jones.ogg|thumb|A modernised version of 'Bread of Heaven', sung by [[John Owen-Jones]]]]
+[[File:Cwm Rhondda - 20 Uchaf Emynau Cymru - The Top 20 Best.ogg|thumb|Traditional version, sung by Cymanfa Treforus]]
+
+'''Cwm Rhondda''' is a popular [[hymn tune]] written by [[John Hughes (1873–1932)]] in 1907. The name is taken from the [[Welsh language|Welsh]] name for the [[Rhondda|Rhondda Valley]].
+
+It is usually used in [[English language|English]] as a setting for [[William Williams Pantycelyn|William Williams]]' text "'''Guide Me, O Thou Great Redeemer'''" (or, in some traditions, "'''Guide Me, O Thou Great Jehovah'''"),&lt;ref&gt;John Richard Watson, ''[https://books.google.com/books?id=p1wlit3HeiQC&amp;pg=PA228 An Annotated Anthology of Hymns]'', Oxford University Press 2002, p. 228. "''[[Hymns Ancient and Modern]]'' and the ''[[English Hymnal]]'' have always printed ''Guide me, O thou great redeemer'', as the first line."&lt;/ref&gt; originally {{lang|cy|Arglwydd, arwain trwy'r anialwch}} ("Lord, lead me through the wilderness") in [[Welsh language|Welsh]]. The tune and hymn are often called "'''Bread of Heaven'''" because of a repeated line in this English translation.
+
+For Welsh hymns, the tune is most commonly used as a setting for {{lang|cy|Wele'n sefyll rhwng y myrtwydd}} ("Lo, between the myrtles standing") by [[Ann Griffiths]], and it was as a setting of this that the tune was first published in 1907.&lt;ref&gt;{{cite web | title=Guide me O thou great Jehovah | url=https://www.hymnologyarchive.com/guide-me-o-thou-great-jehovah }}&lt;/ref&gt;
+
+==Tune==
+It is sometimes said that John Hughes wrote the first version of the tune, which he called "Rhondda", for a [[Cymanfa Ganu]] (hymn festival) in [[Pontypridd]] in 1905, but it is more likely that it was written for a festival there in 1907, when the enthusiasm of the [[1904–1905 Welsh Revival]] still remained.&lt;ref&gt;"Caniadau'r Diwygiad", Noel Gibbard, 2003, {{ISBN|978-1850491958}}&lt;/ref&gt;
+
+The present form was developed for the inauguration of the organ at [[Capel Rhondda]], in [[Hopkinstown]] in the Rhondda Valley, in 1907.&lt;ref&gt;{{Cite news|url=http://news.bbc.co.uk/2/hi/uk_news/wales/2688683.stm|title=Cwm Rhondda chapel's history celebrated|date=January 24, 2003|via=news.bbc.co.uk|access-date=28 April 2020}}&lt;/ref&gt; Hughes himself played the organ at this performance. The name was changed from "Rhondda" to "Cwm Rhondda" by [[Harry Evans (composer)|Harry Evans]], of [[Dowlais]], to avoid confusion with another tune, by M. O. Jones.
+
+The hymn is usually pitched in [[A-flat major]] (or G major in most hymnals) and has the 8.7.8.7.4.4.7.7 [[Meter (hymn)|measure]] which is common in Welsh hymns. The third line repeats the first and the fourth line develops the second. The fifth line normally involves a repeat of the four-syllable text and the sixth reaches a climax on a [[dominant seventh chord]] (bar 12) – emphasised by a rising [[arpeggio]] in the alto and bass parts. The final line continues the musical development of the second and fourth (and generally carries a repeat of the text of the sixth).
+On account of these vigorous characteristics, the tune was resisted for some time in both Welsh and English collections but has long been firmly established.&lt;ref&gt;"Welsh Hymns and their Tunes", Alan Luff, 1990, {{ISBN|0852497997}} pp223-4&lt;/ref&gt;
+
+&lt;score vorbis="1"&gt;
+\new StaffGroup
+&lt;&lt;
+  \new Staff \relative c'
+  { \set Staff.midiInstrument = "church organ" \time 4/2 \key aes \major \tempo 2 = 80 \set Score.tempoHideNote = ##t
+    &lt;&lt;
+      { \voiceOne ees2 f ees2. aes4 | aes (g) aes (bes) c2 bes2 | c aes f des' | c bes aes1 | ees2 f ees2. aes4 | aes (g) aes (bes) c2 bes2 | c2 des ees des4 (bes) | aes2 g aes1 | bes2. c4 des2 bes | c2. des4 ees2 c | ees2. ees4 ees ees ees ees | ees\breve | ees2. des4 c (ees) des (bes) | aes2 g aes1 \bar "|." }
+      \new Voice="Alto"
+      { \voiceTwo c,2 des ees2. ees4 | ees2 ees4 (f) ees2 ees | ees des f f | ees des c1 | c2 des ees2. ees4 | ees2 ees4 (f) ees2 ees | ees2 f ees f | ees ees ees1 | g2. aes4 bes2 ees, | aes2. bes4 c (bes) aes2 | aes2. aes4 g aes ees aes | g2 ees4 g bes1 | aes2. g4 aes2 f | ees ees ees1 }
+    &gt;&gt;
+  }
+  \addlyrics { Guide me, O thou great Re -- dee -- mer, Pil -- grim through this bar -- ren land; I am weak, but thou art migh -- ty; Hold me with thy power -- ful hand: Bread of hea -- ven, bread of hea -- ven Feed me till I want no more. Feed me till I want no more. }
+  \new Staff \relative c
+  { \set Staff.midiInstrument = "church organ" \time 4/2 \key aes \major \clef "bass"
+  &lt;&lt;
+    { \voiceOne aes'2 aes aes2. c4 | c (bes) aes2 aes g | aes aes aes aes | aes g aes1 | aes2 aes aes2. c4 | c (bes) aes2 aes g | aes aes aes aes4 (des) | c2 bes c1 | ees2. c4 bes (aes) g (bes) | ees2. des4 c2 ees | ees2. ees4 des c bes aes | ees'\breve | ees2. ees4 ees (c) aes (des) | c2 bes4 (des) c1 }
+    \new Voice="Bass"
+    { \voiceTwo aes,2 des c bes | aes4 (bes) c (des) ees2 ees | aes f des bes | ees ees aes,1 | aes2 des c bes | aes4 (bes) c (des) ees2 ees | aes f c des | ees2 ees aes,1 | ees'2. ees4 ees (f) g2 | aes2. ees4 aes (bes) c2 | c2. c4 bes aes g f | ees2 g4 bes des1 | c2. bes4 aes2 des, | ees ees aes1 }
+  &gt;&gt;
+}
+&gt;&gt;&lt;/score&gt;
+
+==Hymn text: 'Guide me, O Thou great Redeemer'==
+
+===Present-day===
+
+The following are the English and Welsh versions of the hymn, as given in the standard modern collections, based on a verse in the [[Book of Isaiah]] ({{Sourcetext|source=Bible|version=King James|book=Isaiah|chapter=58|verse=11}}). These English lyrics may also be interpreted as referencing the [[Eucharist]] (specifically as described in the [[Bread of Life Discourse]]) and the [[Holy Spirit]] (the [[Water of Life (Christianity)|Water of Life]]), making it a popular hymn during communion prayer. It is especially popular in Anglican churches, and is particularly associated with the [[Church in Wales]].
+
+{{poemquote|
+Guide me, O thou great Redeemer,
+pilgrim through this barren land;
+I am weak, but thou art mighty;
+hold me with thy powerful hand:
+Bread of heaven,
+feed me 'till I want no more.*
+
+Open now the crystal fountain
+whence the healing stream doth flow;
+let the fire and cloudy pillar
+lead me all my journey through:
+Strong Deliverer,
+be thou still my strength and shield.
+
+When I tread the verge of Jordan,
+bid my anxious fears subside;
+death of death, and hell's destruction
+land me safe on Canaan's side:
+songs of praises
+I will ever give to thee!
+
+* *This line actually means "feed me till I am no longer needy", but in some hymnals, verse 1 line 6 may read as "feed me now and evermore".|''[[Hymns and Psalms]]''&lt;ref&gt;{{cite book
+ | title=[[Hymns and Psalms]]
+ | publisher=Methodist Publishing House
+ | year=1983
+ | isbn=0-946550-01-8}}&lt;/ref&gt;
+}}
+
+{{verse translation|lang=cy|
+Arglwydd, arwain trwy'r anialwch,
+Fi, bererin gwael ei wedd,
+Nad oes ynof nerth na bywyd
+Fel yn gorwedd yn y bedd:
+Hollalluog, Hollalluog,
+Ydyw'r Un a'm cwyd i'r lan.
+Ydyw'r Un a'm cwyd i'r lan
+
+Agor y ffynhonnau melus
+'N tarddu i maes o'r Graig y sydd;
+Colofn dân rho'r nos i'm harwain,
+A rho golofn niwl y dydd;
+Rho i mi fanna, Rho i mi fanna,
+Fel na bwyf yn llwfwrhau.
+Fel na bwyf yn llwfwrhau.
+
+Pan yn troedio glan Iorddonen,
+Par i'm hofnau suddo i gyd;
+Dwg fi drwy y tonnau geirwon
+Draw i Ganaan – gartref clyd:
+Mawl diderfyn. Mawl diderfyn
+Fydd i'th enw byth am hyn.
+Fydd i'th enw byth am hyn.&lt;ref&gt;{{cite web |title=Arglwydd arwain trwy'r anialwch |url=https://hymnary.org/text/arglwydd_arwain_trwyr_anialwch |website=Hymnary.org |language=en}}&lt;/ref&gt;
+|
+Lord, lead me through the wilderness,
+Me, a pilgrim of poor appearance,
+I don't have strength or life in me,
+Like lying in the grave:
+Omnipotent, Omnipotent
+Is the one who brings me to the shore.
+Is the one who brings me to the shore.
+
+Open the sweet fountains
+Flowing from the Rock that is;
+Give a column of fire to lead me at night,
+And give a column of fog during the day.
+Give me manna. Give me manna,
+So that I shall not falter.
+So that I shall not falter.
+
+When I walk the bank of the Jordan,
+Cause all my fears to sink;
+Take me through the roughest waves
+Over to Canaan, a cosy home:
+Unending praise. Unending praise
+Will be to Your name for this.
+Will be to Your name for this.
+}}
+
+The Welsh version shown above is a somewhat literal re-translation from the English version back into Welsh. Earlier versions of the hymn book published jointly by the [[Calvinistic Methodists|Calvinistic]] and [[Wesleyan Methodist Church (Great Britain)|Wesleyan Methodists]] had a version with five verses (i.e. omitting verse two of the six given in the History section below) that was otherwise much closer to Pantycelyn's original Welsh text.
+
+===History===
+[[William Williams Pantycelyn]] (named, in the Welsh style, "Pantycelyn" after the farm which his wife inherited) is generally acknowledged as the greatest Welsh hymnwriter.&lt;ref&gt;'Welsh Hymns and their Tunes', Alan Luff, 1990, {{ISBN|0852497997}} pp102-3&lt;/ref&gt;  The Welsh original of this hymn was first published as Hymn 10 in {{lang|cy|Mor o Wydr}} (Sea of Glass) in 1762. It comprised six verses.&lt;ref name="Thickens"&gt;'Emynau a'u Hawduriaid', John Thickens, 1927, Llyfrfa'r Methodistiaid Calvinaidd&lt;/ref&gt; (References to a five verse version in Pantycelyn's ''Alleluia'' of 1745&lt;ref&gt;{{cite web
+ | title=Evangelical Lutheran Hymnary Handbook
+ | url=https://www.blc.edu/comm/gargy/gargy1/ELH.Hymn.info.GHI.html
+ | access-date=2008-06-10
+}}&lt;/ref&gt; appear to be incorrect.) It was originally titled {{lang|cy|Gweddi am Nerth i fyned trwy anialwch y Byd}} (Prayer for strength for the journey through the world's wilderness).
+
+[[Peter Williams (Welsh Methodist)|Peter Williams]] (1722–1796){{efn|Peter Williams was no relation of the author but was well known for his popular edition of the [[Bible translations into Welsh|Welsh Bible]], with notes&lt;ref name="Thickens"/&gt;&lt;ref&gt;'Peter Williams – abridged history', J Douglas Davies, Llandyfaelog, published privately&lt;/ref&gt;}} translated the hymn which was published in ''Hymns on various subjects'', 1771, with the title ''Prayer for Strength''. This translation is the only Welsh hymn to have gained widespread circulation in the English-speaking world.&lt;ref&gt;'Welsh Hymns and their Tunes', Alan Luff, 1990, {{ISBN|0852497997}} p130&lt;/ref&gt; The present-day Welsh version, given above, is essentially a redaction of the original to parallel Peter Williams's English version. A result of the translation process is that the now-familiar phrase "Bread of heaven" does not actually occur in the original; it is a paraphrase of the references to [[manna]].
+
+The Welsh word {{lang|cy|Arglwydd}} corresponds to the English ''Lord''. Peter Williams used [[Jehovah]] in his translation of the lyrics. Although some English-language hymnals today have replaced "Jehovah" with "Redeemer", it's common to see the hymn with the original English translation that includes the Divine Name.
+
+The following version of the original is taken from ''Gwaith Pantycelyn'' (The Works of Pantycelyn).&lt;ref&gt;'Gwaith Pantycelyn', Gomer M Roberts, 1960, Gwasg Aberystwyth&lt;/ref&gt; All but the second verse is given, with minor variations, in the Welsh Hymnbook of the [[Presbyterian Church of Wales|Calvinist]] and [[Wesleyan Methodist Church (Great Britain)|Wesleyan Methodists]], published by the assemblies of the two churches. (The variations are mainly to update the language, e.g. in verse 1 {{lang|cy|ynwyf}} (elided to {{lang|cy|ynwy'}}), meaning "in [me]", has become {{lang|cy|ynof}} in more modern Welsh.)
+ 
+{{verse translation|lang=cy|
+Arglwydd, arwain trwy'r anialwch 
+Fi, bererin gwael ei wedd, 
+Nad oes ynwy' nerth na bywyd 
+Fel yn gorwedd yn y bedd: 
+Hollalluog
+Ydyw'r Un a'm cwyd i'r lan.
+
+Myfi grwydrais hir flynyddau, 
+Ac heb weled codi'r wawr; 
+Anobaithiais, heb dy allu, 
+Ddod o'r anial dir yn awr; 
+Dere dy hunan
+Dyna'r pryd y dof i maes.
+
+Rho'r golofn dannos i'm harwain, 
+A'r golofn niwl y dydd; 
+Dal fi pan bwy'n teithio'r mannau 
+Geirwon yn fy ffordd y sydd: 
+Rho i mi fanna
+Fel na bwyf i lwfwrhau.
+
+Agor y ffynhonnau melys 
+Sydd yn tarddu o'r graig i maes; 
+'R hyd yr anial mawr canlyned
+Afon iechydwriaeth gras:
+Rho imi hynny,
+Dim imi ond dy fwynhau.
+
+Pan fwy'n myned trwy'r Iorddonen - 
+Angau creulon yn ei rym - 
+Ti est trwyddi gynt dy Hunan, 
+Pam yr ofnaf bellach ddim? 
+Buddugoliaeth!
+Gwna imi weiddi yn y llif.
+
+Mi ymddirieda' yn dy allu, 
+Mawr yw'r gwaith a wnest erioed: 
+Ti gest angau, ti gest uffern, 
+Ti gest Satan dan dy droed: 
+Pen Calfaria,
+Nac aed hwnw byth o'm cof.
+|
+Lord, guide me through the wilderness,
+A pilgrim weak of aspect,
+There is neither strength nor life in me,
+As though lying in the grave,
+[but] Almighty,
+It is Thou who shalt take me to that shore.
+
+I wandered for long years,
+And saw not the break of dawn;
+I despaired, without Thy strength,
+Ever to leave the desert land;
+Do Thou grant,
+The occasion to escape.
+
+Give Thou a pillar of fire to lead me in the night,
+And a pillar of mist in the day,
+Hold me when I travel places
+Which are rough on the way,
+Give me manna,
+Thus shall I not despair.
+
+Open the sweet springs
+Which gush forth from the rock,
+All across the great wilderness
+May a river of healing grace follow:
+Give this to me
+Not for me but for Thy sake.
+
+When I go through Jordan –
+Cruel death in its force –
+Thou Thyself suffered this before,
+Why shall I fear further?
+Victory!
+Let me cry out in the torrent.
+
+I shall trust in Thy power,
+Great is the work that Thou hast always done,
+Thou conquered death, Thou conquered hell,
+Thou hast crushed Satan beneath Thy feet,
+Hill of Calvary,
+This shall never escape from my memory.
+}}
+
+===Meanings===
+The hymn describes the experience of God's people in their travel through the [[wilderness]] from the escape from slavery in Egypt (Exodus 12–14),&lt;ref&gt;{{bibleverse|Exodus|12–14}}&lt;/ref&gt; being guided by a cloud by day and a fire by night (Exodus 13:17–22)&lt;ref&gt;{{bibleverse|Exodus|13:17–22}}&lt;/ref&gt; to their final arrival forty years later in the land of [[Canaan]] (Joshua 3).&lt;ref&gt;{{bibleverse|Joshua|3}}&lt;/ref&gt; During this time their needs were supplied by God, including the daily supply of [[manna]] (Exodus 16).&lt;ref&gt;{{bibleverse|Exodus|16}}&lt;/ref&gt;
+
+The hymn text forms an allegory for the journey of a Christian throughout their life on earth (described as a "barren land") requiring the Redeemer's guidance and provision; specifically, provision through the Eucharist ("bread of heaven", see John 6:22-71) and the Holy Spirit (described as a "healing stream" after John 7:38). The hymn closes triumphantly, ending with the Christian passing through death ("verge of Jordan", a common metaphor for death,) and, through Christ's ultimate victory ("death of death and hell's destruction"), being brought up at last to Heaven ("Canaan's side").
+
+===Instances of use===
+The hymn has been sung on various British state occasions, such as the funerals of [[Diana, Princess of Wales]] and [[Queen Elizabeth The Queen Mother]], and the weddings of [[wedding of Prince William and Catherine Middleton|Prince William and Catherine Middleton]] and [[wedding of Prince Harry and Meghan Markle|Prince Harry and Meghan Markle]], and also the service of reflection for [[Queen Elizabeth II]] in Wales at 2022.&lt;ref&gt;{{cite web
+ | title=The Funeral Service of Diana, Princess Wales
+ | url=http://www.bbc.co.uk/politics97/diana/order.html
+ | publisher=BBC
+ | access-date=2008-06-10
+}}&lt;/ref&gt;&lt;ref&gt;{{cite news
+ | title=She was strength, dignity and laughter
+ | url=http://news.bbc.co.uk/1/hi/uk/1918557.stm
+ | publisher=BBC
+ | date=2002-04-09
+ | access-date=2008-06-10
+}}&lt;/ref&gt;
+
+The hymn is also featured prominently in the [[soundtrack]] to the 1941 film ''[[How Green Was My Valley (film)|How Green Was My Valley]]'', directed by [[John Ford]], using the version given in "History" above. The soundtrack, by [[Alfred Newman (composer)|Alfred Newman]], won that year's [[Academy Award for Original Music Score]]. It is also featured at the beginning of [[The African Queen (film)|''The African Queen'']], with [[Katharine Hepburn]] singing and playing the organ.&lt;ref&gt;{{cite web|title=Soundtracks for The African Queen |url=https://www.imdb.com/title/tt0043265/soundtrack|work=IMDB|access-date=2011-08-14}}&lt;/ref&gt; [[Only Men Aloud!]] also sang an arrangement by [[Tim Rhys-Evans]] and Jeffrey Howard on the BBC 1 Show ''[[Last Choir Standing]]'' in 2008. They subsequently released it on their self-titled début album.
+
+The hymn was the informal anthem of [[Wales]] in the "Green and Pleasant Land" section of the [[2012 Summer Olympics opening ceremony]]. The hymn is also used by freemasons of the [[United Grand Lodge of England]].
+
+The BBC sitcom ''[[One Foot in the Grave]]'' used the song in the episode "The Beast In The Cage". The lyrics were altered to be about the main character, [[Victor Meldrew]].
+
+==Hymn text: {{lang|cy|'Wele'n sefyll rhwng y myrtwydd'}}==
+
+Despite the history of the tune and its common English text, the usual tune-words pairing in Welsh is quite different. {{lang|cy|Arglwydd, arwain...}} is usually sung to the tune {{lang|cy|Capel y Ddôl}}&lt;ref&gt;'Caneuon Ffydd', 2001, {{ISBN|1903754011}}, Hymn 702, Tune 576&lt;/ref&gt; and {{lang|cy|Cwm Rhondda}} is the setting for the hymn {{lang|cy|Wele'n Sefyll Rwng y Myrtwydd}} by [[Ann Griffiths]]:
+
+{{Verse translation|lang=cy|
+Wele'n sefyll rhwng y myrtwydd
+Wrthrych teilwng o fy mryd;
+Er o'r braidd 'rwy'n Ei adnabod
+Ef uwchlaw gwrthrychau'r byd:
+Henffych fore
+Caf ei weled fel y mae.
+
+[[Rose of Sharon|Rhosyn Saron]] yw Ei enw,
+Gwyn a gwridog, hardd Ei bryd!
+Ar ddeng mil y mae'n rhagori
+O wrthddrychau penna'r byd;
+Ffrind pechadur,
+Dyma'r llywydd ar y môr.
+
+Beth sydd imi mwy a wnelwyf
+Ag eilunod gwael y llawr?
+Tystio 'r wyf nad yw eu cwmni
+I'w gymharu a'm [[Iesu]] Mawr.
+O, am aros
+Yn Ei gariad ddyddiau f'oes!
+|Lo, between the myrtles standing,
+Christ, the One my soul doth praise;
+though in part, I know His glory
+high above all earthly grace.
+In the morning,
+may I see his smiling face.
+
+Rose of Sharon is His title,
+bright and glorious, fair to see;
+over tens of thousands shining,
+far above all treasures, He.
+Friend of sinners,
+pilot on life’s stormy sea.
+
+What have I to do henceforward
+with vain idols I won’t love?
+I will testify that nothing
+can compare with Christ above.
+May he keep me
+all my lifetime in His love.
+}}
+
+==Other English hymn texts==
+
+Some hymnals use this tune for the hymn "God of Grace and God of Glory" written by [[Harry Emerson Fosdick]] in 1930.
+
+Others use it for "Full salvation! Full salvation! Lo, the fountain opened wide" by Francis Bottome (1823–1894).
+
+==Legacy==
+In 2007 a plaque was unveiled at Capel Rhondda in Hopkinstown, Pontypridd, to celebrate the centenary of the hymn's composition. At the ceremony the Reverend Phil Rickards recalled that Hopkinstown was the site of the song's first public performance.&lt;ref&gt;{{Cite web|url=https://www.walesonline.co.uk/news/local-news/hundred-years-cwm-rhondda-2219311|title=A hundred years of Cwm Rhondda|date=November 22, 2007|website=walesonline}}&lt;/ref&gt; A service celebrating the centenary was also held at John Hughes' burial place, Salem Baptist Chapel in nearby [[Tonteg]].&lt;ref&gt;{{Cite news|url=http://news.bbc.co.uk/2/hi/uk_news/wales/south_east/6755783.stm|title=Cwm Rhondda's composer remembered|date=June 15, 2007|via=news.bbc.co.uk|access-date=28 April 2020}}&lt;/ref&gt;
+
+===Rugby===
+Apart from church use, probably its best known use is as the 'Welsh Rugby Hymn', often sung by the crowd at [[Rugby Union|rugby]] matches, especially those of the [[Wales national rugby union team]]. There it is common for many voices to repeat of the last three [[syllables]] of the penultimate line of each verse ("want no more", "strength and shield" and "give to thee") to a rising arpeggio, which in church use is only sung in the alto and bass parts if at all.&lt;ref&gt;{{cite book |last1=Gauge |first1=Steven |title=The Joy of Rugby. |date=2014 |publisher=Summersdale Publishers Ltd |location=Chichester |isbn=9781783722372 |page=126 |url=https://books.google.com/books?id=JmD0CQAAQBAJ&amp;pg=PA126}}&lt;/ref&gt;&lt;ref&gt;{{cite book |last1=Gauge |first1=Steven |title=For the Love of Rugby |date=2017 |publisher=Summersdale |location=Chichester |isbn=9781786851154 |page=72 |url=https://books.google.com/books?id=H65IDgAAQBAJ&amp;pg=PT72}}&lt;/ref&gt;&lt;ref&gt;{{cite web |title=Cwm Rhondda |url=https://hymnary.org/tune/cwm_rhondda_hughes |website=Hymnary.org |access-date=2 October 2021 |quote=The altos and basses may wish to sing the little notes on the last line as they repeat the words "evermore," "strength and shield," and "sing to you."}}&lt;/ref&gt;
+
+===Football===
+From the second half of the 20th century, English and Scottish football fans used often to sing a song based on this tune using the words "We'll support you evermore", which in turn led to many different versions being adapted. {{As of|2016}}, the variation "[[You're Not Singing Any More]]" when taunting the fans of opposing teams who are losing remains extremely popular.{{citation needed|date=October 2019}}
+
+== Notes ==
+{{notelist}}
+
+==References==
+{{reflist}}
+
+==External links==
+* Free [http://cantorion.org/music/632/Cwm%20Rhondda typeset sheet music] for SATB (voice), from ''Cantorion.org''
+*[https://www.mutopiaproject.org/cgibin/make-table.cgi?searchingfor=Cwm+Rhondda Free score] at the [[Mutopia Project]]
+*[https://www.youtube.com/watch?v=schQZY3QjCw&amp;t=4160s "Guide Me, O Thou Great Redeemer"] sung by the [[Westminster Abbey Choir]] and the [[Chapel Royal|Choristers of the Chapel Royal]]
+
+{{Wales national rugby union team}}
+[[Category:1907 songs]]
+[[Category:Welsh Christian hymns]]
+[[Category:Hymn tunes]]
+[[Category:Welsh patriotic songs]]
+[[Category:Works based on the Book of Isaiah]]</text>
+      <sha1>4kjidp75gs8ejgvmw53k6vr3vjxutg9</sha1>
+    </revision>
+  </page>
+</mediawiki>

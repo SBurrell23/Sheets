@@ -1,0 +1,508 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ein feste Burg ist unser Gott, BWV 80</title>
+    <ns>0</ns>
+    <id>12340223</id>
+    <revision>
+      <id>1355752242</id>
+      <parentid>1340434333</parentid>
+      <timestamp>2026-05-23T18:42:17Z</timestamp>
+      <contributor>
+        <username>Rlendog</username>
+        <id>4057701</id>
+      </contributor>
+      <comment>added [[Category:Libretti by Salomon Franck]] using [[WP:HC|HotCat]]</comment>
+      <origin>1355752242</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="31909" sha1="diz4onqezufd9xkm7vj3606zvgpdo7y" xml:space="preserve">{{Short description|Chorale cantata by J.S. Bach}}
+{{good article}}
+{{Infobox Bach composition
+| name                 = {{lang|de|Ein feste Burg ist unser Gott}}
+| bwv                   = 80
+| type                  = [[Chorale cantata (Bach)|Chorale cantata]]
+| image                 = Church Music window.jpg
+| image_upright         = 1.4
+| caption               = Stained glass of Bach receiving inspiration from Luther (right pane)
+| occasion              = [[Reformation Day]]
+| movements             = eight
+| text_poet             = [[Salomon Franck]]
+| chorale               = {{based on|"{{langr|de|[[Ein feste Burg ist unser Gott]]}}"|[[Martin Luther]]}}
+| vocal                 = [[SATB|{{abbr|SATB|soprano, alto, tenor and bass}}]] choir and solo
+| instrumental          = {{hlist | 3 oboes | 2 oboes d'amore | oboe da caccia | strings | continuo }}
+}}
+'''{{lang|de|Ein feste Burg ist unser Gott}}''' (''A Mighty Fortress Is Our God''), [[BWV]]&amp;nbsp;80 (also: BWV&amp;nbsp;80.3),{{sfn|Bach Digital 1|2016}} is a [[chorale cantata]] for [[Reformation Day]] by [[Johann Sebastian Bach]]. He reworked it from one of [[Weimar cantata (Bach)|his Weimar cantatas]], [[Alles, was von Gott geboren, BWV 80a|''Alles, was von Gott geboren'', BWV 80a]] (also: BWV&amp;nbsp;80.1).{{sfn|Bach Digital 2|2016}} The first [[Leipzig]] version of the [[church cantata]], BWV&amp;nbsp;80b (also: BWV&amp;nbsp;80.2),{{sfn|Bach Digital 3|2016}} may have been composed as early as 1723, some five months after Bach had moved to Leipzig. Some years later he reworked the cantata one more time, writing an extended [[chorale fantasia]] as its opening [[Movement (music)|movement]]. The text of the BWV&amp;nbsp;80a version was written by [[Salomon Franck]] and contained one stanza of [[Martin Luther]]'s [[hymn]] "[[Ein feste Burg ist unser Gott]]"; for [[Chorale cantata (Bach)|his chorale cantata]] versions, BWV&amp;nbsp;80b and 80, Bach added the complete text of this [[Lutheran hymn]].
+
+Bach scored the cantata for four vocal soloists, a [[SATB|four-part choir]] and a [[Baroque instruments|Baroque chamber ensemble]] of up to three [[oboe]]s of different kinds, strings and continuo. After his death, his son [[Wilhelm Friedemann Bach]] arranged the first and fifth movements, adopting a new text and adding trumpets and timpani.
+
+{{lang|de|Ein feste Burg ist unser Gott}} was published in 1821, the first of Bach's cantatas published after his death. The [[Bach Gesellschaft]] edition appeared half a century later, and included an extended instrumentation by [[Wilhelm Friedemann Bach|Wilhelm Friedemann]].
+
+== History, hymn and compositions ==
+Bach wrote the cantata in Leipzig for [[List of church cantatas by liturgical occasion#Reformation Day (31 October)|Reformation Day]], celebrated annually on 31 October.{{sfn|Dürr|2006|p=707}} In composing this work, Bach reused an earlier cantata, [[Alles, was von Gott geboren, BWV 80a|''Alles, was von Gott geboren'', BWV 80a]], which he wrote in [[Weimar]] for the third Sunday in [[Lent]] and based on a text published in 1715 by [[Salomon Franck]].{{sfn|Bach Digital 2|2016}}{{sfn|Dürr|2006|p=709}} This work, on which the Leipzig versions were based, was one of a few in which Bach quoted the same hymn twice, in a closing chorale and in an instrumental [[cantus firmus]] in the opening movement.{{sfn|Dürr|2006|p=20}} In BWV 80a, he used the second stanza of Luther's hymn "Ein feste Burg ist unser Gott" ("[[A Mighty Fortress Is Our God]]"), which is "Mit unser Macht ist nichts getan" (With our might nothing is done),{{sfn|Dürr|2006|p=257}} for the closing chorale.{{sfn|Dürr|2006|p=255}} Bach could not use the earlier work at its intended time in Leipzig, because cantata music was prohibited there during Lent.{{sfn|Dürr|2006|p=709}}
+
+The hymn "Ein feste Burg ist unser Gott" was written by Luther in the late 1520s and became a symbol of the [[Reformation]], adapted in compositions through the centuries, such as in Mendelssohn's ''[[Reformation Symphony]]'', Meyerbeer's opera ''[[Les Huguenots]]'',&lt;ref&gt;{{cite web |title=Tracing Martin Luther's great hymn through musical history |publisher= [[Gramophone (magazine)|Gramophone]] |date=November 29, 2017 |language=en |url= https://www.gramophone.co.uk/features/article/playlist-influential-ein-feste-burg }}&lt;/ref&gt; and Debussy's ''[[En blanc et noir]]''.&lt;ref name="Laki"&gt;{{cite web | last = Laki | first = Peter | url = https://www.kennedy-center.org/artist/composition/5401 | title = En Blanc et Noir / About the Work | website = [[Kennedy Center]] | access-date = 7 November 2019 }}&lt;/ref&gt;
+
+The early Leipzig version (BWV 80b) began with a simple chorale setting of the hymn as the opening [[Movement (music)|movement]].{{sfn|Wolff|1991|p=155}}{{sfn|Bach Digital 3|2016}} This is the only version of the cantata for which autograph pages have survived. The surviving fragments are the only evidence of the BWV 80b version and give a very incomplete picture of it; they ended up in three libraries in two continents &amp;ndash; the [[Polish Library in Paris|Bibliothèque Polonaise de Paris]], the [[National Library of Russia|Rossijskaja nacional'naja biblioteka]] in [[Saint Petersburg]], and the [[Princeton University]] Library in New Jersey.&lt;ref name="BWV80b"&gt;Work {{BDW|0101}} (17/6/2017), and subsequent manuscript pages [https://www.bach-digital.de/receive/BachDigitalSource_source_00003630 F-Ppo A. Mickiewicz Rkp. 973] (23/6/2017), [https://www.bach-digital.de/receive/BachDigitalSource_source_00004042 RUS-SPsc BWV 80b] (26/7/2017) and [https://www.bach-digital.de/receive/BachDigitalSource_source_00004338 US-PRscheide BWV 80b] (19/7/2017), at [[Bach Digital]] website&lt;/ref&gt; It is not certain when Bach wrote this version of the cantata. Two fragments are on paper with 1723 watermarks, leading musicologists like [[Christoph Wolff]] to conclude that Bach may have written a version of ''Ein feste Burg ist unser Gott'' as part of his [[Bach's first cantata cycle|first cantata cycle]].{{sfn|Wolff|1991|p=155}} [[Alfred Dürr]] proposes a time frame of 1728 to 1731 for its initial composition.{{sfn|Dürr|2006|p=709}}
+
+The 80b version may have already contained all four stanzas of Luther's hymn.{{sfn|Wolff|1991|p=157}} The first stanza appears in the new first movement, the second is a cantus firmus in the second movement (the first movement of the Weimar cantata), and the other two may have been used in the fifth and eighth movements; both of these were chorale settings, as in the later Leipzig version (80.3).{{sfn|Wolff|1991|p=157}}{{sfn|Dürr|2006|pp=709–710}} Wolff writes that Bach thus "may have anticipated the composition of the later [[Bach's chorale cantata cycle|series of chorale cantatas]]".{{sfn|Wolff|1991|p=157}}
+
+It is not known when Bach composed the elaborate opening movement of the final version. Dürr suggests 1735, because in that year Bach wrote [[Wär Gott nicht mit uns diese Zeit, BWV 14|''Wär Gott nicht mit uns diese Zeit'', BWV 14]], which had an opening chorus of a comparable structure and was also based on a hymn by Luther.{{sfn|Dürr|2006|p=709}} The final version includes all stanzas of the hymn{{sfn|Dürr|2006|pp=709–710}} but is nonetheless not in the format of Bach's second cantata cycle begun in 1724; in that [[chorale cantata cycle]], each cantata relies exclusively on one Lutheran hymn.
+
+Bach's son [[Wilhelm Friedemann Bach]], who inherited the scores, later adapted the first and fifth movements, adding parts for three trumpets and timpani.{{sfn|Dürr|2006|p=707}}
+
+== Music ==
+=== Structure and scoring ===
+In the later Leipzig version (80.3), Bach structured the cantata in eight movements. He scored it for four vocal soloists (soprano (S), [[alto]] (A), [[tenor]] (T) and [[Bass (voice type)|bass]] (B)) joined by a [[SATB|four-part choir]] (SATB) alongside a [[Baroque instruments|Baroque chamber ensemble]] of three [[oboe]]s (Ob), two [[oboe d'amore|oboes d'amore]] (Oa), [[oboe da caccia|oboes da caccia]] or [[Taille (instrument)|taille]] (Ta), two [[violin]]s (Vl), [[viola]] (Va), [[cello]] (Vc), and various instruments playing the [[basso continuo]] line.{{sfn|Bischof|2010}}{{sfn|Bach Digital 1|2016}} The duration is given as 30 minutes by Dürr.{{sfn|Dürr|2006|p=707}}
+
+In the following table of the movements, the first column shows the movement number in BWV 80, with the corresponding number in BWV 80a shown in brackets. The scoring and [[Key (music)|keys]] are given for the late Leipzig version (80.3). The keys and [[time signature]]s are taken from Dürr, using the {{music|common-time|size=8px}} symbol for common time ({{music|time|4|4}}).{{sfn|Bischof|2010}}{{sfn|Dürr|2006|pp=707–709}} The instruments are shown separately for winds and strings, while the basso continuo, playing throughout, is not shown. In the first movement, there are two basso continuo lines – the first played by a cello and [[harpsichord]], and the second by a violone and organ.&lt;ref name=":0"&gt;{{cite book|last1=Winterson|first1=Julia|title=Edecel AS/A level Anthology of Music|date=2016|publisher=Pearson Education Ltd, Peters Edition Ltd and Faber Music Ltd|location=London|isbn=9781292118369|pages=10–35}}&lt;/ref&gt;
+
+{{Classical movement header | show_text_source = yes | work = ''Ein feste Burg ist unser Gott'', BWV 80 | instruments1 = Winds | instruments2 = Strings }}
+{{Classical movement row
+| number = [[#1|1]]
+| title = {{langr|de|Ein feste Burg ist unser Gott}}
+| text_source = Luther
+| type = Chorale fantasia
+| vocal = SATB
+| instruments1 = 3Ob (unis.)
+| instruments2 = 2Vl Va
+| key = {{nowrap|[[D major]]}}
+| time = {{music|common-time|size=8px}}
+}}
+{{Classical movement row
+| number = [[#2|2]] (1)
+| title = {{langr|de|Alles, was von Gott geboren}}&lt;br /&gt;{{langr|de|Mit unser Macht ist nichts getan}}
+| text_source = Franck&lt;br /&gt;Luther
+| type = Aria e chorale
+| vocal = B S
+| instruments1 = Ob
+| instruments2 = 2Vl Va (unis.)
+| key = D major
+| time = {{music|common-time|size=8px}}
+}}
+{{Classical movement row
+| number = [[#3|3]] (2)
+| title = {{langr|de|Erwäge doch, Kind Gottes}}
+| text_source = Franck
+| type = Recitative
+| vocal = B
+| instruments1 =
+| instruments2 =
+| key =
+| time = {{music|common-time|size=8px}}
+}}
+{{Classical movement row
+| number = [[#4|4]] (3)
+| title = {{langr|de|Komm in mein Herzenshaus}}
+| text_source = Franck
+| type = Aria
+| vocal = S
+| instruments1 =
+| instruments2 =
+| key = [[B minor]]
+| time = {{music|time|12|8|size=10px}}
+}}
+{{Classical movement row
+| number = [[#5|5]]
+| title = {{langr|de|Und wenn die Welt voll Teufel wär}}
+| text_source = Luther
+| type = Chorale
+| vocal = SATB
+| instruments1 = 2Oa Ta
+| instruments2 = 2Vl Va
+| key = D major
+| time = {{music|time|6|8|size=8px}}
+}}
+{{Classical movement row
+| number = [[#6|6]] (4)
+| title = {{langr|de|So stehe dann bei Christi blutgefärbter Fahne}}
+| text_source = Franck
+| type = Recitative
+| vocal = T
+| instruments1 =
+| instruments2 =
+| key =
+| time = {{music|common-time|size=8px}}
+}}
+{{Classical movement row
+| number = [[#7|7]] (5)
+| title = {{langr|de|Wie selig sind doch die, die Gott im Munde tragen}}
+| text_source = Franck
+| type = Aria duetto
+| vocal = A T
+| instruments1 = Ta
+| instruments2 = Vl
+| key = [[G major]]
+| time = {{music|time|6|8|size=8px}}
+}}
+{{Classical movement row
+| number = [[#8|8]] (6)
+| title = {{langr|de|Das Wort sie sollen lassen stahn}}
+| text_source = Luther
+| type = Chorale
+| vocal = SATB
+| instruments1 = 2Oa Ta
+| instruments2 = 2Vl Va
+| key = D major
+| time = {{music|common-time|size=8px}}
+}}
+{{End}}
+
+=== Movements ===
+[[File:Luther's Ein Feste Burg.jpg|thumb|upright=1.4|Luther's hymn]]
+{{anchor|1}}
+
+==== Chorale fantasia ====
+The cantata opens with a [[chorale fantasia]] "with contrapuntal devices of awe-inspiring complexity".{{sfn|Mincham|2010}} The movement in [[D major]] and common time elaborates on the first stanza of the hymn "{{lang|de|Ein feste Burg ist unser Gott|italic=unset}}" ("A Mighty Fortress Is Our God"). It adopts a [[motet]] technique of having the instrumental and vocal lines follow each other closely. The Bach scholar [[Klaus Hofmann]] noted that the style relates to the "vocal polyphony of the sixteenth century" when the Luther hymn was written.{{sfn|Hofmann|2005}} Structurally, the movement repeats the first two phrases, adds four new shorter phrases, then concludes with another iteration of the second phrase, all performed on oboe. All four voices "discuss each phrase imitatively as a prelude to its instrumental entry" using [[fugue (music)|fugal]] devices.{{sfn|Mincham|2010}} The chorale also makes use of the cantus firmus, which is exclusively played in the basso continuo and oboe lines (in the movement's original form).&lt;ref name=":0" /&gt;
+
+{{anchor|2}}
+
+==== Aria e chorale ====
+[[File:Ein Feste Burg 2.png|thumb|upright=1.5|Beginning of the obbligato oboe and soprano parts during the hymn's second stanza]]
+The second movement combines an [[aria]] and an embellished version of the chorale melody.{{sfn|Jones|2007|p=275}} The bass sings the free poetry in the first [[stanza]] of the hymn, "{{langr|de|Alles, was von Gott geboren}}" (Everything that is born of God),{{sfn|Dellal|2012}} while the oboe and soprano perform the second stanza, "{{langr|de|Mit unser Macht ist nichts getan}}" (Nothing can be done through our strength).{{sfn|Dellal|2012}} Like the first movement, the duet is in D major and common time.{{sfn|Traupman-Carr|2013}} The musicologist [[Richard D. P. Jones]] interpreted the theme of the [[ritornello]], played in [[unison]] by the strings, as a motto of victory corresponding to the two mentions of victory in the text.{{sfn|Jones|2007|p=275}} In the Weimar version, the instrumental quotation of the tune, used as the closing chorale, provided a structural unity to the cantata. Jones compared the "extremely florid"{{sfn|Jones|2007|p=275}} rendition of the tune, given to the soprano in both Leipzig versions (80.2 and 80.3), to the similar approach in the chorale played by the oboe d'amore in [[Erschallet, ihr Lieder, erklinget, ihr Saiten! BWV 172#5|movement 5]] of the Weimar cantata for [[Pentecost]], {{lang|de|[[Erschallet, ihr Lieder, erklinget, ihr Saiten! BWV 172|''Erschallet, ihr Lieder'', BWV 172]]|italic=unset}}.{{sfn|Jones|2007|p=275}}
+
+{{anchor|3}}
+
+==== Bass recitative ====
+The bass next sings "{{langr|de|Erwäge doch, Kind Gottes}}" (Only consider, child of God){{sfn|Dellal|2012}} as a [[Glossary of musical terminology#secco|secco]] recitative ending in an [[arioso]], the typical style of recitatives during the Weimar period.{{sfn|Jones|2007|p=275}} It adopts [[Canon (music)|canonic imitation]] between the voice and continuo parts.{{sfn|Smith|2013}} The interaction illustrates the unity of Christians with Jesus reflected in the fragment: "dass Christi Geist mit dir sich fest verbinde" (that the spirit of Christ may be firmly united with you).{{sfn|Jones|2007|p=275}} The mystical element of this unity, which is also exemplified in the subsequent aria and the later duet, contrasts with the "combative" character of the outer movements, where the hymn tune prevails.{{sfn|Jones|2007|p=275}}
+
+{{anchor|4}}
+
+==== Soprano aria ====
+The fourth movement, "{{langr|de|Komm in mein Herzenshaus}}" (Come into my heart's house){{sfn|Dellal|2012}} is a soprano aria with a continuo ritornello. It is characterized by extensive [[melisma]]s and a "floating and ethereal" melody.{{sfn|Mincham|2010}}{{sfn|Smith|2013}} The soprano also sings the continuo melody.{{sfn|Jones|2007|p=275}}
+
+{{anchor|5}}
+
+==== Central chorale ====
+The central chorale presents the third stanza of the hymn, "{{langr|de|Und wenn die Welt voll Teufel wär}}" (And if the world were full of devils).{{sfn|Hofmann|2005}} The chorale melody is sung in [[unison]], an unusual practice for Bach. The melody is unadorned and performed in {{music|time|6|8}} time signature. The orchestral accompaniment becomes more agitated and complex as the movement progresses.{{sfn|Mincham|2010}}
+
+{{anchor|6}}
+
+==== Tenor recitative ====
+The tenor recitative, "{{langr|de|So stehe dann bei Christi blutgefärbter Fahne}}" (Then stand with Christ's bloodstained flag){{sfn|Dellal|2012}} is secco; like the earlier bass recitative, it concludes with an arioso.{{sfn|Mincham|2010}} The movement includes "occasional furious melismas", used to underscore the sense of joy conveyed by the words.{{sfn|Traupman-Carr|2013}}
+
+{{anchor|7}}
+
+==== Aria duetto ====
+An alto and tenor duet, "{{langr|de|Wie selig sind doch die, die Gott im Munde tragen}}" (How happy are they, who bear God in their mouths){{sfn|Dellal|2012}} is accompanied by continuo and [[obbligato]] violin with oboe da caccia. The movement is "submissive" in character with a texture that becomes more complex as the duet progresses, at one point including five simultaneous melodic lines. Bach uses a [[juxtaposition]] of "flowing, largely semi-quaver" instrumental parts with the vocal "crotchet/quaver rhythms" to depict the shield of the faithful; the two parts then coalesce to tell of the smiting of enemies.{{sfn|Mincham|2010}}
+
+{{anchor|8}}
+
+==== Closing chorale ====
+The final movement is a four-part setting of the last stanza of the hymn, "{{langr|de|Das Wort sie sollen lassen stahn}}" (That word they must allow to stand).{{sfn|Mincham|2010}}{{sfn|Ambrose}} Also in D major, each of the [[SATB]] lines is doubled by one or more instruments, and each part has a smaller vocal range than in other movements to make them simpler for the congregation to sing. Each phrase ends with a pause to break up the structure, although these are not always performed.&lt;ref name=":0" /&gt;
+&lt;score sound raw&gt;
+\header { tagline = ##f
+% title = "Das Wort sie sollen lassen stahn"
+% subtitle = \markup { "Closing chorale from" \italic "Ein feste Burg ist unser Gott" ", BWV 80" }
+}
+\layout { indent = 0 \set Score.tempoHideNote = ##t
+  \context { \Voice \remove "Dynamic_engraver" }
+  \context { \Score \remove "Bar_number_engraver" }
+}
+
+global = { \key d \major \partial 4 \time 4/4 \set Timing.beamExceptions = #'() }
+tn = \tempo 4 = 93
+tf = \tempo 4 = 30
+ta = \tempo 4 = 45
+
+soprano = \relative c'' { \global \set Staff.midiPanPosition = -0.5 \set midiInstrument = "oboe"
+  \repeat volta 2 { d4\f | d d a8 (b) cis4 | d8 (cis) b4 \tf a\fermata \tn
+    d | cis b a b8 (a) | g (fis e4) \tf d\fermata \tn }
+  d | a' b a gis | \ta a2\fermata \tn d,4 a' | b cis \tf d\fermata \tn
+  cis | d cis b2 \tf a4\fermata \tn b b a | b8 (a) g4 \tf fis\fermata \tn
+  d' | cis b a b8 (a) | g (fis e4) \tf d\fermata \bar "|."
+}
+
+alto = \relative c'' { \global \set Staff.midiPanPosition = 0.5 \set midiInstrument = "flute"
+  \repeat volta 2 { a4 | a8 g fis e d4 e | a,8 (a'4) gis8 e4
+    b' | e,8 fis g!4 fis8 e d cis | b4 (cis) a }
+  d | cis8 fis e4 e8 fis e4 | e2 d4 d8 c | b d g4 fis
+  fis | fis e8 a fis4 (e8 d) | cis4 e d8 e fis4 | fis fis8 e dis4
+  fis | e d!8 g g fis16 e fis4 | g8 (b,) cis4 a \bar "|."
+}
+
+tenor = \relative c { \global \set Staff.midiPanPosition = -1 \set midiInstrument = "english horn"
+  \repeat volta 2 { fis'8\pp e | d e fis g a4 g | fis b,8 e cis4
+    fis,8 gis | a4 e'8 d cis4 b8 cis | d4 (a8 g!) fis4 }
+  fis8 g | a d cis b cis4 b | cis2 fis,8 g a4 | d e a,
+  a | a8 gis a4 a (gis) | e g!8 a b cis d c | b4 b b
+  b8 a | g a b4 e8 cis! d4 | d (a8 g) fis4 \bar "|."
+}
+
+bass = \relative c { \global \set Staff.midiPanPosition = 1 \set midiInstrument = "bassoon"
+  \repeat volta 2 { d'8 cis | b4 a8 g fis g fis e | d4 e a,
+    b | cis8 d e4 fis g8 a | b [g a a,] d4 }
+  d8 e | fis4 gis a8 d, e4 | a,2 b4 fis' | g! e d
+  fis | b, cis d ( e) | a, e'8 fis g4 d | dis e b
+  b | e8 fis g e cis a d! cis | b (g a4) d,4 \bar "|."
+}
+
+verse = \new Lyrics \lyricmode {
+  &lt;&lt; { Das Wort sie sol -- len las -- sen stahn
+    und kein' Dank da -- zu ha -- ben; }
+    \new Lyrics \lyricmode {
+      er ist bei uns wohl auf dem Plan
+      mit sei -- nem Geist und Ga -- ben. }
+  &gt;&gt;
+  Neh -- men sie uns den Leib,
+  Gut, Ehr, Kind und Weib:
+  lass fah -- ren da -- hin,
+  sie ha -- ben's kein' Ge -- winn,
+  das Reich muss uns doch blei -- ben.
+}
+
+\score {
+  \new ChoirStaff &lt;&lt;
+    \new Staff
+    &lt;&lt;
+      \new Voice = "soprano" { \voiceOne \soprano }
+      \new Voice = "alto" { \voiceTwo \alto }
+    &gt;&gt;
+    \new Lyrics
+      \lyricsto "soprano" \verse
+    \new Staff
+    &lt;&lt;
+      \clef bass
+      \new Voice = "tenor" { \voiceOne \tenor }
+      \new Voice = "bass" { \voiceTwo \bass }
+    &gt;&gt;
+  &gt;&gt;
+  \layout { }
+}
+\score { \unfoldRepeats { &lt;&lt; \soprano \\ \alto \\ \tenor \\ \bass &gt;&gt; }
+  \midi { \tempo 4=93
+    \context { \Score midiChannelMapping = #'instrument }
+    \context { \Staff \remove "Staff_performer" }
+    \context { \Voice \consists "Staff_performer" }
+  }
+}
+&lt;/score&gt;
+
+== Reception ==
+=== Manuscripts and publication ===
+The oldest extant manuscript of {{langr|de|Ein feste Burg ist unser Gott}} is by Bach's student and son-in-law [[Johann Christoph Altnikol]].{{sfn|Wolff|1991|p=158}} The cantata was published in 1821,{{sfn|Bach Digital 4|2017}} the first [[Bach cantata]] to be published after the composer's death.{{sfn|Wolff|1991|p=152}} The [[Bach Gesellschaft]] edition of the cantata, published half a century later, was printed with Wilhelm Friedemann Bach's extended instrumentation. This version was edited by [[Wilhelm Rust]] and appeared in volume 18, published in 1870 by [[Breitkopf &amp; Härtel]].{{sfn|Wolff|1991|pp=157–158}} The [[New Bach Edition]] (Neue Bach-Ausgabe, NBA) published the score of the Leipzig version (80.3) in 1987, edited by [[Frieder Rempp]], with critical commentary following in 1988.{{sfn|Bach Digital 1|2016}}
+
+=== Arrangements ===
+[[Theodore Thomas (conductor)|Theodore Thomas]] arranged the cantata for modern orchestra. This arrangement was performed in New York in the late 1800s, and was praised for "religiously preserving the spirit of the original".&lt;ref&gt;Hassard, cited in {{cite book|editor=Stinson, Russell|title=Bach perspectives|date=2003|publisher=University of Nebraska Press|isbn=9780252027888|pages=[https://archive.org/details/bachinamerica0000unse/page/75 75&amp;ndash;76]|url=https://archive.org/details/bachinamerica0000unse/page/75}}&lt;/ref&gt;
+
+=== Evaluation ===
+Upon its initial publication in 1821, the cantata was positively received, as demonstrated by a laudatory 1822 article by critic [[Johann Friedrich Rochlitz]], which praised its "profound, highly original and&amp;mdash;one might say&amp;mdash;unimaginable wealth of sound".{{sfn|Wolff|1991|p=152}}&lt;ref&gt;Cited in Johann Forkel and Charles Terry (1920). ''Johann Sebastian Bach: his life, work, and art''. Harcourt, Brace, and Howe. p. xvii.&lt;/ref&gt; Christoph Wolff suggests that this cantata "acquired not only the character of prototype for Bach's church cantatas but also that of paragon of Protestant chorale composition" as the "musical symbol of Lutheranism".{{sfn|Wolff|1991|p=152}} [[Giacomo Meyerbeer]] cited this edition as exemplifying Lutheran music.&lt;ref&gt;{{cite book|editor1=Portebois, Yannick|editor2=Terpstra, Nicholas|title=The Renaissance in the nineteenth century : Le XIXe siècle renaissant|date=2003|publisher=Centre for Reformation and Renaissance Studies, Victoria University|isbn=9780772720191|page=[https://archive.org/details/renaissanceinnin0000unse/page/134 134]|url-access=registration|url=https://archive.org/details/renaissanceinnin0000unse/page/134}}&lt;/ref&gt; The 1870 edition, in contrast, was incorporated into the growing German nationalist movement, to the point that it was a standard for German military broadcasts during the [[Second World War]].{{sfn|Wolff|1991|p=154}}
+
+Modern musicologists agree that the chorale fantasia is an outstanding composition. For example, [[Craig Smith (conductor)|Craig Smith]] suggested that "in a genre in which Bach was the absolute master, this is probably the greatest motet chorus".{{sfn|Smith|2013}} Wolff wrote: "An immense chorale motet of 228 measures, it is one of Bach's most elaborate choral compositions and of the most impressive high points in the history of the chorale cantata."{{sfn|Wolff|1991|pp=157–158}}
+
+=== Performances ===
+Details of early performances of the work's versions are unknown. The 1982 Zwang catalogue places the first performance of BWV&amp;nbsp;80's early chorale cantata version in 1724.&lt;ref&gt;Philippe (and Gérard) Zwang. ''Guide pratique des cantates de Bach''. Paris, 1982. {{ISBN|2-221-00749-2}}&lt;/ref&gt; The first and fifth movements with Wilhelm Friedemann's extended instrumentation were performed with a new Latin text in 1763 in celebration of the end of the [[Seven Years' War]].{{sfn|Schulenberg|2010|p=[https://books.google.com/books?id=MTwEjTuofJwC&amp;pg=PA237 237]}}
+
+The first American performance may have occurred as early as 1823 in [[Bethlehem, Pennsylvania]]; handmade copies of the parts dating to that time are held by the [[Moravian Archives]].&lt;ref&gt;{{cite book|last1=Larson|first1=Paul S.|title=Bach for one hundred years : a social history of the Bach Choir of Bethlehem|date=2012|publisher=Lehigh University Press|isbn=9781611460940}}&lt;/ref&gt; Other sources suggest an initial performance date of 1865 at [[Harvard University]].&lt;ref&gt;{{cite book|editor=Stinson, Russell|title=Bach perspectives|date=2003|publisher=University of Nebraska Press|isbn=9780252027888|page=[https://archive.org/details/bachinamerica0000unse/page/3 3]|url=https://archive.org/details/bachinamerica0000unse/page/3}}&lt;/ref&gt;
+
+=== Recordings ===
+* [[Tölzer Knabenchor]] &amp; [[Concentus Musicus Wien]], [[Nikolaus Harnoncourt]], ''J. S. Bach - Das Kantatenwerk Volume 5''. [[Teldec]] 1978.
+* Münchener Bach-Chor &amp; Münchener Bach-Orchester, [[Karl Richter (conductor)|Karl Richter]]. ''Bach Cantatas, Volume 5''. DG Archiv 1994
+* [[Collegium Vocale Gent]] &amp; [[La Chapelle Royale]], [[Philippe Herreweghe]]. ''J. S. Bach - Magnificat'', [[Harmonia Mundi]] 2000.
+* [[Gächinger Kantorei]] &amp; [[Württemberg Chamber Orchestra]], [[Helmuth Rilling]]. ''Bach: Cantatas, BWV 80-82'', [[Hänssler]] 2000.
+* [[Heinrich-Schütz-Chor Heilbronn]] &amp; [[Pforzheim Chamber Orchestra]], [[Fritz Werner]]. ''J. S. Bach - Cantatas Volume 2''. Warner Classics 2004.
+* [[Monteverdi Choir]] &amp; [[English Baroque Soloists]], [[John Eliot Gardiner]]. ''Bach Cantatas Volume 10''. SDG 2005.
+* [[Bach Collegium Japan]], [[Masaaki Suzuki]]. ''J. S. Bach: Cantatas Vol. 27''. BIS 2005.
+* [[Amsterdam Baroque Orchestra &amp; Choir]], [[Ton Koopman]]. ''J. S. Bach - Complete Cantatas Volume 22''. Challenge Classics 2006.
+
+== References ==
+{{reflist|20em}}
+
+=== Cited sources ===
+* {{cite web
+  | last = Ambrose
+  | first = Z. Philip
+  | url = http://www.uvm.edu/~classics/faculty/bach/BWV80.html
+  | title = BWV 80 Ein feste Burg ist unser Gott
+  | publisher = [[University of Vermont]]
+  | access-date = 24 October 2016
+  }}
+* {{cite web
+  | url = http://www.bach-digital.de/receive/BachDigitalWork_work_00000099?lang=en
+  | title =  Ein feste Burg ist unser Gott (2nd Leipzig version) BWV 80.3; BWV 80; BC A 183b 
+  | work = [[Bach Digital]]
+  | date = 9 July 2018
+  | ref = {{sfnRef|Bach Digital 1|2016}}
+  }}
+* {{cite web
+  | url = http://www.bach-digital.de/receive/BachDigitalWork_work_00000100?lang=en
+  | title = Alles, was von Gott geboren (Weimar version) BWV 80.1; BWV 80a; BC (A 52)
+  | work = [[Bach Digital]]
+  | date = 7 July 2018
+  | ref = {{sfnRef|Bach Digital 2|2016}}
+  }}
+* {{cite web
+  | url = http://www.bach-digital.de/receive/BachDigitalWork_work_00000101?lang=en
+  | title =  Ein feste Burg ist unser Gott (1st Leipzig version) BWV 80.2; BWV 80b; BC A 183a 
+  | work = [[Bach Digital]]
+  | date = 6 July 2018
+  | ref = {{sfnRef|Bach Digital 3|2016}}
+  }}
+* {{cite web
+  | url = https://www.bach-digital.de/receive/BachDigitalSource_source_00005755
+  | title = Berlin, Staatsbibliothek zu Berlin – Preußischer Kulturbesitz D-B Mus. 10668 [Erstdruck]
+  | work = [[Bach Digital]]
+  | year = 2017
+  | access-date = 12 October 2017
+  | ref = {{sfnRef|Bach Digital 4|2017}}
+  }}
+* {{cite web
+  | last = Bischof
+  | first = Walter F.
+  | url = http://webdocs.cs.ualberta.ca/~wfb/cantatas/80.html
+  | title = Ein feste Burg ist unser Gott
+  | year = 2010
+  | publisher = [[University of Alberta]]
+  | access-date = 4 June 2013
+  }}
+* {{cite web
+  | last = Dellal
+  | first = Pamela
+  | author-link = Pamela Dellal
+  | url = https://www.emmanuelmusic.org/bach-translations/bwv-80
+  | title = BWV 80 – Ein feste Burg ist unser Gott
+  | year = 2012
+  | publisher = Emmanuel Music
+  | access-date = 23 August 2022
+  }}
+* {{cite book
+  | last = Dürr
+  | first = Alfred
+  | author-link = Alfred Dürr
+  | others = Translated by [[Richard D. P. Jones]]
+  | url = https://books.google.com/books?id=m9JuwslMcq4C&amp;pg=PA707
+  | title = The Cantatas of J. S. Bach: With Their Librettos in German-English Parallel Text
+  | publisher = [[Oxford University Press]]
+  | year = 2006
+  | isbn = 978-0-19-929776-4
+  }}
+* {{cite AV media notes
+  | last = Hofmann
+  | first = Klaus
+  | title = BWV 80: Ein feste Burg ist unser Gott / A mighty fortress is our God
+  | work = Cantatas from Leipzig 1724
+  | year = 2005
+  | publisher = BIS Records
+  | type = liner notes
+  }}
+* {{cite book
+  | last = Jones
+  | first = Richard D. P.
+  | author-link = Richard D. P. Jones
+  | url = https://books.google.com/books?id=-Pdssru1i8oC&amp;pg=PA257
+  | title = The Creative Development of Johann Sebastian Bach, Volume I: 1695–1717: Music to Delight the Spirit
+  | publisher = Oxford University Press
+  | year = 2007
+  | isbn = 978-0-19-816440-1
+  }}
+* {{cite web
+  | last = Mincham
+  | first = Julian
+  | url = https://www.jsbachcantatas.com/documents/chapter-60-bwv-80
+  | title = Chapter 60 Bwv 80 – The Cantatas of Johann Sebastian Bach
+  | work = jsbachcantatas.com
+  | year = 2010
+  | access-date = 23 August 2022
+  }}
+* {{cite book 
+  | last1 = Schulenberg
+  | first1 = David
+  | title = The music of Wilhelm Friedemann Bach
+  | year = 2010
+  | publisher = University of Rochester Press
+  | isbn = 9781580463591
+  | url = https://archive.org/details/musicofwilhelmfr0000schu
+  | url-access = registration
+  }}
+* {{cite web
+  | last = Smith
+  | first = Craig
+  | author-link = Craig Smith (conductor)
+  | url = http://www.emmanuelmusic.org/notes_translations/notes_cantata/n_bwv080.htm
+  | title = Bach Cantata Notes / BWV 80
+  | year = 2013
+  | publisher = Emmanuel Music
+  | access-date = 31 May 2013
+
+|archiveurl=https://web.archive.org/web/20131101065607/http://www.emmanuelmusic.org/notes_translations/notes_cantata/n_bwv080.htm|archivedate=1 November 2013
+
+  }}
+* {{cite web
+  | last = Traupman-Carr
+  | first = Carol
+  | url = http://www.bach.org/bwv80.php
+  | title = Cantata BWV 80, Ein feste Burg ist unser Gott
+  | publisher = [[Bach Choir of Bethlehem]]
+  | access-date = 31 May 2013
+  | ref = {{sfnRef|Traupman-Carr|2013}}
+  }}
+* {{cite book
+  | last = Wolff
+  | first = Christoph
+  | author-link = Christoph Wolff
+  | url = https://books.google.com/books?id=8WFNr4EZk2cC&amp;pg=PA154
+  | title = Bach: Essays on His Life and Music
+  | publisher = Harvard University Press
+  | isbn = 978-0-674-05926-9
+  | year = 1991
+  }}
+
+== External links ==
+{{commons category|BWV 80 – Cantata "Ein feste Burg ist unser Gott"}}
+* {{IMSLP|work=Ein feste Burg ist unser Gott, BWV 80 (Bach, Johann Sebastian)}}
+* [https://www.bachvereniging.nl/en/bwv/bwv-80/ Ein feste Burg ist unser Gott, BWV 80]: performance by the [[Netherlands Bach Society]] (video and background information)
+* Luke Dahn: [https://www.bach-chorales.com/BWV0080_8.htm BWV 80.8] bach-chorales.com
+* [http://BachCantataTexts.org/BWV80 Ein feste Burg ist unser Gott BWV 80] Historically informed English translation at BachCantataTexts.org
+
+{{Authority control}}
+{{Church cantatas by Johann Sebastian Bach}}
+{{Bach cantatas}}
+
+{{DISPLAYTITLE:''Ein feste Burg ist unser Gott'', BWV 80}}
+
+{{DEFAULTSORT:Feste Burg ist unser Gott}}
+[[Category:Church cantatas by Johann Sebastian Bach]]
+[[Category:Chorale cantatas]]
+[[Category:Libretti by Salomon Franck]]</text>
+      <sha1>diz4onqezufd9xkm7vj3606zvgpdo7y</sha1>
+    </revision>
+  </page>
+</mediawiki>

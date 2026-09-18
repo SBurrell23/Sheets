@@ -1,0 +1,233 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Now Thank We All Our God</title>
+    <ns>0</ns>
+    <id>11193283</id>
+    <revision>
+      <id>1334849173</id>
+      <parentid>1322756572</parentid>
+      <timestamp>2026-01-26T00:04:05Z</timestamp>
+      <contributor>
+        <username>Bdobbelaere</username>
+        <id>15541606</id>
+      </contributor>
+      <minor/>
+      <comment>/* Leuthen Chorale */ added prepositional commas around "however"</comment>
+      <origin>1334849173</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12526" sha1="c1h3uhri31qxoq5h3szxohd1vn9q1vm" xml:space="preserve">{{Short description|Christian hymn by Martin Rinkart}}
+{{Infobox musical composition
+| name                = {{Lang|de|Nun danket alle Gott|italic=no}}&lt;br /&gt;Now Thank We All Our God
+| type                = [[Hymn]]
+| image               = Nun danket alle Gott (1653).jpg
+| alt                 = 
+| caption             = Text and tune with a [[figured bass]] in [[Johann Crüger]]'s ''[[Praxis pietatis melica]]'', 1653
+| catalogue           = [[Zahn number|Zahn]]&amp;nbsp;5142
+| occasion            = 
+| text                = by [[Martin Rinkart]], translated by [[Catherine Winkworth]]
+| language            = German
+| written             = 1636
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Ecclesiasticus|chapter=50|verse=22-24}}
+| meter               = 6.7.6.7.6.6.6.6
+| melody              = attributed to [[Johann Crüger]]
+| composed            = 
+| published           = 1647
+}}
+"'''Now thank we all our God'''" is a popular Christian hymn. [[Catherine Winkworth]] translated it from the German "'''{{Lang|de|Nun danket alle Gott|italic=no}}'''",&lt;ref&gt;{{Cite web |title=Nun danket alle Gott |url=https://www.hymnologyarchive.com/nun-danket-alle-gott |access-date=2025-10-18 |website=Hymnology Archive |language=en-US}}&lt;/ref&gt;&lt;ref&gt;{{Cite web |title=History of Hymns: "Now Thank We All Our God" |url=https://www.umcdiscipleship.org/resources/history-of-hymns-now-thank-we-all-our-god |access-date=2025-10-18 |website=Discipleship Ministries |language=en-US}}&lt;/ref&gt; written {{circa|1636}} by the [[Lutheran]] pastor [[Martin Rinkart]]. Its [[hymn tune]], [[Zahn number|Zahn No.]]&amp;nbsp;5142, was published by [[Johann Crüger]] in the 1647 edition of his ''[[Praxis pietatis melica]]''.&lt;ref name="lieder"&gt;{{cite web | title=Liederdatenbank: Nun danket alle Gott| url=https://www.evangeliums.net/lieder/lied_nun_danket_alle_gott.html| website=www.evangeliums.net/lieder/| access-date=19 February 2019}}&lt;/ref&gt;&lt;ref name="Zahn"&gt;{{cite book
+  | last1 = Zahn
+  | first1 = Johannes
+  | author-link1 = Johannes Zahn
+  | year = 1890
+  | title = Die Melodien der deutschen evangelischen Kirchenlieder
+  | volume = III
+  | url = https://archive.org/details/1508285990bsb11304501
+  | location = Gütersloh
+  | publisher = [[Bertelsmann]]
+  | page = 307
+  }}&lt;/ref&gt;
+
+==Background==
+{{unreferenced section|date=January 2017}}
+Martin Rinkart was a Lutheran pastor who came to [[Eilenburg]], [[Saxony]], at the beginning of the [[Thirty Years' War]]. The [[walled city]] of Eilenburg became the refuge for political and military fugitives, but the result was overcrowding, deadly [[Black Death|pestilence]] and famine. Armies overran it three times. The Rinkart home was a refuge for the victims, even though he was often hard-pressed to provide for his own family. During the height of [[Second plague pandemic|a severe plague]] in 1637, Rinkart was the only surviving pastor in Eilenburg, conducting as many as 50 funerals in a day. He performed more than 4,000 funerals in that year, including that of his wife.
+
+Rinkart was a prolific [[hymn writer]]. In Rinkart's {{Lang|de|Jesu Hertz-Büchlein}} (Leipzig, 1636), "{{Lang|de|Nun danket alle Gott|italic=no}}" appears under the title "{{Lang|de|Tisch-Gebetlein|italic=no}}", as a short prayer before meals. The exact date is debated, but it is known that it was widely sung by the time the [[Peace of Westphalia]] was signed in 1648. [[Johann Crüger]] published it in the 1647 edition of his ''[[Praxis pietatis melica]]''.
+
+==Text==
+[[File:Catherine Winkworth.jpg|thumb|upright|Catherine Winkworth]]
+{{stack|[[File:Martin Rinckart.jpg|thumb|upright|Martin Rinkart]]}}
+Below is the text in a modern version from the German hymnal ''[[Evangelisches Gesangbuch]]'',&lt;ref&gt;[http://www.l4a.org/cgi-bin/4lieder?lookupMode=liedaufschlagen&amp;lookup=Evangelisches%20Gesangbuch+321 Evangelisches Gesangbuch 321] (in German) Evangelisches Gesangbuch / Niedersachsen Bremen&lt;/ref&gt; and a 19th-century translation by [[Catherine Winkworth]]:&lt;ref&gt;[https://hymnary.org/text/now_thank_we_all_our_god Now Thank We All Our God] hymnary.org&lt;/ref&gt;
+{|
+|-
+|&lt;poem&gt;Nun danket alle Gott
+mit Herzen, Mund und Händen,&amp;nbsp;&amp;nbsp;
+der große Dinge tut
+an uns und allen Enden,
+der uns von Mutterleib
+und Kindesbeinen an
+unzählig viel zu gut
+bis hierher hat getan.&lt;/poem&gt;
+|&lt;poem&gt;Now thank we all our God,
+with heart and hands and voices,
+Who wondrous things has done,
+in Whom this world rejoices;
+Who from our mothers’ arms
+has blessed us on our way
+With countless gifts of love,
+and still is ours today.&lt;/poem&gt;
+|-
+|&lt;poem&gt;Der ewig reiche Gott
+woll uns in unserm Leben
+ein immer fröhlich Herz
+und edlen Frieden geben,
+und uns in seiner Gnad
+erhalten fort und fort,
+und uns aus aller Not
+erlösen hier und dort.&lt;/poem&gt;
+|&lt;poem&gt;O may this bounteous God
+through all our life be near us,
+With ever joyful hearts
+and blessed peace to cheer us;
+And keep us in His grace,
+and guide us when perplexed;
+And free us from all ills,
+in this world and the next!&lt;/poem&gt;
+|-
+|&lt;poem&gt;Lob, Ehr und Preis sei Gott,
+dem Vater und dem Sohne,
+und Gott, dem Heilgen Geist
+im höchsten Himmelsthrone,
+ihm, dem dreieinen Gott,
+wie es im Anfang war
+und ist und bleiben wird
+so jetzt und immerdar.&lt;/poem&gt;
+|&lt;poem&gt;All praise and thanks to God
+the Father now be given;
+The Son and Him Who reigns
+with Them in highest Heaven;
+The one eternal God,
+whom earth and Heaven adore;
+For thus it was, is now,
+and shall be evermore.&lt;/poem&gt;
+|}
+
+== Melody ==
+{{Listen|type=music|filename=Nu takker alle Gud.ogg|title=Played on piano}}
+The original version:
+&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+\clef treble
+\new Voice = "Soprano"
+  { \key g \major \tempo 4=108 \set Staff.midiInstrument = "oboe" {
+      \set Score.tempoHideNote = ##t
+      \override Score.BarNumber #'transparent = ##t
+      \time 4/4
+      \relative c'' { \partial 4 d | d4 d e e | d2.\fermata b4 | c b a b8 c | a2 g4\fermata }
+      \relative c'' { \partial 4 d | d4 d e e | d2.\fermata b4 | c b a b8 c | a2 g4\fermata }
+      \relative c'' {
+      a4 | a a b b | a2.\fermata a4 | b8 cis d4 d cis | d2.\fermata d4 | e d c b | c2.\fermata b4 | a b8 c a4. g8 | g2. \bar "|."
+      }
+    }
+  }
+&gt;&gt;
+&lt;/score&gt;
+
+However, a modified version is more often used when the hymn is sung in English:
+&lt;score sound="2"&gt;
+\new Staff &lt;&lt;
+\clef treble
+\new Voice = "Soprano"
+  { \key f \major \tempo 4=108 \set Staff.midiInstrument = "oboe" {
+      \set Score.tempoHideNote = ##t
+      \override Score.BarNumber #'transparent = ##t
+      \time 4/4
+      \relative c'' { \partial 4 c | c4 c d d | c2.\fermata c4 | bes4 a g a | g2 f4\fermata }
+      \relative c'' { \partial 4 c | c4 c d d | c2.\fermata c4 | bes4 a g a | g2 f4\fermata }
+      \relative c'' {
+       g4 | g g a c | g2.\fermata g4 | a8 b c4 d b | c2.\fermata c4 | d c bes a | bes2.\fermata a4 | g f f e | f2. \bar "|."
+      }
+    }
+  }
+&gt;&gt;
+&lt;/score&gt;
+The melody is sometimes attributed to Rinkart,&lt;ref&gt;[http://www.lyrik-und-lied.de/media/GBA/typ/1776/Essay.pdf Siegmar Keil] {{webarchive|url=https://web.archive.org/web/20150402112527/http://www.lyrik-und-lied.de/media/GBA/typ/1776/Essay.pdf |date=2015-04-02 }} (2005)&lt;/ref&gt; but it is usually considered to be by [[Johann Crüger]],&lt;ref&gt;[http://www.liederlexikon.de/lieder/nun_danket_alle_gott Michael Fischer] (2007).&lt;/ref&gt; who first published it.&lt;ref name="Zahn" /&gt;
+
+== Musical settings ==
+[[File:Mendelssohn Bartholdy.jpg|thumb|upright|Felix Mendelssohn (1829) by [[James Warren Childe|J. W. Childe]]]]
+
+It is used in [[J.S. Bach]]'s [[Bach cantata|cantata]]s, such as [[BWV 79]],&lt;ref&gt;[http://www.bach-chorales.com/BWV0079_3.htm BWV 79.3] bach-chorales.com&lt;/ref&gt; [[BWV 192|192]] (music lost), harmonized for four voices in [[BWV 252]]&lt;ref&gt;[http://www.bach-chorales.com/BWV0252.htm BWV 252] bach-chorales.com&lt;/ref&gt; and [[BWV 386|386]],&lt;ref&gt;[http://www.bach-chorales.com/BWV0386.htm BWV 386] bach-chorales.com&lt;/ref&gt; and set in a [[chorale prelude]], [[BWV 657]], as part of the [[Great Eighteen Chorale Preludes]].&lt;ref&gt;{{citation|title=J. S. Bach's Great Eighteen Organ Chorales|first=Russell|last= Stinson|publisher=Oxford University Press|year= 2001|isbn=0-19-516556-X}}&lt;/ref&gt;&lt;ref&gt;{{citation|title=The Organ Music of J. S. Bach|first=Peter |last=Williams|edition=2nd|year=2003|publisher=[[Cambridge University Press]]|isbn=0-521-89115-9|pages=336–386}}&lt;/ref&gt; The now-standard harmonisation was devised by [[Felix Mendelssohn]] in 1840 when he adopted the hymn, sung in the now-standard key of [[G major]] and with its original German lyrics, as the chorale to his ''[[Lobgesang]]'' or ''Hymn of Praise'' (also known as his Symphony No. 2).{{citation needed|date=January 2017}}
+
+[[Max Reger]] composed a chorale prelude as No. 27 of his [[52 Chorale Preludes, Op. 67]] in 1902. The late-Romantic German composer [[Sigfrid Karg-Elert]] used it in his ''Marche Triomphale''.{{citation needed|date=January 2017}} John Rutter composed ''[[Now thank we all our God (Rutter)|Now thank we all our God]]'' for choir and brass in 1974.&lt;ref&gt;{{cite web
+| url = http://ukcatalogue.oup.com/product/9780193853614.do
+| title = John Rutter / Now thank we all our God / No. 1 of Two Hymns of Praise
+| publisher = [[Oxford University Press]]
+| year = 1974
+| access-date = 11 June 2014
+}}&lt;/ref&gt; In 1977 Czech-American composer [[Václav Nelhýbel]] arranged a contemporary setting entitled ''Now Thank We All Our God:'' Concertato for 2 trumpets, 2 trombones and organ with tuba and timpani which incorporated "Nun Danket alle Gott" for congregational singing.&lt;ref&gt;{{cite book|title=Catalogue of Music for Organ and Instruments|page=104|publisher=Scarecrow Press|url=https://books.google.com/books?id=ujF6_YFKBSAC&amp;pg=PA104|isbn=9780810852990|access-date=November 25, 2017|last=Laster|first=James|year=2005}}&lt;/ref&gt;&lt;ref&gt;{{cite book|author=Dennis Schmidt|title=An Organist's Guide to Resources for the Hymnal 1982|volume=I|page=94|url=https://books.google.com/books?id=pjvCFcJs1T0C&amp;pg=PA94|publisher=Church Publishing, Inc.|year=1987|isbn=9780898691511|access-date=November 25, 2017}}&lt;/ref&gt; Hermann Chr. Bühler made an elaborate setting of Johann Crüger's version.&lt;ref&gt;''Gesangbuch'', [[The Church of Jesus Christ of Latter-day Saints]], 1977{{Full citation needed|date=September 2021|reason=Publisher? Page? ISBN?}}&lt;/ref&gt;
+
+===Leuthen Chorale===
+It is claimed that after the [[Battle of Leuthen]] in 1757, the hymn was taken up by the entire assembled Prussian army. This narrative is, however, questioned by historians and musicologists, who identify the story as a later invention of Prussian propaganda.&lt;ref&gt;Hofer, Achim. "Joseph Goldes (1802–1886) Fest-Reveille (1858) über den Choral 'Nun danket alle Gott' für Militärmusik" in Peter Moormann, [[Albrecht Riethmüller]] &amp; Rebecca Wolf eds., ''Paradestück Militärmusik: Beiträge zum Wandel staatlicher Repräsentation durch Musik'', Transcript Verlag (2012), {{pp.|217–238}}, {{ISBN|978-3-8376-1655-2}}.&lt;/ref&gt;&lt;ref&gt;Kroener, Bernhard R. "'Nun danket alle Gott.' der Choral von Leuthen und Friedrich der Große als protestantischer Held; die Produktion politischer Mythen im 19. und 20. Jahrhundert" in [[Hartmut Lehmann]] &amp; Gerd Krumeich eds. ''"Gott mit uns": Religion, Nation und Gewalt im 19. und frühen 20. Jahrhundert'', Vandenhoeck &amp; Ruprecht (2000), {{pp.|105–134}}, {{ISBN|9783525354780}}.&lt;/ref&gt; Because of this story the melody is sometimes known as the Leuthen Chorale.&lt;ref&gt;{{cite book |last1=Overy |first1=Richard |title=A History of War in 100 Battles |date=2014 |publisher=Oxford University Press |isbn=978-0-19-939071-7 |pages=115 |url=https://books.google.com/books?id=4jjvBQAAQBAJ&amp;pg=PA115 |language=en}}&lt;/ref&gt;
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{wikisource|Now Thank we all our God}}
+* {{Commons category-inline}}
+* [http://www.l4a.org/cgi-bin/4lieder?lookupMode=liedaufschlagen&amp;lookup=Evangelisches%20Gesangbuch+321 Evangelisches Gesangbuch 321] (melody and text in 3 languages) l4a.org
+* [http://songsandhymns.org/hymns/sheetmusic/now-thank-we-all-our-god "Now Thank We All Our God"] (score and audio version) on the website of the Center for Church Music
+* [https://play.hymnswithoutwords.com/now-thank-we-all-our-god-nun-danket Hymns Without Words] lyrics and recording available for download
+
+{{German Lutheran hymns}}
+{{English-language Lutheran hymns}}
+{{Hymn tunes by Zahn number}}
+{{Authority control}}
+
+[[Category:17th-century hymns in German]]
+[[Category:English Christian hymns]]
+[[Category:Lutheran hymns]]
+[[Category:Thanksgiving songs]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>c1h3uhri31qxoq5h3szxohd1vn9q1vm</sha1>
+    </revision>
+  </page>
+</mediawiki>

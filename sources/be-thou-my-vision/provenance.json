@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation-et-2018-07-lord-of-all-hopefulness-lord-of-all-joy-html-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.godsongs.net%2F2018%2F07%2Flord-of-all-hopefulness-lord-of-all-joy.html%2F0001",
+  "kind": "abc",
+  "bytes": 268,
+  "sha256": "21b917b7b7ee0ff48f0108a66457c394dd318a9f4dcbaab85d14c89f26663fa0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-it-edu-jc-music-abc-mirror-redhawk-org-pubscout-waltzes-0011.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fredhawk.org%2Fpubscout%2Fwaltzes%2F0011",
+  "kind": "abc",
+  "bytes": 195,
+  "sha256": "3335a0fd3f52756bac08016466e85d1e2f6a0b365804864b8ed40ff537ef85a1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-6415-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F6415.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 196,
+  "sha256": "072afb7c849f9f03098a05f6e93f33fc04456ad43356d46be0f653b3184a8dd9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-6415-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F6415.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 447,
+  "sha256": "bbfe9e7e8058a8f78940318f6303344116821491cbf87ef0e5f3103042bf5dea",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-6415-no-ext-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F6415.no-ext%2F0003",
+  "kind": "abc",
+  "bytes": 223,
+  "sha256": "d2fefd7dc6bb9c59087c2453a8f10d706d046bfbd232137a000d5ece9aaccbff",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-6415-no-ext-0004.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F6415.no-ext%2F0004",
+  "kind": "abc",
+  "bytes": 214,
+  "sha256": "1d93ea3a2b330b69862e29b5e556d7e09252ecc7585de3a15afc6023f3f57a9d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-6415-no-ext-0005.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F6415.no-ext%2F0005",
+  "kind": "abc",
+  "bytes": 166,
+  "sha256": "027842de24442064ef85ad1d73c498fc41dc0b89a94bff161f2d27c3c5ac6916",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-6415.json",
+  "url": "https://thesession.org/tunes/6415?format=json",
+  "kind": "abc",
+  "bytes": 22015,
+  "sha256": "9d66be8c99ba98b87be48a19d0c0b99dbb95a9bf0d258c04d996b8b7121cc3cc",
+  "fetched": "2026-09-18"
+ }
+]

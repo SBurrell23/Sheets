@@ -1,0 +1,28 @@
+{
+  "title": "Be Thou My Vision",
+  "source": "Traditional Irish melody, tune SLANE; words trans. Mary Byrne, 1905, versified Eleanor Hull, 1912",
+  "key": "C",
+  "meter": "3/4",
+  "tempo": 100,
+  "bars": [
+    { "chord": "C",  "notes": "C5:4 C5:4 D5:2 C5:2" },
+    { "chord": "F",  "notes": "A4:4 G4:4 G4:2 A4:2" },
+    { "chord": "C",  "notes": "C5:4 C5:4 [G]D5:4" },
+    { "chord": "C",  "notes": "E5:12" },
+
+    { "chord": "G",  "notes": "D5:4 D5:4 D5:4" },
+    { "chord": "G",  "notes": "D5:4 E5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:4 G5:4 E5:4" },
+    { "chord": "G",  "notes": "G5:12" },
+
+    { "chord": "Am", "notes": "A5:4 A5:2 B5:2 C6:2 B5:2" },
+    { "chord": "F",  "notes": "A5:4 G5:4 E5:4" },
+    { "chord": "C",  "notes": "G5:4 C5:4 B4:4" },
+    { "chord": "F",  "notes": "A4:8 G4:4" },
+
+    { "chord": "C",  "notes": "C5:4 E5:4 G5:4" },
+    { "chord": "Am", "notes": "A5:2 G5:2 E5:4 C5:2 E5:2" },
+    { "chord": "G",  "notes": "D5:4 C5:4 C5:4" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

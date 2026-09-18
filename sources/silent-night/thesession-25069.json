@@ -1,0 +1,57 @@
+{
+    "format": "json",
+    "id": 25069,
+    "name": "Silent Night",
+    "url": "https://thesession.org/tunes/25069",
+    "member": {
+        "id": 6641,
+        "name": "Javi V",
+        "url": "https://thesession.org/members/6641"
+    },
+    "date": "2024-12-10 18:17:38",
+    "type": "waltz",
+    "tunebooks": 3,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 52637,
+            "url": "https://thesession.org/tunes/25069#setting52637",
+            "key": "Dmajor",
+            "abc": "F3GF2 | D5 | F3GF2 | D5 | G3GE2 | AG F3F |F5 |! G3GB2 | AG F3GF2 | D5 | G3GB2 AG | F3GF2 |D5 |! G3GE2 AG | F3FF2 | F3ED2 | E3GG2| F5 |",
+            "member": {
+                "id": 6641,
+                "name": "Javi V",
+                "url": "https://thesession.org/members/6641"
+            },
+            "date": "2024-12-10 18:17:38"
+        },
+        {
+            "id": 52663,
+            "url": "https://thesession.org/tunes/25069#setting52663",
+            "key": "Cmajor",
+            "abc": "\"C\"G>AE E3 | \"C\"G>AG E3 | \"G7\"d2d B2--B | \"C\"c2cE G3 |! \"F\"A2A c>BA | \"C\"G>AG E3 |\"F\"A2A c>BA | \"C\"G>AG E3 |! \"G7\"d2d B>BB | \"C\"c3 A2z |cGE \"G7\"G>FD | \"C\"C3||",
+            "member": {
+                "id": 6641,
+                "name": "Javi V",
+                "url": "https://thesession.org/members/6641"
+            },
+            "date": "2024-12-15 17:29:15"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1001641,
+            "url": "https://thesession.org/tunes/25069#comment1001641",
+            "subject": "Silent Night Harmony",
+            "content": "Harmony for Santa",
+            "member": {
+                "id": 6641,
+                "name": "Javi V",
+                "url": "https://thesession.org/members/6641"
+            },
+            "date": "2024-12-10 18:17:38"
+        }
+    ]
+}

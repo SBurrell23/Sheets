@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation--jc-music-abc-mirror-www-stephenmerrony-co-uk-aurelia-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAurelia_1%2F0000",
+  "kind": "abc",
+  "bytes": 977,
+  "sha256": "986b81c4558b2e97795e06791cf9a304e57b065e35787679878f44a6ba6f3d32",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-du-jc-music-abc-mirror-www-stephenmerrony-co-uk-aurelia-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FAurelia%2F0000",
+  "kind": "abc",
+  "bytes": 1344,
+  "sha256": "4263a8a65de56f1dfd63d0944b46f0184744f6cff2f0999460ddb61c1a602009",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-the-churchs-one-foundation.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/The_Church's_One_Foundation",
+  "kind": "lilypond",
+  "bytes": 8644,
+  "sha256": "81e7c9bdf0eea39da6844ce06e74ef56aa7ef4d8b613bcaac089d2212a6f797c",
+  "fetched": "2026-09-18"
+ }
+]

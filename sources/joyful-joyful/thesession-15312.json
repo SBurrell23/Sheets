@@ -1,0 +1,69 @@
+{
+    "format": "json",
+    "id": 15312,
+    "name": "Ode To Joy",
+    "url": "https://thesession.org/tunes/15312",
+    "member": {
+        "id": 91689,
+        "name": "BillScates",
+        "url": "https://thesession.org/members/91689"
+    },
+    "date": "2016-03-27 15:17:51",
+    "type": "march",
+    "tunebooks": 10,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 28531,
+            "url": "https://thesession.org/tunes/15312#setting28531",
+            "key": "Dmajor",
+            "abc": "\"D\"[f2d2] f2 \"G\"g2 a2|\"A\"a3 gf2 e2|\"D\"d2 d2 e2 f2|f3 e\"A\"e4|! \"D\"[f2d2] f2 \"G\"g2 a2|\"A\"a3 gf2 e2|\"D\"d2 d2 \"A\"e2 f2|e3 d \"D\"d4|! \"A\"e2 e2 \"D\"f2 d2|\"A\"e2 fg \"D\"f2 d2|\"A\"e2 fg\"D\" f2 e2|d2 e2 \"A\"A4|! \"D\"f2 f2 \"G\"g2 a2|\"A\"a3 gf2 e2|\"D\"d2 d2 \"A\"e2 f2|e3 d\"D\"d4||",
+            "member": {
+                "id": 91689,
+                "name": "BillScates",
+                "url": "https://thesession.org/members/91689"
+            },
+            "date": "2016-03-27 15:17:51"
+        }
+    ],
+    "comments": [
+        {
+            "id": 786510,
+            "url": "https://thesession.org/tunes/15312#comment786510",
+            "subject": "Ode To Joy",
+            "content": "Watching the news from Europe last night, this tune filled my head.  It may not fit here but then what does fit in this world anymore?  For Europe, for the world, with a tear...",
+            "member": {
+                "id": 91689,
+                "name": "BillScates",
+                "url": "https://thesession.org/members/91689"
+            },
+            "date": "2016-03-27 15:17:51"
+        },
+        {
+            "id": 786545,
+            "url": "https://thesession.org/tunes/15312#comment786545",
+            "subject": "Re: Ode To Joy",
+            "content": "I play this in practice because I am from Europe and it almost reminds me of home. It's nice with a clear A and B part, or played as a hornpipe.    Are you playing this in a real session?",
+            "member": {
+                "id": 86520,
+                "name": "OuluPulu",
+                "url": "https://thesession.org/members/86520"
+            },
+            "date": "2016-03-28 05:21:17"
+        },
+        {
+            "id": 786562,
+            "url": "https://thesession.org/tunes/15312#comment786562",
+            "subject": "Re: Ode To Joy",
+            "content": "No, this is not really a session tune.   It is the prelude to Beethoven's 9th symphony and has been adopted as the EU international anthem.  That said, we may play it as a prelude to our next trad session to show solidarity with our European friends.",
+            "member": {
+                "id": 91689,
+                "name": "BillScates",
+                "url": "https://thesession.org/members/91689"
+            },
+            "date": "2016-03-28 13:49:41"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Now Thank We All Our God",
+  "source": "Johann Crüger, tune NUN DANKET ALLE GOTT, 1647; words Martin Rinkart, c.1636, tr. Catherine Winkworth",
+  "key": "C",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 100,
+  "bars": [
+    { "chord": "C",  "notes": "G5:4" },
+
+    { "chord": "C",  "notes": "G5:4 G5:4 [F]A5:4 A5:4" },
+    { "chord": "C",  "notes": "G5:12 E5:4" },
+    { "chord": "F",  "notes": "F5:4 E5:4 [G7]D5:4 E5:2 F5:2" },
+    { "chord": "G7", "notes": "D5:8 [C]C5:4 G5:4" },
+
+    { "chord": "C",  "notes": "G5:4 G5:4 [F]A5:4 A5:4" },
+    { "chord": "C",  "notes": "G5:12 E5:4" },
+    { "chord": "F",  "notes": "F5:4 E5:4 [G7]D5:4 E5:2 F5:2" },
+    { "chord": "G7", "notes": "D5:8 [C]C5:4 D5:4" },
+
+    { "chord": "G",  "notes": "D5:4 D5:4 [C]E5:4 E5:4" },
+    { "chord": "G",  "notes": "D5:12 D5:4" },
+    { "chord": "C",  "notes": "E5:2 F#5:2 G5:4 G5:4 [D7]F#5:4" },
+    { "chord": "G",  "notes": "G5:12 G5:4" },
+    { "chord": "F",  "notes": "A5:4 G5:4 F5:4 E5:4" },
+    { "chord": "Dm", "notes": "F5:12 E5:4" },
+    { "chord": "G7", "notes": "D5:4 E5:2 F5:2 D5:6 C5:2" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

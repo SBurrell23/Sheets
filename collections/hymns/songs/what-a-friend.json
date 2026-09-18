@@ -1,0 +1,25 @@
+{
+  "title": "What a Friend We Have in Jesus",
+  "source": "Charles C. Converse, tune CONVERSE (ERIE), 1868; words Joseph M. Scriven, 1855",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 88,
+  "bars": [
+    { "chord": "C",  "notes": "G5:6 G5:2 A5:2 G5:2 E5:2 C5:2" },
+    { "chord": "F",  "notes": "C5:8 A4:8" },
+    { "chord": "C",  "notes": "G4:6 C5:2 E5:2 C5:2 G5:2 E5:2" },
+    { "chord": "G7", "notes": "D5:12 R:4" },
+    { "chord": "C",  "notes": "G5:6 G5:2 A5:2 G5:2 E5:2 C5:2" },
+    { "chord": "F",  "notes": "C5:8 A4:8" },
+    { "chord": "C",  "notes": "G4:6 C5:2 E5:2 [G7]D5:2 C5:2 B4:2" },
+    { "chord": "C",  "notes": "C5:12 R:4" },
+    { "chord": "G7", "notes": "D5:6 C#5:2 D5:2 E5:2 F5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:8 G5:8" },
+    { "chord": "F",  "notes": "A5:6 A5:2 [C]G5:2 E5:2 F5:2 E5:2" },
+    { "chord": "G7", "notes": "D5:12 R:4" },
+    { "chord": "C",  "notes": "G5:6 G5:2 A5:2 G5:2 E5:2 C5:2" },
+    { "chord": "F",  "notes": "C5:8 A4:8" },
+    { "chord": "C",  "notes": "G4:6 C5:2 E5:2 [G7]D5:2 C5:2 B4:2" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

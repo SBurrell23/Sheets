@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-du-jc-music-abc-mirror-www-stephenmerrony-co-uk-bethany-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FBethany%2F0000",
+  "kind": "abc",
+  "bytes": 900,
+  "sha256": "9d38ddbffd5db5bf153a2f990a432ffcf9be05b978d2aff0b1e658370b011ba0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-t-edu-jc-music-abc-song-nearer-my-god-to-thee-bethany-f-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fsong%2FNearer_My_God_To_Thee_Bethany_F%2F0000",
+  "kind": "abc",
+  "bytes": 2141,
+  "sha256": "f5db94fae6486b9c0a7c262c4be1accb942b142241c90299c9271a0065cf6126",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-session-safd-hymns-0014.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fsession%2FSAFD%2F___%2FHymns%2F0014",
+  "kind": "abc",
+  "bytes": 548,
+  "sha256": "2bfcd1de2458868f108a0520abc2c5837fbe18d396a0044a1cc0c53a51443d2d",
+  "fetched": "2026-09-18"
+ }
+]

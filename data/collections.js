@@ -1946,5 +1946,221 @@ window.PS_MANIFEST = [
     ]
    }
   ]
+ },
+ {
+  "id": "hymns",
+  "title": "Hymns",
+  "blurb": "Hymns and church songs everyone knows. Shortened and simplified.",
+  "order": 5,
+  "sets": [
+   {
+    "id": "hymns",
+    "title": "",
+    "label": "Hymn tunes and gospel songs",
+    "order": 99,
+    "songs": [
+     {
+      "slug": "a-mighty-fortress",
+      "title": "A Mighty Fortress Is Our God",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 92,
+      "bars": 32,
+      "source": "Martin Luther, tune EIN FESTE BURG, c.1529 — original rhythmic form; words Martin Luther, tr. Frederick H. Hedge",
+      "pdf": "songs/hymns/a-mighty-fortress.pdf"
+     },
+     {
+      "slug": "abide-with-me",
+      "title": "Abide With Me",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 16,
+      "source": "William H. Monk, tune EVENTIDE, 1861; words Henry Francis Lyte, 1847",
+      "pdf": "songs/hymns/abide-with-me.pdf"
+     },
+     {
+      "slug": "be-thou-my-vision",
+      "title": "Be Thou My Vision",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "Traditional Irish melody, tune SLANE; words trans. Mary Byrne, 1905, versified Eleanor Hull, 1912",
+      "pdf": "songs/hymns/be-thou-my-vision.pdf"
+     },
+     {
+      "slug": "blessed-assurance",
+      "title": "Blessed Assurance",
+      "key": "C",
+      "meter": "9/8",
+      "tempo": 60,
+      "bars": 17,
+      "source": "Phoebe P. Knapp, tune ASSURANCE, 1873; words Fanny J. Crosby, 1873",
+      "pdf": "songs/hymns/blessed-assurance.pdf"
+     },
+     {
+      "slug": "come-thou-fount",
+      "title": "Come Thou Fount of Every Blessing",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 90,
+      "bars": 17,
+      "source": "American folk hymn, tune NETTLETON, attrib. John Wyeth, Repository of Sacred Music Part Second, 1813; words Robert Robinson, 1758",
+      "pdf": "songs/hymns/come-thou-fount.pdf"
+     },
+     {
+      "slug": "crown-him-with-many-crowns",
+      "title": "Crown Him With Many Crowns",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 16,
+      "source": "George J. Elvey, tune DIADEMATA, 1868; words Matthew Bridges, 1851",
+      "pdf": "songs/hymns/crown-him-with-many-crowns.pdf"
+     },
+     {
+      "slug": "great-is-thy-faithfulness",
+      "title": "Great Is Thy Faithfulness",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 32,
+      "source": "William M. Runyan, tune FAITHFULNESS, 1923; words Thomas O. Chisholm, 1923",
+      "pdf": "songs/hymns/great-is-thy-faithfulness.pdf"
+     },
+     {
+      "slug": "guide-me-o-thou-great-jehovah",
+      "title": "Guide Me, O Thou Great Jehovah",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 14,
+      "source": "John Hughes, tune CWM RHONDDA, 1907; words William Williams, 1762, trans. Peter Williams",
+      "pdf": "songs/hymns/guide-me-o-thou-great-jehovah.pdf"
+     },
+     {
+      "slug": "holy-holy-holy",
+      "title": "Holy, Holy, Holy",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 90,
+      "bars": 16,
+      "source": "John B. Dykes, tune NICAEA, 1861; words Reginald Heber, 1826",
+      "pdf": "songs/hymns/holy-holy-holy.pdf"
+     },
+     {
+      "slug": "it-is-well",
+      "title": "It Is Well With My Soul",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 22,
+      "source": "Philip P. Bliss, tune VILLE DU HAVRE, 1876; words Horatio G. Spafford, 1873",
+      "pdf": "songs/hymns/it-is-well.pdf"
+     },
+     {
+      "slug": "jesus-loves-me",
+      "title": "Jesus Loves Me",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "William B. Bradbury, tune CHINA, 1862; words Anna B. Warner, 1860",
+      "pdf": "songs/hymns/jesus-loves-me.pdf"
+     },
+     {
+      "slug": "nearer-my-god-to-thee",
+      "title": "Nearer, My God, to Thee",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "Lowell Mason, tune BETHANY, 1856; words Sarah Flower Adams, 1841",
+      "pdf": "songs/hymns/nearer-my-god-to-thee.pdf"
+     },
+     {
+      "slug": "now-thank-we-all-our-god",
+      "title": "Now Thank We All Our God",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 17,
+      "source": "Johann Crüger, tune NUN DANKET ALLE GOTT, 1647; words Martin Rinkart, c.1636, tr. Catherine Winkworth",
+      "pdf": "songs/hymns/now-thank-we-all-our-god.pdf"
+     },
+     {
+      "slug": "o-come-all-ye-faithful",
+      "title": "O Come, All Ye Faithful",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 21,
+      "source": "John Francis Wade, tune ADESTE FIDELES, c.1751; words trans. Frederick Oakeley, 1841",
+      "pdf": "songs/hymns/o-come-all-ye-faithful.pdf"
+     },
+     {
+      "slug": "praise-god-doxology",
+      "title": "Old Hundredth (Doxology)",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 8,
+      "source": "Louis Bourgeois (attrib.), tune OLD HUNDREDTH, Genevan Psalter 1551; words Thomas Ken, 1674",
+      "pdf": "songs/hymns/praise-god-doxology.pdf"
+     },
+     {
+      "slug": "praise-to-the-lord",
+      "title": "Praise to the Lord, the Almighty",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 108,
+      "bars": 21,
+      "source": "Stralsund Gesangbuch, tune LOBE DEN HERREN, 1665; words Joachim Neander, 1680",
+      "pdf": "songs/hymns/praise-to-the-lord.pdf"
+     },
+     {
+      "slug": "rock-of-ages",
+      "title": "Rock of Ages",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 88,
+      "bars": 13,
+      "source": "Thomas Hastings, tune TOPLADY, 1830; words Augustus Toplady, 1763",
+      "pdf": "songs/hymns/rock-of-ages.pdf"
+     },
+     {
+      "slug": "the-old-rugged-cross",
+      "title": "The Old Rugged Cross",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 44,
+      "bars": 17,
+      "source": "George Bennard, tune OLD RUGGED CROSS, 1913; words George Bennard, 1913",
+      "pdf": "songs/hymns/the-old-rugged-cross.pdf"
+     },
+     {
+      "slug": "what-a-friend",
+      "title": "What a Friend We Have in Jesus",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 16,
+      "source": "Charles C. Converse, tune CONVERSE (ERIE), 1868; words Joseph M. Scriven, 1855",
+      "pdf": "songs/hymns/what-a-friend.pdf"
+     },
+     {
+      "slug": "when-i-survey",
+      "title": "When I Survey the Wondrous Cross",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "Lowell Mason, tune HAMBURG, 1824; words Isaac Watts, 1707",
+      "pdf": "songs/hymns/when-i-survey.pdf"
+     }
+    ]
+   }
+  ]
  }
 ];

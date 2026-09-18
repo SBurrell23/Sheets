@@ -1,0 +1,93 @@
+{
+    "format": "json",
+    "id": 18794,
+    "name": "Ode To Joy",
+    "url": "https://thesession.org/tunes/18794",
+    "member": {
+        "id": 123878,
+        "name": "JayN",
+        "url": "https://thesession.org/members/123878"
+    },
+    "date": "2019-12-12 12:21:53",
+    "type": "jig",
+    "tunebooks": 7,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 36792,
+            "url": "https://thesession.org/tunes/18794#setting36792",
+            "key": "Gmajor",
+            "abc": "|:\"G\"B2B c2d|\"C\"cdc B2A|1 \"G\"G2G A2B|B2A \"D\"A3:|2 \"G\" G2G GAB|\"D\"ABA \"G\"G3||! |:\"D\"A2A \"G\"B2G|\"D\"ABc \"G\"B2G|\"D\"ABc \"G\"dBA|FGA \"D\"D3|! \"G\"B2B c2d|\"C\" d2c B2A|\"G\" G2G A2B|\"D\"ABA \"G\"G3:|",
+            "member": {
+                "id": 123878,
+                "name": "JayN",
+                "url": "https://thesession.org/members/123878"
+            },
+            "date": "2019-12-12 12:21:53"
+        },
+        {
+            "id": 36796,
+            "url": "https://thesession.org/tunes/18794#setting36796",
+            "key": "Gmajor",
+            "abc": "|:B3 c2d|ded cBA|DGG A2B|BAA AFD|! B3 c2d|ded cBA|D3 GAB|ABA G3:|! |:A3 BDD|ABc BDD|ABc dBA|GAB \"D\"D3|! B3 c2d|ded cBA|D3 GAB|ABA G3:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2019-12-12 23:23:44"
+        }
+    ],
+    "comments": [
+        {
+            "id": 885046,
+            "url": "https://thesession.org/tunes/18794#comment885046",
+            "subject": "Ode To Joy",
+            "content": "During a conversation at the end of my local (English) tunes session last night, and in light of the election today (12\/12\/2019 UK general election), it was suggested (in a tongue in cheek fashion) that 'Ode To Joy' be played as a jig (possibly to accompany morris dancing outside parliament).    I took that to heart and transcribed this version as a bit of fun. I play it with lot of swing and accenting on the 3rd and 6th quavers in the bar. Would love to hear it on a box or concertina!    Hope someone can enjoy it!",
+            "member": {
+                "id": 123878,
+                "name": "JayN",
+                "url": "https://thesession.org/members/123878"
+            },
+            "date": "2019-12-12 12:21:53"
+        },
+        {
+            "id": 885087,
+            "url": "https://thesession.org/tunes/18794#comment885087",
+            "subject": "Re: Ode To Joy",
+            "content": "Nice idea! As it's December, can I tell you that a friend brought in a version of \"It came upon a Midnight Clear\" as  6\/8 jig instead of the usual 4\/4: it works very well, along with several other carols that are in jig timing anyway",
+            "member": {
+                "id": 23308,
+                "name": "trish santer",
+                "url": "https://thesession.org/members/23308"
+            },
+            "date": "2019-12-12 23:10:32"
+        },
+        {
+            "id": 885088,
+            "url": "https://thesession.org/tunes/18794#comment885088",
+            "subject": "Ode To Joy, X:2",
+            "content": "I thought I would Pipe it up a bit!",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2019-12-12 23:23:44"
+        },
+        {
+            "id": 885212,
+            "url": "https://thesession.org/tunes/18794#comment885212",
+            "subject": "Re: Ode To Joy",
+            "content": "I like the 'piped' version too, you could play setting 1 and then setting 2 as a variation.",
+            "member": {
+                "id": 123878,
+                "name": "JayN",
+                "url": "https://thesession.org/members/123878"
+            },
+            "date": "2019-12-15 10:09:55"
+        }
+    ]
+}

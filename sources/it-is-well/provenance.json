@@ -1,0 +1,26 @@
+[
+ {
+  "name": "cyberhymnal-ville-du-havre.mid",
+  "url": "http://www.hymntime.com/tch/mid/v/i/l/l/ville_du_havre.mid",
+  "kind": "midi",
+  "bytes": 2273,
+  "sha256": "78023ba758b41cb3f29155340b252f831ebb8b4248ca5a5c3795739f7aaa8588",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-it_is_well_with_my_soul-it_is_well-ville_du_havre.abc",
+  "url": "http://openhymnal.org/Abc/It_Is_Well_With_My_Soul-It_Is_Well-Ville_Du_Havre.abc",
+  "kind": "abc",
+  "bytes": 6769,
+  "sha256": "5a8d97eb1ba49eaf33dd536b191e0c9aca5c0f1a844b81436f0ebead502ce697",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "timelesstruths-it-is-well.musicxml",
+  "url": "https://library.timelesstruths.org/library/music/I/It_Is_Well_with_My_Soul/It_Is_Well_with_My_Soul.xml",
+  "kind": "musicxml",
+  "bytes": 119803,
+  "sha256": "261512b6997bc496bdee16e13911a0cce002e4907752117e0e72ef6457b0a06f",
+  "fetched": "2026-09-18"
+ }
+]

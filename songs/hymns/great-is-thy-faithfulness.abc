@@ -1,0 +1,15 @@
+X:1
+T:Great Is Thy Faithfulness
+C:William M. Runyan, tune FAITHFULNESS, 1923; words Thomas O. Chisholm, 1923
+M:3/4
+L:1/16
+Q:1/4=100
+K:C clef=treble
+"C"e4 e4 e4 | "F"e6 d2 d4 | "G7"f4 f4 f4 | "C"f4 e8 |
+"F"a4 b4 a4 | "C"g6 f2 e4 | "D7"d4 e4 ^f4 | "G"g12 |
+"G7"g4 a4 b4 | "C"c'6 b2 a4 | "C"g4 f4 e4 | "F"e4 d8 |
+"G7"a4 b4 c'4 | "C"c'6 g2 g4 | "C"e4 e4 "G7"d4 | "C"c12 |
+"G"g4 g4 d4 | "C"f3e1 e8 | "Am"a4 a4 e4 | "Dm"g3f1 f8 |
+"G7"g4 a4 b4 | "C"c'4 g4 a4 | "G"b4 c'4 a4 | "G"g12 |
+"G7"g4 a4 b4 | "C"c'6 b2 a4 | "C"g4 f4 e4 | "F"e4 d8 |
+"G7"a4 b4 c'4 | "C"c'6 g2 g4 | "C"e4 "G7"f4 B4 | "C"Hc12 |]

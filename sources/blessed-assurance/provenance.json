@@ -1,0 +1,10 @@
+[
+ {
+  "name": "wikipedia-blessed-assurance.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Blessed_Assurance",
+  "kind": "lilypond",
+  "bytes": 7588,
+  "sha256": "03238cf458f8f329ff22e7785999dc799f2112ab46a866487a6d9fe3e49a15c1",
+  "fetched": "2026-09-18"
+ }
+]

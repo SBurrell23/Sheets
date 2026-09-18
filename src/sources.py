@@ -93,6 +93,12 @@ def matches(query, candidate):
     and is wrong -- it accepts 'The Highland Minstrel Boy' for 'The Minstrel
     Boy', which is a different tune. Missing a real source costs one search;
     caching the wrong one gets written into a score.
+
+    What this CANNOT catch is two unrelated tunes that genuinely share a title.
+    Searching 'Rock of Ages' returns Hastings' TOPLADY and the Hanukkah song Maoz
+    Tsur, whose ABC carries 'T: Rock of Ages' as its English name -- both are
+    correct matches and only the music tells them apart. Pass the tune name via
+    --also where you know it, and expect an arranger to notice the rest.
     """
     qs = [tokens(x) for x in alt_titles(query)] or [tokens(query)]
     cs = [tokens(x) for x in alt_titles(candidate)] or [tokens(candidate)]
@@ -214,17 +220,62 @@ def wikipedia(title, slug):
         page = h['title']
         if not matches(title, re.sub(r'\s*\(.*?\)\s*$', '', page)):
             continue
-        xml, err = get('https://en.wikipedia.org/wiki/Special:Export/%s'
-                       % urllib.parse.quote(page.replace(' ', '_')))
+        # Special:Export rate-limits hard (429) on a run of a dozen titles, and a
+        # 429 reads exactly like "this article has no score" -- which silently turns
+        # a findable tune into a scan-only verdict. action=raw serves the same
+        # wikitext, is not rate-limited the same way, and is the fallback that
+        # actually recovered Come Thou Fount after Export started refusing.
+        safe = urllib.parse.quote(page.replace(' ', '_'))
+        url = 'https://en.wikipedia.org/wiki/Special:Export/' + safe
+        xml, err = get(url)
+        if err or not xml or not SCORE_RE.search(xml):
+            url = 'https://en.wikipedia.org/w/index.php?title=%s&action=raw' % safe
+            xml, err = get(url)
         if err or not xml or not SCORE_RE.search(xml):
             continue
         name = 'wikipedia-%s.xml' % slugify(page)
-        if not store(slug, name, xml,
-                     'https://en.wikipedia.org/wiki/Special:Export/%s'
-                     % page.replace(' ', '_'), 'lilypond'):
+        if not store(slug, name, xml, url, 'lilypond'):
             continue
         got.append({'name': name, 'page': page,
                     'blocks': len(re.findall(r'<score', xml))})
+    return got, None
+
+
+# ----------------------------------------------------------- open hymnal
+
+# 353 complete four-part hymn settings in ABC, from The Evangelical Hymnal (1921),
+# filed as "First_Line-TUNE_NAME.abc". Worth its own source because hymns are the
+# one repertoire where the SOURCE carries the harmony, so a four-part setting is
+# strictly better than a melody line -- the arranger reads the bass instead of
+# guessing the chords. Its certificate is broken, so this is deliberately http.
+OPENHYMNAL = 'http://openhymnal.org/Abc/'
+_index = {'files': None}
+
+
+def openhymnal(title, slug, limit=3):
+    if _index['files'] is None:
+        body, err = get(OPENHYMNAL)
+        if err:
+            _index['files'] = []
+            return [], 'index failed: %s' % err
+        _index['files'] = re.findall(r'href="([^"]+\.abc)"', body)
+    got = []
+    for fn in _index['files']:
+        stem = urllib.parse.unquote(fn)[:-4].replace('_', ' ')
+        # "Come Thou Fount of Every Blessing-Nettleton": either half may be the name
+        parts = [p for p in stem.split('-') if p.strip()]
+        if not any(matches(title, p) for p in parts + [stem]):
+            continue
+        abc, err = get(OPENHYMNAL + fn, referer=OPENHYMNAL)
+        if err or not abc or 'K:' not in abc:
+            continue
+        name = 'openhymnal-%s' % urllib.parse.unquote(fn).lower()
+        if not store(slug, name, abc, OPENHYMNAL + fn, 'abc'):
+            continue
+        got.append({'name': name, 'file': stem,
+                    'voices': len(re.findall(r'^V:', abc, re.M))})
+        if len(got) >= limit:
+            break
     return got, None
 
 
@@ -280,9 +331,9 @@ def probe(title, slug=None, also=None, quiet=False):
     slug = slug or slugify(title)
     names = [title] + [a for a in (also or []) if a]
     out = {'title': title, 'slug': slug, 'names': names, 'thesession': [],
-           'wikipedia': [], 'abcnotation': [], 'errors': []}
+           'wikipedia': [], 'openhymnal': [], 'abcnotation': [], 'errors': []}
     for fn, key in ((thesession, 'thesession'), (wikipedia, 'wikipedia'),
-                    (abcnotation, 'abcnotation')):
+                    (openhymnal, 'openhymnal'), (abcnotation, 'abcnotation')):
         seen = set()
         for name in names:
             try:
@@ -295,7 +346,8 @@ def probe(title, slug=None, also=None, quiet=False):
                     out[key].append(g)
             if err and err not in out['errors']:
                 out['errors'].append('%s: %s' % (key, err))
-    out['files'] = sum(len(out[k]) for k in ('thesession', 'wikipedia', 'abcnotation'))
+    out['files'] = sum(len(out[k]) for k in
+                       ('thesession', 'wikipedia', 'openhymnal', 'abcnotation'))
     out['verdict'] = 'machine-readable' if out['files'] else 'scan-only'
     if not quiet:
         print(render(out))
@@ -309,6 +361,8 @@ def render(r):
                      % (t['title'][:34], t['settings'], t['type']))
     for w in r['wikipedia']:
         lines.append('   wikipedia    %-34s %2d score block(s)' % (w['page'][:34], w['blocks']))
+    for o in r['openhymnal']:
+        lines.append('   openhymnal   %-34s %2d voices' % (o['file'][:34], o['voices']))
     for a in r['abcnotation']:
         lines.append('   abcnotation  %-34s %2d tune(s)  %s'
                      % (a['path'][-34:], a['tunes'], a.get('matched', '')[:28]))

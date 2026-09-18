@@ -1,0 +1,25 @@
+{
+  "title": "When I Survey the Wondrous Cross",
+  "source": "Lowell Mason, tune HAMBURG, 1824; words Isaac Watts, 1707",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 100,
+  "bars": [
+    { "chord": "C", "notes": "C5:8 C5:4 D5:4" },
+    { "chord": "Am", "notes": "E5:8 D5:4 E5:4" },
+    { "chord": "F", "notes": "F5:8 E5:4 [G7]D5:4" },
+    { "chord": "C", "notes": "E5:16" },
+    { "chord": "Am", "notes": "E5:8 E5:4 E5:4" },
+    { "chord": "F", "notes": "F5:8 E5:4 [G7]D5:4" },
+    { "chord": "C", "notes": "C5:8 B4:4 C5:4" },
+    { "chord": "G", "notes": "D5:16" },
+    { "chord": "C", "notes": "C5:8 C5:4 D5:4" },
+    { "chord": "Am", "notes": "E5:8 D5:4 E5:4" },
+    { "chord": "F", "notes": "F5:8 E5:4 [G7]D5:4" },
+    { "chord": "C", "notes": "E5:16" },
+    { "chord": "Am", "notes": "E5:8 E5:4 E5:4" },
+    { "chord": "G", "notes": "D5:8 [C]C5:8" },
+    { "chord": "G7", "notes": "D5:8 E5:4 D5:4" },
+    { "chord": "C", "notes": "C5:16" }
+  ]
+}

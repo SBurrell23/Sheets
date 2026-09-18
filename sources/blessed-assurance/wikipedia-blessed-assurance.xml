@@ -1,0 +1,146 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Blessed Assurance</title>
+    <ns>0</ns>
+    <id>3426926</id>
+    <revision>
+      <id>1340616498</id>
+      <parentid>1340616398</parentid>
+      <timestamp>2026-02-26T18:09:21Z</timestamp>
+      <contributor>
+        <username>~2026-35013</username>
+        <id>51612718</id>
+      </contributor>
+      <comment>/* History */</comment>
+      <origin>1340616498</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4387" sha1="rz37d8aht787imwmcb5t4b2bh4gi350" xml:space="preserve">{{Short description|Christian hymn}}
+{{Infobox musical composition
+| name                = "Blessed Assurance"
+| type                = [[Hymn]]
+| image               = Fanny Crosby portrait.jpg
+| alt                 = 
+| caption             = Photograph of Fanny Crosby
+| occasion            = 
+| text                = by [[Fanny Crosby]]
+| language            = 
+| written             = 
+| melody              = "Assurance" by [[Phoebe Knapp]] 
+| meter               = 9.10.9.9 with refrain
+| published           = {{Start date|1873}}
+| misc                = 
+}}
+"'''Blessed Assurance'''" is a well-known [[Christianity|Christian]] [[hymn]]. The lyrics were written in 1873 by blind hymn writer [[Fanny Crosby]] to the music written in 1873 by [[Phoebe Knapp]].
+
+==History==
+Crosby was visiting her friend Phoebe Knapp as the Knapp home was having a large pipe organ installed. The organ was incomplete, so Mrs. Knapp, using the piano, played a new melody she had just composed. When Knapp asked Crosby, "What do you think the tune says?", Crosby replied, "Blessed assurance; Jesus is mine."&lt;ref&gt;{{cite book|last=Blumhofer|first=Edith Waldvogel |title=Her Heart Can See: The Life and Hymns of Fanny J. Crosby|date=12 May 2005 |url=https://books.google.com/books?id=9LWkw81bRXwC&amp;pg=PA229|pages=229–230|publisher=Wm. B. Eerdmans |isbn=9780802842534 }}&lt;/ref&gt;
+
+The hymn appeared in the July 1873 issue of Palmer's ''Guide to Holiness and Revival Miscellany'', a magazine printed by Dr. and Mrs. W. C. Palmer of 14 Bible House, New York City. It appeared on page 36 (the last page) with complete text and piano score, and indicated it had been copyrighted by Crosby that year. It is not certain that this was the first printing of the hymn, but it certainly helped to popularize what became one of the most beloved hymns of all time.
+
+The popular song reflects Crosby's walk of faith, as expressed by the [[Paul the Apostle|apostle Paul]] in [[Philippians]]
+&lt;blockquote&gt;"For to me, to live is Christ and to die is gain" ({{Bibleverse|Philippians|1:21|KJV}}).&lt;/blockquote&gt;
+
+Because of Crosby's lyrics, the tune is now called "Blessed Assurance". Many country and Gospel artists performed this hymn for decades including [[Gaither Vocal Band]], [[Randy Travis]], [[Alan Jackson]] and [[Carrie Underwood]]. 
+
+[[File:PHŒBE PALMER KNAPP A woman of the century (page 449 crop).jpg|thumb|Phoebe Palmer Knapp]]
+
+==Music==
+ &lt;score sound="1"&gt;
+ \relative d' { \set Staff.midiInstrument = #"flute"
+   \key d \major
+   \time 9/8
+  \partial 8*3 fis8 e d
+  a'4. a g8 a b a2. a8 fis a d4. cis4 cis8 b a gis a2. \bar "" \break
+  fis8 e d a'4. a g8 a b a2. d,8 e fis g4. e d8 e cis d2. \bar "" \break
+  a'8 a a d4. a b8 b b a2. a8 a a b4. d cis8 cis b cis2. \bar "" \break
+  cis8 d e d4. a b8 a b a2. d,8 e fis g4. e d8. e16 cis8 d2.
+  \bar "|."
+  }
+\addlyrics {\set stanza = #"1. "
+     Bless -- ed as -- sur -- ance, Je -- sus is mine!
+     O what a fore -- taste of glo -- ry di -- vine!
+     Heir of sal -- va -- tion, pur -- chase of God,
+     Born of His Spir -- it, washed in His blood.
+  }
+\addlyrics { \set stanza = #"2. " 
+     Per -- fect sub -- mis -- sion, per -- fect de -- light!
+     Vi -- sions of rap -- ture now burst on my sight;
+     An -- gels de -- scend -- ing bring from a -- bove
+     Ech -- oes of mer -- cy, whis -- pers of love.
+     This is my sto -- ry, this is my song,
+     prais -- ing my Sav -- ior all the day long;
+     this is my sto -- ry, this is my song,
+     prais -- ing my Sav -- ior all the day long.
+  }
+\addlyrics { \set stanza = #"3. " 
+     Per -- fect sub -- mis -- sion, all is at rest!
+     I in my Sav -- ior am hap -- py and blessed,
+     Watch -- ing and wait -- ing, look -- ing a -- bove,
+     Filled with His good -- ness, lost in His love.
+  }
+  &lt;/score&gt;
+
+==See also==
+*[[Assurance (theology)]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[https://web.archive.org/web/20110712233655/http://www.hymntime.com/tch/htm/b/l/e/blesseda.htm Blessed Assurance music and lyrics]
+*[http://www.hymnpod.com/2009/03/10/blessed-assurance/ Blessed Assurance free piano MP3]
+
+{{authority control}}
+
+[[Category:Hymns by Fanny Crosby]]
+[[Category:Hymn tunes]]
+[[Category:Songs with lyrics by Fanny Crosby]]
+[[Category:Glen Campbell songs]]
+[[Category:1873 songs]]
+[[Category:1873 in Christianity]]
+[[Category:19th-century hymns]]
+[[Category:Songs about Jesus]]</text>
+      <sha1>rz37d8aht787imwmcb5t4b2bh4gi350</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,471 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ode to Joy</title>
+    <ns>0</ns>
+    <id>19592366</id>
+    <revision>
+      <id>1373327487</id>
+      <parentid>1372111153</parentid>
+      <timestamp>2026-09-05T09:40:47Z</timestamp>
+      <contributor>
+        <username>~2026-45456-63</username>
+        <id>55289323</id>
+      </contributor>
+      <comment>/* Use of Beethoven's setting */</comment>
+      <origin>1373327487</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="24796" sha1="3p3e56cgt8k7sa051owq5gql3p84nbs" xml:space="preserve">{{short description|Ode (poem) by Friedrich Schiller}}
+{{About|Schiller's poem|the "Ode to Joy" theme by [[Ludwig van Beethoven]], also known as the anthem of the European Union|Symphony No. 9 (Beethoven)#IV. Finale|other uses|Ode to Joy (disambiguation)}}
+{{redirect|Song of Joy|the album by Captain &amp; Tennille|Song of Joy (album) {{!}} ''Song of Joy'' (album)}}
+{{Use dmy dates|date=April 2022}}
+{{Infobox poem
+| name = Ode to Joy
+| image = Schiller an die freude manuskript 2.jpg
+| caption = Autograph manuscript, {{c.|1785}}
+| author = [[Friedrich Schiller]]
+| original_title = An die Freude
+| original_title_lang = de
+| written = 1785
+| language = German
+| country = Germany
+| form = [[Ode]]
+| publisher = ''[[Thalia (German magazine)|Thalia]]''
+| translator =
+| cover_artist =
+| publication_date = 1786, 1808
+}}
+"'''Ode to Joy'''" ({{Langx|de|"'''An die Freude'''"|italic=no}} {{IPA|de|an diː ˈfʁɔʏdə|}}) is an [[ode]] written in the summer of 1785 by the German poet, playwright, and historian [[Friedrich Schiller]]. It was published the following year in the German magazine ''[[Thalia (German magazine)|Thalia]]''. In 1808, a slightly revised version changed two lines of the first [[stanza]] and omitted the last stanza.
+
+"Ode to Joy" is best known for its use by [[Ludwig van Beethoven]] in the final (fourth) movement of his [[Symphony No. 9 (Beethoven)|Ninth Symphony]], completed in 1824. [[Symphony No. 9 (Beethoven)#Text of the fourth movement|Beethoven's text]] is not based entirely on Schiller's poem, and it introduces a few new sections. Beethoven's [[melody]],&lt;ref&gt;The usual name of the [[Hymn tune]] is "Hymn to Joy" {{cite web|title=Hymnary – Hymn to Joy|url=http://www.hymnary.org/tune/hymn_To_Joy_beethoven|access-date=11 October 2013}}&lt;/ref&gt; but not Schiller's text, was adopted as the "[[Anthem of Europe]]" by the [[Council of Europe]] in 1972 and later by the [[European Union]]. [[Rhodesia]]'s national anthem from 1974 until 1979, "[[Rise, O Voices of Rhodesia]]", also used Beethoven's melody.
+
+== The poem ==
+[[File:Schillerhaus Menckestrasse Leipzig 2009.jpg|thumb|[[Schillerhaus (Leipzig)|Schillerhaus]] in Gohlis]]
+Schiller wrote the first version of the poem when he was staying in [[Gohlis]], [[Leipzig]]. In 1785, from the beginning of May until mid-September, he stayed with his publisher, [[Georg Joachim Göschen]], in Leipzig and wrote "An die Freude" along with his play ''[[Don Carlos (play)|Don Carlos]]''.&lt;ref&gt;{{cite web | url= http://www.stadtgeschichtliches-museum-leipzig.de/site_english/schillerhaus/geschichte.php | title= History of the Schiller House | website= stadtgeschichtliches-museum-leipzig.de | access-date= 21 May 2017 | archive-date= 10 May 2017 | archive-url= https://web.archive.org/web/20170510085339/http://stadtgeschichtliches-museum-leipzig.de/site_english/schillerhaus/geschichte.php | url-status= dead }}&lt;/ref&gt;
+
+Schiller later made some revisions to the poem, which was then republished posthumously in 1808, and it was this latter version that forms the basis for Beethoven's setting. Despite the lasting popularity of the ode, Schiller himself regarded it as a failure later in his life, going so far as to call it "detached from reality" and "of value maybe for us two, but not for the world, nor for the art of poetry" in an 1800 letter to his longtime friend and patron [[Christian Gottfried Körner]] (whose friendship had originally inspired him to write the ode).&lt;ref&gt;{{cite web| url= http://www.wissen-im-netz.info/literatur/schiller/briefe/koerner/1800/571.htm| title= [Untitled letter] | first= Friedrich |last= Schiller| date=    21 October 1800| website= wissen-im-netz.info| language= de| url-status= dead| archive-url= https://web.archive.org/web/20160304200958/http://www.wissen-im-netz.info/literatur/schiller/briefe/koerner/1800/571.htm| archive-date= 4 March 2016| access-date= 29 May 2019}}&lt;/ref&gt;
+
+===Lyrics===
+{{verse translation|lang=de|italicsoff=yes|
+'''An die Freude'''
+
+Freude, schöner Götterfunken,
+Tochter aus Elysium,
+Wir betreten feuertrunken,
+Himmlische, den Heiligtum.
+Deine Zauber binden wieder,
+Was die Mode streng geteilt,*
+Alle Menschen werden Brüder,*
+Wo dein sanfter Flügel weilt.
+
+
+Seid umschlungen Millionen!
+Diesen Kuß der ganzen Welt!
+Brüder — überm Sternenzelt
+Muß ein lieber Vater wohnen.
+
+Wem der große Wurf gelungen,
+Eines Freundes Freund zu sein,
+Wer ein holdes Weib errungen,
+Mische seinen Jubel ein!
+Ja — wer auch nur eine Seele
+Sein nennt auf dem Erdenrund!
+Und wer's nie gekonnt, der stehle
+Weinend sich aus diesem Bund!
+
+
+Was den großen Ring bewohnet
+Huldige der Sympathe!
+Zu den Sternen leitet sie,
+Wo der Unbekannte thronet.
+
+Freude trinken alle Wesen
+An den Brüsten der Natur,
+Alle Guten, alle Bösen
+Folgen ihrer Rosenspur.
+Küsse gab sie uns und Reben,
+Einen Freund, geprüft im Tod,
+Wollust ward dem Wurm gegeben,
+Und der Cherub steht vor Gott.
+
+
+Ihr stürzt nieder, Millionen?
+Ahnest du den Schöpfer Welt?
+Such ihn überm Sternenzelt,
+Über Sternen muß er wohnen.
+
+Freude heißt die starke Feder
+In der ewigen Natur.
+Freude, Freude treibt die Räder
+In der großen Weltenuhr.
+Blumen lockt sie aus den Keimen,
+Sonnen aus dem Firmament,
+Sphären rollt sie aus den Räumen,
+Die des Sehers Rohr nicht kennt.
+
+
+Froh, wie seine Sonnen fliegen
+Durch des Himmels prächt'gen Plan,
+Wandelt Brüder eure Bahn,
+Freudig wie ein Held zum Siegen.
+
+Aus der Wahrheit Feuerspiegel
+Lächelt sie den Forscher an.
+Zu der Tugend steilem Hügel
+Leitet sie des Dulders Bahn.
+Auf des Glaubens Sonnenberge
+Sieht man ihre Fahnen wehn,
+Durch den Riß gesprengter Särge
+Sie im Chor der Engel stehn.
+
+
+Duldet mutig Millionen!
+Duldet für die beßre Welt!
+Droben überm Sternenzelt
+Wird ein großer Gott belohnen.
+
+Göttern kann man nicht vergelten,
+Schön ist ihnen gleich zu sein.
+Gram und Armut solln sich melden,
+Mit den Frohen sich erfreun.
+Groll und Rache sein vergessen,
+Unserm Todfeind sei verziehn,
+Keine Träne soll ihn pressen,
+Keine Reue nage ihn.
+
+
+Unser Schuldbuch sei vernichtet,
+Ausgesöhnt die ganze Welt!
+Brüder — überm Sternenzelt
+Richtet Gott wie ihr gerichtet.
+
+Freude sprudelt in Pokalen,
+In der Traube goldnem Blut
+Trinken Sanftmut Kannibalen,
+Die Verzweiflung Heldenmut.
+Brüder fliegt von euren Sitzen,
+Wenn der volle Römer kreist,
+Laßt den Schaum zum Himmel spritzen:
+Dieses Glas dem guten Geist!
+
+
+Den der Sterne Wirbel loben,
+Den des Seraphs Hymne preist,
+Dieses Glas dem guten Geist,
+Überm Sternenzelt dort droben!
+
+Festen Mut in schweren Leiden,
+Hilfe, wo die Unschuld weint,
+Ewigkeit geschwornen Eiden,
+Wahrheit gegen Freund und Feind,
+Männerstolz vor Königsthronen,
+Brüder, gält es Gut und Blut!
+Dem Verdienste seine Kronen,
+Untergang der Lügenbrut!
+
+
+Schließt den heil'gen Zirkel dichter,
+Schwört bei diesem goldnen Wein,
+Dem Gelübde treu zu sein,
+Schwört es bei dem Sternenrichter!
+
+Rettung von Tyrannenketten,
+Grossmut auch dem Boesewicht,
+Hoffnung auf den Sterbebetten,
+Gnade auf dem Hochgericht!
+Auch die Toten sollen leben!
+Brueder, trinkt und stimmet ein,
+Allen Suendern soll vergeben,
+Und die Hoelle nicht mehr sein.
+
+
+Eine heitre Abschiedsstunde!
+Suessen Schlaf im Leichentuch!
+Brueder — einen sanften Spruch
+Aus des Totenrichters Mund.
+|
+'''Ode to Joy'''
+
+Joy, thou beauteous godly lightning,
+Daughter of Elysium,
+Fire drunken we are ent'ring
+Heavenly, thy holy home!
+Thy enchantments bind together,
+What did custom stern divide,
+Every man becomes a brother,
+Where thy gentle wings abide.
+
+''Chorus.''
+Be embrac'd, ye millions yonder!
+Take this kiss throughout the world!
+Brothers — o'er the stars unfurl'd
+Must reside a loving Father.
+
+Who the noble prize achieveth,
+Good friend of a friend to be;
+Who a lovely wife attaineth,
+Join us in his jubilee!
+Yes — he too who but one being
+On this earth can call his own!
+He who ne'er was able, weeping
+Stealeth from this league alone!
+
+''Chorus.''
+He who in the great ring dwelleth,
+Homage pays to sympathy!
+To the stars above leads she,
+Where on high the Unknown reigneth.
+
+Joy is drunk by every being
+From kind nature's flowing breasts,
+Every evil, every good thing
+For her rosy footprint quests.
+Gave she us both vines and kisses,
+In the face of death a friend,
+To the worm were given blisses
+And the Cherubs God attend.
+
+''Chorus.''
+Fall before him, all ye millions?
+Know'st thou the Creator, world?
+Seek above the stars unfurl'd,
+Yonder dwells He in the heavens.
+
+Joy commands the hardy mainspring
+Of the universe eterne.
+Joy, oh joy the wheel is driving
+Which the worlds' great clock doth turn.
+Flowers from the buds she coaxes,
+Suns from out the hyaline,
+Spheres she rotates through expanses,
+Which the seer can't divine.
+
+''Chorus.''
+As the suns are flying, happy
+Through the heaven's glorious plane,
+Travel, brothers, down your lane,
+Joyful as in hero's vict'ry.
+
+From the truth's own fiery mirror
+On the searcher doth she smile.
+Up the steep incline of honor
+Guideth she the suff'rer's mile.
+High upon faith's sunlit mountains
+One can see her banner flies,
+Through the breach of open'd coffins
+She in angel's choir doth rise.
+
+''Chorus.''
+Suffer on courageous millions!
+Suffer for a better world!
+O'er the tent of stars unfurl'd
+God rewards you from the heavens.
+
+Gods can never be requited,
+Beauteous 'tis, their like to be.
+Grief and want shall be reported,
+So to cheer with gaiety.
+Hate and vengeance be forgotten,
+Pardon'd be our mortal foe,
+Not a teardrop shall him dampen,
+No repentance bring him low.
+
+''Chorus.''
+Let our book of debts be cancell'd!
+Reconcile the total world!
+Brothers — o'er the stars unfurl'd
+God doth judge, as we have settl'd.
+
+Joy doth bubble from this rummer,
+From the golden blood of grape
+Cannibals imbibe good temper,
+Weak of heart their courage take —
+Brothers, fly up from thy places,
+When the brimming cup doth pass,
+Let the foam shoot up in spaces:
+To the goodly Soul this glass!
+
+''Chorus.''
+Whom the crown of stars doth honor,
+Whom the hymns of Seraphs bless,
+To the goodly Soul this glass
+O'er the tent of stars up yonder!
+
+Courage firm in grievous trial,
+Help, where innocence doth scream,
+Oaths which sworn to are eternal,
+Truth to friend and foe the same,
+Manly pride 'fore kingly power —
+Brothers, cost it life and blood —
+Honor to whom merits honor,
+Ruin to the lying brood!
+
+''Chorus.''
+Closer draw the holy circle,
+Swear it by this golden wine,
+Faithful to the vow divine,
+Swear it by the Judge celestial!
+
+Rescue from the tyrant's fetters,
+Mercy to the villain e'en,
+Hope within the dying hours,
+Pardon at the guillotine!
+E'en the dead shall live in heaven!
+Brothers, drink and all agree,
+Every sin shall be forgiven,
+Hell forever cease to be.
+
+''Chorus.''
+A serene departing hour!
+Pleasant sleep beneath the pall!
+Brothers — gentle words for all
+Doth the Judge of mortals utter!&lt;ref&gt;{{cite web|title=An die Freude / Ode to Joy|publisher=Schiller Institute|url=https://archive.schillerinstitute.com/transl/schiller_poem/ode_to_joy.pdf|date=2011|access-date=22 April 2025}}&lt;/ref&gt;
+}}
+
+==== Revisions ====
+The lines marked with * were revised in the posthumous 1808 edition as follows:
+{| class="wikitable"
+|-
+! Original !! Revised !! Translation of original !! Translation of revision !! Comment
+|-
+| {{lang|de|was der Mode {{Not a typo|Schwerd}} geteilt}} || {{lang|de|Was die Mode streng geteilt}} || what the sword of custom divided || What custom strictly divided || The original meaning of ''[[wikt:Mode#German|Mode]]'' was "custom, contemporary taste".&lt;ref&gt;{{cite book|title=[[Duden]]|volume=7. Etymologie|date=1963|publisher=Bibliographisches Institut|location=Mannheim|isbn=((3-411-00907-1))&lt;!-- printed in the book --&gt;|page=446|chapter=Mode}} The word was derived via French from ultimately Latin [[wikt:modus|modus]]. ''Duden'' cites as first meanings {{lang|de|Brauch, Sitte, Tages-, Zeitgeschmack}}. The primary modern meaning has shifted more towards "fashion".&lt;/ref&gt;
+|-
+| {{lang|de|Bettler werden Fürstenbrüder}} || {{lang|de|Alle Menschen werden Brüder}} || beggars become princes' brothers || All people become brothers ||
+|-{{18 November 2018, ErwanK2: correct translation is 'it is to the soul that you steal yourself, away from this union', because 'der' is a feminine dative referring to the Soul, not the masculine-only subject of the sentence and 'stehle' has been confused with 'stelle'. When ausstellen would translate into 'exhibit oneself' -not to split apart, 'stehlen aus' is to steal from. Also understand the tense 'stehle' not 'stehlt' that refers to a conditional supporting the idea of: 'you'd be stealing a soul's chance if you went away'}} {{5/8/2019, Wegesrand: Sorry Erwan, but the antecedent of that "der" is the preceding "wer", which refers not to the soul, but "who" or "whoever" has never been able to call a soul his own. And the "stehle" is an optative subjunctive, not a conditional. Knowledge of German grammar is like marmalade: the less you have, the more you have to spread it around.}}
+|}
+
+The original, later eliminated last stanza reads
+{{verse translation|lang=de|italicsoff=yes|1=
+Rettung von Tirannenketten,
+Großmut auch dem  Bösewicht,
+Hoffnung auf den Sterbebetten,
+Gnade auf dem  Hochgericht!
+Auch die Toden sollen leben!
+Brüder trinkt und  stimmet ein,
+Allen Sündern soll vergeben,
+und die Hölle  nicht mehr seyn.|2=
+Rescue the chained from the despot,
+Kindness to the wicked too,
+Let hope come in on the deathbed,
+Mercy in the high courts too,
+Let the dead be resurrected, 
+Brothers, join with me and drink
+That us sinners hence be absolved
+Satan’s plight’s what I bethink.
+}}
+
+==== Ode to Freedom ====
+Academic speculation remains as to whether Schiller originally wrote an "Ode to Freedom" (''An die Freiheit'') and changed it to "To Joy".&lt;ref&gt;{{cite journal|first=Wacław|last= Kubacki|author-link=:pl:Wacław Kubacki|title=Das Werk [[Juliusz Słowacki|Juliusz Slowackis]] und seine Bedeutung für die polnische Literatur|language=de|journal=Zeitschrift für Slawistik|volume=5|number=1|date=January 1960|pages= 545–564|doi=10.1524/slaw.1960.5.1.545|s2cid= 170929661}}&lt;/ref&gt;&lt;ref&gt;{{cite journal|quote=Das 'Alle Menschen werden Brüder', das Schiller in seiner Ode an die Freude (eigentlich Ode an die Freiheit) formuliert, ...|first=Alexander|last=Görlach|author-link=Alexander Görlach|url=https://www.theeuropean.de/alexander-goerlach/3925-der-glaube-an-die-freiheit|archive-url=https://web.archive.org/web/20161026163222/https://www.theeuropean.de/alexander-goerlach/3925-der-glaube-an-die-freiheit|url-status=dead|archive-date=26 October 2016|title=Der Glaube an die Freiheit – Wen darf ich töten?|journal=[[The European (2009 magazine)|The European]]|date=4 August 2010}}&lt;/ref&gt; The American journalist [[Alexander Wheelock Thayer]] wrote in his biography of Beethoven, "the thought lies near that it was the early form of the poem, when it was still an 'Ode to Freedom' (not 'to Joy'), which first aroused enthusiastic admiration for it in Beethoven's mind".&lt;ref&gt;[[Alexander Wheelock Thayer|Thayer, A. W.]](1817–97), rev. and ed. [[Elliot Forbes]]. ''Thayer's Life of Beethoven''. (2 vols. 1967, 1991) Princeton: Princeton University Press. p. 895.&lt;/ref&gt; The musicologist [[Alexander Rehding]] points out that even Bernstein, who used "Freiheit" in two performances in 1989, called it conjecture whether Schiller used "joy" as code for "freedom" and that scholarly consensus holds that there is no factual basis for this myth.&lt;ref&gt;{{cite book|last=Rehding|first=Alexander|author-link=Alexander Rehding|title=Beethoven's Symphony No. 9|url=https://books.google.com/books?id=_3MzDwAAQBAJ&amp;pg=PA33|page=33, note 8 on p. 141|publisher=Oxford University Press|year=2018|isbn=978-0-19-029970-5}}&lt;/ref&gt;
+
+== Use of Beethoven's setting ==
+{{Listen|type=music|filename=Anthem of Europe (US Navy instrumental short version).ogg|title=Anthem of the European Union|description=Instrumental performed by the [[United States Navy Band]]}}
+{{quote box|1=&lt;div style="zoom:79%;"&gt;&lt;score sound="1"&gt;
+\layout { line-width = #92 }
+\relative c' { \key g \major
+\set Staff.midiInstrument = #"acoustic guitar (nylon)"
+b' b c d | d c b a | g g a b | b4. a8 a2 |
+b4 b c d | d c b a | g g a b | a4. g8 g2 |
+a4 a b g | a b8[c] b4 g | a b8[c] b4 a | g a d, b'~ |
+b  b c d | d c b a | g g a b | a4. g8 g2 \bar"|." }
+&lt;/score&gt;&lt;/div&gt;Melody in G major}}
+Over the years, Beethoven's "Ode to Joy" has been used both as a protest song/melody, national anthem and a piece of remembrance.
+
+* Known as the [[Anthem of Europe]], it has been the anthem of the [[Council of Europe]] since 1972, and the anthem of the [[European Union]] since 1985.
+* In 1957, the blacklisted American opera singer [[Paul Robeson]] sang “Ode to Joy” at a festival for 5,000 miners in [[Wales]], but as his passport had been revoked, he couldn't leave the USA, so he sang it via a transatlantic telephone line.&lt;ref name="Nashville"&gt;{{cite web|url=https://91classical.org/post/how-beethovens-ode-to-joy-has-inspired-hope-for-generations/|title=How Beethoven’s ‘Ode To Joy’ Has Inspired Hope For Generations|author=Kara McLeland|website=Nashville Classical Radio|date=25 March 2020|access-date=2026-06-23}}&lt;/ref&gt;
+* The melody was used for the national anthem of [[Ian Smith]]'s [[Rhodesia]] between 1974 and 1979, called '' [[Rise, O Voices of Rhodesia]]''.
+* During the [[Military dictatorship of Chile]] (1973–1990), female protesters gathered outside prisons to sing “''Himno a la Alegría'',” a Spanish version of “Ode to Joy,” to bring hope to those being held inside.&lt;ref name="Nashville"/&gt;
+* Chinese students broadcast it at [[1989 Tiananmen Square protests and massacre|1989 Tiananmen Square protests]].&lt;ref&gt;{{cite web|url=https://www.aljazeera.com/programmes/witness/2015/05/beethoven-ninth-150506130135689.html|title=Following Beethoven's Ninth|author=Kerry Candaele|website=[[Al Jazeera English|Al Jazeera]]|date=6 May 2015|access-date=20 September 2020}}&lt;/ref&gt;
+* It was performed in Berlin on Christmas Day 1989 after the [[fall of the Berlin Wall]], with the choir and orchestra members from both East and West Germany, conducted by [[Leonard Bernstein]].&lt;ref name="Nashville"/&gt;
+* “Ode to Joy” is performed at ''Daiku'' (Number Nine) concerts in Japan every December after the [[2011 tsunami]].&lt;ref name="Daniel M. Gold-2013"&gt;{{cite web|title=The Ode Heard Round the World: ''Following the Ninth'' Explores Beethoven's Legacy |url=https://www.nytimes.com/2013/11/01/movies/following-the-ninth-explores-beethovens-legacy.html?_r=0|work=[[The New York Times]]|author=Daniel M. Gold|date=31 October 2013|access-date=28 September 2014}}&lt;/ref&gt;
+* It has inspired impromptu performances at public spaces by musicians in many countries worldwide, including Choir Without Borders' 2009 performance at a railway station&lt;ref&gt;{{YouTube|Z_7GVQJQs6U|Video of a "flash mob" – "Ode to Joy" sung at Leipzig railway station (8 November 2009)}}&lt;/ref&gt; in Leipzig, to mark the 20th and 25th anniversary of the Fall of the Berlin Wall, [[Hong Kong Festival Orchestra]]'s 2013 performance at a Hong Kong mall, and performance in [[Sabadell]], Spain.&lt;ref&gt;{{cite web|title=Ode to Joy: 50 String Instruments That Will Melt Your Heart|work=[[The Atlantic]]|url=https://www.theatlantic.com/technology/archive/2012/07/ode-to-joy-50-string-instruments-that-will-melt-your-heart/259514/|author=Megan Garber|date=9 July 2012|access-date=3 January 2020}}&lt;/ref&gt;
+* A 2013 documentary, ''Following the Ninth'', directed by Kerry Candaele, follows its continuing popularity.&lt;ref name="Daniel M. Gold-2013" /&gt;&lt;ref&gt;{{cite web|title=Beethoven's Flash Mobs|url=http://billmoyers.com/2013/11/14/beethoven%E2%80%99s-flash-mobs/|website=billmoyers.com|date=14 November 2013}}&lt;/ref&gt;
+* It was played after [[Emmanuel Macron]]'s victory in the [[2017 French presidential election|2017 French Presidential elections]], when Macron gave his victory speech at the [[Louvre]].&lt;ref&gt;{{cite news|url=https://www.theguardian.com/commentisfree/2017/may/08/macron-europe-president-nationalism|title=Macron's victory march to Europe's anthem said more than words|first=Natalie|last=Nougayrède|newspaper=[[The Guardian]]|date=8 May 2017|access-date=16 July 2017}}&lt;/ref&gt;
+* The BBC Proms Youth Choir performed the piece alongside [[Georg Solti]]'s UNESCO World Orchestra for Peace at the [[Royal Albert Hall]] during the 2018 [[The Proms|Proms]] at Prom 9, titled "War &amp; Peace" as a commemoration to the centenary of the end of [[World War I|World War One]].&lt;ref&gt;{{Cite web|url=https://www.bbc.co.uk/events/emrz3d|title=Prom 9: War &amp; Peace|website=BBC Music Events|access-date=13 January 2019}}&lt;/ref&gt;
+* The alleged Christian context of the song was one of the main reasons given by [[Nichiren Shoshu]] priests for expelling the [[Soka Gakkai International]]  on 28 November 1991 due to the song being performed at SGI meetings, which was deemed by some priests as both [[syncretism]] and [[heresy]].&lt;ref&gt;[http://www.daisakuikeda.org/main/profile/bio/bio-15.html Excommunication], daisakuikeda.org (undated)&lt;/ref&gt;
+*The instrumental version is used as the official [[UEFA European Championship qualifying|UEFA European Qualifiers]] anthem, and is also used as the official [[Copa Libertadores]] anthem.
+*A Yiddish version of the lyrics was written by [[Isaac Leib Peretz]] in the 1890s, and it is still used as a Jewish protest song.&lt;ref&gt;{{Cite web|url=https://opensiddur.org/prayers/civic-calendar/us-civil-calendar/brotherhood-week/brothers-y-l-peretzs-yiddish-critique-of-friedrich-schillers-ode-to-joy/|title=בּרידער &amp;#124; "Brothers" – Y.L. Peretz's Sardonic Rejoinder to Friedrich Schiller's Paean to Universal Enlightenment, An die Freude (Ode to Joy)|first=Aharon N.|last=Varady|date=22 February 2016|website=opensiddur.org}}&lt;/ref&gt;
+*The instrumental version of the song was played at [[2008 UEFA Champions League final]], after [[Manchester United]] players lifted the trophy.
+* ''[[Neon Genesis Evangelion]]'' character [[Kaworu Nagisa]] is heard humming "Ode to Joy" when he is first introduced.&lt;ref&gt;{{Cite web |last=Osío |first=Sebastián |date=2024-09-21 |title=Evangelion: Kaworu Nagisa's Impact Explained |url=https://gamerant.com/evangelion-why-kaworu-nagisa-is-a-revolutionary-character/ |access-date=2026-05-01 |website=GameRant |language=en}}&lt;/ref&gt;
+
+== Other musical settings ==
+
+Other musical settings of the poem include:
+* [[Christian Gottfried Körner]] (1786)
+* [[Carl Friedrich Zelter]] (1792), for choir and accompaniment, later rewritten for different instrumentations.
+* [[Johann Friedrich Reichardt]] (1796)
+* [[Ludwig-Wilhelm Tepper de Ferguson]] (1796)
+* [[Dalberg|Johann Friedrich Hugo von Dalberg]] (1799)
+* [[Johann Rudolf Zumsteeg]] (1803)
+{{External media|audio1={{YouTube|Eh00oO-ACBI|Schubert's "An die Freude"}}, [[Dietrich Fischer-Dieskau]], [[Gerald Moore]]}}
+* [[Franz Schubert]]'s song "An die Freude", {{D.}} 189, for voice, unison choir and piano. Composed in May 1815, Schubert's setting was first published in 1829 as [[opus number|Op. post.]] 111 No. 1. The [[Franz Schubert's Works|19th century Gesamt-Ausgabe]] included it as a [[lied]] in [[scores:An die Freude, D.189 (Schubert, Franz)|Series XX, Volume 2 (No. 66)]]. The [[New Schubert Edition]] groups it with the [[part song]]s in Series III (Volume 3).&lt;ref&gt;[[Otto Erich Deutsch]] et al. [https://archive.org/stream/FranzSchubert.ThematischesVerzeichnisSeinerWerkeInChronologischerFolge/SchubertDeutsch-verzeichnisDv#page/n151/mode/2up ''Schubert Thematic Catalogue'', German edition 1978 (Bärenreiter), pp. 128–129]&lt;/ref&gt;
+* [[Pyotr Ilyich Tchaikovsky]] (1865), for solo singers, choir and orchestra in a Russian translation
+* [[Pietro Mascagni]] cantata "Alla gioia" (1882), Italian text by [[Andrea Maffei]]
+* "[[Seid umschlungen, Millionen!]]" (1892), waltz by Johann Strauss II
+* [[Z. Randall Stroope]] (2002), for choir and [[four-hand piano]]
+* [[Victoria Poleva]] (2009), for soprano, mixed choir and symphony orchestra
+
+==References==
+&lt;references /&gt;
+
+==External links==
+{{Commons category|Schiller's Ode an die Freude}}
+{{wikisource|Ode to Joy}}
+* {{Wikisourcelang-inline|de|An die Freude (Schiller)}} (1786)
+* {{Wikisourcelang-inline|de|An die Freude (Beethoven)}}
+* [http://www.lieder.net/lieder/get_text.html?TextId=14436 An die Freude] text and translations at [http://www.lieder.net/lieder/ The LiederNet Archive]
+* [https://web.archive.org/web/20160528055805/http://www.schillerinstitute.org/transl/schiller_poem/ode_to_joy.pdf German and English text], [[Schiller Institute]]
+
+{{Symphony No. 9}}
+{{Schubert lieder}}
+{{Authority control}}
+
+[[Category:1785 poems]]
+[[Category:1824 compositions]]
+[[Category:Symphony No. 9 (Beethoven)]]
+[[Category:Peace songs]]
+[[Category:Poetry by Friedrich Schiller]]
+[[Category:Buddhism and Christianity]]
+[[Category:Ode to Joy| ]]</text>
+      <sha1>3p3e56cgt8k7sa051owq5gql3p84nbs</sha1>
+    </revision>
+  </page>
+</mediawiki>

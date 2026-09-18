@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation-ifdo-ca-seymour-runabc-esac-erk30-0625.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=ifdo.ca%2F~seymour%2Frunabc%2Fesac%2Ferk30%2F0625",
+  "kind": "abc",
+  "bytes": 319,
+  "sha256": "786318ccc4a4189282baa7f27779586c182351bf96664703f6190304c6ad469b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-ein-feste-burg-ist-unser-gott-bwv-80.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Ein_feste_Burg_ist_unser_Gott,_BWV_80",
+  "kind": "lilypond",
+  "bytes": 35454,
+  "sha256": "686003d8ae601b13cd0846f0c299edf72ec69fb13466252787d81802eda289bb",
+  "fetched": "2026-09-18"
+ }
+]

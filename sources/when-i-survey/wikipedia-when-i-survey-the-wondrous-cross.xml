@@ -1,0 +1,202 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>When I Survey the Wondrous Cross</title>
+    <ns>0</ns>
+    <id>236903</id>
+    <revision>
+      <id>1344979636</id>
+      <parentid>1344979525</parentid>
+      <timestamp>2026-03-23T17:02:23Z</timestamp>
+      <contributor>
+        <username>EliasTheodoros</username>
+        <id>14221170</id>
+      </contributor>
+      <minor/>
+      <comment>/* =Other uses */ Fixed typo</comment>
+      <origin>1344979636</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9727" sha1="ki6nztbxr4l3w2f7tyh1yvcgs3wxltf" xml:space="preserve">{{Short description|English Christian hymn}}
+{{Infobox musical composition
+| name                = When I Survey the Wondrous Cross
+| type                = 
+| image               = Sandro Botticelli - Christ Carrying the Cross. 1490-1.jpg
+| alt                 = 
+| caption             = ''Christ Carrying the Cross'' (1490–91) by [[Sandro Botticelli]]
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Hymn]]
+| occasion            = 
+| text                = [[Isaac Watts]]
+| language            = 
+| written             = 1707
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Galatians|chapter=6|verse=14}}
+| meter               = 8.8.8.8 [[Long metre|(L.M.)]]
+| melody              = "Rockingham" arranged by [[Edward Miller (musician)|Edward Miller]], "Hamburg" by [[Lowell Mason]], and others
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                = 
+}}
+
+The [[hymn]] "'''When I Survey the Wondrous Cross'''" was written by [[Isaac Watts]], and published in ''Hymns and Spiritual Songs'' in 1707. It is significant for being an innovative departure from the early English hymn style of only using paraphrased [[Bible|biblical]] texts, although the first couplet of the second verse paraphrases [[Epistle to the Galatians|Galatians]] 6:14a and the second couplet of the fourth verse paraphrases Gal. 6:14b. The poetry of "When I survey…" may be seen as English literary [[baroque]].&lt;ref&gt;D. Davie, "Baroque in the Hymn-Book" in D. Wood (ed) ''The Church and the Arts'' (Oxford, 1992), pp. 329–42.&lt;/ref&gt;
+
+==Text==
+[[File:Isaac Watts from NPG.jpg|thumb|Isaac Watts]]
+The second line of the first stanza originally read "Where the young Prince of Glory dy'd".  Watts himself altered that line in the 1709 edition of ''Hymns and Spiritual Songs'', to prevent it from being mistaken as an allusion to [[Prince William, Duke of Gloucester]], the heir to the throne who died at age 11.&lt;ref name="hymnArch"&gt;{{cite web |last1=W. Music |first1=David |title=When I survey the wondrous cross |url=https://www.hymnologyarchive.com/when-i-survey |website=Hymnology Archive}}&lt;/ref&gt;
+
+The hymn's fourth stanza ("His dying crimson...") is commonly omitted in printed versions, a practice that began with [[George Whitefield]] in 1757.&lt;ref&gt;Davie, p. 333.&lt;/ref&gt;
+
+In the final stanza, some modern variations substitute the word "offering" for "present".
+&lt;poem&gt;
+1.  When I survey the wond'rous Cross
+    On which the Prince of Glory dy'd,
+    My richest Gain I count but Loss,
+    And pour Contempt on all my Pride.
+
+2.  Forbid it, Lord, that I should boast,
+    Save in the Death of Christ my God:
+    All the vain Things that charm me most,
+    I sacrifice them to his Blood.
+
+3.  See from his Head, his Hands, his Feet,
+    Sorrow and Love flow mingled down!
+    Did e'er such Love and Sorrow meet,
+    Or Thorns compose so rich a Crown?
+
+4.  His dying Crimson, like a Robe,
+    Spreads o'er his Body on the Tree;
+    Then I am dead to all the Globe,
+    And all the Globe is dead to me.
+
+5.  Were the whole Realm of Nature mine,
+    That were a Present far too small;
+    Love so amazing, so divine,
+    Demands my Soul, my Life, my All.
+&lt;/poem&gt;
+
+{{Wikisource|When I Survey the Wondrous Cross}}
+
+==Musical settings==
+
+The hymn is usually sung to either "Rockingham" or "Hamburg", the former being more closely associated with the text in British and Commonwealth hymnals.&lt;ref&gt;{{cite web |title=Tune: HAMBURG |url=https://hymnary.org/tune/hamburg_mason |website=Hymnary.org |language=en}}&lt;/ref&gt; Another alternative, associated with the text in the 19th and 20th centuries, is "Eucharist" by Isaac B. Woodbury.&lt;!--the writer seems to imply that this is not very used much nowadays, but I don't know if there's another source which states this more directly...--&gt;&lt;ref name="hymnArch"/&gt; Additionally, the hymn is often sung to the tune "[[The Water Is Wide (song)|O Waly Waly]]" (also known as "[[The Water Is Wide (song)|The Water Is Wide]]"&lt;ref&gt;{{cite web |title=Tune: O WALY WALY|url=https://hymnary.org/tune/o_waly_waly|website=hymnary.org}}&lt;/ref&gt; a folk melody of Scottish origin from the 1600-1700s&lt;ref&gt;{{cite web |title=The Water Is Wide | url=https://www.justanothertune.com/html/wateriswide.html|website=justanothertune.com|language=en}}&lt;/ref&gt;). Using this melody for the hymn seems to have become popular since the 1980s.&lt;ref&gt;{{cite web|title=Hymnal archive via archive.org|url=http://www.oremus.org/hymnal/w/w299b.html|website=archive.org|access-date=2025-01-09|archive-date=2011-03-23|archive-url=https://web.archive.org/web/20110323023536/http://www.oremus.org/hymnal/w/w299b.html|url-status=dead}}&lt;/ref&gt;
+
+[[File:Edward Miller by Thomas Hardy.jpg|thumb|Edward Miller]]
+"Rockingham" was written by [[Edward Miller (musician)|Edward Miller]], the son of a stone mason who ran away from home to become a musician, being a flautist in Händel's orchestra. It has long been associated with Watts' text in British and Commonwealth hymnals,&lt;ref name="tuneOrigins"&gt;{{cite web |first=Greg |last=Scheer |title=Crucifixion to the World by the Death of Christ |url=https://hymnary.org/text/when_i_survey_the_wondrous_cross_watts |website=Hymnary.org |language=en}}&lt;/ref&gt; first being associated with the text in the seminal ''[[Hymns Ancient and Modern]]'' (1861),&lt;ref name="hymnArch"/&gt; and appearing again in the 1906 [[English Hymnal]]:&lt;ref&gt;{{cite book |title=The English Hymnal |date=1906 |url=https://en.wikisource.org/wiki/Page:The_English_hymnal_(1906).djvu/179 |chapter=Hymn 107}}&lt;/ref&gt;
+
+&lt;score override_audio="When_I_Survey_Organ.oga"&gt;
+&lt;&lt; &lt;&lt;
+\new Staff { \clef treble \time 3/2 \partial 2 \key d \major \set Staff.midiInstrument = "flute" 
+             \omit Staff.TimeSignature \set Score.tempoHideNote = ##t \override Score.BarNumber #'transparent = ##t
+  \relative c'
+  &lt;&lt; { d2 | fis( g) e | d1 fis2 | a1 b2 | a1 a2 | d1 cis2 | \break
+  b1 a2 | a( g) fis | fis( e) \breathe \bar"||" e | a1 b2 | cis1 a2 |
+  d( fis,) gis | a1 d,2 | g1 fis2 | e1 d2 | d4( e fis2) e | d1 \bar"|." } \\
+  { d2 | d1 cis2 | d1 d2 | d1 d2 | d4( e fis2) e | d( g2.) fis4 |
+  fis2( e) fis | cis1 d2 | d( cis) cis4( b) | a2( e') e4( d) | cis( e a g!) fis( e) |
+  d1 d2 | cis1 d4( cis) | b2.( cis4) d2 | b1 b2 | a( d) cis | d1 } &gt;&gt;
+}
+\new Staff { \clef bass \key d \major \set Staff.midiInstrument = "flute" \omit Staff.TimeSignature
+  \relative c
+  &lt;&lt; { fis2 | a( b) a4( g) | fis1 a2 | a1 g2 | a( fis4 g) a2 | a( g) a |
+  b( cis) d | a1 a2 | a1 e4( d) | cis( e a2) gis | a1 a4( g) |
+  fis2( b) b | a2.( g4) fis2 | g( b) a | g2.( fis4) e2 | fis4( g a2) a4( g) | fis1 } \\
+  { d2 | d( g,) a | d1 d2 | fis1 g2 | fis( d) cis | b1 a2 |
+  g( g') fis | e1 d2 | a1 a2 | a( cis) e | a1 a,2 |
+  b1 e2 | a,1 b2 | &lt;e e,&gt;1 fis,2 | g1 gis2 | a1 a2 | d1 } &gt;&gt;
+}
+&gt;&gt; &gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 2 = 68 }
+&lt;/score&gt;
+
+[[File:Lowell Mason.jpg|thumb|Lowell Mason]]
+"Hamburg" is an adaptation of a plainchant melody by American composer [[Lowell Mason]],&lt;ref name="tuneOrigins"/&gt; and it remains the most frequent pairing in the United States. First written in 1824 and published a year later, it was not set to this text until ''The Sabbath Hymn and Tune Book'' (1859), and even then it did not gain wide traction until late in the 19th century. Paul Westermeyer notes, however, that the tune is sometimes seen as less than an ideal match for the text, and that it is "dull to the analyst, but often appreciated by congregations."&lt;ref name="hymnArch"/&gt;
+
+&lt;score sound="1"&gt;
+\new Staff &lt;&lt;
+\clef treble \key f \major {
+      \time 2/2 \partial 1
+      \relative f' {
+	f2 f4 g | a2 g4 a | bes2 a4 g | a1 \bar"" \break
+        a2 a4 a | bes2 a4 g | f2 e4 f | g1 \bar"" \break
+        f2 f4 g | a2 g4 a | bes2 a4 g | a1 \bar"" \break
+        a2 a4 a | g2 f | g2 a4 g | f1 \bar"" \break
+      }
+    }
+%\new Lyrics \lyricmode {
+%}
+&gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 2 = 54 }
+&lt;/score&gt;
+
+==Other uses==
+*Sung to the [[hymn tune|tune]] 'Rockingham', it has been used for many years by the [[BBC]] to introduce its 7am broadcast on [[Good Friday]].
+*It forms the musical setting for the culmination of a [[passion play]] told in dance choreographed by [[Walter Nicks]], an American [[modern dance]]r.
+*[[Contemporary Christian music|Contemporary Christian worship]] artists [[Matt Redman]] and [[Chris Tomlin]] recorded it as "The Wonderful Cross" for the latter's debut album ''[[The Noise We Make]]'', with an added chorus that follows a markedly contemporary format. Redman, though English, sings the traditional verses to the tune of "Hamburg."
+*[[Showbread (band)|Showbread]], a Christian "Raw Rock" band, used excerpts of the lyrics in their song "The Beginning" from the album [[Nervosa (album)|Nervosa]].
+*The tune is briefly quoted by [[Charles Ives]] in his [[Symphony No. 2 (Ives)]].
+*On their album ''[[Journey into the Morn]]'', Scottish prog rock band [[Iona (band)|Iona]] present a version using the tune [[Amazing Grace]].
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{YouTube|FRgEOtNSG20|"When I Survey the Wondrous Cross"}}, sung by the [[Ely Cathedral]] Choir
+
+{{Hymns and songs for Lent and Passiontide}}
+{{authority control}}
+
+[[Category:Hymns by Isaac Watts]]
+[[Category:1707 works]]
+[[Category:English Christian hymns]]
+[[Category:Passion hymns]]
+[[Category:Songs about Jesus]]
+[[Category:18th-century hymns]]
+[[Category:Hymns in The English Hymnal]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>ki6nztbxr4l3w2f7tyh1yvcgs3wxltf</sha1>
+    </revision>
+  </page>
+</mediawiki>
