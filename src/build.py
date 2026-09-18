@@ -25,8 +25,8 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import songlib
 
-TEMPLATE = os.path.join(HERE, 'player.template.html')
-INDEX = os.path.join(ROOT, 'index.html')
+# index.html and assets/ are hand-written source now; the build only
+# produces data/ and songs/.
 COLLECTIONS = os.path.join(ROOT, 'collections')
 
 
@@ -202,13 +202,46 @@ def main():
         return 1
     out_collections.sort(key=lambda c: (c['order'], c['title']))
 
-    tpl = read_text(TEMPLATE)
-    assert '__COLLECTIONS__' in tpl, 'template lost its __COLLECTIONS__ placeholder'
-    with io.open(INDEX, 'w', encoding='utf-8') as f:
-        f.write(tpl.replace('__COLLECTIONS__',
-                            json.dumps(out_collections, ensure_ascii=False, indent=2)))
+    # Two kinds of output. The manifest is small and always loaded; each
+    # collection's notation and spec text is a separate file the player pulls in
+    # the first time you open that collection. index.html and assets/ are hand
+    # written source and are not touched here.
+    datadir = os.path.join(ROOT, 'data')
+    if not os.path.isdir(datadir):
+        os.makedirs(datadir)
 
-    print('\nbuilt %d collection(s), %d song(s) -> index.html' % (len(out_collections), total))
+    manifest, written = [], []
+    for c in out_collections:
+        payload = {'abc': {}, 'specs': {}}
+        sets_meta = []
+        for s in c['sets']:
+            payload['specs'][s['id']] = s['spec']
+            songs_meta = []
+            for sg in s['songs']:
+                payload['abc'][sg['slug']] = sg['abc']
+                songs_meta.append({k: v for k, v in sg.items() if k != 'abc'})
+            sets_meta.append({'id': s['id'], 'title': s['title'], 'label': s['label'],
+                              'order': s['order'], 'songs': songs_meta})
+        manifest.append({'id': c['id'], 'title': c['title'], 'blurb': c['blurb'],
+                         'order': c['order'], 'sets': sets_meta})
+        path = os.path.join(datadir, c['id'] + '.js')
+        with io.open(path, 'w', encoding='utf-8') as f:
+            f.write(u'window.PS_DATA = window.PS_DATA || {};\n'
+                    u'window.PS_DATA[%s] = %s;\n'
+                    % (json.dumps(c['id']),
+                       json.dumps(payload, ensure_ascii=False, indent=1)))
+        written.append((c['id'], os.path.getsize(path)))
+
+    with io.open(os.path.join(datadir, 'collections.js'), 'w', encoding='utf-8') as f:
+        f.write(u'window.PS_MANIFEST = %s;\n'
+                % json.dumps(manifest, ensure_ascii=False, indent=1))
+
+    man_kb = os.path.getsize(os.path.join(datadir, 'collections.js')) / 1024.0
+    print('\ndata/collections.js  %6.1f KB  (manifest, always loaded)' % man_kb)
+    for cid, size in written:
+        print('data/%-18s %6.1f KB  (loaded when opened)' % (cid + '.js', size / 1024.0))
+
+    print('\nbuilt %d collection(s), %d song(s)' % (len(out_collections), total))
     if failed:
         print('failed: %s' % ', '.join(failed))
         return 1

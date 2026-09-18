@@ -1,0 +1,199 @@
+/* The accent IS the playhead purple, so the thing you follow while a song plays
+   and the thing you click are the same colour. --btn sits a step away from --bg
+   so a bordered button reads as a raised surface rather than a painted outline. */
+:root{
+  --bg:#E9E8EE; --surface:#F5F4F8; --paper:#FCFBF9; --paper-edge:#DBD9E2;
+  --btn:#FFFFFF; --btn-edge:#C4C0D2;
+  --ink:#1B1823; --ink-2:#5A5568; --ink-3:#8B869B;
+  --line:#CBC7D6; --accent:#7C3AED; --accent-soft:rgba(124,58,237,.12);
+  --accent-on:#FFFFFF; --cursor:#7C3AED; --radius:4px;
+}
+/* Day is the default; dark is opt-in via the toggle, never via the OS setting.
+   Dark is a soft neutral grey rather than the near-black it used to be. */
+:root[data-theme="dark"]{
+  --bg:#26242B; --surface:#2F2D36; --paper:#343139; --paper-edge:#413E49;
+  --btn:#3B3843; --btn-edge:#524E5C;
+  --ink:#ECEAF1; --ink-2:#B3AEBE; --ink-3:#8A8598;
+  --line:#474350; --accent:#B98CFF; --accent-soft:rgba(185,140,255,.18);
+  --accent-on:#211F27; --cursor:#C77DFF;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg); color:var(--ink);
+  font:400 15px/1.6 Archivo,"Helvetica Neue",Arial,sans-serif; -webkit-font-smoothing:antialiased}
+.wrap{max-width:980px; margin:0 auto; padding-inline:16px; padding-block:32px 64px}
+
+/* ---------- masthead ---------- */
+/* One line, always: nothing here wraps, and the title is the only thing that
+   gives ground when the window narrows. */
+.masthead{display:flex; align-items:center; gap:14px; flex-wrap:nowrap;
+  border-bottom:1px solid var(--line); padding-bottom:16px}
+h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:600;
+  font-size:clamp(24px,4.4vw,42px); line-height:1.1; margin:0; letter-spacing:-.01em;
+  flex:0 1 auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.masthead .btn{flex:0 0 auto}
+.count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; margin-left:auto; flex:0 1 auto; min-width:0;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.ctl.theme{font-size:12px; color:var(--ink-3); gap:8px; flex:0 0 auto}
+.btn.browse{padding:10px 18px; font-size:14.5px; font-weight:600}
+.seg{display:inline-flex; border:1px solid var(--btn-edge); border-radius:var(--radius);
+  overflow:hidden; background:var(--btn)}
+.seg input{position:absolute; opacity:0; width:0; height:0; pointer-events:none}
+.seg label{padding:6px 11px; font-size:12px; font-weight:500; cursor:pointer; color:var(--ink-2);
+  border-right:1px solid var(--btn-edge); line-height:1.2; user-select:none; white-space:nowrap}
+.seg label:last-child{border-right:0}
+.seg label:hover{color:var(--accent)}
+.seg input:checked + label{background:var(--accent); color:var(--accent-on)}
+.seg input:focus-visible + label{outline:2px solid var(--accent); outline-offset:-2px}
+
+button{font:inherit; color:inherit; cursor:pointer; background:none; border:none}
+.btn{border:1px solid var(--btn-edge); border-radius:var(--radius); background:var(--btn);
+  padding:7px 13px; font-size:13px; font-weight:500; white-space:nowrap;
+  transition:border-color .15s,color .15s; text-decoration:none; display:inline-block}
+.btn:hover{border-color:var(--accent); color:var(--accent)}
+.btn:disabled{opacity:.4; cursor:default}
+.btn:disabled:hover{border-color:var(--btn-edge); color:inherit}
+.btn[aria-pressed="true"]{border-color:var(--accent); color:var(--accent); background:var(--accent-soft)}
+.btn.ghost{padding:6px 11px; font-size:12.5px}
+select{font:inherit; font-size:13px; color:var(--ink); background:var(--btn);
+  border:1px solid var(--btn-edge); border-radius:var(--radius); padding:7px 9px; cursor:pointer}
+select:hover{border-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+/* ---------- song picker ---------- */
+.picker{display:flex; align-items:center; gap:10px; margin-top:18px; flex-wrap:wrap}
+.picker .nav{min-width:66px; font-size:20px; line-height:1; padding:10px 22px; font-weight:600}
+#songsel{flex:1 1 320px; min-width:0; font-size:15px; padding:9px 10px; font-weight:500}
+.where{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px;
+  color:var(--ink-3); letter-spacing:.04em; white-space:nowrap}
+
+/* ---------- transport ---------- */
+.transport{position:sticky; top:0; z-index:20; margin-top:14px;
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:11px 13px; display:flex; flex-direction:column; gap:11px}
+.row{display:flex; align-items:center; gap:9px; flex-wrap:wrap}
+.play{min-width:104px; display:inline-flex; align-items:center; justify-content:center;
+  gap:8px; background:var(--accent); border-color:var(--accent); color:var(--accent-on)}
+.play:hover{color:var(--accent-on); filter:brightness(1.08)}
+.play:disabled{filter:none}
+.play .glyph{font-size:11px; line-height:1}
+a.dl{color:var(--ink)} a.dl:hover{color:var(--accent)}
+a.dl .arrow{color:var(--accent); font-weight:600}
+.ctl{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--ink-2)}
+.ctl input[type=range]{accent-color:var(--accent); width:118px}
+.keygrp{gap:5px}
+.keygrp select{min-width:104px; text-align:center}
+.btn.step{padding:8px 14px; font-size:17px; line-height:1; font-weight:700; min-width:40px}
+.ctl output{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
+  color:var(--ink); font-weight:500; font-variant-numeric:tabular-nums; min-width:50px}
+.barrow{display:flex; align-items:center; gap:12px}
+.barrow .bar-strip{flex:1 1 auto; min-width:0}
+.readout{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
+  color:var(--ink-2); font-variant-numeric:tabular-nums; white-space:nowrap; flex:0 0 auto}
+.readout b{color:var(--ink); font-weight:500}
+
+/* ---------- scrub ---------- */
+.bar-strip{position:relative; height:28px; cursor:pointer; touch-action:none; user-select:none}
+.bar-strip.dragging{cursor:grabbing}
+#track{position:absolute; inset:0; background:var(--bg); border-radius:2px; overflow:hidden}
+#fill{position:absolute; left:0; top:0; bottom:0; width:0;
+  background:var(--accent); opacity:.16; pointer-events:none}
+.tick{position:absolute; top:0; bottom:0; width:1px; background:var(--line); pointer-events:none}
+.tick.period{background:var(--ink-3); opacity:.5}
+#head{position:absolute; top:-3px; bottom:-3px; width:2px; margin-left:-1px;
+  background:var(--ink); pointer-events:none}
+#head::after{content:""; position:absolute; left:-4px; right:-4px; top:-2px; height:6px;
+  background:var(--ink); border-radius:1px}
+.bar-strip:focus-visible{outline:2px solid var(--accent); outline-offset:3px}
+
+/* ---------- score ---------- */
+.sheet{margin-top:20px; background:var(--paper); border:1px solid var(--paper-edge);
+  border-radius:var(--radius); padding:22px 16px 28px}
+#paper{color:var(--ink)}
+#paper svg{max-width:100%; height:auto; display:block}
+#paper svg path{fill:currentColor}
+#paper svg text,#paper svg tspan{fill:currentColor}
+#paper .abcjs-highlight,#paper .abcjs-highlight path,#paper .abcjs-highlight text{
+  fill:var(--cursor) !important}
+/* the playhead is an SVG line INSIDE the score, so it shares the score's
+   coordinate system and stays put when the responsive SVG rescales */
+#paper svg .playhead{stroke:var(--cursor); stroke-width:2.2; opacity:.92;
+  stroke-linecap:round; pointer-events:none}
+.empty{color:var(--ink-3); font-size:13px; font-style:italic; padding:44px 0; text-align:center}
+#audiohost{position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden}
+
+/* ---------- modals ---------- */
+.modal{position:fixed; inset:0; z-index:60; background:rgba(0,0,0,.55);
+  display:flex; align-items:center; justify-content:center; padding:20px}
+.modal[hidden]{display:none}
+.modal-box{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  width:min(880px,100%); max-height:86vh; display:flex; flex-direction:column; overflow:hidden}
+.modal-head{display:flex; align-items:center; gap:14px; padding:14px 16px;
+  border-bottom:1px solid var(--line)}
+.modal-head h2{margin:0; font-family:"Bodoni Moda",Didot,serif; font-weight:400; font-size:22px}
+.modal-head .btn{margin-left:auto}
+#spectext{margin:0; padding:18px 20px; overflow:auto; white-space:pre-wrap; word-break:break-word;
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12px; line-height:1.65;
+  color:var(--ink-2); tab-size:2}
+.dirlist{margin:0; padding:14px; overflow:auto; display:grid; gap:10px;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.dircard{text-align:left; background:var(--bg); border:1px solid var(--line);
+  border-radius:var(--radius); padding:14px 15px; cursor:pointer; display:flex;
+  flex-direction:column; gap:5px; transition:border-color .15s,background .15s}
+.dircard:hover{border-color:var(--accent)}
+.dircard[aria-current="true"]{border-color:var(--accent); background:var(--accent-soft)}
+.dircard .dt{font-weight:600; font-size:16px; display:flex; align-items:center; gap:11px}
+.dircard .dicon{flex:0 0 auto; width:34px; height:34px; display:inline-flex;
+  align-items:center; justify-content:center; border-radius:var(--radius);
+  background:var(--accent-soft); color:var(--accent)}
+.dircard .dicon svg{width:22px; height:22px; display:block}
+.dircard:hover .dicon{background:var(--accent); color:var(--accent-on)}
+.dircard .dn{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px; color:var(--ink-3)}
+.dircard .db{font-size:13px; color:var(--ink-2); line-height:1.45}
+
+@media (max-width:620px){
+  .readout{margin-left:0; width:100%}
+  .ctl input[type=range]{width:96px}
+}
+/* Portrait tablet: the transport wraps to two or three rows, so give the rows
+   room and let the song picker own a full line of its own. */
+@media (max-width:980px){
+  .wrap{padding-block:22px 56px}
+  h1{font-size:26px}
+  .masthead{gap:9px}
+  .masthead h1{font-size:clamp(20px,3.4vw,28px)}
+  .btn.browse{padding:9px 13px; font-size:13.5px}
+  .count{font-size:11.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+         flex:0 1 auto; min-width:0}
+  .picker{gap:8px; flex-wrap:nowrap}
+  .picker .nav{flex:0 0 auto; min-width:84px; padding:11px 16px}
+  #songsel{flex:1 1 auto; min-width:0}
+  .where{flex:0 0 auto}
+  .row{flex-wrap:nowrap; gap:8px}
+  .play{min-width:86px}
+  .keygrp{flex:0 0 auto}
+  .keygrp > span{display:none}
+  .keygrp select{min-width:76px}
+  .ctl.tempo > span{display:none}
+  .ctl input[type=range]{width:92px}
+  .ctl output{min-width:46px; font-size:12px}
+  #pdf{flex:0 0 auto}
+}
+/* Anything driven by a finger gets a 44px-ish target. */
+@media (pointer:coarse){
+  .btn{padding:11px 16px; font-size:14px}
+  .btn.ghost{padding:10px 14px; font-size:13px}
+  select{padding:11px 10px; font-size:14px}
+  .ctl.theme select{padding:8px 8px; font-size:13px}
+  .picker .nav{padding:14px 24px; font-size:22px}
+  .bar-strip{height:38px}
+  .ctl input[type=range]{height:28px}
+  .dircard{padding:16px 17px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important; transition:none !important}}
+@media print{
+  .masthead,.picker,.transport,.modal{display:none}
+  body{background:#fff} .sheet{border:none; background:#fff; margin:0; padding:0}
+  #paper svg .playhead{display:none}
+}
