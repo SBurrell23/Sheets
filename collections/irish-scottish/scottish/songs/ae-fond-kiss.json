@@ -1,0 +1,73 @@
+{
+  "title": "Ae Fond Kiss",
+  "source": "Traditional Scottish air \"Rory Dall's Port\", words by Robert Burns 1791, Scots Musical Museum vol. IV 1792 - public domain",
+  "key": "C",
+  "meter": "6/8",
+  "tempo": 54,
+  "bars": [
+    {
+      "chord": "C",
+      "notes": "C4:3 D4:1 E4:2 E4:4 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:3 F4:1 E4:2 D4:4 E4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C4:3 D4:1 E4:2 E4:4 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:3 F4:1 E4:2 D4:4 [C]C4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C4:3 D4:1 E4:2 E4:4 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:3 F4:1 E4:2 D4:4 E4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C4:3 D4:1 E4:2 E4:4 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:3 F4:1 E4:2 D4:4 [C]C4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 D5:1 E5:2 G4:4 E4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 D5:1 E5:2 [Dm]F4:4 D4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 D5:1 E5:2 [F]A4:3 B4:1 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:3 F4:1 E4:2 D4:4 [C]C4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 D5:1 E5:2 G4:4 E4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 D5:1 E5:2 [Dm]F4:4 D4:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:3 D5:1 E5:2 [F]A4:3 B4:1 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G4:3 F4:1 E4:2 D4:4 [C]C4:2"
+    }
+  ]
+}

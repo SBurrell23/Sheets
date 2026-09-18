@@ -1,0 +1,27 @@
+X:1
+T:Marche Militaire
+C:Franz Schubert, Marche militaire No. 1 in D, D. 733 No. 1 (Op. 51 No. 1), published 1826 - public domain
+M:2/4
+L:1/16
+Q:1/4=126
+K:C clef=treble
+"C"g4 f2e2 | "G"d4 e2d2 | "C"c4 d2e2 | "G"G3A1 G2 z2 |
+"C"g4 f2e2 | "A7"a4 g2e2 | "Dm"f2g1f1 "A"e2f1e1 | "Dm"d1d1e1f1 g1a1b1c'1 |
+"G"d'2d'1d'1 c'2d'2 | "C"e'2f'2 g'4 | "G7"d'2e'2 f'4 | "C"e'2d'2 c'4 |
+"G"d'2d'1d'1 c'2d'2 | "C"e'2f'2 g'4 | "D7"^f2g2 a3b1 | "G"g2d1d1 d2d2 |
+"Dm"f2d1d1 ^c2d2 | "Dm"f2d1d1 ^c2d2 | "Dm"f2d2 f2d2 | "Dm"f2d2 f2d2 |
+"Bb"_B2B1B1 "F"A2B2 | "Bb"c2_B1B1 "F"A2B2 | "F7"c2_B2 "Bb"c2B2 | "F7"c2_B2 "Bb"c2B2 |
+"D7"d4 ^c2=c2 | "Gm"_B4 A2G2 | "D7"^F4 G2A2 | "Gm"G1^F1G1A1 _B2"G7"=B2 |
+"C"c4 B2"C7"_B2 | "F"A4 G2F2 | "C7"E4 F2G2 | "F"F1E1F1G1 A2A1A1 |
+"A7"A4 B2^c2 | "D7"d2e2 f2^f2 | "G"g4 "D7"a1g1a1b1 | "G"g2 z6 |
+"F"c'4 c'4 | "F"c'4 c'4 | "F"c'2_b1a1 "C7"g2a1g1 | "F"f3e1 f1g1a1_b1 |
+"F"c'4 c'4 | "F"c'4 c'4 | "F"d'2e'1f'1 g'2f'1d'1 | "F"c'3c1 f1g1a1_b1 |
+"F"c'4 c'4 | "F"c'4 c'4 | "G7"b2a2 g2f2 | "C"e2g2 c'2e'2 |
+"G7"d'2^c'2 d'2e'2 | "C"c'4 g2g1c'1 | "G7"c'1b1b1a1 a1g1g1f1 | "C"e2g2 c'2e'2 |
+"G7"d'2^c'2 d'2e'2 | "C7"c'4 z4 | "Fm"c4 c4 | "Fm"c4 c4 |
+"Fm"c2_B1c1 "Eb7"_d2_e1d1 | "Ab"c3_B1 _A1B1c1_d1 | "Ab"_e4 e4 | "Ab"_e4 "Db"f4 |
+"Ab"_e2_d1c1 "Eb7"_B2c1d1 | "Ab"c4 z4 | "Fm"c'4 c'4 | "Fm"c'4 c'4 |
+"Fm"c'2_b1c'1 "Eb7"_d'2_e'1d'1 | "Ab"c'3_b1 _a1b1c'1_d'1 | "Ab"_e'4 e'4 | "Ab"_e'4 "Db"f'4 |
+"Fm"c'2_b1_a1 "C7"g2a1g1 | "Fm"f4 z4 | "C7"c4 c4 | "F"c4 c4 |
+"C7"c2e2 g2_b2 | "F"a2d'2 c'4 | "C7"c4 c4 | "F"c2f2 a2c'2 |
+"C7"e'2d'2 _b2g2 | "F"Hf8 |]

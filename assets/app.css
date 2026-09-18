@@ -175,7 +175,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 .dircard .dicon svg{width:22px; height:22px; display:block}
 .dircard:hover .dicon{background:var(--accent); color:var(--accent-on)}
 .dircard .dn{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px; color:var(--ink-3)}
-.dircard .db{font-size:13px; color:var(--ink-2); line-height:1.45}
+.dircard .db{font-size:15px; color:var(--ink-2); line-height:1.5}
 
 @media (max-width:620px){
   .readout{margin-left:0; width:100%}

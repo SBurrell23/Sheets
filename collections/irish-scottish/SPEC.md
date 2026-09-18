@@ -117,10 +117,14 @@ turns up across this repertoire. Write it where the tune has it; do not smooth i
    mistake — add each bar up.
 2. Bars *may* begin with a rest where the tune genuinely rests there. Prefer a struck downbeat,
    but never invent a note, or a pickup, to avoid one.
-3. **Range `E4` to `E6`** — two full octaves. This is deliberately roomy. **Do not bend a melody
-   to the window.** If a phrase sits outside it, move that whole phrase — or the whole strain —
-   by an octave. Only if the tune genuinely will not fit either way should you alter a note, and
-   then say which in your report.
+3. **Range `C4` to `G6`** — just under three octaves. It was `E4`-`E6`, and both walls were
+   corrected after arrangers kept reporting the same two collisions: melodies built from the
+   tonic below middle C upward had to be written a register too high, and climaxes that
+   overshot the ceiling by one or two semitones had to be dropped an octave, which inverts a
+   piece's arch and flattens its loudest strain. **Do not bend a melody to the window.** If a
+   phrase sits outside, move that whole phrase — or the whole strain — by an octave. Only if a
+   piece genuinely will not fit either way should you alter a note, and then say which in your
+   report. The window is now roomy; if it still binds, that is worth reporting too.
 4. **End where the tune ends.** A tonic close held at least a half note is usual and preferred,
    but it is not forced: a modal tune that closes on its own final, or a song that ends on the
    fifth, should be written that way. The validator prints a NOTE rather than an error when the
@@ -137,8 +141,12 @@ serving the tune.
 - In **Am**: `Am`, `Dm`, `Em`, `G`, `C`, `F`, `E7`. For a Dorian tune, `D` and `G`.
 - One chord per bar is the norm; two where the tune clearly moves. Use `[Chord]` for a genuine
   mid-bar change.
-- Do not reharmonise. No secondary-dominant chains, no passing diminished chords — that is
-  ragtime's vocabulary, not this one.
+- **A single secondary dominant is allowed** where the tune's own accidental spells one out —
+  `D7` into `G`, or `E7` into `Am`. The ballads in this collection use them and the chorded
+  sources print them; writing `Dm` instead falsifies the harmony.
+- Otherwise do not reharmonise. No *chains* of secondary dominants, no passing diminished
+  chords — that is ragtime's vocabulary, not this one. And never add a leading-tone dominant
+  to a modal tune: that is the thing that ruins the sound.
 
 ## 8. Check your work — required
 

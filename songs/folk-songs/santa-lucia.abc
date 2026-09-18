@@ -1,0 +1,11 @@
+X:1
+T:Santa Lucia
+C:Teodoro Cottrau, 1849 — public domain
+M:3/4
+L:1/16
+Q:1/4=88
+K:C clef=treble
+"C"G4 G6 c2 | "G7"c2B2 B8 | "F"F4 F6 A2 | "C"A2G2 G8 |
+"A7"E4 A4 G4 | "Dm"G2_G2 F8 | "G7"F4 E4 D4 | "C"A4 G8 |
+"C"e4 d4 c4 | "Dm"B2A2 d8 | "F"d4 c4 A4 | "C"^F2G2 c8 |
+"C"e2c2 c2G2 G2E2 | "Dm"F2d2 d8 | "G7"d4 e6 d2 | "G7"d4 "C"Hc8 |]

@@ -1,0 +1,14 @@
+X:1
+T:Radetzky March
+C:Johann Strauss Sr., Radetzky March, Op. 228, 1848 - public domain
+M:2/2
+L:1/16
+Q:1/2=108
+K:C clef=treble
+"C"c2c2c2 z2 c2c2c2 z2 | "C"e4 d4 c6 B2 | "D7"A2^G2A2B2 c4 d4 | "G7"G4 z8 "C"e2^d2 |
+"C"e2 z2 e2^d2 e2 z2 e2d2 | "C"e2 z2 d2 z2 c2 z2 e2^d2 | "C"e2 z2 e2^d2 e2 z2 e2d2 | "C"e2 z2 a2 z2 g2 z2 g2e2 |
+"F"f2 z2 a2 z2 g2 z2 g2d2 | "C"e2 z2 a2 z2 g2 z2 g2e2 | "G7"d2 z2 b2 z2 c2 z2 a2 z2 | "G7"B4 g2^f2 g2a2g2=f2 |
+"C"c'4 c'2b2 c'4 c'2b2 | "F"c'4 f'4 a4 c'2b2 | "C"c'4 c'2b2 c'4 c'2b2 | "C"c'4 e'4 g4 g1e'1 z2 |
+"C"e'8 d'4 g1f'1 z2 | "F"f'8 e'4 c'1c'1 z2 | "G7"b4 b2a2 g4 f4 | "C"a4 a2g2 f4 e4 |
+"F"C2A2 A8 A2_B2 | "F"c2f2 a4 a4 a4 | "C7"_B8 G1A1 z2 G2A2 | "C7"_B2e2 g8 "F"f4 |
+"Bb"f4 e3d1 d4 d4 | "F"c2f2 a4 a4 a4 | "C7"_B8 B1G1A2 z4 | "F"c2A2 A4 HF8 |]

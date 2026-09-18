@@ -1,0 +1,14 @@
+X:1
+T:Nessun dorma
+C:Giacomo Puccini, Turandot, Act III, 1926 - vocal line - public domain
+M:4/4
+L:1/16
+Q:1/4=56
+K:C clef=treble
+"C"z8 z4 g3g1 | "C"g4 g4 z4 G3G1 | "C"G4 G4 z8 | "C"z4 z2 g2 g2g1g1 g3f1 |
+"C"e4 e4 (3e2e2e2 "E"_e3B1 | "C"c4 c4 b4 b3a1 | "C"g4 g2g2 g2g2 g3f1 | "C"e4 e6 e2 "E"_e3B1 |
+"C"c4 c4- c2 z2 z4 | "G"z2 g2 a2b2 a2g2 a3^f1 | "C"e16 | "Am7"z2 a2 b2c'2 b2a2 b3g1 |
+"D7"^f4 g4 a2a2 b2c'2 | "G/B"d'8 d'4 d'3b1 | "Am7"b8 b2b2 b3g1 | "D7"d8 d4 a3^f1 |
+"G"g4- g2 z2 z8 | "C/G"z8 z2 g2 g3f1 | "C"e2e2 e2g2 b6 a2 | "C"g4 g4 g2e2 "E"_e3B1 |
+"C"c4 c4 z8 | "D7"z8 z2 a2 b2c'2 | "G/B"d'4 d'4 d'2d'2 d'3b1 | "Am7"b4 b4 b2b2 b3g1 |
+"D7"d4 d2d2 d2d2 a3^f1 | "C"g12 e3g1 | "C"c'12 g3e'1 | "G"Hd'16 |]

@@ -1,0 +1,28 @@
+{
+  "title": "Wade in the Water",
+  "source": "African-American spiritual, first published 1901 in New Jubilee Songs as Sung by the Fisk Jubilee Singers — public domain",
+  "key": "Am",
+  "meter": "2/4",
+  "tempo": 63,
+  "bars": [
+    { "chord": "Am", "notes": "A4:4~ A4:1 C5:2 B4:1" },
+    { "chord": "Am", "notes": "C5:2 A4:2 R:4" },
+    { "chord": "E7", "notes": "E5:4~ E5:1 G#5:2 G#5:1" },
+    { "chord": "Am", "notes": "A5:2 G5:2 E5:2 C5:2" },
+
+    { "chord": "Am", "notes": "A4:4~ A4:1 C5:2 B4:1" },
+    { "chord": "Am", "notes": "C5:2 A4:2 R:4" },
+    { "chord": "Am", "notes": "A4:1 C5:1 A4:1 A4:1 A4:1 A4:2 E4:1" },
+    { "chord": "E7", "notes": "G#4:2 [Am]A4:6" },
+
+    { "chord": "Am", "notes": "C5:2 A4:1 A4:1 C5:2 A4:2" },
+    { "chord": "Dm", "notes": "C5:2 D5:2 D5:1 C5:3" },
+    { "chord": "Am", "notes": "A4:1 C5:1 A4:1 A4:1 A4:1 A4:2 E4:1" },
+    { "chord": "E7", "notes": "G#4:2 [Am]A4:4 C5:2" },
+
+    { "chord": "Am", "notes": "C5:1 C5:1 A4:2 C5:2 A4:1 A4:1" },
+    { "chord": "Dm", "notes": "C5:1 C5:1 D5:2 D5:1 C5:3" },
+    { "chord": "Am", "notes": "A4:1 C5:1 A4:1 A4:1 A4:1 A4:2 E4:1" },
+    { "chord": "E7", "notes": "G#4:2 [Am]A4:6" }
+  ]
+}

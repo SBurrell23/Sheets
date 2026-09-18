@@ -1,0 +1,18 @@
+{
+  "title": "Scots Wha Hae",
+  "source": "Traditional Scottish, the air \"Hey Tuttie Tatie\", words by Robert Burns 1793 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 60,
+  "bars": [
+    { "chord": "C",  "notes": "C5:3 C5:1 C5:3 A4:1 C5:3 D5:1 [F]F5:4" },
+    { "chord": "Dm", "notes": "D5:3 D5:1 D5:3 C5:1 D5:2 E5:2 [F]F5:2 G5:2" },
+    { "chord": "F",  "notes": "A5:3 C6:1 G5:3 A5:1 F5:3 G5:1 A5:2 A5:1 G5:1" },
+    { "chord": "Dm", "notes": "F5:1 D5:3 D5:3 C5:1 [C]C5:8" },
+
+    { "chord": "F",  "notes": "A5:3 A5:1 A5:3 G5:1 A5:3 Bb5:1 [C]C6:4" },
+    { "chord": "Gm", "notes": "G5:3 G5:1 G5:3 F5:1 G5:3 A5:1 [Bb]Bb5:4" },
+    { "chord": "F",  "notes": "C6:3 A5:1 G5:3 A5:1 F5:3 G5:1 A5:2 A5:1 G5:1" },
+    { "chord": "Dm", "notes": "F5:1 D5:3 D5:3 C5:1 [C]C5:8" }
+  ]
+}

@@ -5,6 +5,7 @@ A song is a JSON file. Durations are counted in SIXTEENTH NOTES, so a 4/4 bar
 is always exactly 16 units. See SPEC.md for the authoring contract.
 """
 import io, json, os, re
+from fractions import Fraction
 
 BAR_UNITS = 16
 BARS_REQUIRED = 40
@@ -16,10 +17,17 @@ METERS = {
     '4/4': (16, 4, 4, 4),
     '3/4': (12, 4, 3, 4),
     '2/4': (8,  4, 2, 4),
+    '2/2': (16, 8, 2, 2),     # cut time -- marches, overtures, opera choruses
     '6/8': (12, 6, 6, 8),
     '9/8': (18, 6, 9, 8),     # slip jig
     '12/8': (24, 6, 12, 8),   # slow airs, compound four
 }
+
+
+def note_name(m):
+    """MIDI number -> a name the arranger can read back, e.g. 60 -> 'C4'."""
+    return '%s%d' % (['C', 'C#', 'D', 'D#', 'E', 'F',
+                      'F#', 'G', 'G#', 'A', 'A#', 'B'][m % 12], m // 12 - 1)
 
 
 def meter_of(song):
@@ -65,11 +73,14 @@ TOKEN_RE = re.compile(r'^(?:\[([^\]]+)\])?([A-G](?:#|b)?\d|R):(\d+)(~?)$')
 TUPLET_OPEN = '(3'
 TICKS = 3                 # ticks per sixteenth; 3 so a triplet divides exactly
 
-# Playable window: two octaves, E4 to E6. It was G4..C6 -- an 11th -- and that
-# was too tight for transcription: 34 of 96 songs came out spanning EXACTLY 17
-# semitones, the width of the window, which is the signature of melodies pressed
-# flat against both walls rather than a natural distribution.
-MIN_MIDI, MAX_MIDI = 64, 88          # E4 .. E6
+# Playable window: C4 to G6, just under three octaves. It has been widened twice,
+# both times on the same evidence -- a spike of songs spanning EXACTLY the window
+# width, which is the signature of melodies pressed flat against both walls rather
+# than a natural distribution. At G4..C6 (an 11th) it was 34 of 96 songs; at
+# E4..E6 it was 9 of 182. Arrangers reported what each wall cost them: the floor
+# forced tunes built from the tonic below middle C into too high a register, and
+# the ceiling forced octave-up climaxes back down, inverting a piece's arch.
+MIN_MIDI, MAX_MIDI = 60, 91          # C4 .. G6
 STEP_SEMI = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
 
 
@@ -308,9 +319,12 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                 continue
             n = midi(e['step'], e['alter'], e['octave'])
             if not (MIN_MIDI <= n <= MAX_MIDI):
-                E.append('bar %d: %s%s%d is outside the playable range G4-C6'
+                # Name the window from the constants. It has moved twice and the
+                # message was still advertising the original G4-C6, which is the
+                # sort of thing an arranger takes at face value.
+                E.append('bar %d: %s%s%d is outside the playable range %s-%s'
                          % (i, e['step'], '#' if e['alter'] > 0 else ('b' if e['alter'] < 0 else ''),
-                            e['octave']))
+                            e['octave'], note_name(MIN_MIDI), note_name(MAX_MIDI)))
             if e['alter'] and e['step'] not in defaults and e['alter'] != defaults.get(e['step']):
                 pass                                    # chromatic note: allowed, see below
         if any(e['dur'] == 2 for e in evs):
@@ -628,10 +642,17 @@ def to_musicxml(song, swing=False):
               '        <time><beats>%d</beats><beat-type>%d</beat-type></time>\n'
               '        <clef><sign>G</sign><line>2</line></clef></attributes>\n'
               % (fifths, mode, beats, beat_type))
+            # The printed beat unit has to match the ABC header's: a half note in
+            # cut time, a dotted quarter in a compound meter, a plain quarter
+            # otherwise. <sound tempo> is defined in QUARTERS per minute whatever
+            # the printed mark says, so it scales with the beat's own length.
+            unit, dot = {4: ('quarter', ''), 6: ('quarter', '<beat-unit-dot/>'),
+                         8: ('half', '')}[beat]
+            sound = song['tempo'] * beat // 4
             w('      <direction placement="above"><direction-type><metronome>'
-              '<beat-unit>quarter</beat-unit><per-minute>%d</per-minute></metronome>'
+              '<beat-unit>%s</beat-unit>%s<per-minute>%d</per-minute></metronome>'
               '</direction-type><sound tempo="%d"/></direction>\n'
-              % (song['tempo'], song['tempo']))
+              % (unit, dot, song['tempo'], sound))
             if swing:
                 w('      <direction placement="above"><direction-type><words '
                   'font-style="italic">Shuffle &#8212; swing the eighths</words>'
@@ -709,8 +730,14 @@ def to_abc(song, with_title=True, swing=False):
     head = ['X:1']
     if with_title:
         head += ['T:' + song['title'], 'C:' + credit(song)]
+    # The tempo is in BEATS per minute, and in a compound meter the beat is the
+    # dotted quarter -- `beat` is 6 sixteenths there, not 4. Writing Q:1/8 made
+    # the eighth the unit instead, so every 6/8, 9/8 and 12/8 tune played at a
+    # third of its marked speed: a jig marked 120 came out at a dotted quarter of 40.
+    qbeat = Fraction(beat, 16)
     head += ['M:%s' % song.get('meter', '4/4'), 'L:1/16',
-             'Q:1/%d=%d' % (beat_type, song['tempo']), 'K:%s clef=treble' % abckey]
+             'Q:%d/%d=%d' % (qbeat.numerator, qbeat.denominator, song['tempo']),
+             'K:%s clef=treble' % abckey]
 
     lines, rendered = [], []
     for bn, evs in enumerate(bars, start=1):

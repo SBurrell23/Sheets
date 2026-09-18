@@ -3,7 +3,7 @@ T:Lacrimosa
 C:W. A. Mozart, Requiem in D minor K. 626, 1791 - public domain
 M:12/8
 L:1/16
-Q:1/8=63
+Q:3/8=63
 K:Am clef=treble
 "Am"e8 "C"c'2a2 "E7"a6 ^g2 z4 | "Am"e8 "C"c'2a2 "E7"a6 ^g2 z4 | "Am"A2 z4 "E7"B2 z4 "Am"c2 z4 "G7"d2 z4 | "C"e2 z4 "B7"^f2 z4 "Em"g2 z4 "D7"a2 z4 |
 "Gm"_b6 "G7/F"=b6 "C/E"c'6 "C#dim"^c'6 | "D/F#"d'6 "F7"^d'6 "Am/E"e'6 "E7"e2 z4 | "E/G#"e8 f2e2 "Am"e8 c'2a2 | "Bdim"^g8 "E7"a2b2 b6 a6 |

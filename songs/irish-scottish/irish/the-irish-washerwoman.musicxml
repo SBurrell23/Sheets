@@ -14,7 +14,7 @@
         <key><fifths>0</fifths><mode>major</mode></key>
         <time><beats>6</beats><beat-type>8</beat-type></time>
         <clef><sign>G</sign><line>2</line></clef></attributes>
-      <direction placement="above"><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>120</per-minute></metronome></direction-type><sound tempo="120"/></direction>
+      <direction placement="above"><direction-type><metronome><beat-unit>quarter</beat-unit><beat-unit-dot/><per-minute>120</per-minute></metronome></direction-type><sound tempo="180"/></direction>
       <harmony print-frame="no">
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>

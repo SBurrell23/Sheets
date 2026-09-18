@@ -1,0 +1,24 @@
+X:1
+T:Boccherini's Minuet
+C:Luigi Boccherini, Minuet from String Quintet in E major, Op. 11 No. 5 (G. 275), 1771 - public domain
+M:3/4
+L:1/16
+Q:1/4=100
+K:C clef=treble
+"C"c'1b1c'1d'1 | "C"c'2 c4 e4 g2 | "G7"g2f2 f4 f1e1f1g1 | "G7"f2 G4 d4 f2 |
+"C"f2e2 e4 c'3a1 | "D7"g2^f2 f2f2 c'3a1 | "D7"g2^f2 f2f2 c'3a1 | "G"b2g2 "C"e2c'2 "D7"a4 |
+"G"g4 G2 z2 _e3G1 | "G7"d2G2 G2G2 "Cm"c3G1 | "G7"B2G2 G2G2 _e3G1 | "G7"d2G2 G2G2 "Cm"c3G1 |
+"G7"B2G2 G2G2 c'1b1c'1d'1 | "C"c'2 c4 e4 g2 | "G7"g2f2 f4 f1e1f1g1 | "G7"f2 G4 d4 f2 |
+"C"f2e2 e4 "Dm"f3d1 | "G7"c2B2 B2B2 f3d1 | "G7"c2B2 B2B2 f3d1 | "C"e2c2 "F"A2f2 "G7"e4 |
+"C"c4 C2 z2 "F"F2G2 | "F"A2_B2 c2d2 e2f2 | "C7"g2_b1a1 g2g1f1 e2e1d1 | "C7"c2d1e1 f1g1a1_b1 c'2c2 |
+"F"a2c1_B1 A2A1G1 F2 z2 | "F"a2g2 f2e2 d2c2 | "G7"d12 | "C"e2g2 g2f2 "G7"e2d2 |
+"C"c2G2 C2 z2 E2F2 | "C"G2 G4 A2 E2F2 | "C"G2 G4 A2 E2F2 | "C7"G2A2 _B2A2 G2F2 |
+"C"G1F1G1A1 G2c2 E2F2 | "C"G2 G4 A2 E2F2 | "C"G2 G4 A2 E2F2 | "C7"G2A2 _B2A2 c1B1A1G1 |
+"F"A3_B1 c2 z2 z4 | "F"A2_B2 c2d2 e2f2 | "C7"g2_b1a1 g2g1f1 e2e1d1 | "C7"c2d1e1 f1g1a1_b1 c'2c2 |
+"F"a2a1_b1 c'2b2 a2g2 | "F"f2e2 d2c2 _B2A2 | "C7"G2 G4 G4 G2 | "F"A2c2 c2_B2 "C7"A2G2 |
+"F"F2C2 F2 z2 "C"c'1b1c'1d'1 | "C"c'2 c4 e4 g2 | "G7"g2f2 f4 f1e1f1g1 | "G7"f2 G4 d4 f2 |
+"C"f2e2 e4 c'3a1 | "D7"g2^f2 f2f2 c'3a1 | "D7"g2^f2 f2f2 c'3a1 | "G"b2g2 "C"e2c'2 "D7"a4 |
+"G"g4 G2 z2 _e3G1 | "G7"d2G2 G2G2 "Cm"c3G1 | "G7"B2G2 G2G2 _e3G1 | "G7"d2G2 G2G2 "Cm"c3G1 |
+"G7"B2G2 G2G2 c'1b1c'1d'1 | "C"c'2 c4 e4 g2 | "G7"g2f2 f4 f1e1f1g1 | "G7"f2 G4 d4 f2 |
+"C"f2e2 e4 "Dm"f3d1 | "G7"c2B2 B2B2 f3d1 | "G7"c2B2 B2B2 f3d1 | "C"e2c2 "F"A2f2 "G7"e4 |
+"C"c4 C2 z2 Hz4 |]

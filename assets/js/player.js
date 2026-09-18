@@ -89,6 +89,16 @@
     if (flat.length) select(0);
   }
 
+  /* The tempo is in BEATS per minute, and the beat is not always a quarter: it is a
+     dotted quarter in a compound meter and a half note in cut time. This label printed
+     a quarter note for everything, which understated a cut-time march by 2x and a jig
+     by 3x against the mark engraved on the score it sits above. */
+  function beatMark(meter) {
+    if (meter === "2/2") return "\uD834\uDD5E";              // half note
+    if (/\/8$/.test(meter || "")) return "\u2669.";           // dotted quarter
+    return "\u2669";                                        // quarter
+  }
+
   function buildSongList() {
     var sel = $("songsel");
     sel.innerHTML = "";
@@ -107,7 +117,8 @@
         var o = document.createElement("option");
         o.value = String(n++);
         o.textContent = sg.title + "   ·   " + sg.key + "  ·  " + sg.meter +
-                        "  ·  " + sg.bars + " bars  ·  ♩ " + sg.tempo;
+                        "  ·  " + sg.bars + " bars  ·  " + beatMark(sg.meter) +
+                        " " + sg.tempo;
         parent.appendChild(o);
       });
     });

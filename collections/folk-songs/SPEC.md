@@ -93,11 +93,14 @@ music holds. Use one wherever the music genuinely sustains. Neither is capped. W
    common mistake — add each bar up.
 2. Bars *may* begin with a rest where the tune genuinely rests there. Prefer a struck downbeat,
    but never invent a note — or a pickup the tune has not got — just to avoid one.
-3. **Range `E4` to `E6`** — two full octaves. This is deliberately roomy: the old `G4`–`C6`
-   window was an 11th, and melodies were coming back bent to fit it. **Do not bend a melody to
-   the window.** If a phrase sits outside, move that whole phrase — or the whole strain — by an
-   octave. Only if a piece genuinely will not fit either way should you alter a note, and then
-   say which in your report.
+3. **Range `C4` to `G6`** — just under three octaves. It was `E4`-`E6`, and both walls were
+   corrected after arrangers kept reporting the same two collisions: melodies built from the
+   tonic below middle C upward had to be written a register too high, and climaxes that
+   overshot the ceiling by one or two semitones had to be dropped an octave, which inverts a
+   piece's arch and flattens its loudest strain. **Do not bend a melody to the window.** If a
+   phrase sits outside, move that whole phrase — or the whole strain — by an octave. Only if a
+   piece genuinely will not fit either way should you alter a note, and then say which in your
+   report. The window is now roomy; if it still binds, that is worth reporting too.
 4. **End where the song ends.** A tonic close held at least a half note is the usual and
    preferred ending, but it is not forced: if the tune genuinely closes elsewhere, write that.
    Do not manufacture a held tonic the song has not got. The validator prints a NOTE rather than
@@ -111,6 +114,10 @@ Keep it simple and traditional — the harmony a folk guitarist or a parlour pia
 
 - In **C**: mostly `C`, `F`, `G` and `G7`, with `Am`, `Dm` and `Em` where the tune asks for them.
 - In **Am**: mostly `Am`, `Dm`, `E7` and `G`, with `C` and `F`.
+- **A single secondary dominant is allowed** where the tune's own accidental spells one out —
+  `D7` into `G`, or `E7` into `Am`. Victorian parlour songs are full of them and printing `Dm`
+  instead is a worse lie than the rule was preventing. What stays banned is a *chain* of them,
+  and adding one the melody does not ask for.
 - One chord per bar is the norm. Two is fine where the tune clearly changes mid-bar — use the
   `[Chord]` marker for the second one.
 - A `G7` before the final `C` is almost always right.
@@ -135,7 +142,36 @@ you know. Ask specifically:
 
 A file that passes the validator but does not sound like the song has failed the task.
 
-## 7. Public domain
+## 7. Method
+
+**Do not work from memory alone.** Memory is where wrong fourth phrases and smoothed-out
+dotted rhythms come from. Almost every tune in this collection exists somewhere in a
+machine-readable form; find two or three settings, compare them, take the majority reading
+where they differ, and transpose into C or A minor.
+
+Ranked by how well they have actually worked on this project:
+
+1. **abcnotation.com** — mirrors the Digital Tradition, Musica Viva, John Chambers, Paul
+   Hardy and tunearch collections. The strongest single source for folk and traditional tune.
+2. **thesession.org** — several ABC settings per tune, so they cross-check each other.
+   WebFetch gets a 403 here; `curl` with a browser user-agent works. Add `?format=json`.
+3. **Wikipedia raw wikitext** — many song articles carry a LilyPond `<score>` block holding
+   the notated tune. Fetch `en.wikipedia.org/wiki/Special:Export/<Article>`.
+4. **Mutopia Project LilyPond** and **Humdrum `**kern`** editions, for anything with a
+   printed composer — the Foster songs, the parlour songs, the marches.
+5. **Notation-derived MIDI** (8notes, flutetunes, mfiles, Wikimedia Commons), parsed with a
+   throwaway Python SMF reader, recovers exact pitch and rhythm. Check first that it is
+   notation-derived and not a performance capture: a piano-roll MIDI is neither quantised
+   nor single-voice and is not a usable source.
+6. **Page scans** (archive.org, the Library of Congress, IMSLP) — last resort. Form,
+   rhythms, rests and key signatures are readable; note heads usually are not.
+
+**Say in your report which sources you used and where they disagreed.** If a threshold in
+this spec forced you to write something other than what the sources show, say that too, in
+those words. That is how several rules in this spec got fixed; a silent compromise is worse
+than a reported one.
+
+## 8. Public domain
 
 Only arrange the melody you were asked for, and only because it is old enough to be in the
 public domain. Do not substitute a modern song, and do not copy any particular modern

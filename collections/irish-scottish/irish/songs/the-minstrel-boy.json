@@ -1,0 +1,31 @@
+{
+  "title": "The Minstrel Boy",
+  "source": "Traditional Irish, the air \"The Moreen\"; Thomas Moore's words, A Selection of Irish Melodies, 1813 - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 92,
+  "pickup": 4,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4" },
+
+    { "chord": "C",  "notes": "C5:6 D5:2 F5:2 E5:2 D5:2 C5:2" },
+    { "chord": "C",  "notes": "E5:4 G5:4 [Am]C6:4 B5:2 C6:2" },
+    { "chord": "F",  "notes": "A5:4 G5:4 [C]E5:3 F5:1 G5:2 E5:2" },
+    { "chord": "G7", "notes": "D5:8 [C]C5:4 G4:4" },
+
+    { "chord": "C",  "notes": "C5:6 D5:2 F5:2 E5:2 D5:2 C5:2" },
+    { "chord": "C",  "notes": "E5:4 G5:4 [Am]C6:4 B5:2 C6:2" },
+    { "chord": "F",  "notes": "A5:4 G5:4 [C]E5:3 F5:1 G5:2 E5:2" },
+    { "chord": "G7", "notes": "D5:8 [C]C5:4 R:4" },
+
+    { "chord": "Am", "notes": "C6:4 B5:4 A5:4 B5:2 C6:2" },
+    { "chord": "G",  "notes": "B5:4 A5:4 G5:6 [E7]G#5:2" },
+    { "chord": "Am", "notes": "A5:6 E5:2 E5:4 [E7]G#5:4" },
+    { "chord": "Am", "notes": "A5:6 B5:2 [C]C6:4 C6:4" },
+
+    { "chord": "C",  "notes": "C5:6 D5:2 F5:2 E5:2 D5:2 C5:2" },
+    { "chord": "C",  "notes": "E5:4 G5:4 [Am]C6:4 B5:2 C6:2" },
+    { "chord": "F",  "notes": "A5:4 G5:4 [C]E5:3 F5:1 G5:2 E5:2" },
+    { "chord": "G7", "notes": "D5:8 [C]C5:8" }
+  ]
+}

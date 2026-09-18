@@ -2,7 +2,7 @@ window.PS_MANIFEST = [
  {
   "id": "folk-songs",
   "title": "Folk Songs",
-  "blurb": "Traditional and early-popular melodies that are in the public domain, arranged as beginner-intermediate lead sheets. Written in C or A minor; use the Key control to transpose any of them.",
+  "blurb": "Traditional folk songs and old favourites everyone knows. Shortened and simplified.",
   "order": 1,
   "sets": [
    {
@@ -42,6 +42,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/america-the-beautiful.pdf"
      },
      {
+      "slug": "arkansas-traveler",
+      "title": "Arkansas Traveler",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 17,
+      "source": "Traditional American fiddle tune, published 1847 - public domain",
+      "pdf": "songs/folk-songs/arkansas-traveler.pdf"
+     },
+     {
       "slug": "auld-lang-syne",
       "title": "Auld Lang Syne",
       "key": "C",
@@ -70,6 +80,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Traditional — tune \"Glory Hallelujah\"/\"John Brown's Body\", 1856; words Julia Ward Howe, 1862 — public domain",
       "pdf": "songs/folk-songs/battle-hymn-of-the-republic.pdf"
+     },
+     {
+      "slug": "beautiful-dreamer",
+      "title": "Beautiful Dreamer",
+      "key": "C",
+      "meter": "9/8",
+      "tempo": 60,
+      "bars": 18,
+      "source": "Stephen Foster, published 1864 - public domain",
+      "pdf": "songs/folk-songs/beautiful-dreamer.pdf"
      },
      {
       "slug": "billy-boy",
@@ -192,6 +212,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/greensleeves.pdf"
      },
      {
+      "slug": "hard-times-come-again-no-more",
+      "title": "Hard Times Come Again No More",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 17,
+      "source": "Stephen Foster, 1854 — public domain",
+      "pdf": "songs/folk-songs/hard-times-come-again-no-more.pdf"
+     },
+     {
       "slug": "home-on-the-range",
       "title": "Home on the Range",
       "key": "C",
@@ -282,6 +312,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/my-bonnie.pdf"
      },
      {
+      "slug": "nobody-knows-the-trouble-ive-seen",
+      "title": "Nobody Knows the Trouble I've Seen",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 16,
+      "source": "African-American spiritual, first published in Slave Songs of the United States, 1867 — public domain",
+      "pdf": "songs/folk-songs/nobody-knows-the-trouble-ive-seen.pdf"
+     },
+     {
       "slug": "clementine",
       "title": "Oh My Darling Clementine",
       "key": "C",
@@ -302,6 +342,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/oh-susanna.pdf"
      },
      {
+      "slug": "on-top-of-old-smoky",
+      "title": "On Top of Old Smoky",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 120,
+      "bars": 9,
+      "source": "Traditional (Appalachian) — collected by Cecil Sharp and Maud Karpeles from Memory Shelton, Madison County, North Carolina, 29 July 1916 — public domain",
+      "pdf": "songs/folk-songs/on-top-of-old-smoky.pdf"
+     },
+     {
       "slug": "polly-wolly-doodle",
       "title": "Polly Wolly Doodle",
       "key": "C",
@@ -320,6 +370,16 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Traditional (American), 1890s — public domain",
       "pdf": "songs/folk-songs/red-river-valley.pdf"
+     },
+     {
+      "slug": "santa-lucia",
+      "title": "Santa Lucia",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 88,
+      "bars": 16,
+      "source": "Teodoro Cottrau, 1849 — public domain",
+      "pdf": "songs/folk-songs/santa-lucia.pdf"
      },
      {
       "slug": "scarborough-fair",
@@ -352,6 +412,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/shenandoah.pdf"
      },
      {
+      "slug": "shine-on-harvest-moon",
+      "title": "Shine On, Harvest Moon",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 33,
+      "source": "Nora Bayes & Jack Norworth, 1908 — public domain",
+      "pdf": "songs/folk-songs/shine-on-harvest-moon.pdf"
+     },
+     {
       "slug": "simple-gifts",
       "title": "Simple Gifts",
       "key": "C",
@@ -380,6 +450,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Traditional New Zealand whaling song, c.1860s-70s - public domain",
       "pdf": "songs/folk-songs/wellerman.pdf"
+     },
+     {
+      "slug": "streets-of-laredo",
+      "title": "Streets of Laredo",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 108,
+      "bars": 17,
+      "source": "Traditional American cowboy ballad (The Cowboy's Lament), first printed in John A. Lomax, Cowboy Songs and Other Frontier Ballads, 1910 — public domain",
+      "pdf": "songs/folk-songs/streets-of-laredo.pdf"
      },
      {
       "slug": "sweet-betsy-from-pike",
@@ -482,6 +562,36 @@ window.PS_MANIFEST = [
       "pdf": "songs/folk-songs/turkey-in-the-straw.pdf"
      },
      {
+      "slug": "wade-in-the-water",
+      "title": "Wade in the Water",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 63,
+      "bars": 16,
+      "source": "African-American spiritual, first published 1901 in New Jubilee Songs as Sung by the Fisk Jubilee Singers — public domain",
+      "pdf": "songs/folk-songs/wade-in-the-water.pdf"
+     },
+     {
+      "slug": "wayfaring-stranger",
+      "title": "Wayfaring Stranger",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 17,
+      "source": "Traditional American folk hymn, 19th century — public domain",
+      "pdf": "songs/folk-songs/wayfaring-stranger.pdf"
+     },
+     {
+      "slug": "when-johnny-comes-marching-home",
+      "title": "When Johnny Comes Marching Home",
+      "key": "Am",
+      "meter": "6/8",
+      "tempo": 112,
+      "bars": 17,
+      "source": "Patrick S. Gilmore (as \"Louis Lambert\"), 1863 — public domain",
+      "pdf": "songs/folk-songs/when-johnny-comes-marching-home.pdf"
+     },
+     {
       "slug": "when-the-saints",
       "title": "When the Saints Go Marching In",
       "key": "C",
@@ -490,6 +600,16 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Traditional American spiritual — public domain",
       "pdf": "songs/folk-songs/when-the-saints.pdf"
+     },
+     {
+      "slug": "yankee-doodle",
+      "title": "Yankee Doodle",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 120,
+      "bars": 16,
+      "source": "Traditional, 18th century — public domain",
+      "pdf": "songs/folk-songs/yankee-doodle.pdf"
      }
     ]
    }
@@ -498,7 +618,7 @@ window.PS_MANIFEST = [
  {
   "id": "classical",
   "title": "Classical",
-  "blurb": "Famous classical themes in the public domain, reduced to beginner-intermediate lead sheets. Written in C or A minor; use the Key control to transpose.",
+  "blurb": "Famous classical themes by composers like Bach & Chopin. Shortened and simplified.",
   "order": 2,
   "sets": [
    {
@@ -556,6 +676,16 @@ window.PS_MANIFEST = [
       "bars": 21,
       "source": "Jacques Offenbach, Barcarolle (Belle nuit, ô nuit d'amour) from The Tales of Hoffmann, 1881 - public domain",
       "pdf": "songs/classical/barcarolle.pdf"
+     },
+     {
+      "slug": "boccherini-minuet",
+      "title": "Boccherini's Minuet",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 65,
+      "source": "Luigi Boccherini, Minuet from String Quintet in E major, Op. 11 No. 5 (G. 275), 1771 - public domain",
+      "pdf": "songs/classical/boccherini-minuet.pdf"
      },
      {
       "slug": "brahms-lullaby",
@@ -698,6 +828,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/hallelujah-chorus.pdf"
      },
      {
+      "slug": "humoresque",
+      "title": "Humoresque",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 112,
+      "bars": 56,
+      "source": "Antonin Dvorak, Humoresque Op. 101 No. 7, 1894 - public domain",
+      "pdf": "songs/classical/humoresque.pdf"
+     },
+     {
       "slug": "hungarian-dance-5",
       "title": "Hungarian Dance No. 5",
       "key": "Am",
@@ -788,6 +928,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/liebestraum.pdf"
      },
      {
+      "slug": "marche-militaire",
+      "title": "Marche Militaire",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 126,
+      "bars": 78,
+      "source": "Franz Schubert, Marche militaire No. 1 in D, D. 733 No. 1 (Op. 51 No. 1), published 1826 - public domain",
+      "pdf": "songs/classical/marche-militaire.pdf"
+     },
+     {
       "slug": "minuet-in-g",
       "title": "Minuet in G",
       "key": "C",
@@ -816,6 +966,26 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Edvard Grieg, Peer Gynt, Op. 23, 1875 - public domain",
       "pdf": "songs/classical/morning-mood.pdf"
+     },
+     {
+      "slug": "nessun-dorma",
+      "title": "Nessun dorma",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 56,
+      "bars": 28,
+      "source": "Giacomo Puccini, Turandot, Act III, 1926 - vocal line - public domain",
+      "pdf": "songs/classical/nessun-dorma.pdf"
+     },
+     {
+      "slug": "nimrod",
+      "title": "Nimrod",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 52,
+      "bars": 43,
+      "source": "Edward Elgar, Variation IX from the Enigma Variations, Op. 36, 1899 - public domain",
+      "pdf": "songs/classical/nimrod.pdf"
      },
      {
       "slug": "nocturne-op9-no2",
@@ -876,6 +1046,26 @@ window.PS_MANIFEST = [
       "bars": 35,
       "source": "J.S. Bach, Prelude No. 1 in C, The Well-Tempered Clavier Book I, BWV 846, 1722 - public domain",
       "pdf": "songs/classical/bach-prelude-in-c.pdf"
+     },
+     {
+      "slug": "radetzky-march",
+      "title": "Radetzky March",
+      "key": "C",
+      "meter": "2/2",
+      "tempo": 108,
+      "bars": 28,
+      "source": "Johann Strauss Sr., Radetzky March, Op. 228, 1848 - public domain",
+      "pdf": "songs/classical/radetzky-march.pdf"
+     },
+     {
+      "slug": "ride-of-the-valkyries",
+      "title": "Ride of the Valkyries",
+      "key": "Am",
+      "meter": "9/8",
+      "tempo": 100,
+      "bars": 22,
+      "source": "Richard Wagner, Die Walküre, Act III prelude, 1870 - public domain",
+      "pdf": "songs/classical/ride-of-the-valkyries.pdf"
      },
      {
       "slug": "handel-sarabande",
@@ -998,6 +1188,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/blue-danube.pdf"
      },
      {
+      "slug": "great-gate-of-kiev",
+      "title": "The Great Gate of Kiev",
+      "key": "C",
+      "meter": "2/2",
+      "tempo": 66,
+      "bars": 16,
+      "source": "Modest Mussorgsky, Pictures at an Exhibition, 1874 - public domain",
+      "pdf": "songs/classical/great-gate-of-kiev.pdf"
+     },
+     {
       "slug": "the-swan",
       "title": "The Swan",
       "key": "C",
@@ -1026,6 +1226,16 @@ window.PS_MANIFEST = [
       "bars": 12,
       "source": "J.S. Bach, Toccata and Fugue in D minor, BWV 565, c.1704 - public domain",
       "pdf": "songs/classical/toccata-and-fugue.pdf"
+     },
+     {
+      "slug": "toreador-song",
+      "title": "Toreador Song",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 12,
+      "source": "Georges Bizet, Toreador Song from Carmen, 1875 - public domain",
+      "pdf": "songs/classical/toreador-song.pdf"
      },
      {
       "slug": "trepak",
@@ -1124,7 +1334,7 @@ window.PS_MANIFEST = [
  {
   "id": "ragtime",
   "title": "Ragtime & Blues",
-  "blurb": "Ragtime, early blues and New Orleans jazz in the public domain, arranged as lead sheets. Full arrangements: every distinct strain, not just the famous one. Written in C or A minor; use the Key control to transpose.",
+  "blurb": "Ragtime, early blues and New Orleans jazz. Every strain, not just the famous one.",
   "order": 3,
   "sets": [
    {
@@ -1426,7 +1636,7 @@ window.PS_MANIFEST = [
  {
   "id": "irish-scottish",
   "title": "Irish & Scottish",
-  "blurb": "Traditional Irish and Scottish airs, jigs and ballads in the public domain, arranged as lead sheets. Written in C or A minor; use the Key control to transpose.",
+  "blurb": "Airs, jigs and ballads from Ireland and Scotland. Shortened and simplified.",
   "order": 4,
   "sets": [
    {
@@ -1476,6 +1686,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/irish-scottish/irish/ill-tell-me-ma.pdf"
      },
      {
+      "slug": "morrisons-jig",
+      "title": "Morrison's Jig",
+      "key": "Am",
+      "meter": "6/8",
+      "tempo": 120,
+      "bars": 16,
+      "source": "Traditional Irish double jig, also \"Maurice Carmody's Favourite\" / \"The Stick Across the Hob\" - public domain",
+      "pdf": "songs/irish-scottish/irish/morrisons-jig.pdf"
+     },
+     {
       "slug": "she-moved-through-the-fair",
       "title": "She Moved Through the Fair",
       "key": "C",
@@ -1494,6 +1714,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Traditional Irish, tune also known as \"Dives and Lazarus\" and as the hymn tune \"Kingsfold\" — public domain",
       "pdf": "songs/irish-scottish/irish/star-of-the-county-down.pdf"
+     },
+     {
+      "slug": "the-butterfly",
+      "title": "The Butterfly",
+      "key": "Am",
+      "meter": "9/8",
+      "tempo": 126,
+      "bars": 12,
+      "source": "Traditional Irish slip jig, also \"Barney's Goat\" — public domain",
+      "pdf": "songs/irish-scottish/irish/the-butterfly.pdf"
      },
      {
       "slug": "the-foggy-dew",
@@ -1516,6 +1746,26 @@ window.PS_MANIFEST = [
       "pdf": "songs/irish-scottish/irish/the-irish-washerwoman.pdf"
      },
      {
+      "slug": "the-last-rose-of-summer",
+      "title": "The Last Rose of Summer",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 72,
+      "bars": 17,
+      "source": "Traditional Irish — the air \"Aisling an Óigfhear\" (The Young Man's Dream), also printed as The Groves of Blarney; words by Thomas Moore, 1813 — public domain",
+      "pdf": "songs/irish-scottish/irish/the-last-rose-of-summer.pdf"
+     },
+     {
+      "slug": "the-minstrel-boy",
+      "title": "The Minstrel Boy",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 92,
+      "bars": 17,
+      "source": "Traditional Irish, the air \"The Moreen\"; Thomas Moore's words, A Selection of Irish Melodies, 1813 - public domain",
+      "pdf": "songs/irish-scottish/irish/the-minstrel-boy.pdf"
+     },
+     {
       "slug": "the-parting-glass",
       "title": "The Parting Glass",
       "key": "Am",
@@ -1534,6 +1784,16 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Traditional Irish slip jig, also \"The Rocky Road\" — public domain",
       "pdf": "songs/irish-scottish/irish/rocky-road-to-dublin.pdf"
+     },
+     {
+      "slug": "the-rose-of-tralee",
+      "title": "The Rose of Tralee",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 92,
+      "bars": 33,
+      "source": "Traditional Irish, music by Charles William Glover, words by C. Mordaunt Spencer, London 1845 - public domain",
+      "pdf": "songs/irish-scottish/irish/the-rose-of-tralee.pdf"
      },
      {
       "slug": "the-wild-rover",
@@ -1572,6 +1832,16 @@ window.PS_MANIFEST = [
       "bars": 33,
       "source": "Traditional Scottish air \"Low Down in the Broom\", words by Robert Burns 1794 - public domain",
       "pdf": "songs/irish-scottish/scottish/a-red-red-rose.pdf"
+     },
+     {
+      "slug": "ae-fond-kiss",
+      "title": "Ae Fond Kiss",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 54,
+      "bars": 16,
+      "source": "Traditional Scottish air \"Rory Dall's Port\", words by Robert Burns 1791, Scots Musical Museum vol. IV 1792 - public domain",
+      "pdf": "songs/irish-scottish/scottish/ae-fond-kiss.pdf"
      },
      {
       "slug": "annie-laurie",
@@ -1624,6 +1894,36 @@ window.PS_MANIFEST = [
       "pdf": "songs/irish-scottish/scottish/scotland-the-brave.pdf"
      },
      {
+      "slug": "scots-wha-hae",
+      "title": "Scots Wha Hae",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 60,
+      "bars": 8,
+      "source": "Traditional Scottish, the air \"Hey Tuttie Tatie\", words by Robert Burns 1793 - public domain",
+      "pdf": "songs/irish-scottish/scottish/scots-wha-hae.pdf"
+     },
+     {
+      "slug": "the-campbells-are-coming",
+      "title": "The Campbells Are Coming",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 112,
+      "bars": 17,
+      "source": "Traditional Scottish march, \"Baile Ionaraora\" / \"The Inveraray Wedding\", printed by 1782 - public domain",
+      "pdf": "songs/irish-scottish/scottish/the-campbells-are-coming.pdf"
+     },
+     {
+      "slug": "the-dashing-white-sergeant",
+      "title": "The Dashing White Sergeant",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 160,
+      "bars": 25,
+      "source": "Traditional Scottish, music by Henry Bishop c.1826, now the standard country-dance reel - public domain",
+      "pdf": "songs/irish-scottish/scottish/the-dashing-white-sergeant.pdf"
+     },
+     {
       "slug": "skye-boat-song",
       "title": "The Skye Boat Song",
       "key": "C",
@@ -1632,6 +1932,16 @@ window.PS_MANIFEST = [
       "bars": 24,
       "source": "Traditional Scottish, \"Over the Sea to Skye\", a Gaelic rowing air, 1884 - public domain",
       "pdf": "songs/irish-scottish/scottish/skye-boat-song.pdf"
+     },
+     {
+      "slug": "will-ye-no-come-back-again",
+      "title": "Will Ye No Come Back Again?",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 16,
+      "source": "Traditional Scottish Jacobite song, \"Bonnie Charlie\", words by Lady Nairne, air attributed to Niel Gow jr. - public domain",
+      "pdf": "songs/irish-scottish/scottish/will-ye-no-come-back-again.pdf"
      },
      {
       "slug": "ye-banks-and-braes",

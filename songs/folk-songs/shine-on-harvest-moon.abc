@@ -1,0 +1,16 @@
+X:1
+T:Shine On, Harvest Moon
+C:Nora Bayes & Jack Norworth, 1908 — public domain
+M:4/4
+L:1/16
+Q:1/4=108
+K:C clef=treble
+"Am"e4 | "Am"e3^d1 e3d1 e3d1 e3d1 | "Am"e4 c2 A6 A2B2 | "Am"c4 e4 c4 A4 |
+"E7"e16 | "Am"e3^d1 e3d1 e3d1 e3d1 | "Am"e4 c2 A6 e4 | "D7"d12 e4 |
+"G7"d16 | "G7"f3e1 f3e1 f3e1 f3e1 | "G7"f4 d4 A4 B4 | "C"c8- c3G1 c3e1 |
+"C"g16 | "D7"d3e1 ^f3d1 "G"e8 | "D7"d3e1 ^f3d1 "G"e8 | "Am"e3^d1 e3f1 "D7"^f3=f1 ^f3=d1 |
+"G7"g12 e4 | "A7"f8 e8 | "A7"f4 e4 ^c4 A4 | "D7"^F8- F3=F1 ^F3e1 |
+"D7"d12 z4 | "G7"e12 d4 | "G7"e4 d2 g4 e2 d4 | "C"c3A1 G3A1 c3A1 G3A1 |
+"C"c3A1 G3c1- c4 z4 | "A7"f8 e8 | "A7"f4 e4 ^c4 A4 | "D7"^F8- F3=F1 ^F3e1 |
+"D7"d12 d4 | "G7"e8 d8 | "G7"e6 d2 g4 e4 | "C"c6 G2 "F"A2G2 A4 |
+"C"Hc12 |]

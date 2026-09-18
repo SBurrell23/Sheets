@@ -52,7 +52,7 @@ window.PS = window.PS || {};
     // One set, so the player draws a flat list with no optgroups.
     merged = [{
       id: ALL_ID, title: "All Songs", order: -1,
-      blurb: "Every song on the site, from every collection, in one alphabetical list.",
+      blurb: "Every song on the site, in one alphabetical list.",
       sets: [{ id: ALL_ID, title: "", label: "", order: 0, songs: songs }]
     }].concat(real);
     return merged;

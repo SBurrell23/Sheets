@@ -1,0 +1,10 @@
+X:1
+T:Toreador Song
+C:Georges Bizet, Toreador Song from Carmen, 1875 - public domain
+M:4/4
+L:1/16
+Q:1/4=108
+K:C clef=treble
+"C"g4 a3g1 e4 z2 e2 | "C"e3d1 e3f1 e6 z2 | "G7"f4 d3g1 "C"e6 z2 | "D7"c4 A3d1 "G7"G6 z2 |
+"Dm"d8 d2a2 g2f2 | "C"e2d2 e2f2 e6 z2 | "Em"B4 e4 "B7"e4 ^d2^f2 | "Em"b16 |
+"Dm"b2(3a1b1a1 ^g2a2 d2e2 f4 | "C"z2 (3e1f1e1 c2a2 g6 z2 | "G7"z2 (3c1d1c1 G2 f4 e2 d4 | "C"c6 z2 Hz8 |]

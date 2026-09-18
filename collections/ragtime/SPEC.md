@@ -138,11 +138,14 @@ must not do is let a bar come out to the wrong length.
 2. Bars *may* begin with a rest where the piece genuinely rests there — common in a blues
    response phrase. Prefer a struck downbeat, but never invent a note, or a pickup the piece
    has not got, just to avoid one.
-3. **Range `E4` to `E6`** — two full octaves. This is deliberately roomy: the old `G4`–`C6`
-   window was an 11th, and melodies were coming back bent to fit it. **Do not bend a melody to
-   the window.** If a phrase sits outside, move that whole phrase — or the whole strain — by an
-   octave. Only if a piece genuinely will not fit either way should you alter a note, and then
-   say which in your report.
+3. **Range `C4` to `G6`** — just under three octaves. It was `E4`-`E6`, and both walls were
+   corrected after arrangers kept reporting the same two collisions: melodies built from the
+   tonic below middle C upward had to be written a register too high, and climaxes that
+   overshot the ceiling by one or two semitones had to be dropped an octave, which inverts a
+   piece's arch and flattens its loudest strain. **Do not bend a melody to the window.** If a
+   phrase sits outside, move that whole phrase — or the whole strain — by an octave. Only if a
+   piece genuinely will not fit either way should you alter a note, and then say which in your
+   report. The window is now roomy; if it still binds, that is worth reporting too.
 4. **The piece ends on the tonic `C5`** (or `A5`/`A4` in A minor) — **or on the root of the
    closing chord**, held at least a half note. That second option exists for this collection
    specifically: most rags modulate to the subdominant for the trio and **end there**, so a rag

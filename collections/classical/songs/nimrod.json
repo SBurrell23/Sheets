@@ -1,0 +1,62 @@
+{
+  "title": "Nimrod",
+  "source": "Edward Elgar, Variation IX from the Enigma Variations, Op. 36, 1899 - public domain",
+  "key": "C",
+  "meter": "3/4",
+  "tempo": 52,
+  "bars": [
+    { "chord": "C",   "notes": "E4:2 C4:2 [F/A]F4:4 D4:4" },
+    { "chord": "C/E", "notes": "G4:4 D4:4 [G7]D4:2 F4:2" },
+    { "chord": "C",   "notes": "E4:2 G4:2 C5:4 [D7]D4:4" },
+    { "chord": "G",   "notes": "B4:4 C4:4 [G7]D4:2 F4:2" },
+
+    { "chord": "C",   "notes": "E4:2 G4:2 E5:4 [D7]F#4:4" },
+    { "chord": "E7",  "notes": "D5:4 E4:4 F#4:2 [Am]A4:2" },
+    { "chord": "D7",  "notes": "C5:2 A4:2 F#4:6 G4:2" },
+    { "chord": "D7",  "notes": "G4:2 E4:2 D4:6 [G7]F4:2" },
+
+    { "chord": "C",   "notes": "E4:2 C4:2 [F/A]F4:4 D4:4" },
+    { "chord": "C/E", "notes": "G4:4 D4:4 [G7]D4:2 F4:2" },
+    { "chord": "C",   "notes": "E4:2 G4:2 C5:4 [D7]D4:4" },
+    { "chord": "G",   "notes": "B4:4 C4:4 [G7]D4:2 F4:2" },
+
+    { "chord": "C",   "notes": "E4:2 G4:2 E5:4 [F]F4:4" },
+    { "chord": "G7",  "notes": "D5:4 E4:4 [F/A]F4:2 A4:2" },
+    { "chord": "G7",  "notes": "B4:2 D5:2 [Dm]A5:4 B4:4" },
+    { "chord": "C/E", "notes": "G5:4 A4:4 [G7]B4:2 D5:2" },
+
+    { "chord": "F",   "notes": "F5:2 A4:2 [G7]G4:4 A4:2 C5:2" },
+    { "chord": "Em",  "notes": "E5:2 G4:2 [F]F4:4 [G]G4:2 B4:2" },
+    { "chord": "Dm",  "notes": "D5:2 F4:2 [G7]E4:6 D4:2" },
+
+    { "chord": "Em",  "notes": "G4:8~ [Dm]G4:2 A4:2" },
+    { "chord": "G7",  "notes": "A4:8 B4:4" },
+    { "chord": "Em",  "notes": "G4:8~ [Dm]G4:2 A4:2" },
+    { "chord": "G7",  "notes": "D5:8 [C]G4:4" },
+
+    { "chord": "Em",  "notes": "G4:4 G4:4 [F]A4:4" },
+    { "chord": "Dm7", "notes": "C5:6 B4:2 [F]A4:4" },
+    { "chord": "G7",  "notes": "G4:4 A4:6 B4:2" },
+    { "chord": "Dm",  "notes": "A5:6 G5:2 [G7]F5:4" },
+
+    { "chord": "C",   "notes": "E5:2 C5:2 [F/A]F5:4 D5:4" },
+    { "chord": "C/E", "notes": "G5:4 D5:4 [G7]D5:2 F5:2" },
+    { "chord": "C",   "notes": "E5:2 G5:2 C6:4 [D7]D5:4" },
+    { "chord": "G",   "notes": "B5:4 C5:4 [G7]D5:2 F4:2" },
+
+    { "chord": "C",   "notes": "E4:2 G4:2 E5:4 [F]F4:4" },
+    { "chord": "G7",  "notes": "D5:4 E4:4 [F/A]F4:2 A4:2" },
+    { "chord": "G7",  "notes": "B4:2 D5:2 [Dm]A5:4 B4:4" },
+    { "chord": "C/E", "notes": "G5:4 A4:4 [G7]B4:2 D5:2" },
+
+    { "chord": "F",   "notes": "F5:2 A4:2 [G7]G4:4 B4:2 D5:2" },
+    { "chord": "F",   "notes": "F5:2 A4:2 [G7]G4:4 B4:2 D5:2" },
+    { "chord": "Fm",  "notes": "(3 F5:2 C5:3 Ab4:1) [G7]G4:6 G4:2" },
+    { "chord": "G7",  "notes": "G4:12" },
+
+    { "chord": "C",   "notes": "E5:2 C5:2 [F/A]F5:4 D5:4" },
+    { "chord": "C/E", "notes": "G5:4 [G7]D5:6 F5:2" },
+    { "chord": "C",   "notes": "E5:12~" },
+    { "chord": "C",   "notes": "E5:4 R:8" }
+  ]
+}

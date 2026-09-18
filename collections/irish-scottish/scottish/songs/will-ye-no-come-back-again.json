@@ -1,0 +1,28 @@
+{
+  "title": "Will Ye No Come Back Again?",
+  "source": "Traditional Scottish Jacobite song, \"Bonnie Charlie\", words by Lady Nairne, air attributed to Niel Gow jr. - public domain",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 80,
+  "bars": [
+    { "chord": "C",  "notes": "C5:6 D5:2 E5:4 C5:4" },
+    { "chord": "F",  "notes": "A4:4 C5:4 [C]G4:8" },
+    { "chord": "C",  "notes": "G5:6 A5:2 G5:4 E5:4" },
+    { "chord": "C",  "notes": "E5:4 [G]D5:4 D5:8" },
+
+    { "chord": "C",  "notes": "C5:6 D5:2 E5:4 C5:4" },
+    { "chord": "F",  "notes": "A4:4 C5:4 [C]G4:8" },
+    { "chord": "C",  "notes": "G5:6 A5:2 G5:4 E5:4" },
+    { "chord": "G7", "notes": "D5:6 [C]C5:2 C5:8" },
+
+    { "chord": "C",  "notes": "E5:4 G5:4 G5:4 G5:4" },
+    { "chord": "Em", "notes": "E5:4 G5:4 G5:8" },
+    { "chord": "Am", "notes": "C6:6 B5:2 A5:4 G5:4" },
+    { "chord": "F",  "notes": "A5:2 G5:2 F5:2 E5:2 [G7]D5:8" },
+
+    { "chord": "C",  "notes": "E5:2 E5:6 D5:4 C5:4" },
+    { "chord": "F",  "notes": "A4:2 C5:6 [C]G4:8" },
+    { "chord": "F",  "notes": "A5:6 [C]G5:2 G5:4 E5:4" },
+    { "chord": "G7", "notes": "D5:6 [C]C5:2 C5:8" }
+  ]
+}

@@ -100,11 +100,14 @@ music holds. Use one wherever the music genuinely sustains. Neither is capped. W
    pickup bar, if declared, sums to exactly the `pickup` value. This is the most common mistake.
 2. Bars *may* begin with a rest where the theme genuinely rests there. Prefer a struck
    downbeat, but do not invent a note, or a pickup the theme has not got, to avoid one.
-3. **Range `E4` to `E6`** — two full octaves. This is deliberately roomy: the old `G4`–`C6`
-   window was an 11th, and melodies were coming back bent to fit it. **Do not bend a melody to
-   the window.** If a phrase sits outside, move that whole phrase — or the whole strain — by an
-   octave. Only if a piece genuinely will not fit either way should you alter a note, and then
-   say which in your report.
+3. **Range `C4` to `G6`** — just under three octaves. It was `E4`-`E6`, and both walls were
+   corrected after arrangers kept reporting the same two collisions: melodies built from the
+   tonic below middle C upward had to be written a register too high, and climaxes that
+   overshot the ceiling by one or two semitones had to be dropped an octave, which inverts a
+   piece's arch and flattens its loudest strain. **Do not bend a melody to the window.** If a
+   phrase sits outside, move that whole phrase — or the whole strain — by an octave. Only if a
+   piece genuinely will not fit either way should you alter a note, and then say which in your
+   report. The window is now roomy; if it still binds, that is worth reporting too.
 4. **End where the theme ends.** A tonic close held at least a half note is the usual and
    preferred ending, but it is no longer forced: if the theme genuinely closes on the third, on
    the dominant, or on a short note, write that. Do not manufacture a held tonic the music has
@@ -145,9 +148,25 @@ A file that passes the validator but is not recognisably the piece has failed th
 
 ## 7. Method
 
-Do not work from memory alone. Cross-check the theme against published public-domain sources
-(IMSLP, abcnotation.com, Wikipedia's notated incipits) and then transpose into C or A minor.
-The agents who built the Classics collection did this and it materially improved accuracy.
+**Do not work from memory alone.** Find the notation, then transpose into C or A minor.
+Ranked by how well they have actually worked on this project:
+
+1. **Humdrum `**kern` critical editions** — KernScores, `github.com/craigsapp/...`. Exact,
+   machine-readable and first-edition based. The best source that exists.
+2. **Mutopia Project LilyPond** — `mutopiaproject.org/ftp/...`. Excellent for Bach, Chopin,
+   Beethoven, Handel, Satie and Debussy.
+3. **Wikipedia raw wikitext** — many articles carry a LilyPond `<score>` block with the
+   notated incipit. Fetch `en.wikipedia.org/wiki/Special:Export/<Article>`.
+4. **OpenScore** corpora, and **notation-derived MIDI** parsed with a throwaway Python SMF
+   reader. Check it is notation-derived and not a performance capture — a piano-roll MIDI is
+   neither quantised nor single-voice and is not a usable source.
+5. **IMSLP page scans** — last resort. Form, rhythms, rests and key signatures are readable;
+   note heads usually are not.
+
+Compare two sources where you can and say which you used. **If a rule in this spec forced you
+to write something other than what the score shows, say so explicitly in your report** — several
+thresholds here were wrong and were only fixed because an arranger reported the compromise
+instead of hiding it.
 
 ## 8. Public domain
 

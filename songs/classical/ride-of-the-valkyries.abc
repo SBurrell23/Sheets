@@ -1,0 +1,13 @@
+X:1
+T:Ride of the Valkyries
+C:Richard Wagner, Die Walküre, Act III prelude, 1870 - public domain
+M:9/8
+L:1/16
+Q:3/8=100
+K:Am clef=treble
+"Am"E2 | "Am"A3E1A2 c6 A6 | "Am"c3A1c2 e6 c6 | "C"e3c1e2 g6 G6 |
+"C"c3G1c2 e8 z2 G2 | "C"c3G1c2 e6 c6 | "C"e3c1e2 g6 e6 | "Em"g3e1g2 b6 B6 |
+"E7"e3B1e2 ^g8 z2 E2 | "Dm"F3D1F2 A8 z2 e2 | "Dm"f3d1f2 a8 z2 E2 | "Dm"F3D1F2 _B6 "E7"E6 |
+"Am"A3c1e2 a12- | "Am"a12- a2 z2 E2 | "Dm"F3D1F2 A8 z2 e2 | "Dm"f3d1f2 a8 z2 E2 |
+"Dm"F3D1F2 B6 "E7"E6 | "A"A3^c1e2 a12 | "A"A3E1A2 ^c3A1c2 e3c1e2 | "A"a8 ^g2^f2 e2d2^c2 |
+"A"B2A2^G2 ^F2E2D2 ^C2E2A2 | "A"A6 Ha12 |]
