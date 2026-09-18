@@ -52,7 +52,7 @@ Write exactly one file to the path you are given:
 ```json
 {
   "title": "Danny Boy",
-  "source": "Traditional Irish, the Londonderry Air - public domain",
+  "source": "Traditional Irish, the Londonderry Air",
   "key": "C",
   "meter": "4/4",
   "tempo": 76,

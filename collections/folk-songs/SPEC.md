@@ -33,7 +33,7 @@ Write exactly one file to the path you are given, `collections/folk-songs/songs/
 ```json
 {
   "title": "Oh! Susanna",
-  "source": "Stephen Foster, 1848 — public domain",
+  "source": "Stephen Foster, 1848",
   "key": "C",
   "meter": "4/4",
   "pickup": 4,

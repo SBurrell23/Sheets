@@ -40,7 +40,7 @@ Write exactly one file to the path you are given, `collections/classical/songs/<
 ```json
 {
   "title": "Ode to Joy",
-  "source": "Ludwig van Beethoven, Symphony No. 9, 1824 - public domain",
+  "source": "Ludwig van Beethoven, Symphony No. 9, 1824",
   "key": "C",
   "meter": "4/4",
   "tempo": 112,

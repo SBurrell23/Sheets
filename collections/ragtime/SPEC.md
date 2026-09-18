@@ -51,7 +51,7 @@ Write exactly one file to the path you are given, `collections/ragtime/songs/<sl
 ```json
 {
   "title": "The Entertainer",
-  "source": "Scott Joplin, 1902 - public domain",
+  "source": "Scott Joplin, 1902",
   "key": "C",
   "meter": "4/4",
   "tempo": 88,
