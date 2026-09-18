@@ -34,17 +34,28 @@ body{background:var(--bg); color:var(--ink);
   border-bottom:1px solid var(--line); padding-bottom:16px}
 h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:600;
   font-size:clamp(24px,4.4vw,42px); line-height:1.1; margin:0; letter-spacing:-.01em;
-  flex:0 1 auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  /* The site name never shrinks. Both this and .count used to be flex:0 1 auto,
+     so adding a second button in the masthead started eating 'Sheets' into
+     'Sh...'. The count is the one that can afford to ellipsise. */
+  flex:0 0 auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .masthead .btn{flex:0 0 auto}
 .count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:14px; color:var(--ink-2);
   font-variant-numeric:tabular-nums; margin-left:auto; flex:0 1 auto; min-width:0;
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .ctl.theme{font-size:12px; color:var(--ink-3); gap:8px; flex:0 0 auto}
 .btn.browse{padding:10px 18px; font-size:14.5px; font-weight:600}
-/* A "?" rather than a label, sitting on the baseline of the masthead so it reads
-   as a footnote to the title rather than another primary action. */
-#specbtn{align-self:flex-end; min-width:34px; padding:6px 0; font-size:15px;
-  font-weight:700; line-height:1.15; text-align:center}
+/* Same weight as Browse Categories: opening your own list is a primary action,
+   not a footnote. */
+.btn.favs{display:inline-flex; align-items:center; gap:8px;
+  padding:10px 18px; font-size:14.5px; font-weight:600}
+.btn.favs .star{width:17px; height:17px; flex:0 0 auto;
+  fill:none; stroke:currentColor; stroke-width:1.7; stroke-linejoin:round}
+.btn.favs.has .star{fill:var(--accent); stroke:var(--accent)}
+.btn.favs .favn{font-variant-numeric:tabular-nums; font-size:12.5px; color:var(--ink-3)}
+.btn.favs.has .favn{color:var(--accent)}
+/* Two full-width buttons plus the song count is more than a laptop masthead
+   holds, so the star drops its word early and keeps the count. */
+@media (max-width:900px){ .btn.favs .favlabel{display:none} .btn.favs{gap:6px} }
 .seg{display:inline-flex; border:1px solid var(--btn-edge); border-radius:var(--radius);
   overflow:hidden; background:var(--btn)}
 .seg input{position:absolute; opacity:0; width:0; height:0; pointer-events:none}
@@ -133,8 +144,24 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 .bar-strip:focus-visible{outline:2px solid var(--accent); outline-offset:3px}
 
 /* ---------- score ---------- */
-.sheet{margin-top:20px; background:var(--paper); border:1px solid var(--paper-edge);
+.sheet{position:relative; margin-top:20px; background:var(--paper);
+  border:1px solid var(--paper-edge);
   border-radius:var(--radius); padding:22px 16px 28px}
+/* Absolutely positioned in the sheet's top-left corner, out of the engraver's
+   way: abcjs centres the title, so nothing collides, and taking the star out of
+   the flow means it survives a re-render of #paper untouched. */
+.favmark{position:absolute; top:8px; left:8px; z-index:2;
+  width:34px; height:34px; display:inline-flex; align-items:center;
+  justify-content:center; padding:0; cursor:pointer;
+  background:transparent; border:0; border-radius:var(--radius);
+  color:var(--ink-3); transition:color .12s, transform .12s}
+.favmark svg{width:23px; height:23px; fill:none; stroke:currentColor;
+  stroke-width:1.6; stroke-linejoin:round}
+.favmark:hover{color:var(--accent); transform:scale(1.08)}
+.favmark.on{color:var(--accent)}
+.favmark.on svg{fill:currentColor}
+.favmark[hidden]{display:none}
+.favmark:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 #paper{color:var(--ink)}
 #paper svg{max-width:100%; height:auto; display:block}
 #paper svg path{fill:currentColor}
@@ -215,7 +242,11 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .masthead h1{font-size:25px; flex:1 1 auto; order:1}
   .ctl.theme{order:2; margin-left:auto}
   .btn.browse{order:3; flex:1 1 auto; padding:10px 12px; font-size:14px; text-align:center}
-  #specbtn{order:4; flex:0 0 auto}
+  /* On a phone the two list buttons share the row, so the star drops its word
+     and keeps the count. */
+  .btn.favs{order:4; flex:0 0 auto; padding:10px 12px; font-size:14px; gap:6px}
+  .btn.favs .favlabel{display:none}
+  .favmark{top:4px; left:4px; width:40px; height:40px}
   .count{order:5; flex:1 1 100%; margin-left:0; text-align:right; font-size:12.5px}
 
   .picker{flex-wrap:wrap; gap:8px; margin-top:14px}

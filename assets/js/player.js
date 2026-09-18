@@ -23,7 +23,7 @@
   // once before any repeats -- that is what makes it feel shuffled.
   var shuffleOn = false, bag = [];
   try { shuffleOn = localStorage.getItem("shuffle") === "1"; } catch (e) {}
-  var loadToken = 0, idc = 0, lastTop = null, playhead = null;
+  var loadToken = 0, idc = 0, lastTop = null, playhead = null, barPos = [];
   var reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   var strip = $("strip"), paper = $("paper");
 
@@ -86,13 +86,13 @@
     $("count").textContent = label + " · " + n + (n === 1 ? " song" : " songs");
   }
 
-  function applyCollection(target) {
+  function applyCollection(target, keep) {
     coll = target;
+    if (coll.id === PS.FAV_ID) PS.refreshFavorites();
     flat = [];
     coll.sets.forEach(function (s) {
       s.songs.forEach(function (sg) { flat.push({ song: sg, set: s }); });
     });
-    var n = flat.length;
     paintCount();
     var cards = dirlist.querySelectorAll(".dircard");
     for (var i = 0; i < cards.length; i++) {
@@ -101,7 +101,53 @@
     buildSongList();
     bag = [];
     try { localStorage.setItem("lastCollection", coll.id); } catch (e) {}
-    if (flat.length) select(0);
+    if (!flat.length) { showEmpty(); return; }
+    // Keep the song you were looking at if it is still in the list -- starring
+    // and un-starring from within Favorites should not throw you back to the top.
+    var at = 0;
+    if (keep) {
+      for (var j = 0; j < flat.length; j++) if (flat[j].song === keep) { at = j; break; }
+    }
+    select(at);
+  }
+
+  /* Favorites is the one collection that can legitimately be empty, and an empty
+     song list would otherwise leave the previous score on screen with a dropdown
+     that no longer matches it. */
+  function showEmpty() {
+    song = null; set = null; flat = [];
+    if (synth) {
+      try { synth.pause(); } catch (e) {}
+      try { synth.destroy(); } catch (e) {}
+      synth = null;
+    }
+    ready = false; playing = false; busy = false;
+    paintPlay();
+    $("play").disabled = true;
+    paper.innerHTML = '<p class="empty">' + (coll.id === PS.FAV_ID
+      ? "No favorites yet — tap the star at the top of a score to add one."
+      : "Nothing here yet.") + "</p>";
+    $("where").textContent = "0 / 0";
+    $("prev").disabled = true;
+    $("next").disabled = true;
+    $("pdf").removeAttribute("href");
+    paintFav();
+  }
+
+  // The Favorites card's count changes as you star things, so redraw it.
+  function repaintDirCounts() {
+    var cards = dirlist.querySelectorAll(".dircard");
+    for (var i = 0; i < cards.length; i++) {
+      var c = COLLECTIONS.filter(function (x) { return x.id === cards[i].dataset.cid; })[0];
+      if (!c) continue;
+      if (c.id === PS.FAV_ID) PS.refreshFavorites();
+      var n = c.sets.reduce(function (a, s) { return a + s.songs.length; }, 0);
+      var el = cards[i].querySelector(".dn");
+      if (el) {
+        el.textContent = n + (n === 1 ? " song" : " songs") +
+          (c.sets.length > 1 ? "  ·  " + c.sets.length + " sets" : "");
+      }
+    }
   }
 
   /* The tempo is in BEATS per minute, and the beat is not always a quarter: it is a
@@ -163,9 +209,7 @@
     $("bpm").textContent = targetBpm + " bpm" + (userTempo ? "" : "");
     $("pdf").href = song.pdf;
     $("pdf").setAttribute("download", song.slug + ".pdf");
-    $("spectitle").textContent = "Spec — " + coll.title +
-      (coll.sets.length > 1 ? " · " + (set.title || set.id) : "");
-    $("spectext").textContent = song._spec || set.spec || (coll.blurb || "(no spec recorded)");
+    paintFav();
     buildKeys();
     paintOctave();
     buildTicks();
@@ -224,8 +268,16 @@
     paper.innerHTML = "";
     visualObj = ABCJS.renderAbc("paper", noStretch(song.abc), {
       responsive: "resize", add_classes: true, staffwidth: 880,
-      paddingtop: 0, paddingbottom: 14, paddingleft: 0, paddingright: 0,
+      paddingtop: 6, paddingbottom: 14, paddingleft: 0, paddingright: 0,
       visualTranspose: transpose,
+      // The score names itself, as the PDF does. The credit line is deliberately
+      // much smaller than on the engraved sheet: there it is the only place the
+      // attribution appears, here it sits under a title you already chose from a
+      // dropdown, so it should read as a footnote rather than a second heading.
+      format: {
+        titlefont: "Playfair Display 15 bold",
+        composerfont: "Archivo 8.5 italic"
+      },
       wrap: { minSpacing: 1.0, maxSpacing: 1.4, preferredMeasuresPerLine: perLine }
     });
   }
@@ -267,6 +319,7 @@
     }
     if (best && best.n !== current) renderWith(best.n);
     addPlayhead();
+    mapBars();
   }
 
   // A <line> appended to abcjs's own <svg>, so it is measured in the score's
@@ -294,6 +347,47 @@
   }
 
   function hidePlayhead() { if (playhead) playhead.style.opacity = 0; }
+
+  /* Where each bar begins on the page, so the strip can show you the spot on the
+     score while you are still dragging -- before any seek has happened and even
+     before the audio has finished loading.
+
+     abcjs already knows: setTiming() fills noteTimings with an entry per event
+     carrying measureNumber alongside the same left/top/height that drives the
+     playback playhead. Taking the first event of each measure gives a bar -> place
+     map for free, and it is the engraver's own geometry rather than something
+     measured off the DOM, so it survives the responsive rescale exactly as the
+     playing playhead does. */
+  function mapBars() {
+    barPos = [];
+    var tune = visualObj && visualObj[0];
+    if (!tune || typeof tune.setTiming !== "function") return;
+    try {
+      tune.setTiming();
+      (tune.noteTimings || []).forEach(function (ev) {
+        var m = ev.measureNumber;
+        if (ev.type !== "event" || ev.left == null || m == null || barPos[m]) return;
+        barPos[m] = { left: ev.left, top: ev.top, height: ev.height };
+      });
+    } catch (e) { barPos = []; }
+  }
+
+  function previewBar(bar) {
+    var at = barPos[bar - 1];
+    if (!at) { hidePlayhead(); return; }
+    movePlayhead(at);
+    if (!playhead) return;
+    // A marker below the fold is no marker at all -- on a 40-bar score most of
+    // the strip points off screen. Scrolling vertically is safe mid-drag because
+    // barAtX reads only the strip's left and width, which a vertical scroll does
+    // not change; and it is instant rather than smooth so it keeps up with the
+    // pointer instead of animating behind it.
+    var r = playhead.getBoundingClientRect();
+    if (!r.height) return;
+    if (r.top < 96 || r.bottom > innerHeight - 32) {
+      scrollBy({ top: r.top - innerHeight * 0.45, behavior: "auto" });
+    }
+  }
 
   function clearHighlights() {
     var old = paper.querySelectorAll(".abcjs-highlight");
@@ -451,8 +545,12 @@
   function seekToBar(bar) {
     bar = Math.max(1, Math.min(totalBars, bar));
     setBar(bar);
+    // Leave the marker on the bar you landed on. A paused seek fires no event, so
+    // hiding it here used to make the score forget where you had just scrubbed to;
+    // once playing, the synth's own events take the marker over.
+    clearHighlights();
+    previewBar(bar);
     if (!ready) return;
-    clearHighlights(); hidePlayhead();
     lastTop = null;
     synth.seek((bar - 1) / totalBars);
   }
@@ -464,15 +562,22 @@
     var f = Math.max(0, Math.min(0.99999, (clientX - r.left) / r.width));
     return Math.max(1, Math.min(totalBars, Math.floor(f * totalBars) + 1));
   }
+  // Scrubbing no longer waits for `ready`. The score preview is pure geometry, so
+  // it works while the soundfont is still downloading; only the seek at the end
+  // needs the synth, and seekToBar already guards that.
   strip.addEventListener("pointerdown", function (e) {
-    if (!ready || (e.button !== 0 && e.pointerType === "mouse")) return;
+    if (!song || (e.button !== 0 && e.pointerType === "mouse")) return;
     dragging = true; strip.classList.add("dragging");
     try { strip.setPointerCapture(e.pointerId); } catch (_) {}
-    clearHighlights(); hidePlayhead(); setBar(barAtX(e.clientX));
+    clearHighlights();
+    var b = barAtX(e.clientX);
+    setBar(b); previewBar(b);
     e.preventDefault(); strip.focus();
   });
   strip.addEventListener("pointermove", function (e) {
-    if (dragging) setBar(barAtX(e.clientX));
+    if (!dragging) return;
+    var b = barAtX(e.clientX);
+    setBar(b); previewBar(b);
   });
   function endScrub(e) {
     if (!dragging) return;
@@ -549,6 +654,42 @@
     applyTranspose();
   });
 
+  /* ================= favourites ================= */
+  /* The star sits on the score rather than in the toolbar because it belongs to
+     the song in front of you, not to the controls. Favourites are per-browser
+     only -- no account, no sync -- so the label says so on the category card. */
+  function paintFav() {
+    var on = !!song && PS.isFav(song);
+    var star = $("favstar");
+    star.setAttribute("aria-pressed", String(on));
+    star.classList.toggle("on", on);
+    star.title = on ? "Remove from favorites" : "Add to favorites";
+    star.setAttribute("aria-label", star.title);
+    star.hidden = !song;
+    paintFavCount();
+  }
+
+  function paintFavCount() {
+    var n = PS.favCount();
+    $("favn").textContent = n ? String(n) : "";
+    $("favbtn").classList.toggle("has", n > 0);
+  }
+
+  $("favstar").addEventListener("click", function () {
+    if (!song) return;
+    var wasViewingFavs = coll && coll.id === PS.FAV_ID;
+    PS.toggleFav(song);
+    paintFav();
+    repaintDirCounts();
+    // Un-starring while the favourites list is open has to redraw the list, or
+    // the dropdown keeps offering a song that is no longer in it.
+    if (wasViewingFavs) applyCollection(coll, song);
+  });
+
+  $("favbtn").addEventListener("click", function () {
+    selectCollection(PS.FAV_ID);
+  });
+
   /* ================= modals ================= */
   function openDir() { $("dirmodal").hidden = false; $("dirclose").focus(); }
   function closeDir() { $("dirmodal").hidden = true; $("browse").focus(); }
@@ -556,19 +697,12 @@
   $("dirclose").addEventListener("click", closeDir);
   $("dirmodal").addEventListener("click", function (e) { if (e.target === this) closeDir(); });
 
-  function openSpec() { $("modal").hidden = false; $("specclose").focus(); }
-  function closeSpec() { $("modal").hidden = true; $("specbtn").focus(); }
-  $("specbtn").addEventListener("click", openSpec);
-  $("specclose").addEventListener("click", closeSpec);
-  $("modal").addEventListener("click", function (e) { if (e.target === this) closeSpec(); });
-
   addEventListener("keydown", function (e) {
     if (e.key === "Escape") {
-      if (!$("modal").hidden) { e.preventDefault(); closeSpec(); }
-      else if (!$("dirmodal").hidden) { e.preventDefault(); closeDir(); }
+      if (!$("dirmodal").hidden) { e.preventDefault(); closeDir(); }
       return;
     }
-    if (!$("modal").hidden || !$("dirmodal").hidden) return;
+    if (!$("dirmodal").hidden) return;
     var tag = e.target.tagName;
     if (/^(INPUT|TEXTAREA|BUTTON|A|SELECT)$/.test(tag)) return;
     if (e.code === "Space") { e.preventDefault(); $("play").click(); }
@@ -602,6 +736,7 @@
   applyTheme(startTheme);
 
   /* ================= boot ================= */
+  paintFavCount();
   var startC = COLLECTIONS.length ? COLLECTIONS[0].id : null;
   try {
     var lc = localStorage.getItem("lastCollection");
@@ -641,6 +776,8 @@
     octave: function () { return octaveShift; },
     keySemis: function () { return keySemis; },
     bagLeft: function () { return bag.length; },
+    isFav: function () { return !!song && PS.isFav(song); },
+    favCount: function () { return PS.favCount(); },
     keySig: function () {
       try { return visualObj[0].getKeySignature().accidentals.length; } catch (e) { return null; }
     }

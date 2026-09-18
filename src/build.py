@@ -237,7 +237,10 @@ def main():
                     'bars': len(song['bars']),
                     'source': song.get('source', ''),
                     'pdf': 'songs/' + reldir + '/' + slug + '.pdf',
-                    'abc': songlib.to_abc(song, with_title=False, swing=swing),
+                    # The on-screen score carries its title and credit line, the
+                    # way the engraved PDF does. abcjs draws T: and C: for us; the
+                    # player sets their sizes so the credit stays subordinate.
+                    'abc': songlib.to_abc(song, with_title=True, swing=swing),
                 })
                 total += 1
                 print('  ok   %-26s %-3s %-4s %3d bars  tempo %3d  "%s"'
