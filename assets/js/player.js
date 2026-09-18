@@ -71,6 +71,21 @@
     });
   }
 
+  /* In a real collection the header names that collection. In All Songs, which is a
+     flat list drawn from every collection, the name alone says nothing about what is
+     on screen -- so prefix it with the collection the CURRENT song belongs to. Each
+     All Songs entry carries _cid, the id of the collection that owns it. */
+  function paintCount() {
+    if (!coll) return;
+    var n = flat.length;
+    var label = coll.title;
+    if (coll.id === PS.ALL_ID && song && song._cid) {
+      var owner = COLLECTIONS.filter(function (c) { return c.id === song._cid; })[0];
+      if (owner) label = "(" + owner.title + ") " + label;
+    }
+    $("count").textContent = label + " · " + n + (n === 1 ? " song" : " songs");
+  }
+
   function applyCollection(target) {
     coll = target;
     flat = [];
@@ -78,7 +93,7 @@
       s.songs.forEach(function (sg) { flat.push({ song: sg, set: s }); });
     });
     var n = flat.length;
-    $("count").textContent = coll.title + " · " + n + (n === 1 ? " song" : " songs");
+    paintCount();
     var cards = dirlist.querySelectorAll(".dircard");
     for (var i = 0; i < cards.length; i++) {
       cards[i].setAttribute("aria-current", String(cards[i].dataset.cid === coll.id));
@@ -137,6 +152,7 @@
     $("songsel").value = String(i);
     $("where").textContent = (idx + 1) + " / " + flat.length +
       (coll.sets.length > 1 ? "  ·  " + (set.title || set.id) : "");
+    paintCount();
     $("prev").disabled = idx === 0;
     $("next").disabled = idx === flat.length - 1;
     paintShuffle();

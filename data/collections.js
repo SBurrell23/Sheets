@@ -978,16 +978,6 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/nessun-dorma.pdf"
      },
      {
-      "slug": "nimrod",
-      "title": "Nimrod",
-      "key": "C",
-      "meter": "3/4",
-      "tempo": 52,
-      "bars": 43,
-      "source": "Edward Elgar, Variation IX from the Enigma Variations, Op. 36, 1899 - public domain",
-      "pdf": "songs/classical/nimrod.pdf"
-     },
-     {
       "slug": "nocturne-op9-no2",
       "title": "Nocturne, Op. 9 No. 2",
       "key": "C",
