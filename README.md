@@ -105,8 +105,15 @@ Durations are counted in **sixteenth notes**. A full bar is 16 units in 4/4, 12 
 and 8 in 2/4. `C5:4` is a quarter note (`C4` is middle C), `F#5:2` an eighth, `Bb4:8` a half,
 `R:4` a quarter rest, `[Am]E5:4` changes chord mid-bar.
 
-There is **no tie syntax** — a note cannot cross a barline. Where a tune sustains across one,
-write the note as long as the bar allows and start the next bar afresh.
+A trailing `~` **ties** a note into the next one of the same pitch, across a barline if need be:
+`C5:8~ C5:8`. `(3 C5:2 D5:2 E5:2)` is a **triplet**, three eighths in the time of two; the written
+durations inside a group must sum to a multiple of 3, so an uneven `4 2` works too.
+
+Both exist for transcription fidelity and are capped per set by `maxTieRatio` and
+`maxTripletBarRatio`; the AI Music sets set both to 0, because an invented tune has no excuse for
+either. Internally a bar is summed in **ticks** — thirds of a sixteenth — so a triplet divides
+exactly instead of rounding: a normal note spans `dur * 3`, a note inside a triplet `dur * 2`, and
+a 4/4 bar is 48. MusicXML is emitted at 12 divisions per quarter for the same reason.
 
 A song may set `"meter"` (`4/4`, `3/4`, `2/4`, `6/8`) and `"pickup"` (the length of an upbeat,
 in units, which bar 1 must then match exactly). Beaming follows the meter's beat, so 6/8 beams
@@ -131,6 +138,8 @@ a default that had only ever been right for the previous set:
 | `allowRestStart` | false | `true` lets a bar open on a rest |
 | `requireTonicClose` | true | `false` drops the ending rule entirely |
 | `allowFinalChordClose` | false | `true` also accepts the closing chord's root |
+| `maxTieRatio` | — | ties as a share of bar count; `0` forbids them (AI Music) |
+| `maxTripletBarRatio` | — | share of bars holding a triplet; `0` forbids them (AI Music) |
 | `swing` | false | see below |
 
 ### Recreations are not compositions

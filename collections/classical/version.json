@@ -1,1 +1,1 @@
-{"bars": null, "requireFinalWhole": false, "minSixteenthBars": 0, "minEighthBarsRatio": 0.0, "maxLeapRatio": 0.6, "label": "Public-domain classical themes", "allowRestStart": true, "requireTonicClose": false}
+{"bars": null, "requireFinalWhole": false, "minSixteenthBars": 0, "minEighthBarsRatio": 0.0, "maxLeapRatio": 0.6, "label": "Public-domain classical themes", "allowRestStart": true, "requireTonicClose": false, "maxTieRatio": 0.25, "maxTripletBarRatio": 0.3}

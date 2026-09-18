@@ -9,18 +9,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
+/* The accent IS the playhead purple, so the thing you follow while a song plays
+   and the thing you click are the same colour. --btn sits a step away from --bg
+   so a bordered button reads as a raised surface rather than a painted outline. */
 :root{
-  --bg:#E7EAE5; --surface:#F3F5F1; --paper:#FCFBF7; --paper-edge:#DCDFD7;
-  --ink:#16201E; --ink-2:#55635E; --ink-3:#8A968F;
-  --line:#C9D0C8; --accent:#2C6E67; --accent-soft:rgba(44,110,103,.13);
-  --accent-on:#FCFBF7; --cursor:#9333EA; --radius:3px;
+  --bg:#E9E8EE; --surface:#F5F4F8; --paper:#FCFBF9; --paper-edge:#DBD9E2;
+  --btn:#FFFFFF; --btn-edge:#C4C0D2;
+  --ink:#1B1823; --ink-2:#5A5568; --ink-3:#8B869B;
+  --line:#CBC7D6; --accent:#7C3AED; --accent-soft:rgba(124,58,237,.12);
+  --accent-on:#FFFFFF; --cursor:#7C3AED; --radius:4px;
 }
-/* Day is the default; dark is opt-in via the toggle, never via the OS setting. */
+/* Day is the default; dark is opt-in via the toggle, never via the OS setting.
+   Dark is a soft neutral grey rather than the near-black it used to be. */
 :root[data-theme="dark"]{
-  --bg:#0D1312; --surface:#161E1C; --paper:#19221F; --paper-edge:#26322E;
-  --ink:#DFE6E2; --ink-2:#8D9A95; --ink-3:#6A7873;
-  --line:#2A3633; --accent:#63B8AE; --accent-soft:rgba(99,184,174,.15);
-  --accent-on:#0D1312; --cursor:#C77DFF;
+  --bg:#26242B; --surface:#2F2D36; --paper:#343139; --paper-edge:#413E49;
+  --btn:#3B3843; --btn-edge:#524E5C;
+  --ink:#ECEAF1; --ink-2:#B3AEBE; --ink-3:#8A8598;
+  --line:#474350; --accent:#B98CFF; --accent-soft:rgba(185,140,255,.18);
+  --accent-on:#211F27; --cursor:#C77DFF;
 }
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -42,27 +48,27 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .ctl.theme{font-size:12px; color:var(--ink-3); gap:8px; flex:0 0 auto}
 .btn.browse{padding:10px 18px; font-size:14.5px; font-weight:600}
-.seg{display:inline-flex; border:1px solid var(--line); border-radius:var(--radius);
-  overflow:hidden; background:var(--bg)}
+.seg{display:inline-flex; border:1px solid var(--btn-edge); border-radius:var(--radius);
+  overflow:hidden; background:var(--btn)}
 .seg input{position:absolute; opacity:0; width:0; height:0; pointer-events:none}
 .seg label{padding:6px 11px; font-size:12px; font-weight:500; cursor:pointer; color:var(--ink-2);
-  border-right:1px solid var(--line); line-height:1.2; user-select:none; white-space:nowrap}
+  border-right:1px solid var(--btn-edge); line-height:1.2; user-select:none; white-space:nowrap}
 .seg label:last-child{border-right:0}
 .seg label:hover{color:var(--accent)}
 .seg input:checked + label{background:var(--accent); color:var(--accent-on)}
 .seg input:focus-visible + label{outline:2px solid var(--accent); outline-offset:-2px}
 
 button{font:inherit; color:inherit; cursor:pointer; background:none; border:none}
-.btn{border:1px solid var(--line); border-radius:var(--radius); background:var(--bg);
+.btn{border:1px solid var(--btn-edge); border-radius:var(--radius); background:var(--btn);
   padding:7px 13px; font-size:13px; font-weight:500; white-space:nowrap;
   transition:border-color .15s,color .15s; text-decoration:none; display:inline-block}
 .btn:hover{border-color:var(--accent); color:var(--accent)}
 .btn:disabled{opacity:.4; cursor:default}
-.btn:disabled:hover{border-color:var(--line); color:inherit}
+.btn:disabled:hover{border-color:var(--btn-edge); color:inherit}
 .btn[aria-pressed="true"]{border-color:var(--accent); color:var(--accent); background:var(--accent-soft)}
 .btn.ghost{padding:6px 11px; font-size:12.5px}
-select{font:inherit; font-size:13px; color:var(--ink); background:var(--surface);
-  border:1px solid var(--line); border-radius:var(--radius); padding:7px 9px; cursor:pointer}
+select{font:inherit; font-size:13px; color:var(--ink); background:var(--btn);
+  border:1px solid var(--btn-edge); border-radius:var(--radius); padding:7px 9px; cursor:pointer}
 select:hover{border-color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
@@ -148,7 +154,12 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   flex-direction:column; gap:5px; transition:border-color .15s,background .15s}
 .dircard:hover{border-color:var(--accent)}
 .dircard[aria-current="true"]{border-color:var(--accent); background:var(--accent-soft)}
-.dircard .dt{font-weight:600; font-size:16px}
+.dircard .dt{font-weight:600; font-size:16px; display:flex; align-items:center; gap:11px}
+.dircard .dicon{flex:0 0 auto; width:34px; height:34px; display:inline-flex;
+  align-items:center; justify-content:center; border-radius:var(--radius);
+  background:var(--accent-soft); color:var(--accent)}
+.dircard .dicon svg{width:22px; height:22px; display:block}
+.dircard:hover .dicon{background:var(--accent); color:var(--accent-on)}
 .dircard .dn{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px; color:var(--ink-3)}
 .dircard .db{font-size:13px; color:var(--ink-2); line-height:1.45}
 
@@ -304,13 +315,45 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   function isMinor(key) { return /m$/.test(key); }
 
   /* ================= collections ================= */
+  // Inline rather than files: index.html has to work from file://, where an
+  // <img src> to a sibling folder is fine but a fetch is not -- and drawing in
+  // currentColor means the art follows the theme for free.
+  var ART = {
+    "folk-songs":
+      '<path d="M12 21c-3 0-5.2-2-5.2-4.6 0-1.9 1.2-3 1.2-4.4S6.8 9.5 6.8 7.6C6.8 5 9 3.2 12 3.2' +
+      's5.2 1.8 5.2 4.4c0 1.9-1.2 3-1.2 4.4s1.2 2.5 1.2 4.4C17.2 19 15 21 12 21z"/>' +
+      '<circle cx="12" cy="13.4" r="1.7"/><path d="M12 3.2V1.6"/>',
+    "classical":
+      '<path d="M3.6 20.4h16.8M4.8 4.2h14.4M6 6.4h12"/>' +
+      '<path d="M7.4 6.4v12M10 6.4v12M12.6 6.4v12M15.2 6.4v12M17.8 6.4v12"/>',
+    "ragtime":
+      '<rect x="2.6" y="5.4" width="18.8" height="13.2" rx="1.6"/>' +
+      '<path d="M9 5.4v13.2M15 5.4v13.2"/>' +
+      '<rect x="6.7" y="5.4" width="2.5" height="7.6" rx=".5" fill="currentColor" stroke="none"/>' +
+      '<rect x="12.7" y="5.4" width="2.5" height="7.6" rx=".5" fill="currentColor" stroke="none"/>' +
+      '<rect x="17.4" y="5.4" width="2.5" height="7.6" rx=".5" fill="currentColor" stroke="none"/>',
+    "ai-music":
+      '<path d="M8.6 2.4l1.3 3.6 3.6 1.3-3.6 1.3-1.3 3.6-1.3-3.6L3.7 7.3l3.6-1.3z"/>' +
+      '<circle cx="13.6" cy="18.3" r="2.4"/><path d="M16 18.3v-7.1l3.8 1.4"/>'
+  };
+  var ART_FALLBACK =
+    '<circle cx="8.5" cy="17.5" r="3"/><path d="M11.5 17.5V4.5l7 2.4"/>';
+
+  function artFor(cid) {
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" ' +
+           'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+           (ART[cid] || ART_FALLBACK) + '</svg>';
+  }
+
   var dirlist = $("dirlist");
   COLLECTIONS.forEach(function (c) {
     var n = c.sets.reduce(function (a, s) { return a + s.songs.length; }, 0);
     var b = document.createElement("button");
     b.className = "dircard"; b.type = "button";
-    b.innerHTML = '<span class="dt"></span><span class="dn"></span><span class="db"></span>';
-    b.querySelector(".dt").textContent = c.title;
+    b.innerHTML = '<span class="dt"><span class="dicon"></span><span class="dname"></span></span>' +
+                  '<span class="dn"></span><span class="db"></span>';
+    b.querySelector(".dicon").innerHTML = artFor(c.id);
+    b.querySelector(".dname").textContent = c.title;
     b.querySelector(".dn").textContent =
       n + (n === 1 ? " song" : " songs") +
       (c.sets.length > 1 ? "  ·  " + c.sets.length + " sets" : "");

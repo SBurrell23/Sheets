@@ -67,9 +67,20 @@ and 8 in 2/4.
 A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
 `F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
 
-**There is no tie syntax.** A note cannot be held across a barline. Where a tune holds a note
-across a bar line, write the note as long as the bar allows and let the next bar begin the next
-note — or, better, choose the phrasing that keeps each bar self-contained.
+### Ties and triplets — for fidelity, not convenience
+
+**A tie** is a trailing `~`: `C5:8~ C5:8` holds one C for a whole bar, and a tie may cross a
+barline — the last note of one bar tying into the first of the next. It must land on the **same
+pitch**. This exists so a tune that genuinely sustains across a barline can be written the way it
+really goes, instead of being re-struck or chopped short.
+
+**A triplet** is `(3 ... )`: `(3 C5:2 D5:2 E5:2)` is three eighths in the time of two. The
+written durations inside the group must sum to a multiple of 3 — three eighths (`2 2 2`), three
+quarters (`4 4 4`), or an uneven quarter-and-eighth (`4 2`). A group holds 2 to 4 notes.
+
+Reach for either **only when the melody actually has one** and writing it another way would
+falsify the rhythm. The validator warns if ties exceed 25% of the bar count, or if more than 30%
+of bars contain a triplet — that ceiling is there because these should be occasional.
 
 ## 4. Hard rules — the validator rejects these
 

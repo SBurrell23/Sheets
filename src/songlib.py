@@ -58,7 +58,9 @@ QUALITIES = {
 }
 CHORD_RE = re.compile(r'^([A-G])(#|b)?([^/]*)(?:/([A-G])(#|b)?)?$')
 NOTE_RE = re.compile(r'^([A-G])(#|b)?(\d)$')
-TOKEN_RE = re.compile(r'^(?:\[([^\]]+)\])?([A-G](?:#|b)?\d|R):(\d+)$')
+TOKEN_RE = re.compile(r'^(?:\[([^\]]+)\])?([A-G](?:#|b)?\d|R):(\d+)(~?)$')
+TUPLET_OPEN = '(3'
+TICKS = 3                 # ticks per sixteenth; 3 so a triplet divides exactly
 
 # playable window: bottom line of the treble staff up to two ledger lines above
 MIN_MIDI, MAX_MIDI = 67, 84          # G4 .. C6
@@ -94,28 +96,76 @@ def parse_chord(sym):
 
 
 def parse_bar(notes_str):
-    """-> (list of events, error string or None). Event: dict or ValueError text."""
-    out, pos = [], 0
+    """-> (list of events, error string or None).
+
+    `dur` is the WRITTEN duration in sixteenths, which is what the note looks
+    like on the page. `span` is the PLAYED length in thirds-of-a-sixteenth --
+    "ticks" -- which is what a bar has to add up to. The two differ only inside
+    a triplet, and the third exists precisely so a triplet comes out exact
+    rather than as a rounding error: a normal note spans dur * 3, a note inside
+    a triplet spans dur * 2. A full 4/4 bar is 16 * 3 = 48 ticks.
+
+    A trailing `~` ties the note into the next one of the same pitch, which may
+    be the first note of the following bar. `(3 ... )` marks a triplet.
+    """
+    out = []
     toks = (notes_str or '').split()
     if not toks:
         return None, 'empty bar'
+    open_at = None                       # index in `out` where the open triplet began
     for t in toks:
+        if t == TUPLET_OPEN:
+            if open_at is not None:
+                return None, 'a triplet is already open -- close it with ")" before starting another'
+            open_at = len(out)
+            continue
+        close = t.endswith(')')
+        if close:
+            t = t[:-1]
+            if open_at is None:
+                return None, 'stray ")" -- no triplet is open'
         m = TOKEN_RE.match(t)
         if not m:
-            return None, 'bad token %r (expected e.g. C5:4, F#5:2, [Am]E5:4, R:4)' % t
-        chord, name, dur = m.group(1), m.group(2), int(m.group(3))
+            return None, ('bad token %r (expected e.g. C5:4, F#5:2, [Am]E5:4, R:4, '
+                          'C5:8~ to tie, or "(3 C5:2 D5:2 E5:2)" for a triplet)' % t)
+        chord, name, dur, tie = m.group(1), m.group(2), int(m.group(3)), m.group(4)
         if dur not in TYPE:
             return None, 'bad duration %d in %r (allowed: %s)' % (
                 dur, t, ', '.join(str(k) for k in sorted(TYPE)))
         if name == 'R':
-            ev = {'rest': True, 'dur': dur, 'chord': chord, 'pos': pos}
+            if tie:
+                return None, 'a rest cannot be tied (%r)' % t
+            ev = {'rest': True, 'dur': dur, 'span': dur * 3, 'chord': chord, 'tie': False,
+                  'tup': None}
         else:
             nm = NOTE_RE.match(name)
             ev = {'rest': False, 'step': nm.group(1),
                   'alter': 1 if nm.group(2) == '#' else (-1 if nm.group(2) == 'b' else 0),
-                  'octave': int(nm.group(3)), 'dur': dur, 'chord': chord, 'pos': pos}
+                  'octave': int(nm.group(3)), 'dur': dur, 'span': dur * 3,
+                  'chord': chord, 'tie': bool(tie), 'tup': None}
         out.append(ev)
-        pos += dur
+
+        if close:
+            grp = out[open_at:]
+            if not 2 <= len(grp) <= 4:
+                return None, 'a triplet holds 2 to 4 notes (got %d)' % len(grp)
+            s = sum(e['dur'] for e in grp)
+            if s % 3:
+                return None, ('a triplet\'s written durations must sum to a multiple of 3 '
+                              '(got %d) -- three eighths "2 2 2", or a quarter and an '
+                              'eighth "4 2"' % s)
+            for i, e in enumerate(grp):
+                e['span'] = e['dur'] * 2
+                e['tup'] = 'start' if i == 0 else ('stop' if i == len(grp) - 1 else 'mid')
+                e['tupn'] = len(grp)
+            open_at = None
+    if open_at is not None:
+        return None, 'unclosed triplet -- put ")" on the last note of the group'
+
+    pos = 0
+    for e in out:
+        e['pos'] = pos
+        pos += e['span']
     return out, None
 
 
@@ -144,14 +194,17 @@ def swing_events(evs):
     lone off-beat eighth is left alone. The pair still spans 4 units, so the
     bar still sums to 16 and every later note keeps its position.
     """
+    if any(e.get('tup') for e in evs):
+        return [dict(e) for e in evs]     # a triplet already has its own ratio
     out, i = [], 0
     while i < len(evs):
         a = evs[i]
         b = evs[i + 1] if i + 1 < len(evs) else None
         if (b is not None and a['dur'] == 2 and b['dur'] == 2
-                and a['pos'] % 4 == 0 and not a['rest'] and not b['rest']):
-            first = dict(a); first['dur'] = 3
-            second = dict(b); second['dur'] = 1; second['pos'] = a['pos'] + 3
+                and a['pos'] % (4 * TICKS) == 0 and not a['rest'] and not b['rest']):
+            first = dict(a); first['dur'] = 3; first['span'] = 3 * TICKS
+            second = dict(b); second['dur'] = 1; second['span'] = 1 * TICKS
+            second['pos'] = a['pos'] + 3 * TICKS
             out.append(first); out.append(second)
             i += 2
         else:
@@ -221,12 +274,15 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             E.append('bar %d: %s' % (i, err))
             continue
 
-        total = sum(e['dur'] for e in evs)
-        want = pickup if (i == 1 and pickup) else bar_units
+        # Summed in ticks so a triplet counts for what it actually plays, then
+        # reported back in sixteenths, which is what the author wrote.
+        total = sum(e['span'] for e in evs)
+        want = (pickup if (i == 1 and pickup) else bar_units) * TICKS
         if total != want:
-            E.append('bar %d: durations sum to %d, must be exactly %d%s '
+            E.append('bar %d: durations sum to %s, must be exactly %d%s '
                      '(1=16th 2=8th 3=dotted8th 4=quarter 6=dotted-quarter 8=half 12=dotted-half 16=whole)'
-                     % (i, total, want, ' (the pickup bar)' if want == pickup and i == 1 else ''))
+                     % (i, ('%g' % (total / float(TICKS))), want // TICKS,
+                        ' (the pickup bar)' if want == pickup * TICKS and i == 1 else ''))
         # Original-composition sets want every bar struck on beat 1, which is what
         # keeps an invented tune landing. A transcription of a real song has no say
         # in the matter -- forcing it rewrites the tune's own phrasing.
@@ -247,6 +303,46 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             eighth_bars += 1
         if any(e['dur'] in (1, 3) for e in evs):
             sixteenth_bars += 1
+
+    if E:
+        return E, W, N
+
+    # ---- ties ------------------------------------------------------------
+    # A tie has to land on the same pitch, and the note it lands on may be the
+    # first of the next bar -- that is the whole point of having ties at all.
+    flat = []
+    for i, b in enumerate(bars, start=1):
+        for e in parse_bar(b['notes'])[0]:
+            flat.append((i, e))
+    ties = 0
+    for k, (bar_no, e) in enumerate(flat):
+        if not e.get('tie'):
+            continue
+        ties += 1
+        if k + 1 >= len(flat):
+            E.append('bar %d: the last note of the song cannot be tied' % bar_no)
+            continue
+        nxt = flat[k + 1][1]
+        if nxt['rest'] or (nxt['step'], nxt['alter'], nxt['octave']) != \
+                (e['step'], e['alter'], e['octave']):
+            E.append('bar %d: a tied note must be followed by the same pitch '
+                     '(%s%d tied into %s)'
+                     % (bar_no, e['step'], e['octave'],
+                        'a rest' if nxt['rest'] else '%s%d' % (nxt['step'], nxt['octave'])))
+    # Proportional, because the collections run from 16-bar folk tunes to a
+    # 133-bar Joplin waltz and one absolute number would be wrong for both.
+    tie_ratio = thresholds.get('maxTieRatio')
+    if tie_ratio is not None and ties > len(bars) * tie_ratio:
+        W.append('%d ties across %d bars (over the %d%% this set allows). Ties are for '
+                 'notes the tune genuinely sustains, not a way round the bar maths'
+                 % (ties, len(bars), round(tie_ratio * 100)))
+
+    tup_bars = sum(1 for b in bars if any(e.get('tup')
+                                          for e in parse_bar(b['notes'])[0]))
+    tup_ratio = thresholds.get('maxTripletBarRatio')
+    if tup_ratio is not None and tup_bars > len(bars) * tup_ratio:
+        W.append('%d of %d bars contain triplets (over the %d%% this set allows)'
+                 % (tup_bars, len(bars), round(tup_ratio * 100)))
 
     if E:
         return E, W, N
@@ -433,7 +529,8 @@ def _beam_groups(evs, beat=4):
     groups, cur = [], []
     for i, e in enumerate(evs):
         ok = (not e['rest']) and e['dur'] in FLAGS
-        if ok and (not cur or evs[cur[-1]]['pos'] // beat == e['pos'] // beat):
+        if ok and (not cur or evs[cur[-1]]['pos'] // (beat * TICKS)
+                              == e['pos'] // (beat * TICKS)):
             cur.append(i)
         else:
             if len(cur) > 1:
@@ -486,6 +583,7 @@ def to_musicxml(song, swing=False):
     w('    <midi-instrument id="P1-I1"><midi-channel>1</midi-channel>'
       '<midi-program>1</midi-program><volume>80</volume><pan>0</pan></midi-instrument>\n')
     w('  </score-part></part-list>\n  <part id="P1">\n')
+    prev_tie = False                      # a tie carries over the barline
 
     for bn, evs in enumerate(bars, start=1):
         num = (bn - 1) if pickup else bn
@@ -496,7 +594,9 @@ def to_musicxml(song, swing=False):
         if num > 1 and (num - 1) % 4 == 0:
             w('      <print new-system="yes"/>\n')
         if bn == 1:
-            w('      <attributes><divisions>4</divisions>\n'
+            # 12 per quarter = 4 sixteenths x 3 ticks, so a triplet eighth is
+            # exactly 4 and nothing has to be rounded.
+            w('      <attributes><divisions>12</divisions>\n'
               '        <key><fifths>%d</fifths><mode>%s</mode></key>\n'
               '        <time><beats>%d</beats><beat-type>%d</beat-type></time>\n'
               '        <clef><sign>G</sign><line>2</line></clef></attributes>\n'
@@ -529,6 +629,7 @@ def to_musicxml(song, swing=False):
                 w('      </harmony>\n')
                 pending = None
             typ, dots = TYPE[e['dur']]
+            tied_from, prev_tie = prev_tie, bool(e.get('tie'))
             acc = None if e['rest'] else _accidental(e['step'], e['octave'], e['alter'],
                                                      state, defaults)
             w('      <note>')
@@ -537,14 +638,32 @@ def to_musicxml(song, swing=False):
             else:
                 w('<pitch><step>%s</step>%s<octave>%d</octave></pitch>'
                   % (e['step'], '<alter>%d</alter>' % e['alter'] if e['alter'] else '', e['octave']))
-            w('<duration>%d</duration><voice>1</voice><type>%s</type>' % (e['dur'], typ))
+            # <tie> is the sounding instruction and <tied> the printed slur; a note
+            # that both ends one tie and begins another carries both.
+            if tied_from:
+                w('<tie type="stop"/>')
+            if e.get('tie'):
+                w('<tie type="start"/>')
+            w('<duration>%d</duration><voice>1</voice><type>%s</type>' % (e['span'], typ))
             w('<dot/>' * dots)
             if acc:
                 w('<accidental>%s</accidental>' % acc)
+            if e.get('tup'):
+                w('<time-modification><actual-notes>3</actual-notes>'
+                  '<normal-notes>2</normal-notes></time-modification>')
             for lvl, kind_ in beams.get(idx, []):
                 w('<beam number="%d">%s</beam>' % (lvl, kind_))
+            notations = []
+            if tied_from:
+                notations.append('<tied type="stop"/>')
+            if e.get('tie'):
+                notations.append('<tied type="start"/>')
+            if e.get('tup') in ('start', 'stop'):
+                notations.append('<tuplet type="%s" bracket="yes"/>' % e['tup'])
             if bn == len(bars) and idx == len(evs) - 1:
-                w('<notations><fermata type="upright"/></notations>')
+                notations.append('<fermata type="upright"/>')
+            if notations:
+                w('<notations>%s</notations>' % ''.join(notations))
             w('</note>\n')
         if bn == len(bars):
             w('      <barline location="right"><bar-style>light-heavy</bar-style></barline>\n')
@@ -578,6 +697,11 @@ def to_abc(song, with_title=True, swing=False):
             if pending:
                 a += '"%s"' % pending
                 pending = None
+            # ABC's (p:q:r -- p notes in the time of q, over the next r. A plain
+            # "(3" already means 3-in-2 over three notes, so only an uneven
+            # group (a quarter and an eighth, say) needs the long form.
+            if e.get('tup') == 'start':
+                a += '(3' if e.get('tupn', 3) == 3 else '(3:2:%d' % e['tupn']
             if bn == len(bars) and idx == len(evs) - 1:
                 a += 'H'
             if e['rest']:
@@ -588,6 +712,8 @@ def to_abc(song, with_title=True, swing=False):
                 a += (e['step'].lower() + "'" * (e['octave'] - 5)) if e['octave'] >= 5 \
                     else (e['step'] + ',' * (4 - e['octave']))
                 a += str(e['dur'])
+                if e.get('tie'):
+                    a += '-'
             in_group = idx in beams
             same_group = (in_group and last_in == idx - 1
                           and gid.get(idx) == gid.get(idx - 1))

@@ -1,1 +1,1 @@
-{"bars": null, "requireFinalWhole": false, "minSixteenthBars": 0, "minEighthBarsRatio": 0.0, "maxLeapRatio": 0.6, "allowFinalChordClose": true, "allowRestStart": true, "requireTonicClose": false, "title": "Other", "label": "Early New Orleans jazz", "order": 3}
+{"bars": null, "requireFinalWhole": false, "minSixteenthBars": 0, "minEighthBarsRatio": 0.0, "maxLeapRatio": 0.6, "allowFinalChordClose": true, "allowRestStart": true, "requireTonicClose": false, "title": "Other", "label": "Early New Orleans jazz", "order": 3, "maxTieRatio": 0.25, "maxTripletBarRatio": 0.3}

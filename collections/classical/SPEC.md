@@ -24,8 +24,14 @@ Three things matter, in this order:
 3. **It must be playable at this level.** No ornaments, no trills written out, no virtuoso runs.
    If the original has a cascade of thirty-second notes, write the shape underneath it.
 
-Write **the theme once through** — typically the first period or the famous strain, 16 to 40
-bars. Do not write out repeats, development, or a second subject.
+## 1a. Length — as long as the music needs
+
+**There is no bar cap.** Write the theme through to a musical close. Where the piece has a second
+strain, a contrasting middle section or a return that an ear expects to hear, **include it** — a
+minuet with no trio, or a march with no trio, is only half the tune. What you should not write is
+literal repeats, or development sections that wander away from the theme.
+
+Most themes will land between 16 and 40 bars; some will want 60 or 80. Let the music decide.
 
 ## 2. The file
 
@@ -70,8 +76,20 @@ and 8 in 2/4.
 A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
 `F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
 
-**There is no tie syntax.** A note cannot be held across a barline. Where the theme sustains
-across a bar line, write the note as long as the bar allows and begin the next bar afresh.
+### Ties and triplets — for fidelity, not convenience
+
+**A tie** is a trailing `~`: `C5:8~ C5:8` holds one C for a whole bar, and a tie may cross a
+barline — the last note of one bar tying into the first of the next. It must land on the **same
+pitch**. This exists so a tune that genuinely sustains across a barline can be written the way it
+really goes, instead of being re-struck or chopped short.
+
+**A triplet** is `(3 ... )`: `(3 C5:2 D5:2 E5:2)` is three eighths in the time of two. The
+written durations inside the group must sum to a multiple of 3 — three eighths (`2 2 2`), three
+quarters (`4 4 4`), or an uneven quarter-and-eighth (`4 2`). A group holds 2 to 4 notes.
+
+Reach for either **only when the melody actually has one** and writing it another way would
+falsify the rhythm. The validator warns if ties exceed 25% of the bar count, or if more than 30%
+of bars contain a triplet — that ceiling is there because these should be occasional.
 
 ## 4. Hard rules — the validator rejects these
 
