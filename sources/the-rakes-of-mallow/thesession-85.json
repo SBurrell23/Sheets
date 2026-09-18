@@ -1,0 +1,693 @@
+{
+    "format": "json",
+    "id": 85,
+    "name": "The Rakes Of Mallow",
+    "url": "https://thesession.org/tunes/85",
+    "member": {
+        "id": 1,
+        "name": "Jeremy",
+        "url": "https://thesession.org/members/1"
+    },
+    "date": "2001-05-25 03:44:06",
+    "type": "polka",
+    "tunebooks": 1062,
+    "recordings": 2,
+    "collections": 6,
+    "aliases": ["Galway Piper","High Could Cap","Jolly Sailor","La Pitoune","Lhigey, Lhigey","Mallow Fling","Na Racairide Ua Mag-Ealla","Notre Dame University Fight Song","Piping Tim Of Galway","The Rakes Of London","The Rakes Of Mall","The Rakes Of Malta","The Rakes Of Marlow","The Rakes Of Mellow","The Rigs O' Marlow","The Rigs Of Marlow","Romping Molly","Tim's Reel","Wee Girls' Sevens","What A Bloody Balls Up"],
+    "settings": [
+        {
+            "id": 85,
+            "url": "https://thesession.org/tunes/85#setting85",
+            "key": "Gmajor",
+            "abc": "|:GB GB|GB c\/B\/A\/G\/|FA FA|FA B\/A\/G\/F\/|! GB GB|GB d2|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G2:|! |:gf ed|Bc d2|gf ed|Bc A2|! gf ed|Bc d2|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G2:|",
+            "member": {
+                "id": 1,
+                "name": "Jeremy",
+                "url": "https://thesession.org/members/1"
+            },
+            "date": "2001-05-25 03:44:06"
+        },
+        {
+            "id": 12591,
+            "url": "https://thesession.org/tunes/85#setting12591",
+            "key": "Gmajor",
+            "abc": "|:GB GB|GB c\/B\/A\/G\/|FA FA|FA d\/c\/B\/A\/|! GB GB|GB d>B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G:|! gf\/e\/ dc|Bc d2|gf\/e\/ dB|ce A2|! gf\/e\/ dc|B>c dB|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G:|! GB GB\/B\/|G>B c\/B\/A\/G\/|FA F\/G\/A\/G\/|FA D2|! G>B GB\/B\/|G\/A\/B\/c\/ d>B|cA F\/A\/d\/c\/|BG G:|! gf\/e\/ d>c|Bc dB\/d\/|gf\/e\/ dc|Bd Ad|! gf\/e\/ d2|B>c d2|cA F\/A\/d\/c\/|BG G:|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-10-16 17:45:26"
+        },
+        {
+            "id": 12592,
+            "url": "https://thesession.org/tunes/85#setting12592",
+            "key": "Gmajor",
+            "abc": "|G2 B2 G2 B2|G2 B2 cBAG|F2 A2 F2 A2|F2A2 BAGF|! G2 B2 G2 B2|G2B2 d2 d2|cBAG FGAB|G4 G2 z2|! g2 fe d2 c2|B2 c2 d4|g2 FE d2 c2|Bc d2 A4|! g2 fe d2 c2|B2 c2 d4|cBAG FGAB|G4 G2 z2|",
+            "member": {
+                "id": 1659,
+                "name": "swisspiper",
+                "url": "https://thesession.org/members/1659"
+            },
+            "date": "2009-01-09 02:38:35"
+        },
+        {
+            "id": 12593,
+            "url": "https://thesession.org/tunes/85#setting12593",
+            "key": "Gmajor",
+            "abc": "G2 B2 G2 B2|G2 B2 cBAG|F2 A2 F2 A2|F2 A2 BAGF|! G2 B2 G2 B2|G2 B2 d2 d2|cBAG FGAB|G4 G2 z2||! g2 fe d2 c2|B2 c2 d4|g2 fe d2 c2|Bc d2 A4|! g2 fe d2 c2|B2 c2 d4|cBAG FGAB|G4 G2 z2||",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 16:24:58"
+        },
+        {
+            "id": 12594,
+            "url": "https://thesession.org/tunes/85#setting12594",
+            "key": "Gmajor",
+            "abc": "|:GB GB|GB c\/B\/A\/G\/|FA FA|FA d\/c\/B\/A\/|! GB GB|GB d>B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz:|! |:gf\/e\/ dc|Bc d2|gf\/e\/ dc|Bg A2|! gf\/e\/ dc|Bc d2|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz:|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 16:35:55"
+        },
+        {
+            "id": 12595,
+            "url": "https://thesession.org/tunes/85#setting12595",
+            "key": "Gmajor",
+            "abc": ".G.B .G.B|.G.B c\/B\/A\/G\/|.F.A .F.A|.F.A d\/c\/B\/A\/|! .G.B .G.B|.G.B .d.B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz|! G\/B\/B\/B\/ G\/B\/B\/B\/|G\/B\/B\/B\/ c\/B\/A\/G\/|F\/A\/A\/A\/ F\/A\/A\/A\/|F\/A\/A\/A\/ d\/c\/B\/A\/|! G\/B\/B\/B\/ G\/B\/B\/B\/|G\/B\/B\/B\/ dB|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz||! gf\/e\/ .d.c|.B.c .d.B|gf\/e\/ .d.c|.B.e Az|! gf\/e\/ .d.c|.B.c .d.B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz|! gf\/e\/ d\/e\/d\/c\/|B\/A\/B\/c\/ d\/c\/B\/c\/|gf\/e\/ d\/e\/d\/c\/|B\/A\/B\/e\/ AB\/d\/|! gf\/e\/ d\/e\/d\/c\/|B\/A\/B\/c\/ d\/c\/B\/c\/|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz||",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 17:02:34"
+        },
+        {
+            "id": 12596,
+            "url": "https://thesession.org/tunes/85#setting12596",
+            "key": "Gmajor",
+            "abc": "|:GB GB|GB c\/B\/A\/G\/|FA FA|FA d\/c\/B\/A\/|! GB GB|GB d2|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G2:|! |:gf\/e\/ dc|B\/A\/B\/c\/ d2|gf\/e\/ dc|B\/A\/B\/c\/ A2|! gf\/e\/ dc|B\/A\/B\/c\/ d2|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G2:|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 17:19:46"
+        },
+        {
+            "id": 12597,
+            "url": "https://thesession.org/tunes/85#setting12597",
+            "key": "Gmajor",
+            "abc": "GB GB|GB c\/B\/A\/G\/|FA DA|DA A\/G\/F\/A\/|! GB DB|GB d>B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G>D|! GB GB|GB c\/B\/A\/G\/|FA DA|FA d\/c\/B\/A\/|! GB DB|GB d>B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G||! gf\/e\/ dd\/c\/|Bc de\/f\/|gf\/e\/ dc\/B\/|eA Af\/a\/|! gf\/e\/ dd\/c\/|Bc dB\/d\/|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gf\/a\/|! gf\/e\/ dd\/c\/|Bc de\/f\/|gf\/e\/ dc\/B\/|eA Af\/f\/|! gf\/e\/ dd\/c\/|Bg dB\/d\/|c\/B\/A\/G\/ F\/e\/d\/c\/|BG G||",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 18:14:34"
+        },
+        {
+            "id": 12599,
+            "url": "https://thesession.org/tunes/85#setting12599",
+            "key": "Gmajor",
+            "abc": "|:G2 B2 G2 B2|G2 B2 dcBA|F2 A2 F2 A2|F2 A2 c2 A2|! G2 B2 G2 B2|G2 B2 c2 A2|B2 AG A2 GF|G4 G4:|! |:g2 e2 d2 c2|B2 c2 d4|g2 e2 d2 c2|B2 a2 A4|! g2 fe d2 c2|B2 AG c4|B2 AG A2 GF|G4 G4:|! |:DG B2 DG B2|DG B2 d2 BG|DF A2 DF A2|DF A2 c2 AF|! DG\/A\/ B2 DG\/A\/ B2|DG\/A\/ BG d2 cB|ecdB AcBA|G4 G4:|! |:gfge eddc|BGcA d4|gbag fedc|BG a2 A4|! (3bag (3agf (3gfe dc|(3BAG (3cBA d4|(3edc dB AcBA|G4 G4:|! |:GB GB|GB d\/c\/B\/A\/|FA FA|FA cA|! GB GB|GB cA|BA\/G\/ AG\/F\/|G2 G2:|! |:ge dc|Bc d2|ge dc|Ba A2|! gf\/e\/ dc|BA\/G\/ c2|BA\/G\/ AG\/F\/|G2 G2:|! |:D\/G\/B D\/G\/B|D\/G\/B dB\/G\/|D\/F\/A D\/F\/A|D\/F\/A cA\/F\/|! D\/G\/4A\/4B D\/G\/4A\/4B|D\/G\/4A\/4B\/G\/ dc\/B\/|e\/c\/d\/B\/ A\/c\/B\/A\/|G2 G2:|! |:g\/f\/g\/e\/ e\/d\/d\/c\/|B\/G\/c\/A\/ d2|g\/b\/a\/g\/ f\/e\/d\/c\/|B\/G\/a A2|! (3b\/a\/g\/ (3a\/g\/f\/ (3g\/f\/e\/ d\/c\/|(3B\/A\/G\/ (3c\/B\/A\/ d2|(3e\/d\/c\/ d\/B\/ A\/c\/B\/A\/|G2 G2:|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-01-30 05:15:25"
+        },
+        {
+            "id": 12600,
+            "url": "https://thesession.org/tunes/85#setting12600",
+            "key": "Gmajor",
+            "abc": "|:GB GB|G\/A\/B\/c\/ dA\/G\/|FA FA|F\/G\/A\/B\/ cB\/A\/|! GD G>A|G\/A\/B\/c\/ d2|cA d\/e\/d\/c\/|BG G:|! gf\/e\/ dc|B\/G\/(3A\/B\/c\/ d(3d\/e\/f\/|gf\/e\/ dc|B\/G\/B\/d\/ Ae\/f\/|! gG dG|Bc d>B|c\/B\/A\/G\/ F\/d\/c\/d\/|B(3A\/B\/A\/ G:|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-01-30 05:35:44"
+        },
+        {
+            "id": 32574,
+            "url": "https://thesession.org/tunes/85#setting32574",
+            "key": "Gmajor",
+            "abc": "|:GB GB|GB c\/B\/A\/G\/|FA FA|FA d\/c\/B\/A\/|! GB GB|GB d>B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz:|! |:gf\/e\/ dc|Bc d2|gf\/e\/ dc|Bc A2|! gf\/e\/ dc|Bc dB|c\/B\/A\/G\/ F\/G\/A\/c\/|BG Gz:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2018-06-13 04:11:27"
+        },
+        {
+            "id": 47155,
+            "url": "https://thesession.org/tunes/85#setting47155",
+            "key": "Gmajor",
+            "abc": "|:\"G\" GB GB|GB c\/B\/A\/G\/|\"D\"FA FA|FA B\/A\/G\/F\/|! \"G\" GB GB|GB d2|\"Am\" c\/B\/A\/G\/ \"D\" F\/G\/A\/c\/|\"G\"BG G2:|! |:\"G\" gf ed|Bc d2|gf ed|\"D\" Bc A2|! \"G\" gf ed|Bc d2|\"Am\" c\/B\/A\/G\/ \"D\" F\/G\/A\/c\/|\"G\" BG G2:|",
+            "member": {
+                "id": 157971,
+                "name": "Aaron Bergen",
+                "url": "https://thesession.org/members/157971"
+            },
+            "date": "2023-05-15 23:26:02"
+        },
+        {
+            "id": 49814,
+            "url": "https://thesession.org/tunes/85#setting49814",
+            "key": "Gmajor",
+            "abc": "\"G\"GB GB |GB c\/B\/A\/G\/|\"D\"FA FA |FA d2|! \"G\"GB GB |GB d>B|\"C\"c\/B\/A\/G\/ \"D\"F\/G\/A\/c\/ |\"G\"BG G2||! gf\/e\/ dc |\"Em\"Bc d2|\"C\"gf\/e\/ dc |\"D\"Bc A2|! \"G\"gf\/e\/ dc |\"Em\"Bc d2|\"C\"c\/B\/A\/G\/ \"D\"F\/G\/A\/c\/ |\"G\"BG G2||",
+            "member": {
+                "id": 162008,
+                "name": "Gabby McKinley",
+                "url": "https://thesession.org/members/162008"
+            },
+            "date": "2024-03-03 17:33:21"
+        },
+        {
+            "id": 50935,
+            "url": "https://thesession.org/tunes/85#setting50935",
+            "key": "Gmajor",
+            "abc": "|:D|GB GB|GB c\/B\/A\/G\/|FA FA|FA d\/c\/B\/A\/|! GB GB|GB d>B|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G:|! |:z|gf\/e\/ dc|Bc dB|gf\/e\/ dc|Bc Ad|! gf\/e\/ dc|Bc dB\/d\/|c\/B\/A\/G\/ F\/G\/A\/c\/|BG G:|",
+            "member": {
+                "id": 172460,
+                "name": "Sean Perry",
+                "url": "https://thesession.org/members/172460"
+            },
+            "date": "2024-06-30 20:07:04"
+        },
+        {
+            "id": 56597,
+            "url": "https://thesession.org/tunes/85#setting56597",
+            "key": "Gmajor",
+            "abc": "|:\u200e(3(D\/E\/F)\/|G\/G\/B\/G\/ G\/c\/G\/G\/ |B\/G\/G\/c\/ G\/G\/B\/G\/| F\/F\/A\/F\/ F\/B\/F\/F\/|A\/F\/F\/B\/ F\/F\/A\/F\/|! G\/G\/B\/G\/ G\/c\/G\/G\/ | B\/G\/G\/c\/ G\/G\/B\/G\/| F\/F\/A\/F\/ F\/B\/F\/F\/ |[GB\u200e]\u200e[G\/B\/\u200e][G\/B\u200e] [GB\u200e]:|! |:\u200e(3(d\/e\/f)\/|g\/f\/g\/f\/ ed |G\/A\/B\/c\/ d>e|g>f ed|ea a>f|! g\/f\/g\/f\/ ed |G\/A\/B\/c\/ d>B|c\/B\/A\/G\/ F\/G\/A\/c\/| BG G:|",
+            "member": {
+                "id": 189222,
+                "name": "Jammin\u2019Cellist",
+                "url": "https://thesession.org/members/189222"
+            },
+            "date": "2026-02-17 02:52:56"
+        }
+    ],
+    "comments": [
+        {
+            "id": 84,
+            "url": "https://thesession.org/tunes/85#comment84",
+            "subject": "",
+            "content": "This tune is most often heard as part of a set dance, not just in ireland, but in New England also.    I like to play this tune as if I were playing it for dancers. This means that ornamentation takes a back seat to keeping a steady rhythm.    I find it's nice to play the first part in a choppy manner.    It's nice to have percussive accompaniment to this tune, even if it's just your own foot beating time.",
+            "member": {
+                "id": 1,
+                "name": "Jeremy",
+                "url": "https://thesession.org/members/1"
+            },
+            "date": "2001-06-02 04:44:46"
+        },
+        {
+            "id": 10827,
+            "url": "https://thesession.org/tunes/85#comment10827",
+            "subject": "Lyrics for the Rakes....",
+            "content": "Below are the lyrics for the Rakes of Mallow, supposed a traditional, Irish drinking song:    Beauing, belleing, dancing, drinking,  Breaking windows, cursing, sinking  Ever raking, never thinking,  Live the Rakes of Mallow;  Spending faster than it comes,  Beating waiters bailiffs, duns,  Bacchus' true begotten sons,  Live the Rakes of Mallow.    One time naught but claret drinking,  Then like politicians, thinking  To raise the \"sinking funds\"when sinking.  Live the Rakes of Mallow.  When at home, with da-da dying,  Still for mellow water crying;  But, where there's good claret plying  Live the Rakes of Mallow.    Racking tenants, stewards teasing,  Swiftly spending, slowly raising,  Wishing to spend all their days in  Raking as at Mallow.  Then to end this raking life,  They get sober, take a wife,  Ever after live in strife,  And wish again for Mallow.",
+            "member": {
+                "id": 924,
+                "name": "Doc Lawlor",
+                "url": "https://thesession.org/members/924"
+            },
+            "date": "2002-08-05 06:17:41"
+        },
+        {
+            "id": 10829,
+            "url": "https://thesession.org/tunes/85#comment10829",
+            "subject": "Rakes of Mallow lyrics",
+            "content": "I heard that sung by some \"Mariners\" (A fife corp) at a Fife & Drum Muster. It had some other verses which are far, far too dirty to even imagine posting in this forum. Unfortunatly I don't remember them because I was laughing too hard. Gives the tune something of a lift & a giggle to boot.",
+            "member": {
+                "id": 1173,
+                "name": "b.maloney",
+                "url": "https://thesession.org/members/1173"
+            },
+            "date": "2002-08-05 07:34:29"
+        },
+        {
+            "id": 54300,
+            "url": "https://thesession.org/tunes/85#comment54300",
+            "subject": "",
+            "content": "I play this at 18th Century Rendezvous along with Road to Boston.  Does anyone have a timeline on either? It was background music for a PBS TV series called Sharp's Rifles a few years ago, where it was used as a march.",
+            "member": {
+                "id": 9367,
+                "name": "wvwhistler",
+                "url": "https://thesession.org/members/9367"
+            },
+            "date": "2004-01-22 18:58:18"
+        },
+        {
+            "id": 126748,
+            "url": "https://thesession.org/tunes/85#comment126748",
+            "subject": "",
+            "content": "I've grown up around traditional morris dance music, I knew this song sounded so familiar, so it makes sense about the new england thing",
+            "member": {
+                "id": 15530,
+                "name": "banana512",
+                "url": "https://thesession.org/members/15530"
+            },
+            "date": "2005-02-27 14:02:06"
+        },
+        {
+            "id": 141257,
+            "url": "https://thesession.org/tunes/85#comment141257",
+            "subject": "",
+            "content": "I have also heard this played in a 'march' way.  There were specific dances that were danced to this tune, solo, couple and group...  The earliest time base I can take it back to, from living memory, is the late 1800s in Eire\/Ireland...  I'll see if I can find any notations for dance...and possibly older printed sources.",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2005-05-16 06:04:32"
+        },
+        {
+            "id": 194279,
+            "url": "https://thesession.org/tunes/85#comment194279",
+            "subject": "Road to Boston",
+            "content": "Road to Boston is a fife tune which I have been told was played by General Greene's troops as they marched north from Rhode Island to help our colonial brethren up in Boston during the Revolutionary War.",
+            "member": {
+                "id": 7960,
+                "name": "AlBrown",
+                "url": "https://thesession.org/members/7960"
+            },
+            "date": "2006-02-08 11:11:45"
+        },
+        {
+            "id": 232645,
+            "url": "https://thesession.org/tunes/85#comment232645",
+            "subject": "A La Bolduc song",
+            "content": "the second part of this polka is used as the verse-tune for La Bolduc(the great , eternal, French singing, Canadian MusicHall artist of the 'entre-deux-guerre' period)'s '(Hourrah) pour la Pitchoune' or \"Elle joue du Banjo\"",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2006-10-04 11:31:13"
+        },
+        {
+            "id": 238561,
+            "url": "https://thesession.org/tunes/85#comment238561",
+            "subject": "La Pitoune",
+            "content": "The tune for the verses of this song is based on the 2d part of this polka.  Its chorus and lyrics where penned by Mary Travers (aka La Bolduc) c.1930 it seems.   Have a peep at its double-entendres at: http:\/\/www.frmusique.ru\/texts\/b\/bolduc\/pitoune.htm",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2006-11-14 14:21:01"
+        },
+        {
+            "id": 240473,
+            "url": "https://thesession.org/tunes/85#comment240473",
+            "subject": "Gael Force",
+            "content": "I just heard a Gael Force rendition of this on bagpipes with awesome guitar and heavy percussion.  Very cool.",
+            "member": {
+                "id": 16754,
+                "name": "Ben314",
+                "url": "https://thesession.org/members/16754"
+            },
+            "date": "2006-11-25 18:44:48"
+        },
+        {
+            "id": 397053,
+            "url": "https://thesession.org/tunes/85#comment397053",
+            "subject": "",
+            "content": "This tune is played a lot in the film The Quiet Man starring John Wayne",
+            "member": {
+                "id": 16220,
+                "name": "upmine3",
+                "url": "https://thesession.org/members/16220"
+            },
+            "date": "2008-09-06 07:52:22"
+        },
+        {
+            "id": 406245,
+            "url": "https://thesession.org/tunes/85#comment406245",
+            "subject": "Hi",
+            "content": "hi i have grown up with this sort of music all my life, im a dancer, and now am learning it on the fiddle have you got any tips to help me with this tune :)",
+            "member": {
+                "id": 47718,
+                "name": "folkiefreek",
+                "url": "https://thesession.org/members/47718"
+            },
+            "date": "2008-10-16 03:30:45"
+        },
+        {
+            "id": 406255,
+            "url": "https://thesession.org/tunes/85#comment406255",
+            "subject": "",
+            "content": "Try avoiding it like the plague, and everyone will think you're fantastic.",
+            "member": {
+                "id": 4763,
+                "name": "Dr. Dow",
+                "url": "https://thesession.org/members/4763"
+            },
+            "date": "2008-10-16 05:15:14"
+        },
+        {
+            "id": 406472,
+            "url": "https://thesession.org/tunes/85#comment406472",
+            "subject": "It is what it is...  8-)",
+            "content": "Have fun with it.  In dear Ireland there wasn't a county, musician or ceili band I came across that didn't have this tune as part of their repertoire ~ and able to get some pleasure out of playing it.  There are some in amongst the 'new breeds' that frown on such tunes and choose to ignore them, avoid them.  Hey, it's a free world, they can suck on a pint if any of those tunes they consider naff or dag happen to find air at a session they're party to...  The silliness in them is part of their charm, but some people take this music far too seriously...    Outside of Ireland too ~ Scotland, Wales, Cornwall, England, Denmark, South Africa, Canada, the U.S.A. ~ this little number and various dances that became associated with it ~ spread.  It has been used for solo stepping and for sets ~ all sorts of dances and dancing ~ big circle, sicilian, longways, contras, squares, 4-hand, couple, etc...  I've had the pleasure of playing it with a slew of different folks and for a slew of different dances, and we always had fun with it, as did the dancers, who quickly took it to heart and could be heard to hum or lilt it after having danced to it...    I'll have to remember to add a different take or two of this melody to the comments here.  If I forget ~ remind me... :-\/",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-10-16 17:30:55"
+        },
+        {
+            "id": 406474,
+            "url": "https://thesession.org/tunes/85#comment406474",
+            "subject": "\"The Rakes of Mallow\"",
+            "content": "X: 23  T: Rakes Of Mallow, The  M: 2\/4  L: 1\/8  R: polka  K: Gmaj  |: D |\\  GB GB | GB c\/B\/A\/G\/ |FA FA | FA d\/c\/B\/A\/ |  GB GB | GB d>B | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG G :|  |: d |\\  gf\/e\/ dc | Bc d2 | gf\/e\/ dB | ce A2 |  gf\/e\/ dc | B>c dB | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG G :|  |: D |\\  GB GB\/B\/ | G>B c\/B\/A\/G\/ |FA F\/G\/A\/G\/ | FA D2 |  G>B GB\/B\/ | G\/A\/B\/c\/ d>B | cA F\/A\/d\/c\/ | BG G :|  |: d |\\  gf\/e\/ d>c | Bc dB\/d\/ | gf\/e\/ dc | Bd Ad |  gf\/e\/ d2 | B>c d2 | cA F\/A\/d\/c\/ | BG G :|    & K: Dmaj ~ |: df df | df g\/f\/e\/d\/ | ~    & K: Amaj ~ |: Ac Ac | Ac d\/c\/B\/A\/ | ~",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-10-16 17:45:26"
+        },
+        {
+            "id": 406475,
+            "url": "https://thesession.org/tunes/85#comment406475",
+            "subject": "\"The Rakes of Mallow\" ~ come on all you rakes out there, contribute!!!",
+            "content": "There must be an endless number of different takes on this tune in circulation out there.  Let's see some of them, please?!     I love it how with this tune the one name stuck and spread with the dissemination of the melody, wherever...  While some very popular tunes have ended up with a slew of different names, often because lyrics were easily fitted to them, like \"Shoe the Donkey\", this very popular number tended to be known by the one name pretty much, \"The Rakes of Mallow\", even where languages other than English were the native tongue...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2008-10-16 17:50:09"
+        },
+        {
+            "id": 423620,
+            "url": "https://thesession.org/tunes/85#comment423620",
+            "subject": "Mallow Fling",
+            "content": "From the recorder lessons of my son:    T:Mallow Fling  M:4\/4  L:1\/8  K:G  |G2 B2 G2 B2|G2 B2 cBAG|F2 A2 F2 A2|F2A2 BAGF|  G2 B2 G2 B2|G2B2 d2 d2|cBAG  FGAB |G4 G2 z2|  g2 fe d2 c2|B2 c2 d4  |g2 FE d2 c2|Bc d2 A4|  g2 fe d2 c2|B2 c2 d4  |cBAG  FGAB |G4 G2 z2|",
+            "member": {
+                "id": 1659,
+                "name": "swisspiper",
+                "url": "https://thesession.org/members/1659"
+            },
+            "date": "2009-01-09 02:38:35"
+        },
+        {
+            "id": 503064,
+            "url": "https://thesession.org/tunes/85#comment503064",
+            "subject": "",
+            "content": "Interesting take, but there's no way this sits well as a 'fling'.  Was it this way in a book? ~ or was it just a name the recorder teacher chose to give it?  I've just corrected a small part of it, but was this a version where the parts repeated or not?    X: 3  T: Mallow Fling  M: 4\/4  L: 1\/8  R: polka, reel, march  K: G  G2 B2 G2 B2 | G2 B2 cBAG | F2 A2 F2 A2 | F2 A2 BAGF |  G2 B2 G2 B2 | G2 B2 d2 d2 | cBAG FGAB | G4 G2 z2 ||  g2 fe d2 c2 | B2 c2 d4 | g2 fe d2 c2 | Bc d2 A4 |  g2 fe d2 c2 | B2 c2 d4 | cBAG FGAB | G4 G2 z2 |]",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 16:24:58"
+        },
+        {
+            "id": 503066,
+            "url": "https://thesession.org/tunes/85#comment503066",
+            "subject": "\"Rakes of Mallow\" & Kerr's",
+            "content": "\"Kerr's Third Collection of Merry Melodies\"  Page 41, tune #371 ~ \"Rakes of Mallow\"    X: 3  T: Rakes of Mallow  B: Kerr's Third Collection of Merry Melodies, page 41, tune #371  M: 2\/4  L: 1\/8  R: country dance  K: GMaj  |: GB GB | GB c\/B\/A\/G\/ | FA FA | FA d\/c\/B\/A\/ |  GB GB | GB d>B | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gz :|  |: gf\/e\/ dc | Bc d2 | gf\/e\/ dc | Bg A2 |  gf\/e\/ dc | Bc d2 | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gz :|    R: polka, reel, march, country dance...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 16:35:55"
+        },
+        {
+            "id": 503069,
+            "url": "https://thesession.org/tunes/85#comment503069",
+            "subject": "\"The Rakes of Mallow\" & O'Neill",
+            "content": "X: 5  T: Rakes of Mallow, The  S: O'Neill's Music of Irleand, 1903, page 341, tune #1814  M: 2\/4  L: 1\/8  R: march  K: GMaj  .G.B .G.B | .G.B c\/B\/A\/G\/ | .F.A .F.A | .F.A d\/c\/B\/A\/ |  .G.B .G.B | .G.B .d.B | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gz |  G\/B\/B\/B\/ G\/B\/B\/B\/ | G\/B\/B\/B\/ c\/B\/A\/G\/ | F\/A\/A\/A\/ F\/A\/A\/A\/ | F\/A\/A\/A\/ d\/c\/B\/A\/ |  G\/B\/B\/B\/ G\/B\/B\/B\/ | G\/B\/B\/B\/ dB | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gz ||  gf\/e\/ .d.c | .B.c .d.B | gf\/e\/ .d.c | .B.e Az |  gf\/e\/ .d.c | .B.c .d.B | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gz |  gf\/e\/ d\/e\/d\/c\/ | B\/A\/B\/c\/ d\/c\/B\/c\/ | gf\/e\/ d\/e\/d\/c\/ | B\/A\/B\/e\/ AB\/d\/ |  gf\/e\/ d\/e\/d\/c\/ | B\/A\/B\/c\/ d\/c\/B\/c\/ | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gz |]    Dots to be found here ~  http:\/\/www.celtic-sheet-music.com\/  http:\/\/www.celtic-sheet-music.com\/musicofireland.html  http:\/\/www.celtic-sheet-music.com\/oneills\/TheRakesOfMallow.pdf",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 17:02:34"
+        },
+        {
+            "id": 503072,
+            "url": "https://thesession.org/tunes/85#comment503072",
+            "subject": "\"The Rakes of Mallow\" & \"Allen's Irish Fiddler\"",
+            "content": "3rd tune in a set of three for the longways dance \"The Walls of Limerick\"  Page 31 ~ #119    X: 6  T: Rakes of Mallow, The  S: Allen's Irish Fiddler  M: 2\/4  L: 1\/8  R: march  K: GMaj  |: GB GB | GB c\/B\/A\/G\/ | FA FA | FA d\/c\/B\/A\/ |  GB GB | GB d2 | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG G2 :|  |: gf\/e\/ dc | B\/A\/B\/c\/ d2 | gf\/e\/ dc | B\/A\/B\/c\/ A2 |  gf\/e\/ dc | B\/A\/B\/c\/ d2 | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG G2 :|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 17:19:46"
+        },
+        {
+            "id": 503073,
+            "url": "https://thesession.org/tunes/85#comment503073",
+            "subject": "\"Allen's Irish Fiddler\"",
+            "content": "http:\/\/www.oldmusicproject.com\/  http:\/\/www.oldmusicproject.com\/allans.html",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 17:20:20"
+        },
+        {
+            "id": 503082,
+            "url": "https://thesession.org/tunes/85#comment503082",
+            "subject": "\"The Rakes of Mallow\" ~ Johnny Doherty",
+            "content": "~ the tune used for \"Sir Roger\", the dance...      I try to give some of the variations Johnny Doherty gave in playing the tune by writing out the repeats, AABB ~    X: 7  T: Rakes Of Mallow, The  S: Johnny Doherty, as heard on RTE radio  M: 2\/4  L: 1\/8  R: polka  K: Gmaj  (3D\/E\/F\/ |\\   GB GB | GB c\/B\/A\/G\/ | FA DA | DA A\/G\/F\/A\/ |  GB DB | GB d>B | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG G>D |  GB GB | GB c\/B\/A\/G\/ | FA DA | FA d\/c\/B\/A\/ |  GB DB | GB d>B | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG G ||  f\/a\/ |\\  gf\/e\/ dd\/c\/ | Bc de\/f\/ | gf\/e\/ dc\/B\/ | eA Af\/a\/ |  gf\/e\/ dd\/c\/ | Bc dB\/d\/ | c\/B\/A\/G\/ F\/G\/A\/c\/ | BG Gf\/a\/ |  gf\/e\/ dd\/c\/ | Bc de\/f\/ | gf\/e\/ dc\/B\/ | eA Af\/f\/ |  gf\/e\/ dd\/c\/ | Bg dB\/d\/ | c\/B\/A\/G\/ F\/e\/d\/c\/ | BG G |]",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2010-03-22 18:14:34"
+        },
+        {
+            "id": 514756,
+            "url": "https://thesession.org/tunes/85#comment514756",
+            "subject": "Early wire strung harp music published by Thumoth, 1742",
+            "content": "\"The Rakes Of Mallow\" was published in Burk Thumoth's book, \"Twelve Scotch and Twelve Irish Airs\",  c. 1742, subtitled \"With Variations, set for the German Flute, Violin or Harpsichord by Mr Burk Thumoth\". This is likely to have originally been part of the early wire strung harp repertoire. See:   http:\/\/www.earlygaelicharp.info\/sources\/thumoth.htm  http:\/\/www.pipers.ie\/imco\/BTEISA.HTM  http:\/\/www.pipers.ie\/imco\/BTEISA47-TheRakesofMallow.HTM",
+            "member": {
+                "id": 65055,
+                "name": "Brent Allpress",
+                "url": "https://thesession.org/members/65055"
+            },
+            "date": "2010-05-19 12:08:54"
+        },
+        {
+            "id": 519660,
+            "url": "https://thesession.org/tunes/85#comment519660",
+            "subject": "",
+            "content": "It's been used to teach litl' dancing girl their 'seven's'.",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2010-06-15 13:48:32"
+        },
+        {
+            "id": 519661,
+            "url": "https://thesession.org/tunes/85#comment519661",
+            "subject": "",
+            "content": "There's a reference here (1-29) :  http:\/\/www.mtrecords.co.uk\/articles\/summers.htm to it being used in Yorkshire for the dance 'Ninepins'.",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2010-06-15 13:50:19"
+        },
+        {
+            "id": 534425,
+            "url": "https://thesession.org/tunes/85#comment534425",
+            "subject": "",
+            "content": "I like to play the ending as |d\/e\/d\/c\/ B\/C\/B\/A\/ | BG G2 | but that's just the version I picked up by whistling it!",
+            "member": {
+                "id": 15451,
+                "name": "Kilcash",
+                "url": "https://thesession.org/members/15451"
+            },
+            "date": "2010-08-25 14:45:15"
+        },
+        {
+            "id": 553798,
+            "url": "https://thesession.org/tunes/85#comment553798",
+            "subject": "Also good in D",
+            "content": "I like to play this in D on a D whistle; shifting it up a few keys makes the fingering slightly easier to do at speed and you get that wonderful piercing top D starting the downwards run in the B part.    This tune is just ubiquitous in Scottish Country Dancing; I don't think I went to a ceilidh or school dance in my youth when this didn't pop up somewhere.",
+            "member": {
+                "id": 68670,
+                "name": "Red Menace",
+                "url": "https://thesession.org/members/68670"
+            },
+            "date": "2010-12-09 04:23:59"
+        },
+        {
+            "id": 621867,
+            "url": "https://thesession.org/tunes/85#comment621867",
+            "subject": "\"The Rakes Of Mallow\" ~ 1742 ~ courtesy of Bent Allpress's link above",
+            "content": "~ published in Burk Thumoth's book, \"Twelve Scotch and Twelve Irish Airs\", c. 1742 ~ \"With Variations, set for the German Flute, Violin or Harpsichord by Mr Burk Thumoth.\"    Given in 4\/4 and also in 2\/4 for comparison's sake ~     akes Of Mallow, The  B: Burk Thumoth's \"Twelve Scotch and Twelve Irish Airs\", 1742  M: 4\/4  L: 1\/8  R: polka  K: GMaj  |: G2 B2 G2 B2 | G2 B2 dcBA | F2 A2 F2 A2 | F2 A2 c2 A2 |  G2 B2 G2 B2 | G2 B2 c2 A2 | B2 AG A2 GF | G4 G4 :|  |: g2 e2 d2 c2 | B2 c2 d4 | g2 e2 d2 c2 | B2 a2 A4 |  g2 fe d2 c2 | B2 AG c4 | B2 AG A2 GF | G4 G4 :|  |: DG B2 DG B2 | DG B2 d2 BG | DF A2 DF A2 | DF A2 c2 AF |  DG\/A\/ B2 DG\/A\/ B2 | DG\/A\/ BG d2 cB | ecdB AcBA | G4 G4 :|  |: gfge eddc | BGcA d4 | gbag fedc | BG a2 A4 |  (3bag (3agf (3gfe dc | (3BAG (3cBA d4 | (3edc dB AcBA | G4 G4 :|  M: 2\/4  |: GB GB | GB d\/c\/B\/A\/ | FA FA | FA cA |  GB GB | GB cA | BA\/G\/ AG\/F\/ | G2 G2 :|  |: ge dc | Bc d2 | ge dc | Ba A2 |  gf\/e\/ dc | BA\/G\/ c2 | BA\/G\/ AG\/F\/ | G2 G2 :|  |: D\/G\/B D\/G\/B | D\/G\/B dB\/G\/ | D\/F\/A D\/F\/A | D\/F\/A cA\/F\/ |  D\/G\/4A\/4B D\/G\/4A\/4B | D\/G\/4A\/4B\/G\/ dc\/B\/ | e\/c\/d\/B\/ A\/c\/B\/A\/ | G2 G2 :|  |: g\/f\/g\/e\/ e\/d\/d\/c\/ | B\/G\/c\/A\/ d2 | g\/b\/a\/g\/ f\/e\/d\/c\/ | B\/G\/a A2 |  (3b\/a\/g\/ (3a\/g\/f\/ (3g\/f\/e\/ d\/c\/ | (3B\/A\/G\/ (3c\/B\/A\/ d2 | (3e\/d\/c\/ d\/B\/ A\/c\/B\/A\/ | G2 G2 :|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-01-30 05:15:25"
+        },
+        {
+            "id": 621869,
+            "url": "https://thesession.org/tunes/85#comment621869",
+            "subject": ":-\/ ~ ?!",
+            "content": "X: 8  T: Rakes Of Mallow, The    The bit that went missing...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-01-30 05:16:19"
+        },
+        {
+            "id": 621870,
+            "url": "https://thesession.org/tunes/85#comment621870",
+            "subject": "\"The Rakes of Mallow\" ~ having a bit of fun",
+            "content": "I woke up lilting it this way and then playing it on various instruments the same, and other ways too...    X: 9  T: Rakes Of Mallow, The  M: 4\/4  L: 1\/8  R: polka  K: GMaj  |: (3D\/E\/F\/ |\\  GB GB | G\/A\/B\/c\/ dA\/G\/ | FA FA | F\/G\/A\/B\/ cB\/A\/ |  GD G>A | G\/A\/B\/c\/ d2 | cA d\/e\/d\/c\/ | BG G :|  |: (3d\/e\/f\/ |\\  gf\/e\/ dc | B\/G\/(3A\/B\/c\/ d(3d\/e\/f\/ | gf\/e\/ dc | B\/G\/B\/d\/ Ae\/f\/ |   gG dG | Bc d>B | c\/B\/A\/G\/ F\/d\/c\/d\/ | B(3A\/B\/A\/ G :|",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2012-01-30 05:35:44"
+        },
+        {
+            "id": 647972,
+            "url": "https://thesession.org/tunes/85#comment647972",
+            "subject": "",
+            "content": "Listen to La Pitoune: http:\/\/www.collectionscanada.gc.ca\/obj\/m2\/f7\/13533.mp3  Lyrics here: http:\/\/www.labolduc.qc.ca\/la-bolduc-son-oeuvre\/paroles-des-chansons\/2.html",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2012-07-13 17:34:41"
+        },
+        {
+            "id": 647975,
+            "url": "https://thesession.org/tunes/85#comment647975",
+            "subject": "",
+            "content": "The Winster Gallop is a close cousin: https:\/\/thesession.org\/tunes\/3570",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2012-07-13 17:38:14"
+        },
+        {
+            "id": 697265,
+            "url": "https://thesession.org/tunes/85#comment697265",
+            "subject": "Manx version",
+            "content": "On the Isle of Man this is known as 'Lhigey, Lhigey' and it is a children's singing game. The lyrics are:  Lhigey, Lhigey gys y vargey, Lhigey, Lhigey gys y vargey,  Lhigey, Lhigey gys y vargey, Sooree er inneenyn.  Ghuilley, Ghuilley, gow inneen. Lhigey, Lhigey myr ochene.  Ghuilley, Ghuilley, gow inneen. Lhigey, Lhigey gys y vargey.",
+            "member": {
+                "id": 64230,
+                "name": "manxygirl",
+                "url": "https://thesession.org/members/64230"
+            },
+            "date": "2013-10-12 15:31:31"
+        },
+        {
+            "id": 910392,
+            "url": "https://thesession.org/tunes/85#comment910392",
+            "subject": "Re: The Rakes Of Mallow",
+            "content": "We play this tune regularly at our local session because the two fiddle players like it.  Since both of the fiddlers also play for contra dancing and folk dancing, yes they play \"Rakes Of Mallow\" for the dances as well.  \"Road To Boston\" is another tune which these two fiddlers play frequently for the dances but not at the local sessions.    Laurence",
+            "member": {
+                "id": 11581,
+                "name": "fauxcelt",
+                "url": "https://thesession.org/members/11581"
+            },
+            "date": "2020-12-01 17:49:11"
+        },
+        {
+            "id": 920874,
+            "url": "https://thesession.org/tunes/85#comment920874",
+            "subject": "Re: The Rakes Of Mallow",
+            "content": "The RAKES OF MALLOW was an 18th century group of Militia or Yeomen, from the Mallow area of North County Cork.  The North Cork militia ( pro English Govt. and Union ) were notorious for their cruelty during the rising of 1798 in County Wexford (Pitch-capping etc...).",
+            "member": {
+                "id": 62489,
+                "name": "Flyer Nyhan",
+                "url": "https://thesession.org/members/62489"
+            },
+            "date": "2021-05-09 10:00:39"
+        },
+        {
+            "id": 925446,
+            "url": "https://thesession.org/tunes/85#comment925446",
+            "subject": "Re: The Rakes Of Mallow",
+            "content": "https:\/\/www.youtube.com\/watch?v=hgxGTWjgtEU",
+            "member": {
+                "id": 63653,
+                "name": "fluther",
+                "url": "https://thesession.org/members/63653"
+            },
+            "date": "2021-08-08 12:46:32"
+        },
+        {
+            "id": 966358,
+            "url": "https://thesession.org/tunes/85#comment966358",
+            "subject": "Re: The Rakes Of Mallow",
+            "content": "I have been to  Mallow. Donovan lives in Mallow. He is not called a Rake of Mallow, rather they call him - \u201cMallow Yellow.\u201d - quite rightly.",
+            "member": {
+                "id": 158534,
+                "name": "Miguel Perez-Gibson",
+                "url": "https://thesession.org/members/158534"
+            },
+            "date": "2023-05-22 14:21:14"
+        },
+        {
+            "id": 992960,
+            "url": "https://thesession.org/tunes/85#comment992960",
+            "subject": "The Rakes Of Mallow, X: 14",
+            "content": "The version played in Columbus, Ohio.",
+            "member": {
+                "id": 172460,
+                "name": "Sean Perry",
+                "url": "https://thesession.org/members/172460"
+            },
+            "date": "2024-07-01 02:28:46"
+        },
+        {
+            "id": 996761,
+            "url": "https://thesession.org/tunes/85#comment996761",
+            "subject": "Re: The Rakes Of Mallow",
+            "content": "Here is an early and rare recording of the Rakes, played on the pipes by Josephe Starck, brother of the inventor of the famed Brian Boru pipes, produced about a 100 years ago.   The original recording is dated 1917 but needed remastered.  This type of keyed-up Highland bagpipe with an extended range was suposed to be the Irish answer to the Scottish pipebands as Ireland was progressing towards full autonomy from Britain (or so the story goes). They appear on photographs of old, played by pipers in regalia (you can tell its green even on these B&W photographs!) but never really took off.     1st tune in the set:   https:\/\/m.youtube.com\/watch?v=AQhVkTYRLUg&pp=ygUec3RhcmNrIGJyaWFuIGJvcnUgc2V0IG9mIHBpcGVz#searching",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2024-09-11 17:58:38"
+        },
+        {
+            "id": 1026921,
+            "url": "https://thesession.org/tunes/85#comment1026921",
+            "subject": "The Rakes Of Mallow, X:15",
+            "content": "Fun Double Shuffle I learned from my teacher",
+            "member": {
+                "id": 189222,
+                "name": "Jammin\u2019Cellist",
+                "url": "https://thesession.org/members/189222"
+            },
+            "date": "2026-02-17 02:52:56"
+        }
+    ]
+}

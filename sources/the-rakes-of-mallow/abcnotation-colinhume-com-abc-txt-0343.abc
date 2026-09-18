@@ -1,0 +1,47 @@
+
+X:344
+T:Dennis Murphy's
+C:Traditional Irish
+Q:1/2=120
+M:2/2
+L:1/4
+R:Polka
+%%MIDI ratio 3 1
+K:D
+P:A
+|: "D"f/g/f/e/ d>B | "/"AD FA | "Em"GE e>f | "A7"ed BA |\
+"D"f/g/f/e/ d>B | "/"AD FA | "Em"GE "A7"e>f | "D"ed d2 :|
+P:B
+|: "D"Af f/e/f | "G"Bg g/f/g | "D"Af f/e/f | "Em"e/f/e/d/ "A7"BA |\
+"D"Af f/e/f | "G"Bg g>a | "A7"ba gc | "D"ed d2 :|
+N:Replace by blank line and X field
+T:John Ryan's
+C:Traditional Irish
+Q:1/2=120
+M:2/2
+L:1/8
+R:Polka
+K:D
+P:A
+|: "D"d2d2 "(G)"BcdB | "D"A2F2 A2F2 | "D"d2d2 "(G)"BcdB | "D"A2F2 E2D2 |\
+"D"d2d2 "(G)"BcdB | "D"A2F2 A2de | "Bm"f2d2 "A7"e2c2 | "D"d4d4 :|
+P:B
+|: "D"f2d2 d2ef | "G"g2f2 e2de | "D"f2d2 A2d2 | "D"f2df "A7"a3g |\
+"D"f2d2 d2ef | "G"g2f2 e2de | "D"f2d2 "A"e2c2 | "D"d4 d4 :|
+N:Replace by blank line and X field
+T:Rakes of Mallow
+C:Traditional Irish
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+R:Polka
+%%MIDI ratio 3 1
+K:G
+P:A
+|: "G"GB GB | "/"GB c/B/A/G/ | "D7"FA FA | "/"FA d/c/B/A/ |\
+"G"GB GB | "/"GB d>B | "Am"c/B/A/G/ "D7"F/G/A/c/ | "G"BG G2 :|
+P:B
+|: "G"gf/e/ dc | "/"Bc d2 | "G"gf/e/ dc | "Am"Bc "D7"A2 |\
+"G"gf/e/ dc | "/"Bc d>B | "Am"c/B/A/G/ "D7"F/G/A/c/ | "G"BG G2 :|
+

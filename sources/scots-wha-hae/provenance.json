@@ -1,0 +1,42 @@
+[
+ {
+  "name": "abcnotation-du-jc-music-book-eliashowe-musicianscompanionp1-1842-v1-0014.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fbook%2FEliasHowe%2FMusiciansCompanionP1-1842-V1%2F0014",
+  "kind": "abc",
+  "bytes": 999,
+  "sha256": "f134303e8e87ab98c2f8311d884d1512fa4078e56255b2bb0e702d7c7ddde012",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-rillian-mit-edu-jc-music-abc-mirror-chrismyers-cfd-vol2-0066.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FChrisMyers%2FCFD_Vol2%2F0066",
+  "kind": "abc",
+  "bytes": 192,
+  "sha256": "358007f69b852ec81bac7349665bd88d00564fc2c9dd9fc8a7af577db767db82",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-t-edu-jc-music-abc-mirror-corneymusers-bruces-address-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fcorneymusers%2FBruces_Address_1%2F0000",
+  "kind": "abc",
+  "bytes": 453,
+  "sha256": "b82b2eac8abfcf66bd8de966e2f6cf29fa0d90ca8829c484fd439563aa23b76c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-bruces-address-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FBruce%27s_Address.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 301,
+  "sha256": "87cf7f82b970799a84ffe1b17167c1c44285f82a8a5ab3d76b851a93885ed04c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-bruces-address-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FBruce%27s_Address.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 175,
+  "sha256": "512960b74b7ea4dc84fd168ec3c83308c4b53f0de0061ceaaf91b7f0b2dcf402",
+  "fetched": "2026-09-18"
+ }
+]

@@ -1,0 +1,141 @@
+{
+    "format": "json",
+    "id": 16616,
+    "name": "Flowers Of The Forest",
+    "url": "https://thesession.org/tunes/16616",
+    "member": {
+        "id": 107196,
+        "name": "suskin",
+        "url": "https://thesession.org/members/107196"
+    },
+    "date": "2017-12-29 17:03:17",
+    "type": "reel",
+    "tunebooks": 9,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": ["The Liltin"],
+    "settings": [
+        {
+            "id": 31588,
+            "url": "https://thesession.org/tunes/16616#setting31588",
+            "key": "Gmajor",
+            "abc": "G2 GG (AB) (de)|dB (AG) E2 D2|G2 GG (AB) de|(dB) (A>G) G4||! (DE) =FF (EF) GG|DD (BA) (GE) DD|D2 EG e2 dB|A2 A B\/A\/ G4||",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2017-12-29 17:03:17"
+        },
+        {
+            "id": 31589,
+            "url": "https://thesession.org/tunes/16616#setting31589",
+            "key": "Amajor",
+            "abc": "E2 EF (EF) A(B\/c\/)|(dc) BA FA {F}(EA,)|(3B,CE (E>F) EF A (B\/c\/\/d\/\/)|c2 (B>A) A z|! =G2 (G\/B\/) A\/G\/ F2 (3EFA|(Ec) BA (FA) (3FEC|=G2 G\/B\/A\/G\/ F2 (3EFA|! Ec {c}B>A A2 z|(ce) (e>f) (fe) (dc)|(ec) BA (F>A) (3FEC|(ce) (e>f) (fe) (dc)|! (Bc)dc {c}B>A (A>B)|(ce) (e>f) (fe) (dc)|ec {c}BA (FA) (3FEC|! (3B,CE (E>F) EF A (B\/c\/\/d\/\/)|c2 (B>A) A2 z||",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2017-12-29 21:28:00"
+        }
+    ],
+    "comments": [
+        {
+            "id": 837390,
+            "url": "https://thesession.org/tunes/16616#comment837390",
+            "subject": "Flowers Of The Forest",
+            "content": "This is a slow lament rather than a reel, and commemorates the Battle of Flodden in 1513.  This old tune is    kept in an Edinburgh library (lute tablature, Skene manuscript).  Title refers to Scots from Ettrick Forest who    fell in   the battle.  Jane Elliot wrote a lyric published c 1755 :      I've heard them liltin' at the ewe milkin',    Lassies a liltin' before dawn o' day    Now there's a moanin' on ilka green loanin'    The flo'ers o' the Forest are a' wede away.      So tune is also known as \"The Liltin\".   On The Session \"Flowers of the Forest\" is also posted in waltz time and     that tune  certainly resembles this.  I've only seen versions of it in 4\/4 time.   The above is courtesy of J.     Murray Neil (his 1991 book about the Scots Fiddle).  He also gives a modern version of the tune.",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2017-12-29 17:03:17"
+        },
+        {
+            "id": 837392,
+            "url": "https://thesession.org/tunes/16616#comment837392",
+            "subject": "Re: Flowers Of The Forest",
+            "content": "It looks as though this tune has already been posted as The Flowers of the Forest and as a waltz. Or is that a different tune?",
+            "member": {
+                "id": 78135,
+                "name": "Mikethebook",
+                "url": "https://thesession.org/members/78135"
+            },
+            "date": "2017-12-29 17:59:07"
+        },
+        {
+            "id": 837394,
+            "url": "https://thesession.org/tunes/16616#comment837394",
+            "subject": "Re: Flowers Of The Forest",
+            "content": "I've only ever heard this as a slow 3. However, rather than being notated in 3\/4, like many other Scottish laments (e.g., Hector The Hero) it's notated in 6\/8. That's the tradition, it seems.",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2017-12-29 18:39:28"
+        },
+        {
+            "id": 837396,
+            "url": "https://thesession.org/tunes/16616#comment837396",
+            "subject": "Re: Flowers Of The Forest",
+            "content": "Confusingly, The Scots Guards has it written in 2\/4, even though they play it in 6\/8.  I've more often heard this sung, though like this is a classic rendition:  https:\/\/www.youtube.com\/watch?v=cJIrAkJnS1I",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2017-12-29 19:04:06"
+        },
+        {
+            "id": 837404,
+            "url": "https://thesession.org/tunes/16616#comment837404",
+            "subject": "Re: Flowers Of The Forest",
+            "content": "I think the Skene manuscript setting is the earliest one (1620), and there it's in 4\/4, but marked \"slow\". I have seen it in another old manuscript, also in 4\/4, but as a reel, but I can't quite remember where that was. Oh, hang on - it was the Gillespie manuscript of 1768 (via Scottish Fiddle Music in the 18th Century by David Johnson, 1984).",
+            "member": {
+                "id": 11834,
+                "name": "Nigel Gatherer",
+                "url": "https://thesession.org/members/11834"
+            },
+            "date": "2017-12-29 19:48:45"
+        },
+        {
+            "id": 837408,
+            "url": "https://thesession.org/tunes/16616#comment837408",
+            "subject": "Re: Flowers Of The Forest",
+            "content": "If the tune is that old (1620) it no doubt evolved over the centuries, in 3\/4, 6\/8, 2\/4, or 4\/4 and I rather like    that. Another version appears in J Murray Neil's book (he calls it Modern Air (to distinguish it from the old    air) and says it is played 4\/4 in march tempo at the Selkirk Common Riding, along with the old air.   Similar    but  more complex.",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2017-12-29 20:34:17"
+        },
+        {
+            "id": 837412,
+            "url": "https://thesession.org/tunes/16616#comment837412",
+            "subject": "Flowers Of The Forest, X:2",
+            "content": "Called \"The Modern Air\" as commented above, more elaborate version of the old air (J Murray Neil).  I don't    know how long this has been played.",
+            "member": {
+                "id": 107196,
+                "name": "suskin",
+                "url": "https://thesession.org/members/107196"
+            },
+            "date": "2017-12-29 21:28:00"
+        },
+        {
+            "id": 852545,
+            "url": "https://thesession.org/tunes/16616#comment852545",
+            "subject": "Re: Flowers Of The Forest",
+            "content": "Hi, I may be able to clear up the fact that this song has two names, with thanks to the BBC (apologies for their fanatical grammar).  https:\/\/www.bbc.co.uk\/news\/uk-scotland-22871777  I was brought up in Selkirk in the Borders. I thought as well as trying to find some o the traditional songs my Irish Dad taught me I'd look up some of our Common Riding songs.  The Liltin' is played after the casting of the ex-soldiers flag and after a 2 minutes silence.  This is Selkirk brass band playing 'The Liltin' https:\/\/www.youtube.com\/watch?v=CPtceF7L9Cs  Seemingly it is regional, blame the Scottish Borderers....  Hope this helps.",
+            "member": {
+                "id": 112825,
+                "name": "Christine Gage",
+                "url": "https://thesession.org/members/112825"
+            },
+            "date": "2018-09-02 10:44:55"
+        }
+    ]
+}

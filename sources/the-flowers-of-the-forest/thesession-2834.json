@@ -1,0 +1,393 @@
+{
+    "format": "json",
+    "id": 2834,
+    "name": "The Flowers Of The Forest",
+    "url": "https://thesession.org/tunes/2834",
+    "member": {
+        "id": 5729,
+        "name": "dafydd",
+        "url": "https://thesession.org/members/5729"
+    },
+    "date": "2003-08-28 21:31:44",
+    "type": "waltz",
+    "tunebooks": 148,
+    "recordings": 2,
+    "collections": 1,
+    "aliases": ["The Flooers O' The Forest","The Flowres Of The Forrest"],
+    "settings": [
+        {
+            "id": 2834,
+            "url": "https://thesession.org/tunes/2834#setting2834",
+            "key": "Dmixolydian",
+            "abc": "A3 A2B|A2d d3-|d2f g2f|! e2d B2d|d3- d2B|A3 A2B|! A2d d3-|d2g f3|e>fe d3-|! d3 c3|c2d B>cB|A3- A2f|! g2f e2d|B2d d3-|d2B A3|! A2B A2d|d3- d2g|! f3 e>fe|d3- d3|",
+            "member": {
+                "id": 5729,
+                "name": "dafydd",
+                "url": "https://thesession.org/members/5729"
+            },
+            "date": "2003-08-28 21:31:44"
+        },
+        {
+            "id": 31595,
+            "url": "https://thesession.org/tunes/2834#setting31595",
+            "key": "Dmajor",
+            "abc": "[M:6\/8]! e|:A3 A2B|A2B\/>c\/ d2(3e\/f\/g\/|f3 e2d|B\/d\/-d2 B2A\/<G\/|! A3 A2B|A2B\/>c\/ d2(3e\/f\/g\/|f3 e2f|1 d3 d2B:|2 d3 d3||! |:c3 c\/e3\/2d\/>c\/|B2A B\/d\/-d2|A\/f\/-f2 e2d|B\/d\/-d2 B2 A\/<G\/|! c3 c\/e3\/2d\/>c\/|B2A B\/d\/-d2|A\/f\/-f2 e2c|1 d3 d3:|2 d3 d2||! e|f\/a\/-a2 a3|a2g f\/a3\/2a\/>g\/|f3 e2d|B\/d\/-d2 A3|! f\/a\/-a2 a3|a2g f\/a3\/2a\/>g\/|f3 e2c|d3 d2e|! f\/a\/-a2 a3|a2g f\/a3\/2a\/>g\/|f3 e2d|B\/d\/-d2 B2A\/<G\/|! A3 A2B|A2B\/>c\/ d2(3e\/f\/g\/|f3 e2f|d3 d2||",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2017-12-31 11:38:13"
+        },
+        {
+            "id": 31596,
+            "url": "https://thesession.org/tunes/2834#setting31596",
+            "key": "Dmajor",
+            "abc": "A6|A4B2|A4Bd|d6|g4f2|e4d2|Bd-d4|B6|! A6|A4B2|A4Bd|d4e\/f\/g|f6|e4d2|d6-|d6|! =c6|=c4d2|BA-A4|A4A2|A4f2|e4d2|Bd-d4|B4-BA|! A6|A4-AB|A4Bd|d4e\/f\/g|f6|e4d2|d6-|d6||",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2017-12-31 14:35:54"
+        }
+    ],
+    "comments": [
+        {
+            "id": 66487,
+            "url": "https://thesession.org/tunes/2834#comment66487",
+            "subject": "The Flowers Of The Forest",
+            "content": "This was a request.It's a lament,so it should be played slowly,not in waltz time.",
+            "member": {
+                "id": 5729,
+                "name": "dafydd",
+                "url": "https://thesession.org/members/5729"
+            },
+            "date": "2003-02-28 19:01:35"
+        },
+        {
+            "id": 66501,
+            "url": "https://thesession.org/tunes/2834#comment66501",
+            "subject": "The Flowers of The Forest",
+            "content": "It is indeed a lament.  I first heard it played on the highland pipes at the state funeral of Winston Churchill in 1965.  Whatever one may think of Churchill",
+            "member": {
+                "id": 1844,
+                "name": "murfbox",
+                "url": "https://thesession.org/members/1844"
+            },
+            "date": "2004-04-16 17:54:42"
+        },
+        {
+            "id": 66505,
+            "url": "https://thesession.org/tunes/2834#comment66505",
+            "subject": "The Flowers of the Forest",
+            "content": "I first heard it played on the end of the track \"Julie\" on a Levellers album.  Is its origin in Ireland or Scotland?",
+            "member": {
+                "id": 11236,
+                "name": "bassetrox",
+                "url": "https://thesession.org/members/11236"
+            },
+            "date": "2004-04-16 19:01:21"
+        },
+        {
+            "id": 66636,
+            "url": "https://thesession.org/tunes/2834#comment66636",
+            "subject": "The Flowers Of The Forest",
+            "content": "I believe that it's a traditionalScottish air.",
+            "member": {
+                "id": 5729,
+                "name": "dafydd",
+                "url": "https://thesession.org/members/5729"
+            },
+            "date": "2003-02-28 19:01:35"
+        },
+        {
+            "id": 67700,
+            "url": "https://thesession.org/tunes/2834#comment67700",
+            "subject": "",
+            "content": "It's Scots, written about 15 years after Culloden by a couple of lowland ladies, I believe, but reputedly about the battle of Flodden, to confuse the english. There are words for this lament.  Can be found on\"The Fate o' Charlie\" on Trailer by Archie Fisher, Barbara Dickson, and John MacKinnon. Fairport used to do a nice version of it with electric dulcimer, too.",
+            "member": {
+                "id": 6734,
+                "name": "Guernsey Pete",
+                "url": "https://thesession.org/members/6734"
+            },
+            "date": "2004-04-23 16:19:30"
+        },
+        {
+            "id": 127363,
+            "url": "https://thesession.org/tunes/2834#comment127363",
+            "subject": "The Flowers Of The Forest",
+            "content": "Hi!  I found a nice version of that tune in Mike Oldfield's \"Voyager\" album, but that version is a bit diffrent like you'r one.  Maybe Oldfield's ver. is variation over the original one. I've never heared orginal one.   Luck  Greg",
+            "member": {
+                "id": 15303,
+                "name": "Tubular_bell",
+                "url": "https://thesession.org/members/15303"
+            },
+            "date": "2005-03-02 04:51:29"
+        },
+        {
+            "id": 146209,
+            "url": "https://thesession.org/tunes/2834#comment146209",
+            "subject": "",
+            "content": "I think this is notated wrong and many other waltzes are done like this i.e. a recurring mistake. This is written out as if it were in 6\/8 like  a jig.  It would help slow it down if you wrote it out as a waltz in proper 3-time.  A6|A4 B2| etc (L:1\/8)",
+            "member": {
+                "id": 674,
+                "name": "Donough",
+                "url": "https://thesession.org/members/674"
+            },
+            "date": "2005-06-10 22:19:34"
+        },
+        {
+            "id": 344419,
+            "url": "https://thesession.org/tunes/2834#comment344419",
+            "subject": "",
+            "content": "Is this the tune played after the song, \"No Man's Land\"(or Green Fields of France\", by June Tabor?",
+            "member": {
+                "id": 38352,
+                "name": "Joseph Chordmichael",
+                "url": "https://thesession.org/members/38352"
+            },
+            "date": "2008-02-04 18:32:39"
+        },
+        {
+            "id": 804176,
+            "url": "https://thesession.org/tunes/2834#comment804176",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "It's listed as a 2\/4 lament for company pipers in the British army. I've played it on my 18th century field drum for a few funerals. It supposedly was originally written in 1513, but the lyrics have been forgotten. A new set of lyrics were written after the '45.     Does anyone have a 2\/4 version of this. I would like to set an arraignment for our fifers.",
+            "member": {
+                "id": 106079,
+                "name": "William A. Wilson",
+                "url": "https://thesession.org/members/106079"
+            },
+            "date": "2016-11-25 20:20:07"
+        },
+        {
+            "id": 804232,
+            "url": "https://thesession.org/tunes/2834#comment804232",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Have you checked out John Chambers' TuneFinder? This is a great site for Scottish tunes.    try  http:\/\/trillian.mit.edu\/~jc\/cgi\/abc\/tunefind?P=flowers+of+the+forest&find=FIND&m=title&W=wide&scale=0.70&limit=1000&thresh=5&fmt=single&V=1&Tsel=tune&Nsel=0     or if that does not work, go to the main page at    http:\/\/trillian.mit.edu\/~jc\/cgi\/abc\/tunefind    and type flowers of the forest in the search box.    Lots of hits, with quite a few duplicates.    Hope this helps",
+            "member": {
+                "id": 94352,
+                "name": "ColinMc",
+                "url": "https://thesession.org/members/94352"
+            },
+            "date": "2016-11-26 14:43:05"
+        },
+        {
+            "id": 837495,
+            "url": "https://thesession.org/tunes/2834#comment837495",
+            "subject": "The Flowers Of The Forest, X:2",
+            "content": "As played by The Scots Guards, in 6\/8, even though in the Scots Guards Standard Settings Vol I it's notated in 2\/4. But that's pipers for you. Note that it's notated in 6\/8 rather than 3\/4, otherwise it wouldn't be a funeral march, which needs to be a slow 2.  A bit like Flower of Scotland, the pipes struggle with the flat seventh (C natural) of the vocal melody in the second part. Perhaps that's why they've added a third part.",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2017-12-31 11:38:13"
+        },
+        {
+            "id": 837498,
+            "url": "https://thesession.org/tunes/2834#comment837498",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "I heard this one, when I bought Fairport Convention's record 'Full House' in 1970.    https:\/\/www.youtube.com\/watch?v=GH0UC1J8IIU",
+            "member": {
+                "id": 2311,
+                "name": "ceili",
+                "url": "https://thesession.org/members/2311"
+            },
+            "date": "2017-12-31 13:59:34"
+        },
+        {
+            "id": 837500,
+            "url": "https://thesession.org/tunes/2834#comment837500",
+            "subject": "The Flowers Of The Forest, X:3",
+            "content": "This setting is based on Isla St Clair's take of the commonly sung vocal version of the tune. She sings it in Eb, perhaps to fit in with the pipes. I've transposed it to D.",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2017-12-31 14:35:54"
+        },
+        {
+            "id": 837926,
+            "url": "https://thesession.org/tunes/2834#comment837926",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Try Ceol Sean ( billing themselves as \"The World's Largest On-line Collection of Bagpipe Music\" ! )  9 different versions of Flowers of the Forest.  2\/3 of them in 2\/4, the rest in 4\/4.    http:\/\/www.ceolsean.net\/content\/mindex2.html     Great site but a scary amount of tunes to play through!    Dave",
+            "member": {
+                "id": 105956,
+                "name": "Dave_Ball",
+                "url": "https://thesession.org/members/105956"
+            },
+            "date": "2018-01-07 22:14:43"
+        },
+        {
+            "id": 837979,
+            "url": "https://thesession.org/tunes/2834#comment837979",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Yes, most of the written versions are in 2\/4 or 4\/4 but the vast majority of recordings\/performances have a 3 feel. The only recordings I can find that do not are those by John McDermott (singing the posh words) and Kenneth McKellar. Dick Gaughan, Isla St Clair, Fairport Convention, Scots Guards and solo pipers all play it with a lilt to give a 3 feel (3\/4 or 6\/8 or whatever).",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2018-01-08 16:57:03"
+        },
+        {
+            "id": 838057,
+            "url": "https://thesession.org/tunes/2834#comment838057",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "I was trying to add a recording of this tune by Kevin Burke's Open House. It's just titled \"Flowers of the Forest.\" But it's still not showing up- I don't suppose there's a way to manually add another recording to the list?",
+            "member": {
+                "id": 109339,
+                "name": "hero_thecat",
+                "url": "https://thesession.org/members/109339"
+            },
+            "date": "2018-01-10 19:17:54"
+        },
+        {
+            "id": 838064,
+            "url": "https://thesession.org/tunes/2834#comment838064",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "I think the Kevin Burke tune is a different \"Flowers of the Forest\", Ruthie C. Clicking on the Open House version takes you to \"Mets\u00e4kukkia\", a Scandinavian tune.",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2018-01-10 20:21:01"
+        },
+        {
+            "id": 857484,
+            "url": "https://thesession.org/tunes/2834#comment857484",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Given the time of year I thought I'd have a go at this lament with Fiddle, English Concertina & Whistle.    https:\/\/www.youtube.com\/watch?v=TueNwabyOxk    Cheers,  Dick",
+            "member": {
+                "id": 3668,
+                "name": "Ptarmigan",
+                "url": "https://thesession.org/members/3668"
+            },
+            "date": "2018-11-12 20:05:21"
+        },
+        {
+            "id": 857491,
+            "url": "https://thesession.org/tunes/2834#comment857491",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Delightful, Dick. Thank you!",
+            "member": {
+                "id": 89896,
+                "name": "coppers and brass",
+                "url": "https://thesession.org/members/89896"
+            },
+            "date": "2018-11-12 21:29:16"
+        },
+        {
+            "id": 857518,
+            "url": "https://thesession.org/tunes/2834#comment857518",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Thank you Dick. Gorgeous music",
+            "member": {
+                "id": 109157,
+                "name": "Randall Mathews",
+                "url": "https://thesession.org/members/109157"
+            },
+            "date": "2018-11-13 08:22:03"
+        },
+        {
+            "id": 899246,
+            "url": "https://thesession.org/tunes/2834#comment899246",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Of course this tune is traditional in the Scottish regiments.    Here is a lovely example of how it's played on the pipes, by the Pipe Major of The Black Watch (3SCOTS)    https:\/\/www.youtube.com\/watch?v=sCb_2FHj5T8    I think the 2nd setting is closest to the way pipers play it. Though the playing in the video isn't in strict 3\/4 or 6\/8 time, things are stretched here and there.",
+            "member": {
+                "id": 36889,
+                "name": "Richard D Cook",
+                "url": "https://thesession.org/members/36889"
+            },
+            "date": "2020-06-10 09:27:40"
+        },
+        {
+            "id": 933372,
+            "url": "https://thesession.org/tunes/2834#comment933372",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "The tune was written in 1513 to commemorate the Battle of Flodden  where the Scots were defeated by the English.  The King of Scotland was killed in the battle and his army suffered great casualties. Flodden is in Northumberland, near Coldstream on the Scottish border and there is a monument marking the site of the battle.",
+            "member": {
+                "id": 107483,
+                "name": "John Layton",
+                "url": "https://thesession.org/members/107483"
+            },
+            "date": "2021-12-02 20:17:45"
+        },
+        {
+            "id": 933380,
+            "url": "https://thesession.org/tunes/2834#comment933380",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "The battle was in 1513, but I\u2019m unaware that we have any evidence at all that the tune was composed in 1513.  Perhaps others more knowledgeable can give us some insight into when the tune was written.",
+            "member": {
+                "id": 92162,
+                "name": "Tervs and Tunes",
+                "url": "https://thesession.org/members/92162"
+            },
+            "date": "2021-12-02 21:46:02"
+        },
+        {
+            "id": 933389,
+            "url": "https://thesession.org/tunes/2834#comment933389",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "The first occurrence of the melody is in the Skene manuscript, of the early 1600s.  Whether it already had words at that point, I don't know, but there were several sets of words that were well known at different times; in particular, it had another flowering in the 19th century, which is when it starts to appear in bagpipe collections, which in the second half of the 19th century were merrily hoovering up any melody that could be forced with some musical violence into the pipe compass.  It's interesting reviewing those early settings how much variation there is - all three common GHB strains are there, but in different combinations, time signatures, and whatever else.    For what it's worth Donald's setting is very much in line with what pipers play nowadays - my only quibble is that all the pairs of even semiquavers should be tied into the following note, but then anyone trying to learn this purely from the dots has a challenge on their hands in any case.",
+            "member": {
+                "id": 6929,
+                "name": "Calum",
+                "url": "https://thesession.org/members/6929"
+            },
+            "date": "2021-12-02 22:50:47"
+        },
+        {
+            "id": 933431,
+            "url": "https://thesession.org/tunes/2834#comment933431",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Of course, I should have written that the tune was written after 1513 -the date of the Battle of Flodden - but as Callum points out the tune was first mentioned in the Skene manuscript, circa 1600 and I suspect it was composed a long time before that while the events of that terrible day in 1513 were still fresh in the memory.",
+            "member": {
+                "id": 107483,
+                "name": "John Layton",
+                "url": "https://thesession.org/members/107483"
+            },
+            "date": "2021-12-03 12:23:27"
+        },
+        {
+            "id": 933448,
+            "url": "https://thesession.org/tunes/2834#comment933448",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "Tunes 1 and 3 are known in Selkirk as The Liltin, which is widely believed to have been composed in or near the burgh, and which features at the deeply moving climax of the Selkirk Common Riding, after the Burgh Standard Bearer has dipped his colours for the Silence, in memory of all the young men who went to war and never came back. The words that are sung to it begin \"A've heard them liltin at oor yowe milkin...\", and are credited to Jane Elliot of Minto, c.1750, though they are not much sung after the Silence, though they may be soothed under the breath by older Soutars.    Tune 2 is known in Selkirk as The Flouers o the Forest, and the words begin \"A've seen the smilin o fortune beguilin...' and it's sung as a march, IIRC on the way down to the Toll to meet the riders coming in from the Ridin o the Mairches. The words are credited to Alison Rutherford of Fairnilee, AKA Mrs. Cockburn, who died in 1794.    'The Forest' BTW is Ettrick Forest, the royal hunting ground that covered Selkirkshire and bits of Peeblesshire and Clydesdale in the Middle Ages: it was an administrative term, indicating that Forest Law applied, whose rules governed hunting. It was probably quite open country, and definitely not a jungle, though it would have been more heavily wooded than the present barren and over-grazed valleys.",
+            "member": {
+                "id": 100869,
+                "name": "Ampocarbuile",
+                "url": "https://thesession.org/members/100869"
+            },
+            "date": "2021-12-03 16:24:54"
+        },
+        {
+            "id": 933460,
+            "url": "https://thesession.org/tunes/2834#comment933460",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "\"For what it\u2019s worth Donald\u2019s setting is very much in line with what pipers play nowadays - my only quibble is that all the pairs of even semiquavers should be tied into the following note...\"    Sorted, Calum - not sure why I missed that, but not so abc savvy as I used to be.",
+            "member": {
+                "id": 30569,
+                "name": "DonaldK",
+                "url": "https://thesession.org/members/30569"
+            },
+            "date": "2021-12-03 19:45:10"
+        },
+        {
+            "id": 993761,
+            "url": "https://thesession.org/tunes/2834#comment993761",
+            "subject": "Re: The Flowers Of The Forest",
+            "content": "The extraordinary novel 'Sunset Song ' (1928)  by the Doric author Lewis Grassic Gibbon features this lament to the extent that the pipe tune is provided as a score at the end of the novel for the benefit of anyone who happens to be musically literate. (Read it !, by the way. Had it been written by an American 'Sunset Song' would be recognised as the classic it is. Think something along the lines of a Scottish Steinbeck or Faulkner) The central character, Chris Guthrie, raises eyebrows when she sings the song at her wedding feast when she marries Ewan Tavendale: a list of the songs at the feast is enumerated. This is in itself interesting-Gibbon writes from experience having been brought up in rural NE Scotland, and gives a vivid impression of the importance of traditional music to a place with no modern entertainments.",
+            "member": {
+                "id": 166487,
+                "name": "DOUGAL LEE",
+                "url": "https://thesession.org/members/166487"
+            },
+            "date": "2024-07-20 15:52:01"
+        }
+    ]
+}

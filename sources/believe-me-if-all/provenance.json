@@ -1,0 +1,90 @@
+[
+ {
+  "name": "abcnotation--jc-music-abc-mirror-lesterbailey-melnets-big-abc-file-01099.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2Fmelnets_big_abc_file%2F01099",
+  "kind": "abc",
+  "bytes": 514,
+  "sha256": "206e45731721b0e7db448eb9e7a5e7627744617542136de9b31315e9f6c3b615",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation--jc-music-abc-mirror-lesterbailey-melnets-big-abc-file-01100.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2Fmelnets_big_abc_file%2F01100",
+  "kind": "abc",
+  "bytes": 348,
+  "sha256": "77128d41715325a88269591548023772a911e1923e67682419b221585f4f533d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-e-believe-me-if-all-those-endearing-young-charms-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=austradmusic.au%2Ftunes%2Fview_tune.php%3Fname%3DBelieve_Me_If_All_Those_Endearing_Young_Charms.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 776,
+  "sha256": "1809902ed35e2a371d04e2c5bb014b1d6e2345d3ef65f2653790975cf084d377",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-ian-mit-edu-jc-music-abc-mirror-redhawk-org-ceili-ceili-0152.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fredhawk.org%2Fceili%2Fceili%2F0152",
+  "kind": "abc",
+  "bytes": 652,
+  "sha256": "080d97ee6af485875b6b4972941d4d3e5cf40180704be80af455c3096bbcb4e2",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-om-waltz-believe-me-if-all-those-endearing-young-charms-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fsfco.puckette.com%2Fwaltz%2FBelieve_Me_If_All_Those_Endearing_Young_Charms%2F0000",
+  "kind": "abc",
+  "bytes": 479,
+  "sha256": "e286ad5aa903d5afeb3a6fe823b6d9edb2c99f37cedd0d3c6352424ae1f2b701",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-session-tunebook-0181.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_session_tunebook%2F0181",
+  "kind": "abc",
+  "bytes": 565,
+  "sha256": "c0b15b30a1d9399205060dce9cc80477597d3ffa4e337879443cb0fd0a35f02f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-richardrobinson-tunebook-org-uk-static-tunebook-02369.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=richardrobinson.tunebook.org.uk%2Fstatic%2Ftunebook%2F02369",
+  "kind": "abc",
+  "bytes": 420,
+  "sha256": "a2594e60cca9777a08a9e36602e2222e37d4e1f60ad822aad3ca6f49315e933e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-sic-abc-mirror-code-google-com-endearing-young-charms-1-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fcode.google.com%2FEndearing_Young_Charms_1%2F0000",
+  "kind": "abc",
+  "bytes": 499,
+  "sha256": "d1b8a6c6a2cb9b2cc65e7bad66a3a2b06b6260b6811b6ef7fe8119315da1bc83",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-u-jc-music-abc-mirror-flanders-blackmill-net-folk-songs-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fflanders.blackmill.net%2Ffolk-songs%2F0002",
+  "kind": "abc",
+  "bytes": 1371,
+  "sha256": "3ecc126653148f662960bd75adc5a6f59835699086f6ae852fae49e105bbe001",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-www-campin-me-uk-music-chalumeau-0181.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.campin.me.uk%2FMusic%2FChalumeau%2F0181",
+  "kind": "abc",
+  "bytes": 413,
+  "sha256": "517cc11c9dd6251c65dd92d2055e924c38d0bcbd51870276b1b88b848bdef71d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-z-believe-me-if-all-those-endearing-young-charms-g-32-4-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FAustralia%2Fwaltz%2FBelieve_Me_If_All_Those_Endearing_Young_Charms-G-32-4%2F0000",
+  "kind": "abc",
+  "bytes": 605,
+  "sha256": "b92ed9497d49598ad456081ff6bb674bd570d667eafb03f9bdbdc29aab58d8d2",
+  "fetched": "2026-09-18"
+ }
+]

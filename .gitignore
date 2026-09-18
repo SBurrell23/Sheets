@@ -3,3 +3,15 @@ __pycache__/
 .claude/
 .DS_Store
 Thumbs.db
+
+# Cached notation under sources/ is committed on purpose -- it is what makes a
+# later revision cheap instead of a second round of downloads. Text sources are
+# a few KB each; page scans and audio are not, and are fetched on demand.
+sources/**/*.pdf
+sources/**/*.png
+sources/**/*.jpg
+sources/**/*.jpeg
+sources/**/*.tif
+sources/**/*.zip
+sources/**/*.mp3
+sources/**/*.ogg
