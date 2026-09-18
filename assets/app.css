@@ -45,8 +45,12 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
    the real italic already has the thick-and-thin and the long descender. The
    italic axis is requested in the font link so this is a true italic, not a
    browser-synthesised slant. */
+/* The italic f's ink starts LEFT of its origin -- about 2px at this size -- so
+   sitting first in the line put its tail outside the content box and against the
+   page edge, where anything clipping the document cut the tail flat. The left
+   margin buys the overhang its own room. */
 h1 .mark{font-style:italic; font-weight:700; font-size:1.16em;
-  margin-right:.3em; letter-spacing:0}
+  margin-left:.1em; margin-right:.3em; letter-spacing:0}
 .masthead .btn{flex:0 0 auto}
 .count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:14px; color:var(--ink-2);
   font-variant-numeric:tabular-nums; margin-left:auto; flex:0 1 auto; min-width:0;
@@ -235,6 +239,13 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .ctl output{min-width:46px; font-size:12px}
   #pdf{flex:0 0 auto}
 }
+/* Between the tablet rules and the phone rules the transport was pinned to one
+   line by flex-wrap:nowrap, but its controls stop fitting at about 716px, so the
+   PDF button hung off the right and put a horizontal scrollbar on the whole page.
+   An overflowing line also zeroes #pdf's auto margin, since auto margins resolve
+   to 0 when the free space is negative. Let it wrap again before that happens. */
+@media (max-width:760px){ .row{flex-wrap:wrap} }
+
 /* Phone. A single line stops being realistic here, so everything wraps on
    purpose: the masthead breaks after the title, the song dropdown takes a line
    of its own with the transport buttons beneath it, and the score gets the full
