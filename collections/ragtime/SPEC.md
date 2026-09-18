@@ -66,8 +66,8 @@ Write exactly one file to the path you are given, `collections/ragtime/songs/<sl
   "public domain"**. This string is printed as the credit line on the engraved score, so make it
   accurate and presentable.
 - `key` — `C` for major numbers, `Am` for minor ones. Nothing else; the player transposes.
-- `meter` — usually `4/4` for a rag or blues, `2/4` for a march-tempo rag, `3/4` for a ragtime
-  waltz. Use what the piece is written in.
+- `meter` — `4/4`, `3/4`, `2/4`, `6/8`, `9/8` (slip jig) or `12/8` (compound four).
+  Use the meter the piece is really in; do not force it into 4/4.
 - `pickup` — **omit** if the tune starts on beat 1. Otherwise set it to the upbeat's length in
   sixteenth units, and make bar 1 exactly that long.
 - `tempo` — a sensible performance tempo (50–220). Rags are marched, not raced: Joplin wrote
@@ -77,7 +77,7 @@ Write exactly one file to the path you are given, `collections/ragtime/songs/<sl
 ## 4. The note language
 
 **Durations are counted in sixteenth notes.** A full bar is 16 units in 4/4, 12 in 3/4 and 6/8,
-and 8 in 2/4.
+8 in 2/4, 18 in 9/8 and 24 in 12/8.
 
 | write | means         | | write | means           |
 |-------|---------------|-|-------|-----------------|
@@ -85,6 +85,7 @@ and 8 in 2/4.
 | `2`   | eighth        | | `8`   | half            |
 | `3`   | dotted eighth | | `12`  | dotted half     |
 | `4`   | quarter       | | `16`  | whole           |
+|       |               | | `24`  | dotted whole    |
 
 A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
 `F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
@@ -136,9 +137,11 @@ must not do is let a bar come out to the wrong length.
 2. Bars *may* begin with a rest where the piece genuinely rests there — common in a blues
    response phrase. Prefer a struck downbeat, but never invent a note, or a pickup the piece
    has not got, just to avoid one.
-3. **Range `G4` to `C6`.** Move a phrase by an octave, or choose the octave that fits the whole
-   tune. Rags range widely; if a strain genuinely will not fit, move that whole strain by an
-   octave rather than bending individual notes, and say so in your report.
+3. **Range `E4` to `E6`** — two full octaves. This is deliberately roomy: the old `G4`–`C6`
+   window was an 11th, and melodies were coming back bent to fit it. **Do not bend a melody to
+   the window.** If a phrase sits outside, move that whole phrase — or the whole strain — by an
+   octave. Only if a piece genuinely will not fit either way should you alter a note, and then
+   say which in your report.
 4. **The piece ends on the tonic `C5`** (or `A5`/`A4` in A minor) — **or on the root of the
    closing chord**, held at least a half note. That second option exists for this collection
    specifically: most rags modulate to the subdominant for the trio and **end there**, so a rag

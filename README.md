@@ -15,7 +15,6 @@ Published at <https://sburrell23.github.io/Sheets/>.
 | **Folk Songs** | Traditional and early-popular melodies in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
 | **Classical** | Famous classical themes in the public domain, reduced to a single melodic line. Where a piece has no separate tune — Für Elise, Clair de Lune, Canon in D — the arrangement takes the line an ear follows and leaves the accompaniment to the chord symbols. |
 | **Ragtime & Blues** | Ragtime, early blues and New Orleans jazz in the public domain, in three sets — **Ragtime**, **Blues** and **Other**. Unlike the other collections these are **full arrangements** — every distinct strain of a rag, in playing order, not just the famous one, so they run 60–100 bars. |
-| **AI Music** | Original songs written by AI agents to a spec. Six sets (v1–v6), each written to a different spec — **View spec** shows the one a given song was written to. |
 
 Adding another collection means adding one folder with a `collection.json`, a `version.json`,
 a `SPEC.md` and `songs/` (or set folders); the player picks it up automatically and orders
@@ -45,9 +44,8 @@ collections/                   source of truth, one folder per collection
     collection.json
     SPEC.md                    one brief, shared by all three sets
     ragtime/ blues/ other/     each: version.json, songs/*.json
-  ai-music/
-    collection.json
-    v1/ ... v6/                each: version.json, SPEC.md, songs/*.json
+archive/                       kept but not built or published
+  ai-music/                    the retired v1-v6 original songs
 songs/                         generated: .abc, .musicxml and engraved .pdf
 src/
   songlib.py                   note-language parser, validator, ABC + MusicXML renderers
@@ -115,7 +113,7 @@ tune works, not a performance.
 ## The note language
 
 Durations are counted in **sixteenth notes**. A full bar is 16 units in 4/4, 12 in 3/4 and 6/8,
-and 8 in 2/4. `C5:4` is a quarter note (`C4` is middle C), `F#5:2` an eighth, `Bb4:8` a half,
+8 in 2/4, 18 in 9/8 and 24 in 12/8. The playable window is **E4 to E6**, two octaves. `C5:4` is a quarter note (`C4` is middle C), `F#5:2` an eighth, `Bb4:8` a half,
 `R:4` a quarter rest, `[Am]E5:4` changes chord mid-bar.
 
 A trailing `~` **ties** a note into the next one of the same pitch, across a barline if need be:
@@ -210,11 +208,10 @@ deploys, it never rebuilds.
 
 ## Public domain
 
-Everything in **Folk Songs**, **Classical** and **Ragtime & Blues** is either a traditional
-melody, a work published early enough to have fallen out of copyright, or a work whose composer
-died more than 70 years ago. Each song file records its `source` (composer, work and date where
-known) alongside the words "public domain", and that string is printed as the credit line on the
-engraved score. Only original **AI Music** is credited to Claude.
+Every song on the site is either a traditional melody, a work published early enough to have
+fallen out of copyright, or a work whose composer died more than 70 years ago. Each song file
+records its `source` (composer, work and date where known) alongside the words "public domain",
+and that string is printed as the credit line on the engraved score.
 
 **The US cutoff rolls forward every January.** Copyright on a published work runs 95 years, so
 the line moves a year each 1 January: as of 2026 anything **published in 1930 or earlier** is

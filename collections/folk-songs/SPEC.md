@@ -21,8 +21,10 @@ Two things matter more than anything else:
 2. **Keep it playable.** This is for a beginner–intermediate pianist. Do not add ornaments,
    grace notes or runs that are not in the tune.
 
-Write **only the main strain** — typically one verse, or a verse plus its chorus. 16 to 40 bars
-is the normal range. Do not write out repeats; write the tune once through.
+Write the tune through to a musical close — **a verse and its chorus where the song has both**,
+because a verse alone is only half of what people know. 16 to 40 bars is the normal range and
+there is no cap; a song with a real second strain should have it. Do not write out repeats: one
+pass of each distinct section is enough.
 
 ## 2. The file
 
@@ -63,6 +65,7 @@ and 8 in 2/4.
 | `2`   | eighth        | | `8`   | half            |
 | `3`   | dotted eighth | | `12`  | dotted half     |
 | `4`   | quarter       | | `16`  | whole           |
+|       |               | | `24`  | dotted whole    |
 
 A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
 `F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
@@ -89,8 +92,11 @@ of bars contain a triplet — that ceiling is there because these should be occa
    common mistake — add each bar up.
 2. Bars *may* begin with a rest where the tune genuinely rests there. Prefer a struck downbeat,
    but never invent a note — or a pickup the tune has not got — just to avoid one.
-3. **Range `G4` to `C6`.** If the tune as you know it goes outside that, move the offending
-   phrase by an octave, or pick the octave that keeps the whole tune inside the window.
+3. **Range `E4` to `E6`** — two full octaves. This is deliberately roomy: the old `G4`–`C6`
+   window was an 11th, and melodies were coming back bent to fit it. **Do not bend a melody to
+   the window.** If a phrase sits outside, move that whole phrase — or the whole strain — by an
+   octave. Only if a piece genuinely will not fit either way should you alter a note, and then
+   say which in your report.
 4. **End where the song ends.** A tonic close held at least a half note is the usual and
    preferred ending, but it is not forced: if the tune genuinely closes elsewhere, write that.
    Do not manufacture a held tonic the song has not got. The validator prints a NOTE rather than

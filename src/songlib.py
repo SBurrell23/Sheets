@@ -17,6 +17,8 @@ METERS = {
     '3/4': (12, 4, 3, 4),
     '2/4': (8,  4, 2, 4),
     '6/8': (12, 6, 6, 8),
+    '9/8': (18, 6, 9, 8),     # slip jig
+    '12/8': (24, 6, 12, 8),   # slow airs, compound four
 }
 
 
@@ -25,7 +27,8 @@ def meter_of(song):
 
 # duration unit -> (MusicXML type, number of dots)
 TYPE = {1: ('16th', 0), 2: ('eighth', 0), 3: ('eighth', 1), 4: ('quarter', 0),
-        6: ('quarter', 1), 8: ('half', 0), 12: ('half', 1), 16: ('whole', 0)}
+        6: ('quarter', 1), 8: ('half', 0), 12: ('half', 1), 16: ('whole', 0),
+        24: ('whole', 1)}          # dotted whole -- a full 12/8 bar
 FLAGS = {1: 2, 2: 1, 3: 1}                      # beams drawn per duration
 
 # key name -> (fifths, mode, tonic pitch class, abc key)
@@ -62,8 +65,11 @@ TOKEN_RE = re.compile(r'^(?:\[([^\]]+)\])?([A-G](?:#|b)?\d|R):(\d+)(~?)$')
 TUPLET_OPEN = '(3'
 TICKS = 3                 # ticks per sixteenth; 3 so a triplet divides exactly
 
-# playable window: bottom line of the treble staff up to two ledger lines above
-MIN_MIDI, MAX_MIDI = 67, 84          # G4 .. C6
+# Playable window: two octaves, E4 to E6. It was G4..C6 -- an 11th -- and that
+# was too tight for transcription: 34 of 96 songs came out spanning EXACTLY 17
+# semitones, the width of the window, which is the signature of melodies pressed
+# flat against both walls rather than a natural distribution.
+MIN_MIDI, MAX_MIDI = 64, 88          # E4 .. E6
 STEP_SEMI = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
 
 
