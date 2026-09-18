@@ -1,0 +1,29 @@
+{
+  "title": "Star of the County Down",
+  "source": "Traditional Irish, tune also known as \"Dives and Lazarus\" and as the hymn tune \"Kingsfold\" — public domain",
+  "key": "Am",
+  "meter": "4/4",
+  "pickup": 4,
+  "tempo": 100,
+  "bars": [
+    { "chord": "Am", "notes": "E4:2 G4:2" },
+
+    { "chord": "Am", "notes": "A4:4 A4:4 A4:4 G4:2 A4:2" },
+    { "chord": "C",  "notes": "C5:4 C5:4 D5:4 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:4 D5:2 C5:2 A4:4 G4:2 E4:2" },
+    { "chord": "G",  "notes": "G4:12 E4:2 G4:2" },
+    { "chord": "Am", "notes": "A4:4 A4:4 A4:4 G4:2 A4:2" },
+    { "chord": "C",  "notes": "C5:4 C5:4 D5:4 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:4 D5:2 C5:2 A4:4 A4:4" },
+    { "chord": "Am", "notes": "A4:12 E5:4" },
+
+    { "chord": "C",  "notes": "G5:4 E5:4 E5:4 D5:2 C5:2" },
+    { "chord": "D",  "notes": "D5:4 D5:4 D5:4 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:4 D5:2 C5:2 A4:4 G4:2 E4:2" },
+    { "chord": "G",  "notes": "G4:12 E4:2 G4:2" },
+    { "chord": "Am", "notes": "A4:4 A4:4 A4:4 G4:2 A4:2" },
+    { "chord": "C",  "notes": "C5:4 C5:4 D5:4 C5:2 D5:2" },
+    { "chord": "Am", "notes": "E5:4 D5:2 C5:2 A4:4 A4:4" },
+    { "chord": "Am", "notes": "A4:16" }
+  ]
+}

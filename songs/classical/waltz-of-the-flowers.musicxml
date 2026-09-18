@@ -36,16 +36,16 @@
         <kind text="7">dominant</kind>
       </harmony>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
     <measure number="4">
       <harmony print-frame="no">
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
-      <note><pitch><step>B</step><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">begin</beam><notations><tuplet type="start" bracket="yes"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">continue</beam></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">end</beam><notations><tuplet type="stop" bracket="yes"/></notations></note>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
@@ -79,9 +79,9 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
-      <note><pitch><step>D</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">begin</beam><notations><tuplet type="start" bracket="yes"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">continue</beam></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">end</beam><notations><tuplet type="stop" bracket="yes"/></notations></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
@@ -108,16 +108,16 @@
         <kind text="7">dominant</kind>
       </harmony>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
     <measure number="12">
       <harmony print-frame="no">
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
-      <note><pitch><step>B</step><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">begin</beam><notations><tuplet type="start" bracket="yes"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">continue</beam></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification><beam number="1">end</beam><notations><tuplet type="stop" bracket="yes"/></notations></note>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
@@ -173,7 +173,7 @@
         <kind text="7">dominant</kind>
       </harmony>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
     <measure number="19">
       <harmony print-frame="no">

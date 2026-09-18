@@ -17,7 +17,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "3/4",
       "tempo": 80,
-      "bars": 16,
+      "bars": 17,
       "source": "Traditional — tune \"New Britain\", 1835; words John Newton — public domain",
       "pdf": "songs/folk-songs/amazing-grace.pdf"
      },
@@ -57,7 +57,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 132,
-      "bars": 16,
+      "bars": 17,
       "source": "Stephen Foster, 1850 — public domain",
       "pdf": "songs/folk-songs/camptown-races.pdf"
      },
@@ -67,7 +67,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "3/4",
       "tempo": 126,
-      "bars": 32,
+      "bars": 64,
       "source": "Harry Dacre, 1892 — public domain",
       "pdf": "songs/folk-songs/daisy-bell.pdf"
      },
@@ -117,8 +117,8 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 112,
-      "bars": 24,
-      "source": "Traditional American, first published 1894 as 'Levee Song' - public domain",
+      "bars": 32,
+      "source": "Traditional American, first published 1894 as 'Levee Song' - public domain. Verse after the Digital Tradition setting; the chorus ('Someone's in the kitchen with Dinah') rests on that one setting alone, the only ABC source found carrying it, checked by ear against the tune as sung",
       "pdf": "songs/folk-songs/working-on-the-railroad.pdf"
      },
      {
@@ -167,7 +167,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "3/4",
       "tempo": 120,
-      "bars": 17,
+      "bars": 33,
       "source": "Traditional, 1881 — public domain",
       "pdf": "songs/folk-songs/my-bonnie.pdf"
      },
@@ -257,7 +257,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "4/4",
       "tempo": 112,
-      "bars": 16,
+      "bars": 17,
       "source": "Traditional New Zealand whaling song, c.1860s-70s - public domain",
       "pdf": "songs/folk-songs/wellerman.pdf"
      },
@@ -287,7 +287,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "3/4",
       "tempo": 168,
-      "bars": 31,
+      "bars": 32,
       "source": "Jack Norworth & Albert Von Tilzer, 1908 - public domain",
       "pdf": "songs/folk-songs/take-me-out-to-the-ball-game.pdf"
      },
@@ -363,7 +363,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 56,
-      "bars": 24,
+      "bars": 18,
       "source": "J.S. Bach, Air from Orchestral Suite No. 3, BWV 1068, c.1731 - public domain",
       "pdf": "songs/classical/air-on-the-g-string.pdf"
      },
@@ -373,7 +373,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 66,
-      "bars": 16,
+      "bars": 12,
       "source": "Franz Schubert, Ellens dritter Gesang, D. 839, 1825 - public domain",
       "pdf": "songs/classical/ave-maria-schubert.pdf"
      },
@@ -394,7 +394,7 @@ window.PS_MANIFEST = [
       "meter": "4/4",
       "tempo": 76,
       "bars": 16,
-      "source": "Richard Wagner, Bridal Chorus from Lohengrin, 1850 - public domain",
+      "source": "Richard Wagner, Bridal Chorus from Lohengrin, 1850 - public domain (rhythm follows a simplified reading of the score's dotted-eighth-and-sixteenth snap)",
       "pdf": "songs/classical/bridal-chorus.pdf"
      },
      {
@@ -403,7 +403,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "2/4",
       "tempo": 160,
-      "bars": 21,
+      "bars": 28,
       "source": "Jacques Offenbach, Galop infernal from Orpheus in the Underworld, 1858 - public domain",
       "pdf": "songs/classical/can-can.pdf"
      },
@@ -421,9 +421,9 @@ window.PS_MANIFEST = [
       "slug": "clair-de-lune",
       "title": "Clair de Lune",
       "key": "C",
-      "meter": "3/4",
+      "meter": "9/8",
       "tempo": 54,
-      "bars": 12,
+      "bars": 8,
       "source": "Claude Debussy, Suite bergamasque, 1905 - public domain",
       "pdf": "songs/classical/clair-de-lune.pdf"
      },
@@ -433,7 +433,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "2/4",
       "tempo": 104,
-      "bars": 16,
+      "bars": 24,
       "source": "Pyotr Ilyich Tchaikovsky, The Nutcracker, Op. 71, 1892 - public domain",
       "pdf": "songs/classical/sugar-plum-fairy.pdf"
      },
@@ -443,7 +443,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 126,
-      "bars": 16,
+      "bars": 18,
       "source": "Wolfgang Amadeus Mozart, Serenade No. 13, K. 525, first movement, 1787 - public domain",
       "pdf": "songs/classical/eine-kleine-nachtmusik.pdf"
      },
@@ -463,7 +463,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "3/4",
       "tempo": 66,
-      "bars": 17,
+      "bars": 31,
       "source": "Erik Satie, Trois Gymnopedies, 1888 - public domain",
       "pdf": "songs/classical/gymnopedie-no1.pdf"
      },
@@ -483,7 +483,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 100,
-      "bars": 17,
+      "bars": 24,
       "source": "George Frideric Handel, Hallelujah from Messiah, HWV 56, 1741 - public domain",
       "pdf": "songs/classical/hallelujah-chorus.pdf"
      },
@@ -493,7 +493,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "2/4",
       "tempo": 132,
-      "bars": 16,
+      "bars": 34,
       "source": "Johannes Brahms, Hungarian Dance No. 5, WoO 1, 1869 - public domain",
       "pdf": "songs/classical/hungarian-dance-5.pdf"
      },
@@ -503,7 +503,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "4/4",
       "tempo": 138,
-      "bars": 16,
+      "bars": 18,
       "source": "Edvard Grieg, Peer Gynt, Op. 23, 1875 - public domain",
       "pdf": "songs/classical/hall-of-the-mountain-king.pdf"
      },
@@ -511,9 +511,9 @@ window.PS_MANIFEST = [
       "slug": "jesu-joy",
       "title": "Jesu, Joy of Man's Desiring",
       "key": "C",
-      "meter": "3/4",
+      "meter": "9/8",
       "tempo": 88,
-      "bars": 14,
+      "bars": 9,
       "source": "J.S. Bach, chorale from Cantata BWV 147, 1723 - public domain",
       "pdf": "songs/classical/jesu-joy.pdf"
      },
@@ -563,7 +563,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "4/4",
       "tempo": 56,
-      "bars": 16,
+      "bars": 18,
       "source": "Ludwig van Beethoven, Piano Sonata No. 14 Op. 27 No. 2, 1801 - public domain",
       "pdf": "songs/classical/moonlight-sonata.pdf"
      },
@@ -581,9 +581,9 @@ window.PS_MANIFEST = [
       "slug": "nocturne-op9-no2",
       "title": "Nocturne, Op. 9 No. 2",
       "key": "C",
-      "meter": "3/4",
+      "meter": "12/8",
       "tempo": 66,
-      "bars": 18,
+      "bars": 9,
       "source": "Frederic Chopin, Nocturne in E-flat major, Op. 9 No. 2, 1832 - public domain",
       "pdf": "songs/classical/nocturne-op9-no2.pdf"
      },
@@ -603,7 +603,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 84,
-      "bars": 20,
+      "bars": 21,
       "source": "Edward Elgar, Pomp and Circumstance March No. 1, Op. 39, 1901 - public domain",
       "pdf": "songs/classical/pomp-and-circumstance.pdf"
      },
@@ -623,7 +623,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 112,
-      "bars": 16,
+      "bars": 11,
       "source": "Antonio Vivaldi, Spring, Violin Concerto in E major, RV 269, from The Four Seasons, 1725 - public domain",
       "pdf": "songs/classical/spring-vivaldi.pdf"
      },
@@ -633,7 +633,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "4/4",
       "tempo": 72,
-      "bars": 21,
+      "bars": 25,
       "source": "Pyotr Ilyich Tchaikovsky, Scene from Swan Lake, Op. 20, 1876 - public domain",
       "pdf": "songs/classical/swan-lake.pdf"
      },
@@ -673,7 +673,7 @@ window.PS_MANIFEST = [
       "key": "Am",
       "meter": "2/4",
       "tempo": 112,
-      "bars": 25,
+      "bars": 33,
       "source": "Wolfgang Amadeus Mozart, Rondo alla Turca from Piano Sonata No. 11, K. 331, 1783 - public domain",
       "pdf": "songs/classical/turkish-march.pdf"
      },
@@ -692,9 +692,9 @@ window.PS_MANIFEST = [
       "title": "Water Music: Alla Hornpipe",
       "key": "C",
       "meter": "3/4",
-      "tempo": 88,
-      "bars": 17,
-      "source": "George Frideric Handel, Water Music, Suite in D, 1717 - public domain",
+      "tempo": 138,
+      "bars": 23,
+      "source": "George Frideric Handel, Alla Hornpipe from Water Music Suite No. 2 in D, HWV 349, 1717 - public domain",
       "pdf": "songs/classical/water-music-hornpipe.pdf"
      },
      {
@@ -703,7 +703,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 120,
-      "bars": 20,
+      "bars": 21,
       "source": "Felix Mendelssohn, Wedding March from A Midsummer Night's Dream, Op. 61, 1842 - public domain",
       "pdf": "songs/classical/wedding-march.pdf"
      },
@@ -713,7 +713,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "2/4",
       "tempo": 168,
-      "bars": 17,
+      "bars": 41,
       "source": "Gioachino Rossini, William Tell Overture (Guillaume Tell) finale, 1829 - public domain",
       "pdf": "songs/classical/william-tell-overture.pdf"
      }
@@ -937,7 +937,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 92,
-      "bars": 68,
+      "bars": 56,
       "source": "W. C. Handy, 1912 - public domain",
       "pdf": "songs/ragtime/blues/memphis-blues.pdf"
      },
@@ -1006,7 +1006,7 @@ window.PS_MANIFEST = [
       "meter": "4/4",
       "tempo": 92,
       "bars": 72,
-      "source": "Ferdinand \"Jelly Roll\" Morton, 1915 - public domain",
+      "source": "Ferdinand \"Jelly Roll\" Morton, 1915 (Will Rossiter) - public domain",
       "pdf": "songs/ragtime/other/jelly-roll-blues.pdf"
      },
      {
@@ -1015,9 +1015,233 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 100,
-      "bars": 68,
-      "source": "Original Dixieland Jass Band (Nick LaRocca et al.), 1917 - public domain",
+      "bars": 72,
+      "source": "Original Dixieland Jass Band (Nick LaRocca), 1917 - Leo Feist piano solo, public domain",
       "pdf": "songs/ragtime/other/tiger-rag.pdf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "irish-scottish",
+  "title": "Irish & Scottish",
+  "blurb": "Traditional Irish and Scottish airs, jigs and ballads in the public domain, arranged as lead sheets. Written in C or A minor; use the Key control to transpose.",
+  "order": 4,
+  "sets": [
+   {
+    "id": "irish",
+    "title": "Irish",
+    "label": "Airs, jigs and ballads",
+    "order": 1,
+    "songs": [
+     {
+      "slug": "carrickfergus",
+      "title": "Carrickfergus",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 68,
+      "bars": 24,
+      "source": "Traditional Irish — slow air, from the Irish song \"Do Bhí Bean Uasal\" — public domain",
+      "pdf": "songs/irish-scottish/irish/carrickfergus.pdf"
+     },
+     {
+      "slug": "danny-boy",
+      "title": "Danny Boy",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 17,
+      "source": "Traditional Irish — the Londonderry Air, collected by Jane Ross and printed in Petrie's Ancient Music of Ireland, 1855 — public domain",
+      "pdf": "songs/irish-scottish/irish/danny-boy.pdf"
+     },
+     {
+      "slug": "down-by-the-sally-gardens",
+      "title": "Down by the Sally Gardens",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 68,
+      "bars": 17,
+      "source": "Traditional Irish air, \"The Maids of Mourne Shore\" - public domain",
+      "pdf": "songs/irish-scottish/irish/down-by-the-sally-gardens.pdf"
+     },
+     {
+      "slug": "ill-tell-me-ma",
+      "title": "I'll Tell Me Ma",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 120,
+      "bars": 17,
+      "source": "Traditional Irish polka, also \"The Belle of Belfast City\" - public domain",
+      "pdf": "songs/irish-scottish/irish/ill-tell-me-ma.pdf"
+     },
+     {
+      "slug": "she-moved-through-the-fair",
+      "title": "She Moved Through the Fair",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 72,
+      "bars": 23,
+      "source": "Traditional Irish — Mixolydian air collected in Co. Donegal, printed 1909; the Bb is the mode's flat seventh — public domain",
+      "pdf": "songs/irish-scottish/irish/she-moved-through-the-fair.pdf"
+     },
+     {
+      "slug": "star-of-the-county-down",
+      "title": "Star of the County Down",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 17,
+      "source": "Traditional Irish, tune also known as \"Dives and Lazarus\" and as the hymn tune \"Kingsfold\" — public domain",
+      "pdf": "songs/irish-scottish/irish/star-of-the-county-down.pdf"
+     },
+     {
+      "slug": "the-foggy-dew",
+      "title": "The Foggy Dew",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 17,
+      "source": "Traditional Irish march air, also \"An tÓglach\" - public domain",
+      "pdf": "songs/irish-scottish/irish/the-foggy-dew.pdf"
+     },
+     {
+      "slug": "the-irish-washerwoman",
+      "title": "The Irish Washerwoman",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 120,
+      "bars": 16,
+      "source": "Traditional Irish double jig, also \"An Bhean Níocháin Éireannach\" - public domain",
+      "pdf": "songs/irish-scottish/irish/the-irish-washerwoman.pdf"
+     },
+     {
+      "slug": "the-parting-glass",
+      "title": "The Parting Glass",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 17,
+      "source": "Traditional Irish — a farewell song sung in Ireland and Scotland since the 18th century; A aeolian — public domain",
+      "pdf": "songs/irish-scottish/irish/the-parting-glass.pdf"
+     },
+     {
+      "slug": "rocky-road-to-dublin",
+      "title": "The Rocky Road to Dublin",
+      "key": "Am",
+      "meter": "9/8",
+      "tempo": 132,
+      "bars": 16,
+      "source": "Traditional Irish slip jig, also \"The Rocky Road\" — public domain",
+      "pdf": "songs/irish-scottish/irish/rocky-road-to-dublin.pdf"
+     },
+     {
+      "slug": "the-wild-rover",
+      "title": "The Wild Rover",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 144,
+      "bars": 25,
+      "source": "Traditional Irish — public domain",
+      "pdf": "songs/irish-scottish/irish/the-wild-rover.pdf"
+     },
+     {
+      "slug": "whiskey-in-the-jar",
+      "title": "Whiskey in the Jar",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 25,
+      "source": "Traditional Irish, also \"There's Whiskey in the Jar\" — public domain",
+      "pdf": "songs/irish-scottish/irish/whiskey-in-the-jar.pdf"
+     }
+    ]
+   },
+   {
+    "id": "scottish",
+    "title": "Scottish",
+    "label": "Airs, songs and marches",
+    "order": 2,
+    "songs": [
+     {
+      "slug": "a-red-red-rose",
+      "title": "A Red, Red Rose",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 96,
+      "bars": 33,
+      "source": "Traditional Scottish air \"Low Down in the Broom\", words by Robert Burns 1794 - public domain",
+      "pdf": "songs/irish-scottish/scottish/a-red-red-rose.pdf"
+     },
+     {
+      "slug": "annie-laurie",
+      "title": "Annie Laurie",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 17,
+      "source": "Traditional Scottish, air set by Lady John Scott c.1834 to words by William Douglas - public domain",
+      "pdf": "songs/irish-scottish/scottish/annie-laurie.pdf"
+     },
+     {
+      "slug": "bonnie-dundee",
+      "title": "Bonnie Dundee",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 116,
+      "bars": 17,
+      "source": "Traditional Scottish, \"The Bonnets o' Bonnie Dundee\", words by Walter Scott 1825 - public domain",
+      "pdf": "songs/irish-scottish/scottish/bonnie-dundee.pdf"
+     },
+     {
+      "slug": "charlie-is-my-darling",
+      "title": "Charlie Is My Darling",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 112,
+      "bars": 13,
+      "source": "Traditional Scottish Jacobite song, \"The Young Chevalier\", c.1745 - public domain",
+      "pdf": "songs/irish-scottish/scottish/charlie-is-my-darling.pdf"
+     },
+     {
+      "slug": "comin-thro-the-rye",
+      "title": "Comin' Thro' the Rye",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "Traditional Scottish strathspey air, words by Robert Burns 1796 - public domain",
+      "pdf": "songs/irish-scottish/scottish/comin-thro-the-rye.pdf"
+     },
+     {
+      "slug": "scotland-the-brave",
+      "title": "Scotland the Brave",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 112,
+      "bars": 32,
+      "source": "Traditional Scottish march, \"Alba an Aigh\", melody only - public domain",
+      "pdf": "songs/irish-scottish/scottish/scotland-the-brave.pdf"
+     },
+     {
+      "slug": "skye-boat-song",
+      "title": "The Skye Boat Song",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 92,
+      "bars": 24,
+      "source": "Traditional Scottish, \"Over the Sea to Skye\", a Gaelic rowing air, 1884 - public domain",
+      "pdf": "songs/irish-scottish/scottish/skye-boat-song.pdf"
+     },
+     {
+      "slug": "ye-banks-and-braes",
+      "title": "Ye Banks and Braes",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 80,
+      "bars": 25,
+      "source": "Traditional Scottish, \"The Banks o' Doon\" / \"The Caledonian Hunt's Delight\", Scots Musical Museum 1792 - public domain",
+      "pdf": "songs/irish-scottish/scottish/ye-banks-and-braes.pdf"
      }
     ]
    }

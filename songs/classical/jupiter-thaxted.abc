@@ -5,10 +5,10 @@ M:3/4
 L:1/16
 Q:1/4=96
 K:C clef=treble
-"C"G2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 c4 "G"B4 | "Am"A2B2 A4 "G7"G4 |
-"C"c8 G2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 e4 e4 | "C"e2d2 c4 "G7"d4 |
+"C"E2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 c4 "G"B4 | "Am"A2B2 A4 "G7"G4 |
+"C"E8 E2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 e4 e4 | "C"e2d2 c4 "G7"d4 |
 "C"c8 g2e2 | "G"d4 d4 "C"c2e2 | "G"d4 G4 "C"g2e2 | "G"d4 d4 "Em"e2g2 |
 "F"a8 a2b2 | "Am"c'4 b4 a4 | "C"g4 c'4 e4 | "G7"d2c2 d4 "C"e4 |
-"C"g8 G2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 c4 "G"B4 | "Am"A2B2 A4 "G7"G4 |
-"C"c8 G2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 e4 e4 | "C"e2d2 c4 "G7"d4 |
+"C"g8 E2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 c4 "G"B4 | "Am"A2B2 A4 "G7"G4 |
+"C"E8 E2G2 | "Am"A6 c2 "G"B3G1 | "C"c2d2 e4 e4 | "C"e2d2 c4 "G7"d4 |
 "C"Hc12 |]

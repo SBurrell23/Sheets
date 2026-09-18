@@ -1,10 +1,9 @@
 X:1
 T:Clair de Lune
 C:Claude Debussy, Suite bergamasque, 1905 - public domain
-M:3/4
+M:9/8
 L:1/16
-Q:1/4=54
+Q:1/8=54
 K:C clef=treble
-"C"G2 | "C"g8 e4 | "Dm7b5"d2e2 d8 | "Am7"c2d2 c2 e4 c2 |
-"G7"B2c2 B8 | "C"g8 e4 | "Dm7"d2e2 d8 | "C"c2d2 g4 e4 |
-"Fmaj7"d2e2 d4 c4 | "C7"c2d2 a2 g4 e2 | "Am"e2d1e1 d2 c4 A2 | "C"Hc12 |]
+"C"z2 G2g2- g6 e6- | "Ddim"e2d2e2 d12- | "C"d2c2d2 c3 e6 c3- | "G7"c2B2c2 B12 |
+"C"d2c2d2 g6 e6- | "F"e2d2e2 d6 c6- | "C7"c2c2d2 a3 g6 e3 | "Am"e2d2e2 d3 c6 HA3 |]

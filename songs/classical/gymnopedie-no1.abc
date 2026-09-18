@@ -5,8 +5,11 @@ M:3/4
 L:1/16
 Q:1/4=66
 K:C clef=treble
-"Fmaj7"e4 g4 | "Cmaj7"f4 e4 B4 | "Fmaj7"A4 B4 c4 | "Cmaj7"G12 |
-"Fmaj7"e12 | "Cmaj7"e12 | "Fmaj7"e12 | "Cmaj7"e12 |
-"Em"B12 | "Am"e12 | "Dm"d12 | "Dm7"d12 |
+"Fmaj7"z4 e4 g4 | "Cmaj7"f4 e4 B4 | "Fmaj7"A4 B4 c4 | "Cmaj7"G12 |
+"Fmaj7"E12- | "Cmaj7"E12- | "Fmaj7"E12- | "Cmaj7"E12 |
+"Em"B12 | "Am"e12 | "Dm7"d12- | "Dm7"d12- |
 "Cm"d12 | "Gm"G4 A4 _B4 | "Dm7/C"d4 c4 A4 | "Dm7/C"c4 _B4 A4 |
-"C"Hc12 |]
+"C7sus4"c12- | "C7"c8 c4 | "Cm7"d4 _e4 f4 | "Gm/C"g4 _B4 c4 |
+"Dm7/C"d4 c4 A4 | "C7sus4"c12- | "C7"c8 c4 | "Dm"f12 |
+"Em"e12 | "Am"A4 G4 A4 | "G/D"B4 c4 d4 | "Em7/D"B4 c4 d4 |
+"Dm7"E12 | "Gm"_B12 | "C"Hc12 |]

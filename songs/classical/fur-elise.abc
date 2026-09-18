@@ -8,6 +8,6 @@ K:Am clef=treble
 "Am"e2^d2 | "Am"e2^d2 e2B2 =d2c2 | "Am"A12 | "E7"B12 |
 "Am"c8 e2^d2 | "Am"e2^d2 e2B2 =d2c2 | "Am"A12 | "E7"B8 c2B2 |
 "Am"A6 B2 c2d2 | "C"e8 f2e2 | "G7"d8 e2d2 | "C"c8 d2c2 |
-"E7"B8 e4 | "E7"e12 | "E7"e6 ^d2 e2d2 | "Am"e2^d2 e2B2 =d2c2 |
+"E7"B8 e2 z2 | "E7"z2 e2 e'2 z4 ^d2 | "E7"e6 ^d2 e2d2 | "Am"e2^d2 e2B2 =d2c2 |
 "Am"A12 | "E7"B12 | "Am"c8 e2^d2 | "Am"e2^d2 e2B2 =d2c2 |
 "Am"A12 | "E7"B8 c2B2 | "Am"HA12 |]

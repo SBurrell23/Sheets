@@ -15,7 +15,7 @@
 
     { "chord": "C",  "notes": "C5:8 E5:2 C5:2" },
     { "chord": "Am", "notes": "E5:8 D5:2 E5:2" },
-    { "chord": "C",  "notes": "G5:12" },
+    { "chord": "C",  "notes": "G5:12~" },
     { "chord": "C",  "notes": "G5:8 E5:2 G5:2" },
 
     { "chord": "C",  "notes": "G5:8 E5:2 C5:2" },
@@ -25,6 +25,7 @@
 
     { "chord": "C",  "notes": "C5:8 E5:2 C5:2" },
     { "chord": "C",  "notes": "E5:8 [G7]D5:4" },
+    { "chord": "C",  "notes": "C5:12~" },
     { "chord": "C",  "notes": "C5:12" }
   ]
 }

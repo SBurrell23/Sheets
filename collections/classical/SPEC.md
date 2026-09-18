@@ -90,8 +90,9 @@ written durations inside the group must sum to a multiple of 3 — three eighths
 quarters (`4 4 4`), or an uneven quarter-and-eighth (`4 2`). A group holds 2 to 4 notes.
 
 Reach for either **only when the melody actually has one** and writing it another way would
-falsify the rhythm. The validator warns if ties exceed 25% of the bar count, or if more than 30%
-of bars contain a triplet — that ceiling is there because these should be occasional.
+falsify the rhythm. There is no cap on ties: a tie cannot dodge the bar maths (every bar must still sum
+exactly), so the only thing a limit achieved was forcing arrangers to re-strike notes the
+music holds. Use one wherever the music genuinely sustains. Neither is capped. Write what the music has.
 
 ## 4. Hard rules — the validator rejects these
 

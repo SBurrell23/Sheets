@@ -1,12 +1,10 @@
 X:1
 T:Nocturne, Op. 9 No. 2
 C:Frederic Chopin, Nocturne in E-flat major, Op. 9 No. 2, 1832 - public domain
-M:3/4
+M:12/8
 L:1/16
-Q:1/4=66
+Q:1/8=66
 K:C clef=treble
-"C"G2 | "C"e8 d2e2 | "C"d6 c4 G2 | "A7"e4 A2 a4 e2 |
-"Dm"g6 f4 e2 | "G7"d6 "E7"e4 B2 | "Am"c6 "F#dim"A6 | "G7"g2b2 a2g2 f2e2 |
-"C"c8 B2c2 | "G"d6 e4 d2 | "D/F#"d6 A6 | "F"c2c2 c2"Fm"c2 B1c1d1c1 |
-"C"c6 G6 | "A7"g6 ^f4 e2 | "Dm7"d6 "Em"B6 | "Am"c6 "Dm7"B2 A2B2 |
-"G7"G4 A4 B4 | "C"Hc12 |]
+"C"G2 | "C"e6- e2d2e2 d6 c4 G2 | "A7"e4 A2 a4 e2 "Dm"g6 f4 e2 | "G7"d6 "E7"e4 B2 "Am"c6 "F#dim"A6 |
+"G7"g2b2a2 g1f1e1f1A1B1 "C"c6 z4 G2 | "C"e6 d1e1d1^c1d1e1 d2 =c4- c1d1c1B1c1d1 | "A7"e2^G2_B2 d2f2_b2 "Dm"g6 f4 e2 | "G7"d6 "E7"e2e2B2 "Am"c6 "F#dim"A6 |
+"G7"g2b2a2 g1f1e1f1A1B1 "C"c6- c2B2Hc2 |]

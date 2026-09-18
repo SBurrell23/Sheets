@@ -64,7 +64,7 @@
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <note><pitch><step>G</step><alter>1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental></note>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
     </measure>
     <measure number="5">

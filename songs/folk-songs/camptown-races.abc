@@ -5,7 +5,8 @@ M:4/4
 L:1/16
 Q:1/4=132
 K:C clef=treble
-"C"g4 g4 e4 g4 | "C"a4 g4 e8 | "C"e4 "G7"d8 z4 | "C"e4 "G7"d8 g4 |
-"C"g4 g4 e4 g4 | "C"a4 g4 e8 | "G7"d8 e4 d4 | "C"c16 |
-"C"c6 c2 e4 g4 | "C"c'16 | "F"a6 a2 c'4 a4 | "C"g12 e4 |
-"C"g4 g4 e2e2 g2g2 | "C"a4 g4 e8 | "G7"d4 e2f2 e4 d2d2 | "C"Hc16 |]
+"C"g4 | "C"g4 g4 e4 g4 | "C"a4 g4 e8 | "C"e4 "G7"d8 z4 |
+"C"e4 "G7"d8 g4 | "C"g4 g4 e4 g4 | "C"a4 g4 e8 | "G7"d8 e4 d4 |
+"C"c16 | "C"c6 c2 e4 g4 | "C"c'16 | "F"a6 a2 c'4 a4 |
+"C"g12 e4 | "C"g4 g4 e2e2 g2g2 | "C"a4 g4 e8 | "G7"d4 e2f2 e4 d2d2 |
+"C"Hc16 |]

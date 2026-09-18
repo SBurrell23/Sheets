@@ -19,7 +19,7 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
     </measure>
     <measure number="1">
@@ -69,8 +69,8 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
     </measure>
     <measure number="5">
@@ -212,7 +212,7 @@
         <kind text="">major</kind>
       </harmony>
       <note><pitch><step>G</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
     </measure>
     <measure number="17">
@@ -263,8 +263,8 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
     </measure>
     <measure number="21">

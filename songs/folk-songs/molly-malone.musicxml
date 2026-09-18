@@ -26,9 +26,9 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
     </measure>
     <measure number="2">
       <harmony print-frame="no">
@@ -81,9 +81,9 @@
         <root><root-step>D</root-step></root>
         <kind text="m">minor</kind>
       </harmony>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
     <measure number="8">
       <harmony print-frame="no">

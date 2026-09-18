@@ -19,7 +19,7 @@
     { "chord": "Am", "notes": "A5:4 E5:8" },
     { "chord": "G7", "notes": "G5:2 A5:2 G5:4 G5:4" },
     { "chord": "C",  "notes": "A5:8 G5:4" },
-    { "chord": "G7", "notes": "F5:4 E5:4 D5:4" },
+    { "chord": "G7", "notes": "(3 F5:2 G5:2 F5:2) E5:4 D5:4" },
     { "chord": "C",  "notes": "C5:8 E5:2 G5:2" },
     { "chord": "G7", "notes": "G5:12" },
     { "chord": "C",  "notes": "G5:8 A5:4" },

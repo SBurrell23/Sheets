@@ -5,10 +5,12 @@ M:2/4
 L:1/16
 Q:1/4=112
 K:Am clef=treble
-"Am"B1A1^G1A1 | "Am"c2 z2 d1c1B1c1 | "Am"e2 z2 f1e1^d1e1 | "Am"b1a1^g1a1 b2a2 |
+"Am"B1A1^G1A1 | "Am"c2 z2 d1c1B1c1 | "Am"e2 z2 f1e1^d1e1 | "Am"b1a1^g1a1 b1a1g1a1 |
 "Am"c'4 a2c'2 | "E7"b2a2 g2a2 | "E7"b2a2 g2a2 | "E7"b2a2 g2^f2 |
-"E7"e4 "Am"e2f2 | "C"g2g2 a1g1f1e1 | "G7"d4 e2f2 | "C"g2g2 a1g1f1e1 |
-"G7"d4 c2d2 | "Am"e2e2 f1e1d1c1 | "E7"B4 c2d2 | "Am"e2e2 f1e1d1c1 |
-"E7"B4 B1A1^G1A1 | "Am"c2 z2 d1c1B1c1 | "Am"e2 z2 f1e1^d1e1 | "Am"b1a1^g1a1 b2a2 |
-"F7"c'2 z2 a2b2 | "Am"c'2b2 a2"E7"^g2 | "Am"a2e2 "G7"f2d2 | "Am"c4 "E7"B2A1B1 |
-"Am"HA8 |]
+"E7"e4 "Am"e2f2 | "C"g2g2 a1g1f1e1 | "G7"d4 z4 | "C"g2g2 a1g1f1e1 |
+"G7"d4 c2d2 | "Am"e2e2 f1e1d1c1 | "E7"B4 z4 | "Am"e2e2 f1e1d1c1 |
+"E7"B4 B1A1^G1A1 | "Am"c2 z2 d1c1B1c1 | "Am"e2 z2 f1e1^d1e1 | "Am"b1a1^g1a1 b1a1g1a1 |
+"F7"c'4 a2b2 | "Am"c'2b2 a2"E7"^g2 | "Am"a2e2 "G7"f2d2 | "Am"c4 "E7"B2A1B1 |
+"Am"A4 a2b2 | "A"^c'4 a2b2 | "A"^c'2b2 a2^g2 | "E7"^f2^g2 a2b2 |
+"E7"^g2e2 a2b2 | "A"^c'4 a2b2 | "A"^c'2b2 a2^g2 | "E7"^f2b2 ^g2e2 |
+"A"Ha8 |]

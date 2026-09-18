@@ -14,6 +14,7 @@ Published at <https://sburrell23.github.io/Sheets/>.
 |---|---|
 | **Folk Songs** | Traditional and early-popular melodies in the **public domain**, arranged as lead sheets. Written in C (or A minor); transpose from the player. |
 | **Classical** | Famous classical themes in the public domain, reduced to a single melodic line. Where a piece has no separate tune — Für Elise, Clair de Lune, Canon in D — the arrangement takes the line an ear follows and leaves the accompaniment to the chord symbols. |
+| **Irish & Scottish** | Traditional Irish and Scottish airs, jigs and ballads in the public domain, in two sets. Modal tunes keep their flat sevenths and raised sixths rather than being flattened into major. |
 | **Ragtime & Blues** | Ragtime, early blues and New Orleans jazz in the public domain, in three sets — **Ragtime**, **Blues** and **Other**. Unlike the other collections these are **full arrangements** — every distinct strain of a rag, in playing order, not just the famous one, so they run 60–100 bars. |
 
 Adding another collection means adding one folder with a `collection.json`, a `version.json`,
@@ -149,8 +150,9 @@ a default that had only ever been right for the previous set:
 | `allowRestStart` | false | `true` lets a bar open on a rest |
 | `requireTonicClose` | true | `false` drops the ending rule entirely |
 | `allowFinalChordClose` | false | `true` also accepts the closing chord's root |
-| `maxTieRatio` | — | ties as a share of bar count; `0` forbids them (AI Music) |
-| `maxTripletBarRatio` | — | share of bars holding a triplet; `0` forbids them (AI Music) |
+| `maxTieRatio` | — | `0` forbids ties (originals only). Retired for recreations: a tie cannot dodge the bar maths, so the cap only ever forced re-struck notes |
+| `maxTripletBarRatio` | — | `0` forbids triplets (originals only). Retired for the same reason |
+| `allowWideLeaps` | false | `true` demotes the >octave-leap check to an advisory note — in a transcription a wide leap is usually a strain boundary, not a fault |
 | `swing` | false | see below |
 
 ### Recreations are not compositions

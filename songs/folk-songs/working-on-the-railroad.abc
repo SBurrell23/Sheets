@@ -1,6 +1,6 @@
 X:1
 T:I've Been Working on the Railroad
-C:Traditional American, first published 1894 as 'Levee Song' - public domain
+C:Traditional American, first published 1894 as 'Levee Song' - public domain. Verse after the Digital Tradition setting; the chorus ('Someone's in the kitchen with Dinah') rests on that one setting alone, the only ABC source found carrying it, checked by ear against the tune as sung
 M:4/4
 L:1/16
 Q:1/4=112
@@ -10,4 +10,6 @@ K:C clef=treble
 "G7"d6 d2 c3d1 e3d1 | "C"c8 G8 | "F"f4 f3f1 c3c1 d3d1 | "C"e16 |
 "Am"A6 B2 c3B1 c3A1 | "C"G8 c8 | "G7"e4 f4 e4 d4 | "C"c16 |
 "C"G3G1 G3G1 c8 | "Dm"A3A1 A3A1 d8 | "G7"B3B1 B3B1 A4 B4 | "C"c4 d4 e8 |
-"C"G3G1 G3G1 c8 | "Dm"A3A1 A3A1 d8 | "G7"B3B1 B3B1 A4 B4 | "C"Hc16 |]
+"C"G3G1 G3G1 c8 | "Dm"A3A1 A3A1 d8 | "G7"B3B1 B3B1 A4 B4 | "C"c16 |
+"C"e3e1 e3e1 c3c1 c4 | "C"G8 c8 | "C"e3e1 e3e1 c2c2 c4 | "G7"d4 B4 A4 G4 |
+"C"e3e1 e3e1 c3c1 c4 | "F"f8 f8 | "C"e3e1 e3e1 "G7"d4 d4 | "C"Hc16 |]

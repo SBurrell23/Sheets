@@ -175,7 +175,8 @@
         <kind text="m">minor</kind>
       </harmony>
       <note><pitch><step>A</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>A</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type><notations><fermata type="upright"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type><notations><fermata type="upright"/></notations></note>
       <barline location="right"><bar-style>light-heavy</bar-style></barline>
     </measure>
   </part>

@@ -1,4 +1,4 @@
-# Arranging spec — Classics
+# Arranging spec — Folk Songs
 
 This collection is **not** original composition. Each song here is an existing, well-known
 melody that is in the **public domain**, arranged as a beginner–intermediate lead sheet:
@@ -28,7 +28,7 @@ pass of each distinct section is enough.
 
 ## 2. The file
 
-Write exactly one file to the path you are given, `collections/classics/songs/<slug>.json`:
+Write exactly one file to the path you are given, `collections/folk-songs/songs/<slug>.json`:
 
 ```json
 {
@@ -48,7 +48,7 @@ Write exactly one file to the path you are given, `collections/classics/songs/<s
 - `title` — the song's usual title, spelled normally.
 - `source` — composer/date if known, otherwise "Traditional", **and the words "public domain"**.
 - `key` — `C` for major tunes, `Am` for minor ones. Nothing else.
-- `meter` — one of `4/4`, `3/4`, `2/4`, `6/8`. Use the meter the tune is normally written in.
+- `meter` — `4/4`, `3/4`, `2/4`, `6/8`, `9/8` or `12/8`. Use the meter the tune is really in.
 - `pickup` — **omit it** if the tune starts on beat 1. If the tune starts with an upbeat, set
   this to the length of that upbeat in sixteenth units, and make bar 1 exactly that long.
 - `tempo` — a sensible performance tempo in beats per minute.
@@ -56,8 +56,8 @@ Write exactly one file to the path you are given, `collections/classics/songs/<s
 
 ## 3. The note language
 
-**Durations are counted in sixteenth notes.** A full bar is 16 units in 4/4, 12 in 3/4 or 6/8,
-and 8 in 2/4.
+**Durations are counted in sixteenth notes.** A full bar is 16 units in 4/4, 12 in 3/4 and 6/8,
+8 in 2/4, 18 in 9/8 and 24 in 12/8.
 
 | write | means         | | write | means           |
 |-------|---------------|-|-------|-----------------|
@@ -82,12 +82,13 @@ written durations inside the group must sum to a multiple of 3 — three eighths
 quarters (`4 4 4`), or an uneven quarter-and-eighth (`4 2`). A group holds 2 to 4 notes.
 
 Reach for either **only when the melody actually has one** and writing it another way would
-falsify the rhythm. The validator warns if ties exceed 25% of the bar count, or if more than 30%
-of bars contain a triplet — that ceiling is there because these should be occasional.
+falsify the rhythm. There is no cap on ties: a tie cannot dodge the bar maths (every bar must still sum
+exactly), so the only thing a limit achieved was forcing arrangers to re-strike notes the
+music holds. Use one wherever the music genuinely sustains. Neither is capped. Write what the music has.
 
 ## 4. Hard rules — the validator rejects these
 
-1. **Every bar's durations sum to exactly the bar length** for your meter (16 / 12 / 8).
+1. **Every bar's durations sum to exactly the bar length** for your meter (16 / 12 / 8 / 18 / 24).
    The pickup bar, if you declare one, sums to exactly the `pickup` value. This is the most
    common mistake — add each bar up.
 2. Bars *may* begin with a rest where the tune genuinely rests there. Prefer a struck downbeat,
@@ -118,7 +119,7 @@ Keep it simple and traditional — the harmony a folk guitarist or a parlour pia
 ## 6. Check your work — required
 
 ```bash
-python src/validate.py collections/classics/songs/<slug>.json
+python src/validate.py collections/folk-songs/songs/<slug>.json
 ```
 
 Fix every `ERROR` **and** every `WARNING`, then run it again. You are not finished until it

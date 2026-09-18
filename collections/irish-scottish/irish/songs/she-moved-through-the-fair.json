@@ -1,0 +1,36 @@
+{
+  "title": "She Moved Through the Fair",
+  "source": "Traditional Irish — Mixolydian air collected in Co. Donegal, printed 1909; the Bb is the mode's flat seventh — public domain",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 72,
+  "bars": [
+    { "chord": "C",  "notes": "(3 C5:2 D5:2 E5:2)" },
+
+    { "chord": "Bb", "notes": "F5:4 [Am]E5:4 [Bb]F5:4" },
+    { "chord": "C",  "notes": "G5:4 G5:8~" },
+    { "chord": "C",  "notes": "G5:8 F5:2 D5:2" },
+    { "chord": "Bb", "notes": "Bb4:6 C5:2 C5:4" },
+    { "chord": "C",  "notes": "C5:12~" },
+    { "chord": "C",  "notes": "C5:8 G5:2 A5:2" },
+    { "chord": "C",  "notes": "Bb5:4 C6:6 G5:2" },
+    { "chord": "Am", "notes": "A5:4 G5:6 E5:2" },
+
+    { "chord": "Bb", "notes": "F5:4 E5:4 F5:4" },
+    { "chord": "C",  "notes": "G5:12~" },
+    { "chord": "C",  "notes": "G5:8 G5:2 A5:2" },
+    { "chord": "C",  "notes": "Bb5:4 C6:6 G5:2" },
+    { "chord": "Am", "notes": "A5:4 G5:6 E5:2" },
+    { "chord": "Bb", "notes": "F5:4 E5:4 F5:4" },
+    { "chord": "C",  "notes": "G5:12~" },
+    { "chord": "C",  "notes": "G5:8 (3 C5:2 D5:2 E5:2)" },
+
+    { "chord": "Bb", "notes": "F5:4 [Am]E5:4 [Bb]F5:4" },
+    { "chord": "C",  "notes": "G5:4 G5:8~" },
+    { "chord": "C",  "notes": "G5:8 F5:2 D5:2" },
+    { "chord": "Bb", "notes": "Bb4:4 C5:4 C5:4" },
+    { "chord": "C",  "notes": "C5:12" },
+    { "chord": "C",  "notes": "C5:12" }
+  ]
+}

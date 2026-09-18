@@ -18,7 +18,7 @@
     { "chord": "Am", "notes": "A5:4 A5:4 A5:8" },
     { "chord": "Em", "notes": "E5:4 G5:4 E5:4 D5:4" },
 
-    { "chord": "Am", "notes": "C5:12 C5:4" },
+    { "chord": "Am", "notes": "C5:12 D5:4~" },
     { "chord": "G7", "notes": "D5:4 [C]E5:12" },
     { "chord": "Am", "notes": "D5:4 E5:8 A5:4" },
     { "chord": "Em", "notes": "G5:16" },

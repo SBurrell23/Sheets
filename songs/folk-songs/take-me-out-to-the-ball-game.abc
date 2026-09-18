@@ -6,10 +6,10 @@ L:1/16
 Q:1/4=168
 K:C clef=treble
 "C"c8 c'4 | "C"a4 g4 e4 | "C"g12 | "G7"d12 |
-"C"c8 c'4 | "C"a4 g4 e4 | "G7"g12 | "C"g8 z4 |
+"C"c8 c'4 | "C"a4 g4 e4 | "G7"g12- | "C"g8 z4 |
 "Am"a4 ^g4 a4 | "C"e4 f4 g4 | "F"a8 f4 | "G7"d12 |
-"F"a8 a4 | "G7"a4 b4 c'4 | "C"c'4 b4 a4 | "G7"g4 e4 d4 |
-"C"c8 c'4 | "C"a4 g4 e4 | "C"g12 | "G7"d8 d4 |
-"C"c8 d4 | "C"e4 f4 g4 | "F"a12 | "G7"a4 a4 b4 |
+"F"a8 a4 | "G7"a4 b4 c'4 | "C"d'4 b4 a4 | "G7"g4 e4 d4 |
+"C"c8 c'4 | "C"a4 g4 e4 | "C"g12 | "G7"d8 e4 |
+"C"c8 d4 | "C"e4 f4 g4 | "F"a12- | "G7"a4 a4 b4 |
 "C"c'12 | "C"c'12 | "C"c'4 b4 a4 | "G"g4 ^f4 g4 |
-"Am"a12 | "G7"b12 | "C"Hc'12 |]
+"Am"a12 | "G7"b12 | "C"c'12- | "C"c'4 Hz8 |]

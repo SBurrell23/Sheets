@@ -1,11 +1,11 @@
 X:1
 T:Jelly Roll Blues
-C:Ferdinand "Jelly Roll" Morton, 1915 - public domain
+C:Ferdinand "Jelly Roll" Morton, 1915 (Will Rossiter) - public domain
 M:4/4
 L:1/16
 Q:1/4=92
 K:C clef=treble
-"C7"g2e2 c4 _e2=e2 g4 | "C7"_b4 g2e2 g4 e4 | "F7"a2f2 _e4 c2A2 c4 | "G7"d2f2 g4 f2d2 B4 |
+"C7"z3 c'1 _b3a1 _a3g1 f3e1 | "C7"z3 _b1 a3_a1 g3f1 _e3=e1 | "F7"z3 A1 c3_e1 =e3g1 a3c'1 | "G7"d4 z4 g2 z2 z4 |
 "C7"e3e1 g2e2 c2_e2 =e4 | "F7"a3a1 f2_e2 c4 A4 | "C7"g2e2 c4 e2g2 e4 | "C7"c3c1 e2g2 e4 c4 |
 "F7"a3a1 c'2a2 f4 _e4 | "F7"f2_e2 c4 A2c2 e4 | "C7"e3e1 g2e2 c4 G4 | "C7"c2e2 g2_b2 g4 e4 |
 "G7"d3d1 g2f2 d4 B4 | "F7"c2_e2 =e2c2 A4 c4 | "C7"e2g2 e2c2 G4 c4 | "Dm7"d4 f2a2 "G7"f4 d4 |
@@ -15,7 +15,7 @@ K:C clef=treble
 "C7"c2e2 g2a2 g4 e4 | "C#dim"^c2e2 g2_b2 g4 e4 | "Dm7"d2f2 a4 f2d2 A4 | "G7"B2d2 f2g2 b4 g4 |
 "E7"B2e2 ^g4 e2B2 g4 | "A7"A2^c2 e2g2 e4 c4 | "D7"d2^f2 a2c'2 a4 f4 | "G7"g2f2 d2B2 G4 B4 |
 "C7"e2g2 c'4 _b2g2 e4 | "F7"a2c'2 a2f2 _e4 c4 | "C7"e2g2 e2c2 A2c2 e4 | "G7"d2f2 g4 B4 d4 |
-"F"f2a2 c'4 a2f2 a4 | "F"c'2a2 f4 a2c'2 a4 | "C7"g2_b2 g4 e2g2 b4 | "C7"c'4 _b2g2 e4 g4 |
+"F"z4 c2f2 a2c'2 a2f2 | "F"c'2a2 f4 a2c'2 a4 | "C7"g2_b2 g4 e2g2 b4 | "C7"c'4 _b2g2 e4 g4 |
 "F"a3a1 f2c2 f4 a4 | "F7"c'4 a2g2 _e4 c4 | "Bb"d2f2 _b4 a2f2 d4 | "Bdim"B2d2 f2_a2 f4 d4 |
 "F"c2f2 a4 c'2a2 f4 | "F"a2f2 c4 f2a2 c'4 | "D7"a2^f2 d4 f2a2 c'4 | "G7"b2a2 g2f2 d4 B4 |
 "C7"e2g2 _b4 a2g2 e4 | "C7"g4 _b4 a2g2 e4 | "F"a2c'2 a2f2 c4 f4 | "F"c'4 a4 f8 |

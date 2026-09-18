@@ -16,7 +16,7 @@
     { "chord": "G7", "notes": "D5:4 D5:4 [C]E5:4 C5:4" },
     { "chord": "Dm", "notes": "D5:4 E5:2 F5:2 [C]E5:4 C5:4" },
     { "chord": "Dm", "notes": "D5:4 E5:2 F5:2 [G7]E5:4 D5:4" },
-    { "chord": "C",  "notes": "C5:4 [G7]D5:4 G4:8" },
+    { "chord": "C",  "notes": "C5:4 [G7]D5:4 G4:4 [C]E5:4~" },
     { "chord": "C",  "notes": "E5:4 E5:4 F5:4 G5:4" },
     { "chord": "G7", "notes": "G5:4 F5:4 E5:4 D5:4" },
     { "chord": "C",  "notes": "C5:4 C5:4 D5:4 E5:4" },

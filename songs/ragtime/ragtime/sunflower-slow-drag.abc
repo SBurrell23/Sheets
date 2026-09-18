@@ -9,7 +9,7 @@ K:C clef=treble
 "C"c'2e2 g2b2 b2 a4 e2 | "C"g2e2 a2g2 g2e2 c2g2 | "F"a2A2 ^A2B2 "D7"c2a2 =A2^f2 | "C"g2G2 e2a2 "G7"a2 b4 g2 |
 "C"c'2e2 g2b2 b2 a4 e2 | "C"g2e2 a2g2 g2e2 c2g2 | "D7"d2^c2 d2e2 d2=c2 B2A2 | "G7"G2d2 f2a2 a2 b4 g2 |
 "C"c'2e2 g2b2 b2 a4 e2 | "C"g2e2 a2g2 g2e2 c2g2 | "F"a2A2 ^A2B2 "D7"c2a2 =A2^f2 | "C"g2e2 a2b2 b2 a4 f2 |
-"A7"g2e2 a2g2 g2e2 ^c2A2 | "C"e4 d4 "G7"e4 d4 | "C"c16 | "C"c4 z4 z8 |
+"A7"g2e2 a2g2 g2e2 ^c2A2 | "C"e4 d4 "G7"e4 d4 | "C"c16- | "C"c4 z4 z8 |
 "G7"z4 a4 a4 a4 | "G7"g2 b4 a2 a2g2 f2d2 | "C"c4 a4 a4 a4 | "C"g2 c'4 a2 a2e2 g2c'2 |
 "G7"b4 ^a2b2 b2 c'4 g2 | "G7"d4 ^c2d2 d2 ^d4 g2 | "C"e2c2 e2g2 b2 a4 g2 | "C"g16 |
 "G7"z4 a4 a4 a4 | "G7"g2 b4 a2 a2g2 f2d2 | "C"c4 a4 a4 a4 | "C"a2 g4 g2 g2c2 e2g2 |
@@ -17,8 +17,8 @@ K:C clef=treble
 "C"c'2e2 g2b2 b2 a4 e2 | "C"g2e2 a2g2 g2e2 c2g2 | "F"a2A2 ^A2B2 "D7"c2a2 =A2^f2 | "C"g2G2 e2a2 "G7"a2 b4 g2 |
 "C"c'2e2 g2b2 b2 a4 e2 | "C"g2e2 a2g2 g2e2 c2g2 | "D7"d2^c2 d2e2 d2=c2 B2A2 | "G7"G2d2 f2a2 a2 b4 g2 |
 "C"c'2e2 g2b2 b2 a4 e2 | "C"g2e2 a2g2 g2e2 c2g2 | "F"a2A2 ^A2B2 "D7"c2a2 =A2^f2 | "C"g2e2 a2b2 b2 a4 f2 |
-"A7"g2e2 a2g2 g2e2 ^c2A2 | "C"e4 d4 "G7"e4 d4 | "C"c16 | "C"c4 z4 c'4 z4 |
-"C"e2 e4 ^d2 =d2d2 ^c2=c2 | "C7"c4 g2c2 g2c2 g2c2 | "F"f16 | "F"f4 z4 z8 |
+"A7"g2e2 a2g2 g2e2 ^c2A2 | "C"e4 d4 "G7"e4 d4 | "C"c16- | "C"c4 z4 c'4 z4 |
+"C"e2 e4 ^d2 =d2d2 ^c2=c2- | "C7"c4 g2c2 g2c2 g2c2 | "F"f16 | "F"f4 z4 z8 |
 "G7"e4 d2e2 e2d2 B2g2 | "C7"a4 g2a2 a2g2 e2c2 | "F"g2c'2 f2e2 e2 d4 a2 | "F"c'2a2 d2c'2 c'2f2 a2c'2 |
 "Bb"f2^A2 d2f2 f2 g4 f2 | "F"c'2f2 a2c'2 c'2 d4 c'2 | "C7"g2f2 e2d2 d2g2 a2b2 | "C7"c'12 z4 |
 "G7"e4 d2e2 e2d2 B2g2 | "C7"a4 g2a2 a2g2 e2c2 | "F"g2c'2 f2e2 e2 d4 a2 | "F"c'2a2 d2c'2 c'2f2 a2c'2 |

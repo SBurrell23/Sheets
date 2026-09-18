@@ -35,15 +35,15 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="start"/></notations></note>
     </measure>
     <measure number="3">
       <harmony print-frame="no">
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><tie type="stop"/><duration>12</duration><voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
+      <note><rest/><duration>24</duration><voice>1</voice><type>half</type></note>
     </measure>
     <measure number="4">
       <harmony print-frame="no">
@@ -60,22 +60,22 @@
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>D</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="start"/></notations></note>
     </measure>
     <measure number="6">
       <harmony print-frame="no">
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>D</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><tie type="stop"/><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="stop"/><tied type="start"/></notations></note>
     </measure>
     <measure number="7">
       <harmony print-frame="no">
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>D</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><tie type="stop"/><duration>12</duration><voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
+      <note><rest/><duration>24</duration><voice>1</voice><type>half</type></note>
     </measure>
     <measure number="8">
       <harmony print-frame="no">
@@ -99,15 +99,15 @@
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>D</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="start"/></notations></note>
     </measure>
     <measure number="11">
       <harmony print-frame="no">
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>D</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><tie type="stop"/><duration>12</duration><voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
+      <note><rest/><duration>24</duration><voice>1</voice><type>half</type></note>
     </measure>
     <measure number="12">
       <harmony print-frame="no">
@@ -124,21 +124,21 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="start"/></notations></note>
     </measure>
     <measure number="14">
       <harmony print-frame="no">
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><tie type="stop"/><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="stop"/><tied type="start"/></notations></note>
     </measure>
     <measure number="15">
       <harmony print-frame="no">
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>C</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><fermata type="upright"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><tie type="stop"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="stop"/><fermata type="upright"/></notations></note>
       <barline location="right"><bar-style>light-heavy</bar-style></barline>
     </measure>
   </part>

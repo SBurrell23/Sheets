@@ -1,11 +1,10 @@
 X:1
 T:Jesu, Joy of Man's Desiring
 C:J.S. Bach, chorale from Cantata BWV 147, 1723 - public domain
-M:3/4
+M:9/8
 L:1/16
-Q:1/4=88
+Q:1/8=88
 K:C clef=treble
-"C"c2d2 | "C"e2g2 f2"F"f2 a2g2 | "C"g2c'2 b2c'2 g2e2 | "C"c2d2 e2"F"f2 g2a2 |
-"C"g2f2 e2"Am"d2 e2c2 | "G"B2c2 d2G2 B2d2 | "G7"f2e2 d2"C"e2 c2d2 | "C"e2g2 f2"F"f2 a2g2 |
-"C"g2c'2 b2c'2 g2e2 | "C"c2d2 e2"G7"d2 g2f2 | "C"e2d2 c2"G7"G2 c2B2 | "C"c2e2 g2c'2 g2e2 |
-"C"c2e2 g2 c'6 | "C"Hc'12 |]
+"C"z2 c2d2 e2g2f2 "F"f2a2g2 | "C"g2c'2b2 c'2g2e2 c2d2e2 | "F"f2g2a2 "C"g2f2e2 "Am"d2e2c2 | "G"B2c2d2 G2B2d2 "G7"f2e2d2 |
+"C"e2c2d2 e2g2f2 "F"f2a2g2 | "C"g2c'2a2 c'2g2e2 c2d2e2 | "G7"d2g2f2 "C"e2d2c2 "G7"G2c2B2 | "C"c2e2g2 c'2g2e2 c2e2g2 |
+"C"c'16 Hz2 |]

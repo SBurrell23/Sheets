@@ -337,11 +337,17 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                         'a rest' if nxt['rest'] else '%s%d' % (nxt['step'], nxt['octave'])))
     # Proportional, because the collections run from 16-bar folk tunes to a
     # 133-bar Joplin waltz and one absolute number would be wrong for both.
+    # A pure ratio punishes short files: Debussy ties across every barline, so an
+    # honest 8-bar Clair de Lune wants 5 ties where 40% allows 3. The floor lets a
+    # short piece be faithful while the ratio still catches a long one leaning on
+    # ties to dodge the bar maths.
     tie_ratio = thresholds.get('maxTieRatio')
-    if tie_ratio is not None and ties > len(bars) * tie_ratio:
-        W.append('%d ties across %d bars (over the %d%% this set allows). Ties are for '
-                 'notes the tune genuinely sustains, not a way round the bar maths'
-                 % (ties, len(bars), round(tie_ratio * 100)))
+    tie_floor = thresholds.get('minTieAllowance', 6)
+    if tie_ratio is not None and ties > max(tie_floor if tie_ratio else 0,
+                                            len(bars) * tie_ratio):
+        W.append('%d ties across %d bars (over the %d%% this set allows, floor %d). Ties are '
+                 'for notes the tune genuinely sustains, not a way round the bar maths'
+                 % (ties, len(bars), round(tie_ratio * 100), tie_floor))
 
     tup_bars = sum(1 for b in bars if any(e.get('tup')
                                           for e in parse_bar(b['notes'])[0]))
@@ -506,7 +512,14 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
                 continue
             n = midi(e['step'], e['alter'], e['octave'])
             if prev is not None and abs(n - prev) > 12:
-                W.append('bar %d: leap of more than an octave; keep the line singable' % i)
+                # For an invented tune this is a real fault -- keep the line
+                # singable. For a transcription it is often the composer: a strain
+                # boundary, or a deliberate register transfer. Blocking it was
+                # stopping correct restorations (the Minuet's second strain, Fur
+                # Elise's E6, the can-can's second-strain entry), so recreations
+                # get an advisory note and originals still get a blocking warning.
+                msg = 'bar %d: leap of more than an octave; keep the line singable' % i
+                (N if thresholds.get('allowWideLeaps') else W).append(msg)
             if prev is not None and abs(n - prev) > 4:
                 leaps += 1
             prev = n

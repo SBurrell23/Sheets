@@ -5,9 +5,8 @@ M:4/4
 L:1/16
 Q:1/4=56
 K:C clef=treble
-"C"e16 | "C"e2a2 f4 "G7"d2c2 B2G2 | "C"g8 "C7"g2e2 _B2A2 | "F"f2d2 c2d2 "C"e2f2 d2G2 |
-"C"e4 ^f2g2 c2d2 e2d2 | "C"B2A2 B2c2 "G7"B2A2 G4 | "C"e16 | "C"e4 A4 "G7"G8 |
-"C7"G2_B2 A2=B2 g2B2 A4 | "F"f8 f2d2 "G7"c2B2 | "C"e4 ^f2g2 c2d2 e2d2 | "C"B2A2 B2c2 "G7"B2A2 G4 |
-"C7"G8 G2A2 _B2A2 | "F"e2f2 g4 a4 g2f2 | "C"f2e2 d2c2 "G7"B2c2 d2e2 | "C"d2c2 B2A2 B2c2 "Am"A4 |
-"C"c4 e2d2 c2a2 "G7"g4 | "C"d2g2 G2A2 "G7"B2c2 B2G2 | "C"c4 e2d2 d4 "F"f2e2 | "C"e4 g2"F"f2 f8 |
-"G"G2B2 G2B2 "C"c2e2 f2g2 | "C7"c4 e2g2 _b2 "F"a6 | "F"a6 g2 d2e2 "G7"f2e2 | "C"c2B2 A2"G7"B2 "C"Hc8 |]
+"C"e16- | "Fmaj7"e2a1f1 d1c1B1c1 "G7"B4 G4 | "C/E"g8- "A7"g1e1_B1A1 d1^c1g1f1 | "G7"f8- f1d1A1G1 c1B1f1e1 |
+"C"e6 ^f1g1 c2d1e2 "D7"d1d1c1 | "G"B1A1B1c3 "D7"B1A1 "G"G8 | "G7"B6 A1G1 g6 "Gm"_B2 | "A7"A2a3 g1f1e1 "Dm"f4 e1c1B1A1 |
+"E7"^G1A1"Am"B3 c1d3 e1 f4 e2 | "Am"d1c1B1A1 B1d1c2 "G"A8 | "D7"c4- c1e1d1c1 a6 g1^f1 | "G7"d1g1G2 A3c1 B3A1 G4 |
+"C/E"c6 e1d1 "G"d6 f1e1 | "Am"e6 g1f1 "Dm7"f8 | "G7"G4- G1B1d1f1 "C"f1d1 e4- e1g1 | "Am7"c4- c1e1"F"g1_b1 a6 c2 |
+"G7"B1d1 f4 A2 G2d1e1 "C"f1e2d1 | "G7"c1A2B1 c2B1c1 "C"Hc8 |]

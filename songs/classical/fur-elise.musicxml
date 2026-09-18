@@ -130,7 +130,8 @@
         <kind text="7">dominant</kind>
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><rest/><duration>6</duration><voice>1</voice><type>eighth</type></note>
     </measure>
     <measure number="13">
       <print new-system="yes"/>
@@ -138,7 +139,11 @@
         <root><root-step>E</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><rest/><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>6</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>D</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental></note>
     </measure>
     <measure number="14">
       <harmony print-frame="no">

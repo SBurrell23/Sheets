@@ -232,14 +232,14 @@
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>A</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>A</step><octave>5</octave></pitch><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="start"/></notations></note>
     </measure>
     <measure number="27">
       <harmony print-frame="no">
         <root><root-step>G</root-step></root>
         <kind text="7">dominant</kind>
       </harmony>
-      <note><pitch><step>A</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>A</step><octave>5</octave></pitch><tie type="stop"/><duration>12</duration><voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
       <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>G</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
@@ -248,7 +248,7 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><tie type="start"/><duration>36</duration><voice>1</voice><type>half</type><dot/><notations><tied type="start"/></notations></note>
     </measure>
     <measure number="29">
       <print new-system="yes"/>
@@ -256,7 +256,7 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><tie type="stop"/><duration>12</duration><voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>

@@ -8,24 +8,24 @@
   "bars": [
     { "chord": "C",  "notes": "C5:2 D5:2" },
 
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:3 A5:1 G5:4" },
-    { "chord": "C",  "notes": "E5:4 C5:4 D5:4 E5:4" },
-    { "chord": "G7", "notes": "D5:4 C5:4 D5:8" },
-    { "chord": "G7", "notes": "D5:8 R:4 C5:2 D5:2" },
+    { "chord": "C",  "notes": "E5:4 G5:4 G5:6 A5:2" },
+    { "chord": "C",  "notes": "G5:4 E5:4 C5:6 D5:2" },
+    { "chord": "C",  "notes": "E5:4 E5:4 D5:4 C5:4" },
+    { "chord": "G7", "notes": "D5:12 C5:2 D5:2" },
 
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:3 A5:1 G5:4" },
-    { "chord": "C",  "notes": "E5:4 C5:4 D5:4 E5:4" },
-    { "chord": "G7", "notes": "D5:4 [C]C5:12" },
+    { "chord": "C",  "notes": "E5:4 G5:4 G5:6 A5:2" },
+    { "chord": "C",  "notes": "G5:4 E5:4 C5:6 D5:2" },
+    { "chord": "C",  "notes": "E5:4 E5:4 [G7]D5:4 D5:4" },
     { "chord": "C",  "notes": "C5:16" },
 
-    { "chord": "F",  "notes": "F5:4 F5:4 A5:4 A5:4" },
-    { "chord": "C",  "notes": "E5:4 C5:4 D5:4 E5:4" },
-    { "chord": "G7", "notes": "D5:4 C5:4 D5:8" },
-    { "chord": "G7", "notes": "D5:8 R:4 C5:2 D5:2" },
+    { "chord": "F",  "notes": "F5:8 F5:8" },
+    { "chord": "F",  "notes": "A5:4 A5:8 A5:4" },
+    { "chord": "C",  "notes": "G5:4 G5:4 E5:4 C5:4" },
+    { "chord": "G7", "notes": "D5:12 C5:2 D5:2" },
 
-    { "chord": "C",  "notes": "E5:4 G5:4 G5:3 A5:1 G5:4" },
-    { "chord": "C",  "notes": "E5:4 C5:4 D5:4 E5:4" },
-    { "chord": "G7", "notes": "D5:4 C5:4 D5:8" },
+    { "chord": "C",  "notes": "E5:4 G5:4 G5:6 A5:2" },
+    { "chord": "C",  "notes": "G5:4 E5:4 C5:6 D5:2" },
+    { "chord": "C",  "notes": "E5:4 E5:4 [G7]D5:4 D5:4" },
     { "chord": "C",  "notes": "C5:16" }
   ]
 }

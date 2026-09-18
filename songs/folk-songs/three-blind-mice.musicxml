@@ -75,9 +75,9 @@
         <root><root-step>C</root-step></root>
         <kind text="">major</kind>
       </harmony>
-      <note><pitch><step>E</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
-      <note><rest/><duration>6</duration><voice>1</voice><type>eighth</type></note>
-      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><tie type="start"/><duration>24</duration><voice>1</voice><type>half</type><notations><tied type="start"/></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><tie type="stop"/><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><tied type="stop"/></notations></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
     </measure>
     <measure number="9">
       <print new-system="yes"/>

@@ -8,5 +8,5 @@ K:C clef=treble
 "C"e4 e4 e4 | "G7"g2f2 d8 | "G7"d4 d4 d4 | "C"f2e2 c8 |
 "C"e4 d4 c4 | "G7"c2B2 B8 | "G7"d4 c4 A4 | "C"A2G2 G8 |
 "D7"d2e2 d4 d4 | "G"g4 d8 | "E7"e2f2 e4 e4 | "Am"a4 e8 |
-"G7"g2a2 g4 g4 | "C"a8 g4 | "G7"f4 e4 d4 | "C"c8 e2g2 |
+"G7"g2a2 g4 g4 | "C"a8 g4 | "G7"(3f2g2f2 e4 d4 | "C"c8 e2g2 |
 "G7"g12 | "C"g8 a4 | "G7"b2a2 g2f2 e2d2 | "C"Hc12 |]

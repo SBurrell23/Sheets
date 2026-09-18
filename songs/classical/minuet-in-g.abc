@@ -9,7 +9,7 @@ K:C clef=treble
 "Dm"f4 g2f2 e2d2 | "C"e4 f2e2 d2c2 | "G7"B4 "C"c2d2 e2c2 | "G7"d12 |
 "C"g4 c2d2 "G7"e2f2 | "C"g4 c4 c4 | "F"a4 f2g2 a2b2 | "C"c'4 c4 c4 |
 "Dm"f4 g2f2 e2d2 | "C"e4 f2e2 d2c2 | "Dm"d4 e2d2 "G7"c2B2 | "C"c12 |
-"C"e4 c2d2 e2c2 | "G"d4 G2A2 B2G2 | "Am"c4 A2B2 c2G2 | "D7"^f4 e2f2 d4 |
+"C"e'4 c'2d'2 e'2c'2 | "G"d'4 g2a2 b2g2 | "Am"c'4 a2b2 c'2g2 | "D7"^f4 e2f2 d4 |
 "D7"d2e2 ^f2g2 a2b2 | "C"c'4 "G"b4 "D7"a4 | "G"b4 d4 "D7"^f4 | "G"g12 |
 "C"g4 c2B2 c4 | "F"a4 c2B2 c4 | "C"g4 "G7"f4 "C"e4 | "G7"d2c2 B2c2 d4 |
 "G"G2A2 B2c2 d2e2 | "F"f4 "C"e4 "G7"d4 | "C"e2g2 c4 "G7"B4 | "C"Hc12 |]
