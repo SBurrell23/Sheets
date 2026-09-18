@@ -105,15 +105,22 @@ them — which matters more with every collection added.
 - **Song dropdown** — every song in the collection, grouped by set where a collection has more
   than one. The **‹ ›** buttons page through them (arrow keys work too), which is the easy way
   to audition a set on a tablet.
-- **Key** — transposes the selected song to any of the twelve keys, re-engraving the score
-  *and* re-priming the audio. The **▾ ▴** buttons step a semitone at a time. Songs open in
-  their written key.
+- **Key** — the dropdown transposes the song to any of the twelve keys, re-engraving the score
+  *and* re-priming the audio.
+- **Octave** — the **▾ ▴** buttons beside it bump the whole song an octave, up to one either way.
+  Key and octave are tracked separately and added, so changing one never loses the other. The sum
+  drives `visualTranspose` for the score and `midiTranspose` for the audio, which is what makes an
+  octave bump audible as well as visible. Songs open in their written key at octave 0.
 - **Tempo** — 40–225 BPM. Once you move it, that tempo **sticks across song changes and
   reloads**; until then each song opens at its own written tempo (shown in the dropdown).
   A fresh synth always starts at the tune's own `Q:` header — the `qpm` passed to `setTune`
   does not stick — so every re-prime warps the tempo back in. Without that the slider reads
   225 while the song plays at its written speed.
-- **Theme** — Day / Dark, top right. Day is the default; the OS preference is not consulted.
+- **Theme** — Day / Dusk, top right. Day is the default; the OS preference is not consulted.
+  **Dusk is a warm low-blue-light mode, not a dark one**: cream paper, near-black warm ink, and an
+  amber accent, because a blue accent would defeat the point. Every token is checked so its blue
+  channel is the lowest of the three, and a stored `dark` from before Dusk existed migrates rather
+  than silently falling back to Day.
 - **Play / pause** (spacebar). Chord accompaniment and follow-the-score are always on.
 - **Scrub** — click or drag the strip. Arrow keys step a bar, Shift+arrow four, Home/End jump.
 - **Score layout** — `MAX_BAR_PX` in the player caps how wide a single bar is drawn (200px).
@@ -171,6 +178,8 @@ a default that had only ever been right for the previous set:
 | `allowRestStart` | false | `true` lets a bar open on a rest |
 | `requireTonicClose` | true | `false` drops the ending rule entirely |
 | `allowFinalChordClose` | false | `true` also accepts the closing chord's root |
+| `tempo` | 30–240 | the floor was 50, which sits above a real Adagio — Beethoven's Pathétique slow movement is marked 36 |
+| final bar | — | where a song declares a `pickup`, the last bar may be short by exactly that pickup, which is how engravers write it |
 | `maxTieRatio` | — | `0` forbids ties (originals only). Retired for recreations: a tie cannot dodge the bar maths, so the cap only ever forced re-struck notes |
 | `maxTripletBarRatio` | — | `0` forbids triplets (originals only). Retired for the same reason |
 | `allowWideLeaps` | false | `true` demotes the >octave-leap check to an advisory note — in a transcription a wide leap is usually a strain boundary, not a fault |
