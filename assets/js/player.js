@@ -134,6 +134,7 @@
     $("prev").disabled = true;
     $("next").disabled = true;
     $("pdf").removeAttribute("href");
+    $("credit").textContent = "";
     paintFav();
   }
 
@@ -215,6 +216,7 @@
     $("bpm").textContent = targetBpm + " bpm" + (userTempo ? "" : "");
     $("pdf").href = song.pdf;
     $("pdf").setAttribute("download", song.slug + ".pdf");
+    $("credit").textContent = creditOf(song.abc);
     paintFav();
     buildKeys();
     paintOctave();
@@ -270,20 +272,33 @@
     return L.join("\n");
   }
 
+  /* The credit is drawn as HTML above the score rather than by abcjs.
+     abcjs right-anchors C: at the staff edge and sizes it from font metrics that
+     do not include an italic glyph's right side bearing, so the last letter was
+     clipped by the viewBox on 166 of 186 songs -- up to 2.7px. A trailing space
+     does not help: SVG collapses trailing whitespace, so the string renders
+     identically. Outside the SVG there is no viewBox to clip it, it can sit top
+     right above the title, and a long credit wraps instead of being squeezed. */
+  var CREDIT_LINE = /^C:(.*)(?:\r?\n|$)/m;
+
+  function creditOf(abc) {
+    var m = CREDIT_LINE.exec(abc || "");
+    return m ? m[1].trim() : "";
+  }
+
+  function withoutCredit(abc) {
+    return (abc || "").replace(CREDIT_LINE, "");
+  }
+
   function renderWith(perLine) {
     paper.innerHTML = "";
-    visualObj = ABCJS.renderAbc("paper", noStretch(song.abc), {
+    visualObj = ABCJS.renderAbc("paper", noStretch(withoutCredit(song.abc)), {
       responsive: "resize", add_classes: true, staffwidth: 880,
       paddingtop: 6, paddingbottom: 14, paddingleft: 0, paddingright: 0,
       visualTranspose: transpose,
-      // The score names itself, as the PDF does. The credit line is deliberately
-      // much smaller than on the engraved sheet: there it is the only place the
-      // attribution appears, here it sits under a title you already chose from a
-      // dropdown, so it should read as a footnote rather than a second heading.
-      format: {
-        titlefont: "Playfair Display 15 bold",
-        composerfont: "Archivo 8.5 italic"
-      },
+      // The score names itself, as the PDF does. The credit is drawn separately,
+      // above this, so only the title is set here.
+      format: { titlefont: "Playfair Display 15 bold" },
       wrap: { minSpacing: 1.0, maxSpacing: 1.4, preferredMeasuresPerLine: perLine }
     });
   }

@@ -1,13 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Piano lead sheets">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sheets">
+  <!-- The forte marking, which is an italic f. Set as text rather than drawn as a
+       path: the printed dynamic IS a letterform, and a hand-built path came out
+       stiff and uniform where a real italic has thick-and-thin and a long
+       descender. The glyph is plain ASCII "f", so the worst a machine without
+       Georgia can do is fall back to another serif italic, never a blank box.
+       That last risk is what ruled out the Unicode forte character U+1D191. -->
   <rect width="64" height="64" rx="14" fill="#1F5C56"/>
-  <g fill="#FCFBF7">
-    <!-- beam joining the two stems -->
-    <path d="M20.5 15.5 L51 9.5 L51 19.5 L20.5 25.5 Z"/>
-    <!-- stems -->
-    <rect x="20.5" y="15.5" width="5" height="30"/>
-    <rect x="46" y="10.5" width="5" height="30"/>
-    <!-- note heads, tilted the way engraved noteheads sit -->
-    <ellipse cx="15" cy="45.5" rx="9" ry="6.8" transform="rotate(-20 15 45.5)"/>
-    <ellipse cx="40.5" cy="40.5" rx="9" ry="6.8" transform="rotate(-20 40.5 40.5)"/>
-  </g>
+  <text x="33" y="47" text-anchor="middle"
+        font-family="Georgia,'Times New Roman','Playfair Display',serif"
+        font-style="italic" font-weight="700" font-size="54" fill="#FCFBF7">f</text>
 </svg>

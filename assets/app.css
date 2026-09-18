@@ -38,6 +38,13 @@ h1{font-family:"Playfair Display",Georgia,"Times New Roman",serif; font-weight:6
      crowded masthead ate 'Sheets' into 'Sh...'. The count is the one that can
      afford to ellipsise. */
   flex:0 0 auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+/* The forte marking is just an italic f, which is what the printed dynamic is.
+   Set rather than drawn: a hand-built path came out stiff next to Playfair, and
+   the real italic already has the thick-and-thin and the long descender. The
+   italic axis is requested in the font link so this is a true italic, not a
+   browser-synthesised slant. */
+h1 .mark{font-style:italic; font-weight:700; font-size:1.16em;
+  margin-right:.3em; letter-spacing:0}
 .masthead .btn{flex:0 0 auto}
 .count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:14px; color:var(--ink-2);
   font-variant-numeric:tabular-nums; margin-left:auto; flex:0 1 auto; min-width:0;
@@ -150,6 +157,12 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 .favmark.on svg{fill:currentColor}
 .favmark[hidden]{display:none}
 .favmark:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+/* Top right, above the title, and in normal flow rather than absolute so a long
+   credit wraps instead of running over the score. The left padding clears the
+   star, which is the one thing in here that IS absolute. */
+.credit{margin:0 0 2px 0; padding-left:46px; text-align:right;
+  font-size:10.5px; font-style:italic; line-height:1.45; color:var(--ink-3)}
+.credit:empty{display:none}
 #paper{color:var(--ink)}
 #paper svg{max-width:100%; height:auto; display:block}
 #paper svg path{fill:currentColor}
