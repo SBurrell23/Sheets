@@ -284,6 +284,29 @@ def openhymnal(title, slug, limit=3):
 TUNEPAGE_RE = re.compile(r'tunePage\?a=([^"&]+)')
 
 
+# abcnotation serves its tunes through abc2, which for some sources suppresses
+# the music and returns the headers alone with a comment reading "tune is
+# copyright - warning from abc2". The result still has an X:, a T: and a K:, so
+# every structural check passes and a 381-byte file with no notes in it gets
+# cached as though it were a source. Sixteen of those reached the cache before
+# this was noticed, and the arranging agents that were handed them had to work
+# out for themselves that they had been given nothing. Count the notes.
+def has_music(abc):
+    body = abc.split('K:', 1)[-1]
+    body = chr(10).join(body.splitlines()[1:])
+    body = re.sub(r'%.*', '', body)           # strip abc2's own comment
+    return len(re.findall(r'[A-Ga-g]', body)) >= 8
+
+
+# The stub is an artefact of the getResource wrapper, not of the underlying
+# archive: the file abcnotation is mirroring is usually served complete at its
+# own address. A tune path is "<host>/<path>/<file>/<index>", so dropping the
+# index and adding .abc reaches the original.
+def mirror_url(path):
+    stem = path.rsplit('/', 1)[0] if re.match(r'.*/\d+$', path) else path
+    return 'http://' + stem + '.abc'
+
+
 def abcnotation(title, slug, limit=8):
     """Mirrors the Digital Tradition, John Chambers, Paul Hardy and tunearch.
     Strong for folk; its tune pages 403 without a Referer, which `get` supplies."""
@@ -305,6 +328,13 @@ def abcnotation(title, slug, limit=8):
         abc, err = get(url, referer='https://abcnotation.com/tunePage?a=%s' % p)
         if err or not abc or 'K:' not in abc:
             continue
+        if not has_music(abc):
+            # headers only -- go round abc2 to the archive it is mirroring
+            alt = mirror_url(p)
+            abc2, err2 = get(alt, referer='https://abcnotation.com/')
+            if err2 or not abc2 or 'K:' not in abc2 or not has_music(abc2):
+                continue
+            abc, url = abc2, alt
         # The search is full text, so the hit is only useful if one of the ABC's
         # own T: headers is the tune we asked for.
         hit = [t for t in abc_titles(abc) if matches(title, t)]

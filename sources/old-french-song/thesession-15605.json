@@ -1,0 +1,69 @@
+{
+    "format": "json",
+    "id": 15605,
+    "name": "Old French",
+    "url": "https://thesession.org/tunes/15605",
+    "member": {
+        "id": 6451,
+        "name": "JACKB",
+        "url": "https://thesession.org/members/6451"
+    },
+    "date": "2016-10-29 04:23:00",
+    "type": "waltz",
+    "tunebooks": 12,
+    "recordings": 1,
+    "collections": 1,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 29269,
+            "url": "https://thesession.org/tunes/15605#setting29269",
+            "key": "Dmajor",
+            "abc": "A|:d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 d2|! d2 a2 f2|f2 ed e2|e6|e4 A2|! d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 a2|! a2 fa e2|A4 AB|d4 ed|d6||! fg|:a4 de|f4 af|e6|dd ef B2|A2 d2 de|! fg a2 af|a2 e4|e6|AB d4|! a2 f4|e4 dd ef|B2 A2 a2|a2 fa e2|! A2 AA B2|d4 ed|d6 d6:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2016-10-29 04:23:00"
+        },
+        {
+            "id": 30488,
+            "url": "https://thesession.org/tunes/15605#setting30488",
+            "key": "Gmajor",
+            "abc": "D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|! G2 d2 B2|B2 AG A2|A6|A2 D2 E2|! G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|! d2 Bd A2|D4 DE|G4 AG|G6||! Bc|:d4 GA|B4 dB|A6|GG AB E2|D2 G2 GA|! Bc d2 dB|d2 A4|A6|DE G4|! d2 B4|A4 GG AB|E2 D2 d2|d2 Bd A2|! D2 DD E2|G4 AG|G6 G6:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2017-06-15 22:45:31"
+        }
+    ],
+    "comments": [
+        {
+            "id": 801889,
+            "url": "https://thesession.org/tunes/15605#comment801889",
+            "subject": "Old French",
+            "content": "This is a most unusual tune I played way back in the 1970s when I was in the Adelaide University Regiment Pipe Band.  I have never heard it played since those days but the tune stayed i my head, Maybe someone out there can give us more information on the tune, as I do not know who composed it or what country it s from.  The band called it Old French.",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2016-10-29 04:23:00"
+        },
+        {
+            "id": 822864,
+            "url": "https://thesession.org/tunes/15605#comment822864",
+            "subject": "Re: Old French",
+            "content": "Here's another Old French!    X:1  T:Old French Hornpipe, The  T:Rambler's Hornpipe, The  Z: id:dc-reel-251  M:C  L:1\/8  K:D Major  (3ABc|d2cd BdAF|DFAd f2ed|cdef gfec|defd A2Bc|!  d2cd BdAF|DFAd f2ed|cdef gfec|d2f2 d2:|!  K:A Mixolydian  cd|efed cdcB|AEAc e2dc|BGBd gfed|cAce a2cd|!  efed cdcB|AEAc e2dc|BGBd gfed|c2A2 A2:|!",
+            "member": {
+                "id": 58942,
+                "name": "Andy Hornby",
+                "url": "https://thesession.org/members/58942"
+            },
+            "date": "2017-06-16 10:39:32"
+        }
+    ]
+}

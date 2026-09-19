@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-com-haydn-franz-joseph-haydn-arietta-haydn-arietta-pno2-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fmusicaviva.com%2Fhaydn-franz-joseph%2Fhaydn-arietta%2Fhaydn-arietta-pno2%2F0000",
+  "kind": "abc",
+  "bytes": 947,
+  "sha256": "1bceccc63891c3d24c47e86cc6f14a14000ada244e4eafc6a2efbfc937ad72df",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-book-hamilton-hutb2-1846-v1-0945.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fbook%2FHamilton%2FHUTB2-1846-V1%2F0945",
+  "kind": "abc",
+  "bytes": 324,
+  "sha256": "016aa5ce82aa63a457f7521313efc59c52afdeb660103556cb5cd775b9308dcd",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "imslp-lyric-pieces-op-12.ly",
+  "url": "https://imslp.org/wiki/Lyric_Pieces%2C_Op.12_%28Grieg%2C_Edvard%29",
+  "kind": "lilypond-incipit",
+  "bytes": 3492,
+  "sha256": "25fde102ae016a6a306c166c9d6ecb8c092c21c5c43226c6969d2aaf700a9245",
+  "fetched": "2026-09-18"
+ }
+]

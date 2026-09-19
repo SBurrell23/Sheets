@@ -16,14 +16,6 @@
   "fetched": "2026-09-18"
  },
  {
-  "name": "abcnotation-ic-master-12-string-baroque-lute-in-the-bleak-midwinter-0000.abc",
-  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=gitlab.com%2Fchrisspen%2Fabc-music%2Fabc-music-master.zip%2Fabc-music-master%2F12-string-baroque-lute%2Fin-the-bleak-midwinter%2F0000",
-  "kind": "abc",
-  "bytes": 153,
-  "sha256": "e38c9967319272c5dc7bf1fe7464b7e7694a560c1f75c3758abcf1b18d761855",
-  "fetched": "2026-09-18"
- },
- {
   "name": "abcnotation-illian-mit-edu-jc-music-abc-england-inthebleakmidwinter-0000.abc",
   "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FEngland%2FInTheBleakMidwinter%2F0000",
   "kind": "abc",

@@ -1,0 +1,225 @@
+{
+    "format": "json",
+    "id": 1296,
+    "name": "The Old French",
+    "url": "https://thesession.org/tunes/1296",
+    "member": {
+        "id": 3932,
+        "name": "fidicen",
+        "url": "https://thesession.org/members/3932"
+    },
+    "date": "2003-01-05 13:56:50",
+    "type": "reel",
+    "tunebooks": 215,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": ["Little Old Man","The Little Old Man","Rambler's Hornpipe","The Rambler's Hornpipe","The Rambler's","Reel De St-Tite"],
+    "settings": [
+        {
+            "id": 1296,
+            "url": "https://thesession.org/tunes/1296#setting1296",
+            "key": "Dmajor",
+            "abc": "|:(3ABc|d2cd BdAF|DFAd f2ed|cdef gece|defd A2(3ABc|! d2cd BdAF|DFAd f2ed|cdef gece|d2f2 d2:|! |:cd|efed c2A2|AEAc e2dc|BGBd gfed|cAce a2cd|! efed (3cdc A2|AEAc e2dc|bGBd gfed|c2A2 A2:|",
+            "member": {
+                "id": 3932,
+                "name": "fidicen",
+                "url": "https://thesession.org/members/3932"
+            },
+            "date": "2003-01-05 13:56:50"
+        },
+        {
+            "id": 31272,
+            "url": "https://thesession.org/tunes/1296#setting31272",
+            "key": "Dmajor",
+            "abc": "(3ABc|:d2cd BdAF|DFAd f2ed|cdef gece|defd A2(3ABc|! d2cd BdAF|DFAd f2ed|cdef gece|d2f2 d2:|! |:cd|efed c2A2|AEAc e2dc|BGBd gfed|cAce a2cd|! efed c2 A2|AEAc e2dc|BGBd gfed|c2A2 A2:|",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2017-11-08 10:39:06"
+        },
+        {
+            "id": 33445,
+            "url": "https://thesession.org/tunes/1296#setting33445",
+            "key": "Dmajor",
+            "abc": "A\/B\/c|:\"D\"d2 c2 B2 AF|DFAd f2 ed|\"A7\"cdef gece|\"D\"defd A2 A\/B\/c|! \"D\"d2 c2 B2 AF|DFAd f2ed|\"A7\"cdef gece|1 \"D\"dfec d2 A\/B\/c:|2 \"D\"dfec d2 cd||! K: Amix! |:\"A7\"efed c2 A2|AEAc e2 dc|\"G\"BGBd gfed|\"A7\"cAce a2 cd|! \"A7\"efed c2 A2|AEAc e2 dc|\"G\"BGBd gfed|1 \"A7\"cdBc A2 cd:|2 \"A7\"cdBc A2 A\/B\/c||",
+            "member": {
+                "id": 109647,
+                "name": "NfldWhistler",
+                "url": "https://thesession.org/members/109647"
+            },
+            "date": "2018-11-03 19:11:56"
+        }
+    ],
+    "comments": [
+        {
+            "id": 19134,
+            "url": "https://thesession.org/tunes/1296#comment19134",
+            "subject": "",
+            "content": "From The New England Fiddler's Repertoire.",
+            "member": {
+                "id": 3932,
+                "name": "fidicen",
+                "url": "https://thesession.org/members/3932"
+            },
+            "date": "2003-01-05 13:57:28"
+        },
+        {
+            "id": 19339,
+            "url": "https://thesession.org/tunes/1296#comment19339",
+            "subject": "Old French",
+            "content": "Isn't this originally a Quebecois reel?  Noel Jackson  Angels of the North",
+            "member": {
+                "id": 3167,
+                "name": "Noel Jackson",
+                "url": "https://thesession.org/members/3167"
+            },
+            "date": "2003-01-07 09:11:38"
+        },
+        {
+            "id": 19377,
+            "url": "https://thesession.org/tunes/1296#comment19377",
+            "subject": "Cross Breeding",
+            "content": "I got this tune from Cleveland's Westside Contra Dance Club tunebook years ago. There seems to be some overlap between Quebec and New England. Hence the name \"Old French\" for a Quebecois reel appropriated by Yankee fiddlers. I doubt the French would have called it that.",
+            "member": {
+                "id": 1610,
+                "name": "AOG",
+                "url": "https://thesession.org/members/1610"
+            },
+            "date": "2003-01-07 17:33:26"
+        },
+        {
+            "id": 208811,
+            "url": "https://thesession.org/tunes/1296#comment208811",
+            "subject": "\"New England Fiddler's Repertoire\" ~  Randy Miller",
+            "content": "by Randy Miller & Jack Perron  2nd Edition, 2003, by Randy Miller & Robert Bley-Vroman    ~ 96 pages, 168 classic traditional contra dance melodies...    https:\/\/www.fiddlecasebooks.com\/store\/c2\/Books.html  https:\/\/www.fiddlecasebooks.com\/NEFRbook.htm    ~ & YES! ~ There is a lot or traffic and influences between New England and the Canadian Maritmes, people, music and dance...not forgetting the fisheries and smuggling...",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2006-05-13 12:40:07"
+        },
+        {
+            "id": 208812,
+            "url": "https://thesession.org/tunes/1296#comment208812",
+            "subject": "",
+            "content": "\"Maritimes\", where'd that 'i' disappear to?  ;-)",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2006-05-13 12:40:47"
+        },
+        {
+            "id": 208813,
+            "url": "https://thesession.org/tunes/1296#comment208813",
+            "subject": "\"The Rambler's Hornpipe\"",
+            "content": "As is often the case in North America, sometimes the swing gets ironed out of a tune to fit it into the realm of the reel, but the practice of playing hornpipes flat and unswung is not solely the practice of American players.  As is usually true, this tune is nice either way:    | (3ABc | d2 c>d B>dA>F | D>FA>d (3fgf e>d | c>de>f g>ec>e | d>fe>d (3BcB ~",
+            "member": {
+                "id": 11705,
+                "name": "ceolachan",
+                "url": "https://thesession.org/members/11705"
+            },
+            "date": "2006-05-13 12:51:03"
+        },
+        {
+            "id": 630035,
+            "url": "https://thesession.org/tunes/1296#comment630035",
+            "subject": "Bad listing?",
+            "content": "For some reason, I could not get this to come up under a search for \"old french\", \"Old French\", or even \"the Old French\". It happened yesterday too, but I figured I must have just misspelled it. I had to resort to just \"French\", and then it came up. Seems something may be glitched?",
+            "member": {
+                "id": 12305,
+                "name": "anniemcu",
+                "url": "https://thesession.org/members/12305"
+            },
+            "date": "2012-03-14 13:10:22"
+        },
+        {
+            "id": 701078,
+            "url": "https://thesession.org/tunes/1296#comment701078",
+            "subject": "",
+            "content": "Please note: the following url's are no longer working:    https:\/\/www.fiddlecasebooks.com\/  https:\/\/www.fiddlecasebooks.com\/store\/c2\/Books.html    INSTEAD, please visit    http:\/\/www.fiddlecasebooks.com    Thank you.  celticladda\/Randy Miller\/Fiddlecase Books",
+            "member": {
+                "id": 12044,
+                "name": "celticladda",
+                "url": "https://thesession.org/members/12044"
+            },
+            "date": "2013-11-19 11:23:37"
+        },
+        {
+            "id": 834252,
+            "url": "https://thesession.org/tunes/1296#comment834252",
+            "subject": "Re: The Old French",
+            "content": "New Hampshire's population is 30% French Canadian because many immigrants came from Quebec Province to work in mills and logging industry.  They brought their music with them.  Sylvia Miskoe, Concord NH USA",
+            "member": {
+                "id": 15699,
+                "name": "Sylvia Miskoe",
+                "url": "https://thesession.org/members/15699"
+            },
+            "date": "2017-11-12 14:58:30"
+        },
+        {
+            "id": 859695,
+            "url": "https://thesession.org/tunes/1296#comment859695",
+            "subject": "Re: The Old French",
+            "content": "Some info from https:\/\/tunearch.org\/wiki\/Annotation:Old_French :    The melody was a popular vehicle for contra dancing in the 1970's, when it seemed to surface simultaneously in the New England repertoire and on the West Coast. Popular belief has it that the \"Old French\" title derived from a remark by an old Vermont fiddler who, when asked its title, said it was \"just an old French tune\". The reel was known in Canada prior to the \"folk revival\" that fed American contra dancing, and was in Maritime fiddler Don Messer's \"Down-East\" repertoire (as \"Rambler's Hornpipe,\" probably the source for many American \"revival\" musicians). The original provenance is in Qu\u00e9b\u00e9cois repertoire, where it was recorded in 1929 under the title \"Reel de St-Tite\" on a recording by Sot\u00e8re Mongrain and Ida Mongrain (violin with piano accompaniment). Ottawa Valley fiddlers know it as \"Rambler's Hornpipe\" or \"Little Old Man,\" while Cape Breton fiddlers call it \"The Old French Reel\".",
+            "member": {
+                "id": 109647,
+                "name": "NfldWhistler",
+                "url": "https://thesession.org/members/109647"
+            },
+            "date": "2018-12-22 19:27:15"
+        },
+        {
+            "id": 859704,
+            "url": "https://thesession.org/tunes/1296#comment859704",
+            "subject": "Re: The Old French",
+            "content": "Incidentally, how do people usually finish this tune? When I first heard it, I thought it would go best to finish by reprising the first half (in D), resolving back to its original key - rather than the second half  (in A mix?) But perhaps the latter makes for a more interesting finish? Just curious! How do YOU play it?",
+            "member": {
+                "id": 23308,
+                "name": "trish santer",
+                "url": "https://thesession.org/members/23308"
+            },
+            "date": "2018-12-22 22:59:25"
+        },
+        {
+            "id": 917861,
+            "url": "https://thesession.org/tunes/1296#comment917861",
+            "subject": "Re: The Old French",
+            "content": "Definitely a hornpipe to my ears, but nice either way.",
+            "member": {
+                "id": 60182,
+                "name": "Gobby",
+                "url": "https://thesession.org/members/60182"
+            },
+            "date": "2021-03-18 02:37:48"
+        },
+        {
+            "id": 1021357,
+            "url": "https://thesession.org/tunes/1296#comment1021357",
+            "subject": "Re: The Old French",
+            "content": "Heard this in the late 70s played by a brilliant London Irish group called \"Shegui\". Never found out what happened to them but a lot of people cribbed their arrangements so they had  a big effect on the tradition.",
+            "member": {
+                "id": 123539,
+                "name": "Pete Pozman",
+                "url": "https://thesession.org/members/123539"
+            },
+            "date": "2025-11-06 19:21:58"
+        },
+        {
+            "id": 1021387,
+            "url": "https://thesession.org/tunes/1296#comment1021387",
+            "subject": "Re: The Old French",
+            "content": "As an aside  : re \"Shegui\" [ the line-up which made their first album,  -   https:\/\/thesession.org\/recordings\/1415    -  referred to above ]  :  John Skelton relocated to the good ol' US of A, I would think in the 1990s some time, and to the best of my knowledge is still making great music there.  Sean Keane is still a very successful and popular singer in Ireland, although less of traditional music than in the \"Shegui\" days.  Willie Haines, alas is no longer with us, and much missed [ RIP ].  I think I heard that John Coakley had moved back to the South West of Ireland and was playing regularly in sessions in his local community.  I have no knowledge of  Denis O'Rourke, I'm afraid.  ",
+            "member": {
+                "id": 726,
+                "name": "Kenny",
+                "url": "https://thesession.org/members/726"
+            },
+            "date": "2025-11-07 10:22:07"
+        }
+    ]
+}

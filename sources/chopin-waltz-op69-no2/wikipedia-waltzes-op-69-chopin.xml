@@ -1,0 +1,200 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Waltzes, Op. 69 (Chopin)</title>
+    <ns>0</ns>
+    <id>5900517</id>
+    <revision>
+      <id>1358861036</id>
+      <parentid>1358856485</parentid>
+      <timestamp>2026-06-11T12:47:55Z</timestamp>
+      <contributor>
+        <username>Squandermania</username>
+        <id>7083768</id>
+      </contributor>
+      <minor/>
+      <origin>1358861036</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10081" sha1="11lpg62e0izw6xbtrtfz42pt4nyk0wo" xml:space="preserve">{{Short description|1835 composition by Frédéric Chopin}}
+{{Redirect|Farewell Waltz|the novel by Milan Kundera|The Farewell Waltz|other uses|Farewell Waltz (disambiguation)}}
+[[File:Chopin,_by_Wodzinska.JPG|thumb|[[Frédéric Chopin]] at 25, by his fiancée [[Maria Wodzińska]], 1835]]
+The '''Waltzes, Op. 69''' refers to two waltzes for solo piano by [[Frédéric Chopin]], written in 1829 and 1835. Both were published posthumously by Chopin’s friend [[Julian Fontana]] in 1855.
+
+== Pieces ==
+
+=== No. 1 in A{{music|flat}} major ===
+The Waltz in A{{music|flat}} major, Op. 69, is a [[waltz]] composed by [[Frédéric Chopin]] in 1835. It was posthumously published by his friend [[Julian Fontana]] in 1855, six years after the composer's death.&lt;ref name=":1" /&gt; It is also called "The Farewell Waltz" or "Valse de l'adieu".
+
+{{listen
+| type         = music
+| filename     = Chopin-waltz-op-69-no-1-in-a-flat-major.ogg
+| title        = Waltz in A{{music|flat}} major, Op. 69, No.&amp;nbsp;1
+| description  = Performer: {{ill|Luke Faulkner|de}}
+}}
+
+The Waltz Op. 69, No. 1 was originally written as a farewell piece to [[Maria Wodzińska]], to whom Chopin is said to have been engaged.&lt;ref&gt;[https://www.musicologie.org/Biographies/chopin.html "Chopin Frédéric, 1810–1849"] by Jean-Marc Warszawski, 2005–2017, musicologie.org (in French)&lt;/ref&gt; This autographed copy ''Pour M&lt;sup&gt;lle&lt;/sup&gt; Marie'', given to her in [[Dresden]], Germany, in September 1835 is now lost.&lt;ref&gt;''Chopin Complete Works'', Editor [[Ignacy Jan Paderewski|Paderewski]], book IX: ''Waltzes'', [[Fryderyk Chopin Institute]] Publishing, Kraków, 1979, p. 119&lt;/ref&gt;&lt;ref name=":0" /&gt;&lt;ref name=":1"&gt;{{Cite book |last=Chopin |first=Frédéric |url=https://www.henle.de/media/review/0131.pdf |title=Walzer |publisher=[[G. Henle Verlag]] |year=1978 |editor-last=Zimmermann |editor-first=Ewald |location=Munich |pages=102, 104 |language=de, en |ismn=979-0-2018-0131-5 |archive-date=2023-03-31 |access-date=2022-07-04 |archive-url=https://web.archive.org/web/20230331182430/https://www.henle.de/media/review/0131.pdf |url-status=dead }}&lt;/ref&gt; Another autographed version of the piece he dedicated in 1837 to {{ill|Eliza Peruzzi|qid=Q108298045}}.&lt;ref&gt;{{Cite web |last=Chopin |first=Fryderyk |title=Walc As-dur WN 47 [op. 69 nr 1] |url=https://chopin.nifc.pl/pl/chopin/rekopis/21 |access-date=2022-07-04 |website=chopin.nifc.pl |publisher=[[Fryderyk Chopin Institute]]}}&lt;/ref&gt; A third autograph, held by the [[Bibliothèque nationale de France]], Chopin dedicated 1842 to ''Mademoiselle [[Charlotte de Rothschild]]''.&lt;ref name=":1" /&gt; Various copies of this waltz exist, among them one presented as the posthumous edition of [[Julian Fontana]],&lt;ref name=":0"&gt;{{Cite book |last=Chopin |first=Frédéric |url= |title=The Complete Chopin – A New Critical Edition |date= |publisher=[[Edition Peters]]|year=2007 |isbn= |editor-last=Grabowski |editor-first=Christophe |volume=Waltzes |location=London, Frankfurt, Leipzig, New York |pages=136f. |language=en, de |ismn=9790577085579 |oclc=1328129061 |editor-last2=Rink |editor-first2=John |editor-last3=Samson |editor-first3=Jim |editor-last4=Eigeldinger |editor-first4=Jean-Jacques}}&lt;/ref&gt; but it has not been substantiated by any known autograph.
+:&lt;score sound&gt;
+
+\language english
+\layout { \context { \PianoStaff \accidentalStyle piano-cautionary } }
+\new PianoStaff
+&lt;&lt;
+  \new Staff \fixed c' {
+    \key af \major
+    ef'8( d' |
+    \tuplet 3/2 { df'8 ef' df' } c' df' f' ef' | df'2-- c'4) |
+    r a8( bf \tuplet 3/2 { c' ef' df' } | c'2-- bf4) |
+    bf4.( af8) \tuplet 3/2 { af( g f) } | f2( ef4) |
+    r4 \slashedGrace ef8 g'--( f'-- ef'-- df'-- | b2 c'4~) |
+    c'8( df' bf' af' f' df') | df'2( c'4) |
+    \tuplet 5/4 { a16( bf a gs a } \tuplet 3/2 { c'8 ef' f' } gf'8[) r16 a] | \slashedGrace 8 c'2--( bf4) |
+    bf4.( af8) \tuplet 3/2 { af( g f) } | f2( ef4) |
+    \tuplet 3/2 { ef8( f ef } d ef &lt;f df'&gt; &lt;g c'&gt; | af2--)
+  }
+  \new Dynamics {
+    \time 3/4
+    \tempo "Lento" 4 = 138
+    \partial 4
+    s4\p |
+    s2. | s2.\&gt; | s4\! s2\&lt; | s2.\&gt; | s2.\cresc | s2.\&gt; | s2.*2\f |
+    s2.\&lt; | s2.\&gt; | s4\! s4\&lt; s4\&gt; | s2.\&gt; | s2.\! | s2.\&gt; | s4\p s2^"riten."
+  }
+  \new Staff {
+    \clef bass
+    \key af \major
+    r4 |
+    &lt;&lt;
+      {
+        r &lt;af df'&gt; q | r &lt;g c'&gt; q | r &lt;gf c'&gt; q | r &lt;f bf&gt; q |
+        r q &lt;f b&gt; | r &lt;af c'&gt; q |
+      }
+      \\
+      { f2. | e | ef | df | d | ef | }
+    &gt;&gt;
+    ef,4 &lt;ef bf df'&gt; &lt;ef g df'&gt; | af, &lt;ef af c'&gt; q |
+    &lt;&lt;
+      {
+        r &lt;af df'&gt; q | r &lt;g df'&gt; &lt;g c'&gt; | r &lt;gf c'&gt; q | r &lt;f c'&gt; &lt;f bf&gt; |
+        r q &lt;f b&gt; | r &lt;af c'&gt; q |
+      }
+      \\
+      { f2. | e | ef | df | d | ef | }
+    &gt;&gt;
+    ef,4 &lt;ef bf df'&gt; &lt;ef g df'&gt; | af, &lt;ef c'&gt;
+  }
+&gt;&gt;
+&lt;/score&gt;
+The waltz is in A{{music|flat}} major, with a [[time signature]] of {{music|time|3|4}}. The [[tempo]] is marked at ''tempo di valse'', or a waltz tempo. The beginning theme, marked ''con espressione'', is melancholic and nostalgic, and reaches a small high point with a fast flourish. The second part is marked ''sempre delicatissimo'', or ''con anima'' in other versions. It is somewhat more cheerful than the previous theme, but soon gives way to the same first theme. After a second rendition of the first theme is a third theme, marked as ''dolce'', the most playful theme. It leads to another theme with a series of ascending double-stops. This fourth theme is marked ''poco a poco crescendo'', with other editions adding ''ed appassionato''. This leads back to the third, playful theme, and returns to the beginning with a ''da capo al fin''.
+
+=== No. 2 in B minor ===
+{{listen
+| type         = music
+| filename     = Chopin-waltz-op-69-no-2-in-b-minor.ogg
+| title        = Waltz in B minor, Op. 69, No. 2
+| description  = Performed by Olga Gurevich
+}}
+The Waltz Op. 69, No. 2 was composed for solo [[piano]] in the year 1829 at the age of 19. The piece was published in 1852 together with the [[Waltzes, Op. 70 (Chopin)|Waltz in F minor, Op. 70 No. 2]].&lt;ref name=":02"&gt;{{Cite book |last=Belotti |first=Gastone |url=https://books.google.com/books?id=c0qkNiQHp4MC |title=Chopin |publisher=Edizioni Di Torini |year=1984 |isbn=9788870630336 |location=Turin |pages=455 |language=it}}&lt;/ref&gt; It was also published posthumously in 1855 by his friend [[Julian Fontana]].&lt;ref&gt;{{Cite book |last=Chopin |first=Frédéric |url=https://www.henle.de/media/review/0131.pdf |title=Walzer |publisher=G. Henle Verlag |year=1978 |editor-last=Zimmermann |editor-first=Ewald |location=München |pages=102, 104 |language=De, en |ismn=979-0-2018-0131-5 |access-date=2022-07-05 |archive-url=https://web.archive.org/web/20230331182430/https://www.henle.de/media/review/0131.pdf |archive-date=2023-03-31 |url-status=dead}}&lt;/ref&gt;&lt;ref name="nifc"&gt;{{Cite web |title=NIFC |url=http://en.chopin.nifc.pl/chopin/composition/detail/page/7/id/25 |url-status=dead |archive-url=https://web.archive.org/web/20190702232946/http://en.chopin.nifc.pl/chopin/composition/detail/page/7/id/25 |archive-date=2019-07-02 |access-date=2017-06-20}}&lt;/ref&gt; The main theme is in the key of [[B minor]] and is marked with an overall tempo of ''[[Musical terminology|Moderato]]''.&lt;ref name="LLC"&gt;{{cite web |last1=LLC |first1=Classical Archives |title=Frédéric François Chopin - 2 Waltzes, Op.69 - Classical Archives |url=http://www.classicalarchives.com/work/7238.html#about |accessdate=April 18, 2017 |website=www.classicalarchives.com}}&lt;/ref&gt;
+:&lt;score&gt;
+
+\language english
+\layout { \context { \PianoStaff \accidentalStyle piano-cautionary } }
+\new PianoStaff
+&lt;&lt;
+  \new Staff \fixed c' {
+    \key b \minor
+    fs'4~-&gt;(
+    fs'8 g' fs' cs' d' b | as2) fs'4~-&gt;( |
+    8 g' fs' cs' e' d' | b2) fs'4~-&gt;( |
+    8 g' es' fs' b' d'') | 4( es') d''~-&gt;( |
+    4 e') cs''~-&gt;( | 8 b' as' g' fs' cs') |
+    d'( g' fs' cs' d' b | as2) fs'4~-&gt;( |
+    8 g' fs' cs' e' d' | b2) 
+    fs'4~-&gt; | 8 fs''( cs'' d'' as' b') |
+    a'( g' b cs' d' e') | g'( fs' b d' cs' fs) | b
+  }
+  \new Dynamics {
+    \time 3/4
+    \tempo "Moderato" 4 = 152
+    \partial 4
+    s4 |
+    s2.*4\p | s2.\&lt; | s2.*2\! | s2.\&gt; |
+    s2.*4\p | s2.*2\cresc | s2.\dim | &lt;&gt;\!
+  }
+  \new Staff {
+    \clef bass
+    \key b \minor
+    r4 |
+    b,4 &lt;fs b d'&gt; q | cs &lt;fs cs' e'&gt; q |
+    as, &lt;fs as e'&gt; &lt;fs as e'&gt; | b, &lt;fs b d'&gt; q |
+    b, q q | b, &lt;gs b d'&gt; q |
+    b, &lt;g b e'&gt; q | b, &lt;fs cs' e'&gt; &lt;fs as e'&gt; |
+    b, &lt;fs b d'&gt; q | cs &lt;fs cs' e'&gt; q |
+    fs, &lt;fs as e'&gt; &lt;fs cs' e'&gt; | b, &lt;fs b d'&gt; q |
+    d &lt;fs b d'&gt; q | e &lt;b cs' g'&gt; r |
+    &lt;&lt; { fs &lt;b d'&gt; &lt;as e'&gt; } \\ fs2. &gt;&gt; | &lt;b d'&gt;4
+  }
+&gt;&gt;
+&lt;/score&gt;
+
+The piece consists of three main [[Subject (music)|themes]]. The first theme is sixteen measures long and is repeated again on the last page of the piece. The second theme, marked ''con anima'', is of eight measures which is then repeated again with slight variations, along with the reprise of the main theme, also varied. Together they form a kind of ''aa'',''&lt;nowiki/&gt;'' ''bb'&lt;nowiki/&gt;'', ''a'&lt;nowiki/&gt;'' structure. The Trio in [[B major]] consists of only a single theme of eight bars repeated. The sixteen bars are then repeated again with a modulation back to B minor. The section can be structured as ''c&lt;nowiki/&gt;'', ''c'''. The return of the first section is without repeats, forming a [[ternary form]] (ABA).&lt;ref name=":02" /&gt;
+
+The composer had instructed that his unpublished works, including these waltzes, be burnt upon his death.&lt;ref name="www.flutetunes.com"&gt;{{cite web |date=October 17, 2009 |title=Valse (F. Chopin) - Free Flute Sheet Music |url=https://www.flutetunes.com/tunes.php?id=229 |website=www.flutetunes.com |language=en}}&lt;/ref&gt;{{Unreliable source?|date=September 2025|reason=Self-published(?)}}
+
+==References==
+{{Reflist}}
+
+== External links ==
+* {{IMSLP|work=Waltzes, Op.69 (Chopin, Frédéric)|cname=Waltzes Op. 69 (Chopin)}}
+
+{{Chopin waltzes|state=expanded}}
+{{Portal bar|Classical music}}
+{{Authority control}}
+
+[[Category:Waltzes by Frédéric Chopin]]
+[[Category:1835 compositions]]
+[[Category:Compositions in A-flat major]]
+[[Category:Compositions by Frédéric Chopin published posthumously]]
+[[Category:Music with dedications]]</text>
+      <sha1>11lpg62e0izw6xbtrtfz42pt4nyk0wo</sha1>
+    </revision>
+  </page>
+</mediawiki>
