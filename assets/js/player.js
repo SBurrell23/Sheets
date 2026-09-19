@@ -31,6 +31,10 @@
   var shuffleOn = false, bag = [], trail = [];
   try { shuffleOn = localStorage.getItem("shuffle") === "1"; } catch (e) {}
   var loadToken = 0, idc = 0, lastTop = null, playhead = null, barPos = [];
+  // barPos is where each bar is on the PAGE; barFrac is where each bar is in
+  // TIME, as a fraction of the whole song. They are not the same question and
+  // the strip needs the second one.
+  var barFrac = [];
   // The wash behind the playhead while you scrub. Named `wake` and not
   // `trail`, which is already taken by the shuffle history.
   var wake = null;
@@ -394,8 +398,7 @@
     paintFav();
     buildKeys();
     paintOctave();
-    buildTicks();
-    render();
+    render();          // render() maps the bars, then builds the ticks from them
     curBar = 0; setBar(1);
     setupAudio();
     writeHash();
@@ -417,14 +420,23 @@
     sel.value = "0";
   }
 
+  /* One tick per barline, on the barline -- not every other bar at a guessed
+     spacing. `every` only thins them out when a tick per bar would come out
+     closer than about 11px, which is where they stop reading as separate marks;
+     the heavier tick every four bars is the phrase grid and is the same in any
+     meter. Called from render(), because it needs the timings mapBars() works
+     out and render() is what produces them. */
   function buildTicks() {
     var t = $("track");
     t.innerHTML = "";
-    var every = totalBars > 24 ? 4 : 2;
+    var px = strip.clientWidth || 360;
+    var every = 1;
+    while (totalBars / every > 1 && px / (totalBars / every) < 11) every *= 2;
+    var heavy = every < 4 ? 4 : every * 2;
     for (var b = 1 + every; b <= totalBars; b += every) {
       var d = document.createElement("div");
-      d.className = "tick" + ((b - 1) % (every * 2) === 0 ? " period" : "");
-      d.style.left = ((b - 1) / totalBars * 100) + "%";
+      d.className = "tick" + ((b - 1) % heavy === 0 ? " period" : "");
+      d.style.left = (fracOf(b) * 100) + "%";
       t.appendChild(d);
     }
   }
@@ -516,6 +528,7 @@
     if (best && best.n !== current) renderWith(best.n);
     addPlayhead();
     mapBars();
+    buildTicks();
   }
 
   // A <line> appended to abcjs's own <svg>, so it is measured in the score's
@@ -618,16 +631,55 @@
      playing playhead does. */
   function mapBars() {
     barPos = [];
+    barFrac = [];
     var tune = visualObj && visualObj[0];
     if (!tune || typeof tune.setTiming !== "function") return;
     try {
       tune.setTiming();
+      var ms = [];
       (tune.noteTimings || []).forEach(function (ev) {
         var m = ev.measureNumber;
-        if (ev.type !== "event" || ev.left == null || m == null || barPos[m]) return;
-        barPos[m] = { left: ev.left, top: ev.top, height: ev.height };
+        if (ev.type !== "event" || m == null) return;
+        if (ev.left != null && !barPos[m]) barPos[m] = { left: ev.left, top: ev.top, height: ev.height };
+        if (ms[m] === undefined) ms[m] = ev.milliseconds;
       });
-    } catch (e) { barPos = []; }
+      /* The strip used to divide itself into `totalBars` equal slices. That is
+         only right when every bar lasts the same length of time, and plenty here
+         do not: a pickup bar is a fraction of a bar, and a song that opens with
+         one usually closes with a final bar short by the same amount. The slices
+         were equal, so the marker sat a little ahead of or behind the music all
+         the way through, and a click on the strip seeked to the wrong place.
+
+         noteTimings already carries `milliseconds` per event next to the
+         measureNumber, so the engraver can simply be asked where each bar falls
+         in time. That is exact for any meter, any pickup, and any short bar --
+         and it is the same number `seek()` wants, since both are fractions of the
+         whole and a tempo warp scales them together.
+
+         All or nothing: one missing bar would put every later tick in the wrong
+         place, which is worse than the honest uniform spacing. */
+      var total = (typeof tune.getTotalTime === "function" ? tune.getTotalTime() : 0) * 1000;
+      var ok = total > 0;
+      for (var b = 0; b < totalBars && ok; b++) if (ms[b] === undefined) ok = false;
+      if (ok) {
+        for (var k = 0; k < totalBars; k++) barFrac[k] = Math.min(1, ms[k] / total);
+      }
+    } catch (e) { barPos = []; barFrac = []; }
+  }
+
+  // Where bar `n` starts, as a fraction of the song. Falls back to equal slices
+  // when the engraver could not be asked.
+  function fracOf(bar) {
+    if (barFrac.length === totalBars) return barFrac[Math.max(0, Math.min(totalBars - 1, bar - 1))];
+    return (bar - 1) / totalBars;
+  }
+
+  function barAtFrac(f) {
+    if (barFrac.length === totalBars) {
+      for (var b = totalBars; b > 1; b--) if (f >= barFrac[b - 1]) return b;
+      return 1;
+    }
+    return Math.max(1, Math.min(totalBars, Math.floor(f * totalBars) + 1));
   }
 
   function previewBar(bar) {
@@ -661,7 +713,7 @@
     if (bar === curBar) return;
     curBar = bar;
     $("barnum").textContent = bar;
-    var pc = (bar - 1) / totalBars * 100;
+    var pc = fracOf(bar) * 100;
     $("head").style.left = pc + "%";
     $("fill").style.width = pc + "%";
     strip.setAttribute("aria-valuenow", bar);
@@ -689,8 +741,7 @@
       // Fallback only: proportional, so it is right in any meter. onEvent below
       // supersedes it with the exact measure whenever a note is sounding.
       if (!totalBeats) return;
-      var frac = beatNumber / totalBeats;
-      setBar(Math.max(1, Math.min(totalBars, Math.floor(frac * totalBars) + 1)));
+      setBar(barAtFrac(beatNumber / totalBeats));
     },
     onEvent: function (ev) {
       if (!ev || dragging || busy || (ev.measureStart && ev.left === null)) return;
@@ -815,7 +866,7 @@
     previewBar(bar);
     if (!ready) return;
     lastTop = null;
-    synth.seek((bar - 1) / totalBars);
+    synth.seek(fracOf(bar));
   }
 
   /* ================= scrubbing ================= */
@@ -823,7 +874,7 @@
     var r = strip.getBoundingClientRect();
     if (!r.width) return curBar;
     var f = Math.max(0, Math.min(0.99999, (clientX - r.left) / r.width));
-    return Math.max(1, Math.min(totalBars, Math.floor(f * totalBars) + 1));
+    return barAtFrac(f);
   }
   // Scrubbing no longer waits for `ready`. The score preview is pure geometry, so
   // it works while the soundfont is still downloading; only the seek at the end
@@ -1188,6 +1239,8 @@
       try { return synth.visualObj === visualObj[0]; } catch (e) { return null; }
     },
     playheadX: function () { return playhead ? +playhead.getAttribute("x1") : null; },
+    barFrac: function () { return barFrac.slice(); },
+    fracOf: function (b) { return fracOf(b); },
     theme: function () { return document.documentElement.getAttribute('data-theme') || 'auto'; },
     shuffle: function () { return shuffleOn; },
     octave: function () { return octaveShift; },
