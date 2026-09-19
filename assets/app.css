@@ -426,6 +426,64 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   /* The star sits absolutely in the corner, so it has to come in with them. */
   .favmark{left:2px}
 }
+
+/* ---------- tablet transport: one line, captions on top ----------
+   Adding the Link button was what broke it, but the row had been close to the
+   edge for a while and a real tablet is worse than it looks here: the
+   pointer:coarse block above grows every button's padding by 4-5px a side, so
+   the row a desktop browser draws at 768px is not the row a tablet draws.
+
+   The labels were the cheapest thing to move. Sitting beside their controls
+   'Key', 'Octave' and 'Tempo' each cost 40-55px of the row's WIDTH, which is
+   the dimension that ran out. Above them they cost none, because the row's
+   height is set by the Play button either way -- so this buys about 140px for
+   two or three pixels of height. Everything else here is just tightening:
+   smaller octave steppers, a narrower key select, a shorter slider.
+
+   Not on phones: below 561px the row wraps on purpose and has the width for
+   inline labels. */
+@media (min-width:561px) and (max-width:1024px){
+  .row{gap:7px; align-items:center}
+  /* Grid, not a wrapping flex row. Wrapping puts the caption on its own line
+     but buys no WIDTH, because a flex container is sized as though it did not
+     wrap -- the group stays as wide as caption + gap + controls laid out
+     inline, which is the whole problem. In a grid the columns are sized by the
+     controls, and a caption spanning all of them only widens the group if it is
+     wider than the controls it labels. None of these are, so the captions
+     become free: the octave stepper group drops from 134px to 90. */
+  .keygrp,.octgrp,.ctl.tempo{
+    display:grid; justify-content:start; align-items:center; gap:0 5px}
+  .keygrp{grid-template-columns:auto}
+  .octgrp{grid-template-columns:auto auto auto}
+  .ctl.tempo{grid-template-columns:auto auto}
+  .keygrp > span,.octgrp > span,.ctl.tempo > span{
+    display:block; grid-column:1/-1; margin:0 0 1px;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:9.5px; line-height:1.2; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--ink-3)}
+  /* One height for the key select and the two octave steppers, set explicitly
+     rather than fallen into: a select is sized by the UA from its padding and a
+     button from its line box, so matching paddings does not match heights.
+     The buttons become flex boxes so the chevron centres in the taller box. */
+  .keygrp select,.octgrp .btn.step{height:34px}
+  .keygrp select{min-width:0; font-size:12.5px; padding:0 25px 0 9px;
+    text-align:left; background-position:right 7px center}
+  .btn.step{min-width:0; padding:0 10px; font-size:13px; line-height:1;
+    display:inline-flex; align-items:center; justify-content:center}
+  .octgrp #octnow{min-width:16px; font-size:12px; text-align:center}
+  .ctl input[type=range]{width:82px; height:20px}
+  .ctl output{min-width:40px; font-size:11.5px}
+  /* Play through Tempo hug the left; the two file buttons hug the right. #pdf
+     already carries margin-left:auto, but an auto margin resolves to zero when
+     the free space is negative -- so on an overflowing row they were simply
+     trailing the tempo slider. They sit right again because the row fits again;
+     this restates it so the intent is visible where the rest of the row is set. */
+  #pdf{margin-left:auto}
+  .btn.dl,.btn.share{padding:8px 11px; font-size:12.5px}
+  .btn.share{gap:5px}
+  .btn.share svg{width:13px; height:13px}
+  .play{min-width:78px}
+}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important; transition:none !important}}
 @media print{
   .masthead,.picker,.transport,.modal{display:none}
