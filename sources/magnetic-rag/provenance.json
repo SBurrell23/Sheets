@@ -1,0 +1,18 @@
+[
+ {
+  "name": "kern-magnetic.krn",
+  "url": "https://raw.githubusercontent.com/craigsapp/joplin/master/kern/magnetic.krn",
+  "kind": "kern",
+  "bytes": 15434,
+  "sha256": "8d9a64e6e315c541e5d7b422244ecb65d8b51dab69c9c5be79ca184906c4fcf1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-magnetic.ly",
+  "url": "https://www.mutopiaproject.org/ftp/JoplinS/magnetic/magnetic.ly",
+  "kind": "lilypond",
+  "bytes": 15873,
+  "sha256": "a22a48f077bb0370d3ad0a786aa1e19d27fc91a9459490dc7859a2d4bd985b25",
+  "fetched": "2026-09-18"
+ }
+]

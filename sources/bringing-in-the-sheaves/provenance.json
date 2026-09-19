@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-bringshv-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FBRINGSHV%2F0000",
+  "kind": "abc",
+  "bytes": 384,
+  "sha256": "2564410efbaa29a389fe600a1e0ef8d47a525b1ae2c4907a7550f0613bb7d5b9",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-usic-abc-mirror-gulfweb-net-34043-rlwalker-abc-bringing-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/bringing.abc",
+  "kind": "abc",
+  "bytes": 1109,
+  "sha256": "b59b71247da544e3fa84e91f473eab7324743ee98c1e52c176c74da420acfc5e",
+  "fetched": "2026-09-18"
+ }
+]

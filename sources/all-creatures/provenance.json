@@ -1,0 +1,42 @@
+[
+ {
+  "name": "abcnotation--abc-mirror-www-stephenmerrony-co-uk-lasst-uns-erfreuen-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FLasst_Uns_Erfreuen%2F0000",
+  "kind": "abc",
+  "bytes": 1975,
+  "sha256": "454d73b965856d2f1f527a5e425cdfa8a783b4919c20d691ca455d7e8e14a0d7",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-a_hymn_of_glory_let_us_sing-lasst_uns_erfreuen.abc",
+  "url": "http://openhymnal.org/Abc/A_Hymn_of_Glory_Let_Us_Sing-Lasst_Uns_Erfreuen.abc",
+  "kind": "abc",
+  "bytes": 6842,
+  "sha256": "8049d267b6cf821a27ce31c1c97fadff3658e3dd24a590b9a55a553bee03cad8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-all_creatures_of_our_god_and_king-lasst_uns_erfreuen.abc",
+  "url": "http://openhymnal.org/Abc/All_Creatures_Of_Our_God_And_King-Lasst_Uns_Erfreuen.abc",
+  "kind": "abc",
+  "bytes": 6877,
+  "sha256": "5e4faa28d728f80b1f373b33855ee5aa5871b5a64f983933bdc33a2f00b152ef",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-all-creatures-of-our-god-and-king.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/All_Creatures_of_Our_God_and_King",
+  "kind": "lilypond",
+  "bytes": 15108,
+  "sha256": "af45debf54e5f4b6ef096e1f4861f2b961fcbc790298059dde6a7af53401ff6b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-lasst-uns-erfreuen.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Lasst_uns_erfreuen",
+  "kind": "lilypond",
+  "bytes": 15415,
+  "sha256": "4d4d34af92462849d2b1ef61a1b7875d6335087a38070674de3ba1c639733c2d",
+  "fetched": "2026-09-18"
+ }
+]

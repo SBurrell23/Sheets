@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-litemine-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FLITEMINE%2F0000",
+  "kind": "abc",
+  "bytes": 632,
+  "sha256": "99ad4b2bdf23bcf06151e1e1b562bb4af30a57aab2f1b3036497f8449e3841a7",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-abc-mirror-gulfweb-net-34043-rlwalker-abc-littlelight-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fgulfweb.net%3A34043%2F~rlwalker%2Fabc%2FLittleLight%2F0000",
+  "kind": "abc",
+  "bytes": 552,
+  "sha256": "3e31c5b21a57b6291677af94222d0f9b5b6f826497e91c162dab79d44084406b",
+  "fetched": "2026-09-18"
+ }
+]

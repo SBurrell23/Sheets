@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation-c-abc-mirror-gulfweb-net-34043-rlwalker-abc-beautifuleb-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/beautifuleb.abc",
+  "kind": "abc",
+  "bytes": 1550,
+  "sha256": "9bb968b7072f88616aaa3c44624bb6465a448a3f8f255b7eb9e8b6727f0ddc69",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-lfweb-net-34043-rlwalker-abc-dicksdulcimerstuff-book001-0011.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/DicksDulcimerStuff/book001.abc",
+  "kind": "abc",
+  "bytes": 19878,
+  "sha256": "26b85cc452cc6740e7fdc0a4ed6f658085d203a02395e664ebc0043bf98e81c5",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-sic-abc-mirror-gulfweb-net-34043-rlwalker-abc-beautiful-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/beautiful.abc",
+  "kind": "abc",
+  "bytes": 1600,
+  "sha256": "a6081a63fb0f84f627fc310eef1ccfbbe08549f0b18c5f991ae9ed054b7b65ef",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-shall-we-gather-at-the-river.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Shall_We_Gather_at_the_River%3F",
+  "kind": "lilypond",
+  "bytes": 16140,
+  "sha256": "abc9b7986d44df5fdfb3855622427eddbef84ea32ef7f74c81679c85daf2035f",
+  "fetched": "2026-09-18"
+ }
+]

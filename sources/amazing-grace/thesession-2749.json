@@ -1,0 +1,357 @@
+{
+    "format": "json",
+    "id": 2749,
+    "name": "Amazing Grace",
+    "url": "https://thesession.org/tunes/2749",
+    "member": {
+        "id": 3863,
+        "name": "Alastair Wilson",
+        "url": "https://thesession.org/members/3863"
+    },
+    "date": "2004-04-02 11:58:33",
+    "type": "waltz",
+    "tunebooks": 266,
+    "recordings": 2,
+    "collections": 0,
+    "aliases": ["An Air From 9 11","An Air From 9\/11","New Britain"],
+    "settings": [
+        {
+            "id": 2749,
+            "url": "https://thesession.org/tunes/2749#setting2749",
+            "key": "Gmajor",
+            "abc": "|:D|A> (B A\/G\/) B2 A|G2 E D2 D|! G> B A\/G\/ B2 A\/B\/|( d3 d2) B|! d> B A\/G\/ B2 A|G2 E D2 D|! G> B A\/G\/ B2 A|(G3 G2):|",
+            "member": {
+                "id": 3863,
+                "name": "Alastair Wilson",
+                "url": "https://thesession.org/members/3863"
+            },
+            "date": "2004-04-02 11:58:33"
+        },
+        {
+            "id": 31330,
+            "url": "https://thesession.org/tunes/2749#setting31330",
+            "key": "Gmajor",
+            "abc": "L:1\/4! D|\"G\"G2(3B\/A\/G\/|B2A|\"C\"G2E|\"G\"D2D|G2 (3B\/A\/G\/|\"Em\"B2 A\/B\/|\"D\"d3-|d2B|! \"G\"d2(3B\/A\/G\/|B2A|\"C\"G2E|\"G\"D2D|G2 (3B\/A\/G\/|\"D\"B2A|\"G\"G3-|G2||",
+            "member": {
+                "id": 17544,
+                "name": "Yooval",
+                "url": "https://thesession.org/members/17544"
+            },
+            "date": "2017-11-14 13:34:39"
+        },
+        {
+            "id": 35410,
+            "url": "https://thesession.org/tunes/2749#setting35410",
+            "key": "Dmajor",
+            "abc": "V:1! Ad|\"D\"d4 fe\/d\/|\"D\"f4 fe|\"G\"d4 B2|\"D\"A4 Ad|! V:2! d2|A4 dB\/A\/|d4 AB|B4 d2|f4 df|! V:1! \"Bm\"d4 fe\/d\/|\"E7\" f4 ef|\"Asus\" a6|\"A\/G\"a4 fa||! V:2! f4 dB\/A\/|B4 Bd|d6|c4 df||! V:1! \"D\"a4 fe\/d\/|\"D\"f4 fe|\"G\"d4 B2|\"D\"A4 Ad|! V:2! f4 dB\/A\/|d4 AB|B4 d2|f4 df|! V:1! \"Bm\"d4 fe\/d\/|\"E7\"f4 \"G\/A\"e2|\"D\" d6|\"D\"D4||! V:2! f4 dB\/A\/|B4 G2|F6|F4||",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2019-07-25 09:44:13"
+        },
+        {
+            "id": 43562,
+            "url": "https://thesession.org/tunes/2749#setting43562",
+            "key": "Gmajor",
+            "abc": "D2|\"G\"G4 (3BAG|B4A2|\"C\"G4E2|\"G\"D4D2|! G4 (3BAG|\"Em\"B4 AB|(\"D\"d6|d4)B2|! \"G\"d4(3BAG|B4A2|\"C\"G4E2|\"G\"D4D2|! G4(3BAG|\"D\"B4A2|(\"G\"G6|G4)|",
+            "member": {
+                "id": 146879,
+                "name": "syntithenai",
+                "url": "https://thesession.org/members/146879"
+            },
+            "date": "2022-04-11 10:00:11"
+        },
+        {
+            "id": 43799,
+            "url": "https://thesession.org/tunes/2749#setting43799",
+            "key": "Gmajor",
+            "abc": "V:1! DG|\"G\"G4 BA\/G\/|\"G\"B4 BA|\"C\"G4 E2|\"G\"D4 DG|! V:2! G2|D4 GE\/D\/|G4 DE|E4 G2|B4 GB|! V:1! \"Em\"G4 BA\/G\/|\"A7\" B4 AB|\"Dsus\" d6|\"D\/C\"d4 Bd||! V:2! B4 GE\/D\/|E4 EG|G6|F4 GB||! V:1! \"G\"d4 BA\/G\/|\"G\"B4 BA|\"C\"G4 E2|\"G\"D4 DG|! V:2! B4 GE\/D\/|G4 DE|E4 G2|B4 GB|! V:1! \"Em\"G4 BA\/G\/|\"A7\"B4 \"C\/D\"A2|\"G\" G6|\"G\"G4||! V:2! B4 GE\/D\/|E4 c2|B6|B4||",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2022-05-05 23:23:48"
+        },
+        {
+            "id": 57939,
+            "url": "https://thesession.org/tunes/2749#setting57939",
+            "key": "Gmajor",
+            "abc": "V: 1! (3:1:2 (D2E)|G4(3:1:2(B2G)|B4A2|G4E2|D4 (3:1:2(D2E)|G4 (3:1:2(B2G)|B4(AB)|d6-|-d4(3:1:2(B2d)|! d4 (3:1:2(B>AG)|B4A2|G4E2|D4 (3:1:2(D2E)|G4 (3:1:2(B2G)|B4A2|G6-|G4z2||! V:2! (3:1:2(B,2C)|D4(3:1:2(D2E)|=F4=F2|E4C2|B,4 (3:1:2(B,2C)|D4 (3:1:2(D2E)|G4(G=F)|^F4G2|[FA]4(3:1:2(F2G)|! G4 (3:1:2(E>DC)|G4=F2|E4C2|B,4(3:1:2(B,2C)|D4 (3:1:2(D2G)|F4C2|B,6-|-B,4z2||",
+            "member": {
+                "id": 189222,
+                "name": "Jammin\u2019Cellist",
+                "url": "https://thesession.org/members/189222"
+            },
+            "date": "2026-08-20 15:28:13"
+        }
+    ],
+    "comments": [
+        {
+            "id": 64003,
+            "url": "https://thesession.org/tunes/2749#comment64003",
+            "subject": "",
+            "content": "I am amazed this tune was not already listed!  This is a very simple version with not orimentation",
+            "member": {
+                "id": 3863,
+                "name": "Alastair Wilson",
+                "url": "https://thesession.org/members/3863"
+            },
+            "date": "2004-04-02 12:00:20"
+        },
+        {
+            "id": 64057,
+            "url": "https://thesession.org/tunes/2749#comment64057",
+            "subject": "",
+            "content": "Hmmm. I don't think I've ever heard it in a session or seen it in any of the books or usual sources.  Has this tune got an Irish or other Celtic connection?  Trevor",
+            "member": {
+                "id": 3932,
+                "name": "fidicen",
+                "url": "https://thesession.org/members/3932"
+            },
+            "date": "2004-04-02 20:28:05"
+        },
+        {
+            "id": 64088,
+            "url": "https://thesession.org/tunes/2749#comment64088",
+            "subject": "",
+            "content": "Folks seem to like it played on the GHP at funerals, but I don't know whether that rates as a Celtic Connection 8>) AFAIK the melody's \"own\" name is New Britain; it was published under that name with John Newton's lyrics in William Walker's \"Southern Harmony\" of 1835, the lyrics having been printed originally in \"Olney Hymns\" in 1779 with a different tune. I don't know whether that was the first time New Britain was printed, or whether it was around earlier and just became better known, once \"welded\" to Newton's lyrics. North American in origin, I always thought.",
+            "member": {
+                "id": 4882,
+                "name": "Tish",
+                "url": "https://thesession.org/members/4882"
+            },
+            "date": "2004-04-03 05:48:34"
+        },
+        {
+            "id": 64400,
+            "url": "https://thesession.org/tunes/2749#comment64400",
+            "subject": "",
+            "content": "To be honest -I dont see why anyone would need it written down in ABC form, thats like putting happy birthday on here.",
+            "member": {
+                "id": 2745,
+                "name": "bb",
+                "url": "https://thesession.org/members/2745"
+            },
+            "date": "2004-04-05 14:35:24"
+        },
+        {
+            "id": 64410,
+            "url": "https://thesession.org/tunes/2749#comment64410",
+            "subject": "Happy Birthday",
+            "content": "That's a point Beebs, someone needs to post Happy Birthday. It gets played in sessions all over the world and it would be useful if we can all agree on a key, maybe post a few anecdotes in the comments section. I don't know the tune very well so someone else'll have to do it.",
+            "member": {
+                "id": 4763,
+                "name": "Dr. Dow",
+                "url": "https://thesession.org/members/4763"
+            },
+            "date": "2004-04-05 15:18:50"
+        },
+        {
+            "id": 64534,
+            "url": "https://thesession.org/tunes/2749#comment64534",
+            "subject": "",
+            "content": "um...Trevor, this wouldn't be the first tune posted without any relevance to Irish sessions. I'm going to post the music from Mission Impossible tomorrow....why not? Think Jeremy will let me? I bet there's some w*nker out there who could link it to \"celtic\"(ugh) music.....sigh!",
+            "member": {
+                "id": 2159,
+                "name": "JMH",
+                "url": "https://thesession.org/members/2159"
+            },
+            "date": "2004-04-05 22:43:38"
+        },
+        {
+            "id": 64538,
+            "url": "https://thesession.org/tunes/2749#comment64538",
+            "subject": "And now for something completely different...",
+            "content": "We sometimes play the theme music from Monty Python as a slide. (Liberty Bell - Souza)  Will I post the ABCs for that?",
+            "member": {
+                "id": 9968,
+                "name": "Phantom Button",
+                "url": "https://thesession.org/members/9968"
+            },
+            "date": "2004-04-05 23:22:12"
+        },
+        {
+            "id": 64545,
+            "url": "https://thesession.org/tunes/2749#comment64545",
+            "subject": "",
+            "content": "by no means wishing to rain on anyone else's parade there have indeed been tune postings of a more dubious nature than this one.you might think that's  bit rich coming from someone who never posts tunes...and you'ld be right.    if pushed you could say it's often played by busking pipers and the (highland) pipes are a sort celtic instrument.well,a bit,anyway.  i suppose that if abwilson plays it then that's as least as valid a posting as from someone who posts any old tune they found in some obscure irish\/celtic(?) tune book but which they don't play in sessions themselves.  that's about the only positive thing i can think of.  no offence intended so best wishes  ps: i knew a Grace once and she was n't that amazing.well,not above the surface anyway",
+            "member": {
+                "id": 1287,
+                "name": "biggus dave",
+                "url": "https://thesession.org/members/1287"
+            },
+            "date": "2004-04-06 00:17:55"
+        },
+        {
+            "id": 64552,
+            "url": "https://thesession.org/tunes/2749#comment64552",
+            "subject": "",
+            "content": "Jack, I dare you ; )",
+            "member": {
+                "id": 2159,
+                "name": "JMH",
+                "url": "https://thesession.org/members/2159"
+            },
+            "date": "2004-04-06 00:41:45"
+        },
+        {
+            "id": 64560,
+            "url": "https://thesession.org/tunes/2749#comment64560",
+            "subject": "",
+            "content": "Dave ... I knew a Grace once ands she *was* amazing.  I was about 18 at the time, on holiday, and she was a barmaid in the pub I favoured for the two weeks I was away.  I drunk myself stocious day and night just for the pleasure of \"speaking to her\" (i.e. asking her as often as I could for another pint) ...    What an eejit!",
+            "member": {
+                "id": 4075,
+                "name": "Aidan Crossey",
+                "url": "https://thesession.org/members/4075"
+            },
+            "date": "2004-04-06 01:31:46"
+        },
+        {
+            "id": 64562,
+            "url": "https://thesession.org/tunes/2749#comment64562",
+            "subject": "A waltz!",
+            "content": "There's a nicer .mid here:  http:\/\/www.cyberhymnal.org\/htm\/a\/m\/amazgrac.htm",
+            "member": {
+                "id": 1305,
+                "name": "glauber",
+                "url": "https://thesession.org/members/1305"
+            },
+            "date": "2004-04-06 02:34:42"
+        },
+        {
+            "id": 64568,
+            "url": "https://thesession.org/tunes/2749#comment64568",
+            "subject": "",
+            "content": "LOL....make sure you have your volume turned down if you are at work!!!",
+            "member": {
+                "id": 2159,
+                "name": "JMH",
+                "url": "https://thesession.org/members/2159"
+            },
+            "date": "2004-04-06 03:54:46"
+        },
+        {
+            "id": 64577,
+            "url": "https://thesession.org/tunes/2749#comment64577",
+            "subject": "Amazing Grace",
+            "content": "I think I'm correct in saying that \"Happy Birthday\" is still in copyright.  The way copyright legislation is developing worldwide, and especially in the USA, it wouldn't surprise me in the least if its copyright gets extended indefinitely.    There's a precedent for indefinite copyright extension in the UK: J M Barry's play \"Peter Pan\" was specifically given perpetual copyright in one of the sections of the UK's 1988 Patents Act, but with the very acceptable proviso that all royalties were to go to the Great Ormond Street Hospital for Sick Children in London.  Somehow, I can't see that happening with \"Happy Birthday\" :)  Trevor",
+            "member": {
+                "id": 3932,
+                "name": "fidicen",
+                "url": "https://thesession.org/members/3932"
+            },
+            "date": "2004-04-06 04:20:34"
+        },
+        {
+            "id": 64786,
+            "url": "https://thesession.org/tunes/2749#comment64786",
+            "subject": "Amazing Grace",
+            "content": "Sorry, it's \"Barrie's\", not \"Barry's\"  Trevor",
+            "member": {
+                "id": 3932,
+                "name": "fidicen",
+                "url": "https://thesession.org/members/3932"
+            },
+            "date": "2004-04-07 05:04:30"
+        },
+        {
+            "id": 208282,
+            "url": "https://thesession.org/tunes/2749#comment208282",
+            "subject": "Lyrics",
+            "content": "Amazing Grace  Amazing grace how sweet the sound   That saved a wretch like me.   I once was lost, but now I'm found;   Was blind, but now I see.     'Twas grace that taught my heart to fear   And grace my fear relieved.   How precious did that grace appear   The hour I first believed.     Through many dangers, toils and snares,   We have already come.   'Twas grace that brought us safe thus far,   And grace will lead us home.     When we've been there ten thousand years,   Bright shining as the sun.   We've no less days to sing God's praise   Than when we first begun.     The Lord has promised good to me,   His Word my hope secures.   He will my shield and portion be   As long as life endures.     And when this heart and flesh shall fail   And mortal life shall cease,   I shall possess within the veil   A life of health and peace.      _And I found this version in gaelic:    O Miorbhail gr\u00e0is! nach breagh'an ce\u00f2l;   'S e lorg mi 's mi air chall,   Air seachdran dorch', gun neart, gun tre\u00f2ir,   'S a dh'fhosgail s\u00f9ilean dall.     'S e gr\u00e0s thug e\u00f2las dhomh air in'fheum;   'S e gr\u00e0s thug saors'is s\u00ecth;   'S cha cheannaicheadh \u00f2r a' chruinne-ch\u00e8   Chiad-l\u00e0 bha fios nam chr\u00ecdh'.     Tro iomadh cunnart's trioblaid chruaidh   Thug E gu s\u00e0bhailt mi.   An gr\u00e0s a shaor bhon bh\u00e0s le buaidh   Chan fh\u00e0g's cha tr\u00e8ig gu s\u00ecor.     San dachaigh bhuan gun uair gun t\u00ecm,   'S deich m\u00ecle bliadhn' mar l\u00e0,   Cha sguir an ce\u00f2l's chan fh\u00e0s iad sg\u00ecth   A'seiinn a chaoidh mun ghr\u00e0s.",
+            "member": {
+                "id": 17624,
+                "name": "MBAC",
+                "url": "https://thesession.org/members/17624"
+            },
+            "date": "2006-05-09 20:53:41"
+        },
+        {
+            "id": 255052,
+            "url": "https://thesession.org/tunes/2749#comment255052",
+            "subject": "An air from 9\/11 (Amazing Grace)",
+            "content": "I recorded this on my CD as I recall the powerful images from the attack on New York on 9\/11\/01.  A fantastic tune.",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2007-01-29 08:17:04"
+        },
+        {
+            "id": 327340,
+            "url": "https://thesession.org/tunes/2749#comment327340",
+            "subject": "A comment on peoples comments",
+            "content": "I read earlier that some one wanted to post a song from Mission Impossible....I think it would be great!!! Personally I would to form a band called the Celtic Crossover KIckers....where all music when possible have a celtic twist put to it.  It is something that may just get more people interested in the celtic music.     The strangest thing I have ever heard, where monks singing love songs ,with a true monastic sound,      So if monks can do a version of a love song, why can't other stuff get a celtic twist.     The more people hear it, in a form that they like, the more chances it has to survive before it is a forgotten art.    (or is this thinking to radical).",
+            "member": {
+                "id": 40282,
+                "name": "Greg M",
+                "url": "https://thesession.org/members/40282"
+            },
+            "date": "2007-11-12 10:44:45"
+        },
+        {
+            "id": 367075,
+            "url": "https://thesession.org/tunes/2749#comment367075",
+            "subject": "Irish or Scottish",
+            "content": "Wiki (at this moment) says the tune \"is believed to be\" Irish or Scottish: http:\/\/en.wikipedia.org\/wiki\/Amazing_Grace#Music    However I don't see any citations with this claim.",
+            "member": {
+                "id": 18169,
+                "name": "chemoelectric",
+                "url": "https://thesession.org/members/18169"
+            },
+            "date": "2008-05-04 02:37:21"
+        },
+        {
+            "id": 875152,
+            "url": "https://thesession.org/tunes/2749#comment875152",
+            "subject": "Amazing Grace, X:3",
+            "content": "Some harmony",
+            "member": {
+                "id": 6451,
+                "name": "JACKB",
+                "url": "https://thesession.org/members/6451"
+            },
+            "date": "2019-07-25 09:44:13"
+        },
+        {
+            "id": 942605,
+            "url": "https://thesession.org/tunes/2749#comment942605",
+            "subject": "Re: Amazing Grace",
+            "content": "I used to play in pipe bands and A.G. was played to such an extent that it will be never reclaimed in my mind. But I digress. I believe Happy Birthday is now in the common and accessible repertoire with no restrictions or copyrights. Fill you boots.",
+            "member": {
+                "id": 87685,
+                "name": "bagpiperjohn",
+                "url": "https://thesession.org/members/87685"
+            },
+            "date": "2022-05-07 00:35:02"
+        },
+        {
+            "id": 1016543,
+            "url": "https://thesession.org/tunes/2749#comment1016543",
+            "subject": "Re: Amazing Grace",
+            "content": "Pretty sure the tune and words were written by English men. The tune predates the words but both were hymns. So although played frequently on GHB, the tune itself doesn\u2019t really have any \u201cCeltic\u201d connections.",
+            "member": {
+                "id": 4532,
+                "name": "ParaHandy",
+                "url": "https://thesession.org/members/4532"
+            },
+            "date": "2025-08-10 21:37:26"
+        },
+        {
+            "id": 1035788,
+            "url": "https://thesession.org/tunes/2749#comment1035788",
+            "subject": "Re: Amazing Grace",
+            "content": "It was top of the UK pop charts in 1972 in a recording by the Royal Scots Dragoon Guards, when I first met the man who was later to be my husband, at a dance in Brighton, Sussex. We shuffled around the floor to it, so it became \u201cOur Tune\u201d! True story! And we moved to Scotland in 1986.  (And see the info below the video).  https:\/\/youtu.be\/M8AeV8Jbx6M?is=6Hzzqxoct391pGfr  ",
+            "member": {
+                "id": 23308,
+                "name": "trish santer",
+                "url": "https://thesession.org/members/23308"
+            },
+            "date": "2026-08-21 08:50:53"
+        }
+    ]
+}

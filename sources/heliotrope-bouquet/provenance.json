@@ -1,0 +1,10 @@
+[
+ {
+  "name": "kern-heliotrope.krn",
+  "url": "https://raw.githubusercontent.com/craigsapp/joplin/master/kern/heliotrope.krn",
+  "kind": "kern",
+  "bytes": 13756,
+  "sha256": "f2d03d1b65adbde07d0fd60e19f8012e6eb0742a8131d84b73445146e40f8371",
+  "fetched": "2026-09-18"
+ }
+]

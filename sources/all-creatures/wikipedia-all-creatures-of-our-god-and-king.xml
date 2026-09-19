@@ -1,0 +1,170 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.20</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="126" case="first-letter">MOS</namespace>
+      <namespace key="127" case="first-letter">MOS talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>All Creatures of Our God and King</title>
+    <ns>0</ns>
+    <id>42190775</id>
+    <revision>
+      <id>1349087662</id>
+      <parentid>1349087440</parentid>
+      <timestamp>2026-04-15T18:13:50Z</timestamp>
+      <contributor>
+        <username>EditWarCriminal</username>
+        <id>53067757</id>
+      </contributor>
+      <comment>Reverting edit(s) by [[Special:Contributions/~2026-23239-29|~2026-23239-29]] ([[User_talk:~2026-23239-29|talk]]) to rev. 1278508115 by Adpete: Vandalism ([[w:en:WP:UV|UV 0.1.6]])</comment>
+      <origin>1349087662</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11372" sha1="fjsos5i54yxqv9g41di205fvbqt6n2n" xml:space="preserve">{{Short description|1919 English hymn by William Henry Draper}}
+{{Infobox musical composition
+| name                = All Creatures of Our God and King
+| type                = 
+| image               = St. Francis.jpg
+| alt                 = 
+| caption             = St. Francis
+| translation         = &lt;!-- to English, if hymn name is a different language --&gt;
+| native_name         = &lt;!-- if hymn name is the translation --&gt;
+| native_name_lang    = &lt;!-- two-letter code --&gt;
+| composer            = 
+| genre               = [[Hymn]]
+| occasion            = 
+| text                = [[St. Francis of Assisi]] 
+| language            = 
+| written             = 1225
+| based_on            = {{Sourcetext|source=Bible|version=King James|book=Psalms|chapter=148}} 
+| meter               = 8.8.4.4.8.8 with refrain
+| melody              = "[[Lasst uns erfreuen]]"
+| composed            = &lt;!-- {{Timeline-event|date={{Start date|YYYY|MM|DD|df=y}}|end_date={{End date|YYYY|MM|DD|df=y}}|location=}} --&gt;
+| published           = 
+| misc                =  
+}}
+
+"'''All Creatures of Our God and King'''" is an English Christian [[hymn]] by [[William Henry Draper (hymnwriter)|William Henry Draper]], based on a poem by [[St. Francis of Assisi]]. It was first published in a hymn book in 1919.&lt;ref name="ch"&gt;{{Cite web |url=http://www.cyberhymnal.org/htm/a/c/acoogak.htm |title=All Creatures of Our God and King |publisher=Cyber Hymnal |url-status=dead |archive-url=https://web.archive.org/web/20140327132504/http://cyberhymnal.org/htm/a/c/acoogak.htm |archive-date=2014-03-27 |access-date=2014-03-13}}&lt;/ref&gt;
+
+== History ==
+The words of the hymn were initially written by St. Francis of Assisi&lt;ref name="hymnary"&gt;{{Cite web |url=http://www.hymnary.org/text/all_creatures_of_our_god_and_king |title=All Creatures of our God and King |publisher=Hymnary.org |access-date=2025-03-02}}&lt;/ref&gt; in 1225 in the [[Canticle of the Sun]] poem, which was based on [[Psalm 148]].&lt;ref&gt;{{Cite web |url=http://www.thechristiansentinel.com/2010/06/all-creatures-of-our-god-and-king-mhb-28/ |title=All Creatures of Our God and King (MHB 28) |date=2010-06-01 |publisher=The Christian Sentinel |url-status=dead |archive-url=https://web.archive.org/web/20160211072922/http://www.thechristiansentinel.com/2010/06/all-creatures-of-our-god-and-king-mhb-28/ |archive-date=2016-02-11 |access-date=2014-03-13}}&lt;/ref&gt; The words were translated into English by William Draper, who at the time was [[Rector (ecclesiastical)|rector]] of a [[Church of England parish church]] at [[Adel, Leeds|Adel]] near [[Leeds]]. Draper paraphrased the words of the Canticle and set them to music. It is not known when Draper first wrote the hymn but it was between 1899 and 1919.&lt;ref name="os"&gt;{{Cite book |last=Osbeck |first=Kenneth W. |url=https://archive.org/details/101hymnstories0000osbe/page/20 |title=101 Hymn Stories |publisher=[[Kregel Publications]] |year=1982 |isbn=0825434165 |edition=reprint |page=[https://archive.org/details/101hymnstories0000osbe/page/20 20]}}&lt;/ref&gt; Draper wrote it for his church's children's [[Whitsun]] festival celebrations and it was later published in 1919 in the Public School Hymn Book.&lt;ref name=ch /&gt; As of 2025, it is known to be used in 270 different hymn books.&lt;ref name="hymnary"/&gt; The words written by St Francis are some of the oldest used in hymns after "Father We Praise Thee", written in 580 AD.&lt;ref&gt;{{Cite book |last=Pascall |first=Wayne |title=Understanding the Hymns We Sing |publisher=Wayne Pascall |year=2009 |isbn=978-1448626519 |page=8}}&lt;/ref&gt;
+
+Like "[[Ye Watchers and Ye Holy Ones]]", Draper's text is usually set to the tune of "''{{lang|de|[[Lasst uns erfreuen]]}}''", a German [[Easter]] hymn published by [[Friedrich Spee]] in 1623 in his book ''{{lang|de|Auserlesene Catholische Geistliche Kirchengesäng}}''.&lt;ref&gt;{{Cite web |url=http://hsozkult.geschichte.hu-berlin.de/tagungsberichte/id=1566 |title=Friedrich Spee: der Reformer der Poesie und die Revolution des katholischen Kirchengesangs |year=2007 |publisher=H-Soz-u-Kult |access-date=2014-03-27}}&lt;/ref&gt;&lt;ref&gt;{{Cite web |url=http://www.hymnary.org/tune/lasst_uns_erfreuen |title=Lasst uns erfreuen |publisher=Hymnary.org |access-date=2014-03-27}}&lt;/ref&gt; This tune became widespread in English hymn books starting with a 1906 arrangement by [[Ralph Vaughan Williams]].&lt;ref&gt;''Anglican Hymn Book'' (1965). London:
+Oxford University Press. #251.&lt;/ref&gt;&lt;ref&gt;''[[The Hymnal 1982]]''. The Episcopal Church. New York: Church Hymnal Corp. #400.&lt;/ref&gt;&lt;ref&gt;''[[New English Hymnal]]'' (1986). Norwich: Canterbury Press. #263&lt;/ref&gt;&lt;ref name=os /&gt;&lt;ref name="Press2003"&gt;{{Cite book |url=https://books.google.com/books?id=SXIr_vDOQLoC&amp;pg=PA49 |title=Chalice Hymnal |publisher=Chalice Press |year=2003 |isbn=978-0-8272-8035-9 |page=49}}&lt;/ref&gt; [[John Rutter]] also wrote a piece of music for the hymn.&lt;ref&gt;{{Cite web |url=http://www.tcdailyplanet.net/arts/2014/03/24/music-review-vocalessence-john-rutter |title=VocalEssence Ensemble Singers celebrate the music of John Rutter at Central Lutheran Church |date=2014-03-24 |publisher=Twin Cities Daily Planet |access-date=2014-03-27}}&lt;/ref&gt; Despite the hymn being initially written by Draper for [[Whitsun]] (the Anglican and English designation for [[Pentecost]]), it is mostly used in the earlier weeks of the Easter season.&lt;ref&gt;{{Cite book |last=Bartlett |first=David |title=Feasting on the Word: Preaching the Revised Common Lectionary, Volume 6 |publisher=Westminster John Knox Press |year=2009 |isbn=978-0664231019 |page=460}}&lt;/ref&gt;
+
+==Melody==
+The most common melody is the 1623 German hymn tune ''{{lang|de|[[Lasst uns erfreuen]]}}''.&lt;ref name="hymnary"/&gt; The following setting is from the 1906 ''[[English Hymnal]]'', with the lyrics quoted from the 1986 ''[[New English Hymnal]]'':&lt;ref&gt;{{Cite journal |last=Wilson |first=John |date=Winter 1980 |title=Treasure No 46: The Tune 'Lasst uns erfreuen' as we know it |url=https://hymnsocietygbi.org.uk/1981/01/12/treasure-no-46-the-tune-lasst-uns-erfreuen-as-we-know-it/ |journal=Bulletin of the Hymn Society of Great Britain and Ireland |volume=IX.10 |issue=150 |access-date=13 April 2017 |quote=One of the great successes of ''The English Hymnal'' in 1906 was its inclusion of the old German Catholic tune 'Lasst uns erfreuen', linked originally with Easter rejoicing, but now set to 'Ye watchers and ye holy ones', a new text by Athelstan Riley... The ''EH'' attribution of the melody was to the book ''[Auserlesene, Catholische,] Geistliche Kirchengesäng'' (Cöln, 1623)...}}&lt;/ref&gt;&lt;ref&gt;{{cite book |title=The English Hymnal |date=1906 |page=672 |chapter=Hymn 519}}&lt;/ref&gt;
+
+&lt;score override_audio="All Creatures of Our God and King.ogg"&gt;
+&lt;&lt; &lt;&lt;
+\new Staff { \clef treble \time 3/2 \partial 2 \key es \major \set Staff.midiInstrument = "church organ" \set Score.tempoHideNote = ##t \override Score.BarNumber  #'transparent = ##t
+  \relative c' 
+  &lt;&lt; { es2^\markup { \italic "Unison." } | es4 f g es g as | &lt;bes f&gt;1 es,2 | es4 f g es g as | &lt;bes f&gt;1 \bar"||" 
+  es4^\markup { \italic "Harmony." } d | c2 bes es4 d | c2 bes\fermata \breathe \bar"||" es2^\markup { \italic "Unison." } | es4 bes bes as g as | &lt;bes f&gt;1 es2 | es4 bes bes as g as | bes1 \bar"||"
+  as4^\markup { \italic "Harmony." } g | f2 es as4 g | f2 es es'4 d | c2 bes es4^\markup { \italic "Unison." } d | c2 bes as4 g | f1. | es1 \bar"|." } \\
+  { bes2 | es1 es2 | es2 d es | bes4 d es2 es2 | es2 d
+  bes'4 bes | bes( as) g2 es4 d | g( f) d2 bes'4 as | g2~ g4 f es2 | es d es4 f | &lt;bes es,&gt; &lt;as d,&gt; &lt;g es&gt; es2. | es4 d g f
+  es4 es | es( d) es2 es4 es | es( d) c2 g'4 f | g( f) d2 &lt;bes' g&gt;~ | &lt;bes g&gt;4 &lt;as f&gt;4~ &lt;as f&gt; &lt;g c,&gt; c, es | es2 d1 | bes } \\
+  { s2 | s1. | s1. | s1. | s1 
+  s2 | s1. | s1. | s1. | s1 \stemDown \once \override NoteColumn.force-hshift = 0 bes'2 } &gt;&gt; %necessary for that one note
+}
+\new Lyrics \lyricmode { \set stanza = #"1."All2 crea4 -- tures of our God and King,1
+Lift2 up4 your voice and with us sing1
+Al4 -- le -- lu2 -- ya, al4 -- le -- lu2 -- ya!
+Thou2 burn4 -- ing sun with gold -- en beam,1
+Thou2 sil4 -- ver moon with soft -- er gleam:1
+O2 praise him, O praise him
+Al4 -- le -- lu2 -- ya, Al4 -- le -- lu2 -- ya, Al4 -- le -- lu1. -- ya!1
+}
+\new Lyrics \lyricmode { \set stanza = #"2." Thou2 rush4 -- ing wind that art so strong,1
+Ye2 clouds4 that sail in heaven a -- long,1
+O2 praise him! Al4 -- le -- lu2 -- ya!
+Thou2 ri4 -- sing morn, in praise re -- joice,1
+Ye2 lights4 of eve -- ning, find a voice1
+}
+\new Lyrics \lyricmode { \set stanza = #"3." Thou2 flow4 -- ing wa -- ter, pure and clear,1
+Make2 mu4 -- sic for thy Lord to hear,1
+Al4 -- le -- lu2 -- ya, al4 -- le -- lu2 -- ya!
+Thou2 fire4 so mast -- er -- ful and bright,1
+That2 giv4 -- est man both warmth and light:1
+}
+\new Lyrics \lyricmode { \set stanza = #"7." Let2 all4 things their Cre -- a -- tor bless,1
+And2 wor4 -- ship him in hum -- ble -- ness,1
+O2 praise him! Al4 -- le -- lu2 -- ya!
+Praise,2 praise4 the Fa -- ther, praise the Son,1
+And2 praise4 the Spi -- rit, three in One:1
+}
+\new Staff { \clef bass \key es \major \set Staff.midiInstrument = "church organ"
+  \relative c'
+  &lt;&lt; { g2 | g4 as bes g c2 | bes1 bes4 c | bes as bes2 c | bes1 
+  es4 es | es2 es g,4 bes | bes( a) bes2 es2 | es2~ es4 bes bes as | f2 bes bes | bes~ bes4 es d c | bes1 
+  c4 c | c( bes) bes2 c4 bes | c( as) g2 g4 bes | bes( a) bes2 g2~ | g4 as f g as bes | c2 bes as | g1 } \\
+  { es2 | es~ es2 es8 d c4 f | bes, bes'4 as g as | g f es d c f | bes,2 bes'4 as 
+  g g | as2 es c4 d | es( f) bes,2\fermata g'4 f | es d c d es c | bes2 bes'4 as g as | g f es c' bes as | g f es d 
+  c bes | as2 g f4 g | as( bes) c2 c4 d | es( f) bes,2 c4 d | es f d e f g | as2 bes bes, | &lt;es es,&gt;1 } \\
+  { s2 | s1. | s1. | s1. | s1
+  s2 | s1. | s1. | s1. | s1. | s1. | s1 
+  s2 | s1. | s1. | s1 \stemUp \once \override NoteColumn.force-hshift = 0 bes'2 } &gt;&gt; %necessary for that one note
+}
+&gt;&gt; &gt;&gt;
+\layout { indent = #0 }
+\midi { \tempo 2 = 80 }
+&lt;/score&gt;
+
+== In popular culture ==
+The hymn is prominently featured in the [[Mr. Bean (Mr. Bean episode)|pilot episode]] of the comedy programme ''[[Mr. Bean]]'', where the [[Mr. Bean (character)|title character]] is in church when the congregation sings "All Creatures of Our God and King", but he has no hymnal. Consequently, he mumbles through most of the song, save for the recurrent "Alleluia", which he sings as loudly as possible.&lt;ref&gt;{{Cite episode |title=Mr. Bean |url=https://www.imdb.com/title/tt0651846/?ref_=tt_ep_ep1 |series=Mr. Bean |network=[[ITV (TV network)|ITV]] |station=[[ITV1]] |series-no=1 |number=1 |minutes=22:55 |episode-link=Mr. Bean (Mr. Bean episode) |series-link=Mr. Bean |airdate=1 February 1990}}&lt;/ref&gt;
+
+In the United States, it was covered by the [[David Crowder Band]] on the album ''[[Can You Hear Us?]]'' in 2002 and in the album [[Illuminate (David Crowder Band album)|Illuminate]] in 2003.&lt;ref&gt;{{Cite web |url=http://www.jesusfreakhideout.com/cdreviews/CanYouHearUs.asp |title=David Crowder Band, "Can You Hear Us?" Review |date=2002-02-26 |publisher=Jesus Freak Hideout |access-date=2014-03-13}}&lt;/ref&gt;
+
+== References ==
+{{Reflist}}
+
+== External links ==
+
+{{Francis of Assisi}}
+{{Authority control}}
+
+[[Category:English Christian hymns]]
+[[Category:Francis of Assisi]]
+[[Category:Songs based on poems]]
+[[Category:20th-century hymns]]
+[[Category:Christianity and nature]]
+[[Category:Hymns in The New English Hymnal]]</text>
+      <sha1>fjsos5i54yxqv9g41di205fvbqt6n2n</sha1>
+    </revision>
+  </page>
+</mediawiki>

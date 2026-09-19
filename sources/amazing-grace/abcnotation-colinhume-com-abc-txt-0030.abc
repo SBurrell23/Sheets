@@ -1,0 +1,17 @@
+
+X:31
+T:Amazing Grace
+C:'New Britain': James P. Carrell and David L. Clayton, 1831
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+R:Waltz
+%%MIDI chordprog 19     % Church Organ
+%%MIDI bassprog 58      % Tuba
+%%MIDI program 60       % French Horn
+M:3/4
+%%MIDI beat 100 95 80
+L:1/4
+K:C
+D | [I: MIDI=gchord b2b] "G"G2B/G/ | "G7"B2A | "C"G2 E | "G"D2 "D7"D | "G"G2 B/G/ | "Em"B2A | "D"d3- | d2B |
+"G"d2 B/G/ | "G7"B2A | "C"G2E | "G"D2 "D7"D | "Em"G2B/G/ | "D7"B2A | "G"G3- | G2 |]
+

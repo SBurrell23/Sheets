@@ -1,0 +1,58 @@
+[
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-0030.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F0030",
+  "kind": "abc",
+  "bytes": 527,
+  "sha256": "1ab25d2b2621c7b2e9c4a039ce161cee0dcc087be1e138c661a4925c59410182",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-kaz-neocities-org-combined-tunebook-txt-0015.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=kaz.neocities.org%2FCombined_Tunebook.txt%2F0015",
+  "kind": "abc",
+  "bytes": 265,
+  "sha256": "f97870bd8b769fd5662f992e0f762870ea3f46f6ea1354beaefc1ddbd1d22595",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-music-master-zip-abc-music-master-general-amazing-grace-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=gitlab.com%2Fchrisspen%2Fabc-music%2Fabc-music-master.zip%2Fabc-music-master%2Fgeneral%2Famazing-grace%2F0000",
+  "kind": "abc",
+  "bytes": 148,
+  "sha256": "80d597af300266cd539d633fc1b2e25f5779ec469a7a0e7afc07d1d1a1eee3f4",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-pghardy-net-tunebooks-pgh-session-tunebook-0009.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=pghardy.net%2Ftunebooks%2Fpgh_session_tunebook%2F0009",
+  "kind": "abc",
+  "bytes": 369,
+  "sha256": "1dec5c02a8b24707a4a34c30f05c33527364074ad23d20dcea0d1ae80af67f00",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-amazing_grace-new_britain.abc",
+  "url": "http://openhymnal.org/Abc/Amazing_Grace-New_Britain.abc",
+  "kind": "abc",
+  "bytes": 6196,
+  "sha256": "1c5a62eae58411a00e7dc97fb9bb7a15d7c1cef9e4d04b3525754ec5cf0a261f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "thesession-2749.json",
+  "url": "https://thesession.org/tunes/2749?format=json",
+  "kind": "abc",
+  "bytes": 19865,
+  "sha256": "800a9393488b56f83f288e23ffd81a8ee5cb1bdff79a4d89e96497e8819cb57f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-amazing-grace.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Amazing_Grace",
+  "kind": "lilypond",
+  "bytes": 69787,
+  "sha256": "723fc4a78dde1690b273d56f9af3bffb21f5e42e522a142e7170fc92d30df1bc",
+  "fetched": "2026-09-18"
+ }
+]

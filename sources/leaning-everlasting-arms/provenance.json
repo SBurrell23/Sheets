@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation--com-rickheit-dtrad-abc-dtrad-tar-gz-abc-dtrad-leanarms-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=sniff.numachi.com%2F~rickheit%2Fdtrad%2Fabc_dtrad.tar.gz%2Fabc_dtrad%2FLEANARMS%2F0000",
+  "kind": "abc",
+  "bytes": 334,
+  "sha256": "f9a941719293bf6749e8f6b521359d23d61b19f94742e8a8729272d07ab88a21",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-music-master-general-leaning-on-the-everlasting-arms-ab-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=gitlab.com%2Fchrisspen%2Fabc-music%2Fabc-music-master.zip%2Fabc-music-master%2Fgeneral%2Fleaning-on-the-everlasting-arms-ab%2F0000",
+  "kind": "abc",
+  "bytes": 439,
+  "sha256": "06141c310b54f4508de37f4c124574e3adda536f8e37e4323a07a2229e79571c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-sic-master-general-leaning-on-the-everlasting-arms-cmaj-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=gitlab.com%2Fchrisspen%2Fabc-music%2Fabc-music-master.zip%2Fabc-music-master%2Fgeneral%2Fleaning-on-the-everlasting-arms-cmaj%2F0000",
+  "kind": "abc",
+  "bytes": 478,
+  "sha256": "f9d9105402b8414bce4917b7644df5a0516bef4bd4f1b0a2531ce91e17e1aa05",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-sic-master-general-leaning-on-the-everlasting-arms-gmaj-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=gitlab.com%2Fchrisspen%2Fabc-music%2Fabc-music-master.zip%2Fabc-music-master%2Fgeneral%2Fleaning-on-the-everlasting-arms-gmaj%2F0000",
+  "kind": "abc",
+  "bytes": 458,
+  "sha256": "cffa100c88f7e5ee3bdbec23c85060d4246469d4aebc81442216b5c8814ea7e7",
+  "fetched": "2026-09-18"
+ }
+]

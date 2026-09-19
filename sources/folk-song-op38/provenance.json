@@ -1,0 +1,26 @@
+[
+ {
+  "name": "dcml-grieg_lyric_pieces-op38n02.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/harmonies/op38n02.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 3869,
+  "sha256": "d3c7a31b4b2e867cfee769a50f7a9e1cf78579846b4c955d9bf4ee1d91f5afa7",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op38n02.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/measures/op38n02.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 1518,
+  "sha256": "a916c5454839e73d5b26751dcdd3ba642f4ed81434f48d370bc92995f20977ca",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op38n02.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/notes/op38n02.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 23554,
+  "sha256": "e1f3f9fa9c1370ce926b62986458da49f7bff049b6ac77f7e2741ee41400b841",
+  "fetched": "2026-09-18"
+ }
+]

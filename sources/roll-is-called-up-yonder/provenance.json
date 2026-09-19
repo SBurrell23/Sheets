@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation-c-mirror-lesterbailey-when-the-roll-is-called-up-yonder-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2FLesterBailey%2FWhen_the_Roll_is_Called_Up_Yonder%2F0000",
+  "kind": "abc",
+  "bytes": 262,
+  "sha256": "5530ea90d637a45e7ae032225e388f9c3cfcbbbfce674a4cbe698483b8179789",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-when_the_roll_is_called_up_yonder-when_the_roll_is_called_up_yonder.abc",
+  "url": "http://openhymnal.org/Abc/When_the_Roll_is_Called_Up_Yonder-When_the_Roll_is_Called_Up_Yonder.abc",
+  "kind": "abc",
+  "bytes": 7329,
+  "sha256": "039fabf8a730202ca6b36460239386753a001628b76c6fb48b7106e4aabcb914",
+  "fetched": "2026-09-18"
+ }
+]
