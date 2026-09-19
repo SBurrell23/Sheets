@@ -22,5 +22,14 @@
   "bytes": 9065,
   "sha256": "4158fb3af0cefad9a6911b640baa4b47a798c33cb80b5c6d1d218e9a051e556c",
   "fetched": "2026-09-18"
+ },
+ {
+  "name": "lilypondwiki-jesu-bleibet-meine-freude.ly",
+  "url": "https://lilypond.miraheze.org/index.php?title=Jesu_bleibet_meine_Freude/score&action=raw",
+  "kind": "lilypond",
+  "bytes": 5790,
+  "sha256": "5ca3cff4666a0eb2aadb2bedbfd5fa60b6a5a60cb89497c155be63bf6000f74c",
+  "fetched": "2026-09-18",
+  "note": "Four-voice piano typeset of the whole movement (ritornello + chorale), notated 3/4 with triplet eighths. Fetched because the three cached ABC files carry only the chorale tune, not Bach's triplet ritornello."
  }
 ]

@@ -3,8 +3,18 @@ T:Jesu, Joy of Man's Desiring
 C:J.S. Bach, chorale from Cantata BWV 147, 1723
 M:9/8
 L:1/16
-Q:3/8=63
+Q:3/8=60
 K:C clef=treble
-"C"z2 c2d2 e2g2f2 "F"f2a2g2 | "C"g2c'2b2 c'2g2e2 c2d2e2 | "F"f2g2a2 "C"g2f2e2 "Am"d2e2c2 | "G"B2c2d2 G2B2d2 "G7"f2e2d2 |
-"C"e2c2d2 e2g2f2 "F"f2a2g2 | "C"g2c'2a2 c'2g2e2 c2d2e2 | "G7"d2g2f2 "C"e2d2c2 "G7"G2c2B2 | "C"c2e2g2 c'2g2e2 c2e2g2 |
-"C"c'16 Hz2 |]
+"C"z2 c2d2 e2g2f2 "F/A"f2a2g2 | "C/E"g2c'2b2 "Am"c'2g2e2 c2d2e2 | "Dm"f2g2a2 "C/E"g2f2e2 "F"d2e2c2 | "G"B2c2d2 "G/B"G2B2d2 "G7"f2e2d2 |
+"C"e2c2d2 "Am"e2g2f2 "F"f2a2g2 | "C/E"g2c'2b2 "Am"c'2g2e2 "C/G"c2d2e2 | "F"A2g2f2 "D7/F#"e2d2c2 "G7"G2c2B2 | "C"c2e2g2 c'2g2e2 c2e2g2 |
+"C"e12 "F/A"f6 | "C/E"g12 "C"g6 | "G7"f12 "C/E"e6 | "Dm7"d12 "G"d6 |
+"G7"f2d2B2 "G/B"G2B2d2 "G7"f2e2d2 | "Em"e12 "F/A"f6 | "G/B"g12 "C"e6 | "Dm7"d6 "G7"d6 "C"c6 |
+"C"e2c2d2 "Am"e2g2f2 "F"f2a2g2 | "C/E"g2c'2b2 "Am"c'2g2e2 c2d2e2 | "Dm"f2g2a2 "C/E"g2f2e2 "F"d2e2c2 | "G"B2c2d2 "G/B"G2B2d2 "G7"f2e2d2 |
+"C"e2c2d2 "Am"e2g2f2 "F"f2a2g2 | "C/E"g2c'2b2 "Am"c'2g2e2 "C/G"c2d2e2 | "F"A2g2f2 "D7/F#"e2d2c2 "G7"G2c2B2 | "C"c2e2g2 c'2g2e2 "D7"c2e2^f2 |
+"G"d12 "A7/E"e6 | "Dm"f12 f6 | "Em7b5"e12 "A"e6 | "Dm"d12- d6 |
+"A7"a2d'2^c'2 "Dm"d'2a2f2 d2e2f2 | "Gm"_b2a2g2 "Dm"f2e2d2 "A7"A2d2^c2 | "F/A"f12 "C7"g6 | "F"a12 a6 |
+"Gm7"g12 "C"g6 | "F"f12- f6 | "Dm"d2f2e2 "Bb"f2d2_B2 "Gm"G2A2B2 | "Dm"A2F2G2 "Am"A2c2B2 "C"c2e2d2 |
+"C"e12 "F/A"f6 | "G/B"g12 "C"e6 | "Dm7"d6 "G7"d6 "C"c6 | "C"c2e2g2 c'2g2e2 c2e2g2 |
+"C7"_b2g2e2 c2e2g2 "F"a2f2d2 | "G7"B2d2f2 "C"g2e2c2 "Am"A2c2e2 | "G7"f2d2B2 "G/B"G2B2d2 "G7"f2e2d2 | "C"e2c2d2 "Am"e2g2f2 "F"f2a2g2 |
+"C/E"g2c'2b2 "Am"c'2g2e2 c2d2e2 | "Dm"f2g2a2 "C/E"g2f2e2 "F"d2e2c2 | "G"B2c2d2 "G/B"G2B2d2 "G7"f2e2d2 | "C"e2c2d2 "Am"e2g2f2 "F"f2a2g2 |
+"C/E"g2c'2b2 "Am"c'2g2e2 "C/G"c2d2e2 | "F"a2g'2f'2 "D7/F#"e'2d'2c'2 "G7"g2c'2b2 | "C"c'12- Hc'6 |]

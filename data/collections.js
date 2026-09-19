@@ -862,8 +862,8 @@ window.PS_MANIFEST = [
       "title": "Jesu, Joy of Man's Desiring",
       "key": "C",
       "meter": "9/8",
-      "tempo": 63,
-      "bars": 9,
+      "tempo": 60,
+      "bars": 51,
       "source": "J.S. Bach, chorale from Cantata BWV 147, 1723",
       "pdf": "songs/classical/jesu-joy.pdf"
      },
@@ -982,8 +982,8 @@ window.PS_MANIFEST = [
       "title": "Nocturne, Op. 9 No. 2",
       "key": "C",
       "meter": "12/8",
-      "tempo": 48,
-      "bars": 9,
+      "tempo": 44,
+      "bars": 37,
       "source": "Frederic Chopin, Nocturne in E-flat major, Op. 9 No. 2, 1832",
       "pdf": "songs/classical/nocturne-op9-no2.pdf"
      },
@@ -1212,8 +1212,8 @@ window.PS_MANIFEST = [
       "title": "Toccata and Fugue",
       "key": "Am",
       "meter": "4/4",
-      "tempo": 72,
-      "bars": 12,
+      "tempo": 96,
+      "bars": 43,
       "source": "J.S. Bach, Toccata and Fugue in D minor, BWV 565, c.1704",
       "pdf": "songs/classical/toccata-and-fugue.pdf"
      },
