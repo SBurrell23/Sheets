@@ -306,6 +306,21 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .ctl input[type=range]{height:28px}
   .dircard{padding:16px 17px}
 }
+/* ---------- give the score the screen on tablets and phones ----------
+   Three things were eating the width before the staff even started: the page
+   gutter (16px a side), the sheet card's own padding (another 16) and its
+   border. Sixty-six pixels of a 768px tablet is nine per cent of the score,
+   and a lead sheet is the one thing on the page that actually wants to be
+   wide -- more width is more bars per line and fewer line breaks mid-phrase.
+   On a desktop the 980px column keeps its margins; below that the gutter goes
+   to 1px and the card keeps just enough padding to stop the notation touching
+   its own border. Placed last so it beats the narrower breakpoints above. */
+@media (max-width:1024px){
+  .wrap{padding-inline:1px}
+  .sheet{padding-left:3px; padding-right:3px}
+  /* The star sits absolutely in the corner, so it has to come in with them. */
+  .favmark{left:2px}
+}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important; transition:none !important}}
 @media print{
   .masthead,.picker,.transport,.modal{display:none}
