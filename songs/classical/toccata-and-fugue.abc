@@ -3,8 +3,16 @@ T:Toccata and Fugue
 C:J.S. Bach, Toccata and Fugue in D minor, BWV 565, c.1704
 M:4/4
 L:1/16
-Q:1/4=72
+Q:1/4=96
 K:Am clef=treble
-"Am"e'4 z1 d'1c'1b1 a1^g1a2 z4 | "Am"e4 z1 B1c1^G1 A4 z4 | "Am"E4 z4 "G#dim"B8- | "G#dim"B4 "Am"A4 z4 z2 z1 ^G1 |
-"Am"A1B1^G1A1 B1G1A1B1 "C"c1d1B1c1 d1B1c1d1 | "F"e1f1d1e1 f1d1e1f1 "E7"e6 z1 e1 | "Bm7b5"f4 "Am"e4 "G"d4 "F"c4 | "Em"B4 "Dm"A4 "C"G4 "Bm7b5"F4 |
-"Am"E4 "E7"D4 z4 "G#dim"D4- | "G#dim"D16 | "E7"e1d1c1B1 A1^G1^F1G1 E2G2 B2d2 | "E7"d1c1d1c1 B4 "Am"HA8 |]
+"Am"e'4 z1 d'1c'1b1 a1^g1a2 z4 | "Am"e4 z1 B1c1^G1 A2 z2 z4 | "Am"e4 z1 d1c1B1 A1^G1A2 z4 | "G#dim"z8 B8- |
+"G#dim"B8 "A"A8 | "E7"z8 z4 z2 ^G2 | "Am"(3A1B1^G1(3A1B1G1 (3A1B1G1A1B1 (3c1d1B1(3c1d1B1 (3c1d1B1c1d1 | "Am"(3e1f1d1(3e1f1d1 (3e1f1d1e1 z1 z4 z2 z1 ^g1 |
+"Am"(3a1b1^g1(3a1b1g1 (3a1b1g1a1b1 (3c'1d'1b1(3c'1d'1b1 (3c'1d'1b1c'1d'1 | "Am"(3e'1f'1d'1(3e'1f'1d'1 (3e'1f'1d'1e'1 z1 z4 z2 z1 e'1 | "Bdim"(3d'1f'1b1(3d'1f'1b1 "Am"(3c'1e'1a1(3c'1e'1a1 "G"(3b1d'1g1(3b1d'1g1 "F"(3a1c'1f1(3a1c'1f1 | "Em"(3g1b1e1(3g1b1e1 "Dm"(3f1a1d1(3f1a1d1 "C"(3e1g1c1(3e1g1c1 "Bdim"(3d1f1B1(3d1f1B1 |
+"Am"(3c1e1A1(3c1e1A1 "E7"(3B1d1^G1(3B1d1G1 z4 "G#dim"f4- | "G#dim"f8- f1e1d1c1 B1A1^G1^F1 | "G#dim"^G2E2 G2B1d1 "Am"c6 "E7"B2 | "Am"A4 z2 z1 e1 a1b1c'1a1 b1c'1d'1b1 |
+"Am"c'1d'1e'1c'1 d'1e'1f'1d'1 e'1c'1d'1b1 c'1a1b1^g1 | "Am"a1e1f1d1 e1c1d1B1 c1A1d1B1 c1A1B1^G1 | "Am"A4 z1 "F/A"c1f1c1 z1 "Em/G"B1e1B1 z1 "Dm/F"A1d1A1 | "E"z2 B1e1 z2 "F/A"f2 z2 "Em/G"e2 z2 "Dm/F"d2 |
+"E"e4 z1 "F/A"c1f1c1 z1 "Em/G"B1e1B1 z1 "Dm/F"A1d1A1 | "E"z2 B1e1 z2 "F/A"f2 z2 "Em/G"e2 z2 "Dm/F"d2 | "E"e8 e1d1"Am"c1B1 A1"E7"^G1^F1G1 | "E7"E1^F1^G1A1 B1"Am"c1d1e1 d1c1B1c1 A1c1e1"E7"^g1 |
+"Am"a1e1^f1^g1 a1b1c'1d'1 e'1f'3 z2 "F/A"f'2 | "Em/G"z2 e'2 z2 "Dm/F"d'2 "E"e'4 z1 "F"c'1f'1c'1 | "Em"z1 b1e'1b1 z1 "Dm"a1d'1a1 z2 "E"b1e'1 z2 "F/A"f'2 | "Em/G"z2 e'2 z2 "Dm/F"d'2 "E"e'4 "D#dim"^f4 |
+"G#dim"^g6 ^f2 e2g2 b1d'1f'2 | "E7"e'1d'1c'1b1 c'1b1a1^g1 "Am"a1=g1f1e1 d1c1B1A1 | "G#dim"b8 (3^g1b1g1(3f1g1f1 (3g1b1g1(3f1g1f1 | "G#dim"(3^g1b1g1(3f1g1f1 (3g1b1g1(3f1g1f1 (3d1f1d1(3B1d1B1 (3d1f1d1(3B1d1f1 |
+"G#dim"(3d1f1d1(3B1d1B1 (3d1f1d1(3B1d1B1 (3^G1B1G1(3F1G1F1 (3G1B1G1(3F1G1F1 | "G#dim"(3^G1B1G1(3F1G1F1 (3G1B1G1(3F1G1F1 (3G1B1G1(3B1d1B1 (3G1B1G1(3B1d1B1 | "G#dim"(3^G1B1G1(3B1d1B1 (3G1B1G1(3B1d1B1 (3d1f1d1(3f1d1f1 (3d1f1d1(3f1d1f1 | "G#dim"(3^g1f1g1(3b1g1b1 (3g1b1g1(3b1g1b1 "E7"e'4 "Am/C"e'4 |
+"Dm/F"d'4 z4 "E7"d'4 z4 | "Am"z4 z2 z1 "E7"^g1 "Am/C"a2"Am"c2 "E"B4 | "Am"A8 z1 e1d1e1 c1e1B1e1 | "Am"A1e1^G1e1 A1e1B1e1 c1e1E1e1 ^F1e1"E7"G1e1 |
+"Am"A1e1^G1e1 A1e1B1e1 z1 "Am/C"a1g1a1 "Dm"f1a1e1a1 | "Dm"d1a1^c1a1 d1a1e1a1 "F"f1a1A1a1 "A"B1a1c1a1 | "Dm"d1a1^c1a1 d1a1e1"A"a1- Ha8 |]
