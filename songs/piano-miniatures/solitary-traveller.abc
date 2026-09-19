@@ -1,0 +1,15 @@
+X:1
+T:Solitary Traveller
+C:Edvard Grieg, Lyric Pieces Op. 43 No. 2, 1886
+M:6/8
+L:1/16
+Q:3/8=39
+K:Am clef=treble
+"Am7"A2 | "Am7"G3F1E2 E4 A2 | "Am7"G3F1E2 E4 C1D1 | "Am"E6 "E7"E3^G1B1c1 |
+"Am"B2 A6 z2 "C"c2 | "Cmaj7"B3A1G2 G4 c2 | "Cmaj7"B3A1G2 G4 E1F1 | "C"G6 "G7"G3B1d1e1 |
+"C"d2 c6 z2 "E"e2 | "G#dim"d3c1B2 "D#dim"c3A1c2 | "E"B6- B4 e2 | "G#dim"^d3=d1c1B1 "D#dim"d3c1A1c1 |
+"E"B6- B4 "B7"^c1^d1 | "E"B6- B4 "B7"^c1^d1 | "E"B2e2"B7"^c1^d1 "E"B2e2"B7"c1d1 | "E"B2e2"Am"B2 e2"Dm"e2a2 |
+"C#dim"g3f1e2 e4 "F"f2 | "Fmaj7"e3d1"F"c2 c4 "Am"C1D1 | "Am"E6 "E7"E3^G1B1c1 | "Am"B2 A6 z2 "E"e2 |
+"G#dim"d3c1B2 "D#dim"c3A1c2 | "E"B6- B4 e2 | "G#dim"^d3=d1c1B1 "D#dim"d3c1A1c1 | "E"B6- B4 "B7"^c1^d1 |
+"E"B6- B4 "B7"^c1^d1 | "E"B2e2"B7"^c1^d1 "E"B2e2"B7"c1d1 | "E"B2e2"Am"B2 e2"Dm"e2a2 | "C#dim"g3f1e2 e4 "F"f2 |
+"Fmaj7"e3d1"F"c2 c4 "Am"C1D1 | "Am"E6 "E7"E3^G1B1c1 | "Am"B2 A6 Hz2 |]

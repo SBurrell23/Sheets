@@ -1,0 +1,19 @@
+X:1
+T:March: Song of the Lark
+C:Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 3, 1876
+M:2/4
+L:1/16
+Q:1/4=40
+K:Am clef=treble
+"Am"z8 | "Am"z8 | "Am"z2 A2 "G#dim"^G3B1 | "Am"A1c1e1^g1 "E7"a3g1 |
+"Am"e2A2 "E7"^G3B1 | "Am"A1c1e1^g1 "E7"a3g1 | "E7"z2 A2 ^G3B1 | "Am/C"A1c1e1^g1 "A7"a3=g1 |
+"Dm"g2f2 e2d2 | "E7"d1^G1A1B1 c3B1 | "Am"A2"Bdim"e2 e3B1 | "C"c1^d1e1f1 "G7"g1^g1c'1b1 |
+"C"d'3c'1 "E7"e'1b1e'1b1 | "Am/C"e'1a2c'1- c'1"G#dim"^g2b1- | "Am/C"b1e2a1 "Bdim"e3B1 | "C"c1^d1e1f1 "G7"g1^g1c'1b1 |
+"C"d'3c'1 "E7"c'1^g1c'1g1 | "Am/C"b1e2a1 "E7"c1B1c1B1 | "Am/C"B1A2E1 "Bdim"E3B1 | "C"C1^D1E1F1 "G7"G1^G1c1B1 |
+"C"d3c1 "E7"e1B1e1B1 | "Am/C"e1E2A1 "B7"A1^D1A1D1 | "E"A3^G1 z1 E1^D1E1 | "E7"B1^d1e2 z1 a1^g1a1 |
+"E7"e'1e2E1 z1 E1^D1E1 | "E7"B1^d1e2 z1 a1^g1a1 | "E7"e'1e2E1 z1 a1^g1a1 | "E7"e'1e2E1 z1 "D#dim"^d2^D1 |
+"E7"z1 e2E1 z1 "D#dim"^d2^D1 | "E"z1 e2E1 z1 e2E1 | "Am"z2 A2 "G#dim"^G3B1 | "Am"A1c1e1^g1 "E7"a3g1 |
+"Am"e2A2 "E7"^G3B1 | "Am"A1c1e1^g1 "E7"a3g1 | "E7"z2 A2 ^G3B1 | "Am/C"A1c1e1^g1 "A7"a3=g1 |
+"Dm"g2f2 e2d2 | "E7"d1^G1A1B1 c3B1 | "Am"A2A2 "G#dim"^G3B1 | "Am"A1c1e1^g1 "G#dim"a3g1 |
+"Am"e2A2 "E7"^G3B1 | "Am"A1c1e1^g1 "E7"a3g1 | "Am"e2 z2 a3"E7"^g1 | "Am"e2 z2 a3"E7"^g1 |
+"Am"e8- | "Am"He8 |]

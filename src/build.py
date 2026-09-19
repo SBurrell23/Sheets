@@ -141,8 +141,14 @@ def landing_rhythms(song):
 
 def main():
     force = '--force' in sys.argv          # re-engrave even if unchanged
-    ms = None if '--no-pdf' in sys.argv else find_musescore()
-    if not ms:
+    # Two different reasons to have no engraver, and they used to print the same
+    # line -- so a --no-pdf run reported "MuseScore not found", which reads like a
+    # broken install and sent at least one person looking for one.
+    no_pdf = '--no-pdf' in sys.argv
+    ms = None if no_pdf else find_musescore()
+    if no_pdf:
+        print('note: --no-pdf, skipping engraving (data files only)')
+    elif not ms:
         print('note: MuseScore not found, skipping PDF engraving')
     if not os.path.isdir(COLLECTIONS):
         print('no collections/ directory')

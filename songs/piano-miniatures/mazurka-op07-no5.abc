@@ -1,0 +1,12 @@
+X:1
+T:Mazurka in C
+C:Frédéric Chopin, Mazurkas Op. 7 No. 5, 1832
+M:3/4
+L:1/16
+Q:1/4=168
+K:C clef=treble
+"G"z12 | "G"z12 | "G"z12 | "G"z12 |
+"G7"(3d2e2d2 G4 c3e1 | "G7"(3d2e2d2 G4 c3e1 | "G7"a4 g3e1 f3d1 | "C"c3e1 g3b1 d'3c'1 |
+"G7"(3d2e2d2 G4 c3e1 | "G7"(3d2e2d2 G4 c3e1 | "G7"a4 g3e1 f3d1 | "C"c3d1 e3B1 "Am"d3c1 |
+"D7"(3A2B2A2 D4 G3B1 | "D7"(3A2B2A2 D4 G3B1 | "D7"e4 d3B1 c3A1 | "G"G3B1 d3^f1 a3g1 |
+"D7"(3A2B2A2 D4 G3B1 | "D7"(3A2B2A2 D4 G3B1 | "D7"^f4 e3B1 c3A1 | "G"G3B1 d3^f1 a3Hg1 |]

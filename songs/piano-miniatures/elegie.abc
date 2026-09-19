@@ -1,0 +1,19 @@
+X:1
+T:Elegie
+C:Edvard Grieg, Lyric Pieces Op. 38 No. 6, 1883
+M:3/4
+L:1/16
+Q:1/4=80
+K:Am clef=treble
+"E"e12- | "Am"(3e2^d2B2 =d4 "A"^c4 | "Am"(3c2B2^F2 A4 "E/B"^G4 | "Dm"(3A2A2A2 "C"c8 |
+"Dm/F"(3d2d2d2 "E"e8- | "Am"(3e2^d2B2 =d4 "A"^c4 | "Am"(3c2B2^F2 A4 "E/B"^G4 | "Dm"(3A2A2A2 "C"c4 "E7"B4 |
+"E7"B4 "Am"A4 z4 | "C"c8- (3c2B2G2 | "F/A"B3A1 A8 | "F/A"A8 "F"(3G2F2D2 |
+"C/E"F3E1 E8 | "Dm"f4 f4- (3f2e2^c2 | "G7"e3d1 d8 | "Dm"f4 f4- (3f2e2^c2 |
+"G7"e3d1 d4 "Cmaj7"(3e2d2B2 | "Fmaj7"d3c1 c4 "Bm7b5"(3d2c2^A2 | "E7"c3B1 B4 e4 | "E7"c3B1 B4 e4- |
+"Am"(3e2^d2B2 =d4 "A"^c4 | "Am"(3c2B2^F2 A4 "E/B"^G4 | "Dm"(3A2A2A2 "C"c8 | "Dm/F"(3d2d2d2 "E"e8- |
+"Am"e1^d1B1d1 =d2^c2 "A"c4 | "Am"c1B1^F1B1 A2^G2 "E/B"G4 | "Dm"(3A2A2A2 "C"c4 "E7"B4 | "E7"B4 "Am"A4 z4 |
+"C"c8- (3c2B2G2 | "F/A"B3A1 A8 | "F/A"A8 "F"(3G2F2D2 | "C/E"F3E1 E8 |
+"Dm"f4 f4- (3f2e2^c2 | "G7"e3d1 d8 | "Dm"f4 f4- (3f2e2^c2 | "G7"e3d1 d4 "Cmaj7"(3e2d2B2 |
+"Fmaj7"d3c1 c4 "Bm7b5"(3d2c2^A2 | "E7"c3B1 B4 e4 | "E7"c3B1 B4 e4- | "Am"(3e2^d2B2 =d4 "A"^c4 |
+"Am"(3c2B2^F2 A4 "E/B"^G4 | "Dm"(3A2A2A2 "C"c8 | "Dm/F"(3d2d2d2 "E"e8- | "Am"e1^d1B1d1 =d2^c2 "A"c4 |
+"Am"c1B1^F1B1 A2^G2 "E/B"G4 | "Dm"(3A2A2A2 "C"c4 "E7"B4 | "E7"B4 "Am"A4 Hz4 |]

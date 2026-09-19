@@ -2602,6 +2602,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/piano-miniatures/january-by-the-fireside.pdf"
      },
      {
+      "slug": "july-song-of-the-reaper",
+      "title": "July: Song of the Reaper",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 56,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 7, 1876",
+      "pdf": "songs/piano-miniatures/july-song-of-the-reaper.pdf"
+     },
+     {
       "slug": "knight-of-the-hobbyhorse",
       "title": "Knight of the Hobbyhorse",
       "key": "C",

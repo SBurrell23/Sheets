@@ -1,0 +1,21 @@
+X:1
+T:Gnossienne No. 3
+C:Erik Satie, Gnossiennes No. 3, 1890
+M:4/4
+L:1/16
+Q:1/4=80
+K:Am clef=treble
+"Am"a2a2 ^d2d2 ^f2f2- f4 | "Am"z4 e2e2 ^d2d2 c2c2 | "Em"B2B2- B4 z8 | "Em"z16 |
+"Am"a2a2 ^d2d2 ^f2f2- f4 | "Am"z4 e2e2 ^d2d2 c2c2 | "Em"B2B2- B4 z8 | "Dm"d4 B2B2 c2c2- c4 |
+"E"B2B2- B4 z8 | "Dm"d16- | "Dm"d4 B2B2 d2d2 B2B2 | "Dm"^G2A2 B2d2 B2A2 G2A2 |
+"Dm"B2d2 B2A2 ^G2A2 B2d2 | "Am"f2f2 A2A2- A4 z4 | "Am"z16 | "Em"e2e2 ^A2A2 ^c2c2- c4 |
+"Em"z4 B2B2 ^A2A2 G2G2 | "Bm"^F2F2- F4 z8 | "Bm"z16 | "Em"e2e2 ^A2A2 ^c2c2- c4 |
+"Em"z4 B2B2 ^A2A2 G2G2 | "Bm"^F2F2- F4 z8 | "F#m"A16 | "Em"E2^F2 G2^A2 B2^c2 e2c2 |
+"Em"B2^A2 G2^F2 E2F2 G2A2 | "Em"B2^c2 e2c2 B2^A2 G2^F2 | "Em"E2^F2 G2^A2 B2^c2 e2c2 | "Bm"d2d2- d4 z8 |
+"Bm"z16 | "Em"E2^F2 G2^A2 B2^c2 e2c2 | "Em"B2^A2 G2^F2 E2F2 G2A2 | "Em"B2^c2 e2c2 B2^A2 G2^F2 |
+"Em"E2^F2 G2^A2 B2^c2 e2c2 | "Bm"d2d2- d4 z8 | "Am"A16- | "Am"A8 z8 |
+"Fm"_A16- | "Fm"_A8 z8 | "Fm"_A2B2 c2_e2 d2c2 B2A2 | "Fm"c2c2- c4 z8 |
+"Dm"d16- | "Dm"d8 z8 | "Fm"_A2B2 c2_e2 d2c2 B2A2 | "Fm"c2c2- c4 z8 |
+"Dm"d16 | "Am"a2a2 ^d2d2 ^f2f2- f4 | "Am"z4 e2e2 ^d2d2 c2c2 | "Em"B2B2- B4 z8 |
+"Em"z16 | "Am"a2a2 ^d2d2 ^f2f2- f4 | "Am"z4 e2e2 ^d2d2 c2c2 | "Em"B2B2- B4 z4 B2B2 |
+"Am"e2e2- e4 z8 | "Am"Hz16 |]

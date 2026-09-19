@@ -1,0 +1,12 @@
+X:1
+T:Perfectly Contented
+C:Robert Schumann, Kinderszenen Op. 15 No. 5, 1838
+M:2/4
+L:1/16
+Q:1/4=66
+K:C clef=treble
+"G7"^f2 | "G7"g2b2 e'2d'2 | "G"c'2g2 z2 g2 | "G7"g1d1d1e1 f2a2 |
+"C"g2e2 "G"d2^f2 | "G7"g4 z2 B2 | "C"c2e2 a2"C7"g2 | "F"f2a2 d'2"Fm"c'2 |
+"G7"b2"F"a2 "G7"g2"Bb6"g2 | "Bb7"_a2d'2 g'2f'2 | "Bb"_e'2_b2 z2 b2 | "Bb7"_b1f1f1g1 _a2c'2 |
+"Eb"_b2g2 "Bb"f2"Bb6"g2 | "Bb7"_a2d'2 g'2"Bdim"f'2 | "C"e'2"G7"b2 d'2"C"c'2 | "F"a2"C7"e2 g2"F"f2 |
+"G7"e2d2 "C"Hc4 |]
