@@ -1,0 +1,27 @@
+{
+  "title": "You're a Grand Old Flag",
+  "source": "George M. Cohan, 1906 (George Washington, Jr.)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 120,
+  "pickup": 4,
+  "bars": [
+    { "chord": "C",  "notes": "G5:3 E5:1" },
+    { "chord": "C",  "notes": "C5:4 C5:4 C5:4 A4:2 G4:2" },
+    { "chord": "G7", "notes": "C5:2 D5:4 B4:2 [C]C5:4 A4:2 G4:2" },
+    { "chord": "C",  "notes": "C5:4 A4:2 G4:2 C5:4 A4:2 G4:2" },
+    { "chord": "G7", "notes": "B4:8~ B4:2 R:2 G4:2 A4:2" },
+    { "chord": "G7", "notes": "B4:4 [C]C5:4 [G7]D5:6 G4:2" },
+    { "chord": "C",  "notes": "C5:4 [G7]D5:4 [C]E5:6 C5:2" },
+    { "chord": "D7", "notes": "D5:2 E5:4 C5:2 D5:2 E5:4 C5:2" },
+    { "chord": "G7", "notes": "D5:8~ D5:2 R:2 G5:3 E5:1" },
+    { "chord": "C",  "notes": "C5:4 C5:4 C5:4 A4:2 G4:2" },
+    { "chord": "G7", "notes": "C5:2 D5:4 B4:2 [C]C5:4 B4:2 [C7]Bb4:2" },
+    { "chord": "A7", "notes": "A4:2 C#5:4 E5:2 A4:4 E5:4" },
+    { "chord": "Dm", "notes": "D5:8~ D5:2 R:2 [G7]G4:2 G4:2" },
+    { "chord": "C",  "notes": "C5:6 B4:2 C5:4 E5:4" },
+    { "chord": "G7", "notes": "D5:6 C#5:2 D5:4 B4:2 G4:2" },
+    { "chord": "F",  "notes": "A4:2 C5:4 A4:2 [G7]C5:4 B4:4" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

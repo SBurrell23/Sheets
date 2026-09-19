@@ -1,0 +1,44 @@
+{
+  "title": "Honeysuckle Rose",
+  "source": "Fats Waller, 1929 (Load of Coal)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 132,
+  "bars": [
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:8" },
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:8" },
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:4 E5:4" },
+    { "chord": "Dm7",  "notes": "E5:8 [G7]E5:2 D5:2 C5:2 A4:2" },
+    { "chord": "C",    "notes": "C5:4 C5:4 [Am7/E]C5:8~" },
+    { "chord": "F7",   "notes": "C5:8 Eb5:2 D5:2 [G7]C5:2 A4:2" },
+    { "chord": "C",    "notes": "C5:8~ [F7]C5:8~" },
+    { "chord": "Em7",  "notes": "C5:8~ [A7]C5:8" },
+
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:8" },
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:8" },
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:4 E5:4" },
+    { "chord": "Dm7",  "notes": "E5:8 [G7]E5:2 D5:2 C5:2 A4:2" },
+    { "chord": "C",    "notes": "C5:4 C5:4 [Am7/E]C5:8~" },
+    { "chord": "F7",   "notes": "C5:8 Eb5:2 D5:2 [G7]C5:2 A4:2" },
+    { "chord": "C",    "notes": "C5:8~ [F7]C5:8~" },
+    { "chord": "Em7",  "notes": "C5:8~ [G7]C5:8" },
+
+    { "chord": "C7",   "notes": "C5:4 C5:4 D5:4 D5:4" },
+    { "chord": "C7",   "notes": "D#5:4 D#5:4 E5:4 E5:4" },
+    { "chord": "F7",   "notes": "R:4 F5:2 G5:4 F5:2 G5:4" },
+    { "chord": "F7",   "notes": "Ab5:4 G5:2 F5:2~ F5:8" },
+    { "chord": "D7",   "notes": "D5:8 E5:8" },
+    { "chord": "D7",   "notes": "F5:8 F#5:8" },
+    { "chord": "G7",   "notes": "R:4 G5:2 A5:4 G5:2 A5:4" },
+    { "chord": "G7",   "notes": "Bb5:4 A5:2 G5:2~ G5:8" },
+
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:8" },
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:8" },
+    { "chord": "Dm7",  "notes": "G5:2 F5:2 A4:2 C5:2 [G7]E5:4 E5:4" },
+    { "chord": "Dm7",  "notes": "E5:8 [G7]E5:2 D5:2 C5:2 A4:2" },
+    { "chord": "C",    "notes": "C5:4 C5:4 [Am7/E]C5:8~" },
+    { "chord": "F7",   "notes": "C5:8 Eb5:2 D5:2 [G7]C5:2 A4:2" },
+    { "chord": "C",    "notes": "C5:8~ [F7]C5:8~" },
+    { "chord": "C",    "notes": "C5:16" }
+  ]
+}

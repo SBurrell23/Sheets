@@ -40,15 +40,22 @@ The chorus is usually **32 bars**. Two shapes are common, but they are not the o
 **write the form the song actually has**, and say what it was in your report:
 
 - **AABA** — eight bars, the same eight again with a different tail, a contrasting bridge, and
-  the eight again. *Ain't Misbehavin'*, *Blue Skies*, *I Can't Give You Anything But Love*, and
-  *Bye Bye Blackbird*, whose second A is the first sequenced a step higher. This is much the
-  commoner of the two.
+  the eight again. *Ain't Misbehavin'*, *Blue Skies*, *I Can't Give You Anything But Love*,
+  *Someone to Watch Over Me*, and *Bye Bye Blackbird* — whose second A is the first **sequenced a
+  step higher**, so not one bar of it matches literally and it can easily be mistaken for a B.
+  AABA is much the commoner of the two.
 - **ABAC** — eight bars, a contrasting eight, the first eight again, a new close.
-  *Someone to Watch Over Me*.
+  *Look for the Silver Lining*.
 
-**Bye Bye Blackbird was listed under ABAC here until an arranger with two independent
-transcriptions in front of it said otherwise.** Take that as the standing warning: check the
-form against a source, do not take it from this list or from memory.
+**Both of the examples originally on the ABAC line were wrong**, and it took two arrangers and a
+mechanical check to sort out, because the two arrangers then contradicted each other. What
+settled it was comparing the written files bar by bar: in *Someone to Watch Over Me* the second
+eight shares six of its eight bars with the first and the bridge shares none, which is AABA; in
+*Look for the Silver Lining* the first eight returns at bar 17 instead, which is ABAC.
+
+So: **check the form against the notes, not against this list, not against a report, and not
+against memory.** A second eight that is the first one sequenced up a step is the case that
+fools everybody, including whoever writes the analysis you are reading.
 
 *Tea for Two* is neither: its bridge is the tune again a major third higher with a new rhythm,
 and its last eight is a fresh strain. An arranger who went looking for an AABA bridge in bars
@@ -301,6 +308,9 @@ Cross-check against published sources. For this repertoire the ones that pay are
     to twelve or fourteen eighths instead of sixteen.
   - A file that has been through email may be **quoted-printable mangled**. That is a damaged copy
     of something, not a second source.
+  - To tell a duplicate from a second opinion in one step, **compare the `sha256` values in
+    `provenance.json`** rather than diffing the files. Two of one arranger's three songs had
+    byte-identical pairs.
   - A **two-voice file** — one with a `%%staves (chords melody)` header — carries chord symbols in
     *both* voices, and they do not always agree. One arranger found the two voices of the same
     file contradicting each other over the last four bars of a song. Read both and reconcile
