@@ -150,7 +150,9 @@ pitch. Character pieces sustain across barlines constantly — use it wherever t
 There is no cap.
 
 **A triplet** is `(3 ... )`: `(3 C5:2 D5:2 E5:2)` is three eighths in the time of two. The
-durations inside must sum to a multiple of 3, and a group holds 2 to 4 notes.
+durations inside must sum to a multiple of 3, and a group holds 2 to 4 notes. **A chord
+marker cannot prefix the group** — `[F](3 G4:2 F4:2 D4:2)` is rejected as a bad token. Put
+it on the first note inside instead: `(3 [F]G4:2 F4:2 D4:2)`.
 
 Use either **only where the music actually has one**.
 
@@ -182,6 +184,12 @@ one to avoid an honest silence.
    pickup the piece has not got, to avoid one.
 3. **Range `C4` to `G6`.** **Do not bend a melody to the window.** If a phrase sits outside,
    move that whole phrase — or the whole section — by an octave, and say so in your report.
+   Occasionally a section spans so close to the full window that it fails at one end or the
+   other whichever octave you choose, and exactly one note is the casualty — Album Leaf's A
+   section, which reaches for a single octave flick above the ceiling, is the case. Then
+   keep the octave that costs you one note rather than many, write that note where it fits,
+   and **name the bars in your report**. One reported, deliberate alteration beats
+   transposing a whole section into the wrong register.
    Character pieces often state a tune low and repeat it an octave up; that octave is
    expressive and moving only one of the two flattens the piece. Move both or neither.
 4. **End where the piece ends.** A held tonic is usual but not forced. Several of these end
@@ -269,16 +277,33 @@ phrases come from.
 
    - `*.notes.tsv` — one row per note, with `staff`, `voice`, `midi`, `name`, `octave`,
      `tpc` (enharmonic spelling, so you know D♯ from E♭), `mn` (bar number), `mn_onset`
-     (position in the bar as a fraction), `duration`, `tied` and `gracenote`. Filter to
-     `staff == 1` and the top `voice` and you have the melody, mechanically, with no
-     reading of a texture at all. The `gracenote` column tells you exactly which notes are
-     ornaments, which is what §3 needs.
-   - `*.harmonies.tsv` — an **expert Roman-numeral analysis**: `localkey`, `numeral`,
+     (position in the bar as a fraction), `duration`, `tied` and `gracenote`. The
+     `gracenote` column tells you exactly which notes are ornaments, which is what §3
+     needs.
+
+     **Filtering to `staff == 1` and the top voice gives you a candidate line, not the
+     melody.** An earlier draft of this spec said it gave you the melody mechanically, and
+     that is wrong in a way that produces a validator-passing file which is not the piece.
+     Grieg's Album Leaf is the worked example: through its entire B section, staff 1 plays
+     nothing but offbeat dyads — no note on any downbeat — while the tune sits in the
+     **left hand**, staff 2. Filter blindly and you publish sixteen bars of accompaniment.
+
+     So: take the filter as a first guess and then check it against §5. The cheapest test
+     is that a melody has notes on strong beats and a shape; an accompaniment figure
+     repeats, sits off the beat, or holds one pitch while something else moves. When staff
+     1 looks like that, **look at staff 2 before you write anything**. The data is still a
+     piano texture with a staff number attached, and §5 governs it.
+   - `*.harmony.tsv` — an **expert Roman-numeral analysis**: `localkey`, `numeral`,
      `form`, `figbass`, `relativeroot`, `cadence`, `pedal`. This is a musicologist's
      reading of the harmony, so you are translating a labelled chord into a chord symbol
-     rather than guessing one from the left hand. Where it disagrees with what you hear,
+     rather than guessing one from the left hand. **The `root`, `bass_note` and
+     `chord_tones` columns are line-of-fifths numbers relative to the LOCAL key, not
+     the global one.** Read `localkey` first and interpret them against it; taken as
+     global they produce plausible-looking nonsense the moment a piece modulates. Where it disagrees with what you hear,
      it is usually right — but say so in your report either way.
    - `*.measures.tsv` — bar lengths, repeats and voltas, which settles §1a for you.
+     (The three files are named `dcml-<corpus>-<piece>.notes.tsv`, `.harmony.tsv` and
+     `.measures.tsv`; read `provenance.json` in the same folder for their source URLs.)
 
    Use the harmony file to write the chords and the notes file to write the melody, and
    spot-check both against the PDF in the corpus's `pdf/` folder. Verify your finished
