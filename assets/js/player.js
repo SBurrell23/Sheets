@@ -49,13 +49,12 @@
     var b = document.createElement("button");
     b.className = "dircard"; b.type = "button";
     b.innerHTML = '<span class="dt"><span class="dicon"></span><span class="dname"></span></span>' +
-                  '<span class="dn"></span><span class="db"></span>';
+                  '<span class="dn"></span>';
     b.querySelector(".dicon").innerHTML = PS.artFor(c.id);
     b.querySelector(".dname").textContent = c.title;
     b.querySelector(".dn").textContent =
       n + (n === 1 ? " song" : " songs") +
       (c.sets.length > 1 ? "  ·  " + c.sets.length + " sets" : "");
-    b.querySelector(".db").textContent = c.blurb || "";
     b.addEventListener("click", function () { selectCollection(c.id); closeDir(); });
     b.dataset.cid = c.id;
     dirlist.appendChild(b);
@@ -102,6 +101,7 @@
       cards[i].setAttribute("aria-current", String(cards[i].dataset.cid === coll.id));
     }
     buildSongList();
+    paintFavCard();
     bag = []; trail = [];
     try { localStorage.setItem("lastCollection", coll.id); } catch (e) {}
     if (!flat.length) { showEmpty(); return; }
@@ -139,7 +139,17 @@
   }
 
   // The Favorites card's count changes as you star things, so redraw it.
+  /* The masthead favourites card shows the same number as its category card,
+     so it repaints from the same place. */
+  function paintFavCard() {
+    var n = PS.favCount();
+    $("favcount").textContent = n + (n === 1 ? " song" : " songs");
+    $("favcard").setAttribute("aria-current",
+      String(!!coll && coll.id === PS.FAV_ID));
+  }
+
   function repaintDirCounts() {
+    paintFavCard();
     var cards = dirlist.querySelectorAll(".dircard");
     for (var i = 0; i < cards.length; i++) {
       var c = COLLECTIONS.filter(function (x) { return x.id === cards[i].dataset.cid; })[0];
@@ -873,6 +883,9 @@
   /* ================= modals ================= */
   function openDir() { $("dirmodal").hidden = false; $("dirclose").focus(); }
   function closeDir() { $("dirmodal").hidden = true; $("browse").focus(); }
+  $("favcard").addEventListener("click", function () {
+    selectCollection(PS.FAV_ID);
+  });
   $("browse").addEventListener("click", openDir);
   $("dirclose").addEventListener("click", closeDir);
   $("dirmodal").addEventListener("click", function (e) { if (e.target === this) closeDir(); });

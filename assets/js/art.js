@@ -40,6 +40,20 @@ window.PS = window.PS || {};
       '<path d="M5 20.4V6.6c0-1.1.9-2 2-2h6.2C17.6 4.6 21 8.2 21 12.7c0 4.2-3.1 7.7-7.1 7.7z"/>' +
       '<path d="M5 16.8h7.3v3.6"/>' +
       '<path d="M7.4 16.8v3.6M9.8 16.8v3.6"/>',
+    // Irish & Scottish had no entry and was falling through to the generic
+    // quaver. A shamrock. Drawn as three plain lobes meeting at a centre
+    // rather than interlocking heart curves: at 22px in a category card the
+    // clever version came out an illegible knot, and three circles and a stem
+    // still read as a clover at that size.
+    "irish-scottish":
+      '<circle cx="12" cy="6.9" r="3.3"/>' +
+      '<circle cx="8.2" cy="12.2" r="3.3"/>' +
+      '<circle cx="15.8" cy="12.2" r="3.3"/>' +
+      '<path d="M12 12.6c.3 3.6-.7 6.2-2.9 8"/>',
+    // Favorites gets the same star as the one on the score, so the header card,
+    // the category card and the thing you click on the sheet are one symbol.
+    "favorites":
+      '<path d="M12 3.1l2.7 5.5 6.1.9-4.4 4.3 1.04 6.06L12 17l-5.44 2.86L7.6 13.8 3.2 9.5l6.1-.9z"/>',
     "ai-music":
       '<path d="M8.6 2.4l1.3 3.6 3.6 1.3-3.6 1.3-1.3 3.6-1.3-3.6L3.7 7.3l3.6-1.3z"/>' +
       '<circle cx="13.6" cy="18.3" r="2.4"/><path d="M16 18.3v-7.1l3.8 1.4"/>'
