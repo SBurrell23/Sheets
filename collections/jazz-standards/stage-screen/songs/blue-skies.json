@@ -1,0 +1,44 @@
+{
+  "title": "Blue Skies",
+  "source": "Irving Berlin, 1926 (Betsy)",
+  "key": "Am",
+  "meter": "4/4",
+  "tempo": 138,
+  "bars": [
+    { "chord": "Am", "notes": "A4:8 E5:8~" },
+    { "chord": "Am/G#", "notes": "E5:8 D5:2 C5:2 D5:4" },
+    { "chord": "Am7/G", "notes": "E5:16~" },
+    { "chord": "Am6/F#", "notes": "E5:8 D5:2 C5:2 [Fm]D5:4" },
+    { "chord": "C", "notes": "E5:8 [Am7]G4:8~" },
+    { "chord": "Dm7", "notes": "G4:8 [G7]G4:2 A4:4 C5:2~" },
+    { "chord": "C", "notes": "C5:16~" },
+    { "chord": "Bm7b5", "notes": "C5:8~ [E7]C5:8" },
+
+    { "chord": "Am", "notes": "A4:8 E5:8~" },
+    { "chord": "Am/G#", "notes": "E5:8 D5:2 C5:2 D5:4" },
+    { "chord": "Am7/G", "notes": "E5:16~" },
+    { "chord": "Am6/F#", "notes": "E5:8 D5:2 C5:2 [Fm]D5:4" },
+    { "chord": "C", "notes": "E5:8 [Am7]G4:8~" },
+    { "chord": "Dm7", "notes": "G4:8 [G7]G4:2 A4:4 C5:2~" },
+    { "chord": "C", "notes": "C5:16~" },
+    { "chord": "C", "notes": "C5:8~ [G7]C5:8" },
+
+    { "chord": "C", "notes": "C5:2 D5:2 E5:2 F5:2 G5:8" },
+    { "chord": "Fm", "notes": "Ab5:2 G5:2 F5:4 [C]G5:8" },
+    { "chord": "Fm", "notes": "F5:2 E5:2 D5:4 [C]E5:8" },
+    { "chord": "G7", "notes": "D5:2 C5:2 B4:4 [C]C5:8" },
+    { "chord": "C", "notes": "C5:2 D5:2 E5:2 F5:2 G5:8" },
+    { "chord": "Fm", "notes": "Ab5:2 G5:2 F5:4 [C]G5:8" },
+    { "chord": "Fm", "notes": "F5:2 E5:2 D5:4 [C]E5:8" },
+    { "chord": "G7", "notes": "D5:2 C5:2 B4:4 [C]C5:8" },
+
+    { "chord": "Am", "notes": "A4:8 E5:8~" },
+    { "chord": "Am/G#", "notes": "E5:8 D5:2 C5:2 D5:4" },
+    { "chord": "Am7/G", "notes": "E5:16~" },
+    { "chord": "Am6/F#", "notes": "E5:8 D5:2 C5:2 [Fm]D5:4" },
+    { "chord": "C", "notes": "E5:8 [Am7]G4:8~" },
+    { "chord": "Dm7", "notes": "G4:8 [G7]G4:2 A4:4 C5:2~" },
+    { "chord": "C", "notes": "C5:16~" },
+    { "chord": "C", "notes": "C5:16" }
+  ]
+}

@@ -22,7 +22,8 @@ machine-readable notation for this title at all? A song that has none can only b
 done by reading page scans, which measured about 3x the tokens of an ABC-sourced
 one -- so it is a decision, not a default.
 """
-import argparse, hashlib, io, json, os, re, sys, time
+import argparse, hashlib, http.cookiejar, io, json, os, re
+import shutil, subprocess, sys, tempfile, time
 import urllib.parse
 import urllib.request
 
@@ -37,8 +38,31 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
 TIMEOUT = 25
 
 
-def get(url, referer=None, binary=False):
-    """-> (bytes|str, None) or (None, 'why it failed')."""
+# A cookie jar, kept for the life of the process. The scan archives that hold
+# most of the 1900-1929 popular repertoire -- bepress sites like Mississippi
+# State's Charles Templeton collection at scholarsjunction.msstate.edu -- hand
+# out a session cookie on the item page and then 403 any download that arrives
+# without it. Two arrangers independently hit that wall and worked around it with
+# curl; this is the same trick, in the tool, so nobody does it a third time.
+_JAR = http.cookiejar.CookieJar()
+_OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_JAR))
+
+
+def get(url, referer=None, binary=False, via=None):
+    """-> (bytes|str, None) or (None, 'why it failed').
+
+    `via` is a landing page to load first, for its cookies, and then to send as
+    the Referer. That is what gets a bepress PDF: the item page sets a session
+    cookie and the download checks for it plus a same-site referer.
+    """
+    if via:
+        try:
+            _OPENER.open(urllib.request.Request(via, headers={
+                'User-Agent': UA, 'Accept': 'text/html,*/*',
+            }), timeout=TIMEOUT).read()
+        except Exception:
+            _curl(via)                 # warm curl's jar too, for the fallback
+        referer = referer or via
     req = urllib.request.Request(url, headers={
         'User-Agent': UA,
         'Accept': '*/*',
@@ -46,13 +70,44 @@ def get(url, referer=None, binary=False):
         'Referer': referer or 'https://www.google.com/',
     })
     try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-            raw = r.read()
+        raw = _OPENER.open(req, timeout=TIMEOUT).read()
     except Exception as ex:
-        return None, str(ex)[:120]
+        raw, why = _curl(url, referer)
+        if raw is None:
+            return None, str(ex)[:120] if why is None else '%s (curl: %s)' % (str(ex)[:80], why)
     if binary:
         return raw, None
     return raw.decode('utf-8', 'replace'), None
+
+
+def _curl(url, referer=None):
+    """Last resort: hand the request to curl.
+
+    The bepress scan archives -- scholarsjunction.msstate.edu and the
+    digitalcommons.* family, which between them hold a lot of the 1900-1929
+    popular repertoire -- 403 urllib and serve curl the same file, with the same
+    headers and the same cookies. So it is not the cookie and not the referer;
+    something about the request itself is being fingerprinted. Rather than lose
+    the source over it, shell out. Two arrangers had already worked this out by
+    hand before it was worth putting in the tool.
+    """
+    exe = shutil.which('curl')
+    if not exe:
+        return None, 'curl not on PATH'
+    jar = os.path.join(tempfile.gettempdir(), 'sheets-curl-jar.txt')
+    cmd = [exe, '-sSL', '--max-time', str(TIMEOUT * 2), '-A', UA,
+           '-c', jar, '-b', jar, '-o', '-']
+    if referer:
+        cmd += ['-e', referer]
+    cmd.append(url)
+    try:
+        out = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    except Exception as ex:
+        return None, str(ex)[:80]
+    if out.returncode != 0 or not out.stdout:
+        return None, (out.stderr.decode('utf-8', 'replace')[:80].strip()
+                      or 'exit %d, empty body' % out.returncode)
+    return out.stdout, None
 
 
 # ---------------------------------------------------------------- cache
@@ -602,6 +657,18 @@ def main():
     f.add_argument('url')
     f.add_argument('--name')
     f.add_argument('--kind', default='other')
+    f.add_argument('--via', help='landing page to load first, for its session '
+                                 'cookie, and to send as the Referer. This is '
+                                 'what gets a bepress PDF (scholarsjunction, '
+                                 'digitalcommons) past its 403.')
+
+    ad = sub.add_parser('add', help='cache a file you already have on disk')
+    ad.add_argument('slug')
+    ad.add_argument('path')
+    ad.add_argument('--url', default='(added by hand)',
+                    help='where it came from, for provenance')
+    ad.add_argument('--name')
+    ad.add_argument('--kind', default='other')
 
     s = sub.add_parser('show', help='list what is cached for a slug')
     s.add_argument('slug')
@@ -644,10 +711,26 @@ def main():
 
     if a.cmd == 'fetch':
         name = a.name or os.path.basename(urllib.parse.urlparse(a.url).path) or 'source'
-        data, err = get(a.url, binary=True)
+        data, err = get(a.url, binary=True, via=a.via)
         if err:
             print('failed: %s' % err)
+            if not a.via:
+                print('  if this is a bepress host (scholarsjunction.msstate.edu,'
+                      ' digitalcommons.*), retry with --via <the item page url>')
             return 1
+        if not data:
+            print('failed: the server returned an empty body')
+            return 1
+        n = store(a.slug, name, data, a.url, a.kind)
+        print('cached %s/%s (%d bytes)' % (a.slug, name, n))
+        return 0
+
+    if a.cmd == 'add':
+        # For a file fetched by some route this tool does not have. Recording it
+        # here is what stops the next arranger paying for retrieval twice, which
+        # is the whole reason sources/ is committed.
+        name = a.name or os.path.basename(a.path)
+        data = io.open(a.path, 'rb').read()
         n = store(a.slug, name, data, a.url, a.kind)
         print('cached %s/%s (%d bytes)' % (a.slug, name, n))
         return 0

@@ -85,6 +85,8 @@ must not be padded to reach it:
 - **A 1900s chorus written in whole notes.** *By the Light of the Silvery Moon* really is 16 bars
   of common time; the phrase heads are whole notes. Doubling its note values to reach 32 would
   break §4 and the tempo along with it.
+- **A chorus that is simply short.** *A Good Man Is Hard to Find* has a twenty-bar printed
+  chorus and that is the whole song. If the sheet says twenty, write twenty and say so.
 - **A chorus printed in 2/4**, which is most of the marches and two-steps before about 1910.
   Thirty-two printed 2/4 bars fold into **sixteen written 4/4 bars** — see §4 — and those sixteen
   are the whole song. *You're a Grand Old Flag*, *Give My Regards to Broadway* and *Bill Bailey*
@@ -133,6 +135,12 @@ Write exactly one file to the path you are given,
 - `tempo` — quarter notes per minute. Ballads 72–100, medium swing 112–160, up-tempo 176–220.
   Stay inside 50–220. **If your source is a printed sheet in cut time**, its metronome mark
   counts half notes: double it. See §4.
+
+  **A MIDI's note durations can be a performance too**, not just its tempo. One file's onsets
+  drifted and its declared tempo had no relation to the actual pulse — but the gaps *between*
+  onsets, normalised against the recurrence period of a repeating figure, quantised exactly. Taking
+  pitches from a MIDI and cross-checking the rhythm by gap ratios, with the chords off a scan, is
+  what made one song tractable.
 
   **That doubling applies to a printed metronome mark and to nothing else.** A MIDI file's tempo
   event is microseconds per *quarter note* by definition, whatever its time signature says, so a
@@ -214,7 +222,9 @@ written durations inside must sum to a multiple of 3 (`2 2 2`, `4 4 4`, or `4 2`
 holds 2 to 4 notes. A chord marker cannot prefix a triplet group — put it on the first note
 **inside** the group.
 
-**No double accidentals.** `C##5` is rejected; respell it.
+**No double accidentals.** `C##5` is rejected; respell it. **Respell a merely ugly one too** — a
+printed `B#` that transposes to `E#` is an `F`, and writing it as one costs nothing and reads
+better. Say in your report that you did.
 
 **A `[Chord]` marker may sit on anything that begins a token** — including a rest and the second
 half of a tie. `[F7]R:4` and `C5:8~ [Dm7]C5:8` are both legal and both useful: the harmony can
@@ -255,6 +265,10 @@ bridge missing.
    If a phrase sits outside it, move that whole phrase, or the whole section, by an octave.
    Only if the song genuinely will not fit either way should you alter a note, and then say
    which in your report.
+
+   One rule of thumb the window does not give you: **if the whole chorus sits below `C5`**, move
+   all of it up an octave. It is legal where it is, but it engraves as a page of ledger lines
+   under the staff, and every other song on the site sits higher.
 4. **The song ends on the tonic** — or on the root of the closing chord — held at least a half
    note. Most of these end on a long tonic anyway. **In whatever octave the tune actually lands**:
    the check is on pitch class, `C5` is only the commonest answer, and a song whose last phrase
@@ -350,8 +364,18 @@ Cross-check against published sources. For this repertoire the ones that pay are
   (Johns Hopkins), **archive.org** and the **Library of Congress** have most of this repertoire.
   Levy serves one PDF per song at a predictable URL: a collection page at
   `levysheetmusic.mse.jhu.edu/collection/<box>/<item>` links
-  `.../sites/default/files/collection-pdfs/levy-<box>-<item>.pdf`. archive.org items of the form
-  `archive.org/details/sm_<slugged-title>` have worked repeatedly.
+  `.../sites/default/files/collection-pdfs/levy-<box>-<item>.pdf`. **Levy's own search is no
+  longer usable over plain HTTP** — the old Blacklight path 404s and the current one 403s — so
+  web-search the domain for the item page, load that, and take the PDF link out of it.
+  archive.org items of the form `archive.org/details/sm_<slugged-title>` have worked repeatedly.
+
+  **Mississippi State's Charles Templeton collection** at `scholarsjunction.msstate.edu` deserves
+  equal billing and is not obvious: it had two of the three titles Levy lacked for one arranger,
+  including a **first edition**. The `digitalcommons.*` family is the same software. Those hosts
+  403 a plain request and serve the identical file to `curl`; `src/sources.py` now falls back to
+  curl automatically, so `fetch --via <item page url>` gets them. If you obtain a file by some
+  other route, register it rather than leaving it loose: `python src/sources.py add <slug> <path>
+  --url <where it came from>`.
 
   **How to actually read one on this machine:**
 
@@ -364,8 +388,29 @@ Cross-check against published sources. For this repertoire the ones that pay are
     far end; then **tint the known pitch rows** (C4, G4, C5, G5, C6) before reading the crop; and
     use a connected-component notehead detector as a tiebreak. One arranger read two complete
     1910 choruses that way, pitch by pitch.
+  - **Draw the guides at the SPACE CENTRES, not on the lines.** Then a notehead is unambiguously
+    "on a coloured band" (a space) or "between two" (a line), which turns a judgement into a
+    reading. Eyeballing a notehead's centre is reliable to about half a staff space, and half a
+    space is a whole step of error.
+  - **Re-detect per crop, and distrust a global fit.** These scans sag and skew: one page had the
+    same staff half a space lower at the right edge than the left, and a system whose lines were
+    estimated rather than detected came out 1.2 diatonic steps off — silently transposing a whole
+    system. `staffread.py` fits per crop for this reason.
   - Zoom in specifically on any note near the edge of the C4–G6 window, and on anything that
     looks wrong. Two of that arranger's oddest-looking readings were confirmed correct.
+  - Rough budget: 25–35 image reads per song for the melody, plus zooms. A 150 dpi scan is at the
+    limit — fine in the middle of the staff, genuinely ambiguous below the bottom line — and the
+    piano's inner voices at that resolution are not worth attempting.
+
+  **Check what the scan is before you budget time on it for harmony.** Two surprises, in opposite
+  directions, both from real songs here:
+
+  - A scan of a 1910 song turned out to be a **late-1920s reprint of the original plates with a
+    full ukulele chord chart added** — about sixty changes across the chorus, and by far the best
+    chord source that arranger had. So "pre-1920 means no chord symbols" is about the *original*
+    edition, not about the copy in front of you.
+  - A **1926** sheet printed ukulele fingering **grids with no letter names at all**. A scan can
+    be authoritative for the melody and silent on the harmony.
 
   Reading a scan is the expensive option and the only one that settles a rhythm. Budget for it on
   the early material rather than treating it as a last resort.

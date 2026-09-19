@@ -1,0 +1,51 @@
+{
+  "title": "Some of These Days",
+  "source": "Shelton Brooks, 1910",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 132,
+  "pickup": 12,
+  "bars": [
+    { "chord": "Am",  "notes": "E5:4 [F7]D#5:4 [Am]E5:4" },
+
+    { "chord": "E7",  "notes": "D5:16~" },
+    { "chord": "E7",  "notes": "D5:4 E5:2 E5:2 E5:4 D5:4" },
+    { "chord": "Am",  "notes": "C5:8 [Dm]A4:4~ [F7]A4:4~" },
+    { "chord": "Am",  "notes": "A4:4 E5:4 [F7]D#5:2 [Am]E5:6" },
+
+    { "chord": "E7",  "notes": "D5:16~" },
+    { "chord": "E7",  "notes": "D5:4 E5:2 E5:2 E5:4 D5:4" },
+    { "chord": "Am",  "notes": "C5:8 [Dm]A4:8~" },
+    { "chord": "Am",  "notes": "A4:4 A4:4 [C]G#4:2 [Am]A4:6" },
+
+    { "chord": "A7",  "notes": "F5:8 F5:8~" },
+    { "chord": "A7",  "notes": "F5:4 E5:4 C#5:2 A4:6" },
+    { "chord": "D7",  "notes": "E5:8 E5:8~" },
+    { "chord": "D7",  "notes": "E5:4 A4:4 [Bm]B4:2 [D7]D5:6" },
+
+    { "chord": "D7",  "notes": "E5:8 E5:8~" },
+    { "chord": "D7",  "notes": "E5:4 D5:4 [C]A5:2 [D7]D5:6" },
+    { "chord": "G",   "notes": "G5:4~ [G7]G5:4~ [Am7]G5:4~ [A7]G5:4~" },
+    { "chord": "G",   "notes": "G5:4 G5:4 [G7]G5:2 E5:6" },
+
+    { "chord": "C7",  "notes": "C5:8 C5:8" },
+    { "chord": "C7",  "notes": "C5:4 G5:4 G5:2 A5:6" },
+    { "chord": "F",   "notes": "E5:8 E5:8~" },
+    { "chord": "F",   "notes": "E5:4 E5:4 E5:2 E5:6" },
+
+    { "chord": "A7",  "notes": "E5:8 E5:8~" },
+    { "chord": "A7",  "notes": "E5:4 E5:4 E5:2 F5:6" },
+    { "chord": "Dm",  "notes": "D5:4~ [Bb7]D5:4~ [Dm]D5:4~ [Bb7]D5:4~" },
+    { "chord": "Dm",  "notes": "D5:4 A4:4 [Bb7]G#4:4 [Dm]A4:4" },
+
+    { "chord": "F",   "notes": "A5:8 A5:8~" },
+    { "chord": "F#dim", "notes": "A5:4 A5:4 G#5:2 A5:6" },
+    { "chord": "C",   "notes": "G5:8 E5:8~" },
+    { "chord": "C",   "notes": "E5:4 G5:2 A5:2 A5:2 G5:2 E5:2 D5:2" },
+
+    { "chord": "C",   "notes": "E5:4 [E7]E5:4 [Gm]E5:4 [A7]E5:4" },
+    { "chord": "D7",  "notes": "R:4 E5:2 [G7]G5:2 G5:2 E5:2 D5:4" },
+    { "chord": "C",   "notes": "C5:16~" },
+    { "chord": "C",   "notes": "C5:8~ [G7]C5:4~ [C]C5:4" }
+  ]
+}
