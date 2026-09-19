@@ -6,8 +6,8 @@
   "tempo": 63,
   "bars": [
     { "chord": "C",      "notes": "E6:2 E6:2 E6:2 E6:2" },
-    { "chord": "Bdim7",  "notes": "E6:2 C#6:2 D6:4" },
-    { "chord": "Bdim7",  "notes": "D6:2 D6:2 D6:2 D6:2" },
+    { "chord": "Bdim",   "notes": "E6:2 C#6:2 D6:4" },
+    { "chord": "Bdim",   "notes": "D6:2 D6:2 D6:2 D6:2" },
     { "chord": "C",      "notes": "D6:2 B5:2 C6:4" },
 
     { "chord": "F#m7b5", "notes": "C6:2 C6:2 [Cmaj7]B5:2 B5:2" },
@@ -21,8 +21,8 @@
     { "chord": "G7sus4", "notes": "C5:8" },
 
     { "chord": "C",      "notes": "E6:2 E6:2 E6:2 E6:2" },
-    { "chord": "Bdim7",  "notes": "E6:2 C#6:2 D6:4" },
-    { "chord": "Bdim7",  "notes": "D6:2 D6:2 D6:2 D6:2" },
+    { "chord": "Bdim",   "notes": "E6:2 C#6:2 D6:4" },
+    { "chord": "Bdim",   "notes": "D6:2 D6:2 D6:2 D6:2" },
     { "chord": "C",      "notes": "D6:2 B5:2 C6:4" },
 
     { "chord": "C7",     "notes": "G5:2 G5:2 [D7]F#5:2 D5:1 F#5:1" },

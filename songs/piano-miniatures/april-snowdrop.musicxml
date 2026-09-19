@@ -42,7 +42,7 @@
     <measure number="3">
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/><accidental>sharp</accidental></note>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
@@ -135,7 +135,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/><accidental>flat</accidental></note>
       <note><pitch><step>D</step><octave>6</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
@@ -214,7 +214,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/><accidental>flat</accidental></note>
       <note><pitch><step>D</step><octave>6</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
@@ -232,7 +232,7 @@
     <measure number="23">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
@@ -531,7 +531,7 @@
       <note><pitch><step>C</step><octave>4</octave></pitch><duration>9</duration><voice>1</voice><type>eighth</type><dot/><beam number="1">begin</beam></note>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">continue</beam><beam number="2">begin</beam></note>
       <note><pitch><step>D</step><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">continue</beam></note>
@@ -560,7 +560,7 @@
     <measure number="46">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>9</duration><voice>1</voice><type>eighth</type><dot/><accidental>sharp</accidental><beam number="1">begin</beam></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
@@ -590,7 +590,7 @@
     <measure number="48">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>9</duration><voice>1</voice><type>eighth</type><dot/><accidental>sharp</accidental><beam number="1">begin</beam></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">begin</beam></note>
@@ -655,7 +655,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/><accidental>sharp</accidental></note>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
@@ -747,7 +747,7 @@
     <measure number="63">
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/><accidental>flat</accidental></note>
       <note><pitch><step>D</step><octave>6</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
@@ -766,7 +766,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
@@ -789,7 +789,7 @@
     <measure number="67">
       <harmony print-frame="no">
         <root><root-step>G</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><alter>1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
@@ -828,7 +828,7 @@
     <measure number="70">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
       <harmony print-frame="no">
@@ -840,7 +840,7 @@
     <measure number="71">
       <harmony print-frame="no">
         <root><root-step>G</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><alter>1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <note><pitch><step>B</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
@@ -879,7 +879,7 @@
     <measure number="74">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
       <harmony print-frame="no">
@@ -891,7 +891,7 @@
     <measure number="75">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
       <harmony print-frame="no">
@@ -903,7 +903,7 @@
     <measure number="76">
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>18</duration><voice>1</voice><type>quarter</type><dot/></note>
       <harmony print-frame="no">
@@ -916,7 +916,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><tie type="start"/><duration>18</duration><voice>1</voice><type>quarter</type><dot/><notations><tied type="start"/></notations></note>
       <note><pitch><step>B</step><octave>4</octave></pitch><tie type="stop"/><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam><notations><tied type="stop"/></notations></note>

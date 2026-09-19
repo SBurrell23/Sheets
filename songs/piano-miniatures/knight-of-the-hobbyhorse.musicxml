@@ -152,7 +152,7 @@
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>

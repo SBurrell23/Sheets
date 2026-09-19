@@ -22,15 +22,15 @@
       "notes": "C#5:2 C5:2 C#5:4 A5:4"
     },
     {
-      "chord": "D#dim7",
+      "chord": "D#dim",
       "notes": "C5:4~ C5:2 D5:2 [G#7]D5:2 C5:2"
     },
     {
-      "chord": "G#dim7",
+      "chord": "G#dim",
       "notes": "B4:2 A#4:2 B4:4 [Bm7b5]F5:4"
     },
     {
-      "chord": "G#dim7",
+      "chord": "G#dim",
       "notes": "E5:4~ E5:2 D5:2 [E7]C5:2 B4:2"
     },
     {
@@ -151,15 +151,15 @@
     },
     {
       "chord": "D7",
-      "notes": "D5:4 [Bdim7]F5:8"
+      "notes": "D5:4 [Bdim]F5:8"
     },
     {
       "chord": "C#m7b5",
-      "notes": "C#5:4 [A#dim7]E5:8"
+      "notes": "C#5:4 [A#dim]E5:8"
     },
     {
       "chord": "Cm7b5",
-      "notes": "C5:4 [D#dim7]D#5:8"
+      "notes": "C5:4 [D#dim]D#5:8"
     },
     {
       "chord": "E",
@@ -178,15 +178,15 @@
       "notes": "C#5:2 C5:2 C#5:4 A5:4"
     },
     {
-      "chord": "D#dim7",
+      "chord": "D#dim",
       "notes": "C5:4~ C5:2 D5:2 [G#7]D5:2 C5:2"
     },
     {
-      "chord": "G#dim7",
+      "chord": "G#dim",
       "notes": "B4:2 A#4:2 B4:4 [Bm7b5]F5:4"
     },
     {
-      "chord": "G#dim7",
+      "chord": "G#dim",
       "notes": "E5:4~ E5:2 D5:2 [E7]C5:2 B4:2"
     },
     {

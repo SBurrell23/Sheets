@@ -259,11 +259,14 @@ so `R:14` is rejected exactly as `C5:14` would be; write `R:12 R:2`. A full bar 
    on a fading fragment or an unresolved chord; if that is what is printed, write it. The
    validator prints a NOTE, not an error, for an unusual close.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`,
-   `dim`, `dim7`, `aug`, `6`, `m6`. A slash bass is allowed: `G/B`.
-   **Use `dim7` for a fully diminished seventh and `dim` only for the triad** -- in
-   this repertoire almost every diminished chord is a seventh. **`aug` is the
-   augmented triad**, and it is also the nearest honest spelling of the upper
-   structure of a French or German sixth when no dominant-seventh symbol fits.
+   `dim`, `6`, `m6`. A slash bass is allowed: `G/B`.
+   **There is no `dim7` and no `aug`, and that is deliberate.** Almost every
+   diminished chord in this repertoire is a fully diminished seventh, and augmented
+   triads are common too; both suffixes were added and then taken back out, because
+   these are beginner-to-intermediate sheets and the simplification is the point.
+   **Write `dim` for a diminished seventh and the plain triad for an augmented one**,
+   and note in your report where the source has more than you could print. Someone
+   who wants the full chord can read it off the score.
 
 ## 5. Finding the melody
 

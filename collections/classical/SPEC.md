@@ -123,10 +123,11 @@ music holds. Use one wherever the music genuinely sustains. Neither is capped. W
    not got. The validator will print a NOTE, not an error, when the close is unusual — read it
    and make sure you have not simply stopped mid-phrase.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`,
-   `dim7`, `aug`, `6`, `m6`. A slash bass is allowed: `G/B`.
-   `dim7` and `aug` were added for the Romantic piano repertoire, where they are
-   ordinary. In **this** collection they almost never are: if you reach for one, the
-   source had better print it, and say so in your report.
+   `6`, `m6`. A slash bass is allowed: `G/B`.
+   There is no `dim7` and no `aug`: write a fully diminished seventh as `dim` and an
+   augmented triad as the plain triad, and say so in your report. Both suffixes were
+   tried on the Romantic piano collection and taken back out -- these are
+   beginner-to-intermediate sheets and the simplification is the point.
 
 ## 5. Harmony
 

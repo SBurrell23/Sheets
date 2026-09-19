@@ -195,7 +195,7 @@
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
@@ -231,7 +231,7 @@
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
@@ -333,7 +333,7 @@
       <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">begin</beam><beam number="2">begin</beam></note>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">end</beam></note>
@@ -348,7 +348,7 @@
     <measure number="20">
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">begin</beam><beam number="2">begin</beam></note>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">end</beam></note>
@@ -1165,7 +1165,7 @@
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
@@ -1200,7 +1200,7 @@
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">end</beam><beam number="2">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">begin</beam></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
@@ -1303,7 +1303,7 @@
       <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">begin</beam><beam number="2">begin</beam></note>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">end</beam></note>
@@ -1318,7 +1318,7 @@
     <measure number="82">
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim7">diminished-seventh</kind>
+        <kind text="dim">diminished</kind>
       </harmony>
       <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><beam number="1">begin</beam><beam number="2">begin</beam></note>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><beam number="1">continue</beam><beam number="2">end</beam></note>

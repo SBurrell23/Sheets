@@ -6,10 +6,10 @@ L:1/16
 Q:1/4=56
 K:C clef=treble
 "G7/F"B8 "C/E"c8 | "G7/D"f12 "C/E"e4 | "Dm7/F"d8 "F#m7b5"e6 c2 | "G"e8 d8 |
-"C#dim7/G"^c8 "Dm/F"d8 | "C#dim7/E"g8 "Dm/F"f8 | "Dm/F"z4 "Edim/G"e8- e2 z1 "A"^c1 | "A"^c8 "Dm"d4 z4 |
-"G7/F"B8 "C/E"c8 | "Bdim7/D"f16 | "G#dim7/D"^G8 "Am/C"A8 | "G#dim7/B"d8- d4 z4 |
-"G#dim7/D"d1e1f1e1 d1 b6 a2 a3 | "G#dim7/D"^g8 g1a1g1=g1 ^g1"D#dim7"a3- | "D#dim7"a16- | "F#m7b5"(3a2a2b2 (3c'2b2a2 "D#dim7"(3c'2a2^f2 (3_e2c2A2 |
+"C#dim/G"^c8 "Dm/F"d8 | "C#dim/E"g8 "Dm/F"f8 | "Dm/F"z4 "Edim/G"e8- e2 z1 "A"^c1 | "A"^c8 "Dm"d4 z4 |
+"G7/F"B8 "C/E"c8 | "Bdim/D"f16 | "G#dim/D"^G8 "Am/C"A8 | "G#dim/B"d8- d4 z4 |
+"G#dim/D"d1e1f1e1 d1 b6 a2 a3 | "G#dim/D"^g8 g1a1g1=g1 ^g1"D#dim"a3- | "D#dim"a16- | "F#m7b5"(3a2a2b2 (3c'2b2a2 "D#dim"(3c'2a2^f2 (3_e2c2A2 |
 "G7/F"B8 "C/E"c8 | "G7/D"f12 "C/E"e4 | "Dm7/F"d8 "F#m7b5"e6 c2 | "G"e8 d8 |
-"C#dim7/G"^c8 "Dm/F"d8 | "C#dim7/E"g8 "Dm/F"f8 | "Dm/F"z4 "Edim/G"e8- e2 z1 "A"^c1 | "A"^c8 "Dm"d4 z4 |
+"C#dim/G"^c8 "Dm/F"d8 | "C#dim/E"g8 "Dm/F"f8 | "Dm/F"z4 "Edim/G"e8- e2 z1 "A"^c1 | "A"^c8 "Dm"d4 z4 |
 "Ddim/F"z4 d8- d2 z1 "G"B1 | "G"B8 "C/E"c4 z4 | "F"z4 A8- A4 | "G7"z4 G8- G4 |
 "C"HG16 |]

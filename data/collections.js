@@ -2632,16 +2632,6 @@ window.PS_MANIFEST = [
       "pdf": "songs/piano-miniatures/knight-of-the-hobbyhorse.pdf"
      },
      {
-      "slug": "march-song-of-the-lark",
-      "title": "March: Song of the Lark",
-      "key": "Am",
-      "meter": "2/4",
-      "tempo": 40,
-      "bars": 46,
-      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 3, 1876",
-      "pdf": "songs/piano-miniatures/march-song-of-the-lark.pdf"
-     },
-     {
       "slug": "mazurka-op24-no3",
       "title": "Mazurka in A-flat",
       "key": "C",
