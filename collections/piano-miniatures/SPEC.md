@@ -351,6 +351,11 @@ phrases come from.
      nothing but offbeat dyads — no note on any downbeat — while the tune sits in the
      **left hand**, staff 2. Filter blindly and you publish sixteen bars of accompaniment.
 
+     **And "the top note at each onset" is not the same thing as "the top voice".** An
+     inner voice strikes notes while the melody is sustaining, so an onset-by-onset maximum
+     silently splices accompaniment into the middle of a held melody note. One arranger had
+     four bars corrupted that way before catching it. Follow a voice; do not take a maximum.
+
      So: take the filter as a first guess and then check it against §5. The cheapest test
      is that a melody has notes on strong beats and a shape; an accompaniment figure
      repeats, sits off the beat, or holds one pitch while something else moves. When staff
