@@ -1,0 +1,15 @@
+X:1
+T:Summer Evening
+C:Edvard Grieg, Lyric Pieces Op. 71 No. 2, 1901
+M:3/4
+L:1/16
+Q:1/4=84
+K:C clef=treble
+"C"e4 "Fmaj7"A8 | "C"(3e2d2c2 "Fmaj7"A8 | "Cmaj7"G2B2 G2B2 G3B1 | "Cmaj7"B4 "C"G8 |
+"Am"c4 "Dm7b5"F8 | "Am"(3c2B2A2 "Dm7b5"F8 | "Am7"E2G2 E2G2 E3B1 | "D6"B4 "G7"G6 z2 |
+"G7"d4 A8 | "G7"(3e2d2c2 A6 "Dm7b5"_A2 | "Ab7"_e4 _B8 | "Ab7"(3f2_e2_d2 _B6 "Ebm7b5"A2 |
+"A7"e4 B6 "Em7b5"_B2 | "Eb7"c'1g1_b1f1 _a1_e1g1_d1 f1c1e1_B1 | "Eb7"_b4 f6 "Bbm7b5"e2 | "A7"_g'1_d'1e'1b1 =d'1a1_d'1g1 b1_g1a1e1 |
+"Db7/Ab"_b1f1_a1_e1 _g1_d1f1B1 e1_B1d1_A1 | "G7"e'1b1d'1a1 c'1g1b1f1 a1e1g1d1 | "G7"f1c1e1B1 d1A1c1G1 B1F1A1 z1 | "C"e'4 "B7"a8 |
+"C"(3e'2d'2c'2 "B7"a8 | "Am7"e2g2 e2g2 e3b1 | "D6"b4 "G7"g8 | "F"a4 "E7"d8 |
+"F"(3a2g2f2 "E7"d8 | "Dm7"A2c2 A2c2 A3e1 | "G7"e4 "C"c6 z2 | "C7"E4 "F"C8 |
+"E7"(3G2F2E2 "Am7"C8 | "G7"E12 | "C"HC12 |]

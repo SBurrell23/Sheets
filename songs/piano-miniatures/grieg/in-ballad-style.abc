@@ -1,0 +1,17 @@
+X:1
+T:In Ballad Style
+C:Edvard Grieg, Lyric Pieces Op. 65 No. 5, 1896
+M:2/2
+L:1/16
+Q:1/2=42
+K:Am clef=treble
+"Am"c4 B2c2 "Dm"d6 A2 | "E"c4 B8 B4 | "Am"c4 B2c2 "Dm"d6 e2 | "C"e12 "E"e4 |
+"Am"e4 d2e2 "Dm7"f6 c2 | "G7"e4 d8 "E/G#"e4 | "Am"c4 B2A2 "Esus4"B6 A2 | "Am"A8- A4 z4 |
+"Am"e4 d2e2 "D"^f8 | "Am"e4 d2c2 "D"d8 | "Am"e4 d2e2 "D"^f6 g2 | "G"g12 "D/F#"d4 |
+"Gm"d4 c2d2 "C"e8 | "Gm"d4 c2_B2 "C"c8 | "Gm"d4 c2d2 "C"e6 f2 | "F"f8- f4 "E7"e4 |
+"Am"e4 d2e2 "Fmaj7/A"f6 c2 | "Fmaj7"e4 d8 "E/G#"e4 | "Am7/G"c4 B2c2 "G"d6 e2 | "E"e12 "A7"e4 |
+"Dm"f4 e2f2 "Gsus4"g6 "G7"d2 | "F/A"f4 "E/G#"e8 "F#7"e4 | "F7"c4 B2A2 "E7sus4"B6 A2 | "Am"A8- A4 z4 |
+"Am"e4 d2e2 "D"^f8 | "Am"e4 d2c2 "D"d8 | "Am"e4 d2e2 "D"^f6 g2 | "G"g12 "D/F#"d4 |
+"Gm"d4 c2d2 "C"e8 | "Gm"d4 c2_B2 "C"c8 | "Gm"d4 c2d2 "C"e6 f2 | "F"f8- f4 "E7"e4 |
+"Am"e4 d2e2 "Fmaj7/A"f6 c2 | "Fmaj7"e4 d8 "E/G#"e4 | "Am7/G"c4 B2c2 "G"d6 e2 | "E"e12 "A7"e4 |
+"Dm"f4 e2f2 "Gsus4"g6 "G7"d2 | "F/A"f4 "E/G#"e8 "F#7"e4 | "F7"c4 B2A2 "E7sus4"B6 A2 | "Am"HA16 |]

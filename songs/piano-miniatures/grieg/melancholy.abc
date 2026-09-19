@@ -1,0 +1,18 @@
+X:1
+T:Melancholy
+C:Edvard Grieg, Lyric Pieces Op. 47 No. 5, 1888
+M:2/4
+L:1/16
+Q:1/4=58
+K:Am clef=treble
+"Am"a4 e'3d'1 | "Am"f'2 e'4 z2 | "Dm/F"a6 ^g2 | "E"^g6 z2 |
+"Am"z3 b1 c'2b2 | "Am"z3 ^g1 a1g1g2 | "Dm"z3 f1 g2f2 | "Am"z2 "E"e1c1 "E7"B1A1"Am"A2 |
+"Am"z2 d1b1 c'2b2 | "Am"z2 B1^g1 a1g1g2 | "Dm"z2 A1f1 g2f2 | "Am"z2 "E"e1c1 "E7"B1A1"Am"A2 |
+"E"e'8 | "F#7"e'8 | "E"e'4 e'4 | "Em7b5"e'4 e'2e'2 |
+"Bb"f'8 | "Bb"f'4 "Eb/F"f'2"F7"f'2 | "Bb"f'4 "Dm/F"f'4 | "E7"f'8 |
+"G#dim"d'3c'1 c'3b1 | "Am"z3 b1 c'2b2 | "Am"z3 ^g1 a1g1g2 | "Dm"z3 f1 g2f2 |
+"Am"z2 "E"e1c1 "E7"B1A1"Am"A2 | "E"e'8 | "F#7"e'8 | "E"e'4 e'4 |
+"Em7b5"e'4 e'2e'2 | "Bb"f'8 | "Bb"f'4 "Eb/F"f'2"F7"f'2 | "Bb"f'4 "Dm/F"f'4 |
+"E7"f'8 | "G#dim"d'3c'1 c'3b1 | "Am"z3 b1 c'2b2 | "Am"z3 ^g1 a1g1g2 |
+"Dm"z3 f1 g2f2 | "Am"z2 "E"e1c1 "E7"B1A1"Am"A2 | "E7"z2 e'1c'1 b4- | "E7"b6 a2 |
+"Am"Ha8 |]

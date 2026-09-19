@@ -1,0 +1,21 @@
+X:1
+T:Watchman's Song
+C:Edvard Grieg, Lyric Pieces Op. 12 No. 3, 1867
+M:2/2
+L:1/16
+Q:1/2=46
+K:C clef=treble
+"G"G4 | "C"c4 c4 B4 A2G2 | "F"A8 "Am"c4 z4 | "Dm7"d4 d4 "G"d4 d4 |
+"C"e8 z4 "E"e4 | "Am"a4 a4 g4 f2e2 | "F"f8 "Am"e8 | "Dm7"d4 d4 "G7"d6 c2 |
+"C"c8 z4 "G"g4- | "Em"g2a2 "Em7"b4 "Am"b4 "Am7"g4 | "Am"e4 "D7"^f4 "G"g4 g4- | "Em"g2a2"Em7"b2g2 "Am"b4 "Am7"a2g2 |
+"Am"e4 "D7"^f4 "G"g4 G4 | "C"c4 c4 B4 A2G2 | "F"A8 "Am"c4 z4 | "Dm7"d4 d4 "G7"d6 c2 |
+"C"c8 z4 "G"g4- | "Em"g2a2 "Em7"b4 "Am"b4 "Am7"g4 | "Am"e4 "D7"^f4 "G"g4 g4- | "Em"g2a2"Em7"b2g2 "Am"b4 a2g2 |
+"Am7"e4 "D7"^f4 "G"g4 G4 | "C"c4 c4 B4 A2G2 | "F"A8 "Am"c4 z4 | "Dm7"d4 d4 "G7"d6 c2 |
+"C"c8 z8 | "Cm"z16 | "Cm"z12 (3_e2g2c'2 | "Cm"c'6 g2 _e4 g4 |
+"Bb"_b16 | "Db"z16 | "Db"z12 (3f2_a2_d'2 | "Db"_d'6 _a2 f4 "Fm"a4 |
+"G"g16 | "Cm"z16 | "Cm"z12 (3_e2g2c'2 | "Cm"c'6 g2 _e4 g4 |
+"Bb"_b16 | "Db"z16 | "Db"z12 (3f2_a2_d'2 | "Db"_d'6 _a2 f4 "Fm"a4 |
+"G"g8 z4 g4- | "Em"g2a2 "Em7"b4 "Am"b4 "Am7"g4 | "Am"e4 "D7"^f4 "G"g4 g4- | "Em"g2a2"Em7"b2g2 "Am"b4 "Am7"a2g2 |
+"Am"e4 "D7"^f4 "G"g4 G4 | "C"c4 c4 B4 A2G2 | "F"A8 "Am"c4 z4 | "Dm7"d4 d4 f4 f4 |
+"E"e12 e4 | "Am"a4 a4 g4 f2e2 | "F"f8 "Am"e8 | "Dm7"d4 d4 "G7"d6 c2 |
+"C"Hc16 |]

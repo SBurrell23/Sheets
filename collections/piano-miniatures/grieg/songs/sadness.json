@@ -1,0 +1,53 @@
+{
+  "title": "Sadness",
+  "source": "Edvard Grieg, Lyric Pieces Op. 65 No. 3, 1896",
+  "key": "Am",
+  "meter": "4/4",
+  "tempo": 63,
+  "bars": [
+    { "chord": "Em",        "notes": "R:4 G5:6 F5:2 E5:2 D#5:2" },
+    { "chord": "Em",        "notes": "F5:2 E5:2 [Am/C]C5:8 [E]B4:4" },
+    { "chord": "Am",        "notes": "R:16" },
+
+    { "chord": "Am",        "notes": "A4:6 B4:1 A4:1 [Em]G4:8" },
+    { "chord": "Am",        "notes": "A4:4 (3 C5:2 A4:2 B4:2) [Em]G4:8" },
+    { "chord": "Am7",       "notes": "A4:2 C5:1 E5:1 G5:1 F5:1 E5:1 C5:1 [Em7]G4:4 D4:4" },
+    { "chord": "E",         "notes": "R:1 G4:1 F#4:1 F4:1 E4:1 D#4:1 D4:1 C#4:1 [Am7b5]C4:4 A4:4~" },
+    { "chord": "D",         "notes": "A4:16~" },
+    { "chord": "Am",        "notes": "A4:12 R:4" },
+
+    { "chord": "Em",        "notes": "E5:6 F#5:1 E5:1 [Bm]D5:8" },
+    { "chord": "Em",        "notes": "E5:4 (3 G5:2 E5:2 F#5:2) [Bm]D5:8" },
+    { "chord": "Em7",       "notes": "E5:2 G5:1 B5:1 D6:1 C6:1 B5:1 G5:1 [Bm7]D5:4 A4:4" },
+    { "chord": "B",         "notes": "R:1 D5:1 C#5:1 C5:1 B4:1 Bb4:1 A4:1 G#4:1 [Em7b5]G4:4 E4:4~" },
+    { "chord": "A",         "notes": "E4:16~" },
+    { "chord": "Em",        "notes": "E4:12 R:4" },
+
+    { "chord": "Am7b5",     "notes": "Eb4:6 F4:1 Eb4:1 [Gm/D]D4:8" },
+    { "chord": "Am7b5",     "notes": "Eb4:4 (3 G4:2 Eb4:2 F4:2) [Gm/D]D4:8" },
+    { "chord": "Am7b5/C",   "notes": "C5:2 B4:2 C5:2 D5:2 F5:2 Eb5:2 D5:2 C5:2" },
+    { "chord": "Gm/Bb",     "notes": "Bb4:4 [Am7b5]A4:8~ A4:2 Eb5:2" },
+    { "chord": "Am7b5",     "notes": "Eb5:2 D5:2 Db5:2 C5:2 A4:2 Ab4:2 G4:2 Gb4:2" },
+
+    { "chord": "Bm7b5/F",   "notes": "F4:6 G4:1 F4:1 [Am/E]E4:8" },
+    { "chord": "Bm7b5/F",   "notes": "F4:4 (3 A4:2 F4:2 G4:2) [Am/E]E4:8" },
+    { "chord": "Bm7b5/D",   "notes": "D4:2 C#4:2 D4:2 E4:2 G4:2 F4:2 E4:2 D4:2" },
+    { "chord": "Am/C",      "notes": "C5:4 [Bm7b5]B4:8~ B4:2 F4:2" },
+    { "chord": "Am/C",      "notes": "C5:4 [B7]B4:8~ B4:2 [D#dim]C6:2" },
+
+    { "chord": "D#dim",     "notes": "C6:2 B5:2 Bb5:2 A5:2 F#5:2 F5:2 E5:2 D#5:2" },
+    { "chord": "D#dim",     "notes": "C5:2 B4:2 Bb4:2 A4:2 F#4:6 F4:2" },
+    { "chord": "G#dim",     "notes": "R:4 F5:6 E5:2 Eb5:2 D5:2" },
+    { "chord": "G#dim",     "notes": "B4:2 Bb4:2 A4:2 G#4:2 F4:2 E4:2 Eb4:2 D4:2" },
+    { "chord": "G#dim",     "notes": "B4:12 [Bb7]Bb4:4" },
+
+    { "chord": "Am",        "notes": "A5:6 B5:1 A5:1 [Em7]G5:8" },
+    { "chord": "Am",        "notes": "A5:4 (3 C6:2 A5:2 B5:2) [Em7]G5:8" },
+    { "chord": "Am7",       "notes": "A5:2 C6:1 E6:1 G6:1 F6:1 E6:1 C6:1 [Em7]G5:4 D5:4" },
+    { "chord": "E7",        "notes": "R:1 G5:1 F#5:1 F5:1 E5:1 D#5:1 D5:1 C#5:1 [Am7b5]C5:4 A4:4~" },
+    { "chord": "D",         "notes": "A4:16~" },
+    { "chord": "Am",        "notes": "A4:16" },
+
+    { "chord": "Am",        "notes": "A4:16" }
+  ]
+}

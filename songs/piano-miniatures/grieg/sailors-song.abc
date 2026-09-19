@@ -1,0 +1,14 @@
+X:1
+T:Sailor's Song
+C:Edvard Grieg, Lyric Pieces Op. 68 No. 1, 1898
+M:2/2
+L:1/16
+Q:1/2=84
+K:C clef=treble
+"C"g8 "Am"a8 | "C"g12 "F/A"c'4 | "G7"b4 "F"a4 "C/E"g4 "F"f2e2 | "G"d4 "D7sus4"c4 "G"d8 |
+"Em"b8 "C"c'8 | "Em"b12 "Am7"c'4 | "D6"b4 "D7/C"a4 "G/B"d'4 "C"c'2b2 | "D"a4 "G"g4 g8 |
+"G"d8 "Dm7"f8 | "G"d16 | "G"d2c2B2c2 d4 d4 | "Dm7"f8 "G"d4 z4 |
+"Dm7"f8 "Fmaj7"a8 | "F"f16 | "Dm7"f2e2d2e2 f4 f4 | "Fmaj7"a8 "F#m7b5"c'4 z4 |
+"G"b8 "Dm"d'8 | "G"b16 | "G"b4 b4 "Dm"d'4 d'4 | "G"b16 |
+"G"b4 b4 "Dm"d'4 d'4 | "G"b4 b4 "Dm"d'4 d'4 | "G"b4 "G7"d'4 "G"b4 "G7"d'4 | "G"b4 "G7"d'4 "G"b4 "G7"d'4 |
+"C"g8 "Am/E"a8 | "C"g12 "C/G"c'4 | "B/F#"b4 "F7"a4 "C/E"g4 "F"f2e2 | "G"d4 "C"c4 Hc8 |]

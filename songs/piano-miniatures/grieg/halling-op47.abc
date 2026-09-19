@@ -1,0 +1,17 @@
+X:1
+T:Halling, Op. 47
+C:Edvard Grieg, Lyric Pieces Op. 47 No. 4, 1888
+M:2/4
+L:1/16
+Q:1/4=126
+K:C clef=treble
+"C"z8 | "C"z8 | "C"z8 | "C"z8 |
+"C"c2d1e1 c2B1G1 | "C"c2d1e1 c2c2- | "C"c1e1g1e1 c1d1B1G1 | "C"c2d1e1 c2c2 |
+"G"g2a1b1 g2^f1d1 | "G"g2a1b1 g2g2- | "G"g1b1d'1b1 g1a1^f1d1 | "G"g2a1b1 g2g2 |
+"G"a2d'2 a2d'2 | "G7"g'1f'1d'1f'1 "C"e'1c'1d'1b1 | "G"g2a1b1 g2^f1d1 | "G"g2a1b1 g2g2 |
+"G"a2d'2 a2d'2 | "G7"g'1f'1d'1f'1 "C"e'1c'1d'1b1 | "G"g2a1b1 g2^f1d1 | "G"g2a1b1 g2g2 |
+"G7"f1d1f1g1 "C"e1c1e1g1 | "G7"f1d1f1g1 "C"e1c1e1g1 | "G"g2a1b1 g2^f1d1 | "G"g2a1b1 g2g2 |
+"G7"f1d1f1g1 "C"e1c1e1g1 | "G7"f1d1f1g1 "C"e1c1e1g1 | "G"g2a1b1 g2^f1d1 | "G"g2a1b1 g2g2 |
+"C"c2d1e1 c2B1G1 | "C"c2d1e1 c2c2- | "C"c1e1g1e1 c1d1B1G1 | "C"c2d1e1 c2c2- |
+"C"c1e1g1e1 c1d1B1G1 | "C"c1e1g1e1 c1d1B1G1 | "C"c1d1B1G1 c1d1B1G1 | "C"c1d1B1G1 c1d1B1G1 |
+"C"c8 | "C"HG8 |]

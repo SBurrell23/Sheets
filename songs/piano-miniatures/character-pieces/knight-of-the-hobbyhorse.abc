@@ -1,0 +1,13 @@
+X:1
+T:Knight of the Hobbyhorse
+C:Robert Schumann, Kinderszenen Op. 15 No. 9, 1838
+M:3/4
+L:1/16
+Q:1/4=120
+K:C clef=treble
+"C"z2 g4 g2 a4 | "C"z2 g4 g2 e4 | "G7sus4"z2 f4 f2 "G"g4 | "C"z2 e4 e2 c4 |
+"C"z2 G4 G2 "F"A4 | "C"z2 G4 G2 E4 | "G7"z2 F4 F2 "C"G4 | "C"z2 E4 E2 C4 |
+"C7"z2 c4 c2 c4 | "C7"z2 c4 c2 c4 | "C7"z2 c4 c2 "Eb7"^c4 | "Gm"z2 d4 d2 "C#dim"e4 |
+"Dm"z2 f4 f2 "Edim"e4 | "A"z2 d4 d2 ^c4 | "Dm"z2 d4 d2 "Ab7"c4 | "G7sus4"z2 c4 c2 "G7"B4 |
+"C"z2 G4 G2 "F"A4 | "C"z2 G4 G2 E4 | "G7sus4"z2 F4 F2 "C"G4 | "C"z2 E4 E2 C4 |
+"C"z2 E4 E2 "F"F4 | "C"z2 E4 E2 C4 | "G7sus4"z2 D4 D2 "C"E4 | "C"z2 C4 C2 HC4 |]

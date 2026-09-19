@@ -1,0 +1,27 @@
+{
+  "title": "All Creatures of Our God and King",
+  "source": "Geistliche Kirchengesäng, Köln, 1623, tune LASST UNS ERFREUEN; harmony Ralph Vaughan Williams, 1906; words Francis of Assisi c.1225, tr. William H. Draper, 1919",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 96,
+  "bars": [
+    { "chord": "C",    "notes": "C5:4" },
+    { "chord": "C",    "notes": "C5:2 D5:2 E5:2 C5:2 [Am]E5:2 [Dm7]F5:2" },
+    { "chord": "G",    "notes": "G5:8 [C/E]C5:4" },
+    { "chord": "C/E",  "notes": "C5:2 [Bdim]D5:2 [C]E5:2 C5:2 [Am]E5:2 [Dm7]F5:2" },
+    { "chord": "G",    "notes": "G5:8 [C/E]C6:2 B5:2" },
+    { "chord": "F",    "notes": "A5:4 [C]G5:4 [Am]C6:2 [G/B]B5:2" },
+    { "chord": "C",    "notes": "A5:4 [G]G5:4 [C/E]C6:4" },
+    { "chord": "C",    "notes": "C6:2 G5:2 [Am7]G5:2 [G7/B]F5:2 [C]E5:2 [F]F5:2" },
+    { "chord": "G",    "notes": "G5:8 [C/E]C6:4" },
+    { "chord": "C/E",  "notes": "C6:2 [G/D]G5:2 [C]G5:2 [F/A]F5:2 [C/G]E5:2 [F]F5:2" },
+    { "chord": "C/E",  "notes": "G5:8 [F/A]F5:2 [Am7]E5:2" },
+    { "chord": "F",    "notes": "D5:4 [C/E]C5:4 [Dm7]F5:2 [C/E]E5:2" },
+    { "chord": "F",    "notes": "D5:4 [Am]C5:4 C6:2 [G/B]B5:2" },
+    { "chord": "C",    "notes": "A5:4 [G]G5:4 [Am7]C6:2 [Em]B5:2" },
+    { "chord": "C",    "notes": "A5:4 [G7/B]G5:4 [Dm]F5:2 [C/E]E5:2" },
+    { "chord": "G7",   "notes": "D5:12" },
+    { "chord": "C",    "notes": "C5:8" }
+  ]
+}

@@ -1,0 +1,11 @@
+X:1
+T:Shall We Gather at the River
+C:Robert Lowry, tune HANSON PLACE ("Beautiful River"), 1864; words Robert Lowry
+M:4/4
+L:1/16
+Q:1/4=104
+K:C clef=treble
+"C"e4 e4 e3d1 e3f1 | "C"g8 e8 | "G7"f4 f4 f3g1 f3e1 | "G7"d8 g8 |
+"C"e4 e4 e3d1 e3f1 | "C"g8 e4 e2f2 | "G7"d4 d2e2 f4 e2d2 | "C"c16 |
+"F"a4 a4 c'3b1 c'3a1 | "C"g8 e6 e2 | "G7"f3e1 f3e1 f3e1 f2d2 | "C"e8 g8 |
+"F"a3a1 a3a1 c'3b1 c'3a1 | "C"g8 e4 e4 | "G7"d4 d3e1 f4 e2d2 | "C"Hc16 |]

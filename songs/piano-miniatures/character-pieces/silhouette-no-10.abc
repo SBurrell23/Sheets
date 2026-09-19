@@ -1,0 +1,22 @@
+X:1
+T:Silhouette No. 10 (Allegretto grazioso)
+C:Antonín Dvořák, Silhouettes Op. 8 No. 10, 1879
+M:6/8
+L:1/16
+Q:3/8=63
+K:C clef=treble
+"C"e6 e4 e2- | "C"e4 e2 "Am/C"a4 "C"g2 | "Dm"d12 | "C"c6 "G"d6 |
+"C"e6 c4 "Bdim"d2 | "C"e12 | "Dm"f4 e2 f2g2a2 | "Bdim"d12 |
+"C7"g6 "Gm7"g4 g2- | "C7"g4 g2 "Fm"c'4 _a2 | "Eb/Bb"g12 | "Bb"f6 "Gm"g6 |
+"A"a6 "Dm"f4 "A7"g2 | "Dm"a12 | "G7/F"b4 a2 b2c'2d'2 | "G7"g12 |
+"C/E"g6 "F"a1b1 c'4 | "C/E"g6 "Dm7"f6 | "C"e6 "G/B"(3d1e1^f1 g4 | "D7/A"d6 c6 |
+"G"B6 "F"A1B1 c4 | "C/E"G6 "Dm7"F6 | "C"E6 "Dm/F"D2E2"Bm7b5"F2 | "E"E6- E4 E2 |
+"Am"E4 E2 E4 E2 | "Am"E4 E2 E4 E2 | "C"E6- E4 E2- | "C"E4 E2 "Am"A4 "C"G2 |
+"Dm"D12 | "Am"C6 "Dm"D6 | "Am"E6 C4 "Dm7b5/Ab"D2 | "C"E12 |
+"F"F4 E2 F2G2A2 | "D7"D12 | "C"G6 G4 "G7"G2- | "C"G4 G2 "Ab/C"c4 _A2 |
+"Cm"G12 | "Bb"F6 "Em7b5/Bb"G6 | "A"A6 "Dm"F4 "Gm/D"G2 | "Dm"A12 |
+"Dm"B4 A2 B2c2d2 | "G7/F"G12 | "C/E"g6 "F"a1b1 c'4 | "C/E"g6 "Dm7"f6 |
+"C"e6 "G/B"(3d1e1^f1 g4 | "D7/A"d6 c6 | "G"B6 "F"A1B1 c4 | "C/E"G6 "Dm7"F6 |
+"C"E6 "Dm/F"D1E1 F4 | "E"E6 E6 | "A"z6 A6- | "Bm7b5"A4 A2 d4 ^c2 |
+"A"A4 z2 E6- | "Bm7b5"E4 F2 A4 G2 | "A"E4 z8 | "A"E4 z8 |
+"A"E4 z8 | "A"A1B1 ^c4- Hc6 |]

@@ -1,0 +1,18 @@
+X:1
+T:At the Cradle
+C:Edvard Grieg, Lyric Pieces Op. 68 No. 5, 1898
+M:4/4
+L:1/16
+Q:1/4=72
+K:C clef=treble
+"C"G2A2 "F"B2c2 "Cmaj7"B4 G2B2 | "Dm"A4 "Bm7b5"A4 "C"G8 | "C"G2A2 "F"B2c2 "Cmaj7"B4 "C"A2G2 | "Dm"A8 "C"G8 |
+"Am"c2B2 "D/A"A2G2 "Em"E4 E4 | "F"A2G2 "Bdim/D"F2E2 "Am"C6 D2 | "Am7"E2^F2 G2B2 "D7"d4 c2B2 | "G"G8 "G7"G8 |
+"Dm"A2G2 F2G2 A4 A4 | "G"d4 d4 d8 | "Dm"A2G2 F2G2 A4 A4 | "G7"d16 |
+"Gm"d2c2 _B2c2 d4 d4 | "C"g4 g4 g8 | "Gm"d2c2 _B2c2 d4 d4 | "C7"g16 |
+"F"c2d2 c2d2 "Bm7b5"B4 B4 | "Em"B2c2 B2c2 "Am"A8 | "Dm"A2B2 A2B2 "G7"G4 G4 | "C"G2A2 G2A2 "Fmaj7"F8 |
+"Bdim"F2G2 F2G2 "E7"E4 "A7"E4 | "F#dim"E8 "D7"A8 | "D7"e8 a8- | "D7"a8 z8 |
+"Ab7"_B8 _e8 | "Ab7"_b8 _e'8- | "Ab7"_e'8 z8 | "C"G2A2 "F"B2c2 "C"B4 G2B2 |
+"G7"A4 A4 G8 | "C"G2A2 B2c2 "Dm"d4 "G7"c2B2 | "C"G8 "G7"G8 | "C"G2A2 B2c2 "Bdim"B4 "G7"G2B2 |
+"Dm"D8 "Cmaj7"G4 E4 | "Dm"D8 "Cmaj7"G4 E4 | "Dm"D4 "Cmaj7"G2E2 "Dm"D4 "Cmaj7"G2E2 | "C"C16 |
+"C"C8 C8 | "Gm"d2c2 _B2c2 d4 d4 | "C"g4 g4 g8 | "C"z8 g4 g4 |
+"C"g8 z8 | "C"C8 C8 | "C"HC16 |]

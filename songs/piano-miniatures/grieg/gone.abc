@@ -1,0 +1,16 @@
+X:1
+T:Gone
+C:Edvard Grieg, Lyric Pieces Op. 71 No. 6, 1901
+M:4/4
+L:1/16
+Q:1/4=66
+K:Am clef=treble
+"C"e4 | "B"^d4 "Bb/F"=d4 "A/E"^c4 "Ab/C"=c4 | "Fdim"B4 "Bb7/F"_B4 "Am"A4 "E"e4 | "Dm/F"A4 "E7"B4 "Am"c4 "Em"g2f2 |
+"Dm/F"A4 "E7"B4 "Am"c4 "F"a4 | "E"^g4 "Eb/Bb"=g4 "D/A"^f4 "Db/F"=f4 | "Bbdim"e4 "Eb7/Bb"_e4 "Dm"d4 "A"a4 | "Gm/Bb"d4 "A7"e4 "Dm"f4 "Am"c'2_b2 |
+"Gm/Bb"d4 "A7"e4 "Dm"f4 z4 | "B"z4 G4 "Bmaj7"^F4 "B7"=F4 | "Bsus4"E2"B"^D2 "Em"E8 z4 | "Dm/F"z4 "D/F#"D4 "Eb/G"_E4 "C"=E4 |
+"F"F4 "D7"^F4 "G"G4 "D"d4 | "C/E"G4 "D7"A4 "G"B4 "D"^f2e2 | "C/E"G4 "D7"A4 "G"B4 z4 | "Am/C"z4 "A/C#"A4 "Bb/D"_B4 "G"=B4 |
+"C"c4 "A7"^c4 "D"d4 "A"a4 | "G/B"d4 "A7"e4 "D"^f4 "A"^c'2b2 | "G/B"d4 "A7"e4 "D"^f4 "F#m"f4 | "F#m"A4 "Bm/D"B4 "C#"^c4 "F#m"^g2^f2 |
+"F#m"A4 "Bm/D"B4 "C#"^c2 z2 "Bm/D"d4 | "Bm/D"^F8 "E"^G8 | "A"A2^G2 A8 "F"a4 | "E"^g4 "Eb/Bb"=g4 "D/A"^f4 "Db/F"=f4 |
+"Bbdim"e4 "Eb7/Bb"_e4 "Dm"d4 "A"a4 | "Gm/Bb"d4 "A7"e4 "Dm"f4 "Am"c'2_b2 | "Gm/Bb"d4 "A7"e4 "Dm"f4 "Bb"d'4 | "A"^c'4 "Ab/Eb"=c'4 "G/D"b4 "Gb/Bb"_b4 |
+"Ebdim"a4 "Ab7/Eb"_a4 "Gm"g4 "D"d'4 | "Cm/Eb"g4 "D7"a4 "Gm"_b4 "Dm"f'2_e'2 | "Cm/Eb"g4 "D7"a4 "Gm"_b4 z4 | "E"z4 c4 "Emaj7"B4 "E7"_B4 |
+"Esus4"A2"E"^G2 "Am"HA8 |]

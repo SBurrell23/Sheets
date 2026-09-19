@@ -1,0 +1,11 @@
+X:1
+T:Silhouette No. 2 (Andantino)
+C:Antonín Dvořák, Silhouettes Op. 8 No. 2, 1879
+M:4/4
+L:1/16
+Q:1/4=69
+K:C clef=treble
+"C"e2g2 "C/E"c'2b2 "F"a4 "G7"g4 | "C/E"c2g2 c'2b2 "F"a4 "G7"g4 | "C/E"c2g2 "Csus4"f'2"C"e'2 d'2"F"c'2 b2"A"a2 | "A7"g2"Dm"f2 e2"Bm7b5"d2 "F"c2d2 "E7"e2B2 |
+"Am"A8- A6 z2 | "A"^c2e2 a2"C#m"^g2 "D"^f4 "E7"e4 | "A"^c2e2 a2"C#m"^g2 "D"^f4 "E7"e4 | "Am"C2E2 A2B2 c2d2 e2"Ab7"^f2 |
+"G7"g2^g2 a4- a3_a1 =g1_g1f1e1 | "G7"_e1d1_d1c1 B1_B1A1_A1 G1_G1F1E1 _E3=E1 | "C"e2g2 "C/E"c'2b2 "F"a4 "G7"g4 | "C/E"c2g2 c'2b2 "F"a4 "G7"g4 |
+"C/E"c2g2 "Csus4"f'2"C"e'2 d'2"F"c'2 b2"A"a2 | "A7"g2"Dm"f2 e2"D7/F#"d2 "G"c2d2 "Ab7"_e2B2 | "Ab7"d4 c4- "G"c2d2 "G7"e2B2 | "G7"d4 "C"c1B1c1d1 Hc8 |]

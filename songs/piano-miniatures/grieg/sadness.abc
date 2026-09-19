@@ -1,0 +1,17 @@
+X:1
+T:Sadness
+C:Edvard Grieg, Lyric Pieces Op. 65 No. 3, 1896
+M:4/4
+L:1/16
+Q:1/4=63
+K:Am clef=treble
+"Em"z4 g6 f2 e2^d2 | "Em"f2e2 "Am/C"c8 "E"B4 | "Am"z16 | "Am"A6 B1A1 "Em"G8 |
+"Am"A4 (3c2A2B2 "Em"G8 | "Am7"A2c1e1 g1f1e1c1 "Em7"G4 D4 | "E"z1 G1^F1=F1 E1^D1=D1^C1 "Am7b5"=C4 A4- | "D"A16- |
+"Am"A12 z4 | "Em"e6 ^f1e1 "Bm"d8 | "Em"e4 (3g2e2^f2 "Bm"d8 | "Em7"e2g1b1 d'1c'1b1g1 "Bm7"d4 A4 |
+"B"z1 d1^c1=c1 B1_B1A1^G1 "Em7b5"=G4 E4- | "A"E16- | "Em"E12 z4 | "Am7b5"_E6 F1E1 "Gm/D"D8 |
+"Am7b5"_E4 (3G2E2F2 "Gm/D"D8 | "Am7b5/C"c2B2 c2d2 f2_e2 d2c2 | "Gm/Bb"_B4 "Am7b5"A8- A2_e2 | "Am7b5"_e2d2 _d2c2 A2_A2 G2_G2 |
+"Bm7b5/F"F6 G1F1 "Am/E"E8 | "Bm7b5/F"F4 (3A2F2G2 "Am/E"E8 | "Bm7b5/D"D2^C2 D2E2 G2F2 E2D2 | "Am/C"c4 "Bm7b5"B8- B2F2 |
+"Am/C"c4 "B7"B8- B2"D#dim"c'2 | "D#dim"c'2b2 _b2a2 ^f2=f2 e2^d2 | "D#dim"c2B2 _B2A2 ^F6 =F2 | "G#dim"z4 f6 e2 _e2d2 |
+"G#dim"B2_B2 A2^G2 F2E2 _E2D2 | "G#dim"B12 "Bb7"_B4 | "Am"a6 b1a1 "Em7"g8 | "Am"a4 (3c'2a2b2 "Em7"g8 |
+"Am7"a2c'1e'1 g'1f'1e'1c'1 "Em7"g4 d4 | "E7"z1 g1^f1=f1 e1^d1=d1^c1 "Am7b5"=c4 A4- | "D"A16- | "Am"A16 |
+"Am"HA16 |]

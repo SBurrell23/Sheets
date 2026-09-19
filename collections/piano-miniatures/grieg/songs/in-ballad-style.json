@@ -1,0 +1,53 @@
+{
+  "title": "In Ballad Style",
+  "source": "Edvard Grieg, Lyric Pieces Op. 65 No. 5, 1896",
+  "key": "Am",
+  "meter": "2/2",
+  "tempo": 42,
+  "bars": [
+    { "chord": "Am",       "notes": "C5:4 B4:2 C5:2 [Dm]D5:6 A4:2" },
+    { "chord": "E",        "notes": "C5:4 B4:8 B4:4" },
+    { "chord": "Am",       "notes": "C5:4 B4:2 C5:2 [Dm]D5:6 E5:2" },
+    { "chord": "C",        "notes": "E5:12 [E]E5:4" },
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [Dm7]F5:6 C5:2" },
+    { "chord": "G7",       "notes": "E5:4 D5:8 [E/G#]E5:4" },
+    { "chord": "Am",       "notes": "C5:4 B4:2 A4:2 [Esus4]B4:6 A4:2" },
+    { "chord": "Am",       "notes": "A4:8~ A4:4 R:4" },
+
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [D]F#5:8" },
+    { "chord": "Am",       "notes": "E5:4 D5:2 C5:2 [D]D5:8" },
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [D]F#5:6 G5:2" },
+    { "chord": "G",        "notes": "G5:12 [D/F#]D5:4" },
+    { "chord": "Gm",       "notes": "D5:4 C5:2 D5:2 [C]E5:8" },
+    { "chord": "Gm",       "notes": "D5:4 C5:2 Bb4:2 [C]C5:8" },
+    { "chord": "Gm",       "notes": "D5:4 C5:2 D5:2 [C]E5:6 F5:2" },
+    { "chord": "F",        "notes": "F5:8~ F5:4 [E7]E5:4" },
+
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [Fmaj7/A]F5:6 C5:2" },
+    { "chord": "Fmaj7",    "notes": "E5:4 D5:8 [E/G#]E5:4" },
+    { "chord": "Am7/G",    "notes": "C5:4 B4:2 C5:2 [G]D5:6 E5:2" },
+    { "chord": "E",        "notes": "E5:12 [A7]E5:4" },
+    { "chord": "Dm",       "notes": "F5:4 E5:2 F5:2 [Gsus4]G5:6 [G7]D5:2" },
+    { "chord": "F/A",      "notes": "F5:4 [E/G#]E5:8 [F#7]E5:4" },
+    { "chord": "F7",       "notes": "C5:4 B4:2 A4:2 [E7sus4]B4:6 A4:2" },
+    { "chord": "Am",       "notes": "A4:8~ A4:4 R:4" },
+
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [D]F#5:8" },
+    { "chord": "Am",       "notes": "E5:4 D5:2 C5:2 [D]D5:8" },
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [D]F#5:6 G5:2" },
+    { "chord": "G",        "notes": "G5:12 [D/F#]D5:4" },
+    { "chord": "Gm",       "notes": "D5:4 C5:2 D5:2 [C]E5:8" },
+    { "chord": "Gm",       "notes": "D5:4 C5:2 Bb4:2 [C]C5:8" },
+    { "chord": "Gm",       "notes": "D5:4 C5:2 D5:2 [C]E5:6 F5:2" },
+    { "chord": "F",        "notes": "F5:8~ F5:4 [E7]E5:4" },
+
+    { "chord": "Am",       "notes": "E5:4 D5:2 E5:2 [Fmaj7/A]F5:6 C5:2" },
+    { "chord": "Fmaj7",    "notes": "E5:4 D5:8 [E/G#]E5:4" },
+    { "chord": "Am7/G",    "notes": "C5:4 B4:2 C5:2 [G]D5:6 E5:2" },
+    { "chord": "E",        "notes": "E5:12 [A7]E5:4" },
+    { "chord": "Dm",       "notes": "F5:4 E5:2 F5:2 [Gsus4]G5:6 [G7]D5:2" },
+    { "chord": "F/A",      "notes": "F5:4 [E/G#]E5:8 [F#7]E5:4" },
+    { "chord": "F7",       "notes": "C5:4 B4:2 A4:2 [E7sus4]B4:6 A4:2" },
+    { "chord": "Am",       "notes": "A4:16" }
+  ]
+}

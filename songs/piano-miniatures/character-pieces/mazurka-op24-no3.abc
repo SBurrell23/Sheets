@@ -1,0 +1,18 @@
+X:1
+T:Mazurka in A-flat
+C:Frédéric Chopin, Mazurkas Op. 24 No. 3, 1835
+M:3/4
+L:1/16
+Q:1/4=126
+K:C clef=treble
+"C"c4 | "G7"B3A1 G6 f2 | "C"e2c2 a6 g2 | "G7"B3A1 G4 f4 |
+"C"e2d2 c6 B2 | "F"A2 z1 c1 (3c2d2c2 B2A2 | "G"G2 z1 e1 c'6 c2 | "G7"B3A1 G4 f4 |
+"C"e2d2 c6 B2 | "F"A2 z1 c1 (3c2d2c2 B2A2 | "G"G2 z1 e1 e'4 (3d'2c'2a2 | "G7"b2a2 g2f2 d2A2 |
+"C"G2 z1 e1 c4 "C/E"e4 | "D#dim"^f4 "Em"g2=f2 "C#dim"e4 | "Dm"f2e2 "Bdim"d4 "C"e4 | "D#dim"^f4 "Em"g2=f2 "C#dim"e4 |
+"Dm"f2e2 "Bdim"d4 "C"e4 | "Bdim"d4 "C"e2d2 "F#dim"c4 | "Bdim"d2c2 "E7"B4 "Am"c4 | "E7"B4 "Am"c2B2 "B7"A4 |
+"E"^G2B2 z4 e4 | "E"e8 e4 | "E"e8 e4 | "E"e12- |
+"E"e8 "G7"d2c2 | "G7"B3A1 G6 f2 | "C"e2c2 a6 g2 | "G7"B3A1 G4 f4 |
+"C"e2d2 c6 B2 | "F"A2 z1 c1 (3c2d2c2 B2A2 | "G"G2 z1 e1 c'6 c2 | "G7"B3A1 G4 f4 |
+"C"e2d2 c6 B2 | "F"A2 z1 c1 (3c2d2c2 B2A2 | "G"G2 z1 e1 e'4 (3d'2c'2a2 | "G7"b2a2 g2f2 d2A2 |
+"C"G2e2 e'2d'2 c'2a2 | "G7"b2a2 g2f2 d2A2 | "C"G2e2 e'2d'2 c'2a2 | "C"g2e2 e'2d'2 c'2a2 |
+"C"g2e2 e'2d'2 c'2a2 | "C"g2e2 e'2d'2 c'2a2 | "C"g2e2 b2a2 g2c2 | "C"He12 |]

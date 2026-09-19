@@ -1,0 +1,19 @@
+X:1
+T:Melody
+C:Edvard Grieg, Lyric Pieces Op. 38 No. 3, 1883
+M:4/4
+L:1/16
+Q:1/4=72
+K:C clef=treble
+"C"z16 | "C"G8 "F#dim"c8 | "G"B4 z12 | "G"d8 "C#dim"g8 |
+"Dm"f12 f4 | "G7"e4 f4 A4 d4 | "C"G16- | "Dm"G4 "G7"G4 F8 |
+"C"E4 z12 | "C"G8 "F#dim"d6 c2 | "G"B4 z12 | "G"d8 "C#dim"(3a4 g4 f4 |
+"Dm"f12 f4 | "G7"(3e4 f4 A4 (3B4 e4 B4 | "C"d4 c4 z8 | "C"G4 ^F4 "F#m7b5"A4- A3B1 |
+"B"B8 ^F8 | "B"^F4 "E7"^G4 c4 G4 | "Am"B4 A4 E8 | "Am"E4 "D7"^F4 B4 F4 |
+"G"A4 G4 "C6"A4 E4 | "F"G4 F4 "B7"G4 ^D4 | "E"E16- | "E"E8- (3:2:2E8 "B7"D4 |
+"C"z16 | "C"G8 "F#dim"c6 B2 | "G"B4 z12 | "G"d8 "C#dim"a2g2 _B2g2 |
+"Dm"(3g4 f4 A4 "F"(3f4 _A4 f4 | "G7"(3e4 f4 A4 (3B4 e4 B4 | "C"d4 c4 z8 | "C"G4 ^F4 "F#m7b5"A8 |
+"B"B8 ^F8 | "B"^F4 "E7"^G4 c4 G4 | "Am"B4 A4 E8 | "Am"E4 "D7"^F4 B4 F4 |
+"G"A4 G4 "C6"A4 E4 | "F"G4 F4 "B7"G4 ^D4 | "E"E16- | "E"E8- (3:2:2E8 "B7"D4 |
+"C"z16 | "C"G8 "F#dim"c6 B2 | "G"B4 z12 | "G"d8 "C#dim"a2g2 _B2g2 |
+"Dm"(3g4 f4 A4 "F"f4 f4 | "G7"(3e4 f4 A4 (3B4 e4 B4 | "C"d4 c8 z4 | "C"c8 Hz8 |]

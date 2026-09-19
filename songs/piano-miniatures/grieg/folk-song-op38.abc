@@ -1,0 +1,18 @@
+X:1
+T:Folk Song, Op. 38
+C:Edvard Grieg, Lyric Pieces Op. 38 No. 2, 1883
+M:3/4
+L:1/16
+Q:1/4=100
+K:Am clef=treble
+"Am"z12 | "Am"z12 | "Am"e3f1 e3f1 "E7"d3e1 | "Am"c4 c8 |
+"Am"c3d1 c3d1 "E"B3c1 | "Am"A4 A8 | "Em"B4 B8 | "F#dim"c4 c8 |
+"Dm"d4 d6 "Bm7b5"B2 | "E"e4 e8 | "Fmaj7"c3d1 c3d1 c3d1 | "B"B4 "B7"B8 |
+"E7"B3c1 B3c1 B3c1 | "Am"A4 A8 | "C/E"g3a1 g2c2 e2g2 | "G7/D"g2a2 a2g2 "G7"g4 |
+"Cmaj7/E"(3g2a2b2 (3g2c2e2 (3g2a2b2 | "G7/D"(3g2b2a2 (3g2a2b2 "G7"g4 | "Am7"e3^f1 e3f1 e3f1 | "D"d4 "D7"d8 |
+"G7"d3e1 d3e1 d3e1 | "C"c4 c8 | "Fmaj7/C"e4 e6 c2 | "C"e4 e8 |
+"Fmaj7/C"e3c1 e3c1 e3c1 | "C"e4 e8 | "C"z12 | "E7"e4 e8 |
+"E7"z12 | "Am"e3f1 e3f1 "E7"d3e1 | "Am"c4 c8 | "Am"c3d1 c3d1 "E"B3c1 |
+"Am"A4 A8 | "Em"B4 B8 | "F#dim"c4 c8 | "Dm"d4 d6 "Bm7b5"B2 |
+"E"e4 e8 | "Fmaj7"c3d1 c3d1 c3d1 | "B"B4 "B7"B8 | "E7"B3c1 B3c1 B3c1 |
+"Am"A4 HA8 |]

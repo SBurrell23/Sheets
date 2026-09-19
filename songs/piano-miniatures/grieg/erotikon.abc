@@ -1,0 +1,14 @@
+X:1
+T:Erotikon
+C:Edvard Grieg, Lyric Pieces Op. 43 No. 5, 1886
+M:2/4
+L:1/16
+Q:1/4=58
+K:C clef=treble
+"C"c'2a1b1 g4 | "C"c'1a1c'1b1 g4 | "F"c'2b1a1 "C/E"g1c1"F/A"g1f1 | "G7"e2 d4 e2 |
+"F/A"f2b1a1 "G/B"g3"G#dim"f1 | "Am/C"^d1e1(3c'1b1a1 "Dm7"g3"F7"f1 | "E"^d1e1"Am/C"^g1a1 b1c'1"Am7"g'1e'1 | "D7"d'4 "G"g4 |
+"Dm"z4 f3e1 | "G7"e1d1B1G1 z4 | "Dm6"z4 f1b2"Dm7"a1 | "G7"e1d1B1G1 z4 |
+"Dm"z2 A4 ^G1A1 | "Dm"d6 "Db"_d2 | "F/A"z2 c4 B1c1 | "F"f6 "Am/E"e2 |
+"Ab/C"z2 _e4 d1e1 | "E7/B"z2 e4 ^d1e1 | "Bb7"z2 f4 e1f1 | "D7/A"z2 ^f4 c'2 |
+"C/G"c'2a1b1 "Dm7"g4 | "C/G"c'1a1c'1b1 "Dm7"g4 | "F"c'2b1a1 "C/E"g1c1"F/A"g1f1 | "G7"z2 e4 d2 |
+"Am"c2A1B1 "C/E"G4 | "Am"c1A1c1B1 "C/E"G4 | "C"c2B1"F7"A1 "Em"G1"Em7b5"D1"A7"G1"Dm7b5"F1 | "G7"E4 "C"HC4 |]

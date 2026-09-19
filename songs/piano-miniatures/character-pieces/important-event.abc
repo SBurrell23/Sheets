@@ -1,0 +1,14 @@
+X:1
+T:An Important Event
+C:Robert Schumann, Kinderszenen Op. 15 No. 6, 1838
+M:3/4
+L:1/16
+Q:1/4=69
+K:C clef=treble
+"C"c'4 | "G"b3a1 "Em"g4 "Am"a4 | "D"^f4 "G"g4 "G7"=f4 | "C"e3d1 "Am"c4 "Dm"d4 |
+"G"B4 "C"c4 c4 | "G"b3a1 "Em"g4 "Am"a4 | "D"^f4 "G"g4 "G7"=f4 | "C"e3d1 "Am"c4 "Dm"d4 |
+"G"B4 "C"c4 c4 | "F"c8 c4 | "Gm7"d8 d4 | "C7"G4 G4 G4 |
+"F7"c12 | "Bbsus4"F4 F4 F4 | "Bb"F4 _B4 "F"A4 | "Gm7"G3A1 _B4 "C7"G4 |
+"F"F4 z4 "C"c'4 | "G"b3a1 "Em"g4 "Am"a4 | "D"^f4 "G"g4 "G7"=f4 | "C"e3d1 "Am"c4 "Dm"d4 |
+"G"B4 "C"c4 c4 | "G"b3a1 "Em"g4 "Am"a4 | "D"^f4 "G"g4 "G7"=f4 | "C"e3d1 "Am"c4 "Dm"d4 |
+"G"B4 "C"Hc4 |]

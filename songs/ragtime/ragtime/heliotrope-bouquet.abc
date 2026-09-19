@@ -1,0 +1,28 @@
+X:1
+T:Heliotrope Bouquet
+C:Scott Joplin and Louis Chauvin, 1907
+M:4/4
+L:1/16
+Q:1/4=76
+K:C clef=treble
+"C"G2A2 B2 c4 e2 d2c2 | "G7"g2f2 e2 d4 e2 f2g2 | "F"f2 A4 B2 "Am"c4 A4 | "G"G4 z4 "Ebdim"b4 a4 |
+"G7"f2g2 a2 e4 B2 d4 | "C"c2e2 g2 b4 "D7"^f2 a4 | "G7"f2g2 a2 e4 B2 d4 | "C"c2e2 g2 b4 "D7"^f2 a4 |
+"G7"f2g2 a2 e4 B2 d4 | "Am7"c2d2 e2 g4 g2 a4 | "Em7"b2c'2 d'2 b4 "D7"g2 a4 | "G"g8 "Ebdim"b4 a4 |
+"G7"f2g2 a2 e4 B2 d4 | "C"c2e2 g2 b4 "D7"^f2 a4 | "G7"f2g2 a2 e4 B2 d4 | "C"c4 g2e2 g2e2 g2e2 |
+"C7"g4 g2e2 g2 c'4 e2 | "F"f4 f2e2 "Fm"f2c2 d2_e2 | "C"e2 g4 e4 "G7"c2 d4 | "C"c8 "C#dim"e'8 |
+"G7"e'4 e'2d'2 e'2 g'4 d'2 | "G7"e'2d'2 e'2 g'8 (3g1_a1=a1 | "C"c'4 a2g2 a2 c'4 g2 | "C"c'2b2 c'2 a4 "Gdim"g2 a2_b2 |
+"G7"b4 b2g2 b2 d'4 a2 | "G7"b2a2 b2 a8 (3g1a1b1 | "C7"c'4 g4 ^f4 =f4 | "G7"e4 _e4 d4 =e4 |
+"G7"z2 d'2 e'2d'2 e'2 g'4 d'2 | "G7"e'2d'2 e'2 g'8 (3g1_a1=a1 | "C"c'4 a2g2 a2 c'4 g2 | "C"c'2b2 c'2 a6 (3g2^f2g2 |
+"A7"a4 e'4 "D7"d'2 g'6 | "G7"g4 d'4 "C"c'2 g'6 | "D7"d'2 g'6 "G7"d'2 g'6 | "C"c'8 "Ebdim"b4 a4 |
+"G7"f2g2 a2 e4 B2 d4 | "C"c2e2 g2 b4 "D7"^f2 a4 | "G7"f2g2 a2 e4 B2 d4 | "C"c2e2 g2 b4 "D7"^f2 a4 |
+"G7"f2g2 a2 e4 B2 d4 | "Am7"c2d2 e2 g4 g2 a4 | "Em7"b2c'2 d'2 b4 "D7"g2 a4 | "G"g8 "Ebdim"b4 a4 |
+"G7"f2g2 a2 e4 B2 d4 | "C"c2e2 g2 b4 "D7"^f2 a4 | "G7"f2g2 a2 e4 B2 d4 | "C"c4 g2e2 g2e2 g2e2 |
+"C7"g4 g2e2 g2 c'4 e2 | "F"f4 f2e2 "Fm"f2c2 d2_e2 | "C"e2 g4 e4 "G7"c2 d4 | "C"c4 c2d2 e2f2 g2_a2 |
+"F"a2_a2 =a2c2 "Bbm"d2 f4 g2 | "F"a4 d'2 c'4 "C7"g'2 g'2_b2 | "F"a2_a2 =a2c2 "Bbm"d2 f4 g2 | "F"a16 |
+"Bb"_b2f'2 g2 f4 "Bbm"g2 b2f'2 | "F"a2c'2 g2f2 "F7"f2c'2 d'2_e'2 | "Am7"e'2f'2 g'2e'2 "G7"e'2c'2 d'4 | "C7"c'4 c2d2 e2f2 g2_a2 |
+"F"a2_a2 =a2c2 "Bbm"d2 f4 g2 | "F"a4 d'2 c'4 f2 a4 | "A7"_a2=a2 ^c'2 f'4 a2 e'4 | "Dm"d'4 e'2 f'4 d'2 a2f2 |
+"Bdim"f'2d'2 b2_a2 f2 d4 ^c2 | "F"c4 d2 f4 "Dm"g2 a4 | "G7"d8 "C7"a8 | "F"f12 z4 |
+"C7"c2e2 g2 c'4 d'2 c'2_b2 | "F"a4 c'2 f'8 _e2 | "C7"e2 c'4 _e2 =e2 c'4 e2 | "F"f2g2 _a2 =a8- a2 |
+"C7"c2e2 g2 c'4 d'2 c'2_b2 | "F"a4 c'2 f'4 "Dm"d'2 a2f2 | "Am"e2a2 c'2 b6 "E7"e'4 | "Am"e'4 c'2e2 "F#dim"a2^f2 _e2c2 |
+"C7"c2e2 g2 c'4 d'2 c'2_b2 | "F"a4 c'2 f'8 _e2 | "C7"e2 c'4 _e2 =e2 c'4 e2 | "F"f2e2 d2 c8 ^c2 |
+"Bb7"d2d'2 _b2f2 "F"c2 c'4 ^c2 | "Bb7"d2d'2 _b2f2 "F"c2 c'4 c2 | "G7"d8 "C7"a8 | "F"f8 Hf'8 |]

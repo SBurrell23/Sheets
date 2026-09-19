@@ -1,0 +1,12 @@
+X:1
+T:When the Roll Is Called Up Yonder
+C:James M. Black, 1893; words James M. Black, 1893; setting Charles H. Gabriel
+M:4/4
+L:1/16
+Q:1/4=100
+K:C clef=treble
+"C"c3d1 | "C"e3e1 e3e1 e3d1 c3c1 | "F"d3c1 c3A1 "C"G4 c3d1 | "C"e3e1 e3e1 e3e1 "G/B"d3"D7"c1 |
+"G"d12 "C"c3d1 | "C"e3e1 e3e1 e3d1 c3c1 | "F"d3c1 c3A1 "C"G4 c3d1 | "G7"e3e1 e3c1 d3d1 d3B1 |
+"C"c12 e3f1 | "C"g8- g3f1 e3f1 | "C"g8 e4 e3e1 | "G7"f8- f3e1 d3e1 |
+"G7"f8 d4 e3f1 | "C"g8- g3e1 d3c1 | "F"c8 f4 f3d1 | "G7"e3e1 e3c1 d3d1 d3B1 |
+"C"Hc16 |]

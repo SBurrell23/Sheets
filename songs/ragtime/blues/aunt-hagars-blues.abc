@@ -1,0 +1,17 @@
+X:1
+T:Aunt Hagar's Blues
+C:W. C. Handy, 1921
+M:4/4
+L:1/16
+Q:1/4=92
+K:C clef=treble
+"Am"A3A1 c2e2 e4 c4 | "Am"B3B1 A2B2 c8 | "E7"B4 ^G2B2 e4 d4 | "Am"c4 B4 A8 |
+"Am"A3A1 c2e2 a4 e4 | "Am"c3c1 B2c2 e8 | "Dm"f4 e2d2 f4 d4 | "E7"e4 d2B2 ^G4 B4 |
+"Am"A3A1 c2e2 e4 c4 | "Am"B3B1 A2B2 c8 | "Dm"d4 f2a2 a4 f4 | "Am"e4 c4 A8 |
+"F"a4 g2f2 e4 c4 | "C"e4 g2e2 c8 | "G7"d4 f2d2 B4 G4 | "C"c12 z2 G2 |
+"C7"c2e2 g4 a2g2 e4 | "F7"_e2=e2 c4 A4 G4 | "C7"c4 e2g2 e4 c4 | "C7"G4 c4 e8 |
+"F7"a2a2 f4 d2f2 a4 | "F7"c'4 a2f2 _e4 =e4 | "C7"g4 e2c2 e4 g4 | "C7"e8 c4 G4 |
+"G7"d2g2 b4 a2g2 f4 | "F7"e4 c2A2 G8 | "C7"c4 _e2=e2 g4 e4 | "Dm7"d4 f2d2 "G7"B4 G4 |
+"C7"G2c2 e4 g2a2 g4 | "F7"_e2=e2 c4 A2G2 G4 | "C7"c2e2 g2c'2 g4 e4 | "C7"e4 c8 e4 |
+"F7"a4 a2f2 a4 c'4 | "F7"c'2a2 f4 _e2=e2 c4 | "C7"g2e2 c4 e4 g4 | "C7"g4 e4 c8 |
+"G7"d2g2 b4 a4 f4 | "F7"e4 c2A2 _e4 =e4 | "C7"c4 e2g2 e4 c4 | "C"Hc16 |]

@@ -1,0 +1,15 @@
+X:1
+T:Trouble in Mind
+C:Richard M. Jones, 1924
+M:4/4
+L:1/16
+Q:1/4=72
+K:C clef=treble
+"C"g4 g2e2 c4 e4 | "C7"e8 d4 c4 | "F"a4 a2g2 f4 a4 | "F"a8 f4 a4 |
+"C"g4 e2g2 e4 c4 | "A7"e4 ^c2e2 g4 e4 | "Dm7"d4 f2d2 "G7"B4 d4 | "C"c8 z4 "G7"G4 |
+"C7"g3g1 e4 _e2=e2 c4 | "C7"e6 c2 _B4 c4 | "F7"A4 c2_e2 =e4 c4 | "F7"f4 a2f2 _e4 c4 |
+"C"e4 g2c'2 a4 g4 | "A7"g4 e2^c2 e8 | "Dm7"f4 d2f2 "G7"d4 B4 | "C"c8 z4 "G7"g4 |
+"C"c'4 a2g2 e4 g4 | "C7"g6 e2 g4 _b4 | "F7"a4 c'2a2 f4 _e4 | "F7"e4 c2A2 c4 A4 |
+"C"G2c2 e4 g2e2 c4 | "A7"^c4 e2g2 a4 g4 | "Dm7"f4 a2f2 "G7"d4 f4 | "C"e8 c4 "G7"d4 |
+"C"g4 g2e2 c4 e4 | "C7"e8 d2c2 _B4 | "F7"A4 c2_e2 =e4 c4 | "F7"a4 f2_e2 c4 A4 |
+"C"g4 e2g2 e4 c4 | "A7"e4 ^c2e2 g4 e4 | "Dm7"d4 f2d2 "G7"B4 G4 | "C"Hc16 |]

@@ -1,0 +1,345 @@
+{
+  "title": "Heliotrope Bouquet",
+  "source": "Scott Joplin and Louis Chauvin, 1907",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 76,
+  "bars": [
+    {
+      "chord": "C",
+      "notes": "G4:2 A4:2 B4:2 C5:4 E5:2 D5:2 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:2 F5:2 E5:2 D5:4 E5:2 F5:2 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 A4:4 B4:2 [Am]C5:4 A4:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G4:4 R:4 [Ebdim]B5:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 B5:4 [D7]F#5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 B5:4 [D7]F#5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "Am7",
+      "notes": "C5:2 D5:2 E5:2 G5:4 G5:2 A5:4"
+    },
+    {
+      "chord": "Em7",
+      "notes": "B5:2 C6:2 D6:2 B5:4 [D7]G5:2 A5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 [Ebdim]B5:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 B5:4 [D7]F#5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 G5:2 E5:2 G5:2 E5:2 G5:2 E5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:4 G5:2 E5:2 G5:2 C6:4 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 F5:2 E5:2 [Fm]F5:2 C5:2 D5:2 Eb5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 G5:4 E5:4 [G7]C5:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:8 [C#dim]E6:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "E6:4 E6:2 D6:2 E6:2 G6:4 D6:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "E6:2 D6:2 E6:2 G6:8 (3 G5:1 Ab5:1 A5:1)"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 A5:2 G5:2 A5:2 C6:4 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:2 B5:2 C6:2 A5:4 [Gdim]G5:2 A5:2 Bb5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:4 B5:2 G5:2 B5:2 D6:4 A5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "B5:2 A5:2 B5:2 A5:8 (3 G5:1 A5:1 B5:1)"
+    },
+    {
+      "chord": "C7",
+      "notes": "C6:4 G5:4 F#5:4 F5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "E5:4 Eb5:4 D5:4 E5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "R:2 D6:2 E6:2 D6:2 E6:2 G6:4 D6:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "E6:2 D6:2 E6:2 G6:8 (3 G5:1 Ab5:1 A5:1)"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:4 A5:2 G5:2 A5:2 C6:4 G5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:2 B5:2 C6:2 A5:6 (3 G5:2 F#5:2 G5:2)"
+    },
+    {
+      "chord": "A7",
+      "notes": "A5:4 E6:4 [D7]D6:2 G6:6"
+    },
+    {
+      "chord": "G7",
+      "notes": "G5:4 D6:4 [C]C6:2 G6:6"
+    },
+    {
+      "chord": "D7",
+      "notes": "D6:2 G6:6 [G7]D6:2 G6:6"
+    },
+    {
+      "chord": "C",
+      "notes": "C6:8 [Ebdim]B5:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 B5:4 [D7]F#5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 B5:4 [D7]F#5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "Am7",
+      "notes": "C5:2 D5:2 E5:2 G5:4 G5:2 A5:4"
+    },
+    {
+      "chord": "Em7",
+      "notes": "B5:2 C6:2 D6:2 B5:4 [D7]G5:2 A5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "G5:8 [Ebdim]B5:4 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:2 E5:2 G5:2 B5:4 [D7]F#5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "F5:2 G5:2 A5:2 E5:4 B4:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 G5:2 E5:2 G5:2 E5:2 G5:2 E5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:4 G5:2 E5:2 G5:2 C6:4 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:4 F5:2 E5:2 [Fm]F5:2 C5:2 D5:2 Eb5:2"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:2 G5:4 E5:4 [G7]C5:2 D5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:4 C5:2 D5:2 E5:2 F5:2 G5:2 Ab5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:2 Ab5:2 A5:2 C5:2 [Bbm]D5:2 F5:4 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 D6:2 C6:4 [C7]G6:2 G6:2 Bb5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:2 Ab5:2 A5:2 C5:2 [Bbm]D5:2 F5:4 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:16"
+    },
+    {
+      "chord": "Bb",
+      "notes": "Bb5:2 F6:2 G5:2 F5:4 [Bbm]G5:2 Bb5:2 F6:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:2 C6:2 G5:2 F5:2 [F7]F5:2 C6:2 D6:2 Eb6:2"
+    },
+    {
+      "chord": "Am7",
+      "notes": "E6:2 F6:2 G6:2 E6:2 [G7]E6:2 C6:2 D6:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "C6:4 C5:2 D5:2 E5:2 F5:2 G5:2 Ab5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:2 Ab5:2 A5:2 C5:2 [Bbm]D5:2 F5:4 G5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 D6:2 C6:4 F5:2 A5:4"
+    },
+    {
+      "chord": "A7",
+      "notes": "Ab5:2 A5:2 C#6:2 F6:4 A5:2 E6:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D6:4 E6:2 F6:4 D6:2 A5:2 F5:2"
+    },
+    {
+      "chord": "Bdim",
+      "notes": "F6:2 D6:2 B5:2 Ab5:2 F5:2 D5:4 C#5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "C5:4 D5:2 F5:4 [Dm]G5:2 A5:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 [C7]A5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:12 R:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:2 E5:2 G5:2 C6:4 D6:2 C6:2 Bb5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 C6:2 F6:8 Eb5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:2 C6:4 Eb5:2 E5:2 C6:4 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 G5:2 Ab5:2 A5:8~ A5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:2 E5:2 G5:2 C6:4 D6:2 C6:2 Bb5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 C6:2 F6:4 [Dm]D6:2 A5:2 F5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:2 A5:2 C6:2 B5:6 [E7]E6:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E6:4 C6:2 E5:2 [F#dim]A5:2 F#5:2 Eb5:2 C5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:2 E5:2 G5:2 C6:4 D6:2 C6:2 Bb5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 C6:2 F6:8 Eb5:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:2 C6:4 Eb5:2 E5:2 C6:4 E5:2"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 E5:2 D5:2 C5:8 C#5:2"
+    },
+    {
+      "chord": "Bb7",
+      "notes": "D5:2 D6:2 Bb5:2 F5:2 [F]C5:2 C6:4 C#5:2"
+    },
+    {
+      "chord": "Bb7",
+      "notes": "D5:2 D6:2 Bb5:2 F5:2 [F]C5:2 C6:4 C5:2"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:8 [C7]A5:8"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:8 F6:8"
+    }
+  ]
+}

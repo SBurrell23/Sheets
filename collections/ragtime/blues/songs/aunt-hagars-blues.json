@@ -1,0 +1,169 @@
+{
+  "title": "Aunt Hagar's Blues",
+  "source": "W. C. Handy, 1921",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 92,
+  "bars": [
+    {
+      "chord": "Am",
+      "notes": "A4:3 A4:1 C5:2 E5:2 E5:4 C5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "B4:3 B4:1 A4:2 B4:2 C5:8"
+    },
+    {
+      "chord": "E7",
+      "notes": "B4:4 G#4:2 B4:2 E5:4 D5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 B4:4 A4:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:3 A4:1 C5:2 E5:2 A5:4 E5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:3 C5:1 B4:2 C5:2 E5:8"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F5:4 E5:2 D5:2 F5:4 D5:4"
+    },
+    {
+      "chord": "E7",
+      "notes": "E5:4 D5:2 B4:2 G#4:4 B4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:3 A4:1 C5:2 E5:2 E5:4 C5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "B4:3 B4:1 A4:2 B4:2 C5:8"
+    },
+    {
+      "chord": "Dm",
+      "notes": "D5:4 F5:2 A5:2 A5:4 F5:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "E5:4 C5:4 A4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "A5:4 G5:2 F5:2 E5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 G5:2 E5:2 C5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:4 F5:2 D5:2 B4:4 G4:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:12 R:2 G4:2"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:2 E5:2 G5:4 A5:2 G5:2 E5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "Eb5:2 E5:2 C5:4 A4:4 G4:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:4 E5:2 G5:2 E5:4 C5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G4:4 C5:4 E5:8"
+    },
+    {
+      "chord": "F7",
+      "notes": "A5:2 A5:2 F5:4 D5:2 F5:2 A5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C6:4 A5:2 F5:2 Eb5:4 E5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:4 E5:2 C5:2 E5:4 G5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:8 C5:4 G4:4"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 G5:2 B5:4 A5:2 G5:2 F5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "E5:4 C5:2 A4:2 G4:8"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:4 Eb5:2 E5:2 G5:4 E5:4"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "D5:4 F5:2 D5:2 [G7]B4:4 G4:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G4:2 C5:2 E5:4 G5:2 A5:2 G5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "Eb5:2 E5:2 C5:4 A4:2 G4:2 G4:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:2 E5:2 G5:2 C6:2 G5:4 E5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "E5:4 C5:8 E5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "A5:4 A5:2 F5:2 A5:4 C6:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "C6:2 A5:2 F5:4 Eb5:2 E5:2 C5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:2 E5:2 C5:4 E5:4 G5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "G5:4 E5:4 C5:8"
+    },
+    {
+      "chord": "G7",
+      "notes": "D5:2 G5:2 B5:4 A5:4 F5:4"
+    },
+    {
+      "chord": "F7",
+      "notes": "E5:4 C5:2 A4:2 Eb5:4 E5:4"
+    },
+    {
+      "chord": "C7",
+      "notes": "C5:4 E5:2 G5:2 E5:4 C5:4"
+    },
+    {
+      "chord": "C",
+      "notes": "C5:16"
+    }
+  ]
+}

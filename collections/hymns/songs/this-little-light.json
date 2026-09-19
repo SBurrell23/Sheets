@@ -1,0 +1,25 @@
+{
+  "title": "This Little Light of Mine",
+  "source": "Traditional African-American spiritual, tune THIS LITTLE LIGHT OF MINE",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 116,
+  "bars": [
+    { "chord": "C",  "notes": "G4:4 A4:2 G4:2 C5:2 D5:4 C5:2~" },
+    { "chord": "C",  "notes": "C5:16" },
+    { "chord": "C",  "notes": "E5:4 E5:2 D5:2 E5:2 D5:4 C5:2~" },
+    { "chord": "C7", "notes": "C5:16" },
+    { "chord": "F",  "notes": "A4:4 A4:2 A4:2 C5:2 D5:4 C5:2~" },
+    { "chord": "F",  "notes": "C5:16" },
+    { "chord": "C",  "notes": "C5:4 C5:2 A4:2 C5:2 C5:4 A4:2" },
+    { "chord": "C",  "notes": "G4:16" },
+    { "chord": "C",  "notes": "G4:4 A4:2 G4:2 C5:2 D5:4 C5:2~" },
+    { "chord": "C",  "notes": "C5:16" },
+    { "chord": "C",  "notes": "E5:4 E5:2 D5:2 E5:2 D5:4 C5:2~" },
+    { "chord": "C",  "notes": "C5:12 [G7]C5:2 C5:2" },
+    { "chord": "C",  "notes": "C5:4 R:8 C5:2 C5:2" },
+    { "chord": "F",  "notes": "C5:4 R:8 [G7]C5:2 C5:2" },
+    { "chord": "C",  "notes": "C5:16~" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

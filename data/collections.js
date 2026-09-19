@@ -1424,6 +1424,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/ragtime/ragtime/elite-syncopations.pdf"
      },
      {
+      "slug": "fig-leaf-rag",
+      "title": "Fig Leaf Rag",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 84,
+      "source": "Scott Joplin, 1908",
+      "pdf": "songs/ragtime/ragtime/fig-leaf-rag.pdf"
+     },
+     {
       "slug": "frog-legs-rag",
       "title": "Frog Legs Rag",
       "key": "C",
@@ -1444,6 +1454,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/ragtime/ragtime/gladiolus-rag.pdf"
      },
      {
+      "slug": "heliotrope-bouquet",
+      "title": "Heliotrope Bouquet",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 84,
+      "source": "Scott Joplin and Louis Chauvin, 1907",
+      "pdf": "songs/ragtime/ragtime/heliotrope-bouquet.pdf"
+     },
+     {
       "slug": "kitten-on-the-keys",
       "title": "Kitten on the Keys",
       "key": "C",
@@ -1452,6 +1472,16 @@ window.PS_MANIFEST = [
       "bars": 82,
       "source": "Zez Confrey, 1921",
       "pdf": "songs/ragtime/ragtime/kitten-on-the-keys.pdf"
+     },
+     {
+      "slug": "magnetic-rag",
+      "title": "Magnetic Rag",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 102,
+      "source": "Scott Joplin, 1914",
+      "pdf": "songs/ragtime/ragtime/magnetic-rag.pdf"
      },
      {
       "slug": "maple-leaf-rag",
@@ -1472,6 +1502,16 @@ window.PS_MANIFEST = [
       "bars": 96,
       "source": "Scott Joplin, 1899",
       "pdf": "songs/ragtime/ragtime/original-rags.pdf"
+     },
+     {
+      "slug": "peacherine-rag",
+      "title": "Peacherine Rag",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 84,
+      "source": "Scott Joplin, 1901",
+      "pdf": "songs/ragtime/ragtime/peacherine-rag.pdf"
      },
      {
       "slug": "pine-apple-rag",
@@ -1502,6 +1542,16 @@ window.PS_MANIFEST = [
       "bars": 88,
       "source": "Scott Joplin & Scott Hayden, 1901",
       "pdf": "songs/ragtime/ragtime/sunflower-slow-drag.pdf"
+     },
+     {
+      "slug": "the-cascades",
+      "title": "The Cascades",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 72,
+      "source": "Scott Joplin, 1904",
+      "pdf": "songs/ragtime/ragtime/the-cascades.pdf"
      },
      {
       "slug": "the-easy-winners",
@@ -1552,6 +1602,16 @@ window.PS_MANIFEST = [
     "order": 2,
     "songs": [
      {
+      "slug": "aunt-hagars-blues",
+      "title": "Aunt Hagar's Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 92,
+      "bars": 40,
+      "source": "W. C. Handy, 1921",
+      "pdf": "songs/ragtime/blues/aunt-hagars-blues.pdf"
+     },
+     {
       "slug": "beale-street-blues",
       "title": "Beale Street Blues",
       "key": "C",
@@ -1572,6 +1632,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/ragtime/blues/careless-love.pdf"
      },
      {
+      "slug": "down-hearted-blues",
+      "title": "Down Hearted Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 40,
+      "source": "Alberta Hunter and Lovie Austin, 1922",
+      "pdf": "songs/ragtime/blues/down-hearted-blues.pdf"
+     },
+     {
       "slug": "frankie-and-johnny",
       "title": "Frankie and Johnny",
       "key": "C",
@@ -1582,6 +1652,76 @@ window.PS_MANIFEST = [
       "pdf": "songs/ragtime/blues/frankie-and-johnny.pdf"
      },
      {
+      "slug": "gulf-coast-blues",
+      "title": "Gulf Coast Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 40,
+      "source": "Clarence Williams, 1923",
+      "pdf": "songs/ragtime/blues/gulf-coast-blues.pdf"
+     },
+     {
+      "slug": "hesitating-blues",
+      "title": "Hesitating Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 40,
+      "source": "W. C. Handy, 1915",
+      "pdf": "songs/ragtime/blues/hesitating-blues.pdf"
+     },
+     {
+      "slug": "how-long-blues",
+      "title": "How Long, How Long Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 68,
+      "bars": 17,
+      "source": "Leroy Carr, 1928",
+      "pdf": "songs/ragtime/blues/how-long-blues.pdf"
+     },
+     {
+      "slug": "in-the-pines",
+      "title": "In the Pines",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 96,
+      "bars": 17,
+      "source": "Traditional Appalachian ballad, collected in the southern mountains from 1917",
+      "pdf": "songs/ragtime/blues/in-the-pines.pdf"
+     },
+     {
+      "slug": "joe-turner-blues",
+      "title": "Joe Turner Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 40,
+      "source": "W. C. Handy, 1915",
+      "pdf": "songs/ragtime/blues/joe-turner-blues.pdf"
+     },
+     {
+      "slug": "john-henry",
+      "title": "John Henry",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 11,
+      "source": "Traditional American ballad, collected from about 1909",
+      "pdf": "songs/ragtime/blues/john-henry.pdf"
+     },
+     {
+      "slug": "make-me-a-pallet",
+      "title": "Make Me a Pallet on the Floor",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 16,
+      "source": "Traditional American blues, collected by Howard Odum c. 1905-1908",
+      "pdf": "songs/ragtime/blues/make-me-a-pallet.pdf"
+     },
+     {
       "slug": "memphis-blues",
       "title": "Memphis Blues",
       "key": "C",
@@ -1590,6 +1730,46 @@ window.PS_MANIFEST = [
       "bars": 56,
       "source": "W. C. Handy, 1912",
       "pdf": "songs/ragtime/blues/memphis-blues.pdf"
+     },
+     {
+      "slug": "midnight-special",
+      "title": "Midnight Special",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 17,
+      "source": "Traditional American prison song, printed in Carl Sandburg's American Songbag, 1927",
+      "pdf": "songs/ragtime/blues/midnight-special.pdf"
+     },
+     {
+      "slug": "nobody-knows-you",
+      "title": "Nobody Knows You When You're Down and Out",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 48,
+      "source": "Jimmy Cox, 1923",
+      "pdf": "songs/ragtime/blues/nobody-knows-you.pdf"
+     },
+     {
+      "slug": "see-see-rider",
+      "title": "See See Rider",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 84,
+      "bars": 24,
+      "source": "Ma Rainey, 1924",
+      "pdf": "songs/ragtime/blues/see-see-rider.pdf"
+     },
+     {
+      "slug": "sittin-on-top-of-the-world",
+      "title": "Sittin' on Top of the World",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 24,
+      "source": "Mississippi Sheiks, 1930",
+      "pdf": "songs/ragtime/blues/sittin-on-top-of-the-world.pdf"
      },
      {
       "slug": "st-james-infirmary",
@@ -1620,6 +1800,26 @@ window.PS_MANIFEST = [
       "bars": 65,
       "source": "Traditional American folk-blues",
       "pdf": "songs/ragtime/blues/house-of-the-rising-sun.pdf"
+     },
+     {
+      "slug": "tishomingo-blues",
+      "title": "Tishomingo Blues",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 48,
+      "source": "Spencer Williams, 1917",
+      "pdf": "songs/ragtime/blues/tishomingo-blues.pdf"
+     },
+     {
+      "slug": "trouble-in-mind",
+      "title": "Trouble in Mind",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 32,
+      "source": "Richard M. Jones, 1924",
+      "pdf": "songs/ragtime/blues/trouble-in-mind.pdf"
      },
      {
       "slug": "yellow-dog-blues",
@@ -2030,6 +2230,26 @@ window.PS_MANIFEST = [
       "pdf": "songs/hymns/abide-with-me.pdf"
      },
      {
+      "slug": "all-creatures",
+      "title": "All Creatures of Our God and King",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 96,
+      "bars": 17,
+      "source": "Geistliche Kirchengesäng, Köln, 1623, tune LASST UNS ERFREUEN; harmony Ralph Vaughan Williams, 1906; words Francis of Assisi c.1225, tr. William H. Draper, 1919",
+      "pdf": "songs/hymns/all-creatures.pdf"
+     },
+     {
+      "slug": "amazing-grace",
+      "title": "Amazing Grace",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 17,
+      "source": "James P. Carrell and David L. Clayton, tune NEW BRITAIN, 1831; setting Edwin O. Excell, 1900; words John Newton, 1779",
+      "pdf": "songs/hymns/amazing-grace.pdf"
+     },
+     {
       "slug": "be-thou-my-vision",
       "title": "Be Thou My Vision",
       "key": "C",
@@ -2048,6 +2268,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Phoebe P. Knapp, tune ASSURANCE, 1873; words Fanny J. Crosby, 1873",
       "pdf": "songs/hymns/blessed-assurance.pdf"
+     },
+     {
+      "slug": "bringing-in-the-sheaves",
+      "title": "Bringing in the Sheaves",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 112,
+      "bars": 16,
+      "source": "George A. Minor, 1880; words Knowles Shaw, 1874",
+      "pdf": "songs/hymns/bringing-in-the-sheaves.pdf"
      },
      {
       "slug": "come-thou-fount",
@@ -2100,6 +2330,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/hymns/holy-holy-holy.pdf"
      },
      {
+      "slug": "in-the-sweet-by-and-by",
+      "title": "In the Sweet By and By",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "Joseph P. Webster, tune SWEET BY AND BY, 1868; words Sanford F. Bennett, 1868",
+      "pdf": "songs/hymns/in-the-sweet-by-and-by.pdf"
+     },
+     {
       "slug": "it-is-well",
       "title": "It Is Well With My Soul",
       "key": "C",
@@ -2118,6 +2358,16 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "William B. Bradbury, tune CHINA, 1862; words Anna B. Warner, 1860",
       "pdf": "songs/hymns/jesus-loves-me.pdf"
+     },
+     {
+      "slug": "leaning-everlasting-arms",
+      "title": "Leaning on the Everlasting Arms",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "Anthony J. Showalter, tune SHOWALTER, 1887; words Elisha A. Hoffman and Anthony J. Showalter",
+      "pdf": "songs/hymns/leaning-everlasting-arms.pdf"
      },
      {
       "slug": "nearer-my-god-to-thee",
@@ -2180,6 +2430,26 @@ window.PS_MANIFEST = [
       "pdf": "songs/hymns/rock-of-ages.pdf"
      },
      {
+      "slug": "shall-we-gather",
+      "title": "Shall We Gather at the River",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 16,
+      "source": "Robert Lowry, tune HANSON PLACE (\"Beautiful River\"), 1864; words Robert Lowry",
+      "pdf": "songs/hymns/shall-we-gather.pdf"
+     },
+     {
+      "slug": "standing-on-the-promises",
+      "title": "Standing on the Promises",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 16,
+      "source": "R. Kelso Carter, tune PROMISES, 1886; words R. Kelso Carter, 1886",
+      "pdf": "songs/hymns/standing-on-the-promises.pdf"
+     },
+     {
       "slug": "the-old-rugged-cross",
       "title": "The Old Rugged Cross",
       "key": "C",
@@ -2188,6 +2458,16 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "George Bennard, tune OLD RUGGED CROSS, 1913; words George Bennard, 1913",
       "pdf": "songs/hymns/the-old-rugged-cross.pdf"
+     },
+     {
+      "slug": "this-little-light",
+      "title": "This Little Light of Mine",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 16,
+      "source": "Traditional African-American spiritual, tune THIS LITTLE LIGHT OF MINE",
+      "pdf": "songs/hymns/this-little-light.pdf"
      },
      {
       "slug": "what-a-friend",
@@ -2208,6 +2488,26 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Lowell Mason, tune HAMBURG, 1824; words Isaac Watts, 1707",
       "pdf": "songs/hymns/when-i-survey.pdf"
+     },
+     {
+      "slug": "roll-is-called-up-yonder",
+      "title": "When the Roll Is Called Up Yonder",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 17,
+      "source": "James M. Black, 1893; words James M. Black, 1893; setting Charles H. Gabriel",
+      "pdf": "songs/hymns/roll-is-called-up-yonder.pdf"
+     },
+     {
+      "slug": "when-the-saints",
+      "title": "When the Saints Go Marching In",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 16,
+      "source": "Traditional American spiritual, 19th century",
+      "pdf": "songs/hymns/when-the-saints.pdf"
      }
     ]
    }
@@ -2536,21 +2836,11 @@ window.PS_MANIFEST = [
   "order": 7,
   "sets": [
    {
-    "id": "piano-miniatures",
-    "title": "",
-    "label": "Romantic character pieces for piano",
-    "order": 99,
+    "id": "character-pieces",
+    "title": "Character Pieces",
+    "label": "Schumann, Tchaikovsky, Chopin, Dvorak, Satie",
+    "order": 1,
     "songs": [
-     {
-      "slug": "album-leaf",
-      "title": "Album Leaf",
-      "key": "Am",
-      "meter": "2/4",
-      "tempo": 100,
-      "bars": 57,
-      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 7, 1867",
-      "pdf": "songs/piano-miniatures/album-leaf.pdf"
-     },
      {
       "slug": "important-event",
       "title": "An Important Event",
@@ -2559,7 +2849,7 @@ window.PS_MANIFEST = [
       "tempo": 69,
       "bars": 25,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 6, 1838",
-      "pdf": "songs/piano-miniatures/important-event.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/important-event.pdf"
      },
      {
       "slug": "april-snowdrop",
@@ -2569,17 +2859,7 @@ window.PS_MANIFEST = [
       "tempo": 63,
       "bars": 79,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 4, 1876",
-      "pdf": "songs/piano-miniatures/april-snowdrop.pdf"
-     },
-     {
-      "slug": "arietta",
-      "title": "Arietta",
-      "key": "C",
-      "meter": "2/4",
-      "tempo": 63,
-      "bars": 23,
-      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 1, 1867",
-      "pdf": "songs/piano-miniatures/arietta.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/april-snowdrop.pdf"
      },
      {
       "slug": "child-falling-asleep",
@@ -2589,7 +2869,7 @@ window.PS_MANIFEST = [
       "tempo": 63,
       "bars": 32,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 12, 1838",
-      "pdf": "songs/piano-miniatures/child-falling-asleep.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/child-falling-asleep.pdf"
      },
      {
       "slug": "curious-story",
@@ -2599,17 +2879,7 @@ window.PS_MANIFEST = [
       "tempo": 132,
       "bars": 41,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 2, 1838",
-      "pdf": "songs/piano-miniatures/curious-story.pdf"
-     },
-     {
-      "slug": "elegie",
-      "title": "Elegie",
-      "key": "Am",
-      "meter": "3/4",
-      "tempo": 80,
-      "bars": 47,
-      "source": "Edvard Grieg, Lyric Pieces Op. 38 No. 6, 1883",
-      "pdf": "songs/piano-miniatures/elegie.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/curious-story.pdf"
      },
      {
       "slug": "gnossienne-no-1",
@@ -2619,7 +2889,7 @@ window.PS_MANIFEST = [
       "tempo": 100,
       "bars": 41,
       "source": "Erik Satie, Gnossiennes No. 1, 1890",
-      "pdf": "songs/piano-miniatures/gnossienne-no-1.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/gnossienne-no-1.pdf"
      },
      {
       "slug": "gnossienne-no-2",
@@ -2629,7 +2899,7 @@ window.PS_MANIFEST = [
       "tempo": 60,
       "bars": 32,
       "source": "Erik Satie, Gnossiennes No. 2, 1890",
-      "pdf": "songs/piano-miniatures/gnossienne-no-2.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/gnossienne-no-2.pdf"
      },
      {
       "slug": "gnossienne-no-3",
@@ -2639,7 +2909,7 @@ window.PS_MANIFEST = [
       "tempo": 80,
       "bars": 54,
       "source": "Erik Satie, Gnossiennes No. 3, 1890",
-      "pdf": "songs/piano-miniatures/gnossienne-no-3.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/gnossienne-no-3.pdf"
      },
      {
       "slug": "january-by-the-fireside",
@@ -2649,7 +2919,7 @@ window.PS_MANIFEST = [
       "tempo": 69,
       "bars": 103,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 1, 1876",
-      "pdf": "songs/piano-miniatures/january-by-the-fireside.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/january-by-the-fireside.pdf"
      },
      {
       "slug": "july-song-of-the-reaper",
@@ -2659,7 +2929,7 @@ window.PS_MANIFEST = [
       "tempo": 116,
       "bars": 56,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 7, 1876",
-      "pdf": "songs/piano-miniatures/july-song-of-the-reaper.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/july-song-of-the-reaper.pdf"
      },
      {
       "slug": "june-barcarolle",
@@ -2669,7 +2939,7 @@ window.PS_MANIFEST = [
       "tempo": 72,
       "bars": 96,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 6, 1876",
-      "pdf": "songs/piano-miniatures/june-barcarolle.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/june-barcarolle.pdf"
      },
      {
       "slug": "knight-of-the-hobbyhorse",
@@ -2679,7 +2949,7 @@ window.PS_MANIFEST = [
       "tempo": 120,
       "bars": 24,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 9, 1838",
-      "pdf": "songs/piano-miniatures/knight-of-the-hobbyhorse.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/knight-of-the-hobbyhorse.pdf"
      },
      {
       "slug": "mazurka-op24-no3",
@@ -2689,7 +2959,7 @@ window.PS_MANIFEST = [
       "tempo": 126,
       "bars": 44,
       "source": "Frédéric Chopin, Mazurkas Op. 24 No. 3, 1835",
-      "pdf": "songs/piano-miniatures/mazurka-op24-no3.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/mazurka-op24-no3.pdf"
      },
      {
       "slug": "mazurka-op07-no5",
@@ -2699,7 +2969,7 @@ window.PS_MANIFEST = [
       "tempo": 168,
       "bars": 20,
       "source": "Frédéric Chopin, Mazurkas Op. 7 No. 5, 1832",
-      "pdf": "songs/piano-miniatures/mazurka-op07-no5.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/mazurka-op07-no5.pdf"
      },
      {
       "slug": "mazurka-op06-no4",
@@ -2709,7 +2979,7 @@ window.PS_MANIFEST = [
       "tempo": 176,
       "bars": 25,
       "source": "Frédéric Chopin, Mazurkas Op. 6 No. 4, 1832",
-      "pdf": "songs/piano-miniatures/mazurka-op06-no4.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/mazurka-op06-no4.pdf"
      },
      {
       "slug": "mazurka-op68-no4",
@@ -2719,17 +2989,7 @@ window.PS_MANIFEST = [
       "tempo": 96,
       "bars": 62,
       "source": "Frédéric Chopin, Mazurkas Op. 68 No. 4, 1849",
-      "pdf": "songs/piano-miniatures/mazurka-op68-no4.pdf"
-     },
-     {
-      "slug": "norwegian-melody",
-      "title": "Norwegian Melody",
-      "key": "C",
-      "meter": "3/4",
-      "tempo": 152,
-      "bars": 56,
-      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 6, 1867",
-      "pdf": "songs/piano-miniatures/norwegian-melody.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/mazurka-op68-no4.pdf"
      },
      {
       "slug": "november-troika",
@@ -2739,7 +2999,7 @@ window.PS_MANIFEST = [
       "tempo": 108,
       "bars": 75,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 11, 1876",
-      "pdf": "songs/piano-miniatures/november-troika.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/november-troika.pdf"
      },
      {
       "slug": "october-autumn-song",
@@ -2749,7 +3009,7 @@ window.PS_MANIFEST = [
       "tempo": 48,
       "bars": 56,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 10, 1876",
-      "pdf": "songs/piano-miniatures/october-autumn-song.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/october-autumn-song.pdf"
      },
      {
       "slug": "perfectly-contented",
@@ -2759,7 +3019,7 @@ window.PS_MANIFEST = [
       "tempo": 66,
       "bars": 17,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 5, 1838",
-      "pdf": "songs/piano-miniatures/perfectly-contented.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/perfectly-contented.pdf"
      },
      {
       "slug": "pleading-child",
@@ -2769,7 +3029,7 @@ window.PS_MANIFEST = [
       "tempo": 76,
       "bars": 17,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 4, 1838",
-      "pdf": "songs/piano-miniatures/pleading-child.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/pleading-child.pdf"
      },
      {
       "slug": "silhouette-no-1",
@@ -2779,7 +3039,7 @@ window.PS_MANIFEST = [
       "tempo": 92,
       "bars": 53,
       "source": "Antonín Dvořák, Silhouettes Op. 8 No. 1, 1879",
-      "pdf": "songs/piano-miniatures/silhouette-no-1.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/silhouette-no-1.pdf"
      },
      {
       "slug": "silhouette-no-10",
@@ -2789,7 +3049,7 @@ window.PS_MANIFEST = [
       "tempo": 63,
       "bars": 58,
       "source": "Antonín Dvořák, Silhouettes Op. 8 No. 10, 1879",
-      "pdf": "songs/piano-miniatures/silhouette-no-10.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/silhouette-no-10.pdf"
      },
      {
       "slug": "silhouette-no-11",
@@ -2799,7 +3059,7 @@ window.PS_MANIFEST = [
       "tempo": 126,
       "bars": 44,
       "source": "Antonín Dvořák, Silhouettes Op. 8 No. 11, 1879",
-      "pdf": "songs/piano-miniatures/silhouette-no-11.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/silhouette-no-11.pdf"
      },
      {
       "slug": "silhouette-no-2",
@@ -2809,17 +3069,7 @@ window.PS_MANIFEST = [
       "tempo": 69,
       "bars": 16,
       "source": "Antonín Dvořák, Silhouettes Op. 8 No. 2, 1879",
-      "pdf": "songs/piano-miniatures/silhouette-no-2.pdf"
-     },
-     {
-      "slug": "solitary-traveller",
-      "title": "Solitary Traveller",
-      "key": "Am",
-      "meter": "6/8",
-      "tempo": 39,
-      "bars": 31,
-      "source": "Edvard Grieg, Lyric Pieces Op. 43 No. 2, 1886",
-      "pdf": "songs/piano-miniatures/solitary-traveller.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/silhouette-no-2.pdf"
      },
      {
       "slug": "der-dichter-spricht",
@@ -2829,7 +3079,7 @@ window.PS_MANIFEST = [
       "tempo": 56,
       "bars": 29,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 13, 1838",
-      "pdf": "songs/piano-miniatures/der-dichter-spricht.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/der-dichter-spricht.pdf"
      },
      {
       "slug": "wilder-reiter",
@@ -2839,7 +3089,7 @@ window.PS_MANIFEST = [
       "tempo": 112,
       "bars": 25,
       "source": "Robert Schumann, Album für die Jugend Op. 68 No. 8, 1848",
-      "pdf": "songs/piano-miniatures/wilder-reiter.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/wilder-reiter.pdf"
      },
      {
       "slug": "von-fremden-landern",
@@ -2849,7 +3099,215 @@ window.PS_MANIFEST = [
       "tempo": 72,
       "bars": 22,
       "source": "Robert Schumann, Kinderszenen Op. 15 No. 1, 1838",
-      "pdf": "songs/piano-miniatures/von-fremden-landern.pdf"
+      "pdf": "songs/piano-miniatures/character-pieces/von-fremden-landern.pdf"
+     }
+    ]
+   },
+   {
+    "id": "grieg",
+    "title": "Grieg: Lyric Pieces",
+    "label": "From the ten books, 1867-1901",
+    "order": 2,
+    "songs": [
+     {
+      "slug": "album-leaf",
+      "title": "Album Leaf",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 100,
+      "bars": 57,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 7, 1867",
+      "pdf": "songs/piano-miniatures/grieg/album-leaf.pdf"
+     },
+     {
+      "slug": "arietta",
+      "title": "Arietta",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 63,
+      "bars": 23,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 1, 1867",
+      "pdf": "songs/piano-miniatures/grieg/arietta.pdf"
+     },
+     {
+      "slug": "at-the-cradle",
+      "title": "At the Cradle",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 43,
+      "source": "Edvard Grieg, Lyric Pieces Op. 68 No. 5, 1898",
+      "pdf": "songs/piano-miniatures/grieg/at-the-cradle.pdf"
+     },
+     {
+      "slug": "elegie",
+      "title": "Elegie",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 80,
+      "bars": 47,
+      "source": "Edvard Grieg, Lyric Pieces Op. 38 No. 6, 1883",
+      "pdf": "songs/piano-miniatures/grieg/elegie.pdf"
+     },
+     {
+      "slug": "erotikon",
+      "title": "Erotikon",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 58,
+      "bars": 28,
+      "source": "Edvard Grieg, Lyric Pieces Op. 43 No. 5, 1886",
+      "pdf": "songs/piano-miniatures/grieg/erotikon.pdf"
+     },
+     {
+      "slug": "folk-song-op12",
+      "title": "Folk Song, Op. 12",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 92,
+      "bars": 41,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 5, 1867",
+      "pdf": "songs/piano-miniatures/grieg/folk-song-op12.pdf"
+     },
+     {
+      "slug": "folk-song-op38",
+      "title": "Folk Song, Op. 38",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 100,
+      "bars": 41,
+      "source": "Edvard Grieg, Lyric Pieces Op. 38 No. 2, 1883",
+      "pdf": "songs/piano-miniatures/grieg/folk-song-op38.pdf"
+     },
+     {
+      "slug": "gone",
+      "title": "Gone",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 66,
+      "bars": 33,
+      "source": "Edvard Grieg, Lyric Pieces Op. 71 No. 6, 1901",
+      "pdf": "songs/piano-miniatures/grieg/gone.pdf"
+     },
+     {
+      "slug": "halling-op47",
+      "title": "Halling, Op. 47",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 126,
+      "bars": 38,
+      "source": "Edvard Grieg, Lyric Pieces Op. 47 No. 4, 1888",
+      "pdf": "songs/piano-miniatures/grieg/halling-op47.pdf"
+     },
+     {
+      "slug": "in-ballad-style",
+      "title": "In Ballad Style",
+      "key": "Am",
+      "meter": "2/2",
+      "tempo": 42,
+      "bars": 40,
+      "source": "Edvard Grieg, Lyric Pieces Op. 65 No. 5, 1896",
+      "pdf": "songs/piano-miniatures/grieg/in-ballad-style.pdf"
+     },
+     {
+      "slug": "in-my-homeland",
+      "title": "In My Homeland",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 35,
+      "source": "Edvard Grieg, Lyric Pieces Op. 43 No. 3, 1886",
+      "pdf": "songs/piano-miniatures/grieg/in-my-homeland.pdf"
+     },
+     {
+      "slug": "melancholy",
+      "title": "Melancholy",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 58,
+      "bars": 41,
+      "source": "Edvard Grieg, Lyric Pieces Op. 47 No. 5, 1888",
+      "pdf": "songs/piano-miniatures/grieg/melancholy.pdf"
+     },
+     {
+      "slug": "melody-op38",
+      "title": "Melody",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 48,
+      "source": "Edvard Grieg, Lyric Pieces Op. 38 No. 3, 1883",
+      "pdf": "songs/piano-miniatures/grieg/melody-op38.pdf"
+     },
+     {
+      "slug": "national-song",
+      "title": "National Song",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 96,
+      "bars": 20,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 8, 1867",
+      "pdf": "songs/piano-miniatures/grieg/national-song.pdf"
+     },
+     {
+      "slug": "norwegian-melody",
+      "title": "Norwegian Melody",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 152,
+      "bars": 56,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 6, 1867",
+      "pdf": "songs/piano-miniatures/grieg/norwegian-melody.pdf"
+     },
+     {
+      "slug": "peasants-song",
+      "title": "Peasant's Song",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 27,
+      "source": "Edvard Grieg, Lyric Pieces Op. 65 No. 2, 1896",
+      "pdf": "songs/piano-miniatures/grieg/peasants-song.pdf"
+     },
+     {
+      "slug": "sadness",
+      "title": "Sadness",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 63,
+      "bars": 37,
+      "source": "Edvard Grieg, Lyric Pieces Op. 65 No. 3, 1896",
+      "pdf": "songs/piano-miniatures/grieg/sadness.pdf"
+     },
+     {
+      "slug": "sailors-song",
+      "title": "Sailor's Song",
+      "key": "C",
+      "meter": "2/2",
+      "tempo": 84,
+      "bars": 28,
+      "source": "Edvard Grieg, Lyric Pieces Op. 68 No. 1, 1898",
+      "pdf": "songs/piano-miniatures/grieg/sailors-song.pdf"
+     },
+     {
+      "slug": "solitary-traveller",
+      "title": "Solitary Traveller",
+      "key": "Am",
+      "meter": "6/8",
+      "tempo": 39,
+      "bars": 31,
+      "source": "Edvard Grieg, Lyric Pieces Op. 43 No. 2, 1886",
+      "pdf": "songs/piano-miniatures/grieg/solitary-traveller.pdf"
+     },
+     {
+      "slug": "summer-evening",
+      "title": "Summer Evening",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 84,
+      "bars": 31,
+      "source": "Edvard Grieg, Lyric Pieces Op. 71 No. 2, 1901",
+      "pdf": "songs/piano-miniatures/grieg/summer-evening.pdf"
      },
      {
       "slug": "grieg-waltz",
@@ -2859,7 +3317,17 @@ window.PS_MANIFEST = [
       "tempo": 144,
       "bars": 61,
       "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 2, 1867",
-      "pdf": "songs/piano-miniatures/grieg-waltz.pdf"
+      "pdf": "songs/piano-miniatures/grieg/grieg-waltz.pdf"
+     },
+     {
+      "slug": "waltz-op38",
+      "title": "Waltz, Op. 38",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 152,
+      "bars": 53,
+      "source": "Edvard Grieg, Lyric Pieces Op. 38 No. 7, 1883",
+      "pdf": "songs/piano-miniatures/grieg/waltz-op38.pdf"
      },
      {
       "slug": "watchmans-song",
@@ -2869,7 +3337,7 @@ window.PS_MANIFEST = [
       "tempo": 46,
       "bars": 53,
       "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 3, 1867",
-      "pdf": "songs/piano-miniatures/watchmans-song.pdf"
+      "pdf": "songs/piano-miniatures/grieg/watchmans-song.pdf"
      }
     ]
    }

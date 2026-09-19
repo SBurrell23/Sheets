@@ -1,0 +1,12 @@
+X:1
+T:National Song
+C:Edvard Grieg, Lyric Pieces Op. 12 No. 8, 1867
+M:4/4
+L:1/16
+Q:1/4=96
+K:C clef=treble
+"C"c8 G8 | "C"E8 C8 | "Dm7/A"D3"C/G"E1 "F"F2"C/E"G2 "Dm7"A4 "G"G4 | "C"E8 z8 |
+"Em"e8 B8 | "Em"G8 E8 | "F#m7b5/C"^F3"Em/B"G1 "Am"A2"Em/G"B2 "F#m7b5"c4 "B"B4 | "Em"G8 z8 |
+"G7/D"f6 "Csus4"f2 "G7/B"f4 "C"e4 | "G7/F"e2d2 d8 "C/E"c4 | "C#dim"g6 "Gm/D"g2 "C#dim/E"g4 "Bb/F"f4 | "C#dim/G"_b12 "Dm/F"a4 |
+"Am"c'6 "Bm7b5/A"d2 "Am"e4 "Dm7b5/Ab"f4 | "C/G"g4 e4 "C/E"c4 z4 | "D7"A8 "G7"d8 | "E/G#"e16 |
+"Am"c6 "Bm7b5/A"d2 d2"Am"e2 e2"Dm7b5/Ab"f2 | "C/G"g4 e4 "C/E"c4 z4 | "D7"A8 "G7"d8 | "C"Hc16 |]
