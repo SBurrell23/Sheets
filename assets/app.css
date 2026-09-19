@@ -83,10 +83,15 @@ h1 .mark{font-family:Georgia,"Times New Roman",serif;
 .favcard .fn{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11px;
   font-weight:400; color:var(--ink-3)}
 .favcard[aria-current="true"] .fn{color:var(--accent)}
+/* Sits directly after the Browse button, because it says what that button last
+   did. It used to carry margin-left:auto and float off to the right next to the
+   theme switch, where it read as a third control rather than as the answer to
+   the second one. The auto margin moves to the theme switch, which is what
+   actually wants the right edge. */
 .count{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:14px; color:var(--ink-2);
-  font-variant-numeric:tabular-nums; margin-left:auto; flex:0 1 auto; min-width:0;
+  font-variant-numeric:tabular-nums; flex:0 1 auto; min-width:0;
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
-.ctl.theme{font-size:12px; color:var(--ink-3); gap:8px; flex:0 0 auto}
+.ctl.theme{font-size:12px; color:var(--ink-3); gap:8px; flex:0 0 auto; margin-left:auto}
 .btn.browse{padding:10px 18px; font-size:14.5px; font-weight:600}
 .seg{display:inline-flex; border:1px solid var(--btn-edge); border-radius:var(--radius);
   overflow:hidden; background:var(--btn)}
@@ -211,7 +216,16 @@ select:hover{border-color:var(--accent)}
 .btn.play{padding-right:19px}
 .play:hover{color:var(--accent-on); filter:brightness(1.08)}
 .play:disabled{filter:none}
-.play .glyph{font-size:11px; line-height:1}
+/* The button must not change width when it is pressed, and two things in it
+   did: the glyph (a triangle becomes two bars -- narrower, as it happens) and
+   the word. The glyph gets a fixed box. The word gets a zero-height copy of the
+   longer label sitting under it, so the label is always at least as wide as
+   "Pause" at whatever font size the breakpoint is using -- no measured number to
+   go stale, and it stays right if either word is ever changed. */
+.play .glyph{font-size:11px; line-height:1; flex:0 0 auto; width:10px; text-align:center}
+#playlab{display:block}
+#playlab::after{content:"Pause"; display:block; height:0; overflow:hidden;
+  visibility:hidden; font-weight:inherit}
 a.dl{color:var(--ink)} a.dl:hover{color:var(--accent)}
 #pdf{margin-left:auto}   /* pushed to the end of its row */
 a.dl .arrow{color:var(--accent); font-weight:600}
