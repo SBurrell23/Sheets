@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation--music-abc-mirror-www-stephenmerrony-co-uk-werde-munter-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fwww.stephenmerrony.co.uk%2FWerde_Munter%2F0000",
+  "kind": "abc",
+  "bytes": 1087,
+  "sha256": "f245214405af7f5b81504cf99b4f4cd54d04b66989fd07a6eb8747734379a42a",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "abcnotation-c-abc-mirror-normanschmidt-net-werde-munter-mein-gem-te-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fnormanschmidt.net%2FWerde_munter_mein_Gem_te%2F0000",
+  "kind": "abc",
+  "bytes": 339,
+  "sha256": "ec0ffdc5c285a805c2d68f4b13f74711c87f98d54b545957506ce68e0878d311",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "openhymnal-like_the_golden_sun_ascending-werde_munter.abc",
+  "url": "http://openhymnal.org/Abc/Like_The_Golden_Sun_Ascending-Werde_Munter.abc",
+  "kind": "abc",
+  "bytes": 9065,
+  "sha256": "4158fb3af0cefad9a6911b640baa4b47a798c33cb80b5c6d1d218e9a051e556c",
+  "fetched": "2026-09-18"
+ }
+]

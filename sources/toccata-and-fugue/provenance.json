@@ -1,0 +1,34 @@
+[
+ {
+  "name": "imslp-toccata-and-fugue-in-d-minor-bwv-565.ly",
+  "url": "https://imslp.org/wiki/Toccata_and_Fugue_in_D_minor%2C_BWV_565_%28Bach%2C_Johann_Sebastian%29",
+  "kind": "lilypond-incipit",
+  "bytes": 733,
+  "sha256": "4162e94c51c914516e50d269448f93bb2781ed0ab5ca77fb22c26b6fa4a678b1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "imslp-transcription-of-bachs-toccata-and-fugue-in-d-minor.ly",
+  "url": "https://imslp.org/wiki/Transcription_of_Bach%27s_Toccata_and_Fugue_in_D_minor_%28Tausig%2C_Carl%29",
+  "kind": "lilypond-incipit",
+  "bytes": 743,
+  "sha256": "3141f649715c4f945cf11abc22c70bb817c403f6f67c189f0a22cb65c7bb6448",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-toccatafugue.ly",
+  "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.ly",
+  "kind": "lilypond",
+  "bytes": 29556,
+  "sha256": "1640bbd2bf11a95e18db03fea285d30718254af0a694e1c36533d8109d71718c",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "wikipedia-toccata-and-fugue-in-d-minor-bwv-565.xml",
+  "url": "https://en.wikipedia.org/wiki/Special:Export/Toccata_and_Fugue_in_D_minor%2C_BWV_565",
+  "kind": "lilypond",
+  "bytes": 117511,
+  "sha256": "02f7080e1cf1571ec50e86a595b61bb72dd6b34cfca79900270f36d76ff9a7d8",
+  "fetched": "2026-09-18"
+ }
+]

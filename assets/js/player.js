@@ -211,7 +211,7 @@
     paintShuffle();
     $("barsof").textContent = totalBars;
     strip.setAttribute("aria-valuemax", totalBars);
-    targetBpm = Math.max(40, Math.min(targetBpm, 225));
+    targetBpm = Math.max(40, Math.min(targetBpm, 250));   // keep in step with the slider in index.html
     $("tempo").value = targetBpm;
     $("bpm").textContent = targetBpm + " bpm" + (userTempo ? "" : "");
     $("pdf").href = song.pdf;
@@ -509,7 +509,7 @@
       // A fresh controller always starts at the tune's own Q: header -- the qpm
       // we pass to setTune does not stick -- so a sticky user tempo (or a
       // re-prime after transposing) has to be warped back in here. Without this
-      // the slider reads 225 while the song plays at its written tempo.
+      // the slider reads its maximum while the song plays at its written tempo.
       syncWarp();
     }).catch(function (e) {
       if (token !== loadToken) return;
