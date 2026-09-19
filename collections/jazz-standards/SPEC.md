@@ -152,6 +152,10 @@ holds 2 to 4 notes. A chord marker cannot prefix a triplet group — put it on t
 
 **No double accidentals.** `C##5` is rejected; respell it.
 
+**A `[Chord]` marker may sit on anything that begins a token** — including a rest and the second
+half of a tie. `[F7]R:4` and `C5:8~ [Dm7]C5:8` are both legal and both useful: the harmony can
+change under a held note, and at the end of a phrase here it very often does.
+
 ## 6. Hard rules
 
 The validator catches some of these — the bar arithmetic, the range, the chord suffixes — and
@@ -249,6 +253,20 @@ Cross-check against published sources. For this repertoire the ones that pay are
   the 1920s sheet does not have. Treat an ABC file as an excellent **melody** source and a
   second-hand chord source. Where it prints a chord **in parentheses** that is the transcriber's
   alternative to the one beside it; take the unparenthesised one unless you can say why not.
+
+  Three more things the pilots learned about that archive, each of which cost them time:
+
+  - **Its pitches are far more reliable than its rhythms**, and the errors are systematic. One
+    pilot found the pitches right throughout and the rhythms wrong in one specific way: **a rest
+    written after a long note is very often a tie the transcriber flattened.** The engraving held
+    the note through; the ABC re-struck and rested. If you see a rest after a held note, assume a
+    tie and check it.
+  - **Two files from that archive are usually not two opinions.** Check the `F:` header before
+    treating them as corroboration. One pilot found three settings that all traced to a single
+    upstream file and shared its errors — and one of the three was simply bad, with bars summing
+    to twelve or fourteen eighths instead of sixteen.
+  - A file that has been through email may be **quoted-printable mangled**. That is a damaged copy
+    of something, not a second source.
 - Anything cached for you under `sources/<slug>/` — **read that before fetching anything.**
 
 Two or three lookups, then write. If you end up working substantially from recall because no
@@ -271,7 +289,27 @@ A great deal of American popular music from 1890 to 1930 comes out of blackface 
 some of it carries slurs in the title or the lyrics. **Do not arrange minstrel-show material.**
 The titles in this collection have been chosen to avoid the problem and you should not run into
 it — but if a piece you are given turns out to have an offensive alternate title, use the neutral
-one and say so in your report. **Do not go looking for extra material on your own.**
+one and say so in your report.
+
+To be clear about what this does and does not forbid: **research the song you were given as hard
+as you like** — that is what §9 asks for. What you must not do is go hunting for *additional
+songs*, or for offensive variants of the one you have, on your own initiative.
+
+## 12. Never reproduce a lyric or a long verbatim passage
 
 This format stores no lyrics at all — only pitches, durations and chord symbols — so there is
-never a reason to write a word of any song's text into a file or a report.
+never a reason to write a word of any song's text anywhere.
+
+This is not only a taste rule. **An agent working on this collection was terminated mid-task by
+an output content filter and produced nothing**, almost certainly because it was about to
+reproduce lyrics or a long verbatim chunk of a copyrighted source. Songs of this era are the
+worst case for it: the ABC files carry `w:` lyric lines right alongside the notes, and it is very
+natural to paste a whole tune in while working out the phrasing.
+
+So:
+
+- **Ignore every `w:` line in an ABC file.** Pitches, durations and chord symbols only.
+- **Never paste a long verbatim passage** from a source into a file, a scratchpad note, a tool
+  call or your report. Describe it instead: "bars 9–16 are the A material a major third higher"
+  is the useful sentence, not a transcription of somebody else's file.
+- Keep your report to structural facts — bar counts, form, chords, compromises.

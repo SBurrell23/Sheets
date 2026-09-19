@@ -92,6 +92,14 @@ shared scratchpad directory, and overwrite each other's helpers mid-task. One ag
 its scripts being "rewritten on disk by something other than me", twice, which is exactly
 this and not anything stranger. Prefix by slug.
 
+**Popular-song repertoire trips the output content filter.** Two agents in two different
+sessions have been killed mid-task and returned nothing -- the Jazz Standards batch lost one
+outright. The cause is the same both times: ABC files for twentieth-century songs carry `w:`
+lyric lines interleaved with the notes, and an agent working out phrasing pastes the tune in
+whole. Say in the prompt, in as many words, that lyric lines are to be ignored and that no long
+verbatim passage from any source may appear in a file, a scratchpad note or the report. A
+terminated agent costs its whole context and delivers nothing, so this is cheap insurance.
+
 Treat what comes back as **evidence, not fact**. In one session three agent claims
 were wrong on the facts — a reported octave displacement that a mechanical diff
 showed was never in the file, and a "sources print this an octave lower" that the
