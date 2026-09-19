@@ -2501,7 +2501,7 @@ window.PS_MANIFEST = [
       "key": "C",
       "meter": "4/4",
       "tempo": 110,
-      "bars": 15,
+      "bars": 12,
       "source": "Traditional English cumulative carol, words first printed in Mirth without Mischief, c.1780; tune as fixed by Frederic Austin, 1909",
       "pdf": "songs/christmas/twelve-days-of-christmas.pdf"
      },
