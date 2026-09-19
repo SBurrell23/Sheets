@@ -1,0 +1,44 @@
+{
+  "title": "Ain't She Sweet",
+  "source": "Milton Ager, 1927",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 168,
+  "bars": [
+    { "chord": "C",   "notes": "A5:8 [E]G#5:8" },
+    { "chord": "G7",  "notes": "G5:8 R:2 A5:4 G5:2" },
+    { "chord": "C",   "notes": "A5:4 A5:4 [E]G#5:4 G#5:4" },
+    { "chord": "G7",  "notes": "G5:8 R:2 A5:4 G5:2" },
+    { "chord": "C",   "notes": "C6:4 C6:4 [E7]B5:4 B5:4" },
+    { "chord": "A7",  "notes": "A5:4 A5:2 A5:4 G5:2 F5:4" },
+    { "chord": "D7",  "notes": "E5:8 [G7]D5:8" },
+    { "chord": "C",   "notes": "C5:8~ [G7]C5:8" },
+
+    { "chord": "C",   "notes": "A5:8 [E]G#5:8" },
+    { "chord": "G7",  "notes": "G5:8 R:2 A5:4 G5:2" },
+    { "chord": "C",   "notes": "A5:4 A5:4 [E]G#5:4 G#5:4" },
+    { "chord": "G7",  "notes": "G5:8 R:2 A5:4 G5:2" },
+    { "chord": "C",   "notes": "C6:4 C6:4 [E7]B5:4 B5:4" },
+    { "chord": "A7",  "notes": "A5:4 A5:2 A5:4 G5:2 F5:4" },
+    { "chord": "D7",  "notes": "E5:8 [G7]D5:8" },
+    { "chord": "C",   "notes": "C5:4 C6:4 [C7]C6:4 C6:4" },
+
+    { "chord": "F7",  "notes": "C6:16~" },
+    { "chord": "F7",  "notes": "C6:4 C6:4 C6:4 C6:4" },
+    { "chord": "C",   "notes": "C6:8 G5:8~" },
+    { "chord": "C",   "notes": "G5:4 C6:4 [C7]C6:4 C6:4" },
+    { "chord": "F7",  "notes": "C6:16~" },
+    { "chord": "F7",  "notes": "C6:4 C6:4 C6:4 C6:4" },
+    { "chord": "C",   "notes": "C6:8 G5:8~" },
+    { "chord": "G7",  "notes": "G5:16" },
+
+    { "chord": "C",   "notes": "A5:8 [E]G#5:8" },
+    { "chord": "G7",  "notes": "G5:8 R:2 A5:4 G5:2" },
+    { "chord": "C",   "notes": "A5:4 A5:4 [E]G#5:4 G#5:4" },
+    { "chord": "G7",  "notes": "G5:8 R:2 A5:4 G5:2" },
+    { "chord": "C",   "notes": "C6:4 C6:4 [E7]B5:4 B5:4" },
+    { "chord": "A7",  "notes": "A5:4 A5:2 A5:4 G5:2 F5:4" },
+    { "chord": "D7",  "notes": "E5:8 [G7]D5:8" },
+    { "chord": "C",   "notes": "C5:16" }
+  ]
+}

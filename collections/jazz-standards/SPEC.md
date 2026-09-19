@@ -40,9 +40,15 @@ The chorus is usually **32 bars**. Two shapes are common, but they are not the o
 **write the form the song actually has**, and say what it was in your report:
 
 - **AABA** — eight bars, the same eight again with a different tail, a contrasting bridge, and
-  the eight again. *Ain't Misbehavin'*, *Blue Skies*, *I Can't Give You Anything But Love*.
+  the eight again. *Ain't Misbehavin'*, *Blue Skies*, *I Can't Give You Anything But Love*, and
+  *Bye Bye Blackbird*, whose second A is the first sequenced a step higher. This is much the
+  commoner of the two.
 - **ABAC** — eight bars, a contrasting eight, the first eight again, a new close.
-  *Someone to Watch Over Me*, *Bye Bye Blackbird*.
+  *Someone to Watch Over Me*.
+
+**Bye Bye Blackbird was listed under ABAC here until an arranger with two independent
+transcriptions in front of it said otherwise.** Take that as the standing warning: check the
+form against a source, do not take it from this list or from memory.
 
 *Tea for Two* is neither: its bridge is the tune again a major third higher with a new rhythm,
 and its last eight is a fresh strain. An arranger who went looking for an AABA bridge in bars
@@ -295,6 +301,10 @@ Cross-check against published sources. For this repertoire the ones that pay are
     to twelve or fourteen eighths instead of sixteen.
   - A file that has been through email may be **quoted-printable mangled**. That is a damaged copy
     of something, not a second source.
+  - A **two-voice file** — one with a `%%staves (chords melody)` header — carries chord symbols in
+    *both* voices, and they do not always agree. One arranger found the two voices of the same
+    file contradicting each other over the last four bars of a song. Read both and reconcile
+    them; if they disagree, say which you took and why.
 - Anything cached for you under `sources/<slug>/` — **read that before fetching anything.**
 
 **Before you read a line of any ABC file, see §12.** The archives recommended here interleave
