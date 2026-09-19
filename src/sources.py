@@ -318,9 +318,118 @@ def abcnotation(title, slug, limit=8):
     return got, None
 
 
+# ----------------------------------------------------------------- mutopia
+
+# Curated LilyPond editions. Coverage of the character-piece repertoire is
+# scattered -- a handful of Kinderszenen, some Satie, some Albeniz -- but where
+# it exists it is a full typeset score, which beats every other option.
+MUTOPIA_SEARCH = ('https://www.mutopiaproject.org/cgibin/make-table.cgi'
+                  '?searchingfor=%s')
+MUTOPIA_PIECE = re.compile(
+    r'<a href="(?P<href>[^"]*ftp/[^"]+)"[^>]*>(?P<label>[^<]+)</a>')
+
+
+def mutopia(title, slug, limit=3):
+    body, err = get(MUTOPIA_SEARCH % urllib.parse.quote(title))
+    if err:
+        return [], 'search failed: %s' % err
+    got, seen = [], set()
+    # The listing repeats each piece once per download format; the .ly is the
+    # one worth having, and its folder holds the rest if anybody wants them.
+    for m in re.finditer(r'href="([^"]*ftp/[^"]+\.ly)"', body):
+        url = m.group(1)
+        if url.startswith('/'):
+            url = 'https://www.mutopiaproject.org' + url
+        elif not url.startswith('http'):
+            url = 'https://www.mutopiaproject.org/' + url.lstrip('./')
+        stem = urllib.parse.unquote(url.rsplit('/', 1)[-1])[:-3]
+        if stem in seen:
+            continue
+        seen.add(stem)
+        ly, e2 = get(url)
+        if e2 or not ly or 'relative' not in ly and 'notes' not in ly:
+            continue
+        name = 'mutopia-%s.ly' % slugify(stem)[:60]
+        if not store(slug, name, ly, url, 'lilypond'):
+            continue
+        got.append({'name': name, 'file': stem, 'bytes': len(ly)})
+        if len(got) >= limit:
+            break
+    return got, None
+
+
+# ------------------------------------------------------------------- imslp
+
+# IMSLP has essentially all of this repertoire, but nearly all of it as page
+# scans -- which measured about 3x the tokens of a machine-readable source. The
+# exception is worth a source of its own: every work page carries **LilyPond
+# incipits**, served as the alt text of the engraved incipit images. That alt
+# text is real LilyPond, and it pins the three things an arranger working from
+# memory most often gets wrong -- the key, the printed tempo marking, and the
+# exact rhythm of the opening phrase. A multi-piece opus (Lyric Pieces Op.12,
+# Songs Without Words) carries one incipit per piece, in order, so a single
+# fetch covers a whole set.
+#
+# The full-score MIDI and LilyPond files are listed too but not downloaded:
+# they sit behind a disclaimer-cookie gate, so the URLs are recorded and an
+# agent that wants one fetches it deliberately.
+IMSLP_API = 'https://imslp.org/api.php?action=query&list=search&srsearch=%s&format=json&srlimit=6'
+IMSLP_INCIPIT = re.compile(r'<img[^>]+src="/images/lilypond/[^"]+"[^>]*alt="([^"]*)"')
+PAREN_COMPOSER = re.compile(r'\s*\([^)]*\)\s*$')
+
+
+def _unescape(s):
+    for a, b in (('&#10;', '\n'), ('&quot;', '"'), ('&lt;', '<'), ('&gt;', '>'),
+                 ('&#39;', "'"), ('&amp;', '&')):
+        s = s.replace(a, b)
+    return s
+
+
+def imslp(title, slug, limit=1):
+    """Cache the LilyPond incipits from the best-matching IMSLP work page."""
+    body, err = get(IMSLP_API % urllib.parse.quote(title))
+    if err:
+        return [], 'search failed: %s' % err
+    try:
+        hits = json.loads(body).get('query', {}).get('search', [])
+    except ValueError:
+        return [], 'search returned non-JSON'
+    got = []
+    for hit in hits:
+        page = hit.get('title') or ''
+        # "Lyric Pieces, Op.12 (Grieg, Edvard)" -- the composer is appended to
+        # every IMSLP title, so compare against the work part only.
+        work = PAREN_COMPOSER.sub('', page)
+        if not (matches(title, work) or tokens(title) <= tokens(work)):
+            continue
+        url = 'https://imslp.org/wiki/' + urllib.parse.quote(page.replace(' ', '_'))
+        html, e2 = get(url)
+        if e2 or not html:
+            continue
+        incipits = [_unescape(x).strip() for x in IMSLP_INCIPIT.findall(html)]
+        incipits = [x for x in incipits if x]
+        midis = sorted(set(re.findall(r'href="([^"]+\.mid)"', html)))
+        if not incipits:
+            continue
+        head = ('%% IMSLP incipits for %s\n%% %s\n%% %d incipit(s), in the order '
+                'the work page lists the pieces.\n%% Full-score MIDI on the same '
+                'page (disclaimer-gated, fetch deliberately): %d file(s)\n'
+                % (page, url, len(incipits), len(midis)))
+        text = head + '\n'.join(
+            '\n%%%% ---- incipit %d ----\n%s\n' % (i + 1, inc)
+            for i, inc in enumerate(incipits))
+        name = 'imslp-%s.ly' % slugify(work)[:60]
+        if store(slug, name, text, url, 'lilypond-incipit'):
+            got.append({'name': name, 'page': page, 'incipits': len(incipits),
+                        'midi': len(midis)})
+        if len(got) >= limit:
+            break
+    return got, None
+
+
 # ------------------------------------------------------------------ verdict
 
-def probe(title, slug=None, also=None, quiet=False):
+def probe(title, slug=None, also=None, quiet=False, only=None):
     """Search every source for one song and cache what is really it.
 
     `also` carries the tune's other names, and it matters more than it looks.
@@ -331,9 +440,17 @@ def probe(title, slug=None, also=None, quiet=False):
     slug = slug or slugify(title)
     names = [title] + [a for a in (also or []) if a]
     out = {'title': title, 'slug': slug, 'names': names, 'thesession': [],
-           'wikipedia': [], 'openhymnal': [], 'abcnotation': [], 'errors': []}
+           'wikipedia': [], 'openhymnal': [], 'abcnotation': [],
+           'mutopia': [], 'imslp': [], 'errors': []}
+    # Every source costs a round trip and, worse, can cache a decoy: searched
+    # across the folk databases, 'Arietta' returns a Haydn piece and an 1846
+    # tune book, neither of which is the Grieg. `only` narrows the search to
+    # the sources that can plausibly hold the repertoire in hand.
     for fn, key in ((thesession, 'thesession'), (wikipedia, 'wikipedia'),
-                    (openhymnal, 'openhymnal'), (abcnotation, 'abcnotation')):
+                    (openhymnal, 'openhymnal'), (abcnotation, 'abcnotation'),
+                    (mutopia, 'mutopia'), (imslp, 'imslp')):
+        if only and key not in only:
+            continue
         seen = set()
         for name in names:
             try:
@@ -347,7 +464,8 @@ def probe(title, slug=None, also=None, quiet=False):
             if err and err not in out['errors']:
                 out['errors'].append('%s: %s' % (key, err))
     out['files'] = sum(len(out[k]) for k in
-                       ('thesession', 'wikipedia', 'openhymnal', 'abcnotation'))
+                       ('thesession', 'wikipedia', 'openhymnal', 'abcnotation',
+                        'mutopia', 'imslp'))
     out['verdict'] = 'machine-readable' if out['files'] else 'scan-only'
     if not quiet:
         print(render(out))
@@ -366,6 +484,11 @@ def render(r):
     for a in r['abcnotation']:
         lines.append('   abcnotation  %-34s %2d tune(s)  %s'
                      % (a['path'][-34:], a['tunes'], a.get('matched', '')[:28]))
+    for m in r.get('mutopia', []):
+        lines.append('   mutopia      %-34s %6d B lilypond' % (m['file'][:34], m['bytes']))
+    for i in r.get('imslp', []):
+        lines.append('   imslp        %-34s %2d incipit(s), %d midi on page'
+                     % (i['page'][:34], i['incipits'], i['midi']))
     for e in r['errors']:
         lines.append('   ! %s' % e)
     if not r['files']:
@@ -383,10 +506,14 @@ def main():
     p.add_argument('--also', action='append', default=[],
                    help="the tune's other names; repeatable, and worth using -- "
                         "Scots Wha Hae is catalogued as 'Hey Tuttie Tatie'")
+    p.add_argument('--only', help='comma-separated subset of sources: thesession, '
+                   'wikipedia, openhymnal, abcnotation, mutopia, imslp')
 
     t = sub.add_parser('triage', help='probe a file of titles and print a table')
     t.add_argument('file', help='one per line: "Title", "slug = Title", or '
                                 '"slug = Title | Other Name | Another"')
+    t.add_argument('--only', help='comma-separated subset of sources; a classical '
+                   'list wants mutopia,imslp and nothing else')
 
     f = sub.add_parser('fetch', help='cache one named URL against a slug')
     f.add_argument('slug')
@@ -400,7 +527,8 @@ def main():
     a = ap.parse_args()
 
     if a.cmd == 'probe':
-        probe(a.title, a.slug, a.also)
+        probe(a.title, a.slug, a.also,
+              only=set(x.strip() for x in a.only.split(',')) if a.only else None)
         return 0
 
     if a.cmd == 'triage':
@@ -417,9 +545,10 @@ def main():
                     slug, rest = None, line
                 names = [n.strip() for n in rest.split('|') if n.strip()]
                 titles.append((names[0], slug or slugify(names[0]), names[1:]))
+        only = set(x.strip() for x in a.only.split(',')) if a.only else None
         rows = []
         for title, slug, also in titles:
-            r = probe(title, slug, also, quiet=True)
+            r = probe(title, slug, also, quiet=True, only=only)
             rows.append(r)
             print(render(r))
             print('')

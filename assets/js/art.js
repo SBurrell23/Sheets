@@ -33,6 +33,13 @@ window.PS = window.PS || {};
       '<path d="M12 2.2l1 2.1 2.3.34-1.65 1.6.39 2.26L12 7.43 9.96 8.5l.39-2.26L8.7 4.64l2.3-.34z"/>' +
       '<path d="M12 10.1 8.7 14.4h6.6zM12 13.9 7 19.6h10z"/>' +
       '<path d="M10.4 19.6v2.2h3.2v-2.2"/>',
+    // A grand piano seen from above, keyboard at the near edge. Ragtime already
+    // owns the keyboard-from-the-front, and a book or a staff would collide with
+    // hymns and all-songs; the plan view is the one piano shape still free.
+    "piano-miniatures":
+      '<path d="M5 20.4V6.6c0-1.1.9-2 2-2h6.2C17.6 4.6 21 8.2 21 12.7c0 4.2-3.1 7.7-7.1 7.7z"/>' +
+      '<path d="M5 16.8h7.3v3.6"/>' +
+      '<path d="M7.4 16.8v3.6M9.8 16.8v3.6"/>',
     "ai-music":
       '<path d="M8.6 2.4l1.3 3.6 3.6 1.3-3.6 1.3-1.3 3.6-1.3-3.6L3.7 7.3l3.6-1.3z"/>' +
       '<circle cx="13.6" cy="18.3" r="2.4"/><path d="M16 18.3v-7.1l3.8 1.4"/>'
