@@ -204,6 +204,11 @@ select:hover{border-color:var(--accent)}
 a.dl{color:var(--ink)} a.dl:hover{color:var(--accent)}
 #pdf{margin-left:auto}   /* pushed to the end of its row */
 a.dl .arrow{color:var(--accent); font-weight:600}
+/* .btn is inline-block, which would leave the icon sitting on the text baseline
+   instead of centred against it. */
+.btn.share{display:inline-flex; align-items:center; gap:6px}
+.btn.share svg{flex:0 0 auto; width:15px; height:15px; color:var(--accent)}
+.btn.share:hover svg{color:inherit}
 .ctl{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:var(--ink-2)}
 .ctl input[type=range]{accent-color:var(--accent); width:118px}
 .keygrp{gap:5px}
@@ -269,6 +274,10 @@ a.dl .arrow{color:var(--accent); font-weight:600}
    coordinate system and stays put when the responsive SVG rescales */
 #paper svg .playhead{stroke:var(--cursor); stroke-width:2.2; opacity:.92;
   stroke-linecap:round; pointer-events:none}
+/* The wash behind the playhead while the strip is held. Low alpha on purpose:
+   it has to read as a region at a glance without the notes under it turning
+   into a silhouette, so it tints them rather than covering them. */
+#paper svg .wake rect{fill:var(--accent); opacity:.17; pointer-events:none}
 .empty{color:var(--ink-3); font-size:13px; font-style:italic; padding:44px 0; text-align:center}
 #audiohost{position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden}
 
@@ -317,7 +326,11 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .wrap{padding-block:22px 56px}
   h1{font-size:26px}
   .masthead{gap:9px}
-  .masthead h1{font-size:clamp(20px,3.4vw,28px)}
+  /* Sized against the Browse button beside it, which at this breakpoint is
+     41.6px tall and is what sets the masthead's height. At 1.1 line-height a
+     37px title comes to 40.7px, so the name grows to the height of the row it
+     sits in without making that row any taller. */
+  .masthead h1{font-size:clamp(30px,4.8vw,37px)}
   .btn.browse{padding:9px 13px; font-size:13.5px}
   .count{font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
          flex:0 1 auto; min-width:0}
@@ -399,6 +412,11 @@ a.dl .arrow{color:var(--accent); font-weight:600}
    its own border. Placed last so it beats the narrower breakpoints above. */
 @media (max-width:1024px){
   .wrap{padding-inline:1px}
+  /* The gutter goes for the score's sake, and the masthead is not the score.
+     Put its own back: the title, the button and the theme switch pressed against
+     the bezel read as a rendering fault rather than a decision, and nothing in
+     that row competes with the notation for width. */
+  .masthead{padding-inline:13px}
   .sheet{padding-left:3px; padding-right:3px}
   /* The star sits absolutely in the corner, so it has to come in with them. */
   .favmark{left:2px}
@@ -406,6 +424,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important; transition:none !important}}
 @media print{
   .masthead,.picker,.transport,.modal{display:none}
+  #paper svg .wake{display:none}
   body{background:#fff} .sheet{border:none; background:#fff; margin:0; padding:0}
   #paper svg .playhead{display:none}
 }

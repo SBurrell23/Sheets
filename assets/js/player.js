@@ -8,6 +8,10 @@
   var song = null, set = null, visualObj = null, synth = null;
   var ready = false, playing = false, busy = false;
   var chordsOn = true, followOn = true, dragging = false;
+  // `dragging` gates the synth's cursor callbacks and is pointer-only.
+  // `scrubbing` is the wider question -- is the listener working the strip
+  // right now, by pointer or by arrow key -- and it is what the wake reads.
+  var scrubbing = false;
   // `transpose` is what the renderer and the synth both read. It is the sum of
   // two independent controls: the key dropdown, and an octave bump. Keeping them
   // separate means changing key does not lose the octave and vice versa.
@@ -27,6 +31,9 @@
   var shuffleOn = false, bag = [], trail = [];
   try { shuffleOn = localStorage.getItem("shuffle") === "1"; } catch (e) {}
   var loadToken = 0, idc = 0, lastTop = null, playhead = null, barPos = [];
+  // The wash behind the playhead while you scrub. Named `wake` and not
+  // `trail`, which is already taken by the shuffle history.
+  var wake = null;
   var reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   var strip = $("strip"), paper = $("paper");
 
@@ -391,6 +398,7 @@
     render();
     curBar = 0; setBar(1);
     setupAudio();
+    writeHash();
     try { localStorage.setItem("lastSong", coll.id + "/" + song.slug); } catch (e) {}
   }
 
@@ -513,10 +521,16 @@
   // A <line> appended to abcjs's own <svg>, so it is measured in the score's
   // coordinate system -- which is what the note events report. A DOM overlay
   // would drift as soon as the responsive SVG scaled.
+  var SVGNS = "http://www.w3.org/2000/svg";
+
   function addPlayhead() {
     var svg = paper.querySelector("svg");
-    if (!svg) { playhead = null; return; }
-    playhead = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    if (!svg) { playhead = null; wake = null; return; }
+    // Appended BEFORE the line, so the line draws on top of its own wake.
+    wake = document.createElementNS(SVGNS, "g");
+    wake.setAttribute("class", "wake");
+    svg.appendChild(wake);
+    playhead = document.createElementNS(SVGNS, "line");
     playhead.setAttribute("class", "playhead");
     playhead.setAttribute("x1", 0); playhead.setAttribute("x2", 0);
     playhead.setAttribute("y1", 0); playhead.setAttribute("y2", 0);
@@ -534,7 +548,63 @@
     playhead.style.opacity = "";
   }
 
-  function hidePlayhead() { if (playhead) playhead.style.opacity = 0; }
+  function hidePlayhead() { if (playhead) playhead.style.opacity = 0; hideWake(); }
+
+  /* ---------- the wake ----------
+     A 2px line in a page full of 2px stems is genuinely hard to find, and the
+     moment you are dragging is the moment you most need to. So while the strip
+     is held, everything the playhead has already passed is washed in the accent:
+     the eye lands on the edge of the wash rather than hunting for the line.
+
+     It is drawn as rects inside abcjs's own <svg>, for the same reason the
+     playhead is a <line> there -- the note events report score coordinates, and
+     an HTML overlay would drift the instant the responsive SVG rescaled.
+
+     The geometry is two shapes' worth: every system above the head is washed
+     edge to edge, and the head's own system is washed from the left margin up to
+     the head. Systems are recovered from barPos by grouping bars that share a
+     `top`, which is the engraver's own number rather than something measured off
+     the DOM. */
+  function scoreWidth(svg) {
+    var vb = svg && svg.getAttribute("viewBox");
+    if (vb) {
+      var p = vb.split(/[\s,]+/);
+      if (p.length === 4 && +p[2]) return +p[2];
+    }
+    return (svg && +svg.getAttribute("width")) || 0;
+  }
+
+  function systemRows() {
+    var rows = [], seen = {};
+    barPos.forEach(function (b) {
+      if (!b) return;
+      var k = Math.round(b.top);
+      if (seen[k] === undefined) { seen[k] = rows.length; rows.push({ top: b.top, height: b.height }); }
+      else if (b.height > rows[seen[k]].height) rows[seen[k]].height = b.height;
+    });
+    return rows;
+  }
+
+  function hideWake() { if (wake) wake.textContent = ""; }
+
+  function showWake(at) {
+    if (!wake || !at) return;
+    wake.textContent = "";
+    var W = scoreWidth(wake.ownerSVGElement);
+    if (!W) return;
+    var PAD = 3;                               // a little air above and below the staff
+    systemRows().forEach(function (r) {
+      if (r.top > at.top + 0.5) return;        // nothing below the head is behind it
+      var right = Math.abs(r.top - at.top) < 0.5 ? at.left - 2 : W;
+      if (right <= 0) return;
+      var box = document.createElementNS(SVGNS, "rect");
+      box.setAttribute("x", 0);
+      box.setAttribute("y", r.top - PAD);
+      box.setAttribute("width", right);
+      box.setAttribute("height", r.height + PAD * 2);
+      wake.appendChild(box);
+    });
+  }
 
   /* Where each bar begins on the page, so the strip can show you the spot on the
      score while you are still dragging -- before any seek has happened and even
@@ -564,6 +634,10 @@
     var at = barPos[bar - 1];
     if (!at) { hidePlayhead(); return; }
     movePlayhead(at);
+    // Only while the strip is actually being held. Under playback the line is
+    // moving and easy to follow, and a wash creeping across the page would be
+    // one more thing happening on a page that is already busy.
+    if (scrubbing) showWake(at); else hideWake();
     if (!playhead) return;
     // A marker below the fold is no marker at all -- on a 40-bar score most of
     // the strip points off screen. Scrolling vertically is safe mid-drag because
@@ -722,6 +796,7 @@
     if (!song) return;
     transpose = keySemis + 12 * octaveShift;
     paintOctave();
+    writeHash();
     var wasPlaying = playing, bar = curBar;
     render();                       // re-engrave at the new key
     setupAudio().then(function () { // and re-prime from the transposed tune
@@ -755,7 +830,7 @@
   // needs the synth, and seekToBar already guards that.
   strip.addEventListener("pointerdown", function (e) {
     if (!song || (e.button !== 0 && e.pointerType === "mouse")) return;
-    dragging = true; strip.classList.add("dragging");
+    dragging = true; scrubbing = true; strip.classList.add("dragging");
     try { strip.setPointerCapture(e.pointerId); } catch (_) {}
     clearHighlights();
     var b = barAtX(e.clientX);
@@ -769,9 +844,10 @@
   });
   function endScrub(e) {
     if (!dragging) return;
-    dragging = false; strip.classList.remove("dragging");
+    dragging = false; scrubbing = false; strip.classList.remove("dragging");
     try { strip.releasePointerCapture(e.pointerId); } catch (_) {}
     seekToBar(barAtX(e.clientX));
+    hideWake();                    // released: the wash goes with the grip
   }
   strip.addEventListener("pointerup", endScrub);
   strip.addEventListener("pointercancel", endScrub);
@@ -782,8 +858,12 @@
     else if (e.key === "Home") d = -totalBars;
     else if (e.key === "End") d = totalBars;
     else return;
-    e.preventDefault(); seekToBar(curBar + d);
+    e.preventDefault();
+    scrubbing = true;              // held arrow keys are a scrub too
+    seekToBar(curBar + d);
   });
+  strip.addEventListener("keyup", function () { scrubbing = false; hideWake(); });
+  strip.addEventListener("blur", function () { scrubbing = false; hideWake(); });
 
   /* ================= controls ================= */
   function refillBag() {
@@ -855,6 +935,7 @@
     userTempo = +this.value;
     try { localStorage.setItem("userTempo", userTempo); } catch (e) {}
     applyTempo(userTempo);
+    writeHash();
   });
   $("keysel").addEventListener("change", function () {
     keySemis = +this.value;
@@ -904,6 +985,12 @@
       return;
     }
     if (!$("dirmodal").hidden) return;
+    // Found while testing the scrub wake: the bar strip is a <div role="slider">,
+    // so it is not in the tag list below, and its own arrow keys fell through to
+    // here as well -- one press both nudged the playhead and jumped to the next
+    // song, which is why keyboard scrubbing never appeared to do anything.
+    // Anything that has already claimed the key has claimed it.
+    if (e.defaultPrevented) return;
     var tag = e.target.tagName;
     if (/^(INPUT|TEXTAREA|BUTTON|A|SELECT)$/.test(tag)) return;
     if (e.code === "Space") { e.preventDefault(); $("play").click(); }
@@ -936,13 +1023,143 @@
   }
   applyTheme(startTheme);
 
+  /* ================= shareable links =================
+     Everything that makes the page show what it is showing fits in a hash, so a
+     link is the whole state and there is nothing to store anywhere: which song,
+     and the three things a listener changes about it. The hash is rewritten as
+     you go, so the address bar is always the link -- no "generate" step, and the
+     browser's own share sheet works without the page doing anything.
+
+     replaceState rather than assignment: a link is a view of the current song,
+     not a place, and stacking one history entry per tempo nudge would make the
+     back button useless. It also fires no hashchange, which keeps the writer and
+     the reader below from chasing each other.
+
+     Key, octave and tempo are written only when they differ from the song as
+     written, so the common link is short and an unmodified song shares as
+     itself rather than as a snapshot of the sender's slider. */
+  function readHash() {
+    var h = (location.hash || "").replace(/^#/, "");
+    if (!h) return null;
+    var out = {};
+    h.split("&").forEach(function (part) {
+      var eq = part.indexOf("=");
+      if (eq < 1) return;
+      try {
+        out[decodeURIComponent(part.slice(0, eq))] = decodeURIComponent(part.slice(eq + 1));
+      } catch (e) {}
+    });
+    return out.song ? out : null;
+  }
+
+  function shareHash() {
+    if (!coll || !song) return "";
+    // Encoded a part at a time, so the separating slash survives as a slash.
+    // A fragment is allowed to contain one, and #song=christmas/silent-night is
+    // a link somebody can read in a message before they tap it.
+    var bits = ["song=" + encodeURIComponent(coll.id) + "/" + encodeURIComponent(song.slug)];
+    if (keySemis) bits.push("key=" + keySemis);
+    if (octaveShift) bits.push("oct=" + octaveShift);
+    if (targetBpm !== song.tempo) bits.push("tempo=" + targetBpm);
+    return "#" + bits.join("&");
+  }
+
+  function writeHash() {
+    var h = shareHash();
+    if (!h || h === location.hash) return;
+    try { history.replaceState(null, "", h); } catch (e) { location.hash = h; }
+  }
+
+  /* A link is applied on top of a normal song load, because select() resets key,
+     octave and tempo to the song's own -- so the three overrides have to land
+     after it, not before. */
+  function applyHash(st) {
+    var at = String(st.song || "").split("/");
+    var cid = at.shift(), slug = at.join("/");
+    selectCollection(cid, function () {
+      for (var j = 0; j < flat.length; j++) {
+        if (flat[j].song.slug === slug) { select(j); break; }
+      }
+      if (!song) return;
+      var k = +st.key || 0, o = +st.oct || 0, t = +st.tempo || 0;
+      if (k) {
+        // Only a key the dropdown actually offers: it is built relative to the
+        // song's own tonic, so a stale link cannot transpose to nowhere.
+        $("keysel").value = String(k);
+        keySemis = +$("keysel").value === k ? k : 0;
+        if (!keySemis) $("keysel").value = "0";
+      }
+      if (o) octaveShift = Math.max(OCT_MIN, Math.min(OCT_MAX, o));
+      if (k || o) applyTranspose(); else paintOctave();
+      if (t) {
+        t = Math.max(40, Math.min(250, Math.round(t)));
+        $("tempo").value = t;
+        applyTempo(t);
+      }
+      writeHash();
+    });
+  }
+
+  addEventListener("hashchange", function () {
+    var st = readHash();
+    // Our own writes use replaceState and never land here; this is a pasted or
+    // edited URL, and only worth acting on if it asks for something else.
+    if (st && location.hash !== shareHash()) applyHash(st);
+  });
+
+  /* On a tablet the address bar is often not even on screen, so the link needs a
+     button. The label doubles as the acknowledgement -- a copy with no feedback
+     reads as a dead button. */
+  var shareTimer = null;
+  function flashShare(word) {
+    var lab = $("sharelab");
+    if (!lab) return;
+    clearTimeout(shareTimer);
+    lab.textContent = word;
+    shareTimer = setTimeout(function () { lab.textContent = "Link"; }, 1600);
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    // Older WebKit, and anything served over plain http.
+    return new Promise(function (ok, no) {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      var done = false;
+      try { done = document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+      done ? ok() : no();
+    });
+  }
+
+  $("share").addEventListener("click", function () {
+    if (!song) return;
+    writeHash();
+    // "Failed" and not "Copy failed": the word replaces the label in place, and
+    // a longer one shoves the whole transport row sideways as it appears.
+    copyText(location.href).then(function () { flashShare("Copied"); },
+                                 function () { flashShare("Failed"); });
+  });
+
   /* ================= boot ================= */
   var startC = COLLECTIONS.length ? COLLECTIONS[0].id : null;
   try {
     var lc = localStorage.getItem("lastCollection");
     for (var i = 0; i < COLLECTIONS.length; i++) if (COLLECTIONS[i].id === lc) startC = lc;
   } catch (e) {}
-  if (startC) {
+  var opened = readHash();
+  if (opened) {
+    // A link is an explicit request and outranks wherever you happened to be
+    // last time. It also means the first thing a shared link shows is the song
+    // it names, not a flash of somebody else's Christmas carol.
+    applyHash(opened);
+  } else if (startC) {
     // Restoring the last song has to wait for that collection's data file.
     selectCollection(startC, function () {
       try {
