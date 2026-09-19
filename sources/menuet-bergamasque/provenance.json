@@ -1,0 +1,26 @@
+[
+ {
+  "name": "dcml-debussy_suite_bergamas-l075-02_suite_menuet.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/debussy_suite_bergamasque/main/harmonies/l075-02_suite_menuet.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 26754,
+  "sha256": "f2734409b66f624ed4689d411e83bb2bdfa8fb60e6c951637b0f659d7c6237a0",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-debussy_suite_bergamas-l075-02_suite_menuet.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/debussy_suite_bergamasque/main/measures/l075-02_suite_menuet.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 3778,
+  "sha256": "4e390cad3f1f914dae05ec8caeb5ee82763f62abce14bcbaa069e467f7559840",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-debussy_suite_bergamas-l075-02_suite_menuet.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/debussy_suite_bergamasque/main/notes/l075-02_suite_menuet.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 155298,
+  "sha256": "7e800c229f1b90453a5817660be9155b5c4c3114bbd84fa45a9bc4fd1eb44c2c",
+  "fetched": "2026-09-18"
+ }
+]
