@@ -347,7 +347,7 @@ To be clear about what this does and does not forbid: **research the song you we
 as you like** — that is what §9 asks for. What you must not do is go hunting for *additional
 songs*, or for offensive variants of the one you have, on your own initiative.
 
-## 12. Never reproduce a lyric or a long verbatim passage
+## 12. Never reproduce a lyric, a melody, or any long verbatim passage
 
 This format stores no lyrics at all — only pitches, durations and chord symbols — so there is
 never a reason to write a word of any song's text anywhere.
@@ -375,4 +375,15 @@ So:
 - **Never paste a long verbatim passage** from a source into a file, a scratchpad note, a tool
   call or your report. Describe it instead: "bars 9–16 are the A material a major third higher"
   is the useful sentence, not a transcription of somebody else's file.
+- **Never re-emit a source's notation in your own messages either.** Not lyrics, not a run of
+  ABC, not a stretch of melody you are reasoning about. A transcription of a song is a copy of
+  that song, and four agents on this collection have now been terminated for producing one — the
+  fourth while examining a file that turned out to be a **1945** bebop head filed under a 1929
+  title. Read sources with scripts, transform them with scripts, and write the finished JSON
+  file. If you must refer to a passage, describe it: "bars 9–16 are the A material a major third
+  higher", never the notes themselves.
 - Keep your report to structural facts — bar counts, form, chords, compromises.
+- **Check the date of what you are reading, not just the title.** A "contrafact" is a later tune
+  written over an older song's chord changes, and archives file them under both names. The
+  changes are the old song's and are fair to cross-check against; the melody is the new one's,
+  is usually still in copyright, and is not your song.

@@ -108,6 +108,17 @@ Tell the agent to read that output and never to open the raw file. Nothing music
 since the format stores no lyrics. A terminated agent costs its whole context and delivers
 nothing, so this is cheap insurance.
 
+**It is not only lyrics.** A fourth agent died after the stripper was in place, and its last
+words were about a file titled *Hot House* -- Tadd Dameron's **1945** contrafact, cached under
+"What Is This Thing Called Love?" because it borrows Porter's changes. Two lessons:
+
+- Tell agents not to re-emit **any** source notation in their own messages, melody included.
+  Read with scripts, transform with scripts, write the JSON. Describe passages, never quote them.
+- **Triage matches on title and cannot see a date.** A contrafact is filed under both names, and
+  the later tune is usually still in copyright. Check the `C:` and any date in a cached file
+  before pointing an agent at it -- and delete the ones that are wrong, because a bad cache is
+  worse than an empty one: it is an instruction to transcribe the wrong thing.
+
 Treat what comes back as **evidence, not fact**. In one session three agent claims
 were wrong on the facts — a reported octave displacement that a mechanical diff
 showed was never in the file, and a "sources print this an octave lower" that the
