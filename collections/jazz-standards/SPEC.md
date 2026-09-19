@@ -85,6 +85,10 @@ must not be padded to reach it:
 - **A 1900s chorus written in whole notes.** *By the Light of the Silvery Moon* really is 16 bars
   of common time; the phrase heads are whole notes. Doubling its note values to reach 32 would
   break §4 and the tempo along with it.
+- **A chorus printed in 2/4**, which is most of the marches and two-steps before about 1910.
+  Thirty-two printed 2/4 bars fold into **sixteen written 4/4 bars** — see §4 — and those sixteen
+  are the whole song. *You're a Grand Old Flag*, *Give My Regards to Broadway* and *Bill Bailey*
+  are all like this.
 - **A pickup**, which is a bar object of its own on top of the chorus — so a 32-bar chorus with
   an upbeat is **33 entries** in `bars`. Do not delete your pickup to make the count come out.
 
@@ -145,6 +149,13 @@ nothing about the notes: a cut-time bar is four quarters, which is the same sixt
 units as a 4/4 bar. **Copy the printed note values unchanged** and write `4/4`. The only thing
 that changes is the tempo number, which in cut time counts half notes — so a sheet marked
 `𝅗𝅥 = 66` is `tempo: 132` here.
+
+**A source printed in 2/4** — most of the marches and two-steps before about 1910 — folds
+**two printed bars into one written 4/4 bar, note values copied unchanged.** That keeps the tempo
+honest, because the printed quarter stays a quarter, and it is why those songs come out at
+sixteen bars rather than thirty-two. Sixteen bars is then the complete chorus, not half of one.
+The format does have `2/4`, and writing one of these in it would be equally faithful; this
+collection uses 4/4 so that every song on it is counted the same way.
 
 Do **not** halve or double note values — not to fix a tempo, and not to reach a bar count. That
 trap belongs to the ragtime collection, whose sources are printed in 2/4 with sixteenths; yours
@@ -229,6 +240,11 @@ bridge missing.
    of dead air in the middle of a 32-bar chorus, three or four times over. **Tie the held note
    through it** — `C5:16~` then `C5:16` — and note in your report that you did. The sustain is
    yours rather than the sheet's, which is why it is worth one line to say so.
+
+   **A part-bar rest in the middle of a phrase is a different thing and stays.** An eighth rest
+   after a held note, or a quarter rest before a pickup, is the singer breathing, and it is in
+   the engraving on purpose. Only the section-end bar gets tied through. Three arrangers each
+   had to decide this for themselves before it was written down.
 
    In a **piano-arrangement or MIDI source** that bar is never empty — it holds the fill, and
    nothing in the file tells you whether the vocal line sustained under it or stopped. The answer

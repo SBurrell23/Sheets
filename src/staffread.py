@@ -27,6 +27,7 @@ Command line, for the common jobs:
     python src/staffread.py lines  <pdf> <page>            # where the staves are
     python src/staffread.py tint   <pdf> <page> <y0> <y1> <out.png>
     python src/staffread.py heads  <pdf> <page> <y0> <y1>  # detected pitches
+    python src/staffread.py bars   <pdf> <page> <y0> <y1>  # barline x positions
 
 `page` is 0-based. `y0`/`y1` are fractions of page height bounding one system.
 Render one system at a time; a whole page at a readable zoom is a huge image.
@@ -138,6 +139,41 @@ def noteheads(g, lines, spacing=None, thr=175, topline='F5'):
     return out
 
 
+def barlines(g, lines, thr=175):
+    """X positions of barlines, left to right.
+
+    A barline is a column of ink spanning the full staff height with nothing
+    above or below it. The distinction that matters is from a note STEM, which
+    also runs vertically but either stops inside the staff or sticks out one
+    side -- an arranger reading three 1900s sheets kept mis-segmenting bars by
+    taking stems for barlines, and said this was the single thing that made
+    those scans tractable.
+    """
+    top, bot = int(round(lines[0])), int(round(lines[4]))
+    step = (lines[4] - lines[0]) / 4.0
+    ink = g < thr
+    H = g.shape[0]
+    hits = []
+    for x in range(g.shape[1]):
+        col = ink[top:bot + 1, x]
+        if col.size == 0 or col.mean() < 0.93:
+            continue
+        above = ink[max(0, int(top - 2.2 * step)):max(1, int(top - 0.6 * step)), x]
+        below = ink[min(H - 1, int(bot + 0.6 * step)):min(H, int(bot + 2.2 * step)), x]
+        if above.size and above.mean() > 0.25:
+            continue
+        if below.size and below.mean() > 0.25:
+            continue
+        hits.append(x)
+    groups = []
+    for x in hits:
+        if groups and x - groups[-1][-1] <= max(3, int(0.6 * step)):
+            groups[-1].append(x)
+        else:
+            groups.append([x])
+    return [int(sum(gp) / float(len(gp))) for gp in groups]
+
+
 def tint(rgb, lines, bands=None, topline='F5'):
     """Paint fixed colours over the named pitch rows, in place, and return it."""
     step = (lines[4] - lines[0]) / 8.0
@@ -182,6 +218,10 @@ def _cli(argv):
         Image.fromarray(tint(rgb, lines)).save(argv[6])
         print('wrote %s  (staff spacing %.1f px)' % (argv[6], spacing))
         print('bands: ' + ', '.join('%s=%s' % (k, v) for k, v in sorted(BANDS.items())))
+        return 0
+    if cmd == 'bars':
+        xs = barlines(g, lines)
+        print('%d barlines: %s' % (len(xs), ' '.join(str(x) for x in xs)))
         return 0
     if cmd == 'heads':
         for x, y, p in noteheads(g, lines, spacing):
