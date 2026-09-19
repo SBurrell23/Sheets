@@ -1,0 +1,63 @@
+{
+  "title": "Silhouette No. 11 (Allegro moderato)",
+  "source": "Antonín Dvořák, Silhouettes Op. 8 No. 11, 1879",
+  "key": "C",
+  "meter": "3/4",
+  "tempo": 126,
+  "bars": [
+    { "chord": "C",          "notes": "E4:4 G4:2 F#4:1 G4:1 [F#m7b5/C]A4:2 G#4:1 A4:1" },
+    { "chord": "C",          "notes": "C5:3 C5:1 [F#m7b5/C]C5:8" },
+    { "chord": "Am/C",       "notes": "A4:4 [C]C5:2 B4:1 C5:1 [D7/C]D5:2 C#5:1 D5:1" },
+    { "chord": "C",          "notes": "E5:3 E5:1 [F#m7b5/C]E5:8" },
+
+    { "chord": "D7/A",       "notes": "D5:4 E5:4 [Dm7b5/Ab]F5:4" },
+    { "chord": "G",          "notes": "A5:4 [G7/F]G5:4 [C/E]C5:4" },
+    { "chord": "Dm7",        "notes": "E5:4 D5:4 A4:3 A4:1" },
+    { "chord": "G7",         "notes": "A4:8 [G7/B]G4:4" },
+
+    { "chord": "C",          "notes": "E4:4 G4:2 F#4:1 G4:1 [F#m7b5/C]A4:2 G#4:1 A4:1" },
+    { "chord": "C",          "notes": "C5:3 C5:1 [F#m7b5/C]C5:8" },
+    { "chord": "Am/C",       "notes": "A4:4 [C]C5:2 B4:1 C5:1 [D7/C]D5:2 C#5:1 D5:1" },
+    { "chord": "C",          "notes": "E5:3 E5:1 E5:8" },
+
+    { "chord": "D7/A",       "notes": "D5:4 E5:4 [Dm7b5/Ab]F5:4" },
+    { "chord": "G",          "notes": "A5:4 [G7/F]G5:4 [C/E]C5:4" },
+    { "chord": "D7",         "notes": "E5:4 D5:4 [G7]A4:4" },
+    { "chord": "C",          "notes": "C5:3 C5:1 C5:6 B4:1 A4:1" },
+
+    { "chord": "G",          "notes": "G4:4 B4:2 A4:1 B4:1 [Dm7b5]C5:2 B4:1 C5:1" },
+    { "chord": "G",          "notes": "D5:3 D5:1 D5:8" },
+    { "chord": "G",          "notes": "B4:4 D5:2 C#5:1 D5:1 [Dm7b5]E5:2 D#5:1 E5:1" },
+    { "chord": "G7",         "notes": "F5:3 F5:1 F5:4 [Dm7b5]F5:1 E5:1 D5:1 C5:1" },
+
+    { "chord": "G",          "notes": "B4:4 D5:2 C#5:1 D5:1 [C7]E5:2 D#5:1 E5:1" },
+    { "chord": "F",          "notes": "F5:2 E5:1 F5:1 [Eb7]G5:2 F#5:1 G5:1 [Ab]Ab5:2 G5:1 Ab5:1" },
+    { "chord": "D",          "notes": "A5:2 G#5:1 A5:1 [Gb7]Bb5:2 A5:1 Bb5:1 [B7]B5:2 A#5:1 B5:1" },
+    { "chord": "E",          "notes": "E6:3 E6:1 E6:8" },
+
+    { "chord": "E",          "notes": "E4:3 E4:1 E4:8~" },
+    { "chord": "E",          "notes": "E4:3 E4:1 E4:4~ E4:3 E4:1" },
+    { "chord": "E",          "notes": "E4:4~ E4:3 E4:1 E4:4~" },
+    { "chord": "E",          "notes": "E4:2 [G7]G4:2 F4:1 E4:1 F4:1 D4:1 G4:4" },
+
+    { "chord": "C",          "notes": "E4:4 G4:2 F#4:1 G4:1 [F#m7b5/C]A4:2 G#4:1 A4:1" },
+    { "chord": "C",          "notes": "C5:3 C5:1 [F#m7b5/C]C5:8" },
+    { "chord": "Am/C",       "notes": "A4:4 [C]C5:2 B4:1 C5:1 [D7/C]D5:2 C#5:1 D5:1" },
+    { "chord": "C",          "notes": "E5:3 E5:1 E5:8" },
+
+    { "chord": "D7/A",       "notes": "D5:4 E5:4 [Dm7b5/Ab]F5:4" },
+    { "chord": "G7",         "notes": "A5:4 [G7/F]G5:4 [C/E]C5:4" },
+    { "chord": "Dm7",        "notes": "E5:4 D5:4 A4:3 A4:1" },
+    { "chord": "Dm7b5",      "notes": "C5:8 Ab4:2 G4:1 Ab4:1" },
+
+    { "chord": "G7",         "notes": "C5:8 G4:2 F#4:1 G4:1" },
+    { "chord": "G7",         "notes": "C5:6 B4:6" },
+    { "chord": "C",          "notes": "E4:12~" },
+    { "chord": "C",          "notes": "E4:4 G4:4 [F#m7b5/C]A4:4" },
+
+    { "chord": "C",          "notes": "C5:3 C5:1 C5:8~" },
+    { "chord": "C",          "notes": "C5:4 G4:4 [F#m7b5/C]A4:1 B4:1 C5:1 D5:1" },
+    { "chord": "C",          "notes": "E5:3 E5:1 E5:4~ E5:3 E5:1" },
+    { "chord": "C",          "notes": "E5:4~ E5:3 E5:1 E5:4" }
+  ]
+}

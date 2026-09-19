@@ -77,6 +77,12 @@ Each prompt should:
   in this project were caught that way and no other.
 - say that "I changed nothing and here is why" is a good outcome.
 
+**Tell parallel agents to use unique scratchpad filenames.** A dozen agents running at
+once all reach for the same obvious names -- `mel.py`, `harm.py`, `verify.py` -- in the one
+shared scratchpad directory, and overwrite each other's helpers mid-task. One agent reported
+its scripts being "rewritten on disk by something other than me", twice, which is exactly
+this and not anything stranger. Prefix by slug.
+
 Treat what comes back as **evidence, not fact**. In one session three agent claims
 were wrong on the facts — a reported octave displacement that a mechanical diff
 showed was never in the file, and a "sources print this an octave lower" that the

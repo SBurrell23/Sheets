@@ -67,7 +67,11 @@ Two exceptions:
 
 - **Written repeat signs.** If a section is marked to repeat with no change, write it once.
   Do not write out an identical repeat — the player has no repeat sign and the listener
-  gains nothing from the same 16 bars twice.
+  gains nothing from the same 16 bars twice. **The same goes for a repeat the engraver
+  wrote out in full rather than marking**: if two spans are note-for-note and chord-for-chord
+  identical and immediately consecutive, write one. This does not wait on the length rule
+  below — Grieg's Waltz Op. 12 No. 2 is 79 bars, just under the threshold, and its bars
+  19-36 are a bit-identical copy of 1-18. Check by comparing, not by eye.
 - **Length.** If writing the piece out honestly exceeds about **80 bars**, collapse
   **immediately repeated statements** — where a section is played twice in a row with the
   same notes, write it once — and say in your report what you left out. This means
@@ -77,6 +81,15 @@ Two exceptions:
   times.
 
 A first and second ending: write the piece through with the second ending.
+
+**A D.S. al Fine or a da capo is part of the piece, so play it out.** The measures table
+records these as `markers=segno`, `markers=fine` and a `jump_bwd`/`play_until` on the bar
+that sends you back; follow them and write the music in the order it sounds. Chopin's
+Op. 68 No. 4 is notated in 40 bars but played as bars 1–40 then 2–23, ending at the Fine on
+the tonic — write the 62. Stopping at the notated last bar would end the sheet on an
+unresolved dominant, which fails §4 rule 4 and §7. This is not the same thing as the repeat
+sign above: a repeat doubles music you have already written, a D.S. reaches an ending you
+otherwise never get to.
 
 ## 2. The file
 
@@ -162,6 +175,14 @@ Write exactly one file to the path you are given,
 A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
 `F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
 
+**There are no double accidentals.** A note takes one `#` or one `b`; `C##5:4` and `Cx5:4`
+are both rejected as bad tokens. Transposing a distant key into C or A minor generates them
+freely — F minor into A minor throws a dozen `C##` and `F##` at you — so respell
+enharmonically (`C##` as `D`, `F##` as `G`) and carry on. Respell `B#` as `C` and `E#` as `F`
+too: they are legal but nobody reads them on a lead sheet. This changes the spelling, never
+the pitch, so it is not a compromise worth reporting bar by bar — one line saying you did it
+is enough.
+
 **A tie** is a trailing `~`: `C5:8~ C5:8`. It may cross a barline and must land on the same
 pitch. Character pieces sustain across barlines constantly — use it wherever the music holds.
 There is no cap.
@@ -183,7 +204,9 @@ around silently. The rule:
   Gnossienne No. 1 is built on about forty appoggiaturas and is not itself without them —
   **realise it as a real note that steals time from the note it decorates** (`A4:1 B4:3`
   for a grace before a quarter), keep the pitches and the order exactly, and **report that
-  you did it and how many**. You are writing a rhythm the composer did not print; that is
+  you did it and how many**. A grace printed *after* its principal — a nachschlag, which
+  DCML flags as `grace16after` and Chopin writes constantly — steals from the note
+  **before** it instead: `B4:3 A4:1`. Same rule, opposite side. You are writing a rhythm the composer did not print; that is
   a compromise, and an unreported one is a wrong note.
 
 **A bar may be entirely a rest.** `R:16` is a legal bar where the melody genuinely drops
@@ -296,7 +319,11 @@ phrases come from.
      `tpc` (enharmonic spelling, so you know D♯ from E♭), `mn` (bar number), `mn_onset`
      (position in the bar as a fraction), `duration`, `tied` and `gracenote`. The
      `gracenote` column tells you exactly which notes are ornaments, which is what §3
-     needs.
+     needs — but **DCML drops that column entirely for a piece that has none**, so look it
+     up by name rather than by position and tolerate its absence. One more encoding
+     quirk: a pickup is numbered bar 0 or bar 1 and its notes carry an `mn_onset` measured
+     from the start of a *notional full bar*, so a quarter-note anacrusis in 3/4 appears at
+     `1/2`, not at `0`.
 
      **Filtering to `staff == 1` and the top voice gives you a candidate line, not the
      melody.** An earlier draft of this spec said it gave you the melody mechanically, and

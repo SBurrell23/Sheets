@@ -1,0 +1,78 @@
+{
+  "title": "October: Autumn Song",
+  "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 10, 1876",
+  "key": "Am",
+  "meter": "4/4",
+  "tempo": 48,
+  "bars": [
+    { "chord": "Am",      "notes": "R:4 C6:8 [E7]B5:4~" },
+    { "chord": "Am",      "notes": "B5:2 A5:2 D#5:2 E5:2 [Am/C]A5:6 [A7]G5:2" },
+    { "chord": "Dm",      "notes": "F5:4 F5:8 [A7]C#5:4~" },
+    { "chord": "Dm/F",    "notes": "C#5:2 D5:2 [Bm7b5]B5:2 A5:2 [E7]A5:4 G#5:4" },
+
+    { "chord": "E7",      "notes": "(3 R:2 E5:2 F#5:2) (3 G#5:2 A5:2 B5:2) [Am/C]E6:8~" },
+    { "chord": "E7",      "notes": "(3 E6:2 E5:2 F#5:2) (3 G#5:2 A5:2 B5:2) [Am]E6:6 [A7]A5:2" },
+    { "chord": "Dm",      "notes": "(3 D6:2 C6:2 B5:2) (3 A5:2 G#5:2 A5:2) [D#dim]C6:4~ (3 C6:2 B5:2 A5:2~)" },
+    { "chord": "E7",      "notes": "(3 A5:2 G#5:2 G5:2~) (3 G5:2 F#5:2 F5:2~) (3 F5:2 E5:2 C5:2~) (3 C5:4 B4:2)" },
+
+    { "chord": "Am",      "notes": "A4:2 R:4 E5:2~ [E7]E5:2 F#5:4 G#5:2~" },
+    { "chord": "Am/C",    "notes": "G#5:2 A5:4 [E]G#5:2~ G#5:2 [A7]G5:2 F5:2 E5:2" },
+    { "chord": "Dm",      "notes": "D5:2 A4:4 A5:4 F5:4 [A7]E5:2~" },
+    { "chord": "Dm/F",    "notes": "E5:2 D5:2~ D5:2 [B7]D#5:2~ D#5:2 [E]E5:2~ E5:2 B4:2" },
+
+    { "chord": "G7",      "notes": "(3 R:2 G5:2 A5:2) (3 B5:2 C6:2 D6:2) [C/E]G5:8" },
+    { "chord": "E7",      "notes": "(3 R:2 E5:2 F#5:2) (3 G#5:2 A5:2 B5:2) [Am/C]E5:8" },
+    { "chord": "Dm",      "notes": "(3 R:2 B4:2 C5:2) (3 D5:2 E5:2 F5:2~) (3 F5:2 F5:2 [E]E5:2~) (3 E5:2 D#5:2 D5:2~)" },
+    { "chord": "E7",      "notes": "(3 D5:2 C#5:2 C5:2~) (3 C5:2 A#4:2 B4:2~) (3 [Am]B4:4 G#4:2) (3 G#4:4 A4:2)" },
+
+    { "chord": "G7",      "notes": "(3 R:2 D5:2 E5:2) (3 F5:2 F#5:2 G5:2) (3 [C/E]C6:4 B5:2) (3 B5:4 A5:2)" },
+    { "chord": "Bm7b5",   "notes": "A5:4 [G7]G5:4~ (3 [C]G5:2 G5:2 F#5:2) (3 A5:4 G5:2)" },
+    { "chord": "G7",      "notes": "(3 R:2 D5:2 E5:2) (3 F5:2 F#5:2 G5:2) (3 [C/E]C6:4 B5:2) (3 B5:4 A5:2)" },
+    { "chord": "Bm7b5",   "notes": "A5:4 [E7]G#5:4~ (3 G#5:2 [Am/C]A5:2 G#5:2) (3 B5:4 A5:2)" },
+
+    { "chord": "E7/G#",   "notes": "C6:4 B5:4~ (3 [Bm7b5]B5:2 C6:2 B5:2) (3 [E7]F6:4 E6:2)" },
+    { "chord": "A7/C#",   "notes": "(3 R:2 E6:2 D#6:2) (3 F6:4 E6:2) (3 [Dm]E6:2 D6:2 C#6:2) (3 E6:4 D6:2)" },
+    { "chord": "G",       "notes": "(3 R:2 D6:2 C#6:2) (3 E6:4 D6:2) (3 [C]D6:2 C6:2 B5:2) (3 D6:4 C6:2)" },
+    { "chord": "F",       "notes": "(3 R:2 C6:2 B5:2) (3 D6:4 C6:2) (3 [Dm7]C6:2 B5:2 A5:2) (3 C6:2 B5:2 A5:2)" },
+
+    { "chord": "Bm7b5",   "notes": "(3 R:2 D5:2 E5:2) (3 F5:2 C6:2 B5:2) (3 [E]A5:2 G#5:2 G5:2) (3 G#5:4 E5:2)" },
+    { "chord": "A7/C#",   "notes": "(3 R:2 E6:2 D#6:2) (3 F6:4 E6:2) (3 [Dm]E6:2 D6:2 C#6:2) (3 E6:4 D6:2)" },
+    { "chord": "G",       "notes": "(3 R:2 D6:2 C#6:2) (3 E6:4 D6:2) (3 [C]D6:2 C6:2 B5:2) (3 D6:4 C6:2)" },
+    { "chord": "F",       "notes": "(3 R:2 C6:2 B5:2) (3 D6:4 C6:2) (3 [Dm7]C6:2 B5:2 A5:2) (3 C6:2 B5:2 A5:2)" },
+
+    { "chord": "Bm7b5",   "notes": "(3 R:2 D5:2 E5:2) (3 F5:2 C6:2 B5:2) (3 [E]A5:2 G#5:2 G5:2) (3 G#5:4 E5:2)" },
+    { "chord": "Bm7b5",   "notes": "(3 R:2 D5:2 C#5:2) (3 E5:4 D5:2) [E7]D5:2 R:6" },
+    { "chord": "Bm7b5",   "notes": "(3 R:2 D5:2 C#5:2) (3 E5:4 D5:2) [E7]D5:2 R:6" },
+    { "chord": "E7",      "notes": "(3 E5:4 D5:2) (3 A5:4 G#5:2) (3 C6:2 B5:2 A5:2~) (3 A5:2 G#5:2 F5:2~)" },
+
+    { "chord": "E7",      "notes": "(3 F5:4 E5:2~) (3 E5:4 D5:2~) (3 D5:4 C5:2~) (3 C5:4 B4:2)" },
+    { "chord": "Am",      "notes": "R:4 C6:8 [E7]B5:4~" },
+    { "chord": "Am",      "notes": "B5:2 A5:2 D#5:2 E5:2 [Am/C]A5:6 [A7]G5:2" },
+    { "chord": "Dm",      "notes": "F5:4 F5:8 [A7]C#5:4~" },
+
+    { "chord": "Dm/F",    "notes": "C#5:2 D5:2 [Bm7b5]B5:2 A5:2 [E7]A5:4 G#5:4" },
+    { "chord": "E7",      "notes": "(3 R:2 E5:2 F#5:2) (3 G#5:2 A5:2 B5:2) [Am/C]E6:8~" },
+    { "chord": "E7",      "notes": "(3 E6:2 E5:2 F#5:2) (3 G#5:2 A5:2 B5:2) [Am]E6:6 [A7]A5:2" },
+    { "chord": "Dm",      "notes": "(3 D6:2 C6:2 B5:2) (3 A5:2 G#5:2 A5:2) [D#dim]C6:4~ (3 C6:2 B5:2 A5:2~)" },
+
+    { "chord": "E7",      "notes": "(3 A5:2 G#5:2 G5:2~) (3 G5:2 F#5:2 F5:2~) (3 F5:2 E5:2 C5:2~) (3 C5:4 B4:2)" },
+    { "chord": "Am",      "notes": "A4:4 R:2 E5:2~ [E7]E5:2 F#5:4 G#5:2~" },
+    { "chord": "Am/C",    "notes": "G#5:2 A5:4 [E]G#5:2~ G#5:2 [A7]G5:2 F5:2 E5:2" },
+    { "chord": "Dm",      "notes": "D5:2 A4:4 A5:4 F5:4 [A7]E5:2~" },
+
+    { "chord": "Dm/F",    "notes": "E5:2 D5:2~ D5:2 [B7]D#5:2~ D#5:2 [E]E5:4 B4:2" },
+    { "chord": "G7",      "notes": "(3 R:2 G5:2 A5:2) (3 B5:2 C6:2 D6:2) [C/E]G5:8" },
+    { "chord": "E7",      "notes": "(3 R:2 E5:2 F#5:2) (3 G#5:2 A5:2 B5:2) [Am/C]E5:8" },
+    { "chord": "Dm",      "notes": "(3 R:2 B4:2 C5:2) (3 D5:2 E5:2 F5:2~) (3 F5:2 F5:2 [E]E5:2~) (3 E5:2 D#5:2 D5:2~)" },
+
+    { "chord": "E7",      "notes": "(3 D5:2 C#5:2 C5:2~) (3 C5:2 A#4:2 B4:2~) (3 [Am]B4:4 G#4:2) (3 G#4:4 A4:2)" },
+    { "chord": "Bm7b5",   "notes": "(3 R:2 B4:2 A#4:2) (3 B4:2 C5:2 B4:2~) (3 [Am]B4:4 G#4:2) (3 G#4:4 A4:2)" },
+    { "chord": "Am",      "notes": "(3 R:2 D5:2 E5:2) F5:4~ (3 F5:2 C5:2 D5:2) E5:4" },
+    { "chord": "Bm7b5",   "notes": "(3 R:2 B4:2 A#4:2) (3 B4:2 C5:2 B4:2~) (3 [Am]B4:4 G#4:2) (3 G#4:4 A4:2)" },
+
+    { "chord": "Bm7b5",   "notes": "(3 R:2 D4:2 E4:2) F4:4~ (3 [Am]F4:2 C4:2 D4:2) E4:4" },
+    { "chord": "Bm7b5",   "notes": "(3 R:2 D4:2 E4:2) F4:4~ (3 [Am]F4:2 C4:2 D4:2) E4:4~" },
+    { "chord": "Am",      "notes": "(3 E4:4 F4:2) (3 F4:4 E4:2) (3 F4:4 E4:2) (3 F4:4 E4:2)" },
+    { "chord": "Am",      "notes": "G4:4~ (3 G4:4 F4:2) E4:8" }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "March: Song of the Lark",
+  "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 3, 1876",
+  "key": "Am",
+  "meter": "2/4",
+  "tempo": 40,
+  "bars": [
+    { "chord": "Am",    "notes": "R:8" },
+    { "chord": "Am",    "notes": "R:8" },
+    { "chord": "Am",    "notes": "R:2 A4:2 [G#dim]G#4:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:1 C5:1 E5:1 G#5:1 [E7]A5:3 G#5:1" },
+
+    { "chord": "Am",    "notes": "E5:2 A4:2 [E7]G#4:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:1 C5:1 E5:1 G#5:1 [E7]A5:3 G#5:1" },
+    { "chord": "E7",    "notes": "R:2 A4:2 G#4:3 B4:1" },
+    { "chord": "Am/C",  "notes": "A4:1 C5:1 E5:1 G#5:1 [A7]A5:3 G5:1" },
+
+    { "chord": "Dm",    "notes": "G5:2 F5:2 E5:2 D5:2" },
+    { "chord": "E7",    "notes": "D5:1 G#4:1 A4:1 B4:1 C5:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:2 [Bdim]E5:2 E5:3 B4:1" },
+    { "chord": "C",     "notes": "C5:1 D#5:1 E5:1 F5:1 [G7]G5:1 G#5:1 C6:1 B5:1" },
+
+    { "chord": "C",     "notes": "D6:3 C6:1 [E7]E6:1 B5:1 E6:1 B5:1" },
+    { "chord": "Am/C",  "notes": "E6:1 A5:2 C6:1~ C6:1 [G#dim]G#5:2 B5:1~" },
+    { "chord": "Am/C",  "notes": "B5:1 E5:2 A5:1 [Bdim]E5:3 B4:1" },
+    { "chord": "C",     "notes": "C5:1 D#5:1 E5:1 F5:1 [G7]G5:1 G#5:1 C6:1 B5:1" },
+
+    { "chord": "C",     "notes": "D6:3 C6:1 [E7]C6:1 G#5:1 C6:1 G#5:1" },
+    { "chord": "Am/C",  "notes": "B5:1 E5:2 A5:1 [E7]C5:1 B4:1 C5:1 B4:1" },
+    { "chord": "Am/C",  "notes": "B4:1 A4:2 E4:1 [Bdim]E4:3 B4:1" },
+    { "chord": "C",     "notes": "C4:1 D#4:1 E4:1 F4:1 [G7]G4:1 G#4:1 C5:1 B4:1" },
+
+    { "chord": "C",     "notes": "D5:3 C5:1 [E7]E5:1 B4:1 E5:1 B4:1" },
+    { "chord": "Am/C",  "notes": "E5:1 E4:2 A4:1 [B7]A4:1 D#4:1 A4:1 D#4:1" },
+    { "chord": "E",     "notes": "A4:3 G#4:1 R:1 E4:1 D#4:1 E4:1" },
+    { "chord": "E7",    "notes": "B4:1 D#5:1 E5:2 R:1 A5:1 G#5:1 A5:1" },
+
+    { "chord": "E7",    "notes": "E6:1 E5:2 E4:1 R:1 E4:1 D#4:1 E4:1" },
+    { "chord": "E7",    "notes": "B4:1 D#5:1 E5:2 R:1 A5:1 G#5:1 A5:1" },
+    { "chord": "E7",    "notes": "E6:1 E5:2 E4:1 R:1 A5:1 G#5:1 A5:1" },
+    { "chord": "E7",    "notes": "E6:1 E5:2 E4:1 R:1 [D#dim]D#5:2 D#4:1" },
+
+    { "chord": "E7",    "notes": "R:1 E5:2 E4:1 R:1 [D#dim]D#5:2 D#4:1" },
+    { "chord": "E",     "notes": "R:1 E5:2 E4:1 R:1 E5:2 E4:1" },
+    { "chord": "Am",    "notes": "R:2 A4:2 [G#dim]G#4:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:1 C5:1 E5:1 G#5:1 [E7]A5:3 G#5:1" },
+
+    { "chord": "Am",    "notes": "E5:2 A4:2 [E7]G#4:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:1 C5:1 E5:1 G#5:1 [E7]A5:3 G#5:1" },
+    { "chord": "E7",    "notes": "R:2 A4:2 G#4:3 B4:1" },
+    { "chord": "Am/C",  "notes": "A4:1 C5:1 E5:1 G#5:1 [A7]A5:3 G5:1" },
+
+    { "chord": "Dm",    "notes": "G5:2 F5:2 E5:2 D5:2" },
+    { "chord": "E7",    "notes": "D5:1 G#4:1 A4:1 B4:1 C5:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:2 A4:2 [G#dim]G#4:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:1 C5:1 E5:1 G#5:1 [G#dim]A5:3 G#5:1" },
+
+    { "chord": "Am",    "notes": "E5:2 A4:2 [E7]G#4:3 B4:1" },
+    { "chord": "Am",    "notes": "A4:1 C5:1 E5:1 G#5:1 [E7]A5:3 G#5:1" },
+    { "chord": "Am",    "notes": "E5:2 R:2 A5:3 [E7]G#5:1" },
+    { "chord": "Am",    "notes": "E5:2 R:2 A5:3 [E7]G#5:1" },
+
+    { "chord": "Am",    "notes": "E5:8~" },
+    { "chord": "Am",    "notes": "E5:8" }
+  ]
+}

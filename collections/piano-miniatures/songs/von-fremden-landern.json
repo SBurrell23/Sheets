@@ -1,0 +1,33 @@
+{
+  "title": "Von fremden Ländern und Menschen",
+  "source": "Robert Schumann, Kinderszenen Op. 15 No. 1, 1838",
+  "key": "C",
+  "meter": "2/4",
+  "tempo": 72,
+  "bars": [
+    { "chord": "C",      "notes": "E5:4 [F#dim]C6:4" },
+    { "chord": "G",      "notes": "B5:3 A5:1 [G7/B]G5:4" },
+    { "chord": "C",      "notes": "E5:4 [F#dim]C6:4" },
+    { "chord": "G",      "notes": "B5:3 A5:1 [G7/B]G5:4" },
+    { "chord": "C",      "notes": "E5:4 C6:4" },
+    { "chord": "F",      "notes": "A5:3 G5:1 F5:4" },
+    { "chord": "G7sus4", "notes": "D5:4 [G7]G5:4" },
+    { "chord": "C",      "notes": "E5:8" },
+
+    { "chord": "Am",     "notes": "E5:4 [Dm]F5:4" },
+    { "chord": "G",      "notes": "D5:4 [C/E]E5:4" },
+    { "chord": "F",      "notes": "C5:4 [Bm7b5]D5:4" },
+    { "chord": "E",      "notes": "B4:4 [C]C5:4" },
+    { "chord": "F",      "notes": "A4:4 [G7/F]B4:4" },
+    { "chord": "C/E",    "notes": "C5:3 D5:1 [C]E5:3 [G7/D]F5:1" },
+
+    { "chord": "C",      "notes": "G5:4 [F#dim]C6:4" },
+    { "chord": "G",      "notes": "B5:3 A5:1 [G7/B]G5:4" },
+    { "chord": "C",      "notes": "E5:4 [F#dim]C6:4" },
+    { "chord": "G",      "notes": "B5:3 A5:1 [G7/B]G5:4" },
+    { "chord": "C",      "notes": "E5:4 C6:4" },
+    { "chord": "F",      "notes": "A5:3 G5:1 F5:4" },
+    { "chord": "G7sus4", "notes": "D5:4 [G7]G5:4" },
+    { "chord": "C",      "notes": "E5:8" }
+  ]
+}

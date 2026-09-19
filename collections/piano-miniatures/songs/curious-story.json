@@ -1,0 +1,57 @@
+{
+  "title": "Curious Story",
+  "source": "Robert Schumann, Kinderszenen Op. 15 No. 2, 1838",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 132,
+  "bars": [
+    { "chord": "C",      "notes": "E4:4" },
+
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:4" },
+    { "chord": "C",      "notes": "G4:8 C5:4" },
+    { "chord": "G7",     "notes": "B4:2 R:1 A4:1 G4:4 F5:4" },
+    { "chord": "C",      "notes": "E5:2 R:1 D5:1 C5:4 E4:4" },
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:4" },
+    { "chord": "C",      "notes": "G4:8 C5:3 B4:1" },
+    { "chord": "D",      "notes": "B4:2 C5:2 D5:2 E5:2 [D7]E5:3 F#5:1" },
+    { "chord": "D7",     "notes": "F#5:4 [G]G5:4 [C]E4:4" },
+
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:4" },
+    { "chord": "C",      "notes": "G4:8 C5:4" },
+    { "chord": "G7",     "notes": "B4:2 R:1 A4:1 G4:4 F5:4" },
+    { "chord": "C",      "notes": "E5:2 R:1 D5:1 C5:4 E4:4" },
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:4" },
+    { "chord": "C",      "notes": "G4:8 C5:3 B4:1" },
+    { "chord": "D",      "notes": "B4:2 C5:2 D5:2 E5:2 [D7]E5:3 F#5:1" },
+    { "chord": "D7",     "notes": "F#5:4 [G]G5:4 [Gm]D5:2 [Edim]E5:2" },
+
+    { "chord": "F",      "notes": "F5:2 G5:2 F5:2 E5:2 [A]F5:2 E5:2" },
+    { "chord": "Bb",     "notes": "D5:8 [Csus4]C5:2 [C7]Bb4:2" },
+    { "chord": "F",      "notes": "A4:4 [Bb]Bb4:4 [F]A4:4" },
+    { "chord": "C",      "notes": "G4:8 G4:4" },
+
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:4" },
+    { "chord": "C",      "notes": "G4:8 C5:4" },
+    { "chord": "G7",     "notes": "B4:2 R:1 A4:1 G4:4 F5:4" },
+    { "chord": "C",      "notes": "E5:2 R:1 D5:1 C5:4 E4:4" },
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:3 G4:1" },
+    { "chord": "C",      "notes": "G4:2 A4:2 B4:2 C5:2 [F]C5:2 [Dm]D5:2" },
+    { "chord": "G7",     "notes": "E5:8 D5:4~" },
+    { "chord": "C",      "notes": "D5:4 C5:4 [Gm]D5:2 [Edim]E5:2" },
+
+    { "chord": "F",      "notes": "F5:2 G5:2 F5:2 E5:2 [A]F5:2 E5:2" },
+    { "chord": "Bb",     "notes": "D5:8 [Csus4]C5:2 [C7]Bb4:2" },
+    { "chord": "F",      "notes": "A4:4 [Bb]Bb4:4 [F]A4:4" },
+    { "chord": "C",      "notes": "G4:8 G4:4" },
+
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:4" },
+    { "chord": "C",      "notes": "G4:8 C5:4" },
+    { "chord": "G7",     "notes": "B4:2 R:1 A4:1 G4:4 F5:4" },
+    { "chord": "C",      "notes": "E5:2 R:1 D5:1 C5:4 E4:4" },
+    { "chord": "G7",     "notes": "F4:2 R:1 E4:1 F4:4 A4:3 G4:1" },
+    { "chord": "C",      "notes": "G4:2 A4:2 B4:2 C5:2 [F]C5:2 [Dm]D5:2" },
+    { "chord": "G7",     "notes": "E5:8 D5:4~" },
+    { "chord": "C",      "notes": "D5:4 C5:4" }
+  ]
+}

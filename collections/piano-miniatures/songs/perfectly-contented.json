@@ -1,0 +1,29 @@
+{
+  "title": "Perfectly Contented",
+  "source": "Robert Schumann, Kinderszenen Op. 15 No. 5, 1838",
+  "key": "C",
+  "meter": "2/4",
+  "pickup": 2,
+  "tempo": 66,
+  "bars": [
+    { "chord": "G7",  "notes": "F#5:2" },
+
+    { "chord": "G7",  "notes": "G5:2 B5:2 E6:2 D6:2" },
+    { "chord": "G",   "notes": "C6:2 G5:2 R:2 G5:2" },
+    { "chord": "G7",  "notes": "G5:1 D5:1 D5:1 E5:1 F5:2 A5:2" },
+    { "chord": "C",   "notes": "G5:2 E5:2 [G]D5:2 F#5:2" },
+    { "chord": "G7",  "notes": "G5:4 R:2 B4:2" },
+    { "chord": "C",   "notes": "C5:2 E5:2 A5:2 [C7]G5:2" },
+    { "chord": "F",   "notes": "F5:2 A5:2 D6:2 [Fm]C6:2" },
+    { "chord": "G7",  "notes": "B5:2 [F]A5:2 [G7]G5:2 [Bb6]G5:2" },
+
+    { "chord": "Bb7", "notes": "Ab5:2 D6:2 G6:2 F6:2" },
+    { "chord": "Bb",  "notes": "Eb6:2 Bb5:2 R:2 Bb5:2" },
+    { "chord": "Bb7", "notes": "Bb5:1 F5:1 F5:1 G5:1 Ab5:2 C6:2" },
+    { "chord": "Eb",  "notes": "Bb5:2 G5:2 [Bb]F5:2 [Bb6]G5:2" },
+    { "chord": "Bb7", "notes": "Ab5:2 D6:2 G6:2 [Bdim]F6:2" },
+    { "chord": "C",   "notes": "E6:2 [G7]B5:2 D6:2 [C]C6:2" },
+    { "chord": "F",   "notes": "A5:2 [C7]E5:2 G5:2 [F]F5:2" },
+    { "chord": "G7",  "notes": "E5:2 D5:2 [C]C5:4" }
+  ]
+}

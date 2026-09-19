@@ -1,0 +1,65 @@
+{
+  "title": "Mazurka in A-flat",
+  "source": "Frédéric Chopin, Mazurkas Op. 24 No. 3, 1835",
+  "key": "C",
+  "meter": "3/4",
+  "pickup": 4,
+  "tempo": 126,
+  "bars": [
+    { "chord": "C",     "notes": "C5:4" },
+
+    { "chord": "G7",    "notes": "B4:3 A4:1 G4:6 F5:2" },
+    { "chord": "C",     "notes": "E5:2 C5:2 A5:6 G5:2" },
+    { "chord": "G7",    "notes": "B4:3 A4:1 G4:4 F5:4" },
+    { "chord": "C",     "notes": "E5:2 D5:2 C5:6 B4:2" },
+
+    { "chord": "F",     "notes": "A4:2 R:1 C5:1 (3 C5:2 D5:2 C5:2) B4:2 A4:2" },
+    { "chord": "G",     "notes": "G4:2 R:1 E5:1 C6:6 C5:2" },
+    { "chord": "G7",    "notes": "B4:3 A4:1 G4:4 F5:4" },
+    { "chord": "C",     "notes": "E5:2 D5:2 C5:6 B4:2" },
+
+    { "chord": "F",     "notes": "A4:2 R:1 C5:1 (3 C5:2 D5:2 C5:2) B4:2 A4:2" },
+    { "chord": "G",     "notes": "G4:2 R:1 E5:1 E6:4 (3 D6:2 C6:2 A5:2)" },
+    { "chord": "G7",    "notes": "B5:2 A5:2 G5:2 F5:2 D5:2 A4:2" },
+    { "chord": "C",     "notes": "G4:2 R:1 E5:1 C5:4 [C/E]E5:4" },
+
+    { "chord": "D#dim", "notes": "F#5:4 [Em]G5:2 F5:2 [C#dim]E5:4" },
+    { "chord": "Dm",    "notes": "F5:2 E5:2 [Bdim]D5:4 [C]E5:4" },
+    { "chord": "D#dim", "notes": "F#5:4 [Em]G5:2 F5:2 [C#dim]E5:4" },
+    { "chord": "Dm",    "notes": "F5:2 E5:2 [Bdim]D5:4 [C]E5:4" },
+
+    { "chord": "Bdim",  "notes": "D5:4 [C]E5:2 D5:2 [F#dim]C5:4" },
+    { "chord": "Bdim",  "notes": "D5:2 C5:2 [E7]B4:4 [Am]C5:4" },
+    { "chord": "E7",    "notes": "B4:4 [Am]C5:2 B4:2 [B7]A4:4" },
+    { "chord": "E",     "notes": "G#4:2 B4:2 R:4 E5:4" },
+
+    { "chord": "E",     "notes": "E5:8 E5:4" },
+    { "chord": "E",     "notes": "E5:8 E5:4" },
+    { "chord": "E",     "notes": "E5:12~" },
+    { "chord": "E",     "notes": "E5:8 [G7]D5:2 C5:2" },
+
+    { "chord": "G7",    "notes": "B4:3 A4:1 G4:6 F5:2" },
+    { "chord": "C",     "notes": "E5:2 C5:2 A5:6 G5:2" },
+    { "chord": "G7",    "notes": "B4:3 A4:1 G4:4 F5:4" },
+    { "chord": "C",     "notes": "E5:2 D5:2 C5:6 B4:2" },
+
+    { "chord": "F",     "notes": "A4:2 R:1 C5:1 (3 C5:2 D5:2 C5:2) B4:2 A4:2" },
+    { "chord": "G",     "notes": "G4:2 R:1 E5:1 C6:6 C5:2" },
+    { "chord": "G7",    "notes": "B4:3 A4:1 G4:4 F5:4" },
+    { "chord": "C",     "notes": "E5:2 D5:2 C5:6 B4:2" },
+
+    { "chord": "F",     "notes": "A4:2 R:1 C5:1 (3 C5:2 D5:2 C5:2) B4:2 A4:2" },
+    { "chord": "G",     "notes": "G4:2 R:1 E5:1 E6:4 (3 D6:2 C6:2 A5:2)" },
+    { "chord": "G7",    "notes": "B5:2 A5:2 G5:2 F5:2 D5:2 A4:2" },
+    { "chord": "C",     "notes": "G4:2 E5:2 E6:2 D6:2 C6:2 A5:2" },
+
+    { "chord": "G7",    "notes": "B5:2 A5:2 G5:2 F5:2 D5:2 A4:2" },
+    { "chord": "C",     "notes": "G4:2 E5:2 E6:2 D6:2 C6:2 A5:2" },
+    { "chord": "C",     "notes": "G5:2 E5:2 E6:2 D6:2 C6:2 A5:2" },
+    { "chord": "C",     "notes": "G5:2 E5:2 E6:2 D6:2 C6:2 A5:2" },
+
+    { "chord": "C",     "notes": "G5:2 E5:2 E6:2 D6:2 C6:2 A5:2" },
+    { "chord": "C",     "notes": "G5:2 E5:2 B5:2 A5:2 G5:2 C5:2" },
+    { "chord": "C",     "notes": "E5:12" }
+  ]
+}

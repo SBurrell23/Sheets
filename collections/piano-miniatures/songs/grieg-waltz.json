@@ -1,0 +1,253 @@
+{
+  "title": "Waltz",
+  "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 2, 1867",
+  "key": "Am",
+  "meter": "3/4",
+  "tempo": 144,
+  "bars": [
+    {
+      "chord": "Am",
+      "notes": "R:12"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:12"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 F#4:2 G#4:2 A4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:4 [E7]B4:2 G#4:2 F#4:4"
+    },
+    {
+      "chord": "Am6",
+      "notes": "F#4:4 [Am]E4:8~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 R:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:2 E4:2 F#4:2 G#4:2 G#4:2 A4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:2 A4:2 [E7]B4:2 G#4:2 G#4:2 F#4:2"
+    },
+    {
+      "chord": "Am6",
+      "notes": "F#4:4 [Am]E4:8~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 R:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 [F#m7b5/C]E5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "(3 E5:2 D5:2 C5:2) D5:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:4 [Cdim]C5:4"
+    },
+    {
+      "chord": "Em",
+      "notes": "(3 C5:2 B4:2 A4:2) B4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "(3 B4:2 A4:2 G4:2) A4:8"
+    },
+    {
+      "chord": "Csus4",
+      "notes": "(3 F4:2 E4:2 D4:2) [C]E4:8"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F4:4 [Am7/E]G4:2 [F]A4:2 [Dm7]F4:4"
+    },
+    {
+      "chord": "Bm7b5/F",
+      "notes": "D4:4 [E]E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:8 B4:2 G#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 E4:2 [E7]E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:4 B4:2 C#5:2 A4:2 F#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 E4:2 [E7]E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:8 E4:2 F#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 G#4:2 [C#m]G#4:8"
+    },
+    {
+      "chord": "C#m",
+      "notes": "G#4:2 B4:2 [A]B4:2 A4:2 E4:2 F#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 G#4:2 [C#m]G#4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:8 B4:2 G#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 E4:2 [E7]E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:4 B4:2 C#5:2 A4:2 F#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 E4:2 [E7]E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:8 E4:2 F#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 G4:2 [Gdim]G4:8"
+    },
+    {
+      "chord": "Gdim",
+      "notes": "G4:2 G#4:2 [C#m]G#4:8"
+    },
+    {
+      "chord": "C#m",
+      "notes": "G#4:2 A4:2 [A]A4:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:12"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:12"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 F#4:2 G#4:2 A4:4"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:4 [E7]B4:2 G#4:2 F#4:4"
+    },
+    {
+      "chord": "Am6",
+      "notes": "F#4:4 [Am]E4:8~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 R:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:2 E4:2 F#4:2 G#4:2 G#4:2 A4:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:2 A4:2 [E7]B4:2 G#4:2 G#4:2 F#4:2"
+    },
+    {
+      "chord": "Am6",
+      "notes": "F#4:4 [Am]E4:8~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:4 R:8"
+    },
+    {
+      "chord": "C",
+      "notes": "E5:4 E5:4 [F#m7b5/C]E5:4"
+    },
+    {
+      "chord": "G",
+      "notes": "(3 E5:2 D5:2 C5:2) D5:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:4 [Cdim]C5:4"
+    },
+    {
+      "chord": "Em",
+      "notes": "(3 C5:2 B4:2 A4:2) B4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "(3 B4:2 A4:2 G4:2) A4:8"
+    },
+    {
+      "chord": "Csus4",
+      "notes": "(3 F4:2 E4:2 D4:2) [C]E4:8"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F4:4 [Am7/E]G4:2 [F]A4:2 [Dm7]F4:4"
+    },
+    {
+      "chord": "Bm7b5/F",
+      "notes": "D4:4 [E]E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:8 B4:2 G#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 E4:2 E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "A4:4 B4:2 C#5:2 A4:2 F#4:2"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:2 E4:2 E4:8"
+    },
+    {
+      "chord": "A",
+      "notes": "F#4:4 E4:8~"
+    },
+    {
+      "chord": "A",
+      "notes": "E4:4 R:8"
+    },
+    {
+      "chord": "Am",
+      "notes": "F4:4 E4:8~"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:12"
+    },
+    {
+      "chord": "Am",
+      "notes": "R:12"
+    }
+  ]
+}

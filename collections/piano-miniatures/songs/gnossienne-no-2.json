@@ -1,0 +1,46 @@
+{
+  "title": "Gnossienne No. 2",
+  "source": "Erik Satie, Gnossiennes No. 2, 1890",
+  "key": "Am",
+  "meter": "12/8",
+  "tempo": 60,
+  "bars": [
+    { "chord": "Gm",   "notes": "D5:2 E5:2~ E5:2~ E5:6 [F/G]C5:2 D5:2 C5:2 D5:2 C5:2 D5:2" },
+    { "chord": "Gm",   "notes": "Bb4:2 C5:2~ C5:2~ C5:6 [F/G]A4:2 Bb4:2 A4:2 Bb4:2 A4:2 Bb4:2" },
+    { "chord": "Em",   "notes": "G4:2 B4:2~ B4:2~ B4:6~ B4:2 R:4 R:6" },
+    { "chord": "Em",   "notes": "R:24" },
+
+    { "chord": "Gm",   "notes": "D5:2 E5:2~ E5:2~ E5:6 [F/G]C5:2 D5:2 C5:2 D5:2 C5:2 D5:2" },
+    { "chord": "Gm",   "notes": "Bb4:2 C5:2~ C5:2~ C5:6 [F/G]A4:2 Bb4:2 A4:2 Bb4:2 A4:2 Bb4:2" },
+    { "chord": "Ddim", "notes": "Ab4:2 F4:2~ F4:2~ F4:6~ F4:2 R:4 R:6" },
+    { "chord": "Ddim", "notes": "R:24" },
+
+    { "chord": "Ddim", "notes": "R:2 F4:2 G4:2 Ab4:2 Bb4:2 Ab4:2 G4:2 F4:2 G4:2 Ab4:2 Bb4:2 Ab4:2" },
+    { "chord": "Em",   "notes": "B4:2 B4:2~ B4:2~ B4:6~ B4:2 R:4 R:6" },
+    { "chord": "Ddim", "notes": "R:2 F4:2 G4:2 Ab4:2 Bb4:2 C5:2 D5:2 C5:2 Bb4:2 Ab4:2 Bb4:2 Ab4:2" },
+    { "chord": "Em",   "notes": "B4:2 B4:2~ B4:2~ B4:6~ B4:6~ B4:2~ B4:2 B4:2" },
+    { "chord": "A",    "notes": "A4:24~" },
+    { "chord": "G/A",  "notes": "A4:12~ [A]A4:6 R:6" },
+
+    { "chord": "A",    "notes": "R:2 E5:2 D#5:2 C#5:2 D#5:2 E5:2 F#5:2 G#5:2 F#5:2 E5:2 D#5:2 C#5:2" },
+    { "chord": "F#",   "notes": "A#4:2 C#5:2 A#4:2~ A#4:6~ A#4:6~ A#4:2~ A#4:2 B4:2" },
+    { "chord": "F",    "notes": "C5:2 C5:2~ C5:2~ C5:6~ C5:2 R:4 R:6" },
+    { "chord": "A",    "notes": "R:2 E5:2 D#5:2 C#5:2 D#5:2 E5:2 F#5:2 G#5:2 F#5:2 E5:2 D#5:2 C#5:2" },
+    { "chord": "F#",   "notes": "A#4:2 C#5:2 A#4:2~ A#4:6~ A#4:6~ A#4:2~ A#4:2 B4:2" },
+    { "chord": "F",    "notes": "C5:2 C5:2~ C5:2~ C5:6~ C5:6~ C5:2~ C5:2 C5:2" },
+    { "chord": "Dm",   "notes": "A4:2 A4:2~ A4:2~ A4:6~ A4:2 R:4 R:6" },
+    { "chord": "Dm",   "notes": "R:24" },
+
+    { "chord": "Ddim", "notes": "R:2 F4:2 G4:2 Ab4:2 Bb4:2 Ab4:2 G4:2 F4:2 G4:2 Ab4:2 Bb4:2 Ab4:2" },
+    { "chord": "Em",   "notes": "B4:2 B4:2~ B4:2~ B4:6~ B4:2 R:4 R:6" },
+    { "chord": "Ddim", "notes": "R:2 F4:2 G4:2 Ab4:2 Bb4:2 C5:2 D5:2 C5:2 Bb4:2 Ab4:2 Bb4:2 Ab4:2" },
+    { "chord": "Em",   "notes": "B4:2 B4:2~ B4:2~ B4:6~ B4:6~ B4:2~ B4:2 B4:2" },
+    { "chord": "A",    "notes": "A4:12~ A4:12" },
+    { "chord": "C",    "notes": "E5:12~ E5:2 R:4 R:6" },
+
+    { "chord": "Gm",   "notes": "D5:2 E5:2~ E5:2~ E5:6 [F/G]C5:2 D5:2 C5:2 D5:2 C5:2 D5:2" },
+    { "chord": "Gm",   "notes": "Bb4:2 C5:2~ C5:2~ C5:6 [F/G]A4:2 Bb4:2 A4:2 Bb4:2 A4:2 Bb4:2" },
+    { "chord": "Em",   "notes": "G4:2 B4:2~ B4:2~ B4:6~ B4:2 R:4 R:6" },
+    { "chord": "Em",   "notes": "R:24" }
+  ]
+}
