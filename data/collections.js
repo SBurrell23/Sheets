@@ -2496,6 +2496,16 @@ window.PS_MANIFEST = [
     "order": 99,
     "songs": [
      {
+      "slug": "twelve-days-of-christmas",
+      "title": "12 Days of Christmas",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 110,
+      "bars": 15,
+      "source": "Traditional English cumulative carol, words first printed in Mirth without Mischief, c.1780; tune as fixed by Frederic Austin, 1909",
+      "pdf": "songs/christmas/twelve-days-of-christmas.pdf"
+     },
+     {
       "slug": "angels-we-have-heard-on-high",
       "title": "Angels We Have Heard on High",
       "key": "C",
@@ -2754,16 +2764,6 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "Traditional English carol; melody from Cecil Sharp's English Folk-Carols, 1911, as sung by Mary Clayton at Chipping Campden",
       "pdf": "songs/christmas/the-holly-and-the-ivy.pdf"
-     },
-     {
-      "slug": "twelve-days-of-christmas",
-      "title": "The Twelve Days of Christmas",
-      "key": "C",
-      "meter": "4/4",
-      "tempo": 116,
-      "bars": 6,
-      "source": "Traditional English cumulative carol, words first printed 1780; the familiar tune from Frederic Austin's setting, 1909",
-      "pdf": "songs/christmas/twelve-days-of-christmas.pdf"
      },
      {
       "slug": "up-on-the-housetop",

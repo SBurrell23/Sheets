@@ -66,9 +66,10 @@ h1 .mark{font-family:Georgia,"Times New Roman",serif;
   margin-left:.08em; margin-right:.22em; letter-spacing:0;
   line-height:0}
 .masthead .btn{flex:0 0 auto}
-/* Favourites rides in the masthead as a small card rather than a full button:
-   same icon-and-count shape as a category card, shrunk to the header's scale,
-   so it reads as "one more category" without costing a whole row. */
+/* Favourites sits in the Categories modal header: the same icon-and-count
+   shape as a category card, shrunk to header scale, so it reads as a
+   shortcut to one more category without taking a whole card slot. */
+.modal-head .favcard{margin-left:auto}
 .favcard{flex:0 0 auto; display:inline-flex; align-items:center; gap:9px;
   background:var(--btn); border:1px solid var(--line); border-radius:var(--radius);
   padding:7px 12px 7px 9px; cursor:pointer; color:var(--ink);
@@ -147,11 +148,17 @@ select:hover{border-color:var(--accent)}
 .songbars{flex:0 0 auto; font-family:"IBM Plex Mono",ui-monospace,monospace;
   font-size:11.5px; color:var(--ink-3); letter-spacing:.03em; white-space:nowrap}
 .songcaret{flex:0 0 auto; width:16px; height:16px; color:var(--ink-3)}
+.songbtn[aria-expanded="true"]{border-bottom-left-radius:0; border-bottom-right-radius:0}
 .songbtn[aria-expanded="true"] .songcaret{transform:rotate(180deg)}
 
-.songpop{position:absolute; z-index:40; top:calc(100% + 6px); left:0; right:0;
+/* Same trap as .songrow below: an author `display` beats the UA sheet's
+   [hidden]{display:none}, so without this the popup never closes. */
+.songpop[hidden]{display:none}
+/* Hung off the button's own bottom edge, pulled up by its border width so the
+   two borders sit on each other rather than stacking into a double line. */
+.songpop{position:absolute; z-index:40; top:calc(100% - 1px); left:0; right:0;
   background:var(--paper); border:1px solid var(--line);
-  border-radius:var(--radius); box-shadow:0 10px 30px rgba(0,0,0,.18);
+  border-radius:0 0 var(--radius) var(--radius); box-shadow:0 10px 30px rgba(0,0,0,.18);
   overflow:hidden; display:flex; flex-direction:column; max-height:min(62vh,460px)}
 .songfilter{flex:0 0 auto; margin:8px; padding:9px 11px; font:400 14px/1.3 inherit;
   color:var(--ink); background:var(--bg); border:1px solid var(--line);

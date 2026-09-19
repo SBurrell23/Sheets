@@ -54,7 +54,7 @@ Two carols need a word each:
 
 - **The Twelve Days of Christmas** grows a line per verse. Write ONE pass: the opening formula,
   one numbered gift, and the run back down to "a partridge in a pear tree". Do not write twelve
-  verses; do not write the twelfth verse alone.
+  verses. **The Twelve Days of Christmas is the exception and is now written out as the full twelfth verse**, because one pass omits the five-gold-rings strain entirely, which is the part of the carol everyone waits for.
 - **The Wassail Song, We Wish You a Merry Christmas** and others repeat a phrase within a single
   verse. That is the tune, not a repeat mark — write it out.
 

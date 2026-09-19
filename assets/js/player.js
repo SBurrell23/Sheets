@@ -45,6 +45,9 @@
 
   var dirlist = $("dirlist");
   COLLECTIONS.forEach(function (c) {
+    // Favorites has its own card in the modal header; a second one in the grid
+    // is the same shortcut twice in one small dialog.
+    if (c.id === PS.FAV_ID) return;
     var n = c.sets.reduce(function (a, s) { return a + s.songs.length; }, 0);
     var b = document.createElement("button");
     b.className = "dircard"; b.type = "button";
@@ -142,6 +145,10 @@
   /* The masthead favourites card shows the same number as its category card,
      so it repaints from the same place. */
   function paintFavCard() {
+    // This used to happen while repainting the Favorites grid card, which no
+    // longer exists -- the synthetic collection still needs rebuilding so its
+    // count and its song list stay true.
+    PS.refreshFavorites();
     var n = PS.favCount();
     $("favcount").textContent = n + (n === 1 ? " song" : " songs");
     $("favcard").setAttribute("aria-current",
@@ -885,6 +892,7 @@
   function closeDir() { $("dirmodal").hidden = true; $("browse").focus(); }
   $("favcard").addEventListener("click", function () {
     selectCollection(PS.FAV_ID);
+    closeDir();                 // it lives in the modal now, so dismiss it too
   });
   $("browse").addEventListener("click", openDir);
   $("dirclose").addEventListener("click", closeDir);
