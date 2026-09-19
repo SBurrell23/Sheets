@@ -203,6 +203,12 @@ select:hover{border-color:var(--accent)}
 .row{display:flex; align-items:center; gap:9px; flex-wrap:wrap}
 .play{min-width:104px; display:inline-flex; align-items:center; justify-content:center;
   gap:8px; background:var(--accent); border-color:var(--accent); color:var(--accent-on)}
+/* The extra right padding is deliberate: the glyph sits left of the word, so the
+   button's ink is left-heavy and equal padding reads as a tight right edge.
+   `.btn.play` and not `.play`, because the pointer:coarse block further down
+   re-sets `.btn`'s padding shorthand -- at equal specificity that later rule
+   would win, and this would quietly do nothing on the touch screens it is for. */
+.btn.play{padding-right:19px}
 .play:hover{color:var(--accent-on); filter:brightness(1.08)}
 .play:disabled{filter:none}
 .play .glyph{font-size:11px; line-height:1}
@@ -422,6 +428,12 @@ a.dl .arrow{color:var(--accent); font-weight:600}
      the bezel read as a rendering fault rather than a decision, and nothing in
      that row competes with the notation for width. */
   .masthead{padding-inline:13px}
+  /* The song picker gets the same gutter. It is the one row between the
+     masthead and the transport with no padding of its own -- the transport is a
+     card whose own 13px padding already holds its controls off the edge -- so
+     without this the caret and the shuffle button sit against the bezel while
+     everything above and below them lines up 13px in. */
+  .picker{padding-inline:13px}
   .sheet{padding-left:3px; padding-right:3px}
   /* The star sits absolutely in the corner, so it has to come in with them. */
   .favmark{left:2px}
