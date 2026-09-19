@@ -164,31 +164,181 @@
     return "\u2669";                                        // quarter
   }
 
+  /* ---------- the song picker ----------
+     This was a native <select>. It stopped being one because a <select> can do
+     neither of the two things wanted here: filter as you type (its own
+     type-ahead only jumps to a prefix, and only within the last second or so),
+     and right-align part of an option's text (an <option> renders as a single
+     run of text, so the only way to push the bar count over is padding it with
+     spaces and hoping the font is monospaced).
+
+     So: a button, and a popup listbox of rows that are flex containers, which
+     is what puts the bar count hard against the right edge. The hidden
+     <select> is kept in the DOM and kept in sync, because it is a real form
+     control for anything that goes looking for one.
+
+     The filter only appears once a list is long enough to want one. Showing it
+     always would pop the keyboard on a phone every time you open a list of
+     sixteen carols, which is a worse trade than scrolling them. */
+  var FILTER_FROM = 32;          // All Songs, and the larger collections
+  var rows = [];                 // [{ i, title, bars, el }] in display order
+  var openIdx = -1;              // highlighted row while the popup is open
+
+  function songRow(sg, n) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "songrow";
+    b.setAttribute("role", "option");
+    b.dataset.i = String(n);
+    var t = document.createElement("span");
+    t.className = "t";
+    t.textContent = sg.title;
+    var bars = document.createElement("span");
+    bars.className = "b";
+    bars.textContent = sg.bars + " bars";
+    b.appendChild(t);
+    b.appendChild(bars);
+    return b;
+  }
+
   function buildSongList() {
-    var sel = $("songsel");
+    var list = $("songlist"), sel = $("songsel");
+    list.innerHTML = "";
     sel.innerHTML = "";
+    rows = [];
     var multi = coll.sets.length > 1;
     var n = 0;
     coll.sets.forEach(function (s) {
-      var parent = sel;
       if (multi) {
-        parent = document.createElement("optgroup");
-        // A set can give itself a display title; otherwise the folder name stands
-        // in, which is what the AI Music sets (v1 … v6) want.
-        parent.label = (s.title || s.id) + "  —  " + (s.label || "");
-        sel.appendChild(parent);
+        var h = document.createElement("div");
+        h.className = "songgroup";
+        h.textContent = (s.title || s.id);
+        list.appendChild(h);
       }
       s.songs.forEach(function (sg) {
+        var el = songRow(sg, n);
+        list.appendChild(el);
+        rows.push({ i: n, title: (sg.title || "").toLowerCase(), el: el, head: multi });
         var o = document.createElement("option");
-        o.value = String(n++);
-        o.textContent = sg.title + "   ·   " + sg.key + "  ·  " + sg.meter +
-                        "  ·  " + sg.bars + " bars  ·  " + beatMark(sg.meter) +
-                        " " + sg.tempo;
-        parent.appendChild(o);
+        o.value = String(n);
+        o.textContent = sg.title + "  ·  " + sg.bars + " bars";
+        sel.appendChild(o);
+        n++;
       });
     });
-    sel.addEventListener("change", function () {
-      remember();                      // picking by hand is a step you can go back from
+    $("songfilter").hidden = n < FILTER_FROM;
+  }
+
+  /* Keep the button, the hidden select and the checkmark in step with `idx`. */
+  function paintPicker() {
+    $("songname").textContent = song ? song.title : "";
+    $("songbars").textContent = song ? song.bars + " bars" : "";
+    $("songsel").value = String(idx);
+    rows.forEach(function (r) {
+      if (r.i === idx) r.el.setAttribute("aria-selected", "true");
+      else r.el.removeAttribute("aria-selected");
+    });
+  }
+
+  function visibleRows() {
+    return rows.filter(function (r) { return !r.el.hidden; });
+  }
+
+  function highlight(k) {
+    var vis = visibleRows();
+    if (!vis.length) return;
+    k = Math.max(0, Math.min(k, vis.length - 1));
+    // Clear every row, not just the visible ones: a row hidden by the filter
+    // keeps whatever class it had, and shows a phantom highlight when the
+    // filter is cleared and it comes back.
+    rows.forEach(function (r) { r.el.classList.remove("on"); });
+    vis[k].el.classList.add("on");
+    openIdx = k;
+    vis[k].el.scrollIntoView({ block: "nearest" });
+  }
+
+  function applyFilter() {
+    var q = $("songfilter").value.trim().toLowerCase();
+    var hits = 0;
+    rows.forEach(function (r) {
+      var ok = !q || r.title.indexOf(q) !== -1;
+      r.el.hidden = !ok;
+      if (ok) hits++;
+    });
+    // A group heading is only meaningful if something under it survived.
+    [].forEach.call($("songlist").querySelectorAll(".songgroup"), function (h) {
+      var any = false, el = h.nextElementSibling;
+      while (el && !el.classList.contains("songgroup")) {
+        if (!el.hidden) { any = true; break; }
+        el = el.nextElementSibling;
+      }
+      h.hidden = !any;
+    });
+    $("songnone").hidden = hits > 0;
+    highlight(0);
+  }
+
+  function openPicker() {
+    if (!$("songpop").hidden) return;
+    $("songpop").hidden = false;
+    $("songbtn").setAttribute("aria-expanded", "true");
+    $("songfilter").value = "";
+    applyFilter();
+    // Start on the current song rather than the top of a 300-song list.
+    var vis = visibleRows();
+    for (var k = 0; k < vis.length; k++) {
+      if (vis[k].i === idx) { highlight(k); break; }
+    }
+    if (!$("songfilter").hidden) $("songfilter").focus();
+  }
+
+  function closePicker(refocus) {
+    if ($("songpop").hidden) return;
+    $("songpop").hidden = true;
+    $("songbtn").setAttribute("aria-expanded", "false");
+    if (refocus) $("songbtn").focus();
+  }
+
+  function pick(i) {
+    closePicker(true);
+    if (i === idx) return;
+    remember();            // picking by hand is a step you can go back from
+    select(i);
+  }
+
+  function wirePicker() {
+    $("songbtn").addEventListener("click", function () {
+      if ($("songpop").hidden) openPicker(); else closePicker(true);
+    });
+    $("songlist").addEventListener("click", function (e) {
+      var r = e.target.closest(".songrow");
+      if (r) pick(+r.dataset.i);
+    });
+    $("songfilter").addEventListener("input", applyFilter);
+    $("songbox").addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { closePicker(true); return; }
+      if ($("songpop").hidden) {
+        if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+          e.preventDefault(); openPicker();
+        }
+        return;
+      }
+      if (e.key === "ArrowDown") { e.preventDefault(); highlight(openIdx + 1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); highlight(openIdx - 1); }
+      else if (e.key === "Home") { e.preventDefault(); highlight(0); }
+      else if (e.key === "End") { e.preventDefault(); highlight(visibleRows().length - 1); }
+      else if (e.key === "Enter") {
+        e.preventDefault();
+        var vis = visibleRows();
+        if (vis[openIdx]) pick(vis[openIdx].i);
+      }
+    });
+    document.addEventListener("pointerdown", function (e) {
+      if (!$("songbox").contains(e.target)) closePicker(false);
+    });
+    // The hidden select is a real control; if anything drives it, follow.
+    $("songsel").addEventListener("change", function () {
+      remember();
       select(+this.value);
     });
   }
@@ -202,7 +352,6 @@
     totalBars = song.bars;
     targetBpm = userTempo || song.tempo;
     transpose = 0; keySemis = 0; octaveShift = 0;
-    $("songsel").value = String(i);
     $("where").textContent = (idx + 1) + " / " + flat.length +
       (coll.sets.length > 1 ? "  ·  " + (set.title || set.id) : "");
     paintCount();
@@ -217,6 +366,7 @@
     $("pdf").href = song.pdf;
     $("pdf").setAttribute("download", song.slug + ".pdf");
     $("credit").textContent = creditOf(song.abc);
+    paintPicker();
     paintFav();
     buildKeys();
     paintOctave();
@@ -665,6 +815,9 @@
     paintShuffle();
   });
 
+  // Once, not per collection: buildSongList() runs on every switch, and the
+  // old code re-added its change listener each time it did.
+  wirePicker();
   $("prev").addEventListener("click", goPrev);
   $("next").addEventListener("click", goNext);
   $("play").addEventListener("click", function () {

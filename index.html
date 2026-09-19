@@ -29,7 +29,29 @@
 
   <div class="picker">
     <button class="btn nav" id="prev" type="button" aria-label="Previous song">&#8249;</button>
-    <select id="songsel" aria-label="Choose a song"></select>
+    <!-- A native <select> cannot filter as you type and cannot right-align part
+         of an option's text, so the picker is a combobox: a button that opens a
+         listbox, with a filter field that appears once a list is long enough to
+         need one. #songsel stays in the DOM, hidden, as the accessible source of
+         truth and so anything that still reaches for it keeps working. -->
+    <div class="songbox" id="songbox">
+      <button class="songbtn" id="songbtn" type="button" aria-haspopup="listbox"
+              aria-expanded="false" aria-label="Choose a song">
+        <span class="songname" id="songname">Loading&hellip;</span>
+        <span class="songbars" id="songbars"></span>
+        <svg class="songcaret" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 9.5l6 6 6-6"/>
+        </svg>
+      </button>
+      <div class="songpop" id="songpop" hidden>
+        <input class="songfilter" id="songfilter" type="search" autocomplete="off"
+               spellcheck="false" placeholder="Type to search…" aria-label="Search songs">
+        <div class="songlist" id="songlist" role="listbox" aria-label="Songs"></div>
+        <p class="songnone" id="songnone" hidden>No songs match.</p>
+      </div>
+    </div>
+    <select id="songsel" aria-label="Choose a song" hidden></select>
     <button class="btn nav" id="next" type="button" aria-label="Next song">&#8250;</button>
     <button class="btn nav shuffle" id="shuffle" type="button" aria-pressed="false"
             aria-label="Shuffle: the next button picks a random song" title="Shuffle">
