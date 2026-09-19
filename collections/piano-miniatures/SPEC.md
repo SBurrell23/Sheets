@@ -194,6 +194,20 @@ it on the first note inside instead: `(3 [F]G4:2 F4:2 D4:2)`.
 
 Use either **only where the music actually has one**.
 
+**A sixteenth is the shortest note there is**, and this repertoire writes shorter ones.
+Thirty-seconds turn up as three different things and they are not handled the same way:
+
+- **An ornament** — a four-note turn or a mordent on a beat. Drop it and write the principal
+  note, exactly as for a grace note below. Say which bars.
+- **A connective run** — a scale of 32nds linking two phrases, which is melodic content
+  rather than decoration. **Realise it as sixteenths, stealing the time from the held note
+  it grows out of.** Pitches and order stay exact; the note it steals from gets shorter.
+  Report it: you are writing a rhythm the composer did not print.
+- **A run too long to fit** — sixteen 32nds where only eight sixteenths of time exist.
+  Something must go. Keep the first note, the shape and the last note, drop from the middle,
+  and **say exactly which notes you dropped**. If this happens more than once or twice in a
+  piece, that is a sign the piece belongs under §0 rather than in the collection.
+
 **There is no grace note.** The language has no token for an appoggiatura, acciaccatura,
 turn or trill, and this is a real limitation rather than an oversight you should work
 around silently. The rule:
@@ -211,7 +225,9 @@ around silently. The rule:
 
 **A bar may be entirely a rest.** `R:16` is a legal bar where the melody genuinely drops
 out and the accompaniment carries the music alone. Prefer a struck note, but never invent
-one to avoid an honest silence.
+one to avoid an honest silence. **A rest takes a duration from the same table as a note**,
+so `R:14` is rejected exactly as `C5:14` would be; write `R:12 R:2`. A full bar of rest in
+9/8 is `R:6 R:6 R:6`, not one token.
 
 ## 4. Hard rules — the validator rejects these
 
@@ -270,8 +286,11 @@ name the chord it makes. Do not invent a progression.
   what the score actually has. Do not silently flatten a striking chord into a plain triad —
   a reported compromise is useful, an unreported one is a wrong note.
 - Secondary dominants are ordinary here; print them when the bass spells them.
-- A cadential 6-4 is part of its dominant: write `G7`, not `C/G`. **The same goes for a
-  neighbouring 6-4** — a one-beat chord over a stationary bass, where the upper parts step
+- A cadential 6-4 is part of its dominant: write `G7`, not `C/G` — **but only where it
+  resolves inside its own bar.** Where a 6-4 is held over a pedal for a whole bar or more
+  and the melody sits entirely on its notes, folding it into the dominant prints a chord
+  that none of the tune belongs to. Then write the sounding triad. Tchaikovsky's Troika
+  does this for four bars at a stretch. **The same goes for a neighbouring 6-4** — a one-beat chord over a stationary bass, where the upper parts step
   away and back (bass A throughout, `A–C–E` to `A–D–F` and back). That is an ornament of
   the chord it sits inside, not a change of harmony: write the underlying chord and let it
   ride. Do not print `Dm` over a bar the ear hears as `Am`.
@@ -340,10 +359,29 @@ phrases come from.
    - `*.harmony.tsv` — an **expert Roman-numeral analysis**: `localkey`, `numeral`,
      `form`, `figbass`, `relativeroot`, `cadence`, `pedal`. This is a musicologist's
      reading of the harmony, so you are translating a labelled chord into a chord symbol
-     rather than guessing one from the left hand. **The `root`, `bass_note` and
-     `chord_tones` columns are line-of-fifths numbers relative to the LOCAL key, not
-     the global one.** Read `localkey` first and interpret them against it; taken as
-     global they produce plausible-looking nonsense the moment a piece modulates. Where it disagrees with what you hear,
+     rather than guessing one from the left hand.
+
+     Two traps in the **derived numeric columns**, both of which produce plausible-looking
+     wrong chords rather than an error:
+
+     1. **`root`, `bass_note` and `chord_tones` are line-of-fifths numbers relative to the
+        LOCAL key, not the global one.** Read `localkey` first. Taken as global they go
+        wrong the moment a piece modulates.
+     2. **Inside a pedal whose own root is relative** — a label like `I/bVII[` or `i/vi[` —
+        the enclosed chords inherit the relative root but the numeric columns are computed
+        **without** it, so they come out a third or a whole tone off. Plain pedals (`I[`,
+        `V[`) are fine.
+
+     **Read every TSV by column header, never by position.** The corpora do not share a
+     column set -- Tchaikovsky's November harmony file carries an `alt_label` that April's
+     does not -- so an index that works for one piece silently returns `globalkey` where
+     you wanted `localkey` in another.
+
+     The `label` and `numeral` text is the musicologist's actual reading and is reliable;
+     the numbers derived from it are not. A cheap way to catch both at once: compare the
+     analysis's `bass_note` against the lowest sounding pitch in the notes file for every
+     label, and look at every mismatch. Inside a pedal the sounding bass is the pedal note,
+     so use DCML's inversion as a slash bass outside a pedal and drop it inside one. Where it disagrees with what you hear,
      it is usually right — but say so in your report either way.
    - `*.measures.tsv` — bar lengths, repeats and voltas, which settles §1a for you.
      (The three files are named `dcml-<corpus>-<piece>.notes.tsv`, `.harmony.tsv` and

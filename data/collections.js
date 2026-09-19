@@ -2482,7 +2482,7 @@ window.PS_MANIFEST = [
  {
   "id": "piano-miniatures",
   "title": "Piano Miniatures",
-  "blurb": "Short character pieces by Grieg, Schumann, Mendelssohn and Tchaikovsky. Complete, not excerpts.",
+  "blurb": "Lesser-known short pieces for piano by Grieg, Schumann, Tchaikovsky, Chopin and others. Complete pieces, not excerpts.",
   "order": 7,
   "sets": [
    {
@@ -2492,6 +2492,36 @@ window.PS_MANIFEST = [
     "order": 99,
     "songs": [
      {
+      "slug": "album-leaf",
+      "title": "Album Leaf",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 100,
+      "bars": 57,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 7, 1867",
+      "pdf": "songs/piano-miniatures/album-leaf.pdf"
+     },
+     {
+      "slug": "important-event",
+      "title": "An Important Event",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 69,
+      "bars": 25,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 6, 1838",
+      "pdf": "songs/piano-miniatures/important-event.pdf"
+     },
+     {
+      "slug": "april-snowdrop",
+      "title": "April: Snowdrop",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 63,
+      "bars": 79,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 4, 1876",
+      "pdf": "songs/piano-miniatures/april-snowdrop.pdf"
+     },
+     {
       "slug": "arietta",
       "title": "Arietta",
       "key": "C",
@@ -2500,6 +2530,36 @@ window.PS_MANIFEST = [
       "bars": 23,
       "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 1, 1867",
       "pdf": "songs/piano-miniatures/arietta.pdf"
+     },
+     {
+      "slug": "child-falling-asleep",
+      "title": "Child Falling Asleep",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 63,
+      "bars": 32,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 12, 1838",
+      "pdf": "songs/piano-miniatures/child-falling-asleep.pdf"
+     },
+     {
+      "slug": "curious-story",
+      "title": "Curious Story",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 132,
+      "bars": 41,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 2, 1838",
+      "pdf": "songs/piano-miniatures/curious-story.pdf"
+     },
+     {
+      "slug": "elegie",
+      "title": "Elegie",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 80,
+      "bars": 47,
+      "source": "Edvard Grieg, Lyric Pieces Op. 38 No. 6, 1883",
+      "pdf": "songs/piano-miniatures/elegie.pdf"
      },
      {
       "slug": "gnossienne-no-1",
@@ -2512,6 +2572,216 @@ window.PS_MANIFEST = [
       "pdf": "songs/piano-miniatures/gnossienne-no-1.pdf"
      },
      {
+      "slug": "gnossienne-no-2",
+      "title": "Gnossienne No. 2",
+      "key": "Am",
+      "meter": "12/8",
+      "tempo": 60,
+      "bars": 32,
+      "source": "Erik Satie, Gnossiennes No. 2, 1890",
+      "pdf": "songs/piano-miniatures/gnossienne-no-2.pdf"
+     },
+     {
+      "slug": "gnossienne-no-3",
+      "title": "Gnossienne No. 3",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 54,
+      "source": "Erik Satie, Gnossiennes No. 3, 1890",
+      "pdf": "songs/piano-miniatures/gnossienne-no-3.pdf"
+     },
+     {
+      "slug": "january-by-the-fireside",
+      "title": "January: At the Fireside",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 69,
+      "bars": 103,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 1, 1876",
+      "pdf": "songs/piano-miniatures/january-by-the-fireside.pdf"
+     },
+     {
+      "slug": "knight-of-the-hobbyhorse",
+      "title": "Knight of the Hobbyhorse",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 120,
+      "bars": 24,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 9, 1838",
+      "pdf": "songs/piano-miniatures/knight-of-the-hobbyhorse.pdf"
+     },
+     {
+      "slug": "march-song-of-the-lark",
+      "title": "March: Song of the Lark",
+      "key": "Am",
+      "meter": "2/4",
+      "tempo": 40,
+      "bars": 46,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 3, 1876",
+      "pdf": "songs/piano-miniatures/march-song-of-the-lark.pdf"
+     },
+     {
+      "slug": "may-starlight-nights",
+      "title": "May: Starlight Nights",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 54,
+      "bars": 72,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 5, 1876",
+      "pdf": "songs/piano-miniatures/may-starlight-nights.pdf"
+     },
+     {
+      "slug": "mazurka-op24-no3",
+      "title": "Mazurka in A-flat",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 126,
+      "bars": 44,
+      "source": "Frédéric Chopin, Mazurkas Op. 24 No. 3, 1835",
+      "pdf": "songs/piano-miniatures/mazurka-op24-no3.pdf"
+     },
+     {
+      "slug": "mazurka-op07-no5",
+      "title": "Mazurka in C",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 168,
+      "bars": 20,
+      "source": "Frédéric Chopin, Mazurkas Op. 7 No. 5, 1832",
+      "pdf": "songs/piano-miniatures/mazurka-op07-no5.pdf"
+     },
+     {
+      "slug": "mazurka-op06-no4",
+      "title": "Mazurka in E-flat minor",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 176,
+      "bars": 25,
+      "source": "Frédéric Chopin, Mazurkas Op. 6 No. 4, 1832",
+      "pdf": "songs/piano-miniatures/mazurka-op06-no4.pdf"
+     },
+     {
+      "slug": "mazurka-op68-no4",
+      "title": "Mazurka in F minor",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 96,
+      "bars": 62,
+      "source": "Frédéric Chopin, Mazurkas Op. 68 No. 4, 1849",
+      "pdf": "songs/piano-miniatures/mazurka-op68-no4.pdf"
+     },
+     {
+      "slug": "norwegian-melody",
+      "title": "Norwegian Melody",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 152,
+      "bars": 56,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 6, 1867",
+      "pdf": "songs/piano-miniatures/norwegian-melody.pdf"
+     },
+     {
+      "slug": "november-troika",
+      "title": "November: Troika",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 75,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 11, 1876",
+      "pdf": "songs/piano-miniatures/november-troika.pdf"
+     },
+     {
+      "slug": "october-autumn-song",
+      "title": "October: Autumn Song",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 48,
+      "bars": 56,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 10, 1876",
+      "pdf": "songs/piano-miniatures/october-autumn-song.pdf"
+     },
+     {
+      "slug": "perfectly-contented",
+      "title": "Perfectly Contented",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 66,
+      "bars": 17,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 5, 1838",
+      "pdf": "songs/piano-miniatures/perfectly-contented.pdf"
+     },
+     {
+      "slug": "pleading-child",
+      "title": "Pleading Child",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 76,
+      "bars": 17,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 4, 1838",
+      "pdf": "songs/piano-miniatures/pleading-child.pdf"
+     },
+     {
+      "slug": "silhouette-no-1",
+      "title": "Silhouette No. 1 (Allegro feroce)",
+      "key": "Am",
+      "meter": "6/8",
+      "tempo": 92,
+      "bars": 53,
+      "source": "Antonín Dvořák, Silhouettes Op. 8 No. 1, 1879",
+      "pdf": "songs/piano-miniatures/silhouette-no-1.pdf"
+     },
+     {
+      "slug": "silhouette-no-10",
+      "title": "Silhouette No. 10 (Allegretto grazioso)",
+      "key": "C",
+      "meter": "6/8",
+      "tempo": 63,
+      "bars": 58,
+      "source": "Antonín Dvořák, Silhouettes Op. 8 No. 10, 1879",
+      "pdf": "songs/piano-miniatures/silhouette-no-10.pdf"
+     },
+     {
+      "slug": "silhouette-no-11",
+      "title": "Silhouette No. 11 (Allegro moderato)",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 126,
+      "bars": 44,
+      "source": "Antonín Dvořák, Silhouettes Op. 8 No. 11, 1879",
+      "pdf": "songs/piano-miniatures/silhouette-no-11.pdf"
+     },
+     {
+      "slug": "silhouette-no-2",
+      "title": "Silhouette No. 2 (Andantino)",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 69,
+      "bars": 16,
+      "source": "Antonín Dvořák, Silhouettes Op. 8 No. 2, 1879",
+      "pdf": "songs/piano-miniatures/silhouette-no-2.pdf"
+     },
+     {
+      "slug": "solitary-traveller",
+      "title": "Solitary Traveller",
+      "key": "Am",
+      "meter": "6/8",
+      "tempo": 39,
+      "bars": 31,
+      "source": "Edvard Grieg, Lyric Pieces Op. 43 No. 2, 1886",
+      "pdf": "songs/piano-miniatures/solitary-traveller.pdf"
+     },
+     {
+      "slug": "der-dichter-spricht",
+      "title": "The Poet Speaks",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 56,
+      "bars": 29,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 13, 1838",
+      "pdf": "songs/piano-miniatures/der-dichter-spricht.pdf"
+     },
+     {
       "slug": "wilder-reiter",
       "title": "The Wild Horseman",
       "key": "Am",
@@ -2520,6 +2790,26 @@ window.PS_MANIFEST = [
       "bars": 25,
       "source": "Robert Schumann, Album für die Jugend Op. 68 No. 8, 1848",
       "pdf": "songs/piano-miniatures/wilder-reiter.pdf"
+     },
+     {
+      "slug": "von-fremden-landern",
+      "title": "Von fremden Ländern und Menschen",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 72,
+      "bars": 22,
+      "source": "Robert Schumann, Kinderszenen Op. 15 No. 1, 1838",
+      "pdf": "songs/piano-miniatures/von-fremden-landern.pdf"
+     },
+     {
+      "slug": "grieg-waltz",
+      "title": "Waltz",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 144,
+      "bars": 61,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 2, 1867",
+      "pdf": "songs/piano-miniatures/grieg-waltz.pdf"
      },
      {
       "slug": "watchmans-song",
