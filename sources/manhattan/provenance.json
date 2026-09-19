@@ -1,0 +1,74 @@
+[
+ {
+  "name": "Broadway.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/Scotland/Broadway.abc",
+  "kind": "other",
+  "bytes": 2000,
+  "sha256": "8727ab3fb5097865d3311c9e08766b1fa4e08dcdacf0cda35e4406fa423005a8",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "Manhattan.mid",
+  "url": "https://www.sheetmusicsinger.com/wp-content/uploads/2022/07/Manhattan.mid",
+  "kind": "other",
+  "bytes": 32374,
+  "sha256": "648cc43418058e9ca8bfa4c4de5a931bd2bbbc8ac60068329c390a873b9c5e2e",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "Manhattan.pdf",
+  "url": "https://www.sheetmusicsinger.com/wp-content/uploads/2022/07/Manhattan.pdf",
+  "kind": "other",
+  "bytes": 8269581,
+  "sha256": "06a6183bb5b223e79b271c9cd35756e6086fd44598b886b8bebf06a9ae063ce7",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-11715-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F11715.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 234,
+  "sha256": "82e836a9fbc17d770b8cc77af64268504bc2e176330522549a3f05aecd2b9627",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-ireland-air-0167.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/Ireland/air.abc",
+  "kind": "abc",
+  "bytes": 91224,
+  "sha256": "b68ab1b44264737cf9bbe6828d2e87705764bfde5a165e0568e78b522c099846",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-scotland-manhattan-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/Scotland/Manhattan.abc",
+  "kind": "abc",
+  "bytes": 1976,
+  "sha256": "c490a09133ec5eeca0da5efdd2e12f377667533f116beffd316c89d4e23280a0",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-book-ryan-cole-ryan-cole-0596.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fbook%2Fryan-cole%2FRyan-Cole%2F0596",
+  "kind": "abc",
+  "bytes": 404,
+  "sha256": "caf12ee3fa8f3a76aaf0de33fbd77985bc4200dab085eda4885bb048a96e9565",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-manhattan-hornpipe-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FManhattan_Hornpipe.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 424,
+  "sha256": "8710c3c0a72fe48b21e9b47863b22786189988e5d1bbd7fc9b89a368925f6837",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "thesession-11715.json",
+  "url": "https://thesession.org/tunes/11715?format=json",
+  "kind": "abc",
+  "bytes": 3719,
+  "sha256": "21206c76d21ebccd5ec818156f751cf39cfcbb8e26151f18d948ed2d15f9430e",
+  "fetched": "2026-09-19"
+ }
+]

@@ -1,0 +1,81 @@
+{
+    "format": "json",
+    "id": 11715,
+    "name": "Manhattan",
+    "url": "https://thesession.org/tunes/11715",
+    "member": {
+        "id": 4787,
+        "name": "lottiemaus",
+        "url": "https://thesession.org/members/4787"
+    },
+    "date": "2012-01-21 15:49:43",
+    "type": "reel",
+    "tunebooks": 7,
+    "recordings": 1,
+    "collections": 1,
+    "aliases": ["The Manhattan"],
+    "settings": [
+        {
+            "id": 11715,
+            "url": "https://thesession.org/tunes/11715#setting11715",
+            "key": "Cdorian",
+            "abc": "|:dc|B2 FB DBFB|GBFB DBFB|c=Bcd edc_B|Af=eg f_edc|! B2 FB DBFB|GBFB DBFB|Agfe dcBA|B2 d2 B2:|! |:f2|bfdf gfdf|bfdf gfdf|bagf edcB|ABcd c2 f2|! bfdf gfdf|=efga bgeg|f=efg f_edc|B2 d2 B2:|",
+            "member": {
+                "id": 4787,
+                "name": "lottiemaus",
+                "url": "https://thesession.org/members/4787"
+            },
+            "date": "2012-01-21 15:49:43"
+        }
+    ],
+    "comments": [
+        {
+            "id": 620630,
+            "url": "https://thesession.org/tunes/11715#comment620630",
+            "subject": "Manhattan Hornpipe",
+            "content": "I understand this to be a traditional hornpipe in the Cape Breton style (i.e. played like a reel).  I learned this from the playing of the Cape Breton Symphony on the recording in the Details for this tune and they certainly played it fast!  Alistair McCulloch has also recorded the tune on his most recent CD.",
+            "member": {
+                "id": 4787,
+                "name": "lottiemaus",
+                "url": "https://thesession.org/members/4787"
+            },
+            "date": "2012-01-21 15:55:46"
+        },
+        {
+            "id": 620685,
+            "url": "https://thesession.org/tunes/11715#comment620685",
+            "subject": "Key suggestion",
+            "content": "Dear Lottiemaus,    This tune is actually in Bb Major, rather than C Dorian. For a comparison, Greensleeves is what Dorian sounds like. I would encourage you to change the designation to Bb Major because it does affect certain types of searches. Thanks for posting this, though, it's quite a lively tune!    Best,  Tony",
+            "member": {
+                "id": 80629,
+                "name": "zhukant",
+                "url": "https://thesession.org/members/80629"
+            },
+            "date": "2012-01-21 22:39:37"
+        },
+        {
+            "id": 620686,
+            "url": "https://thesession.org/tunes/11715#comment620686",
+            "subject": "",
+            "content": "zhukant,    there is no option to submit a tune in Bb major, which is why lottiemaus has submitted it as Cdor because that mode has the same key signature. i'm pretty sure they know what the difference between what Cdor and Bb major sounds like",
+            "member": {
+                "id": 103806,
+                "name": "irishfiddleMA",
+                "url": "https://thesession.org/members/103806"
+            },
+            "date": "2012-01-22 00:10:01"
+        },
+        {
+            "id": 620703,
+            "url": "https://thesession.org/tunes/11715#comment620703",
+            "subject": "Bb Major",
+            "content": "Yes, I do agree that it's in Bb major and I probably should have mentioned that in the first comment above.  I've tried to get my head round this issue before now: see comments to the tune here - at the 2nd paragraph:    https:\/\/thesession.org\/tunes\/9626    Cheers.  Peter",
+            "member": {
+                "id": 4787,
+                "name": "lottiemaus",
+                "url": "https://thesession.org/members/4787"
+            },
+            "date": "2012-01-22 04:36:29"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+ {
+  "name": "S_wonderful.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/S_wonderful.abc",
+  "kind": "other",
+  "bytes": 786,
+  "sha256": "f419efd5095fcea15a856e040e5489aaebc1c2ea3106012ae2578f50f2b24a5e",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "imslp-919517-harms-1927.pdf",
+  "url": "http://www.petruccilibrary.us/files/imglnks/music_files/PMLUS05890-gershwin_s_wonderful.pdf",
+  "kind": "scan",
+  "bytes": 1335969,
+  "sha256": "4089e779deeec1c22e52d953e9cb10f0e8ec25ad1e60717ed5602913e170b6c0",
+  "fetched": "2026-09-19"
+ }
+]

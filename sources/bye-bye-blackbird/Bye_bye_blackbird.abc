@@ -1,0 +1,46 @@
+X:1
+T:Bye bye blackbird
+M:4/4
+L:1/4
+C:Ray Henderson
+Q:1/4=160
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "Gm7"x2 "C7"x2 |
+"F6"x2 x2 | "Abdim7"x2 x2 | "Gm7"x2 "C7"x2 | x2 "(D7)"x2 ||
+V:melody
+AAAA | BAA2 | AGG2 | GFF2 |
+w:Pack up all my care and woe, here I go sing-ing low,
+F4 | G4 | F2E2- | E4 ||
+w:bye bye Black-bird. *
+P:A
+V:chords
+"Gm7"x2 x2 | x2 x2 | x2 x2 | x2 x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "F6"x2 x2 | x2 x2 ||
+V:melody
+BBBB | cBB2 | BAA2 | AGG2 |
+w:Where some-bod-y waits for me, sug-ar's sweet so is she,
+G4 | A4 | G2F2- | F4 ||
+w:bye bye Black-bird. *
+P:B
+V:chords
+"Cm7"x2 x2 | x2 x2 | "Am7b5"x2 x2 | "D7"x2 x2 |
+"Gm7"x2 x2 | x2 x2 | "( Db7 )" "Bbm7"x2 x2 | "C7"x2 x2 ||
+V:melody
+Fccc | cBAG | G4 | ^F4 |
+w:No one here can love and un-der-stand me,
+DBBB | BAGF | F4 | E4 ||
+w:oh, what hard luck sto-ries they all hand me.
+P:A
+V:chords
+"F6"x2 x2 | x2 x2 | "Gm7"x2 "C7"x2 | "Am7b5"x2 "D7"x2 |
+"Gm7"x2 x2 | "C7"x2 x2 | "F6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+AAAA | BAA2 | AGG2 | G^FF2 |
+w:Make my bed and light the light I'll ar-rive late to-night,
+G2B2- | B2E2 | F2z2 | z4 |]
+w:Black-bird * bye bye.

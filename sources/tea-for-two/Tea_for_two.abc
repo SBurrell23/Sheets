@@ -1,0 +1,35 @@
+X:1
+%% Copyright ...
+T:Tea for two
+M:4/4
+L:1/4
+C:Vincent Youmans & Irving Caesar
+S:Blosson Dearie - "Once upon a summer time", Frans Elsen
+Q:1/4=140
+K:Ab
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+"Bbm7"A>F"Eb7"G>F|"Bbm7"A>F"Eb7"G>E|"Abmaj7"G>E"Db7"F>E|"Cm7"G>E"(Cbdim7)""F7"F2|
+w:Pic-ture me up-on your knee with tea for two and two for tea,
+"Bbm7"A>F"Eb7"G>F|"Bbm7"A>F"Eb7"GE|"Abmaj7"c4|z4||
+w:me for you and you for me a-lone.
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+"Dm7"cc/=A/"G7"=BB/A/|"Dm7"cc/=A/"G7"=BB/G/|"Cmaj7"=BB/G/"F7"=AA/G/|"Em7"=BB/G/"(Ebdim7)""A7"=AA/A/|
+w:No-bo-dy near us to see us or hear us, no friends or re-la-tions on week-end va-ca-tions, we
+"Dm7"c=A/A/"G7"=BB/=A/|"Dm7"c=A/A/"G7"=BB|"Cmaj7"=E4|"F7"_E4||
+w:won't have it known, dear, that we own a te-le-phone, dear.
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+"Bbm7"A>F"Eb7"G>F|"Bbm7"A>F"Eb7"G>E|"Abmaj7"G>E"Db7"F>E|"Cm7"G>E"(Cbdim7)""F7"F>F|
+w:Day will break and you'll a-wake and I will bake a su-gar-cake for
+"Bbm7"A>F"Eb7"G>F|"Bbm7"A>F"Eb7"GE|"Cm7b5"e4|"F7"z4||
+w:you to take for all the boys to see.
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C
+"Bbm"f>f"Adim7"e>e|"Bbm"d>d"Adim7"c>c|"Adim7/Bb"e>ed"Bbm7"F/A/|"Gb7"_c>A B2|
+w:We will raise a fa-mi-ly, a boy for you and a girl for me,
+"Ab/C"A>F"Cbdim7"G>F|"Bbm7"A>F"Eb7"Gc|"Ab6"A4|"T.A."z4|]
+w:can't you see how hap-py we will be?

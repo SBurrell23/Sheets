@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1926 (Renewed) WB Music Corp.
+T:Someone to watch over me
+M:C|
+L:1/4
+C:Gershwin
+Q:1/4=90
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"C6"x2 "C7"x2 | "F6"x2 "Fdim7"x2 | "C/E"x2 "Ebdim7"x2 | "G/D"x2 "C#dim7"x2 |
+"Dm7"x2 x2 | "F#m7b5"x2 "G7"x2 | "Cmaj7"x2 x2 | "T.A."x2 x2 ||
+V:melody
+zC/D/ E/G/A/c/ | d/dc/ A2 | c/cB/ A2 | B/BA/ G2 |
+w:There's a some-bod-y I'm long-ing to see. I hope that he turns out to be
+zAGF | c2 C<D | (E4- | E2D2) ||
+w:some-one who'll watch o-ver me.**
+P:A
+V:chords
+"C6"x2 "C7"x2 | "F6"x2 "Fdim7"x2 | "C/E"x2 "Ebdim7"x2 | "G/D"x2 "C#dim7"x2 |
+"Dm7"x2 x2 | "F#m7b5"x2 "G7"x2 | "C6"x2 x2 | x2 x2 ||
+V:melody
+zC/D/ E/G/A/c/ | d/dc/ A2 | c/cB/ A2 | B/BA/ G2 |
+w:I'm a lit-tle lamb who's lost in the wood. I know I could al-way be good
+zAGF | c2 C<D | C4- | CDEG ||
+w:to one who'll watch o-ver me.* Al-though he
+P:B
+V:chords
+"Fmaj7"x2 x2 | x2 x2 | x2 x2 | "C6"x2 x2 |
+"F#m7b5"x2 "B7"x2 | "E7"x2 x2 | "A7"x2 x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+BcBc | dc2B | dc2B | dc2A |
+w:may not be the man some girls think of as hand-some. To
+cB2A | cB2^G | (E4- | E2D2) ||
+w:my heart he car-ries the key.**
+P:A
+V:chords
+"C6"x2 "C7"x2 | "F6"x2 "Fdim7"x2 | "C/E"x2 "Ebdim7"x2 | "G/D"x2 "C#dim7"x2 |
+"Dm7"x2 x2 | "F#m7b5"x2 "G7"x2 | "C6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+zC/D/ E/G/A/c/ | d/dc/ A2 | c/cB/ A2 | B/BA/ G2 |
+w:Won't you tell him please to put on some speed, fol-low my lead, oh, how I need
+zAGF | c2 C<D | C4- | Cz z2 |]
+w:some-one to watch o-ver me.*

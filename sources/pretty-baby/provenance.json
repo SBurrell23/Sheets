@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-spuds-thursdaycontra-com-tuneswaps-0-spuds-tuneswap-all-0606.abc",
+  "url": "http://spuds.thursdaycontra.com/TuneSwaps/0_SPUDS_TuneSwap_All.abc",
+  "kind": "abc",
+  "bytes": 479161,
+  "sha256": "ecb563a8ff7aef0358979d9800bdecedf50508c1037de0f61d2a5ac713b844b9",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-pretty-baby-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FPretty_Baby.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 346,
+  "sha256": "7cbb84de8793da106b1876d74329fff4925712022c8b48d587fe4f32931119cb",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "levy-154-072.pdf",
+  "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/levy-154-072.pdf",
+  "kind": "pdf",
+  "bytes": 5866321,
+  "sha256": "2958fcfe76433a7e50e2e0e192a0264f1d7e35d98dfcc85fc1f1780376bc7224",
+  "fetched": "2026-09-19"
+ }
+]

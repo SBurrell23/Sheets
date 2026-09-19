@@ -1,0 +1,47 @@
+{
+  "title": "The Sheik of Araby",
+  "source": "Ted Snyder, 1921",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 192,
+  "pickup": 8,
+  "bars": [
+    { "chord": "G7",   "notes": "G4:4 G#4:4" },
+
+    { "chord": "C",    "notes": "A4:12 G4:4" },
+    { "chord": "C",    "notes": "A4:12 [Edim]G4:4" },
+    { "chord": "G7",   "notes": "A4:16~" },
+    { "chord": "G7",   "notes": "A4:12 G4:4" },
+    { "chord": "G7",   "notes": "A4:12 G4:4" },
+    { "chord": "G7",   "notes": "D5:12 E5:4" },
+    { "chord": "C",    "notes": "C5:16~" },
+    { "chord": "C",    "notes": "C5:12 B4:4" },
+
+    { "chord": "C6",   "notes": "D5:12 A4:4" },
+    { "chord": "Cdim", "notes": "C5:12 A4:4" },
+    { "chord": "G7",   "notes": "A4:16~" },
+    { "chord": "G7",   "notes": "A4:12 A4:4" },
+    { "chord": "Dm7",  "notes": "C5:12 A4:4" },
+    { "chord": "G7",   "notes": "B4:12 G4:4" },
+    { "chord": "C",    "notes": "A4:16~" },
+    { "chord": "D7",   "notes": "A4:12 [G7]G4:4" },
+
+    { "chord": "C",    "notes": "A4:12 G4:4" },
+    { "chord": "C",    "notes": "A4:12 [Edim]G4:4" },
+    { "chord": "G7",   "notes": "A4:16~" },
+    { "chord": "G7",   "notes": "A4:12 G4:4" },
+    { "chord": "G7",   "notes": "A4:12 G4:4" },
+    { "chord": "G7",   "notes": "D5:12 D#5:4" },
+    { "chord": "E7",   "notes": "E5:16~" },
+    { "chord": "E7",   "notes": "E5:12 E5:4" },
+
+    { "chord": "A7",   "notes": "F5:12 E5:4" },
+    { "chord": "A7",   "notes": "F5:12 E5:4" },
+    { "chord": "D7",   "notes": "E5:16~" },
+    { "chord": "D7",   "notes": "E5:12 B4:4" },
+    { "chord": "G7",   "notes": "A4:12 B4:4" },
+    { "chord": "G7",   "notes": "G4:12 D5:4" },
+    { "chord": "C",    "notes": "C5:16~" },
+    { "chord": "C",    "notes": "C5:16" }
+  ]
+}

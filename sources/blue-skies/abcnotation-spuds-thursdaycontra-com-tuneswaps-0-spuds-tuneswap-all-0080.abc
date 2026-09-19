@@ -1,0 +1,26 @@
+
+I:abc-charset utf-8
+
+X:79
+T: Blue Skies
+C: Irving Berlin 1927
+Z: AW
+B: Great Gig Book (Blue Book)
+M:C
+L:1/8
+K:Dm
+%%MIDI chordname mM7 0 3 7 11  % minor with major 7th; "m(Maj7)" didn't work (parens?)
+%%MIDI chordname +7 0 4 8 10   % same as aug7 (predefined)
+|: "Dm"D4A4- | "DmM7"A4 GFG2 | "Dm7"A8- | "Dm6"A4 GF"Bbm"G2 | 
+w: Blue skies_ smi-ling at me,_ noth-ing but
+w: Blue-birds_ sing-ing a song,_ noth-ing but
+w: Blue days,_ all of them gone,_ noth-ing but
+"F"A4"Dm7"C4- | "Gm7"C4 "C+7"CD2F- | "F"F8- |1"Gm/E   A7"F8 :|2"F        C7"z8 ||
+w: blue skies_ do I see.__
+w: blue-birds_ all day long.__
+w: blue skies_ from now on._
+|: "F"FGAB c4 | "Bbm"_dcB2 "F"c4 | "Bbm"BAG2 "F"A4 | "C7"GFE2 "F"F4 !D.C.alfine!:| 
+w: Nev-er saw the sun shin-ing so bright, nev-er saw things go-ing so right.
+w: No-ti-cing the days hur-ry-ing by, when you're in love, my how they fly.
+w: 
+

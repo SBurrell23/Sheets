@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-peg-o-my-heart1-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Peg_O_My_Heart1.abc",
+  "kind": "abc",
+  "bytes": 637,
+  "sha256": "e5e8c39fb8d84d3eb6f31a1fb7ca2a7ffb2aba14368afca2ad64057b89eb4ee3",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-peg-o-my-heart2-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Peg_O_My_Heart2.abc",
+  "kind": "abc",
+  "bytes": 635,
+  "sha256": "a26b3d1afaf9d2295e53e02f251f967682bc71ca1932bda74c2b6e88d0aed8b2",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "levy-154-060.pdf",
+  "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/levy-154-060.pdf",
+  "kind": "pdf",
+  "bytes": 5934133,
+  "sha256": "d403499e1bfe11c52adc0d445a66c83d892acd228cc92924f8870e9ec6dd88e1",
+  "fetched": "2026-09-19"
+ }
+]

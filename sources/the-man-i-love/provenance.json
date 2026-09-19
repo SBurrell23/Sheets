@@ -1,0 +1,34 @@
+[
+ {
+  "name": "mutopia-brass-quartet.ly",
+  "url": "https://www.mutopiaproject.org/ftp/LutkinPC/TheLordBlessYou/brass-quartet/brass-quartet.ly",
+  "kind": "lilypond",
+  "bytes": 13510,
+  "sha256": "353b38306a3e57f10c42aab7d9856a27716182cb640a37917c4aa67250195043",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "mutopia-guitar-duo.ly",
+  "url": "https://www.mutopiaproject.org/ftp/LutkinPC/TheLordBlessYou/guitar-duo/guitar-duo.ly",
+  "kind": "lilypond",
+  "bytes": 34339,
+  "sha256": "3e59d736cd8eb9141076edfb00dcb067df5a4a6f7ef8d924c1de201b18a97180",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "mutopia-thinkhome.ly",
+  "url": "https://www.mutopiaproject.org/ftp/GloverCW/thinkhome/thinkhome.ly",
+  "kind": "lilypond",
+  "bytes": 5318,
+  "sha256": "5559ee8e725d4a7937756398c3141b58f9c9e69a2fa6648fc08956d4a7dbc2fe",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "imslp-499324-harms-1924.pdf",
+  "url": "http://www.petruccilibrary.us/files/imglnks/music_files/PMLUS05242-gershwin-the_man_i_love.pdf",
+  "kind": "scan",
+  "bytes": 42921195,
+  "sha256": "31bedc996ae714c7d57dc9b4807dc4045c63f1c0dcb85b322779437e474c613f",
+  "fetched": "2026-09-19"
+ }
+]

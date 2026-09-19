@@ -1,0 +1,63 @@
+X: 0
+T: Manhattan
+T: 8x32R3
+C: Dan Blim
+R: reel
+N: Tune: John McNeil's Reel (Peter Milne)
+P: Play 11-22-33-11
+K:
+
+
+X: 1
+P: Big John McNeil  (John McNeil's Reel)
+%date: 1870
+C: Peter Milne (1824-1908)
+N: Peter Milne was a friend and teacher of J.S.Skinner.
+B: Hunter 237, BSFC IX-2, John McNeil's Reel in SFT p.13, NEFR p.133
+B: Middleton’s "Selection of Strathspeys, Reels &c. for the Violin", 1870, p.23
+B: Moffat "Dance Music of the North", 1908, #31
+M: C|
+L: 1/8
+K: A
+   E !segno!|\
+"A"A,2CE FECE | AECE FECE | A,2CE FECE | "D"FAGF "E7"EDCB, |
+"A"A,2CE FECE | AECE FECE | "D"B,DCE DFEG | "E7"FAGB "A"cA A :|
+|: c |\
+"A"eAfA eAca | eAfA e2 (3fga | eAfA eAce | "D"da"(A)"ca "E7"B2cd |
+"A"eAfA eAca | eAfA e2fg | agfe "D"fedc |1 "E7"defg "A"a2A :|2 "E7"BAGF EDC".d.S."B, |] "A"HA,4 |]
+
+
+X: 2
+P: Reconciliation Reel  (Olive Branch Hornpipe)  (Crannciuil Umfrei)  (Humphrey's Reel)
+O: Ryans 1883
+R: reel
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+B: O'Neill's 1850 (hornpipe)
+B: Ryan’s "Mammoth Collection", 1883, titled “The Olive Branch”
+Z: id:hn-reel-95
+M: C|
+L: 1/8
+K: A
+|: "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"A2 c{B}A eAfA | "(E)"ecBc "E7"AFEF |
+|  "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+|: "A"A2{B}ce a3f | "E7"efed cdcB | "A"A2{B}ce a3g | "Bm"fbba "E7"gefg |
+|  "A"a2{g}ae f{g}aec | "Bm"dBcA "E7"BAFG | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+
+
+X: 3
+P: Father Francis Cameron
+C: John Campbell 1986
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: BSFC 3-17
+B: BSFC Tune Book XXVII-7
+B: BSFC Session Tune Book 2016 p.13 #2
+M: C|
+L: 1/8
+K: A
+   E2 | "A"~A2cA "D"FDDF | "A"EA,CE "D"~F2DF | "A"EAcA "(F#m)"e2cA | "E7"BEGB d2cB |
+   y3 | "A"~A2cA "D"FDDF | "A"EA,CE "D"~F2DF | "A"EAce "Bm"dcdf | "E7"ecdB "A"A2 :|
+|: cd | "A"e2cA eAce | "D"f2dB "(Bm)"fBdf | "E7"eagb "A"aecA | "E7"BEGB d2cd |
+   y3 | "A"e2cA eAce | "D"f2dB "(Bm)"fBdf | "E7"eagb "A"aecA | "E7"BEGB "A"A2 :|
+%%textfont Times-Roman 10
+%%text Arranged by John Chambers
+

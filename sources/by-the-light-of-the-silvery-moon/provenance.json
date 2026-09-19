@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation-lian-mit-edu-jc-music-abc-finland-foxtrot-bythelight-bb-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2Ffoxtrot%2FByTheLight_Bb%2F0000",
+  "kind": "abc",
+  "bytes": 603,
+  "sha256": "f3b55762f8f3f13cee67ea18ff2cd8ab0f813adc7be6f9cbe86c757f0104e9a3",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-llian-mit-edu-jc-music-abc-finland-foxtrot-bythelight-a-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2Ffoxtrot%2FByTheLight_A%2F0000",
+  "kind": "abc",
+  "bytes": 599,
+  "sha256": "6cb0d3b32d0d781ead564d8e26ec18efb7144b16b94e1c82ba9ca6370a68ba0d",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-llian-mit-edu-jc-music-abc-finland-foxtrot-bythelight-c-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2Ffoxtrot%2FByTheLight_C%2F0000",
+  "kind": "abc",
+  "bytes": 594,
+  "sha256": "ac5699f8c8956400f4eaf5c35b1214da01b323c22cca4f114f02188d5e736bfb",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-llian-mit-edu-jc-music-abc-finland-foxtrot-bythelight-d-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2Ffoxtrot%2FByTheLight_D%2F0000",
+  "kind": "abc",
+  "bytes": 595,
+  "sha256": "d912722a55cb8a77bbbe924a9d1c566058109378f01eaf080e693e6dae092933",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-llian-mit-edu-jc-music-abc-finland-foxtrot-bythelight-f-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2Ffoxtrot%2FByTheLight_F%2F0000",
+  "kind": "abc",
+  "bytes": 596,
+  "sha256": "f41650a7031ea19813c31d699a5caa676ca551f9627ae43a1ee9d43f29215d82",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-llian-mit-edu-jc-music-abc-finland-foxtrot-bythelight-g-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2Ffoxtrot%2FByTheLight_G%2F0000",
+  "kind": "abc",
+  "bytes": 597,
+  "sha256": "0672f300dd3fafa9c506342d91dfe6cc9f33fec643b47594121d47fb363982fe",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-finland-bythelight-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FFinland%2FByTheLight%2F0000",
+  "kind": "abc",
+  "bytes": 1796,
+  "sha256": "61971644d19cff736a6b7334604a3f18849ed386afcb1daebd1338ce8a563860",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "ia-sm-bythelight.pdf",
+  "url": "https://archive.org/download/sm_bythelightofthesilverymoon/sm_bythelightofthesilverymoon.pdf",
+  "kind": "other",
+  "bytes": 2377815,
+  "sha256": "58894e5c83fff539dc58b1f07de743733230b831271bd75215ea193b017987ed",
+  "fetched": "2026-09-19"
+ }
+]

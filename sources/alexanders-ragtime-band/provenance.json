@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Alexanders_Ragtime_Band_G.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Alexanders_Ragtime_Band_G.abc",
+  "kind": "other",
+  "bytes": 1054,
+  "sha256": "f685b59f9a595bc635f028f81a88ff53407c642356254abb71e46402b67dc4b3",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "imslp-alexanders-ragtime-band.ly",
+  "url": "https://imslp.org/wiki/Alexander%27s_Ragtime_Band_%28Berlin%2C_Irving%29",
+  "kind": "lilypond-incipit",
+  "bytes": 566,
+  "sha256": "aa7b4124325b629db4390ed05cf6641e65793c4e704f9c380811c8d1bf06fa87",
+  "fetched": "2026-09-19"
+ }
+]

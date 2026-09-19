@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Levy_155-118a.pdf",
+  "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/Levy_155-118a.pdf",
+  "kind": "other",
+  "bytes": 1695327,
+  "sha256": "0d17994e2e8577a89cd5d014bdc4c4e4c5427ba36ea6e48ae9bfd6d952c969ba",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "thesession-18279.json",
+  "url": "https://thesession.org/tunes/18279?format=json",
+  "kind": "abc",
+  "bytes": 5556,
+  "sha256": "4aace57a01c7780bcbb0b8470fad102c8fa6e8cacd47f185a94e8b6bbf1c7c09",
+  "fetched": "2026-09-19"
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "name": "SM000150.pdf",
+  "url": "https://archive.org/download/SM000150/SM000150.pdf",
+  "kind": "other",
+  "bytes": 2356884,
+  "sha256": "778dd1ef68bce0eb2caac17db81f329a29edd5dfe8543b8747945656ccb05eeb",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-abc-sourceforge-net-nmd-nmd-reelsd-g-txt-0005.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=abc.sourceforge.net%2FNMD%2Fnmd%2Freelsd-g.txt%2F0005",
+  "kind": "abc",
+  "bytes": 390,
+  "sha256": "1e014bc34c3f777ed0a96185781e7d6c99182155d3c33f8679d7baf8e27347fe",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-hursdaycontra-com-sets-archive-2015-12-10-spuds-compact-0006.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=spuds.thursdaycontra.com%2Fsets%2Farchive%2F2015-12-10%20SPUDs%20-%20Compact%2F0006",
+  "kind": "abc",
+  "bytes": 243,
+  "sha256": "84c46d69d122a2f2a90ac0dc1a13cc4d042023281cd5e3866ad40cd1e3ef3b0a",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-spuds-thursdaycontra-com-tunes-reels-dinah-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=spuds.thursdaycontra.com%2Ftunes%2Freels%2FDinah%2F0000",
+  "kind": "abc",
+  "bytes": 251,
+  "sha256": "d8793b0528fb9db212986d492be227bbeac3220b70814fe003deb1b6c30f0ebd",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-dinah-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FDinah.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 210,
+  "sha256": "f94ce5f83be2433e1f36e716f7b5f4f8f08718d95c8d97566cee59b95d85c5b5",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "levy-155-087.pdf",
+  "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/levy-155-087.pdf",
+  "kind": "other",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "fetched": "2026-09-19"
+ }
+]

@@ -1,0 +1,226 @@
+{
+    "format": "json",
+    "id": 555,
+    "name": "The Charleston",
+    "url": "https://thesession.org/tunes/555",
+    "member": {
+        "id": 220,
+        "name": "CreadurMawnOrganig",
+        "url": "https://thesession.org/members/220"
+    },
+    "date": "2002-02-19 20:56:26",
+    "type": "reel",
+    "composer": "Jimmy Keane",
+    "tunebooks": 80,
+    "recordings": 2,
+    "collections": 0,
+    "aliases": ["Joe Skelton's"],
+    "settings": [
+        {
+            "id": 555,
+            "url": "https://thesession.org/tunes/555#setting555",
+            "key": "Amajor",
+            "abc": "|:c2cB cBAB|cABA FADF|EAAG ABca|! fdBA GBed|BccB cBAB|cABA FADF|! EAAG Acfc|1 ecBc A3B:|2 ecBc A3z||! |:bafa eAcf|eAce f3g|ae~e2 faec|dBcA Bfed|! BccB cBAB|cABA FADF|EAAG Acfc|ecBc A3z:|",
+            "member": {
+                "id": 220,
+                "name": "CreadurMawnOrganig",
+                "url": "https://thesession.org/members/220"
+            },
+            "date": "2002-02-19 20:56:26"
+        },
+        {
+            "id": 13519,
+            "url": "https://thesession.org/tunes/555#setting13519",
+            "key": "Amajor",
+            "abc": "|:~c3B cBAB|c2BA ~F3A|EAAG Acfc|ecBA GABd|! ~c3B cBAB|c2BA ~F3A|EAAG Acfc|1 ecBc A3B:|2 ecBc A3g||! aefa e2cf|eAce ~f3g|aeea faec|dBBA BcdB|! c2ec cBAB|cABA ~F3A|EAAG Acfc|1 ecBc A3g:|2 ecBc A3B||",
+            "member": {
+                "id": 58,
+                "name": "Will Harmon",
+                "url": "https://thesession.org/members/58"
+            },
+            "date": "2011-01-30 20:31:33"
+        },
+        {
+            "id": 44938,
+            "url": "https://thesession.org/tunes/555#setting44938",
+            "key": "Amajor",
+            "abc": "|:c3e cBAB|cABA FADF|EAAG Acfc|ecBA GBed|! c3e cBAB|cABA FADF|EAAG Acfc|1 ecBc A3B:|2 ecBc Aaga||! |:baga fedf|eAce f3g|aee2 faec|dcBA GBed|! c3e cBAB|cABA FADF|EAAG Acfc|1 ecBc Aaga:|2 ecBc A3B||",
+            "member": {
+                "id": 23022,
+                "name": "Pierre LA\u00cfLY",
+                "url": "https://thesession.org/members/23022"
+            },
+            "date": "2022-09-29 12:42:45"
+        },
+        {
+            "id": 48244,
+            "url": "https://thesession.org/tunes/555#setting48244",
+            "key": "Amajor",
+            "abc": "eAB|:ceAf ec c\/B\/A|ce c\/B\/A EFAe|DeAG ABBA|fd c\/B\/A GeAB|ceAf ec c\/B\/A|! ce c\/B\/A EFAe|1 DeAG AcBA|AcBA AGAB:|2 DeAG AcAa|BcAB A2ab||! |:aa2f eAce|eAce fAge|aa a\/g\/e f\/g\/a ec|ed c\/B\/A B2AB|! cecf e2 c\/B\/A|ce c\/B\/A dc c\/B\/A|DeAG Acea|1 BcAG A2ab:|2 ecBA AGAB||",
+            "member": {
+                "id": 164182,
+                "name": "Mladenski",
+                "url": "https://thesession.org/members/164182"
+            },
+            "date": "2023-09-21 14:31:10"
+        }
+    ],
+    "comments": [
+        {
+            "id": 4856,
+            "url": "https://thesession.org/tunes/555#comment4856",
+            "subject": "",
+            "content": "Firstly, I apologise to all pipers, whistle and keyless flute players (except any flash gits who can play it anyway). Not to be confused with the popular dance of the 1920s(? - excuse my historical ignorance), this a mighty infectious little number composed by London-born piano-box player Tommy Keane (who now resides in New York, I believe). I like to lean liberally into that open e-string in the first bar-and-a-half - I don't know how traditional that is, but it works for me.",
+            "member": {
+                "id": 220,
+                "name": "CreadurMawnOrganig",
+                "url": "https://thesession.org/members/220"
+            },
+            "date": "2002-02-19 21:07:59"
+        },
+        {
+            "id": 5029,
+            "url": "https://thesession.org/tunes/555#comment5029",
+            "subject": "Charleston",
+            "content": "This was composed by Jimmy Keane, the piano accordion player, now living in Chicago, and who frequently plays with Mick Moloney & Robbie O'Connell and they recorded it on \"There were Roses\" Album. It is also commonly known as Jimmy Keane's.  Jimmy plays with a number of others, including Bohola.  Note from the album There were Roses : \"Embarrased at not having a title for it, we christened it during a live public radio broadcast from Charleston, West Virginia.\"",
+            "member": {
+                "id": 2051,
+                "name": "banjowalsh",
+                "url": "https://thesession.org/members/2051"
+            },
+            "date": "2002-02-23 20:27:59"
+        },
+        {
+            "id": 5048,
+            "url": "https://thesession.org/tunes/555#comment5048",
+            "subject": "",
+            "content": "Shame on me! I got the composer's name AND the place where he lives wrong. Well, his name's only two letters different, and the city's in the same country.",
+            "member": {
+                "id": 220,
+                "name": "CreadurMawnOrganig",
+                "url": "https://thesession.org/members/220"
+            },
+            "date": "2002-02-24 19:25:07"
+        },
+        {
+            "id": 461490,
+            "url": "https://thesession.org/tunes/555#comment461490",
+            "subject": "Link to iTunes track of Jimmy Keane himself playing this (fabulous stuff)!!!",
+            "content": "http:\/\/itunes.apple.com\/WebObjects\/MZStore.woa\/wa\/viewAlbum?i=293097815&id=293097763&s=143441",
+            "member": {
+                "id": 7417,
+                "name": "dlowder",
+                "url": "https://thesession.org/members/7417"
+            },
+            "date": "2009-07-28 18:55:14"
+        },
+        {
+            "id": 563787,
+            "url": "https://thesession.org/tunes/555#comment563787",
+            "subject": "",
+            "content": "Here's how Four Men and a Dog play it on their Wallop the Spot album. They call it Joe Skelton's.    X: 1  T: Charleston, The  M: 4\/4  L: 1\/8  C: Jimmy Keane  K: A  ~c3B cBAB|c2BA ~F3A|EAAG Acfc|ecBA GABd|  ~c3B cBAB|c2BA ~F3A|EAAG Acfc|1 ecBc A3B:|2 ecBc A3g||  aefa e2cf|eAce ~f3g|aeea faec|dBBA BcdB|  c2ec cBAB|cABA ~F3A|EAAG Acfc|1 ecBc A3g:|2 ecBc A3B||",
+            "member": {
+                "id": 58,
+                "name": "Will Harmon",
+                "url": "https://thesession.org/members/58"
+            },
+            "date": "2011-01-30 20:31:33"
+        },
+        {
+            "id": 563818,
+            "url": "https://thesession.org/tunes/555#comment563818",
+            "subject": "",
+            "content": "Great version!  The occasional G# can be played by any intermediate whistle player ;-)",
+            "member": {
+                "id": 1659,
+                "name": "swisspiper",
+                "url": "https://thesession.org/members/1659"
+            },
+            "date": "2011-01-31 03:47:02"
+        },
+        {
+            "id": 639907,
+            "url": "https://thesession.org/tunes/555#comment639907",
+            "subject": "",
+            "content": "Nice tune alright! Nice sound too!",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2012-05-24 05:46:32"
+        },
+        {
+            "id": 645802,
+            "url": "https://thesession.org/tunes/555#comment645802",
+            "subject": "Drop the 7th's version",
+            "content": "we don't have to play any of the G-Sharp's here: they can all be changed for E's.",
+            "member": {
+                "id": 13094,
+                "name": "birlibirdie",
+                "url": "https://thesession.org/members/13094"
+            },
+            "date": "2012-06-29 14:12:42"
+        },
+        {
+            "id": 649810,
+            "url": "https://thesession.org/tunes/555#comment649810",
+            "subject": "",
+            "content": "Anyone looking for the \"Charlestown\" Reel as played by Darren Breslin, it's actually the Derry Reel, not this tune altho' it's very similar in the A-part. Go here https:\/\/thesession.org\/tunes\/7671.",
+            "member": {
+                "id": 4763,
+                "name": "Dr. Dow",
+                "url": "https://thesession.org/members/4763"
+            },
+            "date": "2012-07-27 09:44:03"
+        },
+        {
+            "id": 688893,
+            "url": "https://thesession.org/tunes/555#comment688893",
+            "subject": "I think Ray Gallen calls this the Bush in Bloom",
+            "content": "... in his set with Craig's pipes. A very nice set it is too",
+            "member": {
+                "id": 61738,
+                "name": "wheresrhys",
+                "url": "https://thesession.org/members/61738"
+            },
+            "date": "2013-07-12 05:25:25"
+        },
+        {
+            "id": 797755,
+            "url": "https://thesession.org/tunes/555#comment797755",
+            "subject": "Re: The Charleston",
+            "content": "I just updated the story behind my tune \"The Charleston\" and Eugene O'Donnell's tune \"The Derry Reel\" if you'd like to know how they came about...    I think this is the link:    https:\/\/thesession.org\/tunes\/7671#comment797753    All the best,    Jimmy",
+            "member": {
+                "id": 80010,
+                "name": "Jimmy Keane",
+                "url": "https://thesession.org/members/80010"
+            },
+            "date": "2016-09-01 17:43:07"
+        },
+        {
+            "id": 950264,
+            "url": "https://thesession.org/tunes/555#comment950264",
+            "subject": "The Charleston, X:3",
+            "content": "Here is the version played here at 9:06 : https:\/\/www.youtube.com\/watch?v=s5BFshvIVTc",
+            "member": {
+                "id": 23022,
+                "name": "Pierre LA\u00cfLY",
+                "url": "https://thesession.org/members/23022"
+            },
+            "date": "2022-09-29 12:42:45"
+        },
+        {
+            "id": 975643,
+            "url": "https://thesession.org/tunes/555#comment975643",
+            "subject": "The Charleston, X:4",
+            "content": "S\u00e9amus Egan has done a lovely arrangement of the tune, it's the first one played here:  https:\/\/youtu.be\/T0GVCTwSaDA    I haven't notated all the variations he plays, 'cause I wanted to keep the sheet as simple as possible, but the skeleton of the melody is there.",
+            "member": {
+                "id": 164182,
+                "name": "Mladenski",
+                "url": "https://thesession.org/members/164182"
+            },
+            "date": "2023-09-21 14:31:10"
+        }
+    ]
+}

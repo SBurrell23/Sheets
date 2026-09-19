@@ -67,11 +67,26 @@ ends on the tonic. Where the sheet prints first and second endings, **realise bo
 first ending into the repeat and the second ending into what follows, and write the result as a
 straight run of bars.
 
+**A repeat that encloses the whole chorus is different.** These sheets very often print
+`|: entire chorus :|` with first and second endings and a D.S. — realising both would mean
+writing the chorus twice, which is exactly what this section tells you not to do. In that case
+**write the second ending and drop the first.** Say so in your report.
+
 Some entries are **instrumental strain pieces** rather than songs — *Muskrat Ramble*, *Charleston*.
 Those follow the ragtime rule instead: write **every distinct strain once each, in the order the
 piece plays them**, including a return to the first strain where the form returns to it.
 
-A finished file is typically **32 to 40 bars**. Sixteen is a sign you wrote half of it.
+A finished file is typically **32 to 40 bars**. Sixteen is a sign you wrote half of it —
+**but count the music, not the bars.** Three things here are honestly shorter than 32 bars and
+must not be padded to reach it:
+
+- **A waltz.** 32 bars of 3/4 is three-quarters of the music of 32 bars of 4/4, and it is still
+  the whole chorus.
+- **A 1900s chorus written in whole notes.** *By the Light of the Silvery Moon* really is 16 bars
+  of common time; the phrase heads are whole notes. Doubling its note values to reach 32 would
+  break §4 and the tempo along with it.
+- **A pickup**, which is a bar object of its own on top of the chorus — so a 32-bar chorus with
+  an upbeat is **33 entries** in `bars`. Do not delete your pickup to make the count come out.
 
 ## 3. The file
 
@@ -105,8 +120,11 @@ Write exactly one file to the path you are given,
   on the white notes because it looks tidier there: the home key is nearly always the larger part
   of the song, and mapping it anywhere else multiplies the accidentals instead of reducing them.
 - `meter` — `4/4` for nearly everything here, `3/4` for a genuine waltz. See §4.
-- `pickup` — **omit** if the tune starts on beat 1. Otherwise set it to the upbeat's length in
-  sixteenth units, and make bar 1 exactly that long. Most songs in this repertoire have a pickup;
+- `pickup` — **omit** if the tune starts on beat 1. Otherwise set it to the **engraved partial
+  bar's length** in sixteenth units — the whole thing, including any rest you write in front of
+  the first note, not just the sounding notes. A five-sixteenth upbeat sitting in the last five
+  sixteenths of a 4/4 bar is therefore `pickup: 8` with a leading `R:3`, which puts the figure in
+  its true metric place. Make bar 1 sum to exactly the `pickup` value. Most songs in this repertoire have a pickup;
   do not throw it away, it is usually the first thing you recognise.
 - `tempo` — quarter notes per minute. Ballads 72–100, medium swing 112–160, up-tempo 176–220.
   Stay inside 50–220. **If your source is a printed sheet in cut time**, its metronome mark
@@ -128,8 +146,15 @@ units as a 4/4 bar. **Copy the printed note values unchanged** and write `4/4`. 
 that changes is the tempo number, which in cut time counts half notes — so a sheet marked
 `𝅗𝅥 = 66` is `tempo: 132` here.
 
-Do **not** halve or double note values. That trap belongs to the ragtime collection, whose
-sources are printed in 2/4 with sixteenths; yours are not.
+Do **not** halve or double note values — not to fix a tempo, and not to reach a bar count. That
+trap belongs to the ragtime collection, whose sources are printed in 2/4 with sixteenths; yours
+are not.
+
+The format does support `2/2`, and this collection deliberately does not use it. `2/2` would be
+the honest meter for a cut-time sheet, but it makes `tempo` count half notes, so every song here
+would carry a tempo number on a different scale from every other song on the site. One meter, one
+scale. Write `4/4` — or `3/4` where the song is genuinely a waltz, which several of the 1910s
+ballads are.
 
 ### Swing — write straight eighths
 
@@ -143,6 +168,11 @@ sheet supplies the swing, exactly as they would from any published lead sheet.
 The exception is a **genuine printed dotted figure** that is part of the melody rather than a
 notation of swing feel — the snap in *Charleston*, for instance. Keep those, and say in your
 report that you did.
+
+**Date the exception.** The straight-eighths rule is about the 1920s, when a dotted pair on the
+page could be somebody notating a feel. **A dotted eighth and sixteenth printed in 1909 is
+simply the melody** — the swing convention does not exist yet — so on the early half of this
+collection, keep what is printed and check it on the scan rather than smoothing it out.
 
 ## 5. The note language
 
@@ -213,6 +243,10 @@ bridge missing.
    note. Most of these end on a long tonic anyway. **In whatever octave the tune actually lands**:
    the check is on pitch class, `C5` is only the commonest answer, and a song whose last phrase
    climbs should end on `C6`. Do not drop a correct final note an octave to match the example.
+
+   Printed second endings often stop short — a dotted half and a quarter rest, because the band
+   played the tag and the singer did not. **Extend the final tonic to fill the bar.** This is the
+   one place where the rule beats the print, and it is a quarter note's worth of difference.
 5. Chord suffixes allowed, and this is the complete list:
 
    `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.
@@ -239,8 +273,11 @@ free — it is one sustained note either way — and it puts the symbol on the b
 Do not shunt the chord early or late to find an onset; an arranger who does that writes a
 harmony the song does not have, half a beat out, several times a page.
 
-- **ii–V–I is the engine.** `Dm7 G7 C`. Write the ii as `m7`. You will write this progression,
-  or a secondary version of it, dozens of times.
+- **ii–V–I is the engine.** `Dm7 G7 C`. You will write this progression, or a secondary version
+  of it, dozens of times. **Write the ii as `m7` when it is a ii inside an explicit ii–V** — a
+  minor chord a step above the key that moves to the dominant. A vi, or a minor chord passing
+  between two others, is a plain triad. That rule and the one below about not making everything a
+  seventh chord used to contradict each other; this is the line between them.
 - **Secondary dominants round the circle** are the other half of the sound:
   `E7 → A7 → D7 → G7 → C`. *Sweet Georgia Brown* is almost nothing else. *Ain't She Sweet*,
   *Five Foot Two* and *I Ain't Got Nobody* all run the same chain.
@@ -255,6 +292,14 @@ harmony the song does not have, half a beat out, several times a page.
   do; a flat-III seventh standing in for V-of-ii turns up in this repertoire — **write it**, and
   say in your report that it was the source's and not yours. Where a modern Real Book disagrees with the 1929
   sheet, **follow the 1929 sheet**, and say in your report that the two differ if you noticed it.
+
+**A sheet from before about 1920 has no chord symbols on it at all**, and one from the early
+twenties may carry only ukulele chord *frames* — grids of dots with no letter names. For those
+there is no printed harmony to follow and nothing for the rule above to arbitrate: **read the
+changes off the printed piano part**, take the roots from the bass, and say in your report
+**which bars you actually transcribed and which you inferred**. That is a weaker claim than "I
+followed the sheet's changes" and it should be reported as one. The frames are still worth
+looking at even without names, because they mark where the chord changes.
 
 ## 8. Check your work — required
 
@@ -284,8 +329,30 @@ tunes in the language, and it is very easy to write something fluent, plausible 
 
 Cross-check against published sources. For this repertoire the ones that pay are:
 
-- **The Levy Sheet Music Collection** (Johns Hopkins) and the **Library of Congress** — scans of
-  the original US sheet music, which is the authority for both melody and changes.
+- **Scans of the original sheet music** — the authority for both melody and changes, and far more
+  reachable than its reputation suggests. Between them, **the Levy Sheet Music Collection**
+  (Johns Hopkins), **archive.org** and the **Library of Congress** have most of this repertoire.
+  Levy serves one PDF per song at a predictable URL: a collection page at
+  `levysheetmusic.mse.jhu.edu/collection/<box>/<item>` links
+  `.../sites/default/files/collection-pdfs/levy-<box>-<item>.pdf`. archive.org items of the form
+  `archive.org/details/sm_<slugged-title>` have worked repeatedly.
+
+  **How to actually read one on this machine:**
+
+  - **`pdftoppm` is not installed. PyMuPDF is.** Render the pages you want to PNG with a
+    three-line script and read the PNGs with the Read tool.
+  - For a clean 1920s engraving, rendering at high zoom and reading it is enough.
+  - For a **1900s–1910s** engraving it is not — you cannot reliably place a notehead within one
+    staff step that way. What worked was: find the staff lines and **fit them per half-system**,
+    because these scans are skewed enough that a fit across a whole system is a step out by the
+    far end; then **tint the known pitch rows** (C4, G4, C5, G5, C6) before reading the crop; and
+    use a connected-component notehead detector as a tiebreak. One arranger read two complete
+    1910 choruses that way, pitch by pitch.
+  - Zoom in specifically on any note near the edge of the C4–G6 window, and on anything that
+    looks wrong. Two of that arranger's oddest-looking readings were confirmed correct.
+
+  Reading a scan is the expensive option and the only one that settles a rhythm. Budget for it on
+  the early material rather than treating it as a last resort.
 - **IMSLP** — has some, and increasingly the 1920s material as it clears copyright.
 - **Mutopia** and **abcnotation.com** — occasional machine-readable transcriptions; when one
   exists it is much cheaper than reading a scan, so look first. **But know what you are reading.**
@@ -308,6 +375,13 @@ Cross-check against published sources. For this repertoire the ones that pay are
     to twelve or fourteen eighths instead of sixteen.
   - A file that has been through email may be **quoted-printable mangled**. That is a damaged copy
     of something, not a second source.
+  - **A whole family of files in one archive may be one setting transposed by machine.** Six
+    copies of a song in six keys, none with an `F:` or `Z:` header, is one transcription, not six.
+    A file that *does* carry `F:` or `Z:` was read off a named source and is worth more than the
+    rest of its family put together.
+  - **Check the octave against an engraving before you trust it.** All three cached settings of
+    one 1910 waltz sat a full octave above the printed sheet; taking them at face value would
+    have jammed the tune against the ceiling of the range window.
   - To tell a duplicate from a second opinion in one step, **compare the `sha256` values in
     `provenance.json`** rather than diffing the files. Two of one arranger's three songs had
     byte-identical pairs.

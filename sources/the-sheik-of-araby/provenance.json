@@ -1,0 +1,26 @@
+[
+ {
+  "name": "abcnotation--edu-jc-music-abc-contra-square-rj-sq-sheik-of-araby-rj-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/Contra/square/RJ/Sq_Sheik_of_Araby_RJ.abc",
+  "kind": "abc",
+  "bytes": 411,
+  "sha256": "986a45cef07508cda06866e59985a39282612a7f4d6b02950b694203872d28e5",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-ian-mit-edu-jc-music-abc-contra-misc-sheikofarabythe-rj-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/Contra/misc/SheikOfArabyThe_RJ.abc",
+  "kind": "abc",
+  "bytes": 436,
+  "sha256": "bfd7f8df7fcc43c0e5bcc532eb2edbf88afe0696a9c98f69e4b5115bf3ecf70f",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "levy-156-206.pdf",
+  "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/levy-156-206.pdf",
+  "kind": "other",
+  "bytes": 7138057,
+  "sha256": "59558f19f2d5741ef971e4d8c18efd786fb0c345992c30a2982efe88e5b3438b",
+  "fetched": "2026-09-19"
+ }
+]

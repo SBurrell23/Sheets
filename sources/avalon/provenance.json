@@ -1,0 +1,58 @@
+[
+ {
+  "name": "abcnotation-benpaley-com-resources-dots-tune-id-1725-no-ext-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=benpaley.com%2Fresources%2Fdots%2F%3Ftune_id%3D1725.no-ext%2F0000",
+  "kind": "abc",
+  "bytes": 673,
+  "sha256": "356d479d37b053e0de4d4e66823ce301f4556383823c4af72f609d4902b052b1",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-15048-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F15048.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 373,
+  "sha256": "1d68d50c447a9f6ac0688e2227e4a656198cda41dfab8d8d288886627bcf9e9b",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-avalon-quickstep-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FAvalon_Quickstep.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 517,
+  "sha256": "8fa7274c7205d10a3e65ac52ce6d5bd2e0c9853c9fc124c92e39781c09255f04",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-avalon-quickstep-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FAvalon_Quickstep.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 274,
+  "sha256": "7446ea4b9071b62f6885ab237336234521f260d63f7de96db42d72531ecc8b7c",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-tunearch-org-wiki-avalon-quickstep-no-ext-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FAvalon_Quickstep.no-ext%2F0003",
+  "kind": "abc",
+  "bytes": 362,
+  "sha256": "28634eb361dd6bb2d89fd59cfd6a3b8abacd0da200c5b1a28d4bc55f8456a1a7",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "thesession-15048.json",
+  "url": "https://thesession.org/tunes/15048?format=json",
+  "kind": "abc",
+  "bytes": 2464,
+  "sha256": "04c08e456b7307db580d7d35b2ed0c04cfee152bc327ee6cc7dbbd8870b8afab",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "conncoll-sheetmusic-124.pdf",
+  "url": "https://digitalcommons.conncoll.edu/cgi/viewcontent.cgi?article=1125&context=sheetmusic",
+  "kind": "pdf",
+  "bytes": 1991155,
+  "sha256": "7e637d6f534254bd0e6e6b707827b900da88e8c4163d74b8c18aaad9d039c3ed",
+  "fetched": "2026-09-19"
+ }
+]

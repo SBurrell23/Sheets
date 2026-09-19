@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Aint_She_Sweet_F.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Aint_She_Sweet_F.abc",
+  "kind": "other",
+  "bytes": 464,
+  "sha256": "6a596cfea90de48f5b61e5389e893911ceccd9797b4f2fbbd2231051311b738b",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-program-aintshesweet-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fprogram%2FAintSheSweet%2F0000",
+  "kind": "abc",
+  "bytes": 868,
+  "sha256": "9e253d1c5509ee068cc5e3d1016c5992d2e75b4b5731a7e85b06e034bf9ea818",
+  "fetched": "2026-09-19"
+ }
+]

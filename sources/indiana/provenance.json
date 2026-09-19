@@ -1,0 +1,42 @@
+[
+ {
+  "name": "conncoll-indiana-1917.pdf",
+  "url": "https://digitalcommons.conncoll.edu/cgi/viewcontent.cgi?article=1737&context=sheetmusic",
+  "kind": "pdf",
+  "bytes": 1804922,
+  "sha256": "274f368243ad91ffca768a745ed7486818f6818a449aa28e5f3608a9237e62c4",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "mutopia-andiemusik.ly",
+  "url": "https://www.mutopiaproject.org/ftp/SchubertF/D547/AnDieMusik/AnDieMusik.ly",
+  "kind": "lilypond",
+  "bytes": 17169,
+  "sha256": "5f9be2297f6b95cbf810aa476adf64eac99a39db2ade355efe32a861996ce8ef",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "mutopia-erlkoenig.ly",
+  "url": "https://www.mutopiaproject.org/ftp/SchubertF/D328/Erlkoenig/Erlkoenig.ly",
+  "kind": "lilypond",
+  "bytes": 62628,
+  "sha256": "1d1c7f58333446c7fcf9a2fd9d9a7f1ae794ca805990253d0933d2bb0b4f50af",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "mutopia-schubert-wiegen-lied.ly",
+  "url": "https://www.mutopiaproject.org/ftp/SchubertF/D498/schubert_wiegen_lied/schubert_wiegen_lied.ly",
+  "kind": "lilypond",
+  "bytes": 4124,
+  "sha256": "40a1c8465eda28d74f37646535d3ba9fae0676362e41c369da58f24535272776",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "tunearch-indiana.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=tunearch.org%2Fwiki%2FBack_Home_Again_in_Indiana.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 561,
+  "sha256": "353f942b83a95fcd2ed131371c52967010c0754ed6707ff0edea39dffeb8bd07",
+  "fetched": "2026-09-19"
+ }
+]

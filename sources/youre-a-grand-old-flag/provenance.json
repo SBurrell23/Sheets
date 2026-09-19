@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation-illian-mit-edu-jc-music-abc-contra-march-grandoldflag-c-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FContra%2Fmarch%2FGrandOldFlag_C%2F0000",
+  "kind": "abc",
+  "bytes": 481,
+  "sha256": "de842ae930d1378bf8ece6c84c7231fcab5a687359c4409d18e203078b84567b",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-llian-mit-edu-jc-music-abc-session-safd-george-m-medley-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fsession%2FSAFD%2F___%2FGeorge_M_medley%2F0003",
+  "kind": "abc",
+  "bytes": 415,
+  "sha256": "25528b038b447c58090c244f8d4a2f087f68d664a8358925a924ae0095c24779",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-band-grand-old-flag-0001.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/band/Grand_Old_Flag.abc",
+  "kind": "abc",
+  "bytes": 535,
+  "sha256": "1cdfa18ee55bff2c14ed90b947995d531500c143312232f11965a5017683e657",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "levy-076-168.pdf",
+  "url": "https://levysheetmusic.mse.jhu.edu/sites/default/files/collection-pdfs/levy-076-168.pdf",
+  "kind": "other",
+  "bytes": 7653540,
+  "sha256": "784fcb579bf558e4fab4c268686e97172dc3b2736b4b4b3ab3ac9fc39c5290aa",
+  "fetched": "2026-09-19"
+ }
+]

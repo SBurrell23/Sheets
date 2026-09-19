@@ -1,0 +1,26 @@
+[
+ {
+  "name": "Blue-Skies.mid",
+  "url": "https://www.sheetmusicsinger.com/wp-content/uploads/2022/09/Blue-Skies.mid",
+  "kind": "other",
+  "bytes": 13014,
+  "sha256": "ede7944f30bf6a6e93cd2363bd141082623943f9dae5a19dcfc9d7c480b50090",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "Blue-Skies.pdf",
+  "url": "https://www.sheetmusicsinger.com/wp-content/uploads/2026/02/Blue-Skies.pdf",
+  "kind": "other",
+  "bytes": 3035782,
+  "sha256": "1cd6ac22538d7ef90c8ee9d25965dcc692971a288395e7bb495c6ba5401e2421",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-spuds-thursdaycontra-com-tuneswaps-0-spuds-tuneswap-all-0080.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=spuds.thursdaycontra.com%2FTuneSwaps%2F0_SPUDS_TuneSwap_All%2F0080",
+  "kind": "abc",
+  "bytes": 872,
+  "sha256": "6a469b24ecaab030b3598fc14ad0387600da62889bca271d053b2d2e97d3743d",
+  "fetched": "2026-09-19"
+ }
+]

@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation-bc-music-files-main-jazz-songs-bye-bye-blackbird-no-ext-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=github.com%2Fian-hayden%2Fabc-music-files%2Fabc-music-files-main.zip%2Fabc-music-files-main%2FJazz%20songs%2FBye%20Bye%20Blackbird.no-ext%2F0000",
+  "kind": "abc",
+  "bytes": 411,
+  "sha256": "90f2531ccd21bc2bfdae4c7e8739cc3a50281a90d4f3e344a6f6d3e80b6abd25",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-bye-bye-blackbird-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Bye_bye_blackbird.abc",
+  "kind": "abc",
+  "bytes": 1172,
+  "sha256": "0ab04a04dc9a3d8a50bf8a83742eea5d97360a9b8828e33df5c436be7f621dce",
+  "fetched": "2026-09-19"
+ }
+]

@@ -1,0 +1,118 @@
+{
+    "format": "json",
+    "id": 18279,
+    "name": "Blue Eyes",
+    "url": "https://thesession.org/tunes/18279",
+    "member": {
+        "id": 122390,
+        "name": "jmeme",
+        "url": "https://thesession.org/members/122390"
+    },
+    "date": "2019-08-20 11:53:20",
+    "type": "reel",
+    "composer": "Damian McKee",
+    "tunebooks": 10,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 35680,
+            "url": "https://thesession.org/tunes/18279#setting35680",
+            "key": "Dminor",
+            "abc": "|:D2 DE A,D (3DDD|FDFG (3AAA GA|dDcd A_BGA|FDEC A,C (3CCC|! DE A,D (3DDD|FDFG (3AAA GA|dDcd A_BGA|1 FDEC D4:|2 FDEC Dddd||! d2 cd Acde|f (3fff a gecA|A_BAF E3 E|F2DF EC (3CCC|! d2 cd Acde|f (3fff a ge (3eee|decd A_BGA|FDEC D ddd|! d2 cd Acde|f (3fff a gecA|A_BAF E3 E|F2DF EC (3CCC|! DE A,D (3DDD|FDFG (3AAA GA|dDcd A_BGA|FDEC D4||",
+            "member": {
+                "id": 122390,
+                "name": "jmeme",
+                "url": "https://thesession.org/members/122390"
+            },
+            "date": "2019-08-20 11:53:20"
+        },
+        {
+            "id": 56736,
+            "url": "https://thesession.org/tunes/18279#setting56736",
+            "key": "Eminor",
+            "abc": "|:E2 EF B,E (3EEE|GEGA (3BBB AB|eEde B=cAB|GEFD B,D (3DDD|! E2 EF B,E (3EEE|GEGA (3BBB AB|eEde B=cAB|1 GEFD E4:|2 GEFD Eeee||! e2 de Bdef|g (3ggg b afdB|B=cBG F3 F|G2EG FD (3DDD|! e2 de Bdef|g (3ggg b af (3fff|efde B=cAB|GEFD E eee|! e2 de Bdef|g (3ggg b afdB|B=cBG F3 F|G2EG FD (3DDD|! E2 EF B,E (3EEE|GEGA (3BBB AB|eEde B=cAB|GEFD E4||",
+            "member": {
+                "id": 463,
+                "name": "Amckay",
+                "url": "https://thesession.org/members/463"
+            },
+            "date": "2026-03-08 09:42:39"
+        },
+        {
+            "id": 56738,
+            "url": "https://thesession.org/tunes/18279#setting56738",
+            "key": "Eminor",
+            "abc": "|:E2 EFg,E (3EEE|GEGA (3BBB AB|eede B=cAB|GEFD e,D (3DDD|! E2 EFg,E (3EEE|GEGA (3BBB AB|eede B=cAB|1 GEFD E4:|2 GEFD Eeee||! e2 de Bdef|g (3ggg b afdB|B=cBG F3 F|G2EG FD (3DDD|! e2 de Bdef|g (3ggg b af (3fff|efde B=cAB|GEFD E eee|! e2 de Bdef|g (3ggg b afdB|B=cBG F3 F|G2EG FD (3DDD|! E2 EFg,E (3EEE|GEGA (3BBB AB|eede B=cAB|GEFD E4||",
+            "member": {
+                "id": 463,
+                "name": "Amckay",
+                "url": "https://thesession.org/members/463"
+            },
+            "date": "2026-03-08 09:49:37"
+        }
+    ],
+    "comments": [
+        {
+            "id": 876898,
+            "url": "https://thesession.org/tunes/18279#comment876898",
+            "subject": "Blue Eyes",
+            "content": "I love beoga and no one ever uploaded this tune to the session. its the second tune from a lovely madness from their album, lovely madness",
+            "member": {
+                "id": 122390,
+                "name": "jmeme",
+                "url": "https://thesession.org/members/122390"
+            },
+            "date": "2019-08-20 11:53:20"
+        },
+        {
+            "id": 876905,
+            "url": "https://thesession.org/tunes/18279#comment876905",
+            "subject": "Re: Blue Eyes",
+            "content": "My only comment is that this would have to be transposed at least in part to play on a standard D Irish Whistle since this goes down to \"Low\" A and the D whistle only to D.",
+            "member": {
+                "id": 120052,
+                "name": "Thomas James",
+                "url": "https://thesession.org/members/120052"
+            },
+            "date": "2019-08-20 15:07:31"
+        },
+        {
+            "id": 876906,
+            "url": "https://thesession.org/tunes/18279#comment876906",
+            "subject": "Re: Blue Eyes",
+            "content": "You could, there's other ways around that though.     C whistle, octave jump that low A, or, substitute it for another note that still fits the melody.",
+            "member": {
+                "id": 109647,
+                "name": "NfldWhistler",
+                "url": "https://thesession.org/members/109647"
+            },
+            "date": "2019-08-20 15:56:32"
+        },
+        {
+            "id": 877241,
+            "url": "https://thesession.org/tunes/18279#comment877241",
+            "subject": "Re: Blue Eyes",
+            "content": "X:1  T:Blue Eyes, for C Whistle  Z:jmeme  S:https:\/\/thesession.org\/tunes\/18279#setting35680  R:reel  M:4\/4  L:1\/8  K:Emin  |:E2 EF BDEF | G (3GGG A BEGB | eEdE BEAE | G2 FG BDDB |  E2 EF BDEF | G (3GGG A BEGB | eEdE BEAE |1 G2 FG E2 BD :|2 G2 FG E2 ee|]  e2 de Bdef | g (3ggg b afdB | B=cBG F3 G |G2 FG FD (3DDD |  e2 de Bdef | g (3ggg b afdB | e2 de B=cAB |GGFG E2 ee|  e2 de Bdef | g (3ggg b afdB | B=cBG F3 G |G2 FG FD (3DDD |  E2 EF B,DEF | G (3GGG A BEGB | eEdE BEAE | G2 FG E2 B,D ||",
+            "member": {
+                "id": 77103,
+                "name": "Matthew Johnson",
+                "url": "https://thesession.org/members/77103"
+            },
+            "date": "2019-08-25 16:02:31"
+        },
+        {
+            "id": 1027927,
+            "url": "https://thesession.org/tunes/18279#comment1027927",
+            "subject": "Blue Eyes, X:3",
+            "content": "A few more changes for whistles\/flutes from x2",
+            "member": {
+                "id": 463,
+                "name": "Amckay",
+                "url": "https://thesession.org/members/463"
+            },
+            "date": "2026-03-08 09:49:37"
+        }
+    ]
+}

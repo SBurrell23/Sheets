@@ -1,0 +1,57 @@
+{
+    "format": "json",
+    "id": 15048,
+    "name": "The Avalon Quickstep",
+    "url": "https://thesession.org/tunes/15048",
+    "member": {
+        "id": 48348,
+        "name": "Mix O'Lydian",
+        "url": "https://thesession.org/members/48348"
+    },
+    "date": "2015-12-10 19:37:23",
+    "type": "reel",
+    "tunebooks": 9,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 27868,
+            "url": "https://thesession.org/tunes/15048#setting27868",
+            "key": "Dmajor",
+            "abc": "|:FG|\"D\" ABAG FG A2|\"D\" f2 [d4f4] FG|\"D\" ABAG FG A2|\"A\" [c6a6] FG|! \"D\" ABAG FG A2|\"D\" f2 [d4f4] ef|\"G\" gfed \"A\" cABc|\"D\" [F4d4][F2d2]:|! |:fg|\"D\" a2 faaf a2|\"G\" b4 \"A\" [c4a4]|\"D\" f2 d4 ef|\"G\" gfed \"A\" cB A2|\"G\" b4 \"A\" [c4a4]|! \"D\" a2 faaf a2|\"G\" b4 \"A\" [c4a4]|\"D\" f2 [d4f4] ef|\"G\" gfed \"A\" cABc|\"D\" [F4d4][F2d2]:|",
+            "member": {
+                "id": 48348,
+                "name": "Mix O'Lydian",
+                "url": "https://thesession.org/members/48348"
+            },
+            "date": "2015-12-10 19:37:23"
+        }
+    ],
+    "comments": [
+        {
+            "id": 778003,
+            "url": "https://thesession.org/tunes/15048#comment778003",
+            "subject": "The Avalon Quickstep",
+            "content": "A regular favourite at our monthly old-timey session in Bristol (UK).    It's what is known as a \"crooked\" tune. The first part is a standard eight bars (repeated) - but the second part is ten bars (repeated) - thus making 36 bars in total.    A trap for the unwary - i.e. for backers or for melody players attempting to jam along with it when they've never heard it before!",
+            "member": {
+                "id": 48348,
+                "name": "Mix O'Lydian",
+                "url": "https://thesession.org/members/48348"
+            },
+            "date": "2015-12-10 19:37:23"
+        },
+        {
+            "id": 917945,
+            "url": "https://thesession.org/tunes/15048#comment917945",
+            "subject": "Re: The Avalon Quickstep",
+            "content": "I learned this tune in the 60's from a Missouri fiddler who called it \"Sally Knows her Onions\".",
+            "member": {
+                "id": 70100,
+                "name": "Tim Rued",
+                "url": "https://thesession.org/members/70100"
+            },
+            "date": "2021-03-19 17:58:53"
+        }
+    ]
+}

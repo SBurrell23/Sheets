@@ -1,0 +1,58 @@
+[
+ {
+  "name": "abcnotation-abc-sourceforge-net-nmd-nmd-reelsd-g-txt-0062.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=abc.sourceforge.net%2FNMD%2Fnmd%2Freelsd-g.txt%2F0062",
+  "kind": "abc",
+  "bytes": 417,
+  "sha256": "5708f9cfb7fe9256c49804458314f6c9dc2ce21f66bdf0748fb87885d5b1a127",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-an-mit-edu-jc-music-abc-mirror-co-mando-com-tableditabc-0114.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fco-mando.com%2Ftableditabc%2F0114",
+  "kind": "abc",
+  "bytes": 424,
+  "sha256": "7362ae250882b71ca62c27db5c1a4ee62b6ac7d60c457b10b51c6416645fee3c",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-an-mit-edu-jc-music-abc-mirror-co-mando-com-tableditabc-0115.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Fco-mando.com%2Ftableditabc%2F0115",
+  "kind": "abc",
+  "bytes": 424,
+  "sha256": "89dbd7b25a84ac6e52095ac7890a79ce82c28f74d1beec90f32cdf3dbaacf35c",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-colinhume-com-abc-txt-1346.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=colinhume.com%2FABC.txt%2F1346",
+  "kind": "abc",
+  "bytes": 561,
+  "sha256": "b6816779b5a1a7451610d489bc09353fb7a416b7b106355d859bceee3f7b85f4",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-sweet-georgia-brown-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Sweet_Georgia_Brown.abc",
+  "kind": "abc",
+  "bytes": 1815,
+  "sha256": "e2845bc4e16fdd2d8acf5d9030a21f32acbc0df5d919b7ef268501112dcf0b6e",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-usic-abc-mirror-amazoncreek-com-044-sweet-georgia-brown-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2Fmirror%2Famazoncreek.com%2F044_Sweet_Georgia_Brown%2F0000",
+  "kind": "abc",
+  "bytes": 624,
+  "sha256": "d9bc9b632929829c0037a1f44839d19f8b45d897ac13677fb5d88d922f5b9c37",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-usic-abc-session-totdwm-misc-sweet-georgia-brown-g-32-4-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/session/TotDWM/misc/Sweet_Georgia_Brown-G-32-4.abc",
+  "kind": "abc",
+  "bytes": 802,
+  "sha256": "589a3130d6682b87f619eae5dfa5f40890a70201906496e5914ecd8cc6e082dc",
+  "fetched": "2026-09-19"
+ }
+]

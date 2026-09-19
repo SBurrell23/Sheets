@@ -1,0 +1,66 @@
+[
+ {
+  "name": "abcnotation-oflahertyretreat-org-documents-tune-books-100moretunes-0029.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=oflahertyretreat.org%2Fdocuments%2Ftune-books%2F100moretunes%2F0029",
+  "kind": "abc",
+  "bytes": 544,
+  "sha256": "b87a1305902f7f7620a7d461469089995b0776623cc0c5b096957905973600e6",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-555-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F555.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 238,
+  "sha256": "9d734fa7f7f0cf8364170094748fb6e6d8711e766920a57ed3019e6a61e04d49",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-555-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F555.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 249,
+  "sha256": "323fb46471d802e5d948d0e47b214cabf61d96f5c65d2c2d8390fbac6c3c0e29",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-555-no-ext-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F555.no-ext%2F0003",
+  "kind": "abc",
+  "bytes": 249,
+  "sha256": "ac54d92c003ac593560de45e0f037234cfa428ffd5318b9adf8af7b130732d58",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-555-no-ext-0004.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F555.no-ext%2F0004",
+  "kind": "abc",
+  "bytes": 312,
+  "sha256": "8be26882e754f497e5488fc90415a98c5797d36353a72491ba8e18cc7d6bd237",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-www-atrilcoral-com-partituras-abc-c-zip-c-0475.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=www.atrilcoral.com%2FPartituras_ABC%2Fc.zip%2Fc%2F0475",
+  "kind": "abc",
+  "bytes": 269,
+  "sha256": "8c5fc6194ed42947debce40be06574c3b6bdc952752b471e93799ff09058aa31",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "thesession-555.json",
+  "url": "https://thesession.org/tunes/555?format=json",
+  "kind": "abc",
+  "bytes": 10634,
+  "sha256": "cc09a5528a999a171e99116b1cd0d15d67ea57c561eee20a83da00db32888d64",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "usf-aa_sheet_music-6.pdf",
+  "url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=1005&context=aa_sheet_music",
+  "kind": "pdf",
+  "bytes": 6632881,
+  "sha256": "6dff3d4eed64e46beabd8ed8d5b9f0c62cc480eb70705aa4424252842f47f60f",
+  "fetched": "2026-09-19"
+ }
+]
