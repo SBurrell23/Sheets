@@ -1,0 +1,44 @@
+{
+  "title": "Ain't Misbehavin'",
+  "source": "Fats Waller and Harry Brooks, 1929 (Connie's Hot Chocolates)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 112,
+  "bars": [
+    { "chord": "C",     "notes": "R:2 C5:2 D5:2 C5:2 G5:2 [C/E]G5:6" },
+    { "chord": "Ddim",  "notes": "R:2 D5:2 E5:2 D5:2 [G7]A5:8" },
+    { "chord": "C",     "notes": "R:2 G5:2 A5:2 G5:2 [E7]C6:2 C6:4 B5:2" },
+    { "chord": "F",     "notes": "D6:2 C6:2 A5:2 [Fm]E5:4 Eb5:2 D5:4" },
+    { "chord": "C/E",   "notes": "R:2 C5:2 D5:2 C5:2 [Eb7]G5:2 G5:6" },
+    { "chord": "Ddim",  "notes": "R:2 D5:2 E5:2 D5:2 [G7]A5:2 A5:4 G5:2" },
+    { "chord": "C",     "notes": "E5:12~ [C7]E5:4~" },
+    { "chord": "D7",    "notes": "E5:8~ [G7]E5:8" },
+
+    { "chord": "C",     "notes": "R:2 C5:2 D5:2 C5:2 G5:2 [C/E]G5:6" },
+    { "chord": "Ddim",  "notes": "R:2 D5:2 E5:2 D5:2 [G7]A5:8" },
+    { "chord": "C",     "notes": "R:2 G5:2 A5:2 G5:2 [E7]C6:2 C6:4 B5:2" },
+    { "chord": "F",     "notes": "D6:2 C6:2 A5:2 [Fm]E5:4 Eb5:2 D5:4" },
+    { "chord": "C/E",   "notes": "R:2 C5:2 D5:2 C5:2 [Eb7]G5:2 G5:6" },
+    { "chord": "Ddim",  "notes": "R:2 D5:2 E5:2 D5:2 [G7]A5:2 A5:4 G5:2" },
+    { "chord": "C",     "notes": "E5:8~ [F]E5:8~" },
+    { "chord": "C7",    "notes": "E5:8~ [E7]E5:8" },
+
+    { "chord": "Am",    "notes": "R:4 C6:2 A5:2 C6:2 A5:6" },
+    { "chord": "F7/A",  "notes": "R:4 C6:2 A5:2 C6:2 A5:6" },
+    { "chord": "D7/A",  "notes": "R:4 C6:2 A5:2 C6:2 A5:6" },
+    { "chord": "A7",    "notes": "R:4 C#6:2 A5:2 C#6:2 A5:6" },
+    { "chord": "D",     "notes": "R:4 D6:4 D6:4 [G7]D6:4" },
+    { "chord": "Am7",   "notes": "D6:4 C6:4 [Dm7]B5:4 A5:4" },
+    { "chord": "G7",    "notes": "G5:8 [A7]A5:8" },
+    { "chord": "D7",    "notes": "E5:8 [G7]D5:8" },
+
+    { "chord": "C",     "notes": "R:2 C5:2 D5:2 C5:2 G5:2 [C/E]G5:6" },
+    { "chord": "Ddim",  "notes": "R:2 D5:2 E5:2 D5:2 [G7]A5:8" },
+    { "chord": "C",     "notes": "R:2 G5:2 A5:2 G5:2 [E7]C6:2 C6:4 B5:2" },
+    { "chord": "F",     "notes": "D6:2 C6:2 A5:2 [Fm]E5:4 Eb5:2 D5:4" },
+    { "chord": "C/E",   "notes": "R:2 C5:2 D5:2 C5:2 [Eb7]G5:2 G5:6" },
+    { "chord": "Ddim",  "notes": "R:2 D5:2 E5:2 D5:2 [G7]A5:2 A5:4 G5:2" },
+    { "chord": "C",     "notes": "C6:4~ [G7]C6:12~" },
+    { "chord": "C",     "notes": "C6:16" }
+  ]
+}

@@ -456,6 +456,17 @@ a.dl .arrow{color:var(--accent); font-weight:600}
    inline labels. */
 @media (min-width:561px) and (max-width:1024px){
   .row{gap:7px; align-items:center}
+  /* The song button and the two nav buttons flanking it are one control, and
+     should read as one height. They did not on a touch screen: the
+     pointer:coarse block pads .picker .nav to 14px a side at 22px, which makes
+     them 52px tall against the song button's 40. Both get the same explicit
+     height and centre their contents in it, rather than each falling into a
+     height out of its own padding and line box. */
+  .picker .nav,.songbtn{height:40px}
+  .picker .nav{min-width:72px; padding:0 16px; font-size:20px;
+    display:inline-flex; align-items:center; justify-content:center}
+  .picker .nav.shuffle{min-width:50px; padding:0 12px}
+  .songbtn{padding-top:0; padding-bottom:0}
   /* Grid, not a wrapping flex row. Wrapping puts the caption on its own line
      but buys no WIDTH, because a flex container is sized as though it did not
      wrap -- the group stays as wide as caption + gap + controls laid out
@@ -483,7 +494,7 @@ a.dl .arrow{color:var(--accent); font-weight:600}
   .btn.step{min-width:0; padding:0 10px; font-size:13px; line-height:1;
     display:inline-flex; align-items:center; justify-content:center}
   .octgrp #octnow{min-width:16px; font-size:12px; text-align:center}
-  .ctl input[type=range]{width:82px; height:20px}
+  .ctl input[type=range]{width:118px; height:20px}
   .ctl output{min-width:40px; font-size:11.5px}
   /* Play through Tempo hug the left; the two file buttons hug the right. #pdf
      already carries margin-left:auto, but an auto margin resolves to zero when

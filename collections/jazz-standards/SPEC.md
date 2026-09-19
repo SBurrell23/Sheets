@@ -96,8 +96,13 @@ Write exactly one file to the path you are given,
   sixteenth units, and make bar 1 exactly that long. Most songs in this repertoire have a pickup;
   do not throw it away, it is usually the first thing you recognise.
 - `tempo` — quarter notes per minute. Ballads 72–100, medium swing 112–160, up-tempo 176–220.
-  Stay inside 50–220. **If your source is printed in cut time**, its metronome mark counts half
-  notes: double it. See §4.
+  Stay inside 50–220. **If your source is a printed sheet in cut time**, its metronome mark
+  counts half notes: double it. See §4.
+
+  **That doubling applies to a printed metronome mark and to nothing else.** A MIDI file's tempo
+  event is microseconds per *quarter note* by definition, whatever its time signature says, so a
+  cut-time MIDI already reports quarters and doubling it would ship the song at twice speed. The
+  same goes for a tempo quoted by a database or a streaming service.
 - `bars` — the arrangement, one object per bar.
 
 ## 4. Meter and note values — read this before you write a bar
@@ -136,6 +141,11 @@ report that you did.
 | `2`   | eighth        | | `8`   | half            |
 | `3`   | dotted eighth | | `12`  | dotted half     |
 | `4`   | quarter       | | `16`  | whole           |
+
+**That table is the whole list.** There is no `10`, no `14`, no double dot: the durations not in
+it are rejected, so a figure that wants one has to be written as two tied tokens — `C5:6~ C5:4`
+for a quarter tied to a dotted eighth. That is not a workaround, it is how the notation reads
+anyway.
 
 A token is `<note>:<duration>` — `C5:4` (`C4` is middle C, so `C5` sits in the treble staff),
 `F#5:2`, `Bb4:8`, `R:4` for a rest, `[G7]D5:4` to change chord mid-bar.
@@ -176,12 +186,20 @@ bridge missing.
    of dead air in the middle of a 32-bar chorus, three or four times over. **Tie the held note
    through it** — `C5:16~` then `C5:16` — and note in your report that you did. The sustain is
    yours rather than the sheet's, which is why it is worth one line to say so.
+
+   In a **piano-arrangement or MIDI source** that bar is never empty — it holds the fill, and
+   nothing in the file tells you whether the vocal line sustained under it or stopped. The answer
+   is the same: **tie through, and discard the fill.** §1.2 says do not write the piano part, and
+   a fill is the piano part. Do not let an arpeggio in the accompaniment become your melody
+   because it was the only thing sounding.
 3. **Range `C4` to `G6`** — just under three octaves. **Do not bend a melody to the window.**
    If a phrase sits outside it, move that whole phrase, or the whole section, by an octave.
    Only if the song genuinely will not fit either way should you alter a note, and then say
    which in your report.
-4. **The song ends on the tonic `C5`** (or `A5`/`A4` in A minor) — or on the root of the closing
-   chord — held at least a half note. Most of these end on a long tonic anyway.
+4. **The song ends on the tonic** — or on the root of the closing chord — held at least a half
+   note. Most of these end on a long tonic anyway. **In whatever octave the tune actually lands**:
+   the check is on pitch class, `C5` is only the commonest answer, and a song whose last phrase
+   climbs should end on `C6`. Do not drop a correct final note an octave to match the example.
 5. Chord suffixes allowed, and this is the complete list:
 
    `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.
@@ -200,6 +218,14 @@ Write a chord symbol for **every harmonic change**, using `[Chord]` mid-bar. One
 bar is normal in this repertoire and four is not unusual in a turnaround. A file with one chord
 per bar throughout has almost certainly lost something.
 
+**When the chord changes under a held note**, which in this repertoire is constantly — the
+`IV → IVm` on beat 3, the `I → I/3` on beat 4, both under a melody note that is still sounding
+— a `[Chord]` marker has nowhere to go, because it can only attach to the start of a token.
+**Split the note with a tie and put the chord on the second half:** `E5:4~ [Fm]E5:4`. That is
+free — it is one sustained note either way — and it puts the symbol on the beat it belongs to.
+Do not shunt the chord early or late to find an onset; an arranger who does that writes a
+harmony the song does not have, half a beat out, several times a page.
+
 - **ii–V–I is the engine.** `Dm7 G7 C`. Write the ii as `m7`. You will write this progression,
   or a secondary version of it, dozens of times.
 - **Secondary dominants round the circle** are the other half of the sound:
@@ -211,8 +237,10 @@ per bar throughout has almost certainly lost something.
 - **A 1920s tonic is usually a plain triad or a `6`**, not a `maj7`. Use `maj7` where the sheet
   really has one and otherwise leave the tonic plain or as a `6`. Resist the reflex to make
   everything a seventh chord; that is a later sound.
-- **Do not reharmonise.** No tritone substitutions, no modal interchange, no Coltrane changes,
-  nothing you learned from a modern fake book. Where a modern Real Book disagrees with the 1929
+- **Do not reharmonise.** Do not *add* a tritone substitution, modal interchange, or anything
+  else you learned from a modern fake book. Where the period source genuinely has one — and they
+  do; a flat-III seventh standing in for V-of-ii turns up in this repertoire — **write it**, and
+  say in your report that it was the source's and not yours. Where a modern Real Book disagrees with the 1929
   sheet, **follow the 1929 sheet**, and say in your report that the two differ if you noticed it.
 
 ## 8. Check your work — required
@@ -269,6 +297,10 @@ Cross-check against published sources. For this repertoire the ones that pay are
     of something, not a second source.
 - Anything cached for you under `sources/<slug>/` — **read that before fetching anything.**
 
+**Before you read a line of any ABC file, see §12.** The archives recommended here interleave
+`w:` lyric lines with the notes, and reproducing one is the single highest-cost failure in this
+pipeline: it has terminated an agent mid-task and thrown away its entire context, twice.
+
 Two or three lookups, then write. If you end up working substantially from recall because no
 source could be reached, **say so plainly in your report** — that is a useful answer, not a
 failure, and it is graded differently from a transcription.
@@ -308,7 +340,18 @@ natural to paste a whole tune in while working out the phrasing.
 
 So:
 
-- **Ignore every `w:` line in an ABC file.** Pitches, durations and chord symbols only.
+- **Never open a raw ABC file. Strip it first:**
+
+  ```bash
+  python src/stripw.py sources/<slug>/<file>.abc
+  ```
+
+  Read that output instead. Telling agents to ignore the `w:` lines turned out not
+  to be enough, because by the time the instruction is relevant the words are already
+  in front of them; this removes them at the source, so there is nothing to
+  reproduce. Nothing musical is lost — the format stores no lyrics, so a `w:` line
+  could never have reached a song file anyway. It handles LilyPond `ddlyrics`
+  blocks too, and it takes several files at once.
 - **Never paste a long verbatim passage** from a source into a file, a scratchpad note, a tool
   call or your report. Describe it instead: "bars 9–16 are the A material a major third higher"
   is the useful sentence, not a transcription of somebody else's file.

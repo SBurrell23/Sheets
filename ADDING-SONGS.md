@@ -96,9 +96,17 @@ this and not anything stranger. Prefix by slug.
 sessions have been killed mid-task and returned nothing -- the Jazz Standards batch lost one
 outright. The cause is the same both times: ABC files for twentieth-century songs carry `w:`
 lyric lines interleaved with the notes, and an agent working out phrasing pastes the tune in
-whole. Say in the prompt, in as many words, that lyric lines are to be ignored and that no long
-verbatim passage from any source may appear in a file, a scratchpad note or the report. A
-terminated agent costs its whole context and delivers nothing, so this is cheap insurance.
+whole. Saying "ignore the lyric lines" in the prompt is **not enough** -- it failed on the third
+agent, which died on its first turn. By the time the instruction is relevant the words are
+already in the agent's context. Remove them at the source instead:
+
+```bash
+python src/stripw.py sources/<slug>/<file>.abc
+```
+
+Tell the agent to read that output and never to open the raw file. Nothing musical is lost,
+since the format stores no lyrics. A terminated agent costs its whole context and delivers
+nothing, so this is cheap insurance.
 
 Treat what comes back as **evidence, not fact**. In one session three agent claims
 were wrong on the facts — a reported octave displacement that a mechanical diff
