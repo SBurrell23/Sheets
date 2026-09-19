@@ -114,6 +114,15 @@ words were about a file titled *Hot House* -- Tadd Dameron's **1945** contrafact
 
 - Tell agents not to re-emit **any** source notation in their own messages, melody included.
   Read with scripts, transform with scripts, write the JSON. Describe passages, never quote them.
+- **Write the song file in halves.** The fifth casualty died producing a song file, not reading a
+  source: it had just finished one 32-bar chorus and was starting the next. A single output
+  carrying a complete chorus of a famous tune is the shape that trips it. Have agents create the
+  file with the first sixteen bars and append the rest with a second edit, and keep long verbatim
+  bar listings out of reports.
+- **Expect this on popular song and not on the rest.** Five of fifteen dispatches died on Jazz
+  Standards; Folk, Classical, Hymns and Christmas lost none. 1900-1929 popular song is the most
+  recorded and most litigated repertoire there is, and much of it has famous later recordings
+  still in copyright. Budget for re-dispatches on this material specifically.
 - **Triage matches on title and cannot see a date.** A contrafact is filed under both names, and
   the later tune is usually still in copyright. Check the `C:` and any date in a cached file
   before pointing an agent at it -- and delete the ones that are wrong, because a bad cache is
