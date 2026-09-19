@@ -2478,5 +2478,61 @@ window.PS_MANIFEST = [
     ]
    }
   ]
+ },
+ {
+  "id": "piano-miniatures",
+  "title": "Piano Miniatures",
+  "blurb": "Short character pieces by Grieg, Schumann, Mendelssohn and Tchaikovsky. Complete, not excerpts.",
+  "order": 7,
+  "sets": [
+   {
+    "id": "piano-miniatures",
+    "title": "",
+    "label": "Romantic character pieces for piano",
+    "order": 99,
+    "songs": [
+     {
+      "slug": "arietta",
+      "title": "Arietta",
+      "key": "C",
+      "meter": "2/4",
+      "tempo": 63,
+      "bars": 23,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 1, 1867",
+      "pdf": "songs/piano-miniatures/arietta.pdf"
+     },
+     {
+      "slug": "gnossienne-no-1",
+      "title": "Gnossienne No. 1",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 41,
+      "source": "Erik Satie, Gnossiennes No. 1, 1890",
+      "pdf": "songs/piano-miniatures/gnossienne-no-1.pdf"
+     },
+     {
+      "slug": "wilder-reiter",
+      "title": "The Wild Horseman",
+      "key": "Am",
+      "meter": "6/8",
+      "tempo": 112,
+      "bars": 25,
+      "source": "Robert Schumann, Album für die Jugend Op. 68 No. 8, 1848",
+      "pdf": "songs/piano-miniatures/wilder-reiter.pdf"
+     },
+     {
+      "slug": "watchmans-song",
+      "title": "Watchman's Song",
+      "key": "C",
+      "meter": "2/2",
+      "tempo": 46,
+      "bars": 53,
+      "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 3, 1867",
+      "pdf": "songs/piano-miniatures/watchmans-song.pdf"
+     }
+    ]
+   }
+  ]
  }
 ];

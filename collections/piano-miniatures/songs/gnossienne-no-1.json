@@ -1,0 +1,57 @@
+{
+  "title": "Gnossienne No. 1",
+  "source": "Erik Satie, Gnossiennes No. 1, 1890",
+  "key": "Am",
+  "meter": "4/4",
+  "tempo": 100,
+  "bars": [
+    { "chord": "Am", "notes": "R:4 E5:2 G5:2 F#5:4 E5:4" },
+    { "chord": "Am", "notes": "E5:2 D#5:6 E5:2 D#5:6" },
+    { "chord": "Am", "notes": "R:4 E5:2 G5:2 F#5:4 E5:4" },
+    { "chord": "Am", "notes": "G#5:2 A5:6 G#5:2 A5:6" },
+    { "chord": "Am", "notes": "R:4 E5:2 G5:2 F#5:4 E5:4" },
+    { "chord": "Am", "notes": "E5:2 D#5:6 C5:2 B4:6" },
+    { "chord": "Em", "notes": "A4:1 B4:3 A4:2 B4:6~ B4:2 R:2" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" },
+
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" },
+
+    { "chord": "Am", "notes": "R:2 E5:2 F#5:2 G#5:2 A5:2 B5:2 D#6:2 B5:2" },
+    { "chord": "Am", "notes": "A5:4 B5:1 A5:3~ A5:8" },
+    { "chord": "Am", "notes": "B5:2 A5:6 A5:2 G#5:6" },
+    { "chord": "Am", "notes": "F5:2 E5:6 E5:2 D#5:6" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" },
+
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" },
+
+    { "chord": "Am", "notes": "R:4 E5:2 G5:2 F#5:4 E5:4" },
+    { "chord": "Am", "notes": "E5:2 D#5:12~ D#5:2" },
+    { "chord": "Am", "notes": "R:4 E5:2 G5:2 F#5:4 E5:4" },
+    { "chord": "Am", "notes": "G#5:2 A5:12~ A5:2" },
+
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" },
+
+    { "chord": "Am", "notes": "R:2 E5:2 F#5:2 G#5:2 A5:2 B5:2 D#6:2 B5:2" },
+    { "chord": "Am", "notes": "A5:4 B5:1 A5:3~ A5:8" },
+    { "chord": "Am", "notes": "B5:2 A5:6 A5:2 G#5:6" },
+    { "chord": "Am", "notes": "F5:2 E5:6 E5:2 D#5:6" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" },
+
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Dm", "notes": "C5:2 D5:6 C5:2 B4:6" },
+    { "chord": "Am", "notes": "C5:1 B4:3 B4:1 A4:3~ A4:8~" },
+    { "chord": "Am", "notes": "A4:16" }
+  ]
+}

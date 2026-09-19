@@ -1,0 +1,76 @@
+{
+  "title": "Watchman's Song",
+  "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 3, 1867",
+  "key": "C",
+  "meter": "2/2",
+  "pickup": 4,
+  "tempo": 46,
+  "bars": [
+    { "chord": "G",    "notes": "G4:4" },
+
+    { "chord": "C",    "notes": "C5:4 C5:4 B4:4 A4:2 G4:2" },
+    { "chord": "F",    "notes": "A4:8 [Am]C5:4 R:4" },
+    { "chord": "Dm7",  "notes": "D5:4 D5:4 [G]D5:4 D5:4" },
+    { "chord": "C",    "notes": "E5:8 R:4 [E]E5:4" },
+
+    { "chord": "Am",   "notes": "A5:4 A5:4 G5:4 F5:2 E5:2" },
+    { "chord": "F",    "notes": "F5:8 [Am]E5:8" },
+    { "chord": "Dm7",  "notes": "D5:4 D5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",    "notes": "C5:8 R:4 [G]G5:4~" },
+
+    { "chord": "Em",   "notes": "G5:2 A5:2 [Em7]B5:4 [Am]B5:4 [Am7]G5:4" },
+    { "chord": "Am",   "notes": "E5:4 [D7]F#5:4 [G]G5:4 G5:4~" },
+    { "chord": "Em",   "notes": "G5:2 A5:2 [Em7]B5:2 G5:2 [Am]B5:4 [Am7]A5:2 G5:2" },
+    { "chord": "Am",   "notes": "E5:4 [D7]F#5:4 [G]G5:4 G4:4" },
+
+    { "chord": "C",    "notes": "C5:4 C5:4 B4:4 A4:2 G4:2" },
+    { "chord": "F",    "notes": "A4:8 [Am]C5:4 R:4" },
+    { "chord": "Dm7",  "notes": "D5:4 D5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",    "notes": "C5:8 R:4 [G]G5:4~" },
+
+    { "chord": "Em",   "notes": "G5:2 A5:2 [Em7]B5:4 [Am]B5:4 [Am7]G5:4" },
+    { "chord": "Am",   "notes": "E5:4 [D7]F#5:4 [G]G5:4 G5:4~" },
+    { "chord": "Em",   "notes": "G5:2 A5:2 [Em7]B5:2 G5:2 [Am]B5:4 A5:2 G5:2" },
+    { "chord": "Am7",  "notes": "E5:4 [D7]F#5:4 [G]G5:4 G4:4" },
+
+    { "chord": "C",    "notes": "C5:4 C5:4 B4:4 A4:2 G4:2" },
+    { "chord": "F",    "notes": "A4:8 [Am]C5:4 R:4" },
+    { "chord": "Dm7",  "notes": "D5:4 D5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",    "notes": "C5:8 R:8" },
+
+    { "chord": "Cm",   "notes": "R:16" },
+    { "chord": "Cm",   "notes": "R:12 (3 Eb5:2 G5:2 C6:2)" },
+    { "chord": "Cm",   "notes": "C6:6 G5:2 Eb5:4 G5:4" },
+    { "chord": "Bb",   "notes": "Bb5:16" },
+
+    { "chord": "Db",   "notes": "R:16" },
+    { "chord": "Db",   "notes": "R:12 (3 F5:2 Ab5:2 Db6:2)" },
+    { "chord": "Db",   "notes": "Db6:6 Ab5:2 F5:4 [Fm]Ab5:4" },
+    { "chord": "G",    "notes": "G5:16" },
+
+    { "chord": "Cm",   "notes": "R:16" },
+    { "chord": "Cm",   "notes": "R:12 (3 Eb5:2 G5:2 C6:2)" },
+    { "chord": "Cm",   "notes": "C6:6 G5:2 Eb5:4 G5:4" },
+    { "chord": "Bb",   "notes": "Bb5:16" },
+
+    { "chord": "Db",   "notes": "R:16" },
+    { "chord": "Db",   "notes": "R:12 (3 F5:2 Ab5:2 Db6:2)" },
+    { "chord": "Db",   "notes": "Db6:6 Ab5:2 F5:4 [Fm]Ab5:4" },
+
+    { "chord": "G",    "notes": "G5:8 R:4 G5:4~" },
+    { "chord": "Em",   "notes": "G5:2 A5:2 [Em7]B5:4 [Am]B5:4 [Am7]G5:4" },
+    { "chord": "Am",   "notes": "E5:4 [D7]F#5:4 [G]G5:4 G5:4~" },
+    { "chord": "Em",   "notes": "G5:2 A5:2 [Em7]B5:2 G5:2 [Am]B5:4 [Am7]A5:2 G5:2" },
+    { "chord": "Am",   "notes": "E5:4 [D7]F#5:4 [G]G5:4 G4:4" },
+
+    { "chord": "C",    "notes": "C5:4 C5:4 B4:4 A4:2 G4:2" },
+    { "chord": "F",    "notes": "A4:8 [Am]C5:4 R:4" },
+    { "chord": "Dm7",  "notes": "D5:4 D5:4 F5:4 F5:4" },
+    { "chord": "E",    "notes": "E5:12 E5:4" },
+
+    { "chord": "Am",   "notes": "A5:4 A5:4 G5:4 F5:2 E5:2" },
+    { "chord": "F",    "notes": "F5:8 [Am]E5:8" },
+    { "chord": "Dm7",  "notes": "D5:4 D5:4 [G7]D5:6 C5:2" },
+    { "chord": "C",    "notes": "C5:16" }
+  ]
+}

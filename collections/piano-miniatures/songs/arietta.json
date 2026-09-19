@@ -1,0 +1,36 @@
+{
+  "title": "Arietta",
+  "source": "Edvard Grieg, Lyric Pieces Op. 12 No. 1, 1867",
+  "key": "C",
+  "meter": "2/4",
+  "tempo": 63,
+  "bars": [
+    { "chord": "C",       "notes": "E6:2 E6:2 E6:2 E6:2" },
+    { "chord": "Bdim",    "notes": "E6:2 C#6:2 D6:4" },
+    { "chord": "Bdim",    "notes": "D6:2 D6:2 D6:2 D6:2" },
+    { "chord": "C",       "notes": "D6:2 B5:2 C6:4" },
+
+    { "chord": "F#m7b5",  "notes": "C6:2 C6:2 [Cmaj7]B5:2 B5:2" },
+    { "chord": "F#m7b5",  "notes": "A5:2 A5:2 [Cmaj7]G5:4" },
+    { "chord": "F#m7b5",  "notes": "C6:2 C6:2 [Cmaj7]B5:2 G5:1 B5:1" },
+    { "chord": "F#m7b5",  "notes": "A5:2 A5:2 [Cmaj7]G5:4" },
+
+    { "chord": "F#m7b5",  "notes": "F#5:2 [Am7]G5:1 A5:1 B5:1 D6:2 C6:1" },
+    { "chord": "Cdim",    "notes": "D#5:4 [C]E5:4" },
+    { "chord": "Dm7",     "notes": "D5:2 [Fmaj7]E5:1 F5:1 G#5:1 B5:2 A5:1" },
+    { "chord": "G7sus4",  "notes": "C5:8" },
+
+    { "chord": "C",       "notes": "E6:2 E6:2 E6:2 E6:2" },
+    { "chord": "Bdim",    "notes": "E6:2 C#6:2 D6:4" },
+    { "chord": "Bdim",    "notes": "D6:2 D6:2 D6:2 D6:2" },
+    { "chord": "C",       "notes": "D6:2 B5:2 C6:4" },
+
+    { "chord": "C7",      "notes": "G5:2 G5:2 [D7]F#5:2 D5:1 F#5:1" },
+    { "chord": "Dm7",     "notes": "F5:2 F5:2 [C/E]E5:4" },
+    { "chord": "Dm7",     "notes": "D5:2 [Fmaj7]E5:1 F5:1 G#5:1 B5:2 A5:1" },
+    { "chord": "G#dim",   "notes": "B4:4 [Am]C5:4" },
+    { "chord": "Dm7",     "notes": "D5:2 [Fmaj7]E5:1 F5:1 G#5:1 B5:2 A5:1" },
+    { "chord": "G7sus4",  "notes": "C5:8" },
+    { "chord": "C",       "notes": "E6:2 E6:2 E6:2 E6:2" }
+  ]
+}

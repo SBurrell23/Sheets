@@ -1,0 +1,18 @@
+X:1
+T:Gnossienne No. 1
+C:Erik Satie, Gnossiennes No. 1, 1890
+M:4/4
+L:1/16
+Q:1/4=100
+K:Am clef=treble
+"Am"z4 e2g2 ^f4 e4 | "Am"e2 ^d6 e2 d6 | "Am"z4 e2g2 ^f4 e4 | "Am"^g2 a6 g2 a6 |
+"Am"z4 e2g2 ^f4 e4 | "Am"e2 ^d6 c2 B6 | "Em"A1B3 A2 B6- B2 z2 | "Am"c1B3 B1A3- A8- |
+"Am"A16 | "Dm"c2 d6 c2 B6 | "Dm"c2 d6 c2 B6 | "Am"c1B3 B1A3- A8- |
+"Am"A16 | "Am"z2 e2 ^f2^g2 a2b2 ^d'2b2 | "Am"a4 b1a3- a8 | "Am"b2 a6 a2 ^g6 |
+"Am"f2 e6 e2 ^d6 | "Am"c1B3 B1A3- A8- | "Am"A16 | "Dm"c2 d6 c2 B6 |
+"Dm"c2 d6 c2 B6 | "Am"c1B3 B1A3- A8- | "Am"A16 | "Am"z4 e2g2 ^f4 e4 |
+"Am"e2 ^d12- d2 | "Am"z4 e2g2 ^f4 e4 | "Am"^g2 a12- a2 | "Dm"c2 d6 c2 B6 |
+"Dm"c2 d6 c2 B6 | "Am"c1B3 B1A3- A8- | "Am"A16 | "Am"z2 e2 ^f2^g2 a2b2 ^d'2b2 |
+"Am"a4 b1a3- a8 | "Am"b2 a6 a2 ^g6 | "Am"f2 e6 e2 ^d6 | "Am"c1B3 B1A3- A8- |
+"Am"A16 | "Dm"c2 d6 c2 B6 | "Dm"c2 d6 c2 B6 | "Am"c1B3 B1A3- A8- |
+"Am"HA16 |]
