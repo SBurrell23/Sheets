@@ -3,7 +3,23 @@ T:Clair de Lune
 C:Claude Debussy, Suite bergamasque, 1905
 M:9/8
 L:1/16
-Q:3/8=54
+Q:3/8=48
 K:C clef=treble
-"C"z2 G2g2- g6 e6- | "Ddim"e2d2e2 d12- | "C"d2c2d2 c3 e6 c3- | "G7"c2B2c2 B12 |
-"C"d2c2d2 g6 e6- | "F"e2d2e2 d6 c6- | "C7"c2c2d2 a3 g6 e3 | "Am"e2d2e2 d3 c6 HA3 |]
+"C/E"z4 g8 e6- | "Ddim"e2d2e2 d12- | "Am7/E"d2c2d2 c3 e6 c3- | "G7/D"c2B2c2 B12- |
+"Dm7/C"B2A2B2 A2d2A2 "G7/B"G2A2G2- | "Dm7/A"G2F2G2 F6 "E7/G#"E6- | "Am7/G"E2E2F2 E2A2E2 "Dm7/F"D2E2D2- | "Am7/E"D2C2D2 C6 "G7/D"B6 |
+"C"z6 g6 e6- | "Dm7/F"e2d2e2 d12- | "C/E"d2c2d2 g6 e6- | "Dm7/F"e2d2e2 d6 c6- |
+"C7/G"c2c2d2 a3 g6 e3- | "Am"e2d2e2 d3 c6 A3 | "Dm"z3 e'3- e'2d'2d'2 d'2"Dm7"c'2c'2 | "Dm7/C"c'2"F"b2b2 b3"F/C"c'3 "F/A"a6 |
+"Dm"z3 e'3- e'2f'2e'2 d'2e'2d'2 | "F/C"c'2d'2c'2 b3c'3 "Dm/A"a6- | "G7"a3f3 g3b3 a3f3 | "Fdim"z2 f2f2 f2f2g2 f6 |
+"F/A"z3 f3 g3c'3 a3f3 | "Bm7b5"z2 f2f2 f2f2g2 f6 | "F/C"z3 f3 g3d'3 c'3a3 | "Dm7"z2 a2a2 a2a2b2 a2c'2d'2 |
+"C/E"g12 "Cm/Eb"g6 | "G7/D"g12 "G7"g6 | "C"G12 "Eb/G"_B4 c2 | "C"G12 "Eb/G"_B4 G2 |
+"C"c4 d2 e6 c4 e2 | "D7"^f2e2c2 c6 z6 | "G7"A12 "Em"B4 e2 | "G7"A12 "Em"B4 e2 |
+"Dm"f6- f3e3 ^c3d3 | "F"a12 "G"g6 | "C"g12 "Eb/G"_b4 c'2 | "C"g12 "Eb/G"_b4 g2 |
+"Cm7/Bb"c'4 g2 "Cm7"_e'4 c'2 "Cm7/Eb"g'4 e'2 | "Fm"g'6 f'12 | "Fm7/Eb"f12 "Ab/C"_a4 c'2 | "Bb7"f12 "Fm7"_a4 c'2 |
+"Fm7"_e'2d'2c'2 _b3_a3- a2g2f2 | "Fm7"_e2d2c2 _B2_A2 G4 F2_E2 | "G7"D12 F4 A2 | "G7"D12 F4 A2- |
+"G7"A2e2d2 A6 G6 | "G7"A2e2d2 A6 G6 | "Dm7/F"d12 "Bm7b5"f4 a2 | "Dm7/F"d12 "Bm7b5"f4 a2 |
+"Dm7/F"d'12- d'6- | "Dm7/F"d'6 c'6 d'6 | "Em"z6 g6 e6- | "E7"e2d2e2 d12- |
+"Am7"d2c2d2 c3 e6 c3- | "G7/D"c1 z1 B2c2 B12 | "Dm7/C"z2 a2b2 a2d'2a2 "Em7/B"g2a2g2- | "Bm7b5"g2f2g2 f6 "E7"e6- |
+"Am7/G"e2e2f2 e2a2e2 "Dm7/F"d2e2d2- | "Am7/E"d2c2d2 c6 "G7"B6 | "C"z6 "C7"g6 e6- | "Dm7/F"e2d2e2 d12- |
+"C7/G"d2c2d2 g6 e6- | "Am"e2d2e2 d6 c6 | "C/E"z2 C2D2 A6 E6 | "Dm7"z2 F2G2 c6 A6 |
+"G7"z2 A2B2 e6 G6 | "C"z6 z6 z6 | "Em"z6 "Eb/G"_B6 "Cm/G"c6 | "C"z6 z6 z6 |
+"Em"z6 "Eb/G"_b6 "Cm/G"c'6 | "Eb/G"_b6 "Cm/G"c'6 _e'6 | "C"g'12- g'6 | "C"g'12- Hg'6 |]

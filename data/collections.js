@@ -732,8 +732,8 @@ window.PS_MANIFEST = [
       "title": "Clair de Lune",
       "key": "C",
       "meter": "9/8",
-      "tempo": 54,
-      "bars": 8,
+      "tempo": 48,
+      "bars": 72,
       "source": "Claude Debussy, Suite bergamasque, 1905",
       "pdf": "songs/classical/clair-de-lune.pdf"
      },
