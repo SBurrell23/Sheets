@@ -1,5 +1,29 @@
 [
  {
+  "name": "dcml-grieg_lyric_pieces-op54n04.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/harmonies/op54n04.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 8452,
+  "sha256": "91be9cb489f0806e82c8c9653a8bdeec45ba18a23e475baa47f1d3e5c5223001",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op54n04.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/measures/op54n04.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 2369,
+  "sha256": "e33268d51558e9bfaff38f7e730968a66804e1875891936110a3a7bdd422b6c8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op54n04.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/notes/op54n04.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 101981,
+  "sha256": "51598df3b35b203eff66b98e403afc9ff6c19f8a999cf379afbfdf9957a91170",
+  "fetched": "2026-09-18"
+ },
+ {
   "name": "imslp-lyric-pieces-op-54.ly",
   "url": "https://imslp.org/wiki/Lyric_Pieces%2C_Op.54_%28Grieg%2C_Edvard%29",
   "kind": "lilypond-incipit",

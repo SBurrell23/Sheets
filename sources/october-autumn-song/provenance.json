@@ -1,0 +1,26 @@
+[
+ {
+  "name": "dcml-tchaikovsky_seasons-op37a10.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/tchaikovsky_seasons/main/harmonies/op37a10.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 17056,
+  "sha256": "101f37b963601f24feba2b749289b29cf0f3c7162507cd6d27c245ef9432bb0f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-tchaikovsky_seasons-op37a10.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/tchaikovsky_seasons/main/measures/op37a10.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 2028,
+  "sha256": "30dfaf41499882f5948cbfef75255e12add9e3f0da2405aeb0772e804a18b8ad",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-tchaikovsky_seasons-op37a10.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/tchaikovsky_seasons/main/notes/op37a10.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 62200,
+  "sha256": "1c1f97a059003d0ad84e056934f1856e9369cfd61a47cd6542d2764990161c1b",
+  "fetched": "2026-09-18"
+ }
+]

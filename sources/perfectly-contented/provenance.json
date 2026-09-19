@@ -1,0 +1,26 @@
+[
+ {
+  "name": "dcml-schumann_kinderszenen-n05.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/schumann_kinderszenen/main/harmonies/n05.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 4113,
+  "sha256": "4d21cc6d4722c85811eb1ef77c657d35c7ef8ae82901611649d83d370435444b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-schumann_kinderszenen-n05.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/schumann_kinderszenen/main/measures/n05.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 1067,
+  "sha256": "64033e07af2e17261ad996d45b851e1bcae2737431e0f5938dbcb9ab35fce0d1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-schumann_kinderszenen-n05.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/schumann_kinderszenen/main/notes/n05.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 23996,
+  "sha256": "53fdbab4235df151f433552ddd1463cba1de62a2b42ddd19e52d5061eba32e93",
+  "fetched": "2026-09-18"
+ }
+]

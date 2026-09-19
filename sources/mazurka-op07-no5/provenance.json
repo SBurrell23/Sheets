@@ -1,0 +1,26 @@
+[
+ {
+  "name": "dcml-chopin_mazurkas-BI61-5op07-5.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/chopin_mazurkas/main/harmonies/BI61-5op07-5.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 3133,
+  "sha256": "1cd29203ea53acc782a8bce4fe8110ee2b80dcb54b0c9d2c3247f5fc4be4f088",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-chopin_mazurkas-BI61-5op07-5.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/chopin_mazurkas/main/measures/BI61-5op07-5.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 912,
+  "sha256": "99abd43926ecf78e0a9a404cced7171035b8d0ebe3ecfeb3aeed4970ab34491f",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-chopin_mazurkas-BI61-5op07-5.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/chopin_mazurkas/main/notes/BI61-5op07-5.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 14841,
+  "sha256": "f4590df0d7dd99158bc12edfb7150427b7fb1036b9cd6f8af5a6f3cab28535cb",
+  "fetched": "2026-09-18"
+ }
+]

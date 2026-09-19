@@ -457,6 +457,55 @@ def imslp(title, slug, limit=1):
     return got, None
 
 
+# --------------------------------------------------------------------- dcml
+
+# The DCML corpora are the best source this project has found for notated
+# piano repertoire, and they are better than notation: each piece ships a
+# note-level TSV giving enharmonic spelling, staff and voice assignment, tie
+# and grace flags and MIDI number for every note, PLUS an expert
+# Roman-numeral harmonic analysis, PLUS the Gesamtausgabe engraving as a PDF.
+# An arranger reading those does not have to infer the harmony from a piano
+# texture, which is the single largest source of error in this collection.
+#
+# Titles are no way to find a piece here -- Grieg's are filed in Norwegian
+# (Vektersang, Alfedans) and several corpora have none at all -- so a piece is
+# named explicitly in the triage file as an alternate of the form
+#
+#     dcml:grieg_lyric_pieces/op12n01
+#
+# which is deterministic and costs no guessing.
+DCML_RAW = 'https://raw.githubusercontent.com/DCMLab/%s/main/%s'
+DCML_RE = re.compile(r'^dcml:([A-Za-z0-9_]+)/([A-Za-z0-9_.\-]+)$')
+
+
+def dcml(title, slug, limit=1):
+    m = DCML_RE.match((title or '').strip())
+    if not m:
+        return [], None                     # not a dcml: token, nothing to do
+    corpus, piece = m.group(1), m.group(2)
+    got, parts = [], []
+    for kind, path in (('notes', 'notes/%s.notes.tsv' % piece),
+                       ('harmony', 'harmonies/%s.harmonies.tsv' % piece),
+                       ('measures', 'measures/%s.measures.tsv' % piece)):
+        url = DCML_RAW % (corpus, path)
+        body, err = get(url)
+        if err or not body or chr(9) not in body:
+            continue
+        name = 'dcml-%s-%s.%s.tsv' % (corpus[:22], piece, kind)
+        if store(slug, name, body, url, 'dcml-' + kind):
+            parts.append(kind)
+    if not parts:
+        return [], 'no DCML files for %s/%s' % (corpus, piece)
+    rows = 0
+    try:
+        f = os.path.join(song_dir(slug), 'dcml-%s-%s.notes.tsv' % (corpus[:22], piece))
+        rows = sum(1 for _ in io.open(f, encoding='utf-8')) - 1
+    except Exception:
+        pass
+    got.append({'name': corpus + '/' + piece, 'parts': ','.join(parts), 'notes': rows})
+    return got, None
+
+
 # ------------------------------------------------------------------ verdict
 
 def probe(title, slug=None, also=None, quiet=False, only=None):
@@ -471,14 +520,14 @@ def probe(title, slug=None, also=None, quiet=False, only=None):
     names = [title] + [a for a in (also or []) if a]
     out = {'title': title, 'slug': slug, 'names': names, 'thesession': [],
            'wikipedia': [], 'openhymnal': [], 'abcnotation': [],
-           'mutopia': [], 'imslp': [], 'errors': []}
+           'mutopia': [], 'imslp': [], 'dcml': [], 'errors': []}
     # Every source costs a round trip and, worse, can cache a decoy: searched
     # across the folk databases, 'Arietta' returns a Haydn piece and an 1846
     # tune book, neither of which is the Grieg. `only` narrows the search to
     # the sources that can plausibly hold the repertoire in hand.
     for fn, key in ((thesession, 'thesession'), (wikipedia, 'wikipedia'),
                     (openhymnal, 'openhymnal'), (abcnotation, 'abcnotation'),
-                    (mutopia, 'mutopia'), (imslp, 'imslp')):
+                    (mutopia, 'mutopia'), (imslp, 'imslp'), (dcml, 'dcml')):
         if only and key not in only:
             continue
         seen = set()
@@ -495,7 +544,7 @@ def probe(title, slug=None, also=None, quiet=False, only=None):
                 out['errors'].append('%s: %s' % (key, err))
     out['files'] = sum(len(out[k]) for k in
                        ('thesession', 'wikipedia', 'openhymnal', 'abcnotation',
-                        'mutopia', 'imslp'))
+                        'mutopia', 'imslp', 'dcml'))
     out['verdict'] = 'machine-readable' if out['files'] else 'scan-only'
     if not quiet:
         print(render(out))
@@ -514,6 +563,9 @@ def render(r):
     for a in r['abcnotation']:
         lines.append('   abcnotation  %-34s %2d tune(s)  %s'
                      % (a['path'][-34:], a['tunes'], a.get('matched', '')[:28]))
+    for d in r.get('dcml', []):
+        lines.append('   DCML         %-34s %5d notes  [%s]'
+                     % (d['name'][:34], d['notes'], d['parts']))
     for m in r.get('mutopia', []):
         lines.append('   mutopia      %-34s %6d B lilypond' % (m['file'][:34], m['bytes']))
     for i in r.get('imslp', []):
@@ -537,7 +589,7 @@ def main():
                    help="the tune's other names; repeatable, and worth using -- "
                         "Scots Wha Hae is catalogued as 'Hey Tuttie Tatie'")
     p.add_argument('--only', help='comma-separated subset of sources: thesession, '
-                   'wikipedia, openhymnal, abcnotation, mutopia, imslp')
+                   'wikipedia, openhymnal, abcnotation, mutopia, imslp, dcml')
 
     t = sub.add_parser('triage', help='probe a file of titles and print a table')
     t.add_argument('file', help='one per line: "Title", "slug = Title", or '

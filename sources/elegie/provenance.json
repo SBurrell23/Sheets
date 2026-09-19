@@ -1,5 +1,29 @@
 [
  {
+  "name": "dcml-grieg_lyric_pieces-op38n06.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/harmonies/op38n06.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 8983,
+  "sha256": "7a78b11f69673a2e86b599add9d6c4ef937754682f852f529a56731e0876805d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op38n06.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/measures/op38n06.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 1722,
+  "sha256": "2516f4a4eefa0a64c0b7e7113f69f41fa61918ad7cadff5e130b274ecb282215",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op38n06.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/notes/op38n06.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 44654,
+  "sha256": "fac53e17c1d48309d95cb49803b66e5f33e84b2594f04a342b837e8198113b23",
+  "fetched": "2026-09-18"
+ },
+ {
   "name": "imslp-lyric-pieces-op-38.ly",
   "url": "https://imslp.org/wiki/Lyric_Pieces%2C_Op.38_%28Grieg%2C_Edvard%29",
   "kind": "lilypond-incipit",

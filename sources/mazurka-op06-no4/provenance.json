@@ -1,0 +1,42 @@
+[
+ {
+  "name": "dcml-chopin_mazurkas-BI60-4op06-4.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/chopin_mazurkas/main/harmonies/BI60-4op06-4.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 5533,
+  "sha256": "2dc46c80e622fb40ff57fefce8ec677f6c0693f15132815ef5072383e33e100b",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-chopin_mazurkas-BI60-4op06-4.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/chopin_mazurkas/main/measures/BI60-4op06-4.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 966,
+  "sha256": "1cbacadb64656bb4765759d1447813f5524ab311b8fe287a4652f7317d974f0e",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-chopin_mazurkas-BI60-4op06-4.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/chopin_mazurkas/main/notes/BI60-4op06-4.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 15866,
+  "sha256": "7add04f75fdfa91dee611c992a6d553fce2bbe935509beb6a27d407f388a50f2",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-mazurka-op33-no1.ly",
+  "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O33/Mazurka-Op33-No1/Mazurka-Op33-No1.ly",
+  "kind": "lilypond",
+  "bytes": 11540,
+  "sha256": "6159d0b54ae49d7776f1e1a07bad55ecaa3c878dd009d9ca19bf4b262edd003a",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-mazurka-op6-no1.ly",
+  "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O6/Mazurka-Op6-No1/Mazurka-Op6-No1.ly",
+  "kind": "lilypond",
+  "bytes": 18430,
+  "sha256": "db382b27592842827bea486f4d3d716eeb7cf07eec721adfaae84ce1cd23ea18",
+  "fetched": "2026-09-18"
+ }
+]

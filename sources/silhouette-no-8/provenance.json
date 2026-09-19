@@ -1,0 +1,26 @@
+[
+ {
+  "name": "dcml-dvorak_silhouettes-op08n08.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/dvorak_silhouettes/main/harmonies/op08n08.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 7896,
+  "sha256": "5b44b6f6bd00ee8a41fe14e5e851a0a6c4943eea859fca8d5ffca687b9a1df7d",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-dvorak_silhouettes-op08n08.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/dvorak_silhouettes/main/measures/op08n08.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 2075,
+  "sha256": "04760ea67f0129643c7e56b2c042bdbb2a5c7cabc35600a6fcdec5ec5a633170",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-dvorak_silhouettes-op08n08.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/dvorak_silhouettes/main/notes/op08n08.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 57546,
+  "sha256": "96be4c9c2431ea1e23364c01185ab359c46611971dcbab4fdd8fac42163c0ea3",
+  "fetched": "2026-09-18"
+ }
+]

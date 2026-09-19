@@ -1,5 +1,29 @@
 [
  {
+  "name": "dcml-grieg_lyric_pieces-op12n07.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/harmonies/op12n07.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 6254,
+  "sha256": "72486c310eb0cd835c2272ba94233a0e9e9e36f5d856c6dba415a206f39dcac2",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op12n07.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/measures/op12n07.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 2182,
+  "sha256": "bff5220bcf3f1d7fd5fbbcbf7938e8c74da4803eb012026c4a849f7d5ff234fc",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op12n07.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/notes/op12n07.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 33163,
+  "sha256": "23ec8e6bde7adda5d9a0490b8aa2d1f25a93ba84eff3e268e047fdd879085584",
+  "fetched": "2026-09-18"
+ },
+ {
   "name": "imslp-lyric-pieces-op-12.ly",
   "url": "https://imslp.org/wiki/Lyric_Pieces%2C_Op.12_%28Grieg%2C_Edvard%29",
   "kind": "lilypond-incipit",

@@ -1,0 +1,50 @@
+[
+ {
+  "name": "dcml-grieg_lyric_pieces-op12n02.harmony.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/harmonies/op12n02.harmonies.tsv",
+  "kind": "dcml-harmony",
+  "bytes": 10238,
+  "sha256": "f03f0dcb4921d33dcba61ab857d6459ca3bc81ab20316745087f00ce74478c92",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op12n02.measures.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/measures/op12n02.measures.tsv",
+  "kind": "dcml-measures",
+  "bytes": 3172,
+  "sha256": "04ade55347784a28ee7d7b806f1e02f8eb82e682d485eba6d2bfad8506e99219",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "dcml-grieg_lyric_pieces-op12n02.notes.tsv",
+  "url": "https://raw.githubusercontent.com/DCMLab/grieg_lyric_pieces/main/notes/op12n02.notes.tsv",
+  "kind": "dcml-notes",
+  "bytes": 38644,
+  "sha256": "d652e36c0766a0123ca77f51af810e700abc7e65f9fb219d325ae0718be86cb1",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-lullabybrahms-c.ly",
+  "url": "https://www.mutopiaproject.org/ftp/BrahmsJ/LullabyBrahms-C/LullabyBrahms-C.ly",
+  "kind": "lilypond",
+  "bytes": 2256,
+  "sha256": "aff1e891da1c4af266d39834cb9d530d3bcaf1bb9e41c3965d6b5d2f274d1ed8",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-waltz-op39-10.ly",
+  "url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O39/waltz-op39-10/waltz-op39-10.ly",
+  "kind": "lilypond",
+  "bytes": 6647,
+  "sha256": "4c5185979521c4fc3f9a237db583f17f16e317e46b31110074a5e7f6e6ba3144",
+  "fetched": "2026-09-18"
+ },
+ {
+  "name": "mutopia-waltz-op39-15.ly",
+  "url": "https://www.mutopiaproject.org/ftp/BrahmsJ/O39/waltz-op39-15/waltz-op39-15.ly",
+  "kind": "lilypond",
+  "bytes": 6064,
+  "sha256": "64cef49cf056947e8d4f900535dbc28a4a841653ff1e2a936534e928e2209a65",
+  "fetched": "2026-09-18"
+ }
+]
