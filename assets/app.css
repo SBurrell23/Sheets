@@ -175,8 +175,16 @@ select:hover{border-color:var(--accent)}
    which put the one piece of structure in the list below the songs it was
    organising. In the accent, a size up and a weight heavier, they read as
    headings at a glance. */
+/* 700 here is a REAL weight, and was not always: the font request used to load
+   IBM Plex Mono at 400 and 500 only, so asking for 700 got a synthesised bold --
+   the 500 outline smeared thicker -- which at 12px uppercase with letter-spacing
+   reads as soft and slightly out of focus rather than as bold. `.readout b` a
+   few rules down still carries the old workaround for the same problem, stepping
+   its weight DOWN to 500 to stay on a real face. 600 and 700 are requested now,
+   and an unused weight costs nothing: the browser downloads only the faces it
+   actually needs. */
 .songgroup{padding:9px 10px 3px; font-family:"IBM Plex Mono",ui-monospace,monospace;
-  font-size:12px; font-weight:700; letter-spacing:.07em; text-transform:uppercase;
+  font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
   color:var(--accent)}
 .songrow{display:flex; align-items:baseline; gap:12px; width:100%;
   padding:4px 10px; border-radius:6px; cursor:pointer; text-align:left;
@@ -248,7 +256,9 @@ a.dl .arrow{color:var(--accent); font-weight:600}
 .barrow .bar-strip{flex:1 1 auto; min-width:0}
 .readout{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:12.5px;
   color:var(--ink-2); font-variant-numeric:tabular-nums; white-space:nowrap; flex:0 0 auto}
-.readout b{color:var(--ink); font-weight:500}
+/* Now that a real semibold exists, this can be the weight it always wanted --
+   the bar number is the one figure on the strip you actually read. */
+.readout b{color:var(--ink); font-weight:600}
 
 /* ---------- scrub ---------- */
 .bar-strip{position:relative; height:28px; cursor:pointer; touch-action:none; user-select:none}
