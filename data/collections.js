@@ -1702,16 +1702,6 @@ window.PS_MANIFEST = [
       "pdf": "songs/ragtime/blues/joe-turner-blues.pdf"
      },
      {
-      "slug": "john-henry",
-      "title": "John Henry",
-      "key": "C",
-      "meter": "4/4",
-      "tempo": 100,
-      "bars": 11,
-      "source": "Traditional American ballad, collected from about 1909",
-      "pdf": "songs/ragtime/blues/john-henry.pdf"
-     },
-     {
       "slug": "make-me-a-pallet",
       "title": "Make Me a Pallet on the Floor",
       "key": "C",
@@ -2240,16 +2230,6 @@ window.PS_MANIFEST = [
       "pdf": "songs/hymns/all-creatures.pdf"
      },
      {
-      "slug": "amazing-grace",
-      "title": "Amazing Grace",
-      "key": "C",
-      "meter": "3/4",
-      "tempo": 100,
-      "bars": 17,
-      "source": "James P. Carrell and David L. Clayton, tune NEW BRITAIN, 1831; setting Edwin O. Excell, 1900; words John Newton, 1779",
-      "pdf": "songs/hymns/amazing-grace.pdf"
-     },
-     {
       "slug": "be-thou-my-vision",
       "title": "Be Thou My Vision",
       "key": "C",
@@ -2498,16 +2478,6 @@ window.PS_MANIFEST = [
       "bars": 17,
       "source": "James M. Black, 1893; words James M. Black, 1893; setting Charles H. Gabriel",
       "pdf": "songs/hymns/roll-is-called-up-yonder.pdf"
-     },
-     {
-      "slug": "when-the-saints",
-      "title": "When the Saints Go Marching In",
-      "key": "C",
-      "meter": "4/4",
-      "tempo": 120,
-      "bars": 16,
-      "source": "Traditional American spiritual, 19th century",
-      "pdf": "songs/hymns/when-the-saints.pdf"
      }
     ]
    }

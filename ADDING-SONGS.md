@@ -77,6 +77,15 @@ Each prompt should:
   in this project were caught that way and no other.
 - say that "I changed nothing and here is why" is a good outcome.
 
+**Check new titles against the WHOLE library, not just the target collection.**
+A batch of 55 introduced three duplicates -- When the Saints Go Marching In, Amazing
+Grace and John Henry were all already in Folk Songs -- because triage only compared
+against the collection being added to. One line does it:
+
+```bash
+python -c "import json,io,glob,re,collections;d=collections.defaultdict(list);[d[re.sub(r'[^a-z0-9]','',json.load(io.open(f,encoding='utf-8'))['title'].lower())].append(f) for f in glob.glob('collections/*/songs/*.json')+glob.glob('collections/*/*/songs/*.json')];[print(v) for v in d.values() if len(v)>1]"
+```
+
 **Tell parallel agents to use unique scratchpad filenames.** A dozen agents running at
 once all reach for the same obvious names -- `mel.py`, `harm.py`, `verify.py` -- in the one
 shared scratchpad directory, and overwrite each other's helpers mid-task. One agent reported
