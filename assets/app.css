@@ -166,11 +166,11 @@ select:hover{border-color:var(--accent)}
 .songfilter[hidden]{display:none}
 .songlist{flex:1 1 auto; overflow:auto; padding:0 4px 6px;
   overscroll-behavior:contain}
-.songgroup{padding:10px 10px 4px; font-family:"IBM Plex Mono",ui-monospace,monospace;
+.songgroup{padding:8px 10px 2px; font-family:"IBM Plex Mono",ui-monospace,monospace;
   font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3)}
 .songrow{display:flex; align-items:baseline; gap:12px; width:100%;
-  padding:8px 10px; border-radius:8px; cursor:pointer; text-align:left;
-  background:none; border:0; color:var(--ink); font:400 14.5px/1.35 inherit}
+  padding:4px 10px; border-radius:6px; cursor:pointer; text-align:left;
+  background:none; border:0; color:var(--ink); font:400 14.5px/1.25 inherit}
 .songrow .t{flex:1 1 auto; min-width:0; overflow:hidden; text-overflow:ellipsis;
   white-space:nowrap}
 .songrow .b{flex:0 0 auto; font-family:"IBM Plex Mono",ui-monospace,monospace;
@@ -178,9 +178,14 @@ select:hover{border-color:var(--accent)}
 /* An author `display` beats the UA sheet's [hidden]{display:none}, so a row
    the filter marks hidden stays on screen unless this says otherwise. */
 .songrow[hidden],.songgroup[hidden]{display:none}
-.songrow:hover,.songrow.on{background:var(--btn)}
 .songrow[aria-selected="true"]{color:var(--accent); font-weight:600}
 .songrow[aria-selected="true"] .b{color:var(--accent)}
+/* Hover and the keyboard highlight are one state, and it fills with the accent.
+   These must stay AFTER the aria-selected rules above: the current song draws
+   its text in the accent, which on an accent fill would be invisible, and equal
+   specificity means the later rule is the one that wins. */
+.songrow:hover,.songrow.on{background:var(--accent); color:var(--accent-on)}
+.songrow:hover .b,.songrow.on .b{color:var(--accent-on)}
 .songnone{margin:0; padding:14px 12px 18px; text-align:center;
   color:var(--ink-3); font-size:13px; font-style:italic}
 .where{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:11.5px;
