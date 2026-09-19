@@ -55,7 +55,7 @@
     },
     {
       "chord": "Am",
-      "notes": "C5:4 C5:4 [Cdim]C5:4"
+      "notes": "C5:4 C5:4 [Cdim7]C5:4"
     },
     {
       "chord": "Em",
@@ -131,10 +131,10 @@
     },
     {
       "chord": "A",
-      "notes": "F#4:2 G4:2 [Gdim]G4:8"
+      "notes": "F#4:2 G4:2 [Gdim7]G4:8"
     },
     {
-      "chord": "Gdim",
+      "chord": "Gdim7",
       "notes": "G4:2 G#4:2 [C#m]G#4:8"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
       "chord": "Am",
-      "notes": "C5:4 C5:4 [Cdim]C5:4"
+      "notes": "C5:4 C5:4 [Cdim7]C5:4"
     },
     {
       "chord": "Em",

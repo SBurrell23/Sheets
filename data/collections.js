@@ -2612,6 +2612,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/piano-miniatures/july-song-of-the-reaper.pdf"
      },
      {
+      "slug": "june-barcarolle",
+      "title": "June: Barcarolle",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 72,
+      "bars": 96,
+      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 6, 1876",
+      "pdf": "songs/piano-miniatures/june-barcarolle.pdf"
+     },
+     {
       "slug": "knight-of-the-hobbyhorse",
       "title": "Knight of the Hobbyhorse",
       "key": "C",
@@ -2630,16 +2640,6 @@ window.PS_MANIFEST = [
       "bars": 46,
       "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 3, 1876",
       "pdf": "songs/piano-miniatures/march-song-of-the-lark.pdf"
-     },
-     {
-      "slug": "may-starlight-nights",
-      "title": "May: Starlight Nights",
-      "key": "C",
-      "meter": "3/4",
-      "tempo": 54,
-      "bars": 72,
-      "source": "Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 5, 1876",
-      "pdf": "songs/piano-miniatures/may-starlight-nights.pdf"
      },
      {
       "slug": "mazurka-op24-no3",

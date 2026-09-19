@@ -21,7 +21,7 @@
     { "chord": "Bb",  "notes": "Eb6:2 Bb5:2 R:2 Bb5:2" },
     { "chord": "Bb7", "notes": "Bb5:1 F5:1 F5:1 G5:1 Ab5:2 C6:2" },
     { "chord": "Eb",  "notes": "Bb5:2 G5:2 [Bb]F5:2 [Bb6]G5:2" },
-    { "chord": "Bb7", "notes": "Ab5:2 D6:2 G6:2 [Bdim]F6:2" },
+    { "chord": "Bb7", "notes": "Ab5:2 D6:2 G6:2 [Bdim7]F6:2" },
     { "chord": "C",   "notes": "E6:2 [G7]B5:2 D6:2 [C]C6:2" },
     { "chord": "F",   "notes": "A5:2 [C7]E5:2 G5:2 [F]F5:2" },
     { "chord": "G7",  "notes": "E5:2 D5:2 [C]C5:4" }

@@ -139,7 +139,10 @@ music holds. Use one wherever the music genuinely sustains. Neither is capped. W
    Do not manufacture a held tonic the song has not got. The validator prints a NOTE rather than
    an error when the close is unusual — read it and check you have not stopped mid-phrase.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`,
-   `6`, `m6`. A slash bass is allowed: `G/B`.
+   `dim7`, `aug`, `6`, `m6`. A slash bass is allowed: `G/B`.
+   `dim7` and `aug` were added for the Romantic piano repertoire, where they are
+   ordinary. In **this** collection they almost never are: if you reach for one, the
+   source had better print it, and say so in your report.
 
 ## 5. Harmony
 

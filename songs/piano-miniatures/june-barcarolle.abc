@@ -1,0 +1,31 @@
+X:1
+T:June: Barcarolle
+C:Pyotr Ilyich Tchaikovsky, The Seasons Op. 37a No. 6, 1876
+M:4/4
+L:1/16
+Q:1/4=72
+K:Am clef=treble
+"Am"z16 | "Am"z8 z2 E2 ^F2^G2 | "Am"A2B2 c2d2 e2a2 "G#dim"^g2a2 | "Am"e8 z2 e2 "Bm7b5"B2d2 |
+"E"c2 z8 c2 "E7"^G2B2 | "Am"A8 z2 E2 "E7"^F2^G2 | "Am"A2B2 c2d2 e2a2 "G7"g2a2 | "C"e8 z2 g2 "Fmaj7"f2g2 |
+"Bdim"d8 z2 "Bm7b5"f2 "E7"e2f2 | "Am"c4 z6 e2 "Bdim"d2e2 | "E"d2c2 B2A2 "D#dim"c6 "G#dim"B2 | "Am"A4 z6 A2 B2c2 |
+"G7"d2e2 f2g2 a2b2 c'2d'2 | "C"g8 z2 g2 a2c'2 | "G7"f8 z2 f2 g2b2 | "C"e8 z2 A2 B2c2 |
+"G7"d2e2 f2g2 a2b2 c'2d'2 | "E"e8 z2 e2 ^f2^g2 | "E"a8 z2 e2 d2c2 | "E"^g8 z2 "E7"d2 c2B2 |
+"E"a2e2 ^d2e2 f2e2 c2A2 | "E"e2 z2 e4- e2E2 "E7"^F2^G2 | "Am"A2B2 c2d2 e2a2 "G#dim"^g2a2 | "Am"e8 z2 e2 "Bm7b5"B2d2 |
+"E"c2 z8 c2 "E7"^G2B2 | "Am"A8 z2 E2 "E7"^F2^G2 | "Am"A2B2 c2d2 e2a2 "G7"g2a2 | "C"e8 z2 g2 "Fmaj7"f2g2 |
+"Bdim"d8 z2 "Bm7b5"f2 "E7"e2f2 | "Am"c4 z6 e2 "Bdim"d2e2 | "E"d2c2 B2A2 "D#dim"c6 "G#dim"B2 | "A"A2 z2 e4 ^c4 e4 |
+"E7"^f4 "E"B2^c2 "E7"d4 f4 | "A"e4 a4 ^g4 "E7"^f4 | "A"e4 "E"B2^c2 "E7"d4 "E"^d4 | "A"e2 z2 e4 ^c4 e4 |
+"E7"^f4 B2^c2 "Bdim"d4 "G#m7b5"f4 | "E"e4 "Cdim"a4 "C#m"^g4 "D"^f4 | "C#m7"e4 "G#dim"B2^c2 "E7"d4 "G#m7b5"^f4 | "A"e2e2 "F#m"a6 ^f2 "C#m"^g2^c2 |
+"D"^f6 d2 "A"e2A2 e4- | "Am"e2^d2 "G#dim"=d4 "A#dim"^c2g2 "Bm"^f2B2 | "E"e2 z4 ^c2 "E7"B2c2 "A"A2e2 | "F#m"a6 ^f2 "C#m"^g2^c2 "D"f4- |
+"D"^f2d2 "A"e2A2 e6 "Cdim"^d2 | "Cdim"^f6 "G#m7b5"=f2 "Fdim"^g4- "A#m7b5"g2=g2 | "C#dim"^a6 "D#dim"=a2 c'2^d'2 ^f'2a2 | "D#dim"c'2^d'2 ^f'4 a4 z4 |
+"B7"z16 | "E7"z4 e4- e2E2 ^F2^G2 | "Am"A2B2 c2d2 e2a2 "G#dim"^g2a2 | "Am"e8 z2 e2 "Bm7b5"B2d2 |
+"E"c2 z8 c2 "E7"^G2B2 | "Am"A8 z2 E2 "E7"^F2^G2 | "Am"A2B2 c2d2 e2a2 "G7"g2a2 | "C"e8 z2 g2 "Fmaj7"f2g2 |
+"Bm7b5"d8 z2 f2 "E7"e2f2 | "Am"c4 z6 e2 "Bdim"d2e2 | "E"d2c2 B2A2 "D#dim"c6 "G#dim"B2 | "Am"A4 z6 A2 B2c2 |
+"G7"d2e2 f2g2 a2b2 c'2d'2 | "C"g8 z2 g2 a2c'2 | "G7"f8 z2 f2 g2b2 | "C"e8 z2 A2 B2c2 |
+"G7"d2e2 f2g2 a2b2 c'2d'2 | "E"e8 z2 e2 ^f2^g2 | "E"a8 z2 e2 d2c2 | "E"^g8 z2 "E7"d2 c2B2 |
+"E"a2e2 ^d2e2 f2e2 c2A2 | "E"e2 z2 e4- e2E2 "E7"^F2^G2 | "Am"A2B2 c2d2 e2a2 "G#dim"^g2a2 | "Am"e8 z2 e2 "Bm7b5"B2d2 |
+"E"c2 z8 c2 "E7"^G2B2 | "Am"A8 z2 E2 "E7"^F2^G2 | "Am"A2B2 c2d2 e2a2 "G7"g2a2 | "C"e8 z2 g2 "Fmaj7"f2g2 |
+"Bm7b5"d8 z2 f2 "E7"e2f2 | "Am"c4 z6 e2 "Bdim"d2e2 | "E"d2c2 B2A2 "D#dim"c6 "G#dim"B2 | "Am"A4 z6 c'4 b2- |
+"E7"b2 a4 "Bm7b5"^g4 "E7"f4 "Gdim"e2- | "F#m7b5"e2 d4 "G#dim"c2- "Am"c2c2 "E7"B2A2 | "E7"^G2A2 E4 z4 E4 | "E7"e4 "Am"e4 z2 c'4 b2- |
+"E7"b2 a4 "Bm7b5"^g4 "E7"f4 "Gdim"e2- | "F#m7b5"e2 d4 "G#dim"c2- "Am"c2c2 "E7"B2A2 | "E7"^G2A2 E4 z4 E4- | "Am"E4 E4 z4 E2 z2 |
+"Am"E2 z2 ^G2 z2 A2 z2 B2 z2 | "Am"c2 z2 e2 z2 a2 z2 e2 z2 | "Am"e2 z2 ^g2 z2 a2 z2 b2 z2 | "Am"c'2 z2 e'2 z2 a2 z2 e'2 z2 |
+"Am"a2 z2 e2 z2 a2 z2 e'2 z2 | "Am"a2 z2 e2 z2 a2 z2 a2 z2 | "Am"a2 z2 a2 z2 a2 z2 a2 z2 | "Am"a2 z2 a2 z2 a2 Hz6 |]

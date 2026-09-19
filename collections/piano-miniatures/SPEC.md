@@ -131,6 +131,13 @@ Write exactly one file to the path you are given,
      and where the phrasing now fights the barline.
   2. **Decline the piece.** The format cannot hold it, and that is a fact about the format.
 
+  **And check the tempo the same way, because there is only one `tempo` field too.** A piece
+  whose sections differ in tempo by more than about 1.5x cannot be held: whatever number you
+  write, one section plays wrong. Tchaikovsky's May has an Andantino outer section wanting
+  the written quarter at about 50 and an Allegro giocoso middle wanting 120-135, so a third
+  of the piece runs at less than half speed however you set it. That is a reason to decline
+  on its own, independent of the meter, and it is why May was written and then dropped.
+
   Prefer declining when the re-barring would displace the phrasing of a section that matters,
   when a bar length is not writable in any allowed meter at all (a 3/8 bar has no home), or
   when the changes are frequent. Grieg's Notturno was written and then dropped on exactly
@@ -252,7 +259,11 @@ so `R:14` is rejected exactly as `C5:14` would be; write `R:12 R:2`. A full bar 
    on a fading fragment or an unresolved chord; if that is what is printed, write it. The
    validator prints a NOTE, not an error, for an unusual close.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`,
-   `dim`, `6`, `m6`. A slash bass is allowed: `G/B`.
+   `dim`, `dim7`, `aug`, `6`, `m6`. A slash bass is allowed: `G/B`.
+   **Use `dim7` for a fully diminished seventh and `dim` only for the triad** -- in
+   this repertoire almost every diminished chord is a seventh. **`aug` is the
+   augmented triad**, and it is also the nearest honest spelling of the upper
+   structure of a French or German sixth when no dominant-seventh symbol fits.
 
 ## 5. Finding the melody
 

@@ -139,7 +139,10 @@ turns up across this repertoire. Write it where the tune has it; do not smooth i
    fifth, should be written that way. The validator prints a NOTE rather than an error when the
    close is unusual — read it and check you have not simply stopped mid-phrase.
 5. Chord suffixes allowed: `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`,
-   `6`, `m6`. A slash bass is allowed: `G/B`.
+   `dim7`, `aug`, `6`, `m6`. A slash bass is allowed: `G/B`.
+   `dim7` and `aug` were added for the Romantic piano repertoire, where they are
+   ordinary. In **this** collection they almost never are: if you reach for one, the
+   source had better print it, and say so in your report.
 
 ## 7. Harmony
 

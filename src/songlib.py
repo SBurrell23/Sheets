@@ -64,6 +64,14 @@ QUALITIES = {
     '7sus4':  ('other', '7sus4'),
     'm7b5':   ('half-diminished', 'm7b5'),
     'dim':    ('diminished', 'dim'),
+    # Added for the Romantic repertoire, where they are not colour but grammar.
+    # The cached DCML analyses carry 564 fully-diminished sevenths across 34
+    # pieces -- every one of them was printing as a `dim` triad, i.e. missing the
+    # note that makes it what it is -- and the augmented triad turns up as an
+    # ornamented dominant and as the upper structure of a French or German sixth.
+    # A player who does not want them can read the triad inside and ignore the rest.
+    'dim7':   ('diminished-seventh', 'dim7'),
+    'aug':    ('augmented', 'aug'),
     '6':      ('major-sixth', '6'),
     'm6':     ('minor-sixth', 'm6'),
 }
