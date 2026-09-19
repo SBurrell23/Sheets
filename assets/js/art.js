@@ -54,6 +54,15 @@ window.PS = window.PS || {};
     // the category card and the thing you click on the sheet are one symbol.
     "favorites":
       '<path d="M12 3.1l2.7 5.5 6.1.9-4.4 4.3 1.04 6.06L12 17l-5.44 2.86L7.6 13.8 3.2 9.5l6.1-.9z"/>',
+    // A cornet from the side: mouthpiece, lead pipe, three valve stems, bell.
+    // Every other instrument shape on this page is already taken -- the keyboard
+    // from the front is ragtime's, the grand piano in plan is the miniatures' --
+    // and a horn is what this repertoire sounds like anyway.
+    "jazz-standards":
+      '<path d="M2.9 11.3v4.2"/>' +
+      '<path d="M2.9 13.4h10.7"/>' +
+      '<path d="M13.6 9.4 20.6 6.2v14.4l-7-3.2z"/>' +
+      '<path d="M6.8 13.4V9.2M9.6 13.4V9.2M12.4 13.4V9.2"/>',
     "ai-music":
       '<path d="M8.6 2.4l1.3 3.6 3.6 1.3-3.6 1.3-1.3 3.6-1.3-3.6L3.7 7.3l3.6-1.3z"/>' +
       '<circle cx="13.6" cy="18.3" r="2.4"/><path d="M16 18.3v-7.1l3.8 1.4"/>'

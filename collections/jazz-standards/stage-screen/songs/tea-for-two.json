@@ -1,0 +1,44 @@
+{
+  "title": "Tea for Two",
+  "source": "Vincent Youmans, 1924",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 132,
+  "bars": [
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:6 A4:2" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:6 G4:2" },
+    { "chord": "C",       "notes": "B4:6 G4:2 [F7]A4:6 G4:2" },
+    { "chord": "Em7",     "notes": "B4:6 G4:2 [Ebdim]A4:8" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:6 A4:2" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:4 G4:4" },
+    { "chord": "C6",      "notes": "E5:16~" },
+    { "chord": "C6",      "notes": "E5:16" },
+
+    { "chord": "F#m7",    "notes": "E5:4 E5:2 C#5:2 [B7]D#5:4 D#5:2 C#5:2" },
+    { "chord": "F#m7",    "notes": "E5:4 E5:2 C#5:2 [B7]D#5:4 D#5:2 B4:2" },
+    { "chord": "E",       "notes": "D#5:4 D#5:2 B4:2 [A7]C#5:4 C#5:2 B4:2" },
+    { "chord": "G#m7",    "notes": "D#5:4 D#5:2 B4:2 [Gdim]C#5:4 C#5:2 C#5:2" },
+    { "chord": "F#m7",    "notes": "E5:4 C#5:2 C#5:2 [B7]D#5:4 D#5:2 C#5:2" },
+    { "chord": "F#m7",    "notes": "E5:4 C#5:2 C#5:2 [B7]D#5:4 D#5:4" },
+    { "chord": "E6",      "notes": "G#4:16" },
+    { "chord": "G7",      "notes": "G4:16" },
+
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:6 A4:2" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:6 G4:2" },
+    { "chord": "C",       "notes": "B4:6 G4:2 [F7]A4:6 G4:2" },
+    { "chord": "Em7",     "notes": "B4:6 G4:2 [Ebdim]A4:8" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:6 A4:2" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:4 G4:4" },
+    { "chord": "Em7b5",   "notes": "G5:16~" },
+    { "chord": "A7",      "notes": "G5:16" },
+
+    { "chord": "Dm",      "notes": "A5:6 A5:2 [C#dim]G5:6 G5:2" },
+    { "chord": "Dm",      "notes": "F5:6 F5:2 [C#dim]E5:6 E5:2" },
+    { "chord": "C#dim/D", "notes": "G5:6 G5:2 F5:4 [Dm7]A4:2 C5:2" },
+    { "chord": "Bb7",     "notes": "Eb5:6 C5:2 D5:8" },
+    { "chord": "C/E",     "notes": "C5:6 A4:2 [Ebdim]B4:6 A4:2" },
+    { "chord": "Dm7",     "notes": "C5:6 A4:2 [G7]B4:4 E5:4" },
+    { "chord": "C6",      "notes": "C5:16~" },
+    { "chord": "C6",      "notes": "C5:16" }
+  ]
+}
