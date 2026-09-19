@@ -1,0 +1,33 @@
+{
+  "title": "Minuet in F, K. 2",
+  "source": "Wolfgang Amadeus Mozart, Minuet in F, K. 2, 1762",
+  "key": "C",
+  "meter": "3/4",
+  "tempo": 120,
+  "bars": [
+    { "chord": "C", "notes": "C6:2 E6:2 G5:4 G5:4" },
+    { "chord": "F", "notes": "A5:2 C6:2 F5:4 F5:4" },
+    { "chord": "G", "notes": "E5:2 G5:2 C5:4 B4:4" },
+    { "chord": "G", "notes": "B4:8 [C]C5:4" },
+    { "chord": "G", "notes": "G4:2 B4:2 D5:4 D5:4" },
+    { "chord": "C/G", "notes": "G4:2 C5:2 E5:4 E5:4" },
+    { "chord": "G", "notes": "(3 G4:2 B4:2 D5:2) [G7/B]F5:4 [C]E5:4" },
+    { "chord": "G", "notes": "E5:8 D5:4" },
+    { "chord": "C#dim", "notes": "G5:2 Bb5:2 E5:4 E5:4" },
+    { "chord": "Dm", "notes": "F5:2 A5:2 D5:4 D5:4" },
+    { "chord": "G", "notes": "E5:2 G5:2 [A]C#5:4 C#5:4" },
+    { "chord": "A", "notes": "C#5:8 [D]D5:4" },
+    { "chord": "Bm7b5", "notes": "F5:2 A5:2 D5:4 D5:4" },
+    { "chord": "C", "notes": "E5:2 G5:2 C5:4 C5:4" },
+    { "chord": "F", "notes": "D5:2 F5:2 [G]B4:4 B4:4" },
+    { "chord": "G", "notes": "B4:8 [C]C5:4" },
+    { "chord": "C/E", "notes": "C6:2 E6:2 G5:4 G5:4" },
+    { "chord": "F", "notes": "A5:2 C6:2 F5:4 F5:4" },
+    { "chord": "G", "notes": "E5:2 G5:2 C5:4 B4:4" },
+    { "chord": "Am", "notes": "B4:8 C5:4" },
+    { "chord": "C/E", "notes": "C6:2 E6:2 G5:4 G5:4" },
+    { "chord": "F", "notes": "A5:2 C6:2 F5:4 F5:4" },
+    { "chord": "G", "notes": "E5:2 G5:2 C5:4 B4:4" },
+    { "chord": "G", "notes": "B4:8 [C]C5:4" }
+  ]
+}

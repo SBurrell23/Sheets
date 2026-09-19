@@ -1,0 +1,25 @@
+{
+  "title": "Menuet I (Aylesford)",
+  "source": "G.F. Handel, Menuet I from the Aylesford Pieces, c.1730",
+  "key": "Am",
+  "meter": "3/4",
+  "tempo": 138,
+  "bars": [
+    { "chord": "Am",    "notes": "A4:4 E4:4 C5:4" },
+    { "chord": "E7",    "notes": "B4:4 E4:4 D5:4" },
+    { "chord": "Am",    "notes": "C5:4 [Dm]D5:2 C5:2 [Bm7b5]B4:2 A4:2" },
+    { "chord": "E7",    "notes": "G#4:2 A4:2 B4:4 E4:4" },
+    { "chord": "C",     "notes": "E4:2 F4:2 G4:4 [Bdim]F4:4" },
+    { "chord": "C",     "notes": "E4:4 [G/B]G4:4 [Am]C5:4" },
+    { "chord": "C/G",   "notes": "E4:4 [F]F4:2 E4:2 [G]D4:2 E4:2" },
+    { "chord": "C",     "notes": "C4:12" },
+    { "chord": "C",     "notes": "C5:4 G4:4 E5:4" },
+    { "chord": "G7",    "notes": "D5:4 G4:4 F5:4" },
+    { "chord": "C",     "notes": "E5:4 [G/B]F5:2 E5:2 [Am]D5:2 C5:2" },
+    { "chord": "G",     "notes": "B4:2 C5:2 D5:4 G4:4" },
+    { "chord": "Am",    "notes": "A4:2 B4:2 C5:4 [Em]B4:4" },
+    { "chord": "F",     "notes": "A4:4 [Dm/F]D5:4 [Am/C]C5:4" },
+    { "chord": "Bdim",  "notes": "B4:4 [E]A4:4 G#4:4" },
+    { "chord": "Am",    "notes": "A4:12" }
+  ]
+}

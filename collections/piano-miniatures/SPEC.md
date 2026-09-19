@@ -126,6 +126,14 @@ Write exactly one file to the path you are given,
   `metadata.tsv` before you start: it reads like `1: 9/8, 21: 6/8, 33: 3/8, 34: 9/8`, one
   entry per change. If a piece changes, you have two honest options and no third:
 
+  **A meter that is not on the list at all** -- 3/8 and 6/4 both turn up -- is a different
+  case and usually has a clean answer: write it in the listed meter with the same number of
+  beats and **double every note value**. Handel's Aylesford Menuet I is 3/8 and is written
+  as 3/4 with each eighth become a quarter; the bar count, the downbeats and the phrase
+  structure are all unchanged, and only `tempo` has to be read against the new values. The
+  ragtime collection uses the same trick for the opposite reason. Say in your report that
+  you did it.
+
   1. **Re-bar the minority section** into the meter that covers most of the music, keeping
      every note and every duration and moving only the barlines. Say which bars you re-barred
      and where the phrasing now fights the barline.

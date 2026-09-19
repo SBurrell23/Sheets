@@ -1,0 +1,33 @@
+X:1
+T:Menuet
+C:Claude Debussy, Menuet from Suite bergamasque, L. 75 No. 2, 1905
+M:3/4
+L:1/16
+Q:1/4=80
+K:Am clef=treble
+"Dm7"z4 B2B1A1 B2c2 | "Am"B1c1d1e1 "D7"^f2e1d1 "Am"c1d1e2 | "E"e1^f1^g1a1 "E7"f2f1e1 f2a2 | "E"^g1a1g3 a1b3 "E7"c'1g2 |
+"Fmaj7"g'2f'1e'1 "Gm7"d'1c'1 d'4 "C7"c'1_b1 | "F"a1g1"Dm"a2 "Fmaj7"g'2f'1e'1 "Gm7"d'1c'1d'2- | "C7"d'2c'1_b1 "F"a1g1a3 "Dm"g1a2- | "G7/B"a1g1a3 "G7"b1d'1b1 "G7/B"a1b1"Em/B"e1g1 |
+"G7/B"a1g1a3 "G7"b1d'1b1 "G7/B"a1b1a1f1 | "C"e12 | "E7/B"e12 | "Dm7"A1B1c1d1 B2B1A1 B2c2 |
+"D7"B1c1d1e1 ^f2e1d1 c1d1e2 | "Dm7"a1b1c'1d'1 b2b1a1 b2c'2 | "D7"b1c'1d'1e'1 ^f'2e'1d'1 c'1d'1e'2- | "Am"e'4 "Em/G"a1"B7/F#"b1 "Fm"c'4 "C/E"_a2- |
+"Dm"_a2 "A/C#"e8- "Am/C"e2 | "Am"z2 A1"Em7"E1 E1"Am"A1A1"Em7"E1 E1"Am"A1"Em7"B2 | "Am"a2A1"Em7"E1 E1"Am"A1A1"Em7"E1 E1"Am"A1"G"B2 | "C"c'2c1"G7"G1 G1"C"c1c1"G7"G1 G1"C"c1"Gm7"d2 |
+"C"c'2c1"G7"G1 G1"C"c1c1"G7"G1 G1"C"c1"Bb"d2 | "Eb"_e1d1e3 d1e3 d1e2- | "Am7b5"_e1d1e1g1 "Em"d8 | "Dm"d1c1d3 c1d3 c1d2- |
+"Gm7"d1c1d1f1 "Cm7"_B8- | "F7"_B4 A4 G4 | "Bb"F6 G2 _B2d2 | "Edim"e2"F"f2 "Gm"d4 "Gm7/F"c2"C7/E"d2 |
+"C7"g2"Am/C"a2 a2e2 e4 | "Edim"e2"F"f2 "Gm"d4 "Gm7/F"c2"C7/E"d2 | "C7"g2"Am"a2 a2e2 e2"Bb"_b2 | "Bb"_b2"C"c'2 c'2"Am"a2 a2c'2 |
+"Bb"z2 f2 d4 c2d2 | "Gm"g2"Bbmaj7"a2 a2"Am7b5"e2 e4 | "Bb"z2 f2 d4 c2d2 | "Em"e'2e2 "Fmaj7"e2E2 "Em/G"E2E2 |
+"Am"E2E2 "Em7/B"E2"Am"E2 "G7"F2"Bm7b5/F"A2 | "Em"e'2e2 "Fmaj7"e2E2 "Em/G"E2E2 | "Am"E2E2 "Em7/B"E2E2 "Am/C"E2E2 | "D7"A1B1c1d1 B2B1A1 B2c2 |
+"D7"B1c1d1e1 ^f2e1d1 c1d1e2 | "Dm7/C"a1b1c'1d'1 b2b1a1 b2c'2 | "D7/C"b1c'1d'1e'1 ^f'2e'1d'1 "D7"c'1d'1e'2- | "G"e'1d'1b1a1 b1g1e1d1 "C"e4- |
+"G"e1d1B1A1 B1G1E1D1 "Am"E4- | "C/E"E1^F1G1A1 E2E1D1 "Em"E2G2 | "Am"B2A2 z8 | "F"a1g1f1e1 d1c1B1A2 c1B1d1 |
+"F/A"c1e1"Bdim"d1f1 "C"e1c1"G7/D"B1G1 "Bdim"F2"Am7"G2 | "F"a1g1f1e1 d1c1B1A2 c1B1d1 | "F/A"c1e1"Bdim"d1f1 "C"e1c1"G7/D"B1G1 "Dm/A"F2"F"A2 | "Eb"g1f1_e1d1 c1_B1A1G2 B1A1c1 |
+"Eb/G"_B1d1"Adim"c1_e1 "Bb"d1B1"F7/C"A1F1 "Adim"_E2"Gm7"F2 | "Eb"g1f1_e1d1 c1_B1A1G2 B1A1c1 | "Eb/G"_B1d1"Adim"c1_e1 "Bb"d1B1"F7/C"A1F1 "Adim"_E2"Cm"G2 | "D"^F3"Am7b5"G1 "D"F3"Am7b5"G1 "D"F2"F#dim"A2 |
+"Gm"G2"D/A"^F1G1 "Gm/Bb"E4 "A7"G4 | "D"^F2"D7"A2 c4 "G"B2"G7"d2 | "Em"^f4 e2d2 "A7"B2G2 | "D"^F3"Am7b5"G1 "D"F3"Am7b5"G1 "D"F2"F#dim"A2 |
+"G"G2"D/A"^F1G1 "G/B"E2"C#m7b5"B2 "Dmaj7"A2"Em"G2 | "F#"^F2"Gmaj7"d2 "A7"^c2"Bm"B2 "A7/C#"A2a2 | "D"a8- "Am7b5"a2"D"a2 | "Gm"g2"D/A"^f1g1 "Gm/Bb"e4 "C#dim"g4 |
+"D"^f2a2 "D7/A"c'4 "G"B2d2 | "A7"^f4 e2d2 B2G2 | "G#m7b5"^F4 "Amaj7"E2"Bm"D2 "C#7"^C2"C#7/E#"^G2- | "G#m7b5/F#"^G2(3^F1G1A1 "G#m7b5"F2 "E7/G#"E4 "Am"F2 |
+"G#m7b5/B"^f4 "C#m"e2"G#dim/D"d2 "C#m7/E"^c2"C#7/E#"^g2- | "G#m7b5/F#"^g2^f2 g2a2 f2g2 | "Eb/Bb"_B4 "Eb/G"_b4 "Eb/Bb"B4 | "Eb/Bb"_B4 "Eb/G"_b4 "Eb/Bb"B4- |
+"Eb/Bb"_B1c1d1_e1 "Cm/Eb"c2c1B1 "Cm"c2e2 | "Bb"d1_e1f1g1 "Gm/D"d2d1c1 "Gm/Bb"_B1c1d2 | "Eb7/Bb"_E1F1G1_A1 "Bb7"F2F1E1 "Db/F"F2A2 | "Eb7/Bb"G1_A1_B1c1 "Eb7/Db"G2_E1_D1 "Eb"E1F1G2 |
+"F#m7"^G1A1B1^c1 "C#m"G2E1^D1 "E"E1^F1G2- | "E7"^G1A1B1^c1 "E7/D"G1A1B1c1 "E7"d1e1^f1^g1 | "A/E"a4 "G#dim/B"^g4 "G#m7b5"^f4 | "A"e6 "A/E"^f2 "F#m7/E"a2^c'2 |
+"A/C#"a4 "G#dim/B"^g4 "G#m7b5"^f4 | "A"e6 "A/E"^f2 "F#m7/E"a2^c'2 | "Dmaj7"e2^c2 c4 A2c2 | "G#dim"B2B1A1 B4 ^G2B2 |
+"Dmaj7"e2^c2 c4 A2c2 | "Bm"d8 "Bm/F#"B2"Bm7/A"d2 | "G#m7b5"^f2d2 d4 e2f2 | "C#7"^g2g1^f1 "C#7/B"g2=f2 ^f2g2 |
+"F#m"a2^f2 f4 a2^c'2 | "D"d'12- | "D"d'4 e'4 ^f'4 | "Bm7"^f'12- |
+"Bm7"^f'4 d'4 "Bm"f'4 | "Am"a2A1"E7"D1 "Am"A2A2 z2 "G"b2 | "C"c'2c1"G7"F1 "C"c2c2 z2 "G"b2 | "Am"a2A1"E7"D1 "Am"A2A2 z2 "G"b2 |
+"C"c'2c1"G7"F1 "C"c2c2 z2 "Em"b2 | "Em"b2 z8 z2 | "Em"E4 "C"F1G1A1B1 "Em/B"c1d1e1g1 | "Am"a2 z8 z2 |
+"Am"A2 z8 Hz2 |]

@@ -1,0 +1,11 @@
+X:1
+T:Menuet I (Aylesford)
+C:G.F. Handel, Menuet I from the Aylesford Pieces, c.1730
+M:3/4
+L:1/16
+Q:1/4=138
+K:Am clef=treble
+"Am"A4 E4 c4 | "E7"B4 E4 d4 | "Am"c4 "Dm"d2c2 "Bm7b5"B2A2 | "E7"^G2A2 B4 E4 |
+"C"E2F2 G4 "Bdim"F4 | "C"E4 "G/B"G4 "Am"c4 | "C/G"E4 "F"F2E2 "G"D2E2 | "C"C12 |
+"C"c4 G4 e4 | "G7"d4 G4 f4 | "C"e4 "G/B"f2e2 "Am"d2c2 | "G"B2c2 d4 G4 |
+"Am"A2B2 c4 "Em"B4 | "F"A4 "Dm/F"d4 "Am/C"c4 | "Bdim"B4 "E"A4 ^G4 | "Am"HA12 |]

@@ -938,6 +938,56 @@ window.PS_MANIFEST = [
       "pdf": "songs/classical/marche-militaire.pdf"
      },
      {
+      "slug": "menuet-bergamasque",
+      "title": "Menuet",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 80,
+      "bars": 101,
+      "source": "Claude Debussy, Menuet from Suite bergamasque, L. 75 No. 2, 1905",
+      "pdf": "songs/classical/menuet-bergamasque.pdf"
+     },
+     {
+      "slug": "haydn-menuet-hob27",
+      "title": "Menuet and Trio (Hob. XVI:27)",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 92,
+      "bars": 66,
+      "source": "Joseph Haydn, Menuet and Trio from the Piano Sonata in G, Hob. XVI:27, 1776",
+      "pdf": "songs/classical/haydn-menuet-hob27.pdf"
+     },
+     {
+      "slug": "handel-menuet-i",
+      "title": "Menuet I (Aylesford)",
+      "key": "Am",
+      "meter": "3/4",
+      "tempo": 138,
+      "bars": 16,
+      "source": "G.F. Handel, Menuet I from the Aylesford Pieces, c.1730",
+      "pdf": "songs/classical/handel-menuet-i.pdf"
+     },
+     {
+      "slug": "handel-menuet-ii",
+      "title": "Menuet II (Aylesford)",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 72,
+      "bars": 26,
+      "source": "G.F. Handel, Menuet II (Trio) from the Aylesford Pieces, c.1730",
+      "pdf": "songs/classical/handel-menuet-ii.pdf"
+     },
+     {
+      "slug": "minuet-k2",
+      "title": "Minuet in F, K. 2",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 120,
+      "bars": 24,
+      "source": "Wolfgang Amadeus Mozart, Minuet in F, K. 2, 1762",
+      "pdf": "songs/classical/minuet-k2.pdf"
+     },
+     {
       "slug": "minuet-in-g",
       "title": "Minuet in G",
       "key": "C",
