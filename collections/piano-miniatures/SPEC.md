@@ -108,6 +108,23 @@ Write exactly one file to the path you are given,
   in every key there is; transpose. **Transpose, do not re-compose**: every interval stays
   exactly as the composer wrote it.
 - `meter` — `4/4`, `3/4`, `2/4`, `2/2`, `6/8`, `9/8` or `12/8`. The meter the piece is in.
+
+  **There is one meter field and some pieces change meter.** Check `TimeSig` in the corpus's
+  `metadata.tsv` before you start: it reads like `1: 9/8, 21: 6/8, 33: 3/8, 34: 9/8`, one
+  entry per change. If a piece changes, you have two honest options and no third:
+
+  1. **Re-bar the minority section** into the meter that covers most of the music, keeping
+     every note and every duration and moving only the barlines. Say which bars you re-barred
+     and where the phrasing now fights the barline.
+  2. **Decline the piece.** The format cannot hold it, and that is a fact about the format.
+
+  Prefer declining when the re-barring would displace the phrasing of a section that matters,
+  when a bar length is not writable in any allowed meter at all (a 3/8 bar has no home), or
+  when the changes are frequent. Grieg's Notturno was written and then dropped on exactly
+  this: eight meter changes, a 6/8 middle re-barred into 9/8 so its two-bar phrases straddled
+  barlines, and three 3/8 bars padded out to full bars of rest. The arranger did the work
+  well and reported it honestly, and the honest report is what showed the piece should not be
+  in the collection. Deciding that before writing is cheaper for everyone.
 - `pickup` — **omit it** if the piece starts on beat 1. Otherwise its length in sixteenth
   units, with bar 1 exactly that long. Character pieces very often begin with an upbeat.
   Every bar needs a `chord`, including a pickup bar the score does not harmonise (the left
