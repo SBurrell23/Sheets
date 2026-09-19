@@ -5,26 +5,26 @@
   "meter": "2/4",
   "tempo": 76,
   "bars": [
-    { "chord": "G7",  "notes": "A4:2 F5:2 E5:2 D5:2" },
-    { "chord": "C",   "notes": "C5:2 [F#dim]A4:2 [G]B4:4" },
-    { "chord": "G7",  "notes": "A4:2 F5:2 E5:2 D5:2" },
-    { "chord": "C",   "notes": "C5:2 [F#dim]A4:2 [G]B4:4" },
+    { "chord": "G7", "notes": "A4:2 F5:2 E5:2 D5:2" },
+    { "chord": "C",  "notes": "C5:2 [F#dim7]A4:2 [G]B4:4" },
+    { "chord": "G7", "notes": "A4:2 F5:2 E5:2 D5:2" },
+    { "chord": "C",  "notes": "C5:2 [F#dim7]A4:2 [G]B4:4" },
 
-    { "chord": "C7",  "notes": "Bb4:2 G4:2 [F]A4:2 [Edim]E4:2" },
-    { "chord": "F",   "notes": "F4:2 [Bdim]D4:2 [C]E4:4" },
-    { "chord": "C7",  "notes": "Bb4:2 G4:2 [F]A4:2 [Edim]E4:2" },
-    { "chord": "F",   "notes": "F4:2 [Bdim]D4:2 [C]E4:4" },
+    { "chord": "C7", "notes": "Bb4:2 G4:2 [F]A4:2 [Edim7]E4:2" },
+    { "chord": "F",  "notes": "F4:2 [Bdim7]D4:2 [C]E4:4" },
+    { "chord": "C7", "notes": "Bb4:2 G4:2 [F]A4:2 [Edim7]E4:2" },
+    { "chord": "F",  "notes": "F4:2 [Bdim7]D4:2 [C]E4:4" },
 
-    { "chord": "Am",  "notes": "E4:2 [F#dim]F#4:2 [G]G4:2 [Am]A4:2" },
-    { "chord": "D7",  "notes": "B4:2 A4:2 [G]G4:4" },
-    { "chord": "Am",  "notes": "E4:2 [F#dim]F#4:2 [G]G4:2 [Am]A4:2" },
-    { "chord": "D7",  "notes": "B4:2 A4:2 [G]G4:4" },
+    { "chord": "Am", "notes": "E4:2 [F#dim]F#4:2 [G]G4:2 [Am]A4:2" },
+    { "chord": "D7", "notes": "B4:2 A4:2 [G]G4:4" },
+    { "chord": "Am", "notes": "E4:2 [F#dim]F#4:2 [G]G4:2 [Am]A4:2" },
+    { "chord": "D7", "notes": "B4:2 A4:2 [G]G4:4" },
 
-    { "chord": "G7",  "notes": "A4:2 F5:2 E5:2 D5:2" },
-    { "chord": "C",   "notes": "C5:2 [F#dim]A4:2 [G]B4:4" },
-    { "chord": "G7",  "notes": "A4:2 F5:2 E5:2 D5:2" },
-    { "chord": "C",   "notes": "C5:2 [F#dim]A4:2 [G]B4:4" },
+    { "chord": "G7", "notes": "A4:2 F5:2 E5:2 D5:2" },
+    { "chord": "C",  "notes": "C5:2 [F#dim7]A4:2 [G]B4:4" },
+    { "chord": "G7", "notes": "A4:2 F5:2 E5:2 D5:2" },
+    { "chord": "C",  "notes": "C5:2 [F#dim7]A4:2 [G]B4:4" },
 
-    { "chord": "G7",  "notes": "F5:4 R:4" }
+    { "chord": "G7", "notes": "F5:4 R:4" }
   ]
 }

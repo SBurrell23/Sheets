@@ -167,7 +167,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>D</root-step><root-alter>1</root-alter></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <harmony print-frame="no">
@@ -178,7 +178,7 @@
       <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
@@ -191,7 +191,7 @@
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <harmony print-frame="no">
@@ -203,7 +203,7 @@
     <measure number="15">
       <harmony print-frame="no">
         <root><root-step>D</root-step><root-alter>1</root-alter></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental></note>
       <harmony print-frame="no">
@@ -214,7 +214,7 @@
       <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>natural</accidental><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>C</root-step><root-alter>1</root-alter></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>
@@ -227,7 +227,7 @@
       <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <harmony print-frame="no">
@@ -240,7 +240,7 @@
       <print new-system="yes"/>
       <harmony print-frame="no">
         <root><root-step>B</root-step></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
       <harmony print-frame="no">
@@ -251,7 +251,7 @@
       <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><beam number="1">end</beam></note>
       <harmony print-frame="no">
         <root><root-step>F</root-step><root-alter>1</root-alter></root>
-        <kind text="dim">diminished</kind>
+        <kind text="dim7">diminished-seventh</kind>
       </harmony>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
     </measure>

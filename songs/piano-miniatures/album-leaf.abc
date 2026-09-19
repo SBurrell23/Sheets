@@ -5,18 +5,18 @@ M:2/4
 L:1/16
 Q:1/4=100
 K:Am clef=treble
-"Am"e2 | "Am"a3b1 c'2"G#dim"b2 | "Am"e'2e'2 a4 | "E7"b2b2 e4 |
-"Am"a2a2 A2e2 | "Am"a3b1 "A"d'1^c'1"G#dim"=c'1b1 | "Am"e'2e'2 a4 | "E7"b2b2 e2e'2 |
+"Am"e2 | "Am"a3b1 c'2"G#dim7"b2 | "Am"e'2e'2 a4 | "E7"b2b2 e4 |
+"Am"a2a2 A2e2 | "Am"a3b1 "A"d'1^c'1"G#dim7"=c'1b1 | "Am"e'2e'2 a4 | "E7"b2b2 e2e'2 |
 "Am"a4 a2 z2 | "C"G3^F1 G2A2 | "C"B2c2 d2"C/E"e2 | "C/E"e2"G7"d2- d4 |
 "G7"e2d2- d4 | "C"G3^F1 G2A2 | "C"B2c2 d2"C/E"e2 | "C/E"e2"B7/D#"^d2 g2"Bm7b5"f2 |
 "Bm7b5"f4 "Em"e2"G7"d2 | "C"G3^F1 G2A2 | "C"B2c2 d2"C/E"e2 | "C/E"e2"G7"d2- d4 |
 "G7"c2"E7"B2- B4 | "Am"E3^D1 E2^F2 | "Am"^G2A2 B2"Am/C"c2 | "F"c2B2 B2"F7"A2 |
-"Esus4"A4 "E"^G2e2 | "Am"a3b1 c'2"G#dim"b2 | "Am"e'2e'2 a4 | "E7"b2b2 e4 |
-"Am"a2a2 A2e2 | "Am"a3b1 "A"d'1^c'1"G#dim"=c'1b1 | "Am"e'2e'2 a4 | "E7"b2b2 e2e'2 |
+"Esus4"A4 "E"^G2e2 | "Am"a3b1 c'2"G#dim7"b2 | "Am"e'2e'2 a4 | "E7"b2b2 e4 |
+"Am"a2a2 A2e2 | "Am"a3b1 "A"d'1^c'1"G#dim7"=c'1b1 | "Am"e'2e'2 a4 | "E7"b2b2 e2e'2 |
 "Am"a4 a2 z2 | "C"G3^F1 G2A2 | "C"B2c2 d2"C/E"e2 | "C/E"e2"G7"d2- d4 |
 "G7"e2d2- d4 | "C"G3^F1 G2A2 | "C"B2c2 d2"C/E"e2 | "C/E"e2"B7/D#"^d2 g2"Bm7b5"f2 |
 "Bm7b5"f4 "Em"e2"G7"d2 | "C"G3^F1 G2A2 | "C"B2c2 d2"C/E"e2 | "C/E"e2"G7"d2- d4 |
 "G7"c2"E7"B2- B4 | "Am"E3^D1 E2^F2 | "Am"^G2A2 B2"Am/C"c2 | "F"c2B2 B2"F7"A2 |
-"Esus4"A4 "E"^G2e2 | "Am"a3b1 c'2"G#dim"b2 | "Am"e'2e'2 a4 | "E7"b2b2 e4 |
-"Am"a2a2 A2e2 | "Am"a3b1 "A"d'1^c'1"G#dim"=c'1b1 | "Am"e'2e'2 a4 | "E7"b2b2 e2e'2 |
+"Esus4"A4 "E"^G2e2 | "Am"a3b1 c'2"G#dim7"b2 | "Am"e'2e'2 a4 | "E7"b2b2 e4 |
+"Am"a2a2 A2e2 | "Am"a3b1 "A"d'1^c'1"G#dim7"=c'1b1 | "Am"e'2e'2 a4 | "E7"b2b2 e2e'2 |
 "Am"a4 a2 Hz2 |]
