@@ -119,6 +119,15 @@ words were about a file titled *Hot House* -- Tadd Dameron's **1945** contrafact
   carrying a complete chorus of a famous tune is the shape that trips it. Have agents create the
   file with the first sixteen bars and append the rest with a second edit, and keep long verbatim
   bar listings out of reports.
+- **Two things that sound like causes and are not.** Telling the agent to ignore lyric lines does
+  not work, because by then the words are in its context -- that one is real, and `src/stripw.py`
+  fixes it. But two further guesses were both wrong and cost dispatches to disprove: that the
+  *preamble* about content filtering was itself the trigger (a prompt with no mention of filters,
+  lyrics or copyright died on its first turn just the same), and that it was about how the file
+  gets written (writing in halves did not save the next one either). What the failures actually
+  track is the **song**: one pair of titles failed three times while other agents ran the same
+  spec to completion. So when a dispatch dies twice, do not redesign the prompt -- split the
+  songs and find out which one it is.
 - **Expect this on popular song and not on the rest.** Five of fifteen dispatches died on Jazz
   Standards; Folk, Classical, Hymns and Christmas lost none. 1900-1929 popular song is the most
   recorded and most litigated repertoire there is, and much of it has famous later recordings
