@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-love-for-sale-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Love_for_sale.abc",
+  "kind": "abc",
+  "bytes": 1570,
+  "sha256": "35582ec9441f37b041647f5f838b69245f1380b711cef53447478eae578f8536",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-love-for-sale-1-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Love_For_Sale_1.abc",
+  "kind": "abc",
+  "bytes": 1192,
+  "sha256": "6573e5ba7d0ee7acf312d23277e1243b8c7d60739a218a9804d32867f273dc8f",
+  "fetched": "2026-09-19"
+ }
+]

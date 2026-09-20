@@ -1,0 +1,118 @@
+{
+    "format": "json",
+    "id": 25835,
+    "name": "April Showers",
+    "url": "https://thesession.org/tunes/25835",
+    "member": {
+        "id": 32493,
+        "name": "benhockenberry",
+        "url": "https://thesession.org/members/32493"
+    },
+    "date": "2025-08-19 23:15:53",
+    "type": "jig",
+    "composer": "John McEvoy",
+    "tunebooks": 3,
+    "recordings": 1,
+    "collections": 0,
+    "aliases": [],
+    "settings": [
+        {
+            "id": 54903,
+            "url": "https://thesession.org/tunes/25835#setting54903",
+            "key": "Gminor",
+            "abc": "K:Bb! |:A,|B,DF Bcd|edc dBG|FBG FED|EDE C2F|! B,DF Bcd|edc dBG|FBG FDC|DB,B, B,2:|! |:A|Bdf fdB|Bdf f2e|dcd BFD |EDE C2F|! B,DF Bcd|edc dBG|FBG FDC|DB,B, B,2:|",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-19 23:15:53"
+        },
+        {
+            "id": 54904,
+            "url": "https://thesession.org/tunes/25835#setting54904",
+            "key": "Dmajor",
+            "abc": "|:c|dFA def|gfe fdB|AdB AGF|GFG E2A|! DFA def|gfe fdB|AdB AFE|FDD D2:|! |:c|dfa afd|dfa a2g|fef dAF |GFG E2A|! DFA def|gfe fdB|AdB AFE|FDD D2:|",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-19 23:18:36"
+        },
+        {
+            "id": 54910,
+            "url": "https://thesession.org/tunes/25835#setting54910",
+            "key": "Amajor",
+            "abc": "|:G,|A,CE ABc|dcB cAF|EAF EDC|DCD B,2E|! A,CE ABc|dcB cAF|EAF ECB,|CA,A, A,2:|! |:G|Ace ecA|Ace e2d|cBc AEC |DCD B,2E|! A,CE ABc|dcB cAF|EAF ECB,|CA,A, A,2:|",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-20 04:10:59"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1017135,
+            "url": "https://thesession.org/tunes/25835#comment1017135",
+            "subject": "April Showers",
+            "content": "From John and Jacinta McEvoy's new album \"The Boyne Mist.\"",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-19 23:15:53"
+        },
+        {
+            "id": 1017136,
+            "url": "https://thesession.org/tunes/25835#comment1017136",
+            "subject": "April Showers, X:2",
+            "content": "Here's a version for D whistle; played on a Bb whistle it will match the album version.",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-19 23:18:36"
+        },
+        {
+            "id": 1017144,
+            "url": "https://thesession.org/tunes/25835#comment1017144",
+            "subject": "April Showers, X:3",
+            "content": "...and on second thought (or third?) I'm thinking they could be playing on instruments tuned a half-step up. So here it is in A.    But then the tune after it has a low G...oh bother.",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-20 04:10:59"
+        },
+        {
+            "id": 1017204,
+            "url": "https://thesession.org/tunes/25835#comment1017204",
+            "subject": "Re: April Showers",
+            "content": "I think they may be on flat tuned instruments, actually... I'm not positive though.",
+            "member": {
+                "id": 19840,
+                "name": "Nico",
+                "url": "https://thesession.org/members/19840"
+            },
+            "date": "2025-08-20 20:31:58"
+        },
+        {
+            "id": 1017247,
+            "url": "https://thesession.org/tunes/25835#comment1017247",
+            "subject": "Re: April Showers",
+            "content": "Thanks Nicolas -- shall I post another transposition? ;)",
+            "member": {
+                "id": 32493,
+                "name": "benhockenberry",
+                "url": "https://thesession.org/members/32493"
+            },
+            "date": "2025-08-21 12:42:36"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation-thesession-org-tunes-25835-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F25835.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 209,
+  "sha256": "61c3641b6888d69e64e69ed9d11975db3c59af5f8705facffc53e280337b29a7",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-25835-no-ext-0002.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F25835.no-ext%2F0002",
+  "kind": "abc",
+  "bytes": 194,
+  "sha256": "68407a799156a3a58a65c0ccf000464a9f419e8c2a9d559e248e98d9be3cea60",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-thesession-org-tunes-25835-no-ext-0003.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=thesession.org%2Ftunes%2F25835.no-ext%2F0003",
+  "kind": "abc",
+  "bytes": 208,
+  "sha256": "85e3839be28e20a08dad9c40ef1cd332ab717e833b4f66828887a172cfc9c40e",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "thesession-25835.json",
+  "url": "https://thesession.org/tunes/25835?format=json",
+  "kind": "abc",
+  "bytes": 4553,
+  "sha256": "21522fc2f883f1149694d0a925718748d185f1e4cec03b1e150bc7abebb9039f",
+  "fetched": "2026-09-19"
+ }
+]

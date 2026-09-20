@@ -1,0 +1,47 @@
+X: 1
+% Copyright 1930 (Renewed) WB MUSIC CORP.
+T:Embraceable you
+M:4/4
+L:1/4
+C:Gershwin
+Q:1/4=108
+%%staves (chords melody)
+K:F
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 x2 | "Abdim7"x2 x2 | "Gm7"x2 x2 | "C7"x2 "( D7 )"x2 |
+"Gm7"x2 x2 | "Eb7"x2 x2 | "F6"x2 x2 | "Bb7"x2 "A7"x2 ||
+V:melody
+zDEF| zDEF | G/2z/2 z/2C/2 CC- | C4 |
+w:Em-brace me, my sweet em-brace-a-ble you!*
+zGAB | zGAB | c/2z/2 z/2F/2 FF- | F4 ||
+w:Em-brace me, you ir-re-place-a-ble you!*
+P:B
+V:chords
+"Dm7"x2 "-/C"x2 | "Bm7b5"x2 "E7"x2 | "Am7"x2 "-/G"x2 | "F#m7b5"x2 "Fm6"x2 |
+"Em7"x2 "A7"x2 | "Dm7"x2 "G7"x2 | "Gm7"x2 "Ab7"x2 | "Dbmaj7"x2 "C7"x2 ||
+V:melody
+AFGF | AFGF | A/2z/2 z/2E/2 EE- | E4 |
+w:Just one look at you, my heart grew tip-sy in me;*
+GEFE | FGA=B | c/2z/2 z/2C/2 CC- | C4 ||
+w:you and you a-lone bring out the gyp-sy in-me!*
+P:A
+V:chords
+"F6"x2 x2 | "Abdim7"x2 x2 | "Gm7"x2 x2 | "C7"x2 "( D7 )"x2 |
+"Gm7"x2 x2 | "Eb7"x2 x2 | "F6"x2 x2 | "Cm7"x2 "F7"x2 ||
+V:melody
+zDEF| zDEF | G/2z/2 z/2C/2 CC- | C4 |
+w:I love all the man-y charms a-bout you;*
+zGAB | zGAB | c/2z/2 z/2F/2 FF- | F4 ||
+w:a-bove all I want my arms a-bout you.*
+P:C
+V:chords
+"Bbmaj7"x2 x2 | "Em7b5"x2 "A7"x2 | "Dm7"x2 "-/C"x2 | "Bm7b5"x2 "Bbm6"x2 |
+"Am7"x2 "D7"x2 | "Gm7b5"x2 "C7"x2 | "F6"x2 "Ab7"x2 | "Dbmaj7"x2 "C7"x2 |]
+V:melody
+zcBA | BAGA | zF/2F/2 F/2F/2F/2F/2 | F/2F/2 A3|
+w:Don't be a naugh-ty ba-by, come to pa-pa, come to pa-pa, do!
+zABc |_d/2z/2 z/2F/2 E2 | F4 | z4 |]
+w:My sweet em-brace-a-ble you!

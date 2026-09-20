@@ -1,0 +1,18 @@
+[
+ {
+  "name": "abcnotation-ic-au-tunes-view-tune-php-name-somebody-loves-me-no-ext-0001.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=austradmusic.au%2Ftunes%2Fview_tune.php%3Fname%3DSomebody_Loves_Me.no-ext%2F0001",
+  "kind": "abc",
+  "bytes": 405,
+  "sha256": "75bb74789b05a4fb0dda618540434ae6d80c0d7bdadc93e4906149b2e5df61c7",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-trillian-mit-edu-jc-music-abc-song-somebody-loves-me-0000.abc",
+  "url": "http://trillian.mit.edu/~jc/music/abc/song/Somebody_loves_me.abc",
+  "kind": "abc",
+  "bytes": 1231,
+  "sha256": "2a5db87fce9f91552508609ce7f56bc972da12a602867254debaa36d0c45e308",
+  "fetched": "2026-09-19"
+ }
+]

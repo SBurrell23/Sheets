@@ -1,0 +1,34 @@
+[
+ {
+  "name": "abcnotation--mit-edu-jc-music-abc-contra-square-if-you-knew-susie-a-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FContra%2Fsquare%2FIf_You_Knew_Susie_A%2F0000",
+  "kind": "abc",
+  "bytes": 1220,
+  "sha256": "115b902bfe9dc6f7502a268281330ac6c585c91a950a4f8ebe2cb88bd45281ac",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation--mit-edu-jc-music-abc-contra-square-if-you-knew-susie-g-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FContra%2Fsquare%2FIf_You_Knew_Susie_G%2F0000",
+  "kind": "abc",
+  "bytes": 1221,
+  "sha256": "61aac1c3b84ca78fc486fbaf35d3a3b8500e484c80f99ab2ea567cf092d12346",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-rillian-mit-edu-jc-music-abc-contra-misc-ifyouknewsusie-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=trillian.mit.edu%2F~jc%2Fmusic%2Fabc%2FContra%2Fmisc%2FIfYouKnewSusie%2F0000",
+  "kind": "abc",
+  "bytes": 1200,
+  "sha256": "a3e7d32876912e7cfcc65e9f0f47515590a671b9cd3a2cc8e195c58bfa976874",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "abcnotation-spuds-thursdaycontra-com-tunes-couple-ifyouknewsusie-0000.abc",
+  "url": "https://abcnotation.com/getResource/downloads/text_/x.abc?a=spuds.thursdaycontra.com%2Ftunes%2Fcouple%2FIfYouKnewSusie%2F0000",
+  "kind": "abc",
+  "bytes": 342,
+  "sha256": "ba1d455ee66427d3a0d1bde1a5ae2d7135fb03eb2625b1256b2912ae76983a79",
+  "fetched": "2026-09-19"
+ }
+]

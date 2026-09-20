@@ -1,0 +1,50 @@
+X:1
+T:You took advantage of me
+M:4/4
+L:1/8
+C:Richard Rodgers & Lorenz Hart
+Q:1/4=130
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x4 "Edim7"x4 | "Fm7"x4 "Bb7"x4 | "Gm7"x4 "Gbdim7"x4 | "Fm7"x4 "Bb7"x4 |
+"Bbm7"x4 "Eb7"x4 | "Ab6"x4 "Db7"x4 | "(Fm7/Bb""Gm7"x2 "C7"x2 "Bb7)""Fm7"x2 "Bb7"x2 | "Eb6"x4 "T.A."x4 ||
+V:melody
+BBED _Dc3 | c2BB- B4 | BBcB =Ae3 | e2dd- d2f2 |
+w:I'm a sen-ti-men-tal sap, that's all.* What's the use of try-ing not to fall?* I
+f2ee- e2B2 | B2AA- A2EF | G2G2 FEF2 | E8 ||
+w:have no will,* you've made your kill* 'cause you took ad-van-tage of me!
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x4 "Edim7"x4 | "Fm7"x4 "Bb7"x4 | "Gm7"x4 "Gbdim7"x4 | "Fm7"x4 "Bb7"x4 |
+"Bbm7"x4 "Eb7"x4 | "Ab6"x4 "Db7"x4 | "(Fm7/Bb""Gm7"x2 "C7"x2 "Bb7)""Fm7"x2 "Bb7"x2 | "Eb6"x4 x4 ||
+V:melody
+BBED _Dc3 | c2BB- B4 | BBcB =Ae3 | e2dd- d2f2 |
+w:I'm just like an ap-ple on a bough* and you're gon-na shake me down some-how,* so
+f2ee- e2B2 | B2AA- A2EF | G2G2 FEF2 | E8 ||
+w:what's the use,* you've cooked my goose* 'cause you took ad-van-tage of me!
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Am7b5"x4 "D7"x4 | "G7"x4 "C7"x4 | "F7"x4 "Bb7"x4 | "Ebmaj7"x4 x4 |
+"Am7b5"x4 "D7"x4 | "G7"x4 "C7"x4 | "F7"x4 "Bb7"x4 | "Gm7"x2 "C7"x2 "Fm7"x2 "Bb7"x2 ||
+V:melody
+eefe dd2c | =B2_dc- c3_B | =A2_cB- B2F2 | G4- G2zd |
+w:I'm so hot and both-ered that I don't know* my el-bow from* my ear;* I
+eefe dd2c | =B2_dc- c3_B | =A2_cB- B2F2 | B8 ||
+w:suf-fer some-thing aw-ful each time you go* and much worse when* you're near.
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x4 "Edim7"x4 | "Fm7"x4 "Bb7"x4 | "Gm7"x4 "Gbdim7"x4 | "Fm7"x4 "Bb7"x4 |
+"Bbm7"x4 "Eb7"x4 | "Ab6"x4 "Db7"x4 | "(Fm7/Bb""Gm7"x2 "C7"x2 "Bb7)""Fm7"x2 "Bb7"x2 | "Eb6"x4 "T.A."x4 |]
+V:melody
+BBED _Dc3 | c2BB- B4 | BBcB =Ae3 | e2dd- d2f2 |
+w:Here am I with all my bridg-es burned,* just a babe in arms where you're con-cerned,* so
+f2ee- e2B2 | B2AA- A2EF | G2G2 FEF2 | E8 |]
+w:lock the doors* and call me yours* 'cause you took ad-van-tage of me!

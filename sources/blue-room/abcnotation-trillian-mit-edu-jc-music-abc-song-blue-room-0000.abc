@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1926 Warner Bross. Inc. (renewed)
+T:The blue room
+M:4/4
+L:1/4
+C:Richard Rodgers & Lorenz Hart
+Q:1/4=140
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm7"x2 | "(F/C""F/A"x2 "G7)""Dm7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+CF2D | CG2D | CA2D | CB2D |
+w:We'll have a blue room, a new room, for two room, where
+Cccc | c/d/B2G | FF F/G/A | C3z ||
+w:ev-'ry day's a hol-i-day be-cause you're mar-ried to me.
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm7"x2 | "F/C"x2 "C7"x2 | "F6"x2 x2 ||
+V:melody
+CF2D | CG2D | CA2D | CB2D |
+w:Not like a ball-room a small room, a hall room, where
+Cccc | c/d/B2G | FF F/G/A/G/ | F3z ||
+w:I can smoke my pipe a-way, with your wee head up-on my knee.
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"C7"x2 x2 | x2 x2 | "F6"x2 x2 | x2 x2 |
+"C7"x2 x2 | x2 x2 | "Dm7"x2 "G7"x2 | "Gm7"x2 "C7"x2 ||
+V:melody
+EFGA | Bcde | zf f/e/d | d2c2 |
+w:We will thrive on, keep a-live on just noth-ing but kiss-es,
+ze e/d/c | B2c2 | zA A/G/F | C3z ||
+w:with mis-ter and mis-sus on lit-tle blue chairs.
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm7"x2 | "F/C"x2 "C7"x2 | "F6"x2 x2 |]
+V:melody
+CF2D | CG2D | CA2D | CB2D |
+w:You sew your trous-seau, and Rob-in-son Cru-soe is
+Cccc | c/[d/f/]B2A/G/ | FF F/G/A/G/ | F2z2 |]
+w:not so far from world-ly cares as our blue room far a-way up-stairs!
