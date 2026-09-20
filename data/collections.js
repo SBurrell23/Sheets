@@ -2300,6 +2300,26 @@ window.PS_MANIFEST = [
       "pdf": "songs/jazz-standards/tin-pan-alley/let-me-call-you-sweetheart.pdf"
      },
      {
+      "slug": "let-the-rest-of-the-world-go-by",
+      "title": "Let the Rest of the World Go By",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 120,
+      "bars": 33,
+      "source": "Ernest R. Ball, 1919",
+      "pdf": "songs/jazz-standards/tin-pan-alley/let-the-rest-of-the-world-go-by.pdf"
+     },
+     {
+      "slug": "my-melancholy-baby",
+      "title": "My Melancholy Baby",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 80,
+      "bars": 16,
+      "source": "Ernie Burnett, 1911",
+      "pdf": "songs/jazz-standards/tin-pan-alley/my-melancholy-baby.pdf"
+     },
+     {
       "slug": "peg-o-my-heart",
       "title": "Peg o' My Heart",
       "key": "C",
@@ -2344,7 +2364,7 @@ window.PS_MANIFEST = [
    {
     "id": "jazz-age",
     "title": "The Jazz Age",
-    "label": "Hot standards of the 1920s",
+    "label": "Hot standards of the Jazz Age",
     "order": 2,
     "songs": [
      {
@@ -2418,6 +2438,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/jazz-standards/jazz-age/five-foot-two.pdf"
      },
      {
+      "slug": "georgia-on-my-mind",
+      "title": "Georgia on My Mind",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 32,
+      "source": "Hoagy Carmichael, 1930",
+      "pdf": "songs/jazz-standards/jazz-age/georgia-on-my-mind.pdf"
+     },
+     {
       "slug": "honeysuckle-rose",
       "title": "Honeysuckle Rose",
       "key": "C",
@@ -2468,6 +2498,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/jazz-standards/jazz-age/sweet-georgia-brown.pdf"
      },
      {
+      "slug": "sweet-lorraine",
+      "title": "Sweet Lorraine",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 33,
+      "source": "Cliff Burwell, 1928",
+      "pdf": "songs/jazz-standards/jazz-age/sweet-lorraine.pdf"
+     },
+     {
       "slug": "the-sheik-of-araby",
       "title": "The Sheik of Araby",
       "key": "C",
@@ -2504,6 +2544,16 @@ window.PS_MANIFEST = [
       "bars": 32,
       "source": "Irving Berlin, 1926 (Betsy)",
       "pdf": "songs/jazz-standards/stage-screen/blue-skies.pdf"
+     },
+     {
+      "slug": "embraceable-you",
+      "title": "Embraceable You",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 32,
+      "source": "George Gershwin, 1930 (Girl Crazy)",
+      "pdf": "songs/jazz-standards/stage-screen/embraceable-you.pdf"
      },
      {
       "slug": "fascinating-rhythm",
@@ -2556,6 +2606,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/jazz-standards/stage-screen/manhattan.pdf"
      },
      {
+      "slug": "oh-lady-be-good",
+      "title": "Oh, Lady Be Good",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 144,
+      "bars": 32,
+      "source": "George Gershwin, 1924 (Lady, Be Good!)",
+      "pdf": "songs/jazz-standards/stage-screen/oh-lady-be-good.pdf"
+     },
+     {
       "slug": "ol-man-river",
       "title": "Ol' Man River",
       "key": "C",
@@ -2564,6 +2624,16 @@ window.PS_MANIFEST = [
       "bars": 32,
       "source": "Jerome Kern, 1927 (Show Boat)",
       "pdf": "songs/jazz-standards/stage-screen/ol-man-river.pdf"
+     },
+     {
+      "slug": "somebody-loves-me",
+      "title": "Somebody Loves Me",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 190,
+      "bars": 32,
+      "source": "George Gershwin, 1924 (George White's Scandals of 1924)",
+      "pdf": "songs/jazz-standards/stage-screen/somebody-loves-me.pdf"
      },
      {
       "slug": "someone-to-watch-over-me",
@@ -2584,6 +2654,16 @@ window.PS_MANIFEST = [
       "bars": 32,
       "source": "Vincent Youmans, 1924",
       "pdf": "songs/jazz-standards/stage-screen/tea-for-two.pdf"
+     },
+     {
+      "slug": "blue-room",
+      "title": "The Blue Room",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 140,
+      "bars": 32,
+      "source": "Richard Rodgers, 1926 (The Girl Friend)",
+      "pdf": "songs/jazz-standards/stage-screen/blue-room.pdf"
      },
      {
       "slug": "the-man-i-love",
@@ -2614,6 +2694,16 @@ window.PS_MANIFEST = [
       "bars": 33,
       "source": "Cole Porter, 1929 (Wake Up and Dream)",
       "pdf": "songs/jazz-standards/stage-screen/what-is-this-thing-called-love.pdf"
+     },
+     {
+      "slug": "you-took-advantage-of-me",
+      "title": "You Took Advantage of Me",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 130,
+      "bars": 32,
+      "source": "Richard Rodgers, 1928 (Present Arms)",
+      "pdf": "songs/jazz-standards/stage-screen/you-took-advantage-of-me.pdf"
      }
     ]
    }

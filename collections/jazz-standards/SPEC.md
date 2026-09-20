@@ -475,6 +475,12 @@ Cross-check against published sources. For this repertoire the ones that pay are
     copies of a song in six keys, none with an `F:` or `Z:` header, is one transcription, not six.
     A file that *does* carry `F:` or `Z:` was read off a named source and is worth more than the
     rest of its family put together.
+  - **Check the NOTE VALUES against an engraving too.** One cached setting was written at double
+    the printed values — `L:1/4` where the sheet runs eighths — so its 32 bars were the print's
+    16, and taking its bar count at face value would have produced a song at twice the length and
+    twice the tempo. The tell is a bar count that is exactly double what the phrase structure
+    suggests. The arranger caught it by mapping syllable counts to note counts bar by bar and
+    finding a factor of two at every single bar, which no coincidence produces.
   - **Check the octave against an engraving before you trust it.** All three cached settings of
     one 1910 waltz sat a full octave above the printed sheet; taking them at face value would
     have jammed the tune against the ceiling of the range window.
