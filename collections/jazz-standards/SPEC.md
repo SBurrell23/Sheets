@@ -122,7 +122,13 @@ Write exactly one file to the path you are given,
 - `key` — `C` for major songs, `Am` for minor ones. Nothing else; the player transposes.
   **`C` means the song's HOME key maps to C.** Where a song moves key part-way through — and
   several here do — the moved section is written against the C key signature using accidentals,
-  and the chord symbols carry the modulation. Do not be tempted to put the *modulating* section
+  and the chord symbols carry the modulation.
+
+  **Which octave to transpose into is a real choice and there is a rule for it: pick the one
+  that puts the closing tonic on `C5`, then check the range.** Transposing from E flat, down a
+  minor third and up a major sixth are both "to C" and they are an octave apart; one of them
+  ended three different songs on `C4` and pushed a fourth below the floor of the window. Taking
+  the closing tonic to `C5` resolved all four instantly. Do not be tempted to put the *modulating* section
   on the white notes because it looks tidier there: the home key is nearly always the larger part
   of the song, and mapping it anywhere else multiplies the accidentals instead of reducing them.
 - `meter` — `4/4` for nearly everything here, `3/4` for a genuine waltz. See §4.

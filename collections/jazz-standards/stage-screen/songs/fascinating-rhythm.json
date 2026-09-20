@@ -1,0 +1,48 @@
+{
+  "title": "Fascinating Rhythm",
+  "source": "George Gershwin, 1924 (Lady, Be Good!)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 184,
+  "bars": [
+    { "chord": "G7",     "notes": "D5:2 F5:2 E5:2 D5:2 [F]G5:2 G5:2 R:2 D5:2" },
+    { "chord": "G7",     "notes": "F5:2 E5:2 D5:2 G5:2 [F]G5:2 R:2 D5:2 F5:2" },
+    { "chord": "G7",     "notes": "E5:2 D5:2 G5:2 G5:2 [F]R:2 D5:2 F5:2 E5:2" },
+    { "chord": "G",      "notes": "D5:4 G4:12" },
+
+    { "chord": "C",      "notes": "G5:2 Bb5:2 A5:2 G5:2 [Bb]C6:2 C6:2 R:2 G5:2" },
+    { "chord": "C7",     "notes": "Bb5:2 A5:2 G5:2 C6:2 [Bb]C6:2 R:2 G5:2 Bb5:2" },
+    { "chord": "C7",     "notes": "A5:2 G5:2 C6:2 C6:2 [Bb]R:2 G5:2 Bb5:2 A5:2" },
+    { "chord": "C7",     "notes": "G5:4 C5:12" },
+
+    { "chord": "F",      "notes": "R:4 C5:4 F5:4 G5:4" },
+    { "chord": "Dm7",    "notes": "A5:4 G5:2 B5:2~ [Em]B5:2 G5:2 [G7]A5:4" },
+    { "chord": "C",      "notes": "E5:16" },
+    { "chord": "C7",     "notes": "G5:2 E5:2 E5:2 E5:2 G5:2 E5:2 E5:2 E5:2" },
+
+    { "chord": "Am",     "notes": "R:4 C5:4 E5:4 G5:4" },
+    { "chord": "C6",     "notes": "C6:4 [G]B5:2 D6:2~ [D]D6:2 A5:2 [Cdim]B5:4" },
+    { "chord": "G7",     "notes": "G5:16" },
+    { "chord": "Bbdim",  "notes": "R:4 A5:4 F5:4 E5:4" },
+
+    { "chord": "G7",     "notes": "D5:2 F5:2 E5:2 D5:2 [F]G5:2 G5:2 R:2 D5:2" },
+    { "chord": "G7",     "notes": "F5:2 E5:2 D5:2 G5:2 [F]G5:2 R:2 D5:2 F5:2" },
+    { "chord": "G7",     "notes": "E5:2 D5:2 G5:2 G5:2 [F]R:2 D5:2 F5:2 E5:2" },
+    { "chord": "G7",     "notes": "D5:4 G4:12" },
+
+    { "chord": "C7",     "notes": "G5:2 Bb5:2 A5:2 G5:2 [Bb]C6:2 C6:2 R:2 G5:2" },
+    { "chord": "C7",     "notes": "Bb5:2 A5:2 G5:2 C6:2 [Bb]C6:2 R:2 G5:2 Bb5:2" },
+    { "chord": "C7",     "notes": "A5:2 G5:2 C6:2 C6:2 [Bb]R:2 G5:2 Bb5:2 A5:2" },
+    { "chord": "C7",     "notes": "G5:4 C5:12" },
+
+    { "chord": "F",      "notes": "R:4 C5:4 F5:4 G5:4" },
+    { "chord": "Dm6",    "notes": "A5:4 A5:2 B5:2~ [E7]B5:2 A5:2 B5:4" },
+    { "chord": "Am",     "notes": "R:4 C6:4 [G]D6:2 [Cmaj7]B5:6" },
+    { "chord": "D7",     "notes": "A5:16" },
+
+    { "chord": "G7",     "notes": "D5:2 F5:2 E5:2 D5:2 [F]G5:2 G5:2 R:2 D5:2" },
+    { "chord": "G",      "notes": "F5:2 E5:2 D5:2 A5:2~ A5:2 [D7]C6:2 [G7]E5:4" },
+    { "chord": "C",      "notes": "C5:4~ [F]C5:4~ [Am]C5:4~ [C]C5:4~" },
+    { "chord": "Dm",     "notes": "C5:4~ [F]C5:4~ [C]C5:8" }
+  ]
+}
