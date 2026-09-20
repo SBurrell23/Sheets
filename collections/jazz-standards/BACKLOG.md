@@ -18,7 +18,6 @@ scan-read song costs.
 |---|---|---|---|---|
 | My Melancholy Baby | Ernie Burnett | 1912 | tin-pan-alley | `my-melancholy-baby` |
 | Let the Rest of the World Go By | Ernest Ball | 1919 | tin-pan-alley | `let-the-rest-of-the-world-go-by` |
-| April Showers | Louis Silvers | 1921 | stage-screen (*Bombo*) | `april-showers` |
 | Somebody Loves Me | George Gershwin | 1924 | stage-screen (*George White's Scandals*) | `somebody-loves-me` |
 | Oh, Lady Be Good! | George Gershwin | 1924 | stage-screen (*Lady, Be Good!*) | `oh-lady-be-good` |
 | Blue Room | Richard Rodgers | 1926 | stage-screen (*The Girl Friend*) | `blue-room` |
@@ -26,6 +25,13 @@ scan-read song costs.
 | You Took Advantage of Me | Richard Rodgers | 1928 | stage-screen (*Present Arms*) | `you-took-advantage-of-me` |
 | Puttin' On the Ritz | Irving Berlin | 1929 | stage-screen | `puttin-on-the-ritz` |
 | Georgia on My Mind | Hoagy Carmichael | 1930 | jazz-age | `georgia-on-my-mind` |
+| Embraceable You | George Gershwin | 1930 | stage-screen (*Girl Crazy*) | `embraceable-you` |
+
+**April Showers was dropped from this wave before dispatch.** All three of its cached
+files are an Irish **jig** of the same name (`R: jig`), not the Louis Silvers song --
+the same title-match failure that has caught four arrangers already. It moves to the
+scan-only pile below. Every other source in this wave was checked the same way and
+carries a composer line naming the right writer.
 
 ---
 
@@ -45,7 +51,6 @@ triage to find out.
 | Star Dust | Hoagy Carmichael | 1929 | stage-screen |
 | Body and Soul | Johnny Green | 1930 | stage-screen (*Three's a Crowd*) |
 | I Got Rhythm | George Gershwin | 1930 | stage-screen (*Girl Crazy*) |
-| Embraceable You | George Gershwin | 1930 | stage-screen (*Girl Crazy*) |
 | Mood Indigo | Duke Ellington | 1930 | jazz-age |
 | On the Sunny Side of the Street | Jimmy McHugh | 1930 | stage-screen |
 
@@ -90,6 +95,7 @@ Show Boat is one song deep on the site (*Ol' Man River*); these make it three.
 
 | Song | Composer | Year | Set |
 |---|---|---|---|
+| April Showers | Louis Silvers | 1921 | stage-screen (*Bombo*) |
 | Moonlight Bay | Percy Wenrich | 1912 | tin-pan-alley |
 | You Made Me Love You | James Monaco | 1913 | tin-pan-alley |
 | They Didn't Believe Me | Jerome Kern | 1914 | tin-pan-alley |
