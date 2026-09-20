@@ -40,14 +40,17 @@ The chorus is usually **32 bars**. Two shapes are common, but they are not the o
 **write the form the song actually has**, and say what it was in your report:
 
 - **AABA** — eight bars, the same eight again with a different tail, a contrasting bridge, and
-  the eight again. *Ain't Misbehavin'*, *Blue Skies*, *I Can't Give You Anything But Love*,
-  *Someone to Watch Over Me*, and *Bye Bye Blackbird* — whose second A is the first **sequenced a
+  the eight again. *Ain't Misbehavin'*, *Blue Skies*, *Someone to Watch Over Me*, and
+  *Bye Bye Blackbird* — whose second A is the first **sequenced a
   step higher**, so not one bar of it matches literally and it can easily be mistaken for a B.
   AABA is much the commoner of the two.
 - **ABAC** — eight bars, a contrasting eight, the first eight again, a new close.
-  *Look for the Silver Lining*.
+  *Look for the Silver Lining* and *I Can't Give You Anything But Love*.
 
-**Both of the examples originally on the ABAC line were wrong**, and it took two arrangers and a
+**Three of the example labels in this list have now been wrong**, including one that survived a
+round of correcting the other two. Every one was caught by an arranger comparing the written
+bars, and every one had been put there from memory. **Both of the examples originally on the ABAC
+line were wrong**, and it took two arrangers and a
 mechanical check to sort out, because the two arrangers then contradicted each other. What
 settled it was comparing the written files bar by bar: in *Someone to Watch Over Me* the second
 eight shares six of its eight bars with the first and the bridge shares none, which is AABA; in
