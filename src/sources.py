@@ -418,7 +418,7 @@ def mutopia(title, slug, limit=3):
     body, err = get(MUTOPIA_SEARCH % urllib.parse.quote(title))
     if err:
         return [], 'search failed: %s' % err
-    got, seen = [], set()
+    got, seen, skipped = [], set(), []
     # The listing repeats each piece once per download format; the .ly is the
     # one worth having, and its folder holds the rest if anybody wants them.
     for m in re.finditer(r'href="([^"]*ftp/[^"]+\.ly)"', body):
@@ -433,6 +433,19 @@ def mutopia(title, slug, limit=3):
         seen.add(stem)
         ly, e2 = get(url)
         if e2 or not ly or 'relative' not in ly and 'notes' not in ly:
+            continue
+        # Check the piece's own title, which this path used not to do -- and it
+        # was the worst source of wrong caches in the project. Mutopia's search
+        # covers every metadata field including source URLs, so a query for
+        # "Chicago" returned Bach's Well-Tempered Clavier because some unrelated
+        # field mentioned it, and "Indiana" returned Schubert off a
+        # dlib.indiana.edu link. Three arrangers were handed pieces that were not
+        # remotely their song; one of them spent budget establishing that its
+        # three cached files were two hymns and an 1851 parlour song. The other
+        # providers have always run `matches`; this one now does too.
+        ly_titles = re.findall(r'^\s*title\s*=\s*"([^"]+)"', ly, re.M)
+        if ly_titles and not any(matches(title, t) for t in ly_titles):
+            skipped.append('%s (is "%s")' % (stem, ly_titles[0][:40]))
             continue
         name = 'mutopia-%s.ly' % slugify(stem)[:60]
         if not store(slug, name, ly, url, 'lilypond'):

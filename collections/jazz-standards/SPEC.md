@@ -1,7 +1,7 @@
 # Arranging spec — Jazz Standards
 
 This collection is **not** original composition. Each entry is a real popular song or jazz
-number published in the United States in **1929 or earlier**, arranged as a beginner–intermediate
+number published in the United States in **1930 or earlier**, arranged as a beginner–intermediate
 lead sheet: a single-line melody in the treble clef with chord symbols above it. No left-hand
 part, no stride, no inner voices.
 
@@ -335,8 +335,9 @@ harmony the song does not have, half a beat out, several times a page.
 - **Do not reharmonise.** Do not *add* a tritone substitution, modal interchange, or anything
   else you learned from a modern fake book. Where the period source genuinely has one — and they
   do; a flat-III seventh standing in for V-of-ii turns up in this repertoire — **write it**, and
-  say in your report that it was the source's and not yours. Where a modern Real Book disagrees with the 1929
-  sheet, **follow the 1929 sheet**, and say in your report that the two differ if you noticed it.
+  say in your report that it was the source's and not yours. Where a modern Real Book disagrees
+  with the period sheet, **follow the period sheet**, and say in your report that the two differ
+  if you noticed it.
 
 **A sheet from before about 1920 has no chord symbols on it at all**, and one from the early
 twenties may carry only ukulele chord *frames* — grids of dots with no letter names. For those
@@ -477,13 +478,17 @@ failure, and it is graded differently from a transcription.
 
 ## 10. Public domain
 
-Everything here must have been **published in the United States in 1929 or earlier**. Copyright
+Everything here must have been **published in the United States in 1930 or earlier**. Copyright
 runs 95 years from publication and the line rolls forward every January, so 1930 is now clear
-too — but this collection holds the line at 1929 to stay well inside it. Record the attribution
+too, and this collection now takes it. Note what that means for the year itself: a 1930 song is
+clear because copyright ran 95 years from publication and 1930 + 95 = 2025, so it expired on
+1 January 2026. **1931 is not clear and will not be until 1 January 2027.** Record the attribution
 in `source`.
 
-If the title you are given turns out to be later than 1929, **stop and report it** rather than
-writing it.
+If the title you are given turns out to be later than 1930, **stop and report it** rather than
+writing it. Dates move around in the sources — a song is often dated by its show, its film or its
+first hit record rather than by the copyright line — so when a title sits on the boundary, go by
+the **copyright line on the sheet** and say what it said.
 
 ## 11. One thing to avoid
 
