@@ -28,6 +28,24 @@ Three things, in order:
 3. **Copy the chord symbols he wrote**, above the staff, unchanged where the
    vocabulary allows.
 
+### When there are more than two staves
+
+Some of these scores have a **Voice** staff above a **Piano** grand staff — three
+staves per system, two of them treble. **The melody is not confined to one of
+them.** It is normally on the Voice staff, but where the voice rests the tune
+often carries on in the piano's right hand, and dropping that would lose real
+music.
+
+**Merge them into one line.** Take the Voice staff where it is singing, and the
+piano's treble where the Voice has rests. Where both sound at once, the Voice
+wins. The piano's **bass** staff is dropped throughout, exactly as elsewhere.
+
+**Check the Voice clef for an octave 8.** A treble clef with a small `8` beneath
+it is a vocal tenor clef: the notes **sound an octave lower than written**. The
+song file stores sounding pitch, so those notes must come down an octave, while
+the piano staves — plain treble clefs — do not. Getting this wrong puts the whole
+vocal line an octave too high and it is invisible unless you look at the clef.
+
 ## 2. What does NOT carry over from the other collections
 
 - **There is no public-domain wall here.** These are modern songs. Do not check
