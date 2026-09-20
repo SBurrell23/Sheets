@@ -10,7 +10,7 @@ The public-domain wall is **1930** (see SPEC §10). Everything below is inside i
 
 ## Wave 1 — approved and dispatched
 
-Nine titles with genuine machine-readable notation already cached under
+Ten titles with genuine machine-readable notation already cached under
 `sources/<slug>/`. These run roughly 150k tokens each rather than the 350-470k a
 scan-read song costs.
 
@@ -25,20 +25,25 @@ scan-read song costs.
 | Sweet Lorraine | Cliff Burwell | 1928 | jazz-age | `sweet-lorraine` |
 | You Took Advantage of Me | Richard Rodgers | 1928 | stage-screen (*Present Arms*) | `you-took-advantage-of-me` |
 | Puttin' On the Ritz | Irving Berlin | 1929 | stage-screen | `puttin-on-the-ritz` |
+| Georgia on My Mind | Hoagy Carmichael | 1930 | jazz-age | `georgia-on-my-mind` |
 
 ---
 
 ## Wave 2 — the 1930 unlock, highest value in the list
 
-These are the reason the wall moved. All scan-only so far, and all expensive, but
-they are the most-played songs in the whole backlog and they fill real gaps:
-**Ellington and Hoagy Carmichael are not on the site at all.**
+These are the reason the wall moved. Expensive, but they are the most-played songs
+in the whole backlog and they fill real gaps: **Ellington is not on the site at
+all**, and Carmichael arrives only via *Georgia on My Mind* in wave 1.
+
+The partial 1930 triage, before it was stopped, did find genuine ABC for
+**Embraceable You**, **Love for Sale**, **Fine and Dandy** and **Little White
+Lies** as well as Georgia — so this wave may be cheaper than feared. Re-run the
+triage to find out.
 
 | Song | Composer | Year | Set |
 |---|---|---|---|
 | Star Dust | Hoagy Carmichael | 1929 | stage-screen |
 | Body and Soul | Johnny Green | 1930 | stage-screen (*Three's a Crowd*) |
-| Georgia on My Mind | Hoagy Carmichael | 1930 | stage-screen |
 | I Got Rhythm | George Gershwin | 1930 | stage-screen (*Girl Crazy*) |
 | Embraceable You | George Gershwin | 1930 | stage-screen (*Girl Crazy*) |
 | Mood Indigo | Duke Ellington | 1930 | jazz-age |
