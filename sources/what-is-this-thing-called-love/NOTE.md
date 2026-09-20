@@ -1,15 +1,19 @@
-# Nothing is cached for this song, on purpose
+# Read the date on anything you find under this slug
 
-Triage matched "What Is This Thing Called Love?" against a file titled **Hot House**
-and cached it twice (both copies byte-identical). Hot House is Tadd Dameron's 1945
-contrafact: it borrows Cole Porter's *changes* and puts a completely different,
-**still-copyrighted** melody over them, which is why the two titles sit together in
-that archive's header.
+Triage originally matched this title against a file called **Hot House** and cached
+it twice. Hot House is Tadd Dameron's 1945 contrafact: it borrows Cole Porter's
+*changes* and puts a different, **still-copyrighted** melody over them, which is why
+the two titles share a header in that archive. Both copies were deleted. **Do not
+re-fetch that file** -- if a search turns it up again, that is what it is.
 
-So the cache was worse than empty. It was a false positive that pointed at a
-copyrighted 1945 work and invited an arranger to transcribe it, and an agent was
-terminated by a content filter while examining it.
+What IS cached here is genuine and was triaged before use:
+`ia-p16797coll1_1770-harms-1929.pdf`, a scan of the **1929 Harms Inc. first
+edition** from archive.org. Its cover credits Cole Porter and Arch Selwyn's
+presentation of Charles B. Cochran's London revue *Wake Up and Dream!*. It carries
+ukulele chord frames **with letter names**, about sixty changes across verse and
+refrain, so the harmony in the song file is transcribed rather than inferred.
 
-Both files have been deleted. Source this song fresh, from a scan of the 1929
-Harms print, or write it from recall and say so. **Do not re-fetch the Hot House
-file**, and if a search turns it up again, that is what it is.
+The melody is not, entirely -- see the song file's entry in the batch report.
+Bars 1-8 were read off this scan; bars 9-32 were written from recall, steered by
+the phrase shapes, ties, rests and bar boundaries that were legible. If anyone
+revisits one song in this collection, it should be this one.
