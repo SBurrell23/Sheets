@@ -1,0 +1,48 @@
+{
+  "title": "Oh, Lady Be Good",
+  "source": "George Gershwin, 1924 (Lady, Be Good!)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 144,
+  "bars": [
+    { "chord": "C6",     "notes": "G5:8 F5:4 E5:4" },
+    { "chord": "F7",     "notes": "G5:8 G5:8" },
+    { "chord": "C6",     "notes": "(3 G5:4 E5:4 C5:4) D5:8~" },
+    { "chord": "Em7b5",  "notes": "D5:8 [A7]G5:8" },
+
+    { "chord": "Dm7",    "notes": "(3 G5:4 F5:4 D5:4) G4:8~" },
+    { "chord": "G7",     "notes": "G4:8 E5:8" },
+    { "chord": "C6",     "notes": "C5:16~" },
+    { "chord": "C6",     "notes": "C5:16" },
+
+    { "chord": "C6",     "notes": "G5:8 F5:4 E5:4" },
+    { "chord": "F7",     "notes": "G5:8 G5:8" },
+    { "chord": "C6",     "notes": "(3 G5:4 E5:4 C5:4) D5:8~" },
+    { "chord": "Em7b5",  "notes": "D5:8 [A7]G5:8" },
+
+    { "chord": "Dm7",    "notes": "(3 G5:4 F5:4 D5:4) G4:8~" },
+    { "chord": "G7",     "notes": "G4:8 E5:8" },
+    { "chord": "C6",     "notes": "C5:16~" },
+    { "chord": "C7",     "notes": "C5:16" },
+
+    { "chord": "F",      "notes": "A5:16" },
+    { "chord": "F#dim",  "notes": "R:4 A5:4 A5:4 A5:4" },
+    { "chord": "C6",     "notes": "A5:8 G5:8~" },
+    { "chord": "C6",     "notes": "G5:8 [E7]R:8" },
+
+    { "chord": "Am7",    "notes": "R:4 E5:4 E5:4 E5:4" },
+    { "chord": "D7",     "notes": "E5:4 E5:4 E5:4 E5:4" },
+    { "chord": "Dm7",    "notes": "E5:8 D5:8" },
+    { "chord": "G7",     "notes": "R:4 E5:4 F5:4 F#5:4" },
+
+    { "chord": "C6",     "notes": "G5:8 F5:4 E5:4" },
+    { "chord": "F7",     "notes": "G5:8 G5:8" },
+    { "chord": "C6",     "notes": "(3 G5:4 E5:4 C5:4) D5:8~" },
+    { "chord": "Em7b5",  "notes": "D5:8 [A7]G5:8" },
+
+    { "chord": "Dm7",    "notes": "(3 G5:4 F5:4 D5:4) G4:8~" },
+    { "chord": "G7",     "notes": "G4:8 E5:8" },
+    { "chord": "C6",     "notes": "C5:16~" },
+    { "chord": "C6",     "notes": "C5:16" }
+  ]
+}

@@ -291,6 +291,12 @@ bridge missing.
    `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.
    A slash bass is allowed: `G/B`, `C/E`.
 
+   **There is no "no chord" symbol.** Where the sheet marks a bar *tacet* or breaks the band
+   under a lead-in figure, the format has nothing to write, so the previous chord necessarily
+   runs on through it — and it may well clash with the melody, because the sheet's whole point
+   there was that nothing was sounding. Let it run on, and **name the bar in your report** so a
+   reviewer can see it was the format and not a misreading.
+
    **Where the sheet's own chord clashes with the printed melody, write the sheet's chord and
    flag it in your report.** It happens: one arranger found a printed diminished under a bar
    whose melody shares just one note with it. Following the sheet is right — inventing a chord
