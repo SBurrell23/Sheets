@@ -1,0 +1,44 @@
+{
+  "title": "Embraceable You",
+  "source": "George Gershwin, 1930 (Girl Crazy)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 108,
+  "bars": [
+    { "chord": "C6",       "notes": "R:4 A4:4 B4:4 C5:4" },
+    { "chord": "Ebdim",    "notes": "R:4 A4:4 B4:4 C5:4" },
+    { "chord": "Dm7",      "notes": "D5:2 R:2 R:2 G4:2 G4:4 G4:4~" },
+    { "chord": "G7",       "notes": "G4:16" },
+    { "chord": "Dm7",      "notes": "R:4 D5:4 E5:4 F5:4" },
+    { "chord": "Bb7",      "notes": "R:4 D5:4 E5:4 F5:4" },
+    { "chord": "C6",       "notes": "G5:2 R:2 R:2 C5:2 C5:4 C5:4~" },
+    { "chord": "F7",       "notes": "C5:8~ [E7]C5:8" },
+
+    { "chord": "Am7",      "notes": "E5:4 C5:4 [Am7/G]D5:4 C5:4" },
+    { "chord": "F#m7b5",   "notes": "E5:4 C5:4 [B7]D5:4 C5:4" },
+    { "chord": "Em7",      "notes": "E5:2 R:2 R:2 B4:2 [Em7/D]B4:4 B4:4~" },
+    { "chord": "C#m7b5",   "notes": "B4:8~ [Cm6]B4:8" },
+    { "chord": "Bm7",      "notes": "D5:4 B4:4 [E7]C5:4 B4:4" },
+    { "chord": "Am7",      "notes": "C5:4 D5:4 [D7]E5:4 F#5:4" },
+    { "chord": "Dm7",      "notes": "G5:2 R:2 R:2 G4:2 [Eb7]G4:4 G4:4~" },
+    { "chord": "Abmaj7",   "notes": "G4:8~ [G7]G4:8" },
+
+    { "chord": "C6",       "notes": "R:4 A4:4 B4:4 C5:4" },
+    { "chord": "Ebdim",    "notes": "R:4 A4:4 B4:4 C5:4" },
+    { "chord": "Dm7",      "notes": "D5:2 R:2 R:2 G4:2 G4:4 G4:4~" },
+    { "chord": "G7",       "notes": "G4:16" },
+    { "chord": "Dm7",      "notes": "R:4 D5:4 E5:4 F5:4" },
+    { "chord": "Bb7",      "notes": "R:4 D5:4 E5:4 F5:4" },
+    { "chord": "C6",       "notes": "G5:2 R:2 R:2 C5:2 C5:4 C5:4~" },
+    { "chord": "Gm7",      "notes": "C5:8~ [C7]C5:8" },
+
+    { "chord": "Fmaj7",    "notes": "R:4 G5:4 F5:4 E5:4" },
+    { "chord": "Bm7b5",    "notes": "F5:4 E5:4 [E7]D5:4 E5:4" },
+    { "chord": "Am7",      "notes": "R:4 C5:2 C5:2 [Am7/G]C5:2 C5:2 C5:2 C5:2" },
+    { "chord": "F#m7b5",   "notes": "C5:2 C5:2 [Fm6]E5:12" },
+    { "chord": "Em7",      "notes": "R:4 E5:4 [A7]F5:4 G5:4" },
+    { "chord": "Dm7b5",    "notes": "Ab5:2 R:2 R:2 C5:2 [G7]B4:8" },
+    { "chord": "C6",       "notes": "C5:16~" },
+    { "chord": "C6",       "notes": "C5:16" }
+  ]
+}
