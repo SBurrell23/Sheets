@@ -452,6 +452,12 @@ Cross-check against published sources. For this repertoire the ones that pay are
     written after a long note is very often a tie the transcriber flattened.** The engraving held
     the note through; the ABC re-struck and rested. If you see a rest after a held note, assume a
     tie and check it.
+  - **A folk archive will hand you a folk tune of the same name.** This has now happened twice in
+    one wave of ten: one candidate's three cached files were an Irish **jig** called *April
+    Showers*, and another's second file was a 6/8 jig *collected from a singer in New South
+    Wales* that shares nothing with the Gershwin song but its title. Both were caught by reading
+    the `R:` and `S:` headers before the notes. **A `R: jig`, `R: reel` or an `S:` line naming a
+    person and a place means you are holding a folk tune**, whatever the `T:` says.
   - **Two files from that archive are usually not two opinions.** Check the `F:` header before
     treating them as corroboration. One pilot found three settings that all traced to a single
     upstream file and shared its errors — and one of the three was simply bad, with bars summing
