@@ -288,6 +288,12 @@ bridge missing.
    `` (major), `m`, `7`, `m7`, `maj7`, `sus4`, `7sus4`, `m7b5`, `dim`, `6`, `m6`.
    A slash bass is allowed: `G/B`, `C/E`.
 
+   **Where the sheet's own chord clashes with the printed melody, write the sheet's chord and
+   flag it in your report.** It happens: one arranger found a printed diminished under a bar
+   whose melody shares just one note with it. Following the sheet is right — inventing a chord
+   that fits better is a reharmonisation, and §7 forbids that. Name the bar so a reviewer can
+   look at it.
+
    There is **no `dim7` and no `aug`**: write a fully diminished seventh as `dim`, and an
    augmented triad or a `7+5` as the plain triad or plain seventh, and say so in your report.
    Both suffixes were tried on another collection and taken back out — these are
