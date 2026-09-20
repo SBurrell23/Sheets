@@ -44,6 +44,7 @@ KEYS = {
     'C':  (0,  'major', 'C', 'C'),
     'G':  (1,  'major', 'G', 'G'),
     'D':  (2,  'major', 'D', 'D'),
+    'A':  (3,  'major', 'A', 'A'),
     'F':  (-1, 'major', 'F', 'F'),
     'Bb': (-2, 'major', 'B', 'Bb'),
     'Am': (0,  'minor', 'A', 'Am'),

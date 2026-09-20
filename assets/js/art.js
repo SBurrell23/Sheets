@@ -63,6 +63,14 @@ window.PS = window.PS || {};
       '<path d="M2.9 13.4h10.7"/>' +
       '<path d="M13.6 9.4 20.6 6.2v14.4l-7-3.2z"/>' +
       '<path d="M6.8 13.4V9.2M9.6 13.4V9.2M12.4 13.4V9.2"/>',
+    // A pencil. Every other icon here names a genre or an instrument; this
+    // collection is defined by who wrote it out and how, so the icon is the act
+    // rather than the music.
+    "steves-transcriptions":
+      '<path d="M4.2 19.8l1.15-4.05L16.3 4.8a1.9 1.9 0 0 1 2.7 0l0.2 0.2a1.9 1.9 0 0 1 0 2.7' +
+      'L8.25 18.65z"/>' +
+      '<path d="M14.6 6.5l3.2 3.2"/>' +
+      '<path d="M4.2 19.8l3-1.1"/>',
     "ai-music":
       '<path d="M8.6 2.4l1.3 3.6 3.6 1.3-3.6 1.3-1.3 3.6-1.3-3.6L3.7 7.3l3.6-1.3z"/>' +
       '<circle cx="13.6" cy="18.3" r="2.4"/><path d="M16 18.3v-7.1l3.8 1.4"/>'
