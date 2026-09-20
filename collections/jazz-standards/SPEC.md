@@ -530,7 +530,13 @@ So:
   file. If you must refer to a passage, describe it: "bars 9–16 are the A material a major third
   higher", never the notes themselves.
 - Keep your report to structural facts — bar counts, form, chords, compromises.
-- **Check the date of what you are reading, not just the title.** A "contrafact" is a later tune
+- **Check the date of what you are reading, not just the title. This has caught four arrangers
+  on this collection.** One was handed a **1945** bebop head under a 1929 title, because the
+  later tune borrows the older one's changes and the archive files it under both names.
+  Another nearly took a **1950** vocal edition of a 1926 instrumental, which an archive files
+  under item number "1926". A third was given three Mutopia files that turned out to be two
+  hymns and an 1851 parlour song, matched on a word buried in their metadata. **Read the
+  composer line and the copyright line before you read a note.** A "contrafact" is a later tune
   written over an older song's chord changes, and archives file them under both names. The
   changes are the old song's and are fair to cross-check against; the melody is the new one's,
   is usually still in copyright, and is not your song.
