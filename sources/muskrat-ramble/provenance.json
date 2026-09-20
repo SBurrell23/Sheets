@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Muskrat%20Ramble.pdf",
+  "url": "https://archive.org/download/muskrat-ramble-score/Muskrat%20Ramble.pdf",
+  "kind": "other",
+  "bytes": 536721,
+  "sha256": "41de749e5287ff4c63221aa6a7eee643c294da3791c2fa098ee030d2119a644a",
+  "fetched": "2026-09-19"
+ },
+ {
+  "name": "muskrat_ramble.MID",
+  "url": "http://jbott.com/muskrat_ramble.MID",
+  "kind": "other",
+  "bytes": 24948,
+  "sha256": "ac8761f871bb81e6f27db8d342e18da117c56393a84be6ccdf99754c97281b2e",
+  "fetched": "2026-09-19"
+ }
+]
