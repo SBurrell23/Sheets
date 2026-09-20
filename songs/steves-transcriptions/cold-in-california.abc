@@ -1,0 +1,16 @@
+X:1
+T:Cold in California
+C:Ashe, transcribed by Steve Burrell
+M:4/4
+L:1/16
+Q:1/4=109
+K:A clef=treble
+"D"f8 a8 | "A"a8 a8 | "C#7"b8 b8 | "F#m"a8 a8 |
+"D"e6 c1d1 e6 c1d1 | "A"e2a2 e2d2 c6 A2 | "C#7"e6 c2 c6 B2 | "F#m"F12 z2 c1d1 |
+"D"e6 c1d1 e6 c2 | "A"e2a2 e2d2 c6 c1d1 | "C#7"e6 d2 c6 B2 | "F#m"F12 z1 c1d2 |
+"Bm7"e2d2 c2B2 A8 | "D"e2d2 c2B2 B6 c1d1 | "A"e2d2 c2B2 B2A2- A2A1B1 | "E/G#"c2B2 A2B2 F6 c1d1 |
+"Bm7"e2d2 c2B2 B2A2- A2c1d1 | "D"e2d2 c2B2 B6 c1d1 | "A"e2a2 e2d2 d2c2- c2A1G1 | "E/G#"c2B2 A2B2 F8 |
+"D"z2 d2 d2d2 d2d2 d2c2 | "A"c4 B1A3- A8 | "C#7"z2 B2 B2B2 B2B2 B2A2 | "F#m"A4 G1F3- "F#m7/E"F8 |
+"D"z2 d2 d2d2 d2d2 d2c2 | "A"c4 B1A3- A8 | "C#7"z2 B2 B2B2 B2B2 B2A2 | "F#m"A4 G1F3- F2f2 g2a2 |
+"Bm7"d2d2 d2d2 d2d2 d2c2 | "F#m"c4 B1A3- A8 | "B/D#"z2 B2 B2B2 "Bm/D"B2B2 B2A2 | "A/C#"A2 B6- B6 A2 |
+"A/C#"A12 z1 c1c1Hd1 |]

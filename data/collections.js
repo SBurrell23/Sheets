@@ -3844,5 +3844,51 @@ window.PS_MANIFEST = [
     ]
    }
   ]
+ },
+ {
+  "id": "steves-transcriptions",
+  "title": "Steve's Transcriptions",
+  "blurb": "Transcribed by ear by Steve. Modern songs, written out by hand.",
+  "order": 8,
+  "sets": [
+   {
+    "id": "steves-transcriptions",
+    "title": "Steve's Transcriptions",
+    "label": "By ear, by hand",
+    "order": 1,
+    "songs": [
+     {
+      "slug": "cold-in-california",
+      "title": "Cold in California",
+      "key": "A",
+      "meter": "4/4",
+      "tempo": 109,
+      "bars": 33,
+      "source": "Ashe, transcribed by Steve Burrell",
+      "pdf": "songs/steves-transcriptions/cold-in-california.pdf"
+     },
+     {
+      "slug": "fun-while-it-lasted",
+      "title": "Fun While It Lasted",
+      "key": "A",
+      "meter": "4/4",
+      "tempo": 68,
+      "bars": 16,
+      "source": "Ashe, transcribed by Steve Burrell",
+      "pdf": "songs/steves-transcriptions/fun-while-it-lasted.pdf"
+     },
+     {
+      "slug": "please-dont-fall-in-love-with-me",
+      "title": "Please Don't Fall in Love With Me",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 65,
+      "bars": 16,
+      "source": "Ashe, transcribed by Steve Burrell",
+      "pdf": "songs/steves-transcriptions/please-dont-fall-in-love-with-me.pdf"
+     }
+    ]
+   }
+  ]
  }
 ];
