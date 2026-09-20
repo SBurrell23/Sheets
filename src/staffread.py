@@ -17,7 +17,16 @@ What makes it work, in order of how much it mattered:
 2. **Tint the known pitch rows before reading the crop by eye.** `tint` paints
    the C4/G4/C5/G5/C6 rows in fixed colours, so the eye reads "notehead in the
    red band" rather than counting ledger lines.
-3. **Use the detector as a tiebreak, not as the answer.** `noteheads` finds
+3. **Two known failure modes, both hit on the 1929 Berlin engraving.** `noteheads`
+   can return almost nothing there, because `binary_fill_holes` floods the whole
+   staff once barlines and staff lines enclose it; and `barlines` reports every
+   stem-up note sitting on the bottom line as a barline. The arranger who hit both
+   worked around them: a matched elliptical filter over row-median-subtracted ink
+   found heads reliably and, unlike this module, found OPEN noteheads too; and on
+   a piano score the clean barline test is a column of ink crossing the **gap
+   between the two staves**, which nothing else does. Worth folding in if a later
+   batch needs them.
+4. **Use the detector as a tiebreak, not as the answer.** `noteheads` finds
    filled heads by erosion and is good on quarters and eighths, blind to open
    half and whole notes, and confused by beams. Trust your eye on the tinted
    crop and use this to check it.

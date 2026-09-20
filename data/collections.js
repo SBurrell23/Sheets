@@ -2626,6 +2626,16 @@ window.PS_MANIFEST = [
       "pdf": "songs/jazz-standards/stage-screen/ol-man-river.pdf"
      },
      {
+      "slug": "puttin-on-the-ritz",
+      "title": "Puttin' On The Ritz",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 160,
+      "bars": 32,
+      "source": "Irving Berlin, 1929",
+      "pdf": "songs/jazz-standards/stage-screen/puttin-on-the-ritz.pdf"
+     },
+     {
       "slug": "somebody-loves-me",
       "title": "Somebody Loves Me",
       "key": "C",

@@ -6,5 +6,13 @@
   "bytes": 534,
   "sha256": "c0124efb6fb4388965bd752eab0f9ed8eef10dde6328c7fe8f97aa69848b7f38",
   "fetched": "2026-09-19"
+ },
+ {
+  "name": "imslp-pmlus08051-berlin-1929.pdf",
+  "url": "https://imslp.org/wiki/Puttin%27_On_The_Ritz_(Berlin,_Irving)",
+  "kind": "scan",
+  "bytes": 2795248,
+  "sha256": "9cceaa3eed35e541d66b54ea8a209fa926c7e812f19263715dd88c01509e8d7c",
+  "fetched": "2026-09-19"
  }
 ]
