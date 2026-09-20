@@ -1,0 +1,47 @@
+{
+  "title": "Makin' Whoopee",
+  "source": "Walter Donaldson, 1928 (Whoopee!)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 112,
+  "pickup": 8,
+  "bars": [
+    { "chord": "C6",   "notes": "R:3 G4:1 A4:3 G4:1" },
+
+    { "chord": "C6",   "notes": "E5:8~ E5:3 G4:1 A4:3 G4:1" },
+    { "chord": "F/A",  "notes": "F5:8~ F5:3 G4:1 A4:3 G4:1" },
+    { "chord": "C6",   "notes": "G5:8~ G5:3 C5:1 D5:3 C5:1" },
+    { "chord": "F",    "notes": "G5:8~ G5:3 F5:1 G5:3 F5:1" },
+    { "chord": "Am",   "notes": "E5:4 E5:4~ E5:3 G4:1 A4:3 G4:1" },
+    { "chord": "Ab7",  "notes": "Eb5:4 Eb5:4~ Eb5:3 C#5:1 D5:3 D#5:1" },
+    { "chord": "C/G",  "notes": "E5:4 C5:12~" },
+    { "chord": "C6",   "notes": "C5:8 [G7]R:3 G4:1 A4:3 G4:1" },
+
+    { "chord": "C6",   "notes": "E5:8~ E5:3 G4:1 A4:3 G4:1" },
+    { "chord": "F/A",  "notes": "F5:8~ F5:3 G4:1 A4:3 G4:1" },
+    { "chord": "C6",   "notes": "G5:4 G5:4~ G5:3 C5:1 D5:3 C5:1" },
+    { "chord": "F",    "notes": "G5:8~ G5:3 F5:1 G5:3 F5:1" },
+    { "chord": "Am",   "notes": "E5:4 E5:4~ E5:3 G4:1 A4:3 G4:1" },
+    { "chord": "Ab7",  "notes": "Eb5:4 Eb5:4~ Eb5:3 C#5:1 D5:3 D#5:1" },
+    { "chord": "C/G",  "notes": "E5:4 C5:12~" },
+    { "chord": "C6",   "notes": "C5:16" },
+
+    { "chord": "C7",   "notes": "G5:2 Bb5:4 G5:2 Bb5:4 G5:4" },
+    { "chord": "F",    "notes": "F5:4 F5:12" },
+    { "chord": "Fm",   "notes": "F5:2 Ab5:4 F5:2 Ab5:4 F5:4" },
+    { "chord": "C6",   "notes": "E5:8 R:8" },
+    { "chord": "C7",   "notes": "G5:2 Bb5:4 G5:2 Bb5:4 G5:4" },
+    { "chord": "F",    "notes": "F5:4 F5:12" },
+    { "chord": "Fm",   "notes": "F5:2 Ab5:4 F5:2 Ab5:4 F5:4" },
+    { "chord": "C6",   "notes": "E5:8~ E5:3 G4:1 A4:3 G4:1" },
+
+    { "chord": "C6",   "notes": "E5:4 E5:4~ E5:3 G4:1 A4:3 G4:1" },
+    { "chord": "F/A",  "notes": "F5:8~ F5:3 G4:1 A4:3 G4:1" },
+    { "chord": "C6",   "notes": "G5:4 G5:4~ G5:3 C5:1 D5:3 C5:1" },
+    { "chord": "F",    "notes": "G5:8~ G5:3 F5:1 G5:3 F5:1" },
+    { "chord": "Am",   "notes": "E5:4 E5:4~ E5:3 G4:1 A4:3 G4:1" },
+    { "chord": "Ab7",  "notes": "Eb5:4 Eb5:4~ Eb5:3 C#5:1 D5:3 D#5:1" },
+    { "chord": "C/G",  "notes": "E5:4 C5:12~" },
+    { "chord": "C6",   "notes": "C5:16" }
+  ]
+}

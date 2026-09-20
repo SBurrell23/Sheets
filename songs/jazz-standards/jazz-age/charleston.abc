@@ -1,0 +1,15 @@
+X:1
+T:Charleston
+C:James P. Johnson, 1923 (Runnin' Wild)
+M:4/4
+L:1/16
+Q:1/4=200
+K:C clef=treble
+"C"G4 z2 G2 G8 | "E7"^G4 z2 G2 G8 | "A7"A4 z2 A2 A3^G1 A4 | "A7"e4 z2 A2 A8 |
+"D7"A4 z2 e2 e8 | "G7"A4 z2 e2 e8 | "Am7"A4 z2 c2 c8 | "Adim"B2d2 B2A2 "G7"A2B2 A2_A2 |
+"C"G4 z2 G2 G8 | "E7"^G4 z2 G2 G8 | "A7"A4 z2 A2 A3^G1 A4 | "D7"e4 z2 e2 e8 |
+"G"z2 B2 B2B2 B2A2 G4 | "B7"z2 A2 A2A2 A2G2 ^F4 | "E7"z2 B2 B2B2 B2A2 ^G4 | "G7"z2 B2 B2B2 B2A2 G4 |
+"C"G4 z2 G2 G8 | "E7"^G4 z2 G2 G8 | "A7"A4 z2 A2 A3^G1 A4 | "A7"e4 z2 A2 A2 z2 A3A1 |
+"D7"A4 z2 e2 e3^d1 e4 | "G7"A4 z2 e2 e8 | "Am7"A4 z2 c2 c8 | "Adim"B2d2 B2A2 "G7"A4 G4 |
+"Am"B4 z2 B2 B8 | "C"z4 d4 d3c1 d4 | "F"c4 z2 c2 c8 | "D7"z4 B4 d3c1 d4 |
+"Am7"A4 z2 A2 "Adim"A8 | "G7"z2 G2 A2B2 B2B2 A2G2 | "C7"c8- "Fm6"c8- | "C"Hc16 |]

@@ -1,0 +1,15 @@
+X:1
+T:Bye Bye Blackbird
+C:Ray Henderson, 1926
+M:4/4
+L:1/16
+Q:1/4=160
+K:C clef=treble
+"C6"e4 e4 e4 e4 | "Dm7"f4 e4 "G7"e8 | "C6"e4 d4 d8 | "Dm7"d4 c4 "G7"c8 |
+"C6"c16 | "Ebdim"d16 | "Dm7"c8 "G7"B8- | "G7"B16 |
+"Dm7"f4 f4 f4 f4 | "Dm7"g4 f4 f8 | "Dm7"f4 e4 e8 | "G7"e4 d4 d8 |
+"Dm7"d16 | "G7"e16 | "C6"d8 c8- | "C6"c16 |
+"C7"c4 g4 g4 g4 | "F"g4 f4 e4 d4 | "Em7b5"d16 | "A7"^c16 |
+"Dm7"A4 f4 f4 f4 | "Dm7"f4 e4 d4 c4 | "Fm7"c16 | "G7"B16 |
+"C6"e4 e4 e4 e4 | "Dm7"f4 e4 "G7"e8 | "Dm7"e4 d4 "G7"d8 | "Em7b5"d4 ^c4 "A7"=c8 |
+"Dm7"d8 f8- | "G7"f8 B8 | "C6"c16- | "C"Hc16 |]

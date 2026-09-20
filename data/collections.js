@@ -2188,6 +2188,438 @@ window.PS_MANIFEST = [
   ]
  },
  {
+  "id": "jazz-standards",
+  "title": "Jazz Standards",
+  "blurb": "Tin Pan Alley, the Jazz Age and Broadway, up to 1929. The chorus everyone plays, with its changes.",
+  "order": 4,
+  "sets": [
+   {
+    "id": "tin-pan-alley",
+    "title": "Tin Pan Alley",
+    "label": "Song hits of 1900-1919",
+    "order": 1,
+    "songs": [
+     {
+      "slug": "a-good-man-is-hard-to-find",
+      "title": "A Good Man Is Hard to Find",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 104,
+      "bars": 23,
+      "source": "Eddie Green, 1918",
+      "pdf": "songs/jazz-standards/tin-pan-alley/a-good-man-is-hard-to-find.pdf"
+     },
+     {
+      "slug": "after-youve-gone",
+      "title": "After You've Gone",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 126,
+      "bars": 20,
+      "source": "Turner Layton, 1918",
+      "pdf": "songs/jazz-standards/tin-pan-alley/after-youve-gone.pdf"
+     },
+     {
+      "slug": "alexanders-ragtime-band",
+      "title": "Alexander's Ragtime Band",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 176,
+      "bars": 33,
+      "source": "Irving Berlin, 1911",
+      "pdf": "songs/jazz-standards/tin-pan-alley/alexanders-ragtime-band.pdf"
+     },
+     {
+      "slug": "indiana",
+      "title": "Back Home Again in Indiana",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 33,
+      "source": "James F. Hanley, 1917",
+      "pdf": "songs/jazz-standards/tin-pan-alley/indiana.pdf"
+     },
+     {
+      "slug": "bill-bailey",
+      "title": "Bill Bailey, Won't You Please Come Home",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 112,
+      "bars": 16,
+      "source": "Hughie Cannon, 1902",
+      "pdf": "songs/jazz-standards/tin-pan-alley/bill-bailey.pdf"
+     },
+     {
+      "slug": "by-the-light-of-the-silvery-moon",
+      "title": "By the Light of the Silvery Moon",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 19,
+      "source": "Gus Edwards, 1909",
+      "pdf": "songs/jazz-standards/tin-pan-alley/by-the-light-of-the-silvery-moon.pdf"
+     },
+     {
+      "slug": "down-by-the-old-mill-stream",
+      "title": "Down by the Old Mill Stream",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 116,
+      "bars": 33,
+      "source": "Tell Taylor, 1910",
+      "pdf": "songs/jazz-standards/tin-pan-alley/down-by-the-old-mill-stream.pdf"
+     },
+     {
+      "slug": "give-my-regards-to-broadway",
+      "title": "Give My Regards to Broadway",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 16,
+      "source": "George M. Cohan, 1904 (Little Johnny Jones)",
+      "pdf": "songs/jazz-standards/tin-pan-alley/give-my-regards-to-broadway.pdf"
+     },
+     {
+      "slug": "i-aint-got-nobody",
+      "title": "I Ain't Got Nobody",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 116,
+      "bars": 33,
+      "source": "Spencer Williams, 1915",
+      "pdf": "songs/jazz-standards/tin-pan-alley/i-aint-got-nobody.pdf"
+     },
+     {
+      "slug": "let-me-call-you-sweetheart",
+      "title": "Let Me Call You Sweetheart",
+      "key": "C",
+      "meter": "3/4",
+      "tempo": 126,
+      "bars": 32,
+      "source": "Leo Friedman, 1910",
+      "pdf": "songs/jazz-standards/tin-pan-alley/let-me-call-you-sweetheart.pdf"
+     },
+     {
+      "slug": "peg-o-my-heart",
+      "title": "Peg o' My Heart",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 88,
+      "bars": 32,
+      "source": "Fred Fisher, 1913",
+      "pdf": "songs/jazz-standards/tin-pan-alley/peg-o-my-heart.pdf"
+     },
+     {
+      "slug": "pretty-baby",
+      "title": "Pretty Baby",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 33,
+      "source": "Tony Jackson and Egbert Van Alstyne, 1916",
+      "pdf": "songs/jazz-standards/tin-pan-alley/pretty-baby.pdf"
+     },
+     {
+      "slug": "some-of-these-days",
+      "title": "Some of These Days",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 33,
+      "source": "Shelton Brooks, 1910",
+      "pdf": "songs/jazz-standards/tin-pan-alley/some-of-these-days.pdf"
+     },
+     {
+      "slug": "youre-a-grand-old-flag",
+      "title": "You're a Grand Old Flag",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 17,
+      "source": "George M. Cohan, 1906 (George Washington, Jr.)",
+      "pdf": "songs/jazz-standards/tin-pan-alley/youre-a-grand-old-flag.pdf"
+     }
+    ]
+   },
+   {
+    "id": "jazz-age",
+    "title": "The Jazz Age",
+    "label": "Hot standards of the 1920s",
+    "order": 2,
+    "songs": [
+     {
+      "slug": "aint-misbehavin",
+      "title": "Ain't Misbehavin'",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 112,
+      "bars": 32,
+      "source": "Fats Waller and Harry Brooks, 1929 (Connie's Hot Chocolates)",
+      "pdf": "songs/jazz-standards/jazz-age/aint-misbehavin.pdf"
+     },
+     {
+      "slug": "aint-she-sweet",
+      "title": "Ain't She Sweet",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 168,
+      "bars": 32,
+      "source": "Milton Ager, 1927",
+      "pdf": "songs/jazz-standards/jazz-age/aint-she-sweet.pdf"
+     },
+     {
+      "slug": "avalon",
+      "title": "Avalon",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 184,
+      "bars": 33,
+      "source": "Al Jolson and Vincent Rose, 1920",
+      "pdf": "songs/jazz-standards/jazz-age/avalon.pdf"
+     },
+     {
+      "slug": "bye-bye-blackbird",
+      "title": "Bye Bye Blackbird",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 160,
+      "bars": 32,
+      "source": "Ray Henderson, 1926",
+      "pdf": "songs/jazz-standards/jazz-age/bye-bye-blackbird.pdf"
+     },
+     {
+      "slug": "charleston",
+      "title": "Charleston",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 200,
+      "bars": 32,
+      "source": "James P. Johnson, 1923 (Runnin' Wild)",
+      "pdf": "songs/jazz-standards/jazz-age/charleston.pdf"
+     },
+     {
+      "slug": "dinah",
+      "title": "Dinah",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 168,
+      "bars": 32,
+      "source": "Harry Akst, 1925",
+      "pdf": "songs/jazz-standards/jazz-age/dinah.pdf"
+     },
+     {
+      "slug": "five-foot-two",
+      "title": "Five Foot Two, Eyes of Blue",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 192,
+      "bars": 32,
+      "source": "Ray Henderson, 1925",
+      "pdf": "songs/jazz-standards/jazz-age/five-foot-two.pdf"
+     },
+     {
+      "slug": "honeysuckle-rose",
+      "title": "Honeysuckle Rose",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 32,
+      "source": "Fats Waller, 1929 (Load of Coal)",
+      "pdf": "songs/jazz-standards/jazz-age/honeysuckle-rose.pdf"
+     },
+     {
+      "slug": "i-cant-give-you-anything-but-love",
+      "title": "I Can't Give You Anything But Love",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 108,
+      "bars": 32,
+      "source": "Jimmy McHugh, 1928",
+      "pdf": "songs/jazz-standards/jazz-age/i-cant-give-you-anything-but-love.pdf"
+     },
+     {
+      "slug": "muskrat-ramble",
+      "title": "Muskrat Ramble",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 200,
+      "bars": 32,
+      "source": "Edward \"Kid\" Ory, 1926",
+      "pdf": "songs/jazz-standards/jazz-age/muskrat-ramble.pdf"
+     },
+     {
+      "slug": "my-blue-heaven",
+      "title": "My Blue Heaven",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 33,
+      "source": "Walter Donaldson, 1927",
+      "pdf": "songs/jazz-standards/jazz-age/my-blue-heaven.pdf"
+     },
+     {
+      "slug": "sweet-georgia-brown",
+      "title": "Sweet Georgia Brown",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 220,
+      "bars": 32,
+      "source": "Ben Bernie and Maceo Pinkard, 1925",
+      "pdf": "songs/jazz-standards/jazz-age/sweet-georgia-brown.pdf"
+     },
+     {
+      "slug": "the-sheik-of-araby",
+      "title": "The Sheik of Araby",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 192,
+      "bars": 33,
+      "source": "Ted Snyder, 1921",
+      "pdf": "songs/jazz-standards/jazz-age/the-sheik-of-araby.pdf"
+     }
+    ]
+   },
+   {
+    "id": "stage-screen",
+    "title": "Stage & Screen",
+    "label": "Broadway and revue songs",
+    "order": 3,
+    "songs": [
+     {
+      "slug": "s-wonderful",
+      "title": "'S Wonderful",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 32,
+      "source": "George Gershwin, 1927 (Funny Face)",
+      "pdf": "songs/jazz-standards/stage-screen/s-wonderful.pdf"
+     },
+     {
+      "slug": "blue-skies",
+      "title": "Blue Skies",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 138,
+      "bars": 32,
+      "source": "Irving Berlin, 1926 (Betsy)",
+      "pdf": "songs/jazz-standards/stage-screen/blue-skies.pdf"
+     },
+     {
+      "slug": "fascinating-rhythm",
+      "title": "Fascinating Rhythm",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 184,
+      "bars": 32,
+      "source": "George Gershwin, 1924 (Lady, Be Good!)",
+      "pdf": "songs/jazz-standards/stage-screen/fascinating-rhythm.pdf"
+     },
+     {
+      "slug": "i-want-to-be-happy",
+      "title": "I Want to Be Happy",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 176,
+      "bars": 32,
+      "source": "Vincent Youmans, 1924 (No, No, Nanette)",
+      "pdf": "songs/jazz-standards/stage-screen/i-want-to-be-happy.pdf"
+     },
+     {
+      "slug": "look-for-the-silver-lining",
+      "title": "Look for the Silver Lining",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 120,
+      "bars": 32,
+      "source": "Jerome Kern, 1920 (Sally)",
+      "pdf": "songs/jazz-standards/stage-screen/look-for-the-silver-lining.pdf"
+     },
+     {
+      "slug": "makin-whoopee",
+      "title": "Makin' Whoopee",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 112,
+      "bars": 33,
+      "source": "Walter Donaldson, 1928 (Whoopee!)",
+      "pdf": "songs/jazz-standards/stage-screen/makin-whoopee.pdf"
+     },
+     {
+      "slug": "manhattan",
+      "title": "Manhattan",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 138,
+      "bars": 32,
+      "source": "Richard Rodgers, 1925 (The Garrick Gaieties)",
+      "pdf": "songs/jazz-standards/stage-screen/manhattan.pdf"
+     },
+     {
+      "slug": "ol-man-river",
+      "title": "Ol' Man River",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 32,
+      "source": "Jerome Kern, 1927 (Show Boat)",
+      "pdf": "songs/jazz-standards/stage-screen/ol-man-river.pdf"
+     },
+     {
+      "slug": "someone-to-watch-over-me",
+      "title": "Someone to Watch Over Me",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 90,
+      "bars": 32,
+      "source": "George Gershwin, 1926 (Oh, Kay!)",
+      "pdf": "songs/jazz-standards/stage-screen/someone-to-watch-over-me.pdf"
+     },
+     {
+      "slug": "tea-for-two",
+      "title": "Tea for Two",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 132,
+      "bars": 32,
+      "source": "Vincent Youmans, 1924",
+      "pdf": "songs/jazz-standards/stage-screen/tea-for-two.pdf"
+     },
+     {
+      "slug": "the-man-i-love",
+      "title": "The Man I Love",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 76,
+      "bars": 32,
+      "source": "George Gershwin, 1924 (Strike Up the Band)",
+      "pdf": "songs/jazz-standards/stage-screen/the-man-i-love.pdf"
+     },
+     {
+      "slug": "thou-swell",
+      "title": "Thou Swell",
+      "key": "C",
+      "meter": "4/4",
+      "tempo": 180,
+      "bars": 33,
+      "source": "Richard Rodgers, 1927 (A Connecticut Yankee)",
+      "pdf": "songs/jazz-standards/stage-screen/thou-swell.pdf"
+     },
+     {
+      "slug": "what-is-this-thing-called-love",
+      "title": "What Is This Thing Called Love?",
+      "key": "Am",
+      "meter": "4/4",
+      "tempo": 92,
+      "bars": 33,
+      "source": "Cole Porter, 1929 (Wake Up and Dream)",
+      "pdf": "songs/jazz-standards/stage-screen/what-is-this-thing-called-love.pdf"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "hymns",
   "title": "Hymns",
   "blurb": "Hymns and church songs everyone knows. Shortened and simplified.",

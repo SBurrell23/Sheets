@@ -1,0 +1,16 @@
+X:1
+T:Pretty Baby
+C:Tony Jackson and Egbert Van Alstyne, 1916
+M:4/4
+L:1/16
+Q:1/4=108
+K:C clef=treble
+"G7"g3a1 | "G7"b3d'1 b3g1 f3a1 f3e1 | "G7"d3f1 d3c1 B4 g3^g1 | "C"a4 e8 g3^g1 |
+"C"a4 e8 g3a1 | "G7"b3d'1 b3g1 f3a1 f3e1 | "G7"d3f1 d3c1 B4 g3^g1 | "C"a4 e8 g3^g1 |
+"C"a4 e8 e3d1 | "C"c3^c1 d3^d1 "C7"e2c'2 _b2e2 | "F"g2f2 e2f2- "F7"f4 f3f1 | "C"f4 e4 a4 e4 |
+"G7"d12 g3a1 | "G7"b3d'1 b3g1 f3a1 f3e1 | "G7"d3f1 d3c1 B4 z4 | "F"z4 c'3a1 "G7"b3a1 g4 |
+"C"c'12 "G7"g3a1 | "G7"b3d'1 b3g1 f3a1 f3e1 | "G7"d3f1 d3c1 B4 g3^g1 | "C"a4 e8 g3^g1 |
+"C"a4 e8 g3a1 | "G7"b3d'1 b3g1 f3a1 f3e1 | "G7"d3f1 d3c1 B4 g3^g1 | "C"a4 e8 g3^g1 |
+"C"a4 e8 e3d1 | "C"c3^c1 d3^d1 "C7"e2c'2 _b2e2 | "F"g2f2 e2f2- "F7"f4 f3f1 | "C"f4 e4 a4 e4 |
+"G7"d12 g3a1 | "G7"b3d'1 b3g1 f3a1 f3e1 | "G7"d3f1 d3c1 B4 z4 | "F"z4 c'3a1 "G7"b3a1 g4 |
+"C"Hc'16 |]

@@ -1,0 +1,16 @@
+X:1
+T:Thou Swell
+C:Richard Rodgers, 1927 (A Connecticut Yankee)
+M:4/4
+L:1/16
+Q:1/4=180
+K:C clef=treble
+"D7"e4 | "G7"d12 "C#dim"e4 | "Dm7"d2 G6- "G7"G4 "D7"e4 | "G7"d12 "C#dim"e4 |
+"Dm7"g8- "G7"g4 a4 | "C6"g8- "Dm7"g4 a4 | "C/E"g2 c6- "F#dim"c4 a4 | "Gm7"g8- "C7"g4 a4 |
+"F#m7b5"c'8 "B7"a2 b4 g2- | "Em7"g6 ^g2 "A7"a2 e6 | "Dm7"f6 ^f2 "G7"g2 d6 | "C6"e16- |
+"C6"e8 g4 c4 | "Bm7b5"d2 d4 ^d2 "E7"e2 e4 B2 | "Am7"c2 c4 ^c2 "D7"d2 d4 A2 | "G7"B8- "G#dim"B8- |
+"Am7"B8- "D7"B4 e4 | "G7"d12 "C#dim"e4 | "Dm7"d2 G6- "G7"G4 "D7"e4 | "G7"d12 "C#dim"e4 |
+"Dm7"g8- "G7"g4 a4 | "C6"g8- "Dm7"g4 a4 | "C/E"g2 c6- "F#dim"c4 a4 | "Gm7"g8- "C7"g4 a4 |
+"F#m7b5"c'8 "B7"a2 b4 g2- | "Em7"g6 ^g2 "A7"a2 e6 | "Dm7"f6 ^f2 "G7"g2 d6 | "Bb7"e16 |
+"A7"a12 e4 | "Dm7"d8- "C#dim/E"d4 e4 | "G7"d2 G6- G4 e4 | "C6"c16- |
+"C6"Hc16 |]

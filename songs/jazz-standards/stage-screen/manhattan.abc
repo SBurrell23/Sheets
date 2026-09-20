@@ -1,0 +1,15 @@
+X:1
+T:Manhattan
+C:Richard Rodgers, 1925 (The Garrick Gaieties)
+M:4/4
+L:1/16
+Q:1/4=138
+K:C clef=treble
+"C"z3 g1 ^f3g1 b4 "Adim"a4 | "Dm"z3 A1 ^G3A1 "G7"e4 B4 | "C"d4 d4 d8- | "C"d4 c4 "Adim"A4 c4 |
+"G7"g4 g4 "Dm7"g8- | "G7"g8 b8 | "C"g16- | "Dm7"g8- "G7"g8 |
+"C"z3 g1 ^f3g1 b4 "Adim"a4 | "Dm"z3 A1 ^G3A1 "G7"e4 "Bdim"B4 | "Am"d4 d4 d8- | "Am"d4 c4 "E"B4 "Cm"c4 |
+"D7"B4 A4 a8- | "D7"a4 ^f4 d4 c4 | "Dm7"c4 B4 "G7"g8 | "G7"B4 A4 f8 |
+"C"z3 g1 ^f3g1 b4 "A7"a4 | "Dm"z3 A1 ^G3A1 "G7"e4 B4 | "C"d4 d4 d8- | "C"d4 c4 "Adim"A4 c4 |
+"G7"g4 g4 "Dm7"g8- | "G7"g8 b8 | "Gm"g16- | "A7"g4 e4 _e4 =e4 |
+"Dm7"f4 e3f1 e4 d4 | "Fm"f12 d4 | "C"e4 d3e1 d4 c4 | "D7"a16 |
+"C"z3 g1 ^f3g1 b4 "Adim"a4 | "D7"z3 A1 ^G3A1 "G7"e4 e4 | "C"c8- "F"c8- | "C"Hc16 |]

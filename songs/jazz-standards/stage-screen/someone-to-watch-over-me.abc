@@ -1,0 +1,15 @@
+X:1
+T:Someone to Watch Over Me
+C:George Gershwin, 1926 (Oh, Kay!)
+M:4/4
+L:1/16
+Q:1/4=90
+K:C clef=treble
+"C6"z4 c2d2 "C7"e2g2 a2c'2 | "F6"d'2 d'4 c'2 "F#dim"a8 | "C/E"c'2 c'4 b2 "Ebdim"a8 | "G/D"b2 b4 a2 "C#dim"g8 |
+"Dm7"z4 a4 g4 f4 | "F#m7b5"c'8 "G7"c2 d6 | "C6"e16- | "Dm7"e8 "G7"d8 |
+"C6"z4 c2d2 "C7"e2g2 a2c'2 | "F6"d'2 d'4 c'2 "F#dim"a8 | "C/E"c'2 c'4 b2 "Ebdim"a8 | "G/D"b2 b4 a2 "C#dim"g8 |
+"Dm7"z4 a4 g4 f4 | "F#m7b5"c'8 "G7"c2 d6 | "C6"c16- | "C6"c4 d4 e4 g4 |
+"F"b4 c'4 b4 c'4 | "F"d'4 c'8 b4 | "F"d'4 c'8 b4 | "C6"d'4 c'8 a4 |
+"F#m7b5"c'4 b4- "B7"b4 a4 | "E7"c'4 b8 ^g4 | "A7"e16- | "Dm7"e8 "G7"d8 |
+"C6"z4 c2d2 "C7"e2g2 a2c'2 | "F6"d'2 d'4 c'2 "F#dim"a8 | "C/E"c'2 c'4 b2 "Ebdim"a8 | "G/D"b2 b4 a2 "C#dim"g8 |
+"Dm7"z4 a4 g4 f4 | "F#m7b5"c'8 "G7"c2 d6 | "C6"c16- | "C6"Hc16 |]

@@ -1,0 +1,15 @@
+X:1
+T:Ol' Man River
+C:Jerome Kern, 1927 (Show Boat)
+M:4/4
+L:1/16
+Q:1/4=76
+K:C clef=treble
+"C"G4 G4 "Am7"A2 c4 A2 | "C"G4 G4 "F"A2 c4 d2 | "C"e4 e4 "F"d2 c4 d2 | "C"e4 g4 "Am7"a2 g4 a2 |
+"Dm7"g4 g4 "G7"e2 d4 e2 | "Dm7"g4 g4 "G7"e2 d4 e2 | "C"c8- "F"c8- | "C"c12 z2 G2 |
+"C"G4 G4 "Am7"A2 c4 A2 | "C"G4 G4 "F"A2 c4 d2 | "C"e4 g4 "Am7"a2 g4 a2 | "C"c'4 c'4 "D#dim"b2 a4 b2 |
+"Dm7"g4 g4 "G7"e2 d4 e2 | "Dm7"g4 g4 "G7"e2 d4 e2 | "C"c8- "F"c8- | "C"c8- "F#m7b5"c4 "B7"z4 |
+"Em"b4 g4 "B7"a6 c'2 | "Em"b4 g4 "B7"a8 | "Em"b3b1 g4 "B7"a3a1 c'4 | "Em"b4 g4 "B7"a8 |
+"Em"g4 e4 "Am6"^f8 | "Em"g4 e4 "B7"^f8 | "Em"g3g1 e3e1 "B7"^f4 a3a1 | "Em"g4 e4 "Dm7"d4- "G7"d4 |
+"C"G4 G4 "Am7"A2 c4 A2 | "C"G4 G4 "F"A2 c4 d2 | "C"e4 g4 "Am7"a2 g4 a2 | "C"c'4 c'4 "D7"d'2 c'4 d'2 |
+"C/G"e'4 e'4 "Am7"d'2 c'4 d'2 | "Dm7"e'4 e'4 "G7"d'2c'2 d'4 | "C"c'16- | "C"Hc'16 |]

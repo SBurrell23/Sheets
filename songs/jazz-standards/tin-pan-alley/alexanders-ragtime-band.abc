@@ -1,0 +1,16 @@
+X:1
+T:Alexander's Ragtime Band
+C:Irving Berlin, 1911
+M:4/4
+L:1/16
+Q:1/4=176
+K:C clef=treble
+"C"z3 ^d1 e3=d1 | "C"e8- "C/B"e3^d1 e3=d1 | "Am"e8- "G7"e4 e3^d1 | "C"e4 d4 "G7"B4 G4 |
+"C"c8- c3^g1 a3=g1 | "F"a8- "F/E"a3^g1 a3=g1 | "Dm"a8- "C7"a4 a3^g1 | "F"a4 f4 c4 f4 |
+"F"a8- a4 e3f1 | "C"g2g2 a2e2 g4 a2e2 | "C"g2g2 a2e2 g4 z4 | "C"c4 e2G2 c4 e2G2 |
+"C"c2c2 e2G2 c4 z4 | "G"d4 d8 e4 | "D7"^f4 d4 e4 =f4 | "G"g16 |
+"Dm"f2e2 d4 "G7"z3 ^d1 e3=d1 | "C"e8- "C/B"e3^d1 e3=d1 | "Am"e8- "G7"e4 e3^d1 | "C"e4 d4 "G7"B4 G4 |
+"C"c8- c3^g1 a3=g1 | "F"a8- "F/E"a3^g1 a3=g1 | "Dm"a8- "C7"a4 a3^g1 | "F"a4 f4 c4 f4 |
+"F"a8- a2e2 f2^f2 | "C7"g4 g4 g4 e4 | "Gm7"d4 c4 "C7"e4 d4 | "F"c8 c'8 |
+"D7"a4 c'4- c'3^f1 g3=f1 | "C"g8- g3^f1 g3=f1 | "A7"g8- g2 a4 ^g2 | "D7"a4 g4 "G7"e4 d4 |
+"C"Hc16 |]

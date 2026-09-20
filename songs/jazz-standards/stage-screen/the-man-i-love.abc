@@ -1,0 +1,15 @@
+X:1
+T:The Man I Love
+C:George Gershwin, 1924 (Strike Up the Band)
+M:4/4
+L:1/16
+Q:1/4=76
+K:C clef=treble
+"C6"z3 g1 a3g1 a3g1 "C7"_b4 | "Gm7"z3 g1 a3g1 _b8 | "C6"z3 g1 a3g1 a3g1 "C7"_b4 | "F"z3 f1 g3f1 a8 |
+"C6"z3 g1 a3g1 a3g1 "C7"_b4 | "F"z3 f1 g3f1 a4 "G7"g4 | "C6"e8 e8 | "C6"e8- "G7"e8 |
+"C6"z3 g1 a3g1 a3g1 "C7"_b4 | "Gm7"z3 g1 a3g1 _b8 | "C6"z3 g1 a3g1 a3g1 "C7"_b4 | "F"z3 f1 g3f1 a8 |
+"Dm7"z3 f1 g3f1 g3f1 a4 | "G7"z3 e1 f3e1 g4 e4 | "C6"c8 c8- | "C6"c12 z4 |
+"C6"c3d1 e3^d1 e4 c'4 | "Am7"c'4 b4 g4 ^g4 | "D7"b4 a4 e4 ^f4 | "G7"g16 |
+"C6"c3d1 e3^d1 e4 c'4 | "Am7"c'4 b4 g4 ^g4 | "G7"b4 a4 g4 f4 | "C6"e4 d4 "G7"e4 f4 |
+"C6"z3 g1 a3g1 a3g1 "C7"_b4 | "Gm7"z3 g1 a3g1 _b8 | "C6"z3 g1 a3g1 a3g1 "C7"_b4 | "F"z3 f1 g3f1 a8 |
+"Dm7"z3 f1 g3f1 g3f1 a4 | "G7"z3 e1 f3e1 g4 e4 | "C6"c8 c8 | "C"Hc16 |]

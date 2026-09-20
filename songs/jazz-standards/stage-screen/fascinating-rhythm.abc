@@ -1,0 +1,15 @@
+X:1
+T:Fascinating Rhythm
+C:George Gershwin, 1924 (Lady, Be Good!)
+M:4/4
+L:1/16
+Q:1/4=184
+K:C clef=treble
+"G7"d2f2 e2d2 "F"g2g2 z2 d2 | "G7"f2e2 d2g2 "F"g2 z2 d2f2 | "G7"e2d2 g2g2 "F"z2 d2 f2e2 | "G"d4 G12 |
+"C"g2_b2 a2g2 "Bb"c'2c'2 z2 g2 | "C7"_b2a2 g2c'2 "Bb"c'2 z2 g2b2 | "C7"a2g2 c'2c'2 "Bb"z2 g2 _b2a2 | "C7"g4 c12 |
+"F"z4 c4 f4 g4 | "Dm7"a4 g2b2- "Em"b2g2 "G7"a4 | "C"e16 | "C7"g2e2 e2e2 g2e2 e2e2 |
+"Am"z4 c4 e4 g4 | "C6"c'4 "G"b2d'2- "D"d'2a2 "Cdim"b4 | "G7"g16 | "Bbdim"z4 a4 f4 e4 |
+"G7"d2f2 e2d2 "F"g2g2 z2 d2 | "G7"f2e2 d2g2 "F"g2 z2 d2f2 | "G7"e2d2 g2g2 "F"z2 d2 f2e2 | "G7"d4 G12 |
+"C7"g2_b2 a2g2 "Bb"c'2c'2 z2 g2 | "C7"_b2a2 g2c'2 "Bb"c'2 z2 g2b2 | "C7"a2g2 c'2c'2 "Bb"z2 g2 _b2a2 | "C7"g4 c12 |
+"F"z4 c4 f4 g4 | "Dm6"a4 a2b2- "E7"b2a2 b4 | "Am"z4 c'4 "G"d'2 "Cmaj7"b6 | "D7"a16 |
+"G7"d2f2 e2d2 "F"g2g2 z2 d2 | "G"f2e2 d2a2- a2"D7"c'2 "G7"e4 | "C"c4- "F"c4- "Am"c4- "C"c4- | "Dm"c4- "F"c4- "C"Hc8 |]

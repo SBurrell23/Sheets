@@ -1,0 +1,47 @@
+{
+  "title": "Thou Swell",
+  "source": "Richard Rodgers, 1927 (A Connecticut Yankee)",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 180,
+  "pickup": 4,
+  "bars": [
+    { "chord": "D7",      "notes": "E5:4" },
+
+    { "chord": "G7",      "notes": "D5:12 [C#dim]E5:4" },
+    { "chord": "Dm7",     "notes": "D5:2 G4:6~ [G7]G4:4 [D7]E5:4" },
+    { "chord": "G7",      "notes": "D5:12 [C#dim]E5:4" },
+    { "chord": "Dm7",     "notes": "G5:8~ [G7]G5:4 A5:4" },
+    { "chord": "C6",      "notes": "G5:8~ [Dm7]G5:4 A5:4" },
+    { "chord": "C/E",     "notes": "G5:2 C5:6~ [F#dim]C5:4 A5:4" },
+    { "chord": "Gm7",     "notes": "G5:8~ [C7]G5:4 A5:4" },
+    { "chord": "F#m7b5",  "notes": "C6:8 [B7]A5:2 B5:4 G5:2~" },
+
+    { "chord": "Em7",     "notes": "G5:6 G#5:2 [A7]A5:2 E5:6" },
+    { "chord": "Dm7",     "notes": "F5:6 F#5:2 [G7]G5:2 D5:6" },
+    { "chord": "C6",      "notes": "E5:16~" },
+    { "chord": "C6",      "notes": "E5:8 G5:4 C5:4" },
+    { "chord": "Bm7b5",   "notes": "D5:2 D5:4 D#5:2 [E7]E5:2 E5:4 B4:2" },
+    { "chord": "Am7",     "notes": "C5:2 C5:4 C#5:2 [D7]D5:2 D5:4 A4:2" },
+    { "chord": "G7",      "notes": "B4:8~ [G#dim]B4:8~" },
+    { "chord": "Am7",     "notes": "B4:8~ [D7]B4:4 E5:4" },
+
+    { "chord": "G7",      "notes": "D5:12 [C#dim]E5:4" },
+    { "chord": "Dm7",     "notes": "D5:2 G4:6~ [G7]G4:4 [D7]E5:4" },
+    { "chord": "G7",      "notes": "D5:12 [C#dim]E5:4" },
+    { "chord": "Dm7",     "notes": "G5:8~ [G7]G5:4 A5:4" },
+    { "chord": "C6",      "notes": "G5:8~ [Dm7]G5:4 A5:4" },
+    { "chord": "C/E",     "notes": "G5:2 C5:6~ [F#dim]C5:4 A5:4" },
+    { "chord": "Gm7",     "notes": "G5:8~ [C7]G5:4 A5:4" },
+    { "chord": "F#m7b5",  "notes": "C6:8 [B7]A5:2 B5:4 G5:2~" },
+
+    { "chord": "Em7",     "notes": "G5:6 G#5:2 [A7]A5:2 E5:6" },
+    { "chord": "Dm7",     "notes": "F5:6 F#5:2 [G7]G5:2 D5:6" },
+    { "chord": "Bb7",     "notes": "E5:16" },
+    { "chord": "A7",      "notes": "A5:12 E5:4" },
+    { "chord": "Dm7",     "notes": "D5:8~ [C#dim/E]D5:4 E5:4" },
+    { "chord": "G7",      "notes": "D5:2 G4:6~ G4:4 E5:4" },
+    { "chord": "C6",      "notes": "C5:16~" },
+    { "chord": "C6",      "notes": "C5:16" }
+  ]
+}

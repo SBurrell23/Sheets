@@ -1,0 +1,16 @@
+X:1
+T:Some of These Days
+C:Shelton Brooks, 1910
+M:4/4
+L:1/16
+Q:1/4=132
+K:C clef=treble
+"Am"e4 "F7"^d4 "Am"e4 | "E7"d16- | "E7"d4 e2e2 e4 d4 | "Am"c8 "Dm"A4- "F7"A4- |
+"Am"A4 e4 "F7"^d2 "Am"e6 | "E7"d16- | "E7"d4 e2e2 e4 d4 | "Am"c8 "Dm"A8- |
+"Am"A4 A4 "C"^G2 "Am"A6 | "A7"f8 f8- | "A7"f4 e4 ^c2 A6 | "D7"e8 e8- |
+"D7"e4 A4 "Bm"B2 "D7"d6 | "D7"e8 e8- | "D7"e4 d4 "C"a2 "D7"d6 | "G"g4- "G7"g4- "Am7"g4- "A7"g4- |
+"G"g4 g4 "G7"g2 e6 | "C7"c8 c8 | "C7"c4 g4 g2 a6 | "F"e8 e8- |
+"F"e4 e4 e2 e6 | "A7"e8 e8- | "A7"e4 e4 e2 f6 | "Dm"d4- "Bb7"d4- "Dm"d4- "Bb7"d4- |
+"Dm"d4 A4 "Bb7"^G4 "Dm"A4 | "F"a8 a8- | "F#dim"a4 a4 ^g2 a6 | "C"g8 e8- |
+"C"e4 g2a2 a2g2 e2d2 | "C"e4 "E7"e4 "Gm"e4 "A7"e4 | "D7"z4 e2"G7"g2 g2e2 d4 | "C"c16- |
+"C"c8- "G7"c4- "C"Hc4 |]

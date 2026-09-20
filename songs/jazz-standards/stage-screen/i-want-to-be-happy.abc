@@ -1,0 +1,15 @@
+X:1
+T:I Want to Be Happy
+C:Vincent Youmans, 1924 (No, No, Nanette)
+M:4/4
+L:1/16
+Q:1/4=176
+K:C clef=treble
+"C"E4 G2 z2 z4 E4 | "C"G8 E4 G4 | "G7"F4 G2 z2 z4 F4 | "G7"G8 F4 G4 |
+"G7"F4 G2 z2 z4 F4 | "G7"G8 F4 d4 | "C"c16- | "G7"c16 |
+"C"E4 G2 z2 z4 E4 | "C"G8 E4 G4 | "G7"F4 G2 z2 z4 F4 | "G7"G8 F4 G4 |
+"G7"F4 G2 z2 z4 F4 | "G7"G8 F4 d4 | "C"c16- | "C"c16 |
+"C7"_B4 c8 B4 | "C7"c8 _B4 c4 | "F"A4 c8 A4 | "F"F12 z4 |
+"C"E4 G8 E4 | "C"G8 E4 G4 | "G7"D16- | "G7"D16 |
+"C"E4 G2 z2 z4 E4 | "C"G8 E4 G4 | "G7"F4 G2 z2 z4 F4 | "G7"G8 F4 G4 |
+"G7"F4 G2 z2 z4 F4 | "G7"G8 F4 d4 | "C"c16- | "C"Hc16 |]

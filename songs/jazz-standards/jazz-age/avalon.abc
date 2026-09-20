@@ -1,0 +1,16 @@
+X:1
+T:Avalon
+C:Al Jolson and Vincent Rose, 1920
+M:4/4
+L:1/16
+Q:1/4=184
+K:C clef=treble
+"G7"G8 | "G7"d8 e8 | "G7"f8 g8 | "C"f4 e4 d8- |
+"C"d8 "G7"G8 | "C"c16 | "C"c8 "F"f8- | "F"f16- |
+"F"f8 "G7"A8 | "G7"B8 c8 | "G7"d8 d8 | "C"c4 B4 A8- |
+"C"A8 "G7"B8 | "C"e16- | "C"e8 c8 | "C"e16- |
+"C"e8 "G7"B8 | "G7"e8 f8 | "G7"g8 a8 | "C"g4 f4 e8- |
+"C"e8 "G7"B8 | "D7"d16 | "D7"d8 "G7"g8- | "G7"g16- |
+"G7"g8 "C"c8 | "C"G8 c8 | "C"e8 g8 | "G7"b4 a4 b8- |
+"G7"b8 a8 | "C"g16 | "Am"e16 | "Dm7"c8- "G7sus4"c8- |
+"C"Hc16 |]

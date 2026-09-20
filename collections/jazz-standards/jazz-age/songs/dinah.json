@@ -1,0 +1,44 @@
+{
+  "title": "Dinah",
+  "source": "Harry Akst, 1925",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 168,
+  "bars": [
+    { "chord": "C",  "notes": "G4:8 A4:8~" },
+    { "chord": "C",  "notes": "A4:4 G4:2 A4:2 C5:2 D5:2 E5:4" },
+    { "chord": "C",  "notes": "G5:2 E5:6~ E5:8~" },
+    { "chord": "C",  "notes": "E5:4 C5:2 D5:2 E5:2 C5:2 D5:2 E5:2" },
+    { "chord": "G7", "notes": "G5:2 E5:6~ E5:8~" },
+    { "chord": "G7", "notes": "E5:4 D5:2 E5:2 G5:2 E5:2 D5:4" },
+    { "chord": "C",  "notes": "C5:2 A4:6~ A4:8" },
+    { "chord": "G7", "notes": "A4:2 G4:2 G4:2 G4:2~ G4:8" },
+
+    { "chord": "C",  "notes": "G4:8 A4:8~" },
+    { "chord": "C",  "notes": "A4:4 G4:2 A4:2 C5:2 D5:2 E5:4" },
+    { "chord": "C",  "notes": "G5:2 E5:6~ E5:8~" },
+    { "chord": "C",  "notes": "E5:4 C5:2 D5:2 E5:2 C5:2 D5:2 E5:2" },
+    { "chord": "G7", "notes": "G5:2 E5:6~ E5:8~" },
+    { "chord": "G7", "notes": "E5:4 D5:2 E5:2 G5:2 E5:2 D5:2 E5:2" },
+    { "chord": "C",  "notes": "C5:16~" },
+    { "chord": "C",  "notes": "C5:16" },
+
+    { "chord": "Am", "notes": "E5:2 C5:4 E5:2~ E5:8" },
+    { "chord": "E7", "notes": "E5:2 C5:4 E5:2~ E5:8" },
+    { "chord": "Am", "notes": "E5:2 C5:4 E5:2~ E5:8" },
+    { "chord": "G6", "notes": "E5:4 E5:4 [G7]G5:4 F5:4" },
+    { "chord": "Am", "notes": "E5:2 C5:4 E5:2~ E5:8" },
+    { "chord": "D7", "notes": "E5:4 C5:2 C5:2 C5:2 D5:2 E5:4" },
+    { "chord": "G7", "notes": "D5:16~" },
+    { "chord": "G7", "notes": "D5:16" },
+
+    { "chord": "C",  "notes": "G4:8 A4:8~" },
+    { "chord": "C",  "notes": "A4:4 G4:2 A4:2 C5:2 D5:2 E5:4" },
+    { "chord": "C",  "notes": "G5:2 E5:6~ E5:8~" },
+    { "chord": "C",  "notes": "E5:4 C5:2 D5:2 E5:2 C5:2 D5:2 E5:2" },
+    { "chord": "G6", "notes": "G5:2 E5:6~ E5:8~" },
+    { "chord": "G6", "notes": "E5:4 D5:2 E5:2 G5:2 E5:2 D5:2 E5:2" },
+    { "chord": "C",  "notes": "C5:16~" },
+    { "chord": "C",  "notes": "C5:16" }
+  ]
+}

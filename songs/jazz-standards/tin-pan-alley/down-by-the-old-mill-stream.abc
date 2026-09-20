@@ -1,0 +1,16 @@
+X:1
+T:Down by the Old Mill Stream
+C:Tell Taylor, 1910
+M:3/4
+L:1/16
+Q:1/4=116
+K:C clef=treble
+"C"G2c2 e2 | "C"g12 | "Ebdim"^f12 | "G7/D"f12- |
+"G7"f4 "G#dim"^G4 "Am"A4 | "Am"e12 | "F6"d12 | "C"c12- |
+"C"c4 E4 G4 | "C"c12 | "G7/B"B12 | "Am"A12- |
+"Am"A4 "E7"^G4 "Am"A4 | "G7"B12 | "Dm7"A12 | "G7"G12- |
+"C"G4 c4 e4 | "C"g12 | "Ebdim"^f12 | "G7/D"f12- |
+"G7"f4 "G#dim"^G4 "Am"A4 | "Am"e12 | "F6"d12 | "C"c12- |
+"C"c6 c2 B2c2 | "Ab"_e12- | "Ab"_e6 c2 B2c2 | "C"e12- |
+"C"e4 f4 e4 | "F"A12 | "G7"e12 | "C"c12- |
+"C"Hc12 |]

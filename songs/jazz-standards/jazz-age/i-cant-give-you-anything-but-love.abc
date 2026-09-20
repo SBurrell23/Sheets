@@ -1,0 +1,15 @@
+X:1
+T:I Can't Give You Anything But Love
+C:Jimmy McHugh, 1928
+M:4/4
+L:1/16
+Q:1/4=108
+K:C clef=treble
+"C"c4 B4 A4 c4 | "C"B4 A4 "F#dim"c4 A4 | "G7"d16 | "G7"d2^d2 e12 |
+"C"c4 B4 A4 c4 | "C"B4 A4 "D7"c4 e4 | "G7"g16 | "G7"e2_e2 d12 |
+"C7"c2^c2 d12 | "C7"d2^d2 e12 | "F"g4 f4 e4 d4- | "F"d16 |
+"D7"d2^d2 e12 | "D7"e2f2 ^f12 | "G7"a4 g4 f4 e4 | "Eb"g4 "Db7"f4 "F7"A4 "G7"B4 |
+"C"c4 B4 A4 c4 | "C"B4 A4 "F#dim"c4 A4 | "G7"d16 | "G7"d2^d2 e12 |
+"C7"g4 f4 e4 g4 | "C7"f4 e4 g4 f4 | "F"e16 | "F"d4 c12 |
+"F"A4 B4 c4 B4 | "D7"d4 c4 B4 c4 | "C"g16 | "A7"B4 A12 |
+"Dm7"^G4 A4 g4 f4 | "D7"a4 a4 "G7"e4 e4 | "C"c8- "Dm7b5"c8- | "C"c8 Hc8 |]

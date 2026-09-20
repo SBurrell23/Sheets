@@ -1,0 +1,15 @@
+X:1
+T:Sweet Georgia Brown
+C:Ben Bernie and Maceo Pinkard, 1925
+M:4/4
+L:1/16
+Q:1/4=220
+K:C clef=treble
+"A7"A2 B4 ^c2- c6 A2 | "A7"e2 ^c4 ^f2- f6 e2 | "A7"a8 e2 ^c4 A2- | "A7"A16 |
+"D7"A2 B4 c2- c6 A2 | "D7"e2 c4 ^f2- f6 d2 | "D7"a8 ^f2 e4 d2- | "D7"d16 |
+"G7"G2 A4 B2- B6 G2 | "G7"d2 B4 e2- e6 d2 | "G7"g8 d2 B4 G2- | "G7"G4 G2 A4 G2 A4 |
+"C"e16- | "C"e4 G2A2- "G7"A2G2 A4 | "C"e12 e4 | "E7"d16 |
+"A7"A2 B4 ^c2- c6 A2 | "A7"e2 ^c4 ^f2- f6 e2 | "A7"a8 e2 ^c4 A2- | "A7"A16 |
+"D7"A2 B4 c2- c6 A2 | "D7"e2 c4 ^f2- f6 d2 | "D7"a8 ^f2 e4 d2- | "D7"d8- "E7"d8 |
+"Am"e6 e2- e8 | "E7"d2 B4 e2- e4 e4 | "Am"e6 e2- e8 | "E7"d2 B4 e2- e8 |
+"C6"G2 A4 c2- c2 G6 | "E7"g2 ^g4 a2- "A7"a2 e6 | "D7"d8 "G7"g2 e4 c2- | "C"Hc16 |]

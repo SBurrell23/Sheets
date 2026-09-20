@@ -1,0 +1,15 @@
+X:1
+T:'S Wonderful
+C:George Gershwin, 1927 (Funny Face)
+M:4/4
+L:1/16
+Q:1/4=132
+K:C clef=treble
+"C6"g6 g2 e8- | "C6"e16 | "A7"g6 g2 e8- | "A7"e16 |
+"G7"g6 g2 e8- | "G7"e8 g8 | "C6"c16- | "C6"c12 z4 |
+"C6"g6 g2 e8- | "C6"e16 | "A7"g6 g2 e8- | "A7"e16 |
+"G7"g6 g2 e8- | "G7"e8 g8 | "C6"a16- | "C6"a8 c'8 |
+"E6"b16 | "B7"z4 b4 b4 b4 | "E6"^c'6 b2 b8- | "B7"b16 |
+"E7"z4 b4 b4 b4 | "A7"b4 b4 b4 b4 | "D7"b6 a2 a8- | "G7"a8 _a8 |
+"C6"g6 g2 e8- | "C6"e16 | "Am7"c'6 c'2 a8- | "Am7"a16 |
+"Dm7"c'4 f4 e4 g4- | "G7"g8 e8 | "C6"c16- | "C"Hc16 |]

@@ -1,0 +1,16 @@
+X:1
+T:The Sheik of Araby
+C:Ted Snyder, 1921
+M:4/4
+L:1/16
+Q:1/4=192
+K:C clef=treble
+"G7"G4 ^G4 | "C"A12 G4 | "C"A12 "Edim"G4 | "G7"A16- |
+"G7"A12 G4 | "G7"A12 G4 | "G7"d12 e4 | "C"c16- |
+"C"c12 B4 | "C6"d12 A4 | "Cdim"c12 A4 | "G7"A16- |
+"G7"A12 A4 | "Dm7"c12 A4 | "G7"B12 G4 | "C"A16- |
+"D7"A12 "G7"G4 | "C"A12 G4 | "C"A12 "Edim"G4 | "G7"A16- |
+"G7"A12 G4 | "G7"A12 G4 | "G7"d12 ^d4 | "E7"e16- |
+"E7"e12 e4 | "A7"f12 e4 | "A7"f12 e4 | "D7"e16- |
+"D7"e12 B4 | "G7"A12 B4 | "G7"G12 d4 | "C"c16- |
+"C"Hc16 |]

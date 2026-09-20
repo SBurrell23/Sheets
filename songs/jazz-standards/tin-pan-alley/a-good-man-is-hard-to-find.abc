@@ -1,0 +1,13 @@
+X:1
+T:A Good Man Is Hard to Find
+C:Eddie Green, 1918
+M:4/4
+L:1/16
+Q:1/4=104
+K:C clef=treble
+"E7"G2^G2 | "Am"A8 G2E2 ^D2E2 | "Am"A8 A2E2 ^D2E2 | "Am"A8 A2E2 ^D2E2 |
+"Am"A12 A2^A2 | "Am7"B4 A4 G2 B4 A2 | "Am7"A2 G4 B2 B4 G4 | "D7"c2^A2 B2A2 B2^F2 G2F2 |
+"C"E2F2 E2D2 C2 z2 G2"E7"^G2 | "Am"A8 A2E2 ^D2E2 | "Am"A8 A2E2 ^D2E2 | "Am"A8 A2E2 ^D2E2 |
+"Am"A8 A2"E7"^G2 "Am"A2B2 | "C"c4 c4 B4 B4 | "C"G4 "E7"^G4 "Am"A4 =G4 | "Am"c2A2 G2E2 E2 C6 |
+"Am"c2A2 G2E2 D2 C6 | "Am"c2C2 E2^D2 F2 c6 | "Am"^D4 E4 C4 G2"E7"^G2 | "Am"A4 B4 A4 B4 |
+"Am"A4 B4 "G7"A4 A4 | "C"c16- | "C"Hc16 |]
