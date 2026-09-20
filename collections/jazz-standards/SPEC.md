@@ -283,6 +283,13 @@ bridge missing.
    the check is on pitch class, `C5` is only the commonest answer, and a song whose last phrase
    climbs should end on `C6`. Do not drop a correct final note an octave to match the example.
 
+   **Drop a closing turnaround.** Many of these sources end the chorus on a `ii-V` or a `II7-V7`
+   tag whose entire purpose is to send the player back to the top for another chorus. There is no
+   back here — the site plays the song once and stops — so a file that ends on `D7 | G7` sounds
+   unfinished however faithful it is. **End on the tonic chord.** This is not reharmonising: the
+   tag is structural, not harmonic content, and §7's rule is about not rewriting the song's
+   changes. Three arrangers met this and two worked it out unaided; now it is written down.
+
    Printed second endings often stop short — a dotted half and a quarter rest, because the band
    played the tag and the singer did not. **Extend the final tonic to fill the bar.** This is the
    one place where the rule beats the print, and it is a quarter note's worth of difference.

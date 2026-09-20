@@ -1,0 +1,44 @@
+{
+  "title": "Georgia on My Mind",
+  "source": "Hoagy Carmichael, 1930",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 88,
+  "bars": [
+    { "chord": "C6",      "notes": "E5:4 G5:12" },
+    { "chord": "Bm7",     "notes": "E5:4 [E7]D5:12" },
+    { "chord": "Am7",     "notes": "R:4 E5:4 A5:4 [Am7/G]E5:4" },
+    { "chord": "F#m7b5",  "notes": "D5:12 C5:2 D5:2" },
+    { "chord": "Em7",     "notes": "E5:4 G5:4 [A7]B5:4 A5:4" },
+    { "chord": "Dm7",     "notes": "F5:4 A5:4 [G7]E5:4 D5:4" },
+    { "chord": "Em7",     "notes": "G5:8~ [A7]G5:8" },
+    { "chord": "Dm7",     "notes": "A5:2 A5:2 A5:2 A5:2 [G7]D#5:8" },
+
+    { "chord": "C6",      "notes": "E5:4 G5:12" },
+    { "chord": "Bm7",     "notes": "E5:4 [E7]D5:12" },
+    { "chord": "Am7",     "notes": "R:4 E5:4 A5:4 [Am7/G]E5:4" },
+    { "chord": "F#m7b5",  "notes": "D5:12 C5:2 [Bb7]D5:2" },
+    { "chord": "Em7",     "notes": "E5:4 G5:4 [A7]B5:4 A5:4" },
+    { "chord": "Dm7",     "notes": "F5:4 A5:4 [G7]E5:4 E5:4" },
+    { "chord": "C6",      "notes": "C5:8~ [F7]C5:8~" },
+    { "chord": "C6",      "notes": "C5:4~ [E7]C5:12" },
+
+    { "chord": "Am7",     "notes": "A4:4 C5:4 [E7]D5:4 E5:4" },
+    { "chord": "Am7",     "notes": "C5:4 [F]A4:4 [E7]C5:8" },
+    { "chord": "Am7",     "notes": "A4:4 C5:4 [E7]D5:4 E5:4" },
+    { "chord": "F/G",     "notes": "G5:4 E5:4 [D7]F#5:8" },
+    { "chord": "Am7",     "notes": "A4:4 C5:4 [E7]D5:4 E5:4" },
+    { "chord": "Am7/G",   "notes": "G5:4 [F#7]A5:4 [B7]B5:6 A5:2" },
+    { "chord": "E7",      "notes": "G5:4 E5:4 [A7]G5:4 E5:4" },
+    { "chord": "Dm7",     "notes": "E5:8 [G7]D#5:8" },
+
+    { "chord": "C6",      "notes": "E5:4 G5:12" },
+    { "chord": "Bm7",     "notes": "E5:4 [E7]D5:12" },
+    { "chord": "Am7",     "notes": "R:4 E5:4 A5:4 [Am7/G]E5:4" },
+    { "chord": "F#m7b5",  "notes": "D5:12 C5:2 D5:2" },
+    { "chord": "Em7",     "notes": "E5:4 G5:4 [A7]B5:4 A5:4" },
+    { "chord": "Dm7",     "notes": "F5:4 A5:4 [G7]E5:4 E5:4" },
+    { "chord": "C6",      "notes": "C5:16~" },
+    { "chord": "C6",      "notes": "C5:16" }
+  ]
+}

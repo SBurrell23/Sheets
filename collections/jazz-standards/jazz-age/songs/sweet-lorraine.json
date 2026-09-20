@@ -1,0 +1,142 @@
+{
+  "title": "Sweet Lorraine",
+  "source": "Cliff Burwell, 1928",
+  "key": "C",
+  "meter": "4/4",
+  "tempo": 120,
+  "pickup": 4,
+  "bars": [
+    {
+      "chord": "G7",
+      "notes": "D#5:4"
+    },
+    {
+      "chord": "C6",
+      "notes": "E5:4 [Bb7]E5:4 [A7]E5:8~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "E5:4 D5:2 E5:2 [G7]F5:2 G5:2 [G#dim]E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:4 [C7]C5:8~"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:4 B4:2 C5:2 [E7]D5:2 E5:2 C5:2 B4:2"
+    },
+    {
+      "chord": "Eb7",
+      "notes": "A4:4 A4:4 [D7]A4:8~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "A4:4 G4:2 A4:2 [G7]B4:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C6",
+      "notes": "G5:4~ [Bb7]G5:4~ [A7]G5:8~"
+    },
+    {
+      "chord": "D7",
+      "notes": "G5:8~ [G7]G5:4 D#5:4"
+    },
+    {
+      "chord": "C6",
+      "notes": "E5:4 [Bb7]E5:4 [A7]E5:8~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "E5:4 D5:2 E5:2 [G7]F5:2 G5:2 [G#dim]E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:4 [C7]C5:8~"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:4 B4:2 C5:2 [E7]D5:2 E5:2 C5:2 B4:2"
+    },
+    {
+      "chord": "Eb7",
+      "notes": "A4:4 A4:4 [D7]A4:8~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "A4:4 G4:2 A4:2 [G7]B4:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C6",
+      "notes": "C5:8~ [F7]C5:4~ [F#dim]C5:4"
+    },
+    {
+      "chord": "C6/G",
+      "notes": "A5:4 G5:4 [C7]A5:4 G5:4"
+    },
+    {
+      "chord": "F",
+      "notes": "F5:2 G5:2 A5:2 Bb5:2 [Em7b5]A5:4 [A7]G5:4"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F5:4 F5:4 [F7]F5:8"
+    },
+    {
+      "chord": "Bb6",
+      "notes": "F5:2 G5:2 A5:2 Bb5:2 [Eb7]A5:2 G5:4 F5:2~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "F5:8~ [F7]F5:8"
+    },
+    {
+      "chord": "Bb7",
+      "notes": "D5:2 E5:2 F5:2 G5:2 [A7]F5:4 E5:4"
+    },
+    {
+      "chord": "Ab7",
+      "notes": "D5:4 D5:4 [G7]D5:8"
+    },
+    {
+      "chord": "Bb7",
+      "notes": "D5:2 E5:2 F5:2 G5:2 [A7]F5:4 E5:2 D5:2~"
+    },
+    {
+      "chord": "Ab7",
+      "notes": "D5:8~ [G7]D5:4 D#5:4"
+    },
+    {
+      "chord": "C6",
+      "notes": "E5:4 [Bb7]E5:4 [A7]E5:8~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "E5:4 D5:2 E5:2 [G7]F5:2 G5:2 [G#dim]E5:2 D5:2"
+    },
+    {
+      "chord": "Am",
+      "notes": "C5:4 C5:4 [C7]C5:8~"
+    },
+    {
+      "chord": "F7",
+      "notes": "C5:4 B4:2 C5:2 [E7]D5:2 E5:2 C5:2 B4:2"
+    },
+    {
+      "chord": "Eb7",
+      "notes": "A4:4 A4:4 [D7]A4:8~"
+    },
+    {
+      "chord": "Dm7",
+      "notes": "A4:4 G4:2 A4:2 [G7]B4:2 C5:2 D5:2 E5:2"
+    },
+    {
+      "chord": "C6",
+      "notes": "C5:4~ [Bb7]C5:4~ [A7]C5:8~"
+    },
+    {
+      "chord": "C6",
+      "notes": "C5:8~ C5:8"
+    }
+  ]
+}

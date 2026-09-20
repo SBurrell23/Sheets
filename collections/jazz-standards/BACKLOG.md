@@ -23,9 +23,15 @@ scan-read song costs.
 | Blue Room | Richard Rodgers | 1926 | stage-screen (*The Girl Friend*) | `blue-room` |
 | Sweet Lorraine | Cliff Burwell | 1928 | jazz-age | `sweet-lorraine` |
 | You Took Advantage of Me | Richard Rodgers | 1928 | stage-screen (*Present Arms*) | `you-took-advantage-of-me` |
-| Puttin' On the Ritz | Irving Berlin | 1929 | stage-screen | `puttin-on-the-ritz` |
 | Georgia on My Mind | Hoagy Carmichael | 1930 | jazz-age | `georgia-on-my-mind` |
 | Embraceable You | George Gershwin | 1930 | stage-screen (*Girl Crazy*) | `embraceable-you` |
+
+**Puttin' On the Ritz was deferred after two terminations.** Both dispatches were killed by
+the output content filter on their first turn, before either had written anything, and
+`ADDING-SONGS.md` says a single song that dies twice gets deferred rather than re-prompted
+a third time. Its cached ABC is also unverified -- exact title match from a contra-dance
+directory with no composer line, the same shape as the April Showers jig. Try it again in a
+later wave, from a scan rather than that file.
 
 **April Showers was dropped from this wave before dispatch.** All three of its cached
 files are an Irish **jig** of the same name (`R: jig`), not the Louis Silvers song --
