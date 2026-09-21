@@ -60,6 +60,20 @@ vocal line an octave too high and it is invisible unless you look at the clef.
 - **Do not "improve" the harmony.** His chord symbols are the song's changes as he
   hears them. The no-reharmonising rule applies with more force here, not less.
 
+**Enharmonic spelling is the exception, and it is not harmony.** Notation software
+carries spellings across from wherever a passage was first entered, so a note can
+arrive spelled against its own chord. Judge it by the chord it sits under:
+
+- *Fun While It Lasted* writes `E#` under a **C# chord**. C#-E#-G# is C# major and
+  `E#` is the correct third. Respelling it `F` would give a diminished fourth.
+  **Leave it.**
+- *Please Don't Fall in Love With Me* wrote `E#` 51 times, twenty of them under
+  **Dm** — where the note is the third of D minor, which is `F`. The chord symbol
+  `E#` was likewise just `F`, the IV of C. Respelled, with Steve's agreement.
+
+Same key on the piano either way, so this changes no pitch and no sound. Check the
+chord, respell where the spelling contradicts it, and **say which you changed.**
+
 ## 3. What DOES carry over
 
 - **The note language** — durations in sixteenth units, `[Chord]` markers, ties,
