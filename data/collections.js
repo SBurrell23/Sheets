@@ -3906,6 +3906,16 @@ window.PS_MANIFEST = [
       "bars": 76,
       "source": "Ashe, transcribed by Steve Burrell",
       "pdf": "songs/steves-transcriptions/stop-the-wedding.pdf"
+     },
+     {
+      "slug": "teenage-dirtbag",
+      "title": "Teenage Dirtbag",
+      "key": "E",
+      "meter": "4/4",
+      "tempo": 94,
+      "bars": 91,
+      "source": "Wheatus, transcribed by Steve Burrell",
+      "pdf": "songs/steves-transcriptions/teenage-dirtbag.pdf"
      }
     ]
    }

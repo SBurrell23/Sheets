@@ -81,6 +81,37 @@ against the allowed qualities and the symbol falls out. Both of its sevenths
 and a lone `F#` arriving under a held `Dsus4` is that suspension resolving — write
 `Dsus4` then `D`.
 
+**Find the bar grid from a repeated figure, not from a weight count.** *Teenage
+Dirtbag* nearly fooled a metric-weight test into a grid an eighth late, because
+its hook holds a long note on beat 2.5 and syncopation piles duration onto the
+off-beats. The bass sat flatly on beats 1 and 3, and the hook `G#4 A4 B4 D#5`
+began exactly on the barline three times running. **Where melody weight and bass
+disagree, find a figure that repeats and see where it starts.**
+
+**A melody track can hold more than one note.** *Teenage Dirtbag* ends on a
+sustained G#3-B3-E4 triad in the melody track. §1's rule decides it: take the top
+note, and let the chord symbol carry the rest.
+
+**A bass-only intro is content — keep it.** Six bars of riff before the vocal
+become six bars of rests carrying chord symbols, which is what a lead sheet does
+anyway, and it keeps the bar numbers the same as his. Only genuinely empty time,
+with nothing in any track, is dropped.
+
+### A grid finer than a sixteenth
+
+The format's shortest note is a sixteenth, so check the grid before trusting it:
+`start % 120` and `dur % 120` over every note. A residue of 60 means thirty-seconds.
+Count them first -- *Teenage Dirtbag* had four notes out of 365, two ornamental
+`G#-F#` pairs each filling a single sixteenth, and nothing else off the grid.
+
+A pair like that cannot be written: triplets divide by three, not two. Collapse it
+to one sixteenth and **keep the note that resolves into what follows** -- here the
+F#, because the line is `G# F# [G# F#] E` and `F#-E` is the step that matters, and
+because the original re-articulates the F# anyway. Say which note you dropped.
+
+If the thirty-seconds are structural rather than ornamental, stop: the song does
+not fit the format at written values, and that is his decision, not yours.
+
 ### Three things a MIDI can carry that this format cannot
 
 Check all three before writing a note, because each one forces a decision:

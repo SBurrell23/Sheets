@@ -1,0 +1,30 @@
+X:1
+T:Teenage Dirtbag
+C:Wheatus, transcribed by Steve Burrell
+M:4/4
+L:1/16
+Q:1/4=94
+K:E clef=treble
+"E"z16 | "E"z16 | "E"z8 "B"z8 | "E"z8 "A"z8 |
+"E"z8 "B"z8 | "E"z8 "A"z6 G2 | "E"G2A2 B2d2- "B"d8 | "E"G2A2 B2c2- "A"c2B2 A2G2 |
+"E"G2A2 B2d2- "B"d6 G2 | "E"G2A2 B2c2- "A"c2B2 A2G2 | "E"G2A2 G2F2- "B"F6 E2 | "E"E2F2 G1G3 "A"D6 E2 |
+"C#m"B2c2 d2e2- "A"e2A2 G2G2- | "B"G2 F8- F3 E1B2 | "C#m"B2c2 d2e2- "A"e2 A4 G2- | "B"G2F2 E2 D4 D4 d2 |
+"E"e2g2 g2f2- "A"f2 e4 g2- | "B"g2 d4 d2- "C#m"d2e2- "G#m"e2e2 | "E"e2g2 g2f2- "A"f2 e4 g2- | "B"g2 d4 d2- "C#m"d2e2- "G#m"e4 |
+"E"e2g2 g2f2- "A"f2 e4 g2- | "B"g2 d4 d2- "C#m"d2e2 "G#m"d4 | "E"e8 "A"e2f2 g2f2- | "B"f1e1 d6- "C#m"d4- "G#m"d4- |
+"A"d4- "B"d4 "E"E4- E3E1- | "B"E4- E3E1- "E"E4- E3E1- | "A"E4- E3E1- "E"E4- E3E1- | "B"E4- E3E1- "E"E4- E3E1- |
+"A"E4- E1G1G2 "E"G2A2 B2d2- | "B"d4- d3G1 "E"G2A2 B2c2- | "A"c2B2 G2G2 "E"G2A2 B2d2- | "B"d4- d1G1G2 "E"G2A2 B2c2- |
+"A"c2B2 G2G2 "E"G2A2 B2F2- | "B"F4- F1E1E2 "E"E2F2 G2D2- | "A"D4- D1B1B2 "C#m"B2c2 d2e2- | "A"e2A2 G2G2- "B"G2 F6- |
+"B"F4- F1B1B2 "C#m"B2c2 d2e2- | "A"e2 A4 G2- "B"G2F2 E2E2- | "B"E2 D4 d2 "E"e2g2 g2f2- | "A"f2 e4 g2- "B"g2 d4 d2- |
+"C#m"d2e2- "G#m"e2e2 "E"e2g2 g2f2- | "A"f2 e4 g2- "B"g2 d4 d2- | "C#m"d2e2- "G#m"e4 "E"e2g2 g2f2- | "A"f2 e4 g2- "B"g2 d4 d2- |
+"C#m"d2e2 "G#m"d4 "E"e8 | "A"e2f2 g2f2- "B"f1e1 d6- | "C#m"d4- "G#m"d4- "A"d4- "B"d4- | "E"d4 z2 "A"z2 g3g1- g4- |
+"E"g6- "A"g3 z1 g2 f4 | "E"e6- "A"e6 g4 | "C#m"g2g2 "G#m"f2e2 "A"e2B2 "B"f2e2- | "E"e6- "A"e2 g3g1- g4- |
+"E"g6- "A"g3 z1 g2 f3f1 | "E"e6- "A"e6 g4 | "C#m"g2g2 "G#m"f2e2 "A"e2B2 "B"f2e2- | "E"e6 e2- "B"e4- e3 z1 |
+"E"z6 e2- "A"e6 G2 | "E"G2A2 B2d2- "B"d6 G2 | "E"G2A2 B2c2- "A"c2B2 A2G2 | "E"G2A2 B2d2- "B"d6 G2 |
+"E"G2A2 B2c2- "A"c2B2 A2G2 | "E"G2A2 G2F2- "B"F4- F1E1F2 | "E"E2F2 G2E2- "A"E8 | "C#m"B2c2 d2e2- "A"e2A2 G2G2- |
+"B"G2 F8- F3 F1B2 | "C#m"B2c2 d2e2- "A"e2 A4 G2- | "B"G2 F4 E4 E2 E2E2 | "E"E2G2 G2F2- "A"F2 E4 G2- |
+"B"G2 D4 D2- "C#m"D2E2- "G#m"E4 | "E"E2G2 G2F2- "A"F2 E4 G2- | "B"G2 D4 D2- "C#m"D2E2- "G#m"E4 | "E"E2G2 G2F2- "A"F2 E4 G2- |
+"B"G2 D4 D2- "C#m"D2E2 "G#m"D4 | "E"E8 "A"E2F2 G2F2- | "B"F1E1 D6- "C#m"D4- "G#m"D4 | "A"z4 "B"z4 "E"D6- "A"D2 |
+"A"G3G1- G4- "E"G6- "A"G2- | "A"G1 z1 G2 F4 "E"E6- "A"E2- | "A"E4 G4 "C#m"G2G2 "G#m"F2E2 | "A"E2B,2 "B"F2E2- "E"E6- "A"E2- |
+"A"E1 z1 G2 G3F1 "E"E1C1 B,4- "A"B,2 | "A"z1 G3 F3F1 "E"E6 "A"A2- | "A"A4 G4 "C#m"G2G2 "G#m"F2E2 | "A"E2B,2- "B"B,2F2- "E"F6 E2- |
+"B"E6 E2- "E"E4 D2C2- | "A"C2B,2 "G#m"A,4 "E"G,2 B,6- | "B"B,8- "E"B,8- | "E"B,4- "A"B,4- "G#m"B,8 |
+"F#m"z4 "E"E12- | "E"E16- | "E"E8 Hz8 |]

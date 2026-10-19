@@ -45,6 +45,7 @@ KEYS = {
     'G':  (1,  'major', 'G', 'G'),
     'D':  (2,  'major', 'D', 'D'),
     'A':  (3,  'major', 'A', 'A'),
+    'E':  (4,  'major', 'E', 'E'),      # Steve's transcriptions arrive in their own keys
     'F':  (-1, 'major', 'F', 'F'),
     'Bb': (-2, 'major', 'B', 'Bb'),
     'Am': (0,  'minor', 'A', 'Am'),
