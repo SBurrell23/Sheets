@@ -3896,6 +3896,16 @@ window.PS_MANIFEST = [
       "bars": 16,
       "source": "Ashe, transcribed by Steve Burrell",
       "pdf": "songs/steves-transcriptions/please-dont-fall-in-love-with-me.pdf"
+     },
+     {
+      "slug": "stop-the-wedding",
+      "title": "Stop the Wedding",
+      "key": "G",
+      "meter": "4/4",
+      "tempo": 67,
+      "bars": 76,
+      "source": "Ashe, transcribed by Steve Burrell",
+      "pdf": "songs/steves-transcriptions/stop-the-wedding.pdf"
      }
     ]
    }

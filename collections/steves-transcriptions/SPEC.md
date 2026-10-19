@@ -73,6 +73,51 @@ no MIDI library installed, but the format is simple enough to decode directly
   every onset, duration and pitch against the MIDI. It either matches exactly or it
   does not; do not ship on a visual check alone.
 
+**A chord track is a gift — read it, don't guess.** *Are You Happy?* had a bass
+line, so the qualities had to be inferred. *Stop the Wedding* has four- and
+five-note voicings on track 2, which name themselves: match the pitch-class set
+against the allowed qualities and the symbol falls out. Both of its sevenths
+(`D7` = D-F#-A-C, `Cmaj7` = C-E-G-B) and its `Dsus4` came straight off the track,
+and a lone `F#` arriving under a held `Dsus4` is that suspension resolving — write
+`Dsus4` then `D`.
+
+### Three things a MIDI can carry that this format cannot
+
+Check all three before writing a note, because each one forces a decision:
+
+1. **Range.** The window is a module-level constant, and an octave shift is the
+   only legal move — which is no move at all when a melody straddles an edge.
+   *Stop the Wedding* runs G3-A5: at written pitch thirteen notes sit under the
+   floor, an octave up and a single A5 breaks the ceiling. **A set may widen its
+   own window** with `minMidi` / `maxMidi` in its `version.json`; this collection
+   sets `minMidi: 55`. Prefer that to moving an octave, because written pitch is
+   what centres on the staff — an octave up would bury the tune in ledger lines.
+   Changing the constant itself is not the move: it is the arranged sets' promise.
+
+2. **A bar that is not the song's meter.** Find the grid from the *melody*, never
+   from the chord onsets — pop chords are routinely pushed an eighth early, and
+   in this song's last section every one of them is, landing at a constant 6 mod
+   16 and making the grid look wrong. Use long notes instead: a whole note fills
+   a bar and a dotted half starts one, so where they fall is where the barlines
+   are. *Stop the Wedding* opens on a grid the whole notes fix exactly, and ends
+   on one eight sixteenths later that its dotted halves fix just as exactly —
+   a single 2/4 bar sits between them, at the turnaround into the chorus, where
+   melody and chords both tile exactly eight units.
+   **One meter per song, so an odd bar cannot be written.** Do not pad it to full
+   length: that inserts silence the transcription does not have. Pick the single
+   grid that matches the most bars and say which bars it displaces. Count the ties
+   each candidate grid costs — it is a good proxy, and here it read 9 for the true
+   mixed grid, 11 for the grid chosen, 34 for the other one.
+
+3. **A tempo map.** One `tempo` field, so several tempos cannot be stored. First
+   work out whether they are really tempo changes or a **change of note-value
+   scale**: compare the same material where it recurs. *Stop the Wedding* writes
+   its last chorus at exactly double the values of its first (six of seven
+   durations are 2x), which is why its map runs 136 / 67 / 113 / 146 — the pulse
+   barely moves. The values are his notation and stay as written; choose the tempo
+   that serves the densest section, since a slow sparse passage merely drags while
+   a fast dense one is unplayable, **and report the whole map** so he can decide.
+
 **A MIDI carries no chord symbols**, so §1's "copy the chord symbols he wrote" has
 nothing to copy. Derive them from *his own bass track* against the melody — that is
 analysis of his material, not reharmonising, and it is the only honest source. Label

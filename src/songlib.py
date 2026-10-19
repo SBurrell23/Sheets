@@ -254,6 +254,13 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
     """
     E, W, N = [], [], []   # errors, warnings (block), notes (advisory only)
     thresholds = thresholds or {}
+    # The window is the arranged sets' promise: every song sits in one comfortable
+    # register. A set of somebody's own transcriptions makes no such promise -- its
+    # melodies arrive at whatever pitch they were written, and an octave shift is
+    # the only move available, which is no move at all when the span straddles an
+    # edge. So a set may widen its own floor and ceiling in version.json.
+    lo = thresholds.get('minMidi', MIN_MIDI)
+    hi = thresholds.get('maxMidi', MAX_MIDI)
 
     for field in ('title', 'key', 'tempo', 'bars'):
         if field not in song:
@@ -325,13 +332,13 @@ def validate(song, expected_bars=BARS_REQUIRED, strict_length=True,
             if e['rest']:
                 continue
             n = midi(e['step'], e['alter'], e['octave'])
-            if not (MIN_MIDI <= n <= MAX_MIDI):
+            if not (lo <= n <= hi):
                 # Name the window from the constants. It has moved twice and the
                 # message was still advertising the original G4-C6, which is the
                 # sort of thing an arranger takes at face value.
                 E.append('bar %d: %s%s%d is outside the playable range %s-%s'
                          % (i, e['step'], '#' if e['alter'] > 0 else ('b' if e['alter'] < 0 else ''),
-                            e['octave'], note_name(MIN_MIDI), note_name(MAX_MIDI)))
+                            e['octave'], note_name(lo), note_name(hi)))
             if e['alter'] and e['step'] not in defaults and e['alter'] != defaults.get(e['step']):
                 pass                                    # chromatic note: allowed, see below
         if any(e['dur'] == 2 for e in evs):
