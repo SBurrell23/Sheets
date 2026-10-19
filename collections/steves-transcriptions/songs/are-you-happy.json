@@ -1,0 +1,205 @@
+{
+  "title": "Are You Happy?",
+  "source": "Bo Burnham, transcribed by Steve Burrell",
+  "key": "F",
+  "meter": "4/4",
+  "tempo": 100,
+  "bars": [
+    {
+      "chord": "F",
+      "notes": "A4:6 F4:2 F4:2 C5:2 A4:4"
+    },
+    {
+      "chord": "Am/E",
+      "notes": "E5:8 G4:2 A4:2 C5:2 A4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:6 F4:2 F4:2 C5:2 A4:4"
+    },
+    {
+      "chord": "Am/E",
+      "notes": "E5:8 G4:2 A4:2 G4:2 F4:2~"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F4:6 G4:2 A4:2 C5:4 E4:2~"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:6 F4:2 G4:8"
+    },
+    {
+      "chord": "Dm",
+      "notes": "F4:8~ F4:2 F4:1 G4:1 A4:1 F4:2 A4:1~"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:16"
+    },
+    {
+      "chord": "Bb",
+      "notes": "R:4 R:3 D4:1 F4:2 F4:1 F4:2 F4:3"
+    },
+    {
+      "chord": "F",
+      "notes": "R:2 A4:2 A4:1 G4:1 C4:2 [Am]A4:1 A4:1 A4:1 A4:1 A4:1 G4:1 C4:2"
+    },
+    {
+      "chord": "Dm",
+      "notes": "R:2 G4:2 A4:1 A4:1 A4:1 A4:1 A4:2 A4:2 A4:2 F4:1 A4:1~"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:12~ A4:3 C4:1"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F4:1 F4:1 F4:1 F4:1 F4:3 C4:1 F4:1 F4:1 F4:1 F4:2 F4:2 C4:1"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:2 A4:1 A4:1 A4:1 A4:1 C5:1 G4:1~ [Am]G4:8"
+    },
+    {
+      "chord": "Dm",
+      "notes": "R:6 D4:1 D4:1 F4:2 F4:1 F4:2 F4:2 F4:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "E4:6 A4:2 A4:2 G4:2 G4:2 F4:2"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F4:2 F4:1 F4:2 F4:2 F4:1 F4:1 F4:1 F4:2 F4:2 C4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:2 A4:2 A4:2 C5:1 G4:1~ [C]G4:8"
+    },
+    {
+      "chord": "F",
+      "notes": "R:2 C4:2 A4:2 A4:1 A4:2 A4:2 A4:2 A4:1 G4:2~"
+    },
+    {
+      "chord": "Am",
+      "notes": "G4:4 A4:1 A4:1 [Bb]A4:2 A4:1 F4:2 F4:2 G4:1 F4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:2 C4:1 C4:1 A4:2 A4:1 A4:2 A4:2 A4:2 A4:1 A4:1 G4:1~"
+    },
+    {
+      "chord": "Am",
+      "notes": "G4:4 A4:1 A4:1 [Bb]A4:2 A4:1 F4:2 F4:2 G4:1 F4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:3 C4:1 A4:1 A4:2 A4:2 A4:2 A4:2 A4:1 G4:2~"
+    },
+    {
+      "chord": "Am",
+      "notes": "G4:4 A4:1 A4:1 [Bb]A4:2 A4:1 F4:2 F4:2 G4:1 F4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:3 F4:1 A4:2 A4:1 A4:2 A4:2 A4:1 A4:2 A4:2~"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:2 A4:1 A4:1 A4:2 A4:2 [Bb]A4:1 F4:2 F4:2 G4:1 F4:1 F4:1"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:1 A4:1 A4:1 A4:1 A4:1 G4:1 F4:2 G4:2~ [A]G4:1 A4:1~ A4:4"
+    },
+    {
+      "chord": "Dm",
+      "notes": "R:1 F4:1 A4:1 A4:1 A4:1 F4:1 F4:1 F4:1 G4:1 G4:1 [Bb]F4:1 F4:1 F4:2 C4:1 C4:1"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:1 A4:1 A4:1 A4:1 A4:1 A4:1 A4:2 C5:2~ [C]C5:1 G4:2 F4:1 F4:2~"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F4:6 A4:2 A4:4 [C]G4:3 G4:1"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:1 A4:1 A4:1 A4:1 A4:1 G4:1 F4:2 G4:2~ [A]G4:1 A4:3 A4:1 A4:1"
+    },
+    {
+      "chord": "Dm",
+      "notes": "A4:1 A4:1 A4:1 A4:1 A4:1 F4:1 F4:1 F4:1 [Bb]G4:1 G4:1 G4:1 A4:1 G4:1 G4:1 C4:2"
+    },
+    {
+      "chord": "F",
+      "notes": "R:2 F4:2 F4:2 F4:2 [C]E4:3 E4:2 D4:3~"
+    },
+    {
+      "chord": "Bb",
+      "notes": "D4:16"
+    },
+    {
+      "chord": "Bbm",
+      "notes": "Db4:16"
+    },
+    {
+      "chord": "F",
+      "notes": "R:4 A4:1 A4:1 A4:2 A4:3 A4:1 A4:1 A4:2 A4:1"
+    },
+    {
+      "chord": "Am",
+      "notes": "G4:6 A4:1 A4:1 [Bb]A4:2 A4:3 F4:3"
+    },
+    {
+      "chord": "Bb",
+      "notes": "G4:1 F4:1 D4:1 C4:1~ [F]C4:2 C4:2 A4:1 A4:1 A4:1 A4:2 A4:2 A4:1~"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:2 A4:1 G4:1~ [A/C#]G4:4 A4:1 A4:1 [Bb]A4:2 A4:3 F4:1~"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F4:1 G4:1 [F]F4:2 A4:1 A4:2 A4:2 A4:1 A4:1 A4:2 A4:1 G4:2~"
+    },
+    {
+      "chord": "Am",
+      "notes": "G4:4 A4:1 A4:1 [Bb]A4:2 A4:3 F4:2 G4:1 F4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:4 A4:1 A4:2 A4:4 A4:1 Bb4:2 A4:2~"
+    },
+    {
+      "chord": "Am",
+      "notes": "A4:4 A4:1 A4:1 [Bb]A4:2 A4:3 F4:2 G4:1 F4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "F4:6 F4:2 F4:8"
+    },
+    {
+      "chord": "Am/E",
+      "notes": "E4:8 G4:2 A4:2 C5:2 A4:2~"
+    },
+    {
+      "chord": "F",
+      "notes": "A4:6 F4:2 F4:8"
+    },
+    {
+      "chord": "Am/E",
+      "notes": "E4:8 G4:2 A4:2 G4:2 F4:2~"
+    },
+    {
+      "chord": "Bb",
+      "notes": "F4:6 G4:2 A4:2 C5:4 E4:2~"
+    },
+    {
+      "chord": "C",
+      "notes": "E4:16"
+    }
+  ]
+}

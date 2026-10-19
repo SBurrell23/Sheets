@@ -3858,6 +3858,16 @@ window.PS_MANIFEST = [
     "order": 1,
     "songs": [
      {
+      "slug": "are-you-happy",
+      "title": "Are You Happy?",
+      "key": "F",
+      "meter": "4/4",
+      "tempo": 100,
+      "bars": 49,
+      "source": "Bo Burnham, transcribed by Steve Burrell",
+      "pdf": "songs/steves-transcriptions/are-you-happy.pdf"
+     },
+     {
       "slug": "cold-in-california",
       "title": "Cold in California",
       "key": "A",

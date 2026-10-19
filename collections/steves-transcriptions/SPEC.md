@@ -46,6 +46,41 @@ song file stores sounding pitch, so those notes must come down an octave, while
 the piano staves — plain treble clefs — do not. Getting this wrong puts the whole
 vocal line an octave too high and it is invisible unless you look at the clef.
 
+### When the source is a MIDI file
+
+Sometimes he supplies a `.mid` instead of an image. That is a *better* source, not a
+worse one: the pitches and rhythms are exact numbers, so the reading step disappears
+and the whole job becomes mechanical. Parse it rather than eyeballing it — there is
+no MIDI library installed, but the format is simple enough to decode directly
+(`MThd` header, variable-length delta times, running status).
+
+- **Check the division and the track layout first.** *Are You Happy?* is format 1,
+  480 ticks per quarter, with the melody on track 1 and a bass line on track 2.
+- **The melody track is the output; the bass track is the dropped bass clef.**
+  Same rule as the grand staff, just split across tracks instead of staves.
+- **Quantize and prove it.** Divide every onset and duration by ticks-per-sixteenth
+  and assert the remainder is zero. If it is, the transcription is exact. If it is
+  not, the file was played in rather than entered, and you are back to judgement.
+- **Watch for sustain tails.** A note whose release runs past the next onset is a
+  legato artifact, not a chord. Trim it to the next onset and say so — *Are You
+  Happy?* had exactly one, in bar 39.
+- **Durations the table forbids** (5, 7, 9, 10, 15, 17...) become tied tokens. Choose
+  the split that uses the fewest tokens, and break ties by landing the join on the
+  strongest beat: at offset 7 a nine-sixteenth note is `:1~ :8`, not `:8~ :1`.
+- **Ties across barlines are the easy thing to get wrong.** Decide ties against the
+  global note sequence, not per bar.
+- **Verify by round trip.** Re-parse the finished JSON with fresh code and compare
+  every onset, duration and pitch against the MIDI. It either matches exactly or it
+  does not; do not ship on a visual check alone.
+
+**A MIDI carries no chord symbols**, so §1's "copy the chord symbols he wrote" has
+nothing to copy. Derive them from *his own bass track* against the melody — that is
+analysis of his material, not reharmonising, and it is the only honest source. Label
+a chord where the bass actually changes; let a one-beat walking bass note pass
+unlabelled rather than printing a symbol for it. **Say in the report that the chords
+were derived, and list the bars where the reading was a judgement call** — he wrote
+the bass line and can confirm or correct a symbol instantly.
+
 ## 2. What does NOT carry over from the other collections
 
 - **There is no public-domain wall here.** These are modern songs. Do not check
